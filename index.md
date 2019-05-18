@@ -5,8 +5,12 @@ The lastest version of my CV can be downloaded [here](https://github.com/hw16471
 
 ## [Computer Graphics Raytracer](https://github.com/ainsleyrutterford/UOB_Raytracer)
 <img src="images/showcase1.png" width="450">
+<div style="width:100%;height:0px;position:relative;padding-bottom:58.044%;">
+  <iframe src="https://streamable.com/s/rn875/wxuqhg" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;">
+  </iframe>
+</div>
 ### Overview
-
+This project involved building a Real-Time Raytracer from scratch using OpenCL, GLM and SDL. As can be seen above, this raytracer was used to render the [Cornell Box](https://en.wikipedia.org/wiki/Cornell_box) where phenomena such as reflection and refraction have been showcased. The realism of the rendered image was improved further using anti-aliasing and soft shadows. 
 ### Compile and Run
 ```bash
 git clone git@github.com:ainsleyrutterford/UOB_Raytracer
