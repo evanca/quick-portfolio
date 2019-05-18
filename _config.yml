@@ -4,11 +4,11 @@ description: > # your text below (remove <br> elements if you don't need line br
   I am a Computer Science graduate from the University of Bristol, with a passion for technology and a particular interest in HPC, 
   Computer Graphics and Deep Learning.
   <br><br>
-  <a href="tel:+447714190277">07714190277</a>
-  <br>
-  <a href="mailto:hw16471@bristol.ac.uk">hw16471@bristol.ac.uk</a>
+  <a href="https://www.linkedin.com/in/harry-waugh-09a4b1152/">View My LinkedIn Profile</a>
   <br><br>
-  <a href="https://www.linkedin.com/in/harry-waugh-09a4b1152/">View My LinkedIn Profile</a> 
+  <a href="tel:+447714190277">07714190277</a>
+  <br><br>
+  <a href="mailto:hw16471@bristol.ac.uk">hw16471@bristol.ac.uk</a>
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
