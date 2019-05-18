@@ -23,7 +23,7 @@ Requirements: A GPU, OpenCL, GLM, and SDL2
 
 ---
 ## [Parallel Optimisations of a Lattice Boltzmann Code](https://github.com/hw16471/UOB_OpenCL_LBM)
-
+<img src="images/final_state.png" width="450">
 ### Overview
 
 ### Compile and Run
@@ -41,7 +41,7 @@ Requirements: A GPU, OpenCL
 
 ---
 ## [Web Technologies](https://github.com/hw16471/UOB_Web_Tech_CW)
-
+<img src="images/web-tech-showcase.png" width="450">
 ### Overview
 
 ### Compile and Run
