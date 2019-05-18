@@ -1,15 +1,21 @@
 title: Harry Waugh # your name (or website title) here
 logo: "/images/logo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  I am a Computer Science graduate from the University of Bristol, with a passion for technology and a particular interest in HPC, 
-  Computer Graphics and Deep Learning.
+  <strong> I am a Computer Science graduate from the University of Bristol, with a passion for technology and a particular interest in HPC, 
+  Computer Graphics and Deep Learning.</strong>
+  
+  <strong>Experience</strong>
+  <br>
+  Maths Tutor - St Mary Redcliffe School (2017-2019)
+  <br>
+  Intern - Advanced Computing Research Centre (2019)
   <br>
   <strong>Contact</strong>
-  <a href="https://www.linkedin.com/in/harry-waugh-09a4b1152/">View My LinkedIn Profile</a>
   <br>
   <a href="tel:+447714190277">07714190277</a>
   <br>
   <a href="mailto:hw16471@bristol.ac.uk">hw16471@bristol.ac.uk</a>
-  
+  <br>
+  <a href="https://www.linkedin.com/in/harry-waugh-09a4b1152/">View My LinkedIn Profile</a>
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
