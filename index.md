@@ -41,7 +41,7 @@
 ---
 
 ## [Detecting Dartboards](https://github.com/hw16471/UOB_DartboardDetector)
-<img src="images/ 	everythingdart14.jpg" width="450">
+<img src="images/everythingdart14.jpg" width="450">
 ### Overview
 
 ### Compile and Run
