@@ -35,6 +35,7 @@
 * Javascript ( JQuery, Ajax )
 * CSS 
 * NodeJS Server with embedded SQLite3 database
+
 ---
 
 ## [Thesis: Using Sensor Fusion and Deep Learning to Improve Activity Tracking](https://github.com/hw16471/ActivityTrackingWithSensorFusion)
@@ -61,6 +62,7 @@
 ### Technologies 
 * C++ 
 * OpenCV
+
 ---
 
 
@@ -72,4 +74,5 @@
 
 ### Technologies 
 * C
+
 ---
