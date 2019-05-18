@@ -1,5 +1,8 @@
 # Portfolio
 
+## CV
+The lastest version of my CV can be downloaded [here](/pdf/Harry Waugh - Jan 2019.pdf).
+
 ## [Computer Graphics Raytracer](https://github.com/ainsleyrutterford/UOB_Raytracer)
 <img src="images/showcase1.png" width="450">
 ### Overview
