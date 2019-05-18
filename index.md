@@ -10,7 +10,7 @@ The lastest version of my CV can be downloaded [here](https://github.com/hw16471
 </div>
 <br>
 ### Overview
-This project involved building a Real-Time Raytracer from scratch using OpenCL, GLM and SDL. As can be seen above, this raytracer was used to render the [Cornell Box](https://en.wikipedia.org/wiki/Cornell_box) where phenomena such as reflection and refraction have been showcased. The realism of the rendered image was improved further using anti-aliasing and soft shadows. Other Cornell Box Scenes are shown in:
+This project involved building a Real-Time Raytracer from scratch using OpenCL, GLM and SDL. As can be seen above, this raytracer was used to render the [Cornell Box](https://en.wikipedia.org/wiki/Cornell_box) where phenomena such as reflection and refraction have been showcased. The realism of the rendered image was improved further using anti-aliasing and soft shadows. Other Cornell Box scenes are shown in the images below:
 * [scene1](https://streamable.com/1mugn)
 * [scene2](https://streamable.com/kwoa2)
 * [scene3](https://streamable.com/phfs2)
