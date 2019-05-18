@@ -41,7 +41,7 @@
 ---
 
 ## [Detecting Dartboards](https://github.com/hw16471/UOB_DartboardDetector)
-
+<img src="images/ 	everythingdart14.jpg" width="450">
 ### Overview
 
 ### Compile and Run
@@ -52,11 +52,7 @@
 
 
 ## [Applied Security](https://github.com/hw16471/AppliedSecurity)
-<object data="v" type="application/pdf" width="450px" >
-    <embed src="images/labelled_trace.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="images/labelled_trace.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+<img src="images/labelled_trace.png" width="450">
 ### Overview
 
 ### Compile and Run
