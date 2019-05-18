@@ -1,7 +1,7 @@
 # Portfolio
 
 ## [Computer Graphics Raytracer](https://github.com/ainsleyrutterford/UOB_Raytracer)
-<img src="images/showcase1.png" width="400">
+<img src="images/showcase1.png" width="500">
 ### Overview
 
 ### Compile and Run
