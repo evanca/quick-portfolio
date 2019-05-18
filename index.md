@@ -52,7 +52,11 @@
 
 
 ## [Applied Security](https://github.com/hw16471/AppliedSecurity)
-<img src="images/labelled_trace.pdf" width="450">
+<object data="v" type="application/pdf" width="450px" >
+    <embed src="images/labelled_trace.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="images/labelled_trace.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 ### Overview
 
 ### Compile and Run
