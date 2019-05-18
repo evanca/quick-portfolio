@@ -34,7 +34,8 @@ Requirements: A GPU, OpenCL, GLM, and SDL2
 ## [Parallel Optimisations of a Lattice Boltzmann Code](https://github.com/hw16471/UOB_OpenCL_LBM)
 <img src="images/final_state.png" width="450">
 ### Overview
-This project was all about learning how to exploit different hardware to improve the runtime of a Lattice Boltzmann code, which is widely used for simulating fluid dynamics. Popular programming platforms like MPI, OpenMP and OpenCL were all tested in various different combinations. The most efficient of these was OpenCL or MPI+OpenCL, which utilised one or more GPU configurations. If you want know more about this, please read the [article](https://github.com/hw16471/UOB_OpenCL_LBM/blob/master/submission/report.pdf) I wrote.
+This project was all about learning how to exploit different hardware to improve the runtime of a Lattice Boltzmann code, which is widely used for simulating fluid dynamics. Popular programming platforms like MPI, OpenMP and OpenCL were each implmented and tested in various different combinations. The most efficient of these was OpenCL or MPI+OpenCL, which utilised one or more GPUs. If you want know more about this, please read the [article](https://github.com/hw16471/UOB_OpenCL_LBM/blob/master/submission/report.pdf) I wrote. 
+
 ### Compile and Run
 ```bash
 git clone git@github.com:hw16471/UOB_OpenCL_LBM
@@ -54,7 +55,7 @@ Requirements: A GPU, OpenCL
 ## [Web Technologies](https://github.com/hw16471/UOB_Web_Tech_CW)
 <img src="images/web-tech-showcase.png" width="450">
 ### Overview
-
+This project involved creating a website for a University of Bristol games project, Khaos Kitchen. The website showcased a range of different technologies, each used with respect to web standards and compatability. A working forum was set up using a NodeJS server and an SQLite3 embedded database. The forum was created dynamically using templating engine 'pug.js', and requested different parts of the forum 'on the fly' as the user needed them.
 ### Compile and Run
 ```bash
 git clone git@github.com:hw16471/UOB_Web_Tech_CW
