@@ -3,13 +3,13 @@ logo: "/images/logo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <strong> I am a Computer Science graduate from the University of Bristol, with a passion for technology and a particular interest in HPC, 
   Computer Graphics and Deep Learning.</strong>
-  
+  <br><br>
   <strong>Experience</strong>
   <br>
   Maths Tutor - St Mary Redcliffe School (2017-2019)
   <br>
   Intern - Advanced Computing Research Centre (2019)
-  <br>
+  <br><br>
   <strong>Contact</strong>
   <br>
   <a href="tel:+447714190277">07714190277</a>
