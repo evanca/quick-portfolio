@@ -1,7 +1,7 @@
 # Portfolio
 
 ## [Computer Graphics Raytracer](https://github.com/ainsleyrutterford/UOB_Raytracer)
-<img src="images/showcase1.png" width="500">
+<img src="images/showcase1.png" width="450">
 ### Overview
 
 ### Compile and Run
@@ -29,7 +29,7 @@
 ---
 
 ## [Thesis: Using Sensor Fusion and Deep Learning to Improve Activity Tracking](https://github.com/hw16471/ActivityTrackingWithSensorFusion)
-
+<img src="images/rnn-kal-map.png" width="450">
 ### Overview
 
 ### Compile and Run
@@ -51,8 +51,8 @@
 ---
 
 
-## [Applied Security](https://github.com/hw16471/UOB_DartboardDetector)
-
+## [Applied Security](https://github.com/hw16471/AppliedSecurity)
+<img src="images/labelled_trace.pdf" width="450">
 ### Overview
 
 ### Compile and Run
