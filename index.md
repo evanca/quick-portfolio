@@ -2,39 +2,39 @@
 
 ## [Computer Graphics Raytracer](https://github.com/ainsleyrutterford/UOB_Raytracer)
 <img src="images/showcase1.png" width="400">
-# Overview
+### Overview
 
-# Compile and Run
+### Compile and Run
 
-# Technologies 
+### Technologies 
 
 ---
 ## [Parallel Optimisations of a Lattice Boltzmann Code](https://github.com/hw16471/UOB_OpenCL_LBM)
 
-# Overview
+### Overview
 
-# Compile and Run
+### Compile and Run
 
-# Technologies 
+### Technologies 
 
 ---
 ## [Web Technologies](https://github.com/hw16471/UOB_Web_Tech_CW)
 
-# Overview
+### Overview
 
-# Compile and Run
+### Compile and Run
 
-# Technologies 
+### Technologies 
 
 ---
 
 ## [Thesis: Using Sensor Fusion and Deep Learning to Improve Activity Tracking](https://github.com/hw16471/ActivityTrackingWithSensorFusion)
 
-# Overview
+### Overview
 
-# Compile and Run
+### Compile and Run
 
-# Technologies 
+### Technologies 
 
 
 
@@ -42,21 +42,21 @@
 
 ## [Detecting Dartboards](https://github.com/hw16471/UOB_DartboardDetector)
 
-# Overview
+### Overview
 
-# Compile and Run
+### Compile and Run
 
-# Technologies 
+### Technologies 
 
 ---
 
 
 ## [Applied Security](https://github.com/hw16471/UOB_DartboardDetector)
 
-# Overview
+### Overview
 
-# Compile and Run
+### Compile and Run
 
-# Technologies 
+### Technologies 
 
 ---
