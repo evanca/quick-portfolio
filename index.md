@@ -7,6 +7,10 @@
 ### Compile and Run
 
 ### Technologies 
+* C
+* OpenCL
+* OpenGL Mathematics (GLM)
+* Simple DirectMedia Layer (SDL2)
 
 ---
 ## [Parallel Optimisations of a Lattice Boltzmann Code](https://github.com/hw16471/UOB_OpenCL_LBM)
@@ -16,6 +20,8 @@
 ### Compile and Run
 
 ### Technologies 
+* C
+* OpenCL
 
 ---
 ## [Web Technologies](https://github.com/hw16471/UOB_Web_Tech_CW)
@@ -25,7 +31,10 @@
 ### Compile and Run
 
 ### Technologies 
-
+* HTML ( Dynamically created using Pug.js )
+* Javascript ( JQuery, Ajax )
+* CSS 
+* NodeJS Server with embedded SQLite3 database
 ---
 
 ## [Thesis: Using Sensor Fusion and Deep Learning to Improve Activity Tracking](https://github.com/hw16471/ActivityTrackingWithSensorFusion)
@@ -35,7 +44,10 @@
 ### Compile and Run
 
 ### Technologies 
-
+* Python
+* NumPy, SciPy and Pandas
+* Tensorflow
+* Keras
 
 
 ---
@@ -47,7 +59,8 @@
 ### Compile and Run
 
 ### Technologies 
-
+* C++ 
+* OpenCV
 ---
 
 
@@ -58,5 +71,5 @@
 ### Compile and Run
 
 ### Technologies 
-
+* C
 ---
