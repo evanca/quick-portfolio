@@ -97,29 +97,12 @@ Requirements: NodeJS and Packages found in packages.json
 
 ---
 
-## [Detecting Dartboards](https://github.com/hw16471/UOB_DartboardDetector)
-<img src="images/everythingdart14.jpg" width="450">
-### Overview
-
-### Technologies 
-* C++ 
-* OpenCV
-
-### Compile and Run
-```bash
-git clone git@github.com:hw16471/UOB_DartboardDetector
-cd UOB_DartboardDetector/finalversion
-make all
-./output
-```
-Requirements: CPP and OpenCV
-
----
 
 
-## [Applied Security](https://github.com/hw16471/AppliedSecurity)
+## [Applied Security - DPA Attacks](https://github.com/hw16471/AppliedSecurity)
 <img src="images/labelled_trace.png" width="450">
 ### Overview
+This project developed my understanding of how AES encryption works and the different 'trade offs' between speed, memory usage and ultimately, security. An AES implementation was first developed to run a scale-board from the University of Bristol, this device has severe hardware limitations and thus any implementation must be efficient. One of the ways this was done was to pre-compute the sbox function. A Differential Power Attack (DPA) was then created in python to interact with the board in order to gather power traces. These recorded traces could then be compared to hypothetical power consumption values for a chosen message in order to recover the key, using approximately 125 traces. A counter-measure for this style of attack was implemented called masking, this carefully used 6 masks throughout the encryption process to prevent information leaking from the CPU. This prevented key recovery for 'first order' DPA style attacks. 
 
 ### Technologies 
 * C
@@ -136,5 +119,25 @@ make parallel_attack.py
 ```
 Requirements: A scale-board.
 
+
+---
+
+## [Detecting Dartboards](https://github.com/hw16471/UOB_DartboardDetector)
+<img src="images/everythingdart14.jpg" width="450">
+### Overview
+This project looked at the Viola-Jones classifier and transforming images into the Hough space. Using the Hough space, line and circle detection was combined to identify dartboards within images.
+
+### Technologies 
+* C++ 
+* OpenCV
+
+### Compile and Run
+```bash
+git clone git@github.com:hw16471/UOB_DartboardDetector
+cd UOB_DartboardDetector/finalversion
+make all
+./output
+```
+Requirements: CPP and OpenCV
 
 ---
