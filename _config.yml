@@ -1,5 +1,5 @@
 title: Harry Waugh # your name (or website title) here
-logo: "/images/logo.jpg?raw=true" # your photo (or logo) here
+logo: "/assets/img/logo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <strong> A driven, ambitious and rounded graduate from the University of Bristol, interested in HPC, Computer Graphics and Deep Learning.</strong>
   <br><br>

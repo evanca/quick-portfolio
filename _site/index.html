@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Harry Waugh | A driven, ambitious and rounded graduate from the University of Bristol, interested in HPC, Computer Graphics and Deep Learning. Experience Maths Tutor - St Mary Redcliffe School (2017-2019) Intern - Advanced Computing Research Centre (2019) Contact 07714190277 hw16471@bristol.ac.uk View My LinkedIn Profile</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Harry Waugh" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A driven, ambitious and rounded graduate from the University of Bristol, interested in HPC, Computer Graphics and Deep Learning. Experience Maths Tutor - St Mary Redcliffe School (2017-2019) Intern - Advanced Computing Research Centre (2019) Contact 07714190277 hw16471@bristol.ac.uk View My LinkedIn Profile" />
+<meta property="og:description" content="A driven, ambitious and rounded graduate from the University of Bristol, interested in HPC, Computer Graphics and Deep Learning. Experience Maths Tutor - St Mary Redcliffe School (2017-2019) Intern - Advanced Computing Research Centre (2019) Contact 07714190277 hw16471@bristol.ac.uk View My LinkedIn Profile" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Harry Waugh" />
+<script type="application/ld+json">
+{"name":"Harry Waugh","description":"A driven, ambitious and rounded graduate from the University of Bristol, interested in HPC, Computer Graphics and Deep Learning. Experience Maths Tutor - St Mary Redcliffe School (2017-2019) Intern - Advanced Computing Research Centre (2019) Contact 07714190277 hw16471@bristol.ac.uk View My LinkedIn Profile","@type":"WebSite","url":"http://localhost:4000/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.jpg?raw=true"}},"headline":"Harry Waugh","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">Harry Waugh</a></h1>
+        
+        
+          <img src="/assets/img/logo.jpg?raw=true" alt="Logo" />
+        
+
+        <p><strong> A driven, ambitious and rounded graduate from the University of Bristol, interested in HPC, Computer Graphics and Deep Learning.</strong> <br><br> <strong>Experience</strong> <br> Maths Tutor - St Mary Redcliffe School (2017-2019) <br> Intern - Advanced Computing Research Centre (2019) <br><br> <strong>Contact</strong> <br> <a href="tel:+447714190277">07714190277</a> <br> <a href="mailto:hw16471@bristol.ac.uk">hw16471@bristol.ac.uk</a> <br><br> <a href="https://www.linkedin.com/in/harry-waugh-09a4b1152/">View My LinkedIn Profile</a>
+</p>
+
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <h1 id="portfolio">Portfolio</h1>
+
+<h2 id="cv"><a href="https://github.com/hw16471/hw16471.github.io/blob/master/pdf/Harry%20Waugh%20-%20Jan%202019.pdf">CV</a></h2>
+<p>The lastest version of my CV can be downloaded <a href="https://github.com/hw16471/hw16471.github.io/blob/master/pdf/Harry%20Waugh%20-%20Jan%202019.pdf">here</a>.</p>
+
+<h2 id="computer-graphics-raytracer"><a href="https://github.com/ainsleyrutterford/UOB_Raytracer">Computer Graphics Raytracer</a></h2>
+<div style="width:100%;height:0px;position:relative;padding-bottom:58.044%;">
+  <iframe src="https://streamable.com/s/rn875/wxuqhg" frameborder="0" width="100%" height="100%" allowfullscreen="" style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;">
+  </iframe>
+</div>
+<p><br /></p>
+<h3 id="overview">Overview</h3>
+<p>This project involved building a Real-Time Raytracer from scratch using OpenCL, GLM and SDL. As can be seen above, this raytracer was used to render the <a href="https://en.wikipedia.org/wiki/Cornell_box">Cornell Box</a> where phenomena such as reflection and refraction have been showcased. The realism of the rendered image was improved further using anti-aliasing and soft shadows. Other Cornell Box scenes are shown in the images below:</p>
+<ul>
+  <li><a href="https://streamable.com/1mugn">scene1</a></li>
+  <li><a href="https://streamable.com/kwoa2">scene2</a></li>
+  <li><a href="https://streamable.com/phfs2">scene3</a></li>
+</ul>
+
+<h3 id="technologies">Technologies</h3>
+<ul>
+  <li>C</li>
+  <li>OpenCL</li>
+  <li>OpenGL Mathematics (GLM)</li>
+  <li>Simple DirectMedia Layer (SDL2)</li>
+</ul>
+
+<h3 id="compile-and-run">Compile and Run</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@github.com:ainsleyrutterford/UOB_Raytracer
+<span class="nb">cd </span>UOB_Raytracer
+<span class="nb">source </span>clean_build.sh
+</code></pre></div></div>
+<p>Requirements: A GPU, OpenCL, GLM, and SDL2</p>
+
+<hr />
+<h2 id="parallel-optimisations-of-a-lattice-boltzmann-code-using-the-bluecrystal-supercomputer"><a href="https://github.com/hw16471/UOB_OpenCL_LBM">Parallel Optimisations of a Lattice Boltzmann Code (Using the BlueCrystal Supercomputer)</a></h2>
+<p><img src="images/final_state.png" width="450" /></p>
+<h3 id="overview-1">Overview</h3>
+<p>This project was all about learning how to exploit different hardware to improve the runtime of a Lattice Boltzmann code, which is widely used for simulating fluid dynamics. Popular programming platforms like MPI, OpenMP and OpenCL were each implmented and tested in various different combinations. The most efficient of these was OpenCL or MPI+OpenCL, which utilised one or more GPUs. If you want know more about this, please read the <a href="https://github.com/hw16471/UOB_OpenCL_LBM/blob/master/submission/report.pdf">article</a> I wrote.</p>
+
+<h3 id="technologies-1">Technologies</h3>
+<ul>
+  <li>C</li>
+  <li>OpenCL</li>
+  <li>MPI</li>
+  <li>OpenMP</li>
+</ul>
+
+<h3 id="compile-and-run-1">Compile and Run</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@github.com:hw16471/UOB_OpenCL_LBM
+<span class="nb">cd </span>UOB_OpenCL_LBM/submission
+make
+./d2q9-bgk ../input_128x128.params ../obstacles_128x128.dat
+</code></pre></div></div>
+<p>Requirements: A GPU, OpenCL</p>
+
+<hr />
+
+<h2 id="disseration-using-sensor-fusion-and-deep-learning-to-improve-activity-tracking"><a href="https://github.com/hw16471/ActivityTrackingWithSensorFusion">Disseration: Using Sensor Fusion and Deep Learning to Improve Activity Tracking</a></h2>
+<p><img src="images/rnn-kal-map.png" width="450" /></p>
+<h3 id="overview-2">Overview</h3>
+<p>I wrote my dissertation for my Computer Science degree on whether the accuracy of GPS tracking for sports activities (running, cycling, walking) could be improved using additional sensors found in a smartphone. Initially, I implemented a Kalman Filter to fuse the readings of each sensor, this was written in python and used popular libraries like NumPy. I then researched and taught myself the theory behind Recurrent Neural Networks (RNNs) in order to implement them using tensorflow and keras. This project was supported by the Oracle Innovation Accelerator program, who generously gave me access to a cloud compute instance.</p>
+
+<p><a href="https://github.com/hw16471/ActivityTrackingWithSensorFusion/blob/last-working/Using_Sensor_Fusion_and_Deep_Learning_to_Improve_Activity_Tracking.pdf">Link to Dissertation</a></p>
+
+<h3 id="technologies-2">Technologies</h3>
+<ul>
+  <li>Python</li>
+  <li>NumPy, SciPy and Pandas</li>
+  <li>Tensorflow</li>
+  <li>Keras</li>
+</ul>
+
+<h3 id="compile-and-run-2">Compile and Run</h3>
+<p>To train model with test data:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@github.com:hw16471/ActivityTrackingWithSensorFusion
+<span class="nb">cd </span>ActivityTrackingWithSensorFusion
+python deep_learning.py
+</code></pre></div></div>
+<p>Requirements: A GPGPU, Python, Tensorflow_GPU, NumPy, Keras</p>
+
+<hr />
+<h2 id="web-technologies"><a href="https://github.com/hw16471/UOB_Web_Tech_CW">Web Technologies</a></h2>
+<p><img src="images/web-tech-showcase.png" width="450" /></p>
+<h3 id="overview-3">Overview</h3>
+<p>This project involved creating a website for a University of Bristol games project, Khaos Kitchen. The website showcased a range of different technologies, each used with respect to web standards and compatability. A working forum was set up using a NodeJS server and an SQLite3 embedded database. The forum was created dynamically using templating engine ‘pug.js’, and requested different parts of the forum ‘on the fly’ as the user needed them.</p>
+
+<h3 id="technologies-3">Technologies</h3>
+<ul>
+  <li>HTML ( Dynamically created using Pug.js )</li>
+  <li>Javascript ( JQuery, Ajax )</li>
+  <li>CSS</li>
+  <li>NodeJS Server with embedded SQLite3 database</li>
+</ul>
+
+<h3 id="compile-and-run-3">Compile and Run</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@github.com:hw16471/UOB_Web_Tech_CW
+<span class="nb">cd </span>UOB_Web_Tech_CW/site
+node server.js
+</code></pre></div></div>
+<p>Requirements: NodeJS and Packages found in packages.json</p>
+
+<hr />
+
+<h2 id="applied-security---dpa-attacks"><a href="https://github.com/hw16471/AppliedSecurity">Applied Security - DPA Attacks</a></h2>
+<p><img src="images/labelled_trace.png" width="450" /></p>
+<h3 id="overview-4">Overview</h3>
+<p>This project developed my understanding of how AES encryption works and the different ‘trade offs’ between speed, memory usage and ultimately, security. An AES implementation was first developed to run a scale-board from the University of Bristol, this device has severe hardware limitations and thus any implementation must be efficient. One of the ways this was done was to pre-compute the sbox function. A Differential Power Attack (DPA) was then created in python to interact with the board in order to gather power traces. These recorded traces could then be compared to hypothetical power consumption values for a chosen message in order to recover the key, using approximately 125 traces. A counter-measure for this style of attack was implemented called masking, this carefully used 6 masks throughout the encryption process to prevent information leaking from the CPU. This prevented key recovery for ‘first order’ DPA style attacks.</p>
+
+<h3 id="technologies-4">Technologies</h3>
+<ul>
+  <li>C</li>
+  <li>Python</li>
+  <li>Multiprocessing and NumPy packages</li>
+</ul>
+
+<h3 id="compile-and-run-4">Compile and Run</h3>
+<p>Attacks require a scale-board, or dat file containing it’s traces. If this can be obtained, 
+attacks can be run with:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@github.com:hw16471/AppliedSecurity
+<span class="nb">cd </span>AppliedSecurity/39824/scope
+make parallel_attack.py
+</code></pre></div></div>
+<p>Requirements: A scale-board.</p>
+
+<hr />
+
+<h2 id="detecting-dartboards"><a href="https://github.com/hw16471/UOB_DartboardDetector">Detecting Dartboards</a></h2>
+<p><img src="images/everythingdart14.jpg" width="450" /></p>
+<h3 id="overview-5">Overview</h3>
+<p>This project looked at the Viola-Jones classifier and transforming images into the Hough space. Using the Hough space, line and circle detection was combined to identify dartboards within images.</p>
+
+<h3 id="technologies-5">Technologies</h3>
+<ul>
+  <li>C++</li>
+  <li>OpenCV</li>
+</ul>
+
+<h3 id="compile-and-run-5">Compile and Run</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@github.com:hw16471/UOB_DartboardDetector
+<span class="nb">cd </span>UOB_DartboardDetector/finalversion
+make all
+./output
+</code></pre></div></div>
+<p>Requirements: CPP and OpenCV</p>
+
+<hr />
+
+<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
+
+<p><a href="./another-page.html">Link to another page</a>.</p>
+
+<p>There should be whitespace between paragraphs.</p>
+
+<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
+
+<h1 id="header-1">Header 1</h1>
+
+<p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+
+<h2 id="header-2">Header 2</h2>
+
+<blockquote>
+  <p>This is a blockquote following a header.</p>
+
+  <p>When something is important enough, you do it even if the odds are not in your favor.</p>
+</blockquote>
+
+<h3 id="header-3">Header 3</h3>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Javascript code with syntax highlighting.</span>
+<span class="kd">var</span> <span class="nx">fun</span> <span class="o">=</span> <span class="kd">function</span> <span class="nx">lang</span><span class="p">(</span><span class="nx">l</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">dateformat</span><span class="p">.</span><span class="nx">i18n</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'./lang/'</span> <span class="o">+</span> <span class="nx">l</span><span class="p">)</span>
+  <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Ruby code with syntax highlighting</span>
+<span class="no">GitHubPages</span><span class="o">::</span><span class="no">Dependencies</span><span class="p">.</span><span class="nf">gems</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">gem</span><span class="p">,</span> <span class="n">version</span><span class="o">|</span>
+  <span class="n">s</span><span class="p">.</span><span class="nf">add_dependency</span><span class="p">(</span><span class="n">gem</span><span class="p">,</span> <span class="s2">"= </span><span class="si">#{</span><span class="n">version</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h4 id="header-4">Header 4</h4>
+
+<ul>
+  <li>This is an unordered list following a header.</li>
+  <li>This is an unordered list following a header.</li>
+  <li>This is an unordered list following a header.</li>
+</ul>
+
+<h5 id="header-5">Header 5</h5>
+
+<ol>
+  <li>This is an ordered list following a header.</li>
+  <li>This is an ordered list following a header.</li>
+  <li>This is an ordered list following a header.</li>
+</ol>
+
+<h6 id="header-6">Header 6</h6>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">head1</th>
+      <th style="text-align: left">head two</th>
+      <th style="text-align: left">three</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">ok</td>
+      <td style="text-align: left">good swedish fish</td>
+      <td style="text-align: left">nice</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">out of stock</td>
+      <td style="text-align: left">good and plenty</td>
+      <td style="text-align: left">nice</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ok</td>
+      <td style="text-align: left">good <code class="highlighter-rouge">oreos</code></td>
+      <td style="text-align: left">hmm</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ok</td>
+      <td style="text-align: left">good <code class="highlighter-rouge">zoute</code> drop</td>
+      <td style="text-align: left">yumm</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</h3>
+
+<hr />
+
+<h3 id="here-is-an-unordered-list">Here is an unordered list:</h3>
+
+<ul>
+  <li>Item foo</li>
+  <li>Item bar</li>
+  <li>Item baz</li>
+  <li>Item zip</li>
+</ul>
+
+<h3 id="and-an-ordered-list">And an ordered list:</h3>
+
+<ol>
+  <li>Item one</li>
+  <li>Item two</li>
+  <li>Item three</li>
+  <li>Item four</li>
+</ol>
+
+<h3 id="and-a-nested-list">And a nested list:</h3>
+
+<ul>
+  <li>level 1 item
+    <ul>
+      <li>level 2 item</li>
+      <li>level 2 item
+        <ul>
+          <li>level 3 item</li>
+          <li>level 3 item</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>level 1 item
+    <ul>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+    </ul>
+  </li>
+  <li>level 1 item
+    <ul>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+    </ul>
+  </li>
+  <li>level 1 item</li>
+</ul>
+
+<h3 id="small-image">Small image</h3>
+
+<p><img src="https://github.githubassets.com/images/icons/emoji/octocat.png" alt="Octocat" /></p>
+
+<h3 id="large-image">Large image</h3>
+
+<p><img src="https://guides.github.com/activities/hello-world/branching.png" alt="Branching" /></p>
+
+<h3 id="definition-lists-can-be-used-with-html-syntax">Definition lists can be used with HTML syntax.</h3>
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
+</code></pre></div></div>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-000000-0', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+  </body>
+</html>
