@@ -2,7 +2,7 @@
 
 ---
 
-### Category Name 1 
+### Computational Complexity 
 
 [Fast Multipole Method (FMM)](/sample_page)
 <img src="images/barnes_hut.gif?raw=true"/>
