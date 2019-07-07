@@ -1,10 +1,11 @@
-## This can be your internal website page / project page
+## Introduction to solving large scale N-Body Problems
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** The N-body problem is a physics problem that was first understood the great himself, Newton. He was the first to solve this problem when he was able to map the trajectories of the planets in our solar system. The problem was then revisited in the 1960's by Rohklin & Greengard when they created the Fast Multi Pole method to understand the movement of (damn I forgot, edit later)... Now to what I am doing.: My interest in this specific algorithm is for ML & inevitably DL where problems in NLP tend to have (O)N^2 complex problems. 
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. The main problem with N-body problem is we do not understand gravity.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+I think that there has to be a revaluation of the understanding of gravity and far field approximation that we use today to understand this problem.
+
 
 ```javascript
 if (isAwesome){
