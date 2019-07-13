@@ -10,8 +10,9 @@
 
 [Story Map](http://bl.ocks.org/rohuniyer/raw/2613866ccf10e816da957d2637b644ec/)
 
+[Final Results](/map)
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Final Results](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
