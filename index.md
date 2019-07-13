@@ -17,6 +17,9 @@
 
 ---
 [Test of Map](https://gist.github.com/rohuniyer/2613866ccf10e816da957d2637b644ec.js)
+
+<script src="https://gist.github.com/rohuniyer/2613866ccf10e816da957d2637b644ec.js"></script>
+---
 ### Category Name 2
 
 - [Data](http://example.com/)
