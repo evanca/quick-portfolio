@@ -1,10 +1,11 @@
-## Portfolio
-
+# A Story of Cities and Patents
+## NYU CUSP 2019 CAPSTONE PROJECT
+<p>Nathan Caplan, Tingyu Chang, Rohun Iyer, Sarah Sachs</p>
 ---
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[Data](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 [Test 1](/map)
