@@ -5,14 +5,14 @@
 
 ### Welcome to Our Project 
 
-[Data](/sample_page)
+[Data](CUSP_innovation_capstone/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 [Story Map](http://bl.ocks.org/rohuniyer/raw/2613866ccf10e816da957d2637b644ec/)
 
-[Final Results](/map)
+[Final Results](/CUSP_innovation_capstone/map)
 ---
-[Final Results](/pdf/sample_presentation.pdf)
+[PDF template](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
