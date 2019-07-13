@@ -1,4 +1,4 @@
-# Welcome to our Capstone Project:
+# A Story of Cities and Patents 
 <br>
 **Problem Statement:** How does a city become an "innovation hub"? Using patent data as a way to measure innovation, our goal is to investigate the factors which contribute to this growth as a hub within a city. 
 
@@ -13,39 +13,7 @@ To understand how this process develops, we will analyze more than thirty-five y
 
 ### How we Measure Innovation
 
-The first Patent Act of the U.S. Congress in 1790 was titled "An Act to promote the progress of useful Arts."[​ 1]​ Ever since, the patent has been a key representation of innovation and progress in the United States. Keeping that in mind, this project looks into the ecosystem of innovation in the United States from 1976-2014 using the registry of patents as its foundational aspect. Our goal is to develop an innovation score and understand the urban structure that facilitates the growth of an innovation hub.
-
-### Welcome to Our Capstone Project 
-
-[Data](CUSP_innovation_capstone/sample_page)
-<img src="images/Blueprint-featured.png?raw=true"/>
-
-[Story Map](http://bl.ocks.org/rohuniyer/raw/2613866ccf10e816da957d2637b644ec/)
-
-[Final Results](/CUSP_innovation_capstone/map)
----
-[PDF template](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
----
-### Category Name 2
-
-- [Data](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
+<p>The first Patent Act of the U.S. Congress in 1790 was titled "An Act to promote the progress of useful Arts. Ever since, the patent has been a key representation of innovation and progress in the United States. Keeping that in mind, this project looks into the ecosystem of innovation in the United States from 1976-2014 using the registry of patents as its foundational aspect. Our goal is to develop an innovation score and understand the urban structure that facilitates the growth of an innovation hub.</p>
 
 
-
-
----
 
