@@ -11,5 +11,5 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Story Map</a>
   
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
