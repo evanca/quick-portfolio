@@ -1,8 +1,8 @@
-title: CUSP Capstone Project # your name (or website title) here
-logo: "/images/CUSP.jpeg" # your photo (or logo) here
+title: A Story of Cities and Patents # website title
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  NYU Capstone project by Nathan Caplan, Christine Chang, Rohun Iyer and Sarah Sachs 
-  <br><br>
+  NYU CUSP Capstone Project:
+  <b>Nathan Caplan, Christine Chang, Rohun Iyer and Sarah Sachs</b>
+  
   Factors to Become an Innovation Hub 
   <br><br>
   <a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Project Github Repository</a> 
@@ -12,4 +12,5 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Story Map</a>
   
 theme: jekyll-theme-cayman
+show_downloads: true
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
