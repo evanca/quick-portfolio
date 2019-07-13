@@ -19,10 +19,8 @@ description: Information about project members and mentor
 }
 </style>
 <main class="grid">
-  <img src="./images/headshot/sarah.jpeg" alt="Sample photo">
-  <img src="/pix/samples/24m.jpg" alt="Sample photo">
-  <img src="/pix/samples/22l.jpg" alt="Sample photo">
-  <img src="/pix/samples/15l.jpg" alt="Sample photo">
-  <img src="/pix/samples/25m.jpg" alt="Sample photo">
-  <img src="/pix/samples/16l.jpg" alt="Sample photo">
+  <img src="./images/headshot/nathan.jpeg" alt="Nathan Caplan">
+  <img src="./images/headshot/Christine.jpeg" alt="Christine Chang">
+  <img src="./images/headshot/rohun.jpeg" alt="Rohun Iyer">
+  <img src="./images/headshot/sarah.jpeg" alt="Sarah Sachs">
 </main>
