@@ -19,7 +19,7 @@
 
 ---
 [Test of Map](https://gist.github.com/rohuniyer/2613866ccf10e816da957d2637b644ec.js)
-
+{% gist 2613866ccf10e816da957d2637b644ec %}
 <script src="https://gist.github.com/rohuniyer/2613866ccf10e816da957d2637b644ec.js"></script>
 ---
 ### Category Name 2
