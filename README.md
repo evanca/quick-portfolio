@@ -1,15 +1,17 @@
-## Developer Portfolio Landing Page Template
+## NYU Center for Urban Science and Progress
 
-Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
+Here is the website for the Capstone Project, entitled _**"A Story of Cities and Patents"**_ by Nathan Caplan, Christine Chang, Rohun Iyer and Sarah Sachs, with Daniela Hochfellner as a mentor. 
 
-<img src="images/demo.gif?raw=true"/>
+### Visualization of Main Results
+<iframe src="http://bl.ocks.org/rohuniyer/raw/2613866ccf10e816da957d2637b644ec/"></iframe>
 
-See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
+### Github Repository
+[A Story of Cities and Patents](https://github.com/rohuniyer/a_story_of_cities_and_patents)
 ___
 
-You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+## Additional Resources:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Final Technical Report
 
 ### Markdown
 
