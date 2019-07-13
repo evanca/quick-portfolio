@@ -1,4 +1,4 @@
-## A Story of Cities and Patents
+## Data
 
 **Problem Statement:** How does a city become an "innovation hub"? Using patent data as a way to measure innovation, our goal is to investigate the factors which contribute to this growth as a hub within a city. 
 
