@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+.background {
+  fill: #eee;
+  pointer-events: all;
+}
+.map-layer {
+  fill: #fff;
+  stroke: #aaa;
+}
+.effect-layer{
+  pointer-events:none;
+}
+text{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+text.big-text{
+  font-size: 30px;
+  font-weight: 400;
+}
+.effect-layer text, text.dummy-text{
+  font-size: 12px;
+}
+.tooltip {
+  z-index: 10;
+  visibility: hidden;
+  background: Beige;
+}
+html {
+	font-family: sans-serif;
+	
+}
+</style>
+</head>
+<body>
+  <svg></svg>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script id="jsbin-javascript">
+var width = 1160,
+    height = 600,
+    centered;
+// Define color scale
+var color = d3.scale.linear()
+  .domain([1, 5])
+  .clamp(true)
+  .range(['white', 'SteelBlue']);
+var projection = d3.geo.mercator()
+                     .scale(800)
+                     .center([-100.975,40.7])
+                     .translate([(width-400)/2, (height-200)/2])
+var path = d3.geo.path()
+  .projection(projection);
+// Set svg width & height
+var svg = d3.select('svg')
+  .attr('width', width)
+  .attr('height', height);
+// Add background
+svg.append('rect')
+  .attr('class', 'background')
+  .attr('width', width)
+  .attr('height', height);
+var g = svg.append('g');
+var effectLayer = g.append('g')
+  .classed('effect-layer', true);
+var mapLayer = g.append('g')
+  .classed('map-layer', true);
+var dummyText = g.append('text')
+  .classed('dummy-text', true)
+  .attr('x', 10)
+  .attr('y', 30)
+  .style('opacity', 0);
+var bigText = g.append('text')
+  .classed('big-text', true)
+  .attr('x', 20)
+  .attr('y', 45);
+  var tooltip = d3.select('body')
+        .append('div')
+        .attr('class', 'tooltip');
+d3.json('https://gist.githubusercontent.com/rohuniyer/629fe70b61a6065eead9b15de896d3c8/raw/9c27f6e7d71f7624d2f2c80df067f5e04a61c1f1/cities_and_stats.json', function(error, mapData) {
+  
+  //console.log(mapData.features[0].properties.place_name)
+  
+  
+  var features = mapData.features;
+  
+  // Update color scale domain based on data
+  //color.domain([0, d3.max(features, nameLength)]);
+  
+  var centroids = features.map(function (feature){
+    return path.centroid(feature);
+  });
+  
+//     mapLayer.selectAll('path')
+//       .data(features)
+//     .enter().append('path')
+//       .attr('d', path)
+//       .attr('vector-effect', 'non-scaling-stroke')
+//       .style('fill', 'yellow')
+//       .on('mouseover', mouseover)
+//       .on('click', clicked);
+  //Draw each province as a path
+  mapLayer.selectAll('circle')
+      .data(features)
+    .enter().append('circle')
+      .attr('cx', function(d) {
+    return projection([d.properties.lon, d.properties.lat])[0];
+  })
+  .attr('cy', function(d) {
+    return projection([d.properties.lon, d.properties.lat])[1];
+  })
+  .attr('r', function(d) {
+    return (d.properties.Score_assigned)*2;
+  })
+  .attr("stroke","")
+      .style('fill', function(d) {
+    return (color(d.properties.Score_invented));
+  })
+      .on('mouseover', mouseover)
+      .on('mouseout', mouseout)
+      .on('click', clicked);
+});
+  d3.json('https://gist.githubusercontent.com/michellechandra/0b2ce4923dc9b5809922/raw/a476b9098ba0244718b496697c5b350460d32f99/us-states.json',
+         function(error,states) {
+    var state_features = states.features;
+    mapLayer.selectAll("path")
+      .data(state_features)
+      .enter()
+      .append("path")
+      .attr("d", path)
+      .style('opacity', 0.2)
+      .style("stroke", "#fff")
+      .style("stroke-width", "1")
+      .style('fill', 'purple')
+     });
+function format_description(d) {
+  var to_return = '<b> ' + d.properties.place_name +  ' </b> <br> SBIR Funding Mean: ' + d.properties.performance_mean;
+  return to_return;
+}
+function mouseover(d){
+  
+  //console.log(d.properties.city);
+//   // Highlight hovered province
+   d3.select(this)
+     .style('fill', 'orange')
+     .attr("stroke","black");
+			 
+          //tooltip.html(format_description(d));
+   tooltip.html(format_description(d));
+   tooltip.style('visibility', 'visible');
+//   // Draw effects
+//   textArt(nameFn(d));
+  
+}
+function mouseout(d) {
+  d3.select(this).style('fill', function(d) {
+    return (color(d.properties.Score_invented))
+  })
+  .attr("stroke","");
+  tooltip.style('visibility', 'hidden');
+}
+// When clicked, zoom in
+function clicked(d) {
+  var x, y, k;
+  // Compute centroid of the selected path
+  if (d && centered !== d) {
+    var centroid = path.centroid(d);
+    x = centroid[0];
+    y = centroid[1];
+    k = 8;
+    centered = d;
+    
+    mapLayer.selectAll('circle')
+      .transition()
+      .duration(750)
+      .attr('r', function(d) {
+         return d.properties.Score_assigned / 2;
+    });
+  } else {
+    x = (width-400)/2;
+    y = (height-200)/2;
+    k = 1;
+    centered = null;
+    
+    mapLayer.selectAll('circle')
+        .transition()
+        .duration(750)
+        .attr('r', function(d) {
+            return d.properties.Score_assigned * 2;
+    });
+  }
+  
+  
+  // Highlight the clicked province
+//    mapLayer.selectAll('circle')
+//      .attr('r', function(d) {
+//     return (d.properties.Score_assigned)*2;
+//   });
+     //.style('fill', function(d){return centered && d===centered ? '#D5708B' : 'purple';});
+  // Zoom
+  g.transition()
+    .duration(750)
+    .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')scale(' + k + ')translate(' + -x + ',' + -y + ')');
+}
+</script>
+
+
+<script id="jsbin-source-css" type="text/css">.background {
+  fill: #eee;
+  pointer-events: all;
+}
+.map-layer {
+  fill: #fff;
+  stroke: #aaa;
+}
+.effect-layer{
+  pointer-events:none;
+}
+text{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+text.big-text{
+  font-size: 30px;
+  font-weight: 400;
+}
+.effect-layer text, text.dummy-text{
+  font-size: 12px;
+}
+.tooltip {
+  z-index: 10;
+  visibility: hidden;
+  background: Beige;
+}
+html {
+	font-family: sans-serif;
+	
+}</script>
+
+<script id="jsbin-source-javascript" type="text/javascript">var width = 1160,
+    height = 600,
+    centered;
+// Define color scale
+var color = d3.scale.linear()
+  .domain([1, 5])
+  .clamp(true)
+  .range(['white', 'SteelBlue']);
+var projection = d3.geo.mercator()
+                     .scale(800)
+                     .center([-100.975,40.7])
+                     .translate([(width-400)/2, (height-200)/2])
+var path = d3.geo.path()
+  .projection(projection);
+// Set svg width & height
+var svg = d3.select('svg')
+  .attr('width', width)
+  .attr('height', height);
+// Add background
+svg.append('rect')
+  .attr('class', 'background')
+  .attr('width', width)
+  .attr('height', height);
+var g = svg.append('g');
+var effectLayer = g.append('g')
+  .classed('effect-layer', true);
+var mapLayer = g.append('g')
+  .classed('map-layer', true);
+var dummyText = g.append('text')
+  .classed('dummy-text', true)
+  .attr('x', 10)
+  .attr('y', 30)
+  .style('opacity', 0);
+var bigText = g.append('text')
+  .classed('big-text', true)
+  .attr('x', 20)
+  .attr('y', 45);
+  var tooltip = d3.select('body')
+        .append('div')
+        .attr('class', 'tooltip');
+d3.json('https://gist.githubusercontent.com/rohuniyer/629fe70b61a6065eead9b15de896d3c8/raw/9c27f6e7d71f7624d2f2c80df067f5e04a61c1f1/cities_and_stats.json', function(error, mapData) {
+  
+  //console.log(mapData.features[0].properties.place_name)
+  
+  
+  var features = mapData.features;
+  
+  // Update color scale domain based on data
+  //color.domain([0, d3.max(features, nameLength)]);
+  
+  var centroids = features.map(function (feature){
+    return path.centroid(feature);
+  });
+  
+//     mapLayer.selectAll('path')
+//       .data(features)
+//     .enter().append('path')
+//       .attr('d', path)
+//       .attr('vector-effect', 'non-scaling-stroke')
+//       .style('fill', 'yellow')
+//       .on('mouseover', mouseover)
+//       .on('click', clicked);
+  //Draw each province as a path
+  mapLayer.selectAll('circle')
+      .data(features)
+    .enter().append('circle')
+      .attr('cx', function(d) {
+    return projection([d.properties.lon, d.properties.lat])[0];
+  })
+  .attr('cy', function(d) {
+    return projection([d.properties.lon, d.properties.lat])[1];
+  })
+  .attr('r', function(d) {
+    return (d.properties.Score_assigned)*2;
+  })
+  .attr("stroke","")
+      .style('fill', function(d) {
+    return (color(d.properties.Score_invented));
+  })
+      .on('mouseover', mouseover)
+      .on('mouseout', mouseout)
+      .on('click', clicked);
+});
+  d3.json('https://gist.githubusercontent.com/michellechandra/0b2ce4923dc9b5809922/raw/a476b9098ba0244718b496697c5b350460d32f99/us-states.json',
+         function(error,states) {
+    var state_features = states.features;
+    mapLayer.selectAll("path")
+      .data(state_features)
+      .enter()
+      .append("path")
+      .attr("d", path)
+      .style('opacity', 0.2)
+      .style("stroke", "#fff")
+      .style("stroke-width", "1")
+      .style('fill', 'purple')
+     });
+function format_description(d) {
+  var to_return = '<b> ' + d.properties.place_name +  ' </b> <br> SBIR Funding Mean: ' + d.properties.performance_mean;
+  return to_return;
+}
+function mouseover(d){
+  
+  //console.log(d.properties.city);
+//   // Highlight hovered province
+   d3.select(this)
+     .style('fill', 'orange')
+     .attr("stroke","black");
+			 
+          //tooltip.html(format_description(d));
+   tooltip.html(format_description(d));
+   tooltip.style('visibility', 'visible');
+//   // Draw effects
+//   textArt(nameFn(d));
+  
+}
+function mouseout(d) {
+  d3.select(this).style('fill', function(d) {
+    return (color(d.properties.Score_invented))
+  })
+  .attr("stroke","");
+  tooltip.style('visibility', 'hidden');
+}
+// When clicked, zoom in
+function clicked(d) {
+  var x, y, k;
+  // Compute centroid of the selected path
+  if (d && centered !== d) {
+    var centroid = path.centroid(d);
+    x = centroid[0];
+    y = centroid[1];
+    k = 8;
+    centered = d;
+    
+    mapLayer.selectAll('circle')
+      .transition()
+      .duration(750)
+      .attr('r', function(d) {
+         return d.properties.Score_assigned / 2;
+    });
+  } else {
+    x = (width-400)/2;
+    y = (height-200)/2;
+    k = 1;
+    centered = null;
+    
+    mapLayer.selectAll('circle')
+        .transition()
+        .duration(750)
+        .attr('r', function(d) {
+            return d.properties.Score_assigned * 2;
+    });
+  }
+  
+  
+  // Highlight the clicked province
+//    mapLayer.selectAll('circle')
+//      .attr('r', function(d) {
+//     return (d.properties.Score_assigned)*2;
+//   });
+     //.style('fill', function(d){return centered && d===centered ? '#D5708B' : 'purple';});
+  // Zoom
+  g.transition()
+    .duration(750)
+    .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')scale(' + k + ')translate(' + -x + ',' + -y + ')');
+}</script></body>
+</html>
