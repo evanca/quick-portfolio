@@ -5,6 +5,8 @@ description: Information about Variables
 ---
 ## Data
 
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~sarahjune1/30.embed"></iframe>
+
 **Problem Statement:** How does a city become an "innovation hub"? Using patent data as a way to measure innovation, our goal is to investigate the factors which contribute to this growth as a hub within a city. 
 
 With the wealth of patent, demographic, geographic and business data available to us, our logistic regression models will identify the key features that determine a future of economic and innovative success of metropolitan statistical areas within the United States. 
