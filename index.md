@@ -3,12 +3,12 @@
 <p>Nathan Caplan, Tingyu Chang, Rohun Iyer, Sarah Sachs</p>
 ---
 
-### Category Name 1 
+### Welcome to Our Project 
 
 [Data](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-[Test 1](/map)
+[Story Map](http://bl.ocks.org/rohuniyer/raw/2613866ccf10e816da957d2637b644ec/)
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
