@@ -1,16 +1,11 @@
 title: A Story of Cities and Patents # website title
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  NYU CUSP Capstone Project:
+  NYU Center for Urban Science and Progress
+  2019 Capstone Project:
   <b>Nathan Caplan, Christine Chang, Rohun Iyer and Sarah Sachs</b>
   
   Factors to Become an Innovation Hub 
-  <br><br>
-  <a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Project Github Repository</a> 
-  <br><br>
-  <a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Determinants of Innovation</a>
-  <br><br>
-  <a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Story Map</a>
-  
+ 
 theme: jekyll-theme-cayman
 show_downloads: true
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
