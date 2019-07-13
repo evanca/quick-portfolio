@@ -27,9 +27,11 @@ description: Information about project members and mentor
   </div>
   <div class="column">
     <img src="./images/headshot/rohun.jpeg" alt="Rohun Iyer" style="width:100%">
+    <p>Rohun Iyer</p>
   </div>
   <div class="column">
     <img src="./images/headshot/sarah.jpeg" alt="Sarah Sachs" style="width:100%">
+    <p>Sarah Sachs</p>
   </div>
 </div>
 
