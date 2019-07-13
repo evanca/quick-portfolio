@@ -3,10 +3,10 @@
 <p>Nathan Caplan, Tingyu Chang, Rohun Iyer, Sarah Sachs</p>
 ---
 
-### Welcome to Our Project 
+### Welcome to Our Capstone Project 
 
 [Data](CUSP_innovation_capstone/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Blueprint-featured.png?raw=true"/>
 
 [Story Map](http://bl.ocks.org/rohuniyer/raw/2613866ccf10e816da957d2637b644ec/)
 
@@ -20,8 +20,6 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Test of Map](https://gist.github.com/rohuniyer/2613866ccf10e816da957d2637b644ec.js)
-{% gist 2613866ccf10e816da957d2637b644ec %}
 
 ---
 ### Category Name 2
