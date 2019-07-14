@@ -21,17 +21,19 @@ description: Information about project members and mentor
 <div class="row">
   <div class="column">
     <img src="./images/headshot/nathan.jpeg" alt="Nathan Caplan" style="width:100%">
+    <a href="www.linkedin.com/in/sarahJuneSachs-42">Sarah Sachs</a>
   </div>
   <div class="column">
     <img src="./images/headshot/Christine.jpeg" alt="Christine Chang" style="width:100%">
+    <a href="www.linkedin.com/in/sarahJuneSachs-42">Sarah Sachs</a>
   </div>
   <div class="column">
     <img src="./images/headshot/rohun.jpeg" alt="Rohun Iyer" style="width:100%">
-    <p>Rohun Iyer</p>
+    <a href="https://www.linkedin.com/in/rohun-iyer-61518a112/">Rohun Iyer</a>
   </div>
   <div class="column">
     <img src="./images/headshot/sarah.jpeg" alt="Sarah Sachs" style="width:100%">
-    <p>Sarah Sachs</p>
+    <a href="www.linkedin.com/in/sarahJuneSachs-42">Sarah Sachs</a>
   </div>
 </div>
 
