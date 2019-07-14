@@ -27,16 +27,13 @@ _Ever since The first Patent Act of the U.S. Congress in 1790, the patent has be
 
 <div class="row">
   <div class="column">
-     style="width:100%">
-    <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~sarahjune1/30.embed"></iframe>">
+    <iframe width="300" height="200" frameborder="0" scrolling="no" src="//plot.ly/~sarahjune1/30.embed"></iframe>">
   </div>
   <div class="column">
-     style="width:100%">
-    <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~sarahjune1/30.embed"></iframe>">
+    <iframe width="300" height="200" frameborder="0" scrolling="no" src="//plot.ly/~sarahjune1/30.embed"></iframe>">
   </div>
   <div class="column">
-     style="width:100%">
-    <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~sarahjune1/30.embed"></iframe>">
+    <iframe width="300" height="200" frameborder="0" scrolling="no" src="//plot.ly/~sarahjune1/30.embed"></iframe>">
   </div>
 </div>
 
