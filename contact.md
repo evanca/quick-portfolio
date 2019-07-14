@@ -21,11 +21,11 @@ description: Information about project members and mentor
 <div class="row">
   <div class="column">
     <img src="./images/headshot/nathan.jpeg" alt="Nathan Caplan" style="width:100%">
-    <a href="www.linkedin.com/in/sarahJuneSachs-42">Sarah Sachs</a>
+    <a href="https://www.linkedin.com/in/nathancaplan0105/">Nathan Caplan</a>
   </div>
   <div class="column">
     <img src="./images/headshot/Christine.jpeg" alt="Christine Chang" style="width:100%">
-    <a href="www.linkedin.com/in/sarahJuneSachs-42">Sarah Sachs</a>
+    <a href="https://www.linkedin.com/in/christine-chang-85a885bb/">Christine Chang</a>
   </div>
   <div class="column">
     <img src="./images/headshot/rohun.jpeg" alt="Rohun Iyer" style="width:100%">
@@ -33,7 +33,7 @@ description: Information about project members and mentor
   </div>
   <div class="column">
     <img src="./images/headshot/sarah.jpeg" alt="Sarah Sachs" style="width:100%">
-    <a href="www.linkedin.com/in/sarahJuneSachs-42">Sarah Sachs</a>
+    <a href="https://www.linkedin.com/in/sarahJuneSachs-42/">Sarah Sachs</a>
   </div>
 </div>
 
