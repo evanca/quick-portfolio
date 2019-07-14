@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Contact
-description: Information about project members and mentor
+description: Information about our team.
+
 ---
 
 <style>
@@ -18,6 +19,7 @@ description: Information about project members and mentor
 
 </style>
 
+## Project members
 <div class="row">
   <div class="column">
     <img src="./images/headshot/nathan.jpeg" alt="Nathan Caplan" style="width:100%">
@@ -37,5 +39,6 @@ description: Information about project members and mentor
   </div>
 </div>
 
-<p>We would like to thank our mentor Daniela Hochfellner for all of her guidance and support!</p>
+## Mentor & Sponsor
+<p>We would like to thank our mentor Daniela Hochfellner for all of her guidance and support.</p>
 <br>
