@@ -1,27 +1,10 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-    <meta charset="UTF-8">
-
-{% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+---
+layout: default
+---
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+  <title>Innovative Cities</title>
 <style>
 .background {
   fill: #eee;
@@ -60,18 +43,6 @@ text.big-text{
 </style>
 </head>
 <body>
-      <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="./map.html" class="btn">Story Map</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="./data.html" class="btn">Data</a>
-        <a href="./contact.html" class="btn">Contact</a>
-        <a href="./index.html" class="btn">Capstone</a>
-      {% endif %}
-    </header>
 <script src="https://d3js.org/d3.v3.min.js"></script>
     <div id = 'chart1'>
       <div id = 'title_div'>
