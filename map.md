@@ -62,7 +62,7 @@ customjs:
         <div id = 'dropdown'></div>
     </div>
   <script id="jsbin-javascript">
-  var width = 1200,
+  var width = 1000,
       height = 600,
       left;
 
