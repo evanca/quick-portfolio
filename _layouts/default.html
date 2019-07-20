@@ -26,12 +26,14 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
-        <a href="./map.html" class="btn">Story Map</a>
+        <a href="./scope.html" class="btn">Scope</a>
+
       {% endif %}
       {% if site.show_downloads %}
         <a href="./data.html" class="btn">Data</a>
         <a href="./contact.html" class="btn">Contact</a>
         <a href="./index.html" class="btn">Capstone</a>
+        <a href="./map.html" class="btn">Results</a>
       {% endif %}
     </header>
 
@@ -40,7 +42,7 @@
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+          <span class="site-footer-owner"><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
         {% endif %}
         <span class="site-footer-credits">NYU Center for Urban Science and Progress 2019 Capstone Project </span>
       </footer>
