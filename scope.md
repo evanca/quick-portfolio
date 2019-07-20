@@ -38,11 +38,10 @@ description: Project Scope and Problem Statement
 
 .center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 35px;
+  margin-right: 35px;
   width: 100%;
   padding: 15px;
-  margin: 35px;
 }
 
 </style>
