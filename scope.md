@@ -6,6 +6,17 @@ description: Project Scope and Problem Statement
 ---
 
 <style>
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
@@ -21,19 +32,19 @@ description: Project Scope and Problem Statement
 <div class="row">
   <div class="column">
     <div class="card">
-    <img src="./images/icon/icons8-scales-filled-100.png" alt="Funding" style="width:40px;height:80px;">
+    <img src="./images/icon/icons8-scales-filled-100.png" alt="Funding" style="width:50px;height:100px;">
     <p>Federal Funding</p>
     </div>
   </div>
   <div class="column">
     <div class="card">
-    <img src="./images/icon/icons8-idea-512.png" alt="Funding" style="width:40px;height:80px;">
+    <img src="./images/icon/icons8-idea-512.png" alt="Funding" style="width:50px;height:100px;">
     <p>Diversity</p>
     </div>
   </div>
   <div class="column">
     <div class="card">
-    <img src="./images/icon/icons8-graph-80.png" alt="Funding" style="width:40px;height:80px;">
+    <img src="./images/icon/icons8-graph-80.png" alt="Funding" style="width:50px;height:100px;">
     <p>Spatial Factors</p>
     </div>
 </div>
