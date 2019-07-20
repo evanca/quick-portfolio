@@ -5,7 +5,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   2019 Capstone Project
   <br>
   Nathan Caplan, Christine Chang, Rohun Iyer and Sarah Sachs
-
+  <a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Github Repository</a>
 theme: jekyll-theme-cayman
 show_downloads: true
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here

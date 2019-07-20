@@ -64,7 +64,10 @@ To understand how this development of an _innovation hub_ happens in a city, we 
 
 <div class="row">
   <div class="column">
-    <div class="card">Funding</div>
+    <div class="card">
+    <img src="./images/icon/icons8-graph-80.png" alt="Funding" style="width:100%">
+    Funding
+    </div>
   </div>
   <div class="column">
     <div class="card">Demographic</div>
