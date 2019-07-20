@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data
-description: Information about Variables
+description: Information about Variables & Features
 ---
 ## Data
 <style>
@@ -18,6 +18,12 @@ description: Information about Variables
 
 </style>
 
+# Resources
+<a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Patents</a>
+<a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">SBIR</a>
+<a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Census</a>
+<a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Federal Funding</a>
+<a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Empowerment Zone</a>
 
 # Patents as Innovation
 

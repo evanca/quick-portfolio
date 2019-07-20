@@ -4,8 +4,6 @@ title: Story Map
 description: Final Results
 ---
 
-<!DOCTYPE html>
-<html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -54,7 +52,7 @@ text.big-text{
       </div>
       <div id = 'dropdown'></div>
   </div>
-  
+
 
 <script>
 var width = 1160,
