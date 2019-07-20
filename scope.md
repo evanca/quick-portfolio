@@ -41,6 +41,7 @@ description: Project Scope and Problem Statement
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  padding: 15px;
 }
 
 </style>
