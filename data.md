@@ -73,3 +73,7 @@ In order to determine how many people fit Richard Florida’s creative class, we
 ### Data Aggregation
 
 <p>A unique code per each city was designed among all datasets in order to join them. This was created by taking the city name, text processing, and appending the lower cased state abbreviation. We then performed a left join on of our collected and processed data onto the patent data in order to keep as many of the original 1000 top patent producing cities. </p>
+
+## Limitations
+
+<p> Fill with nathan's stuff</p>
