@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data
-description: Information about Variables & Features
+description: Information About Variables and Features
 ---
 ## Data
 <style>

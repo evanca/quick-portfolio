@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Story Map
-description: Final Results
+description: Our Final Results
 ---
 # Story Map
 
@@ -1167,6 +1167,6 @@ text.big-text{
           .style('fill', 'purple')
          });
       </script>
-    
+
 </div>
 </body>

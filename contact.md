@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact
-description: Information about our team.
+description: Information About Our Team
 
 ---
 
