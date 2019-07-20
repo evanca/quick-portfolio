@@ -27,7 +27,13 @@ description: Project Scope and Problem Statement
 
 # Scope
 <p>To understand how this development of an innovation hub happens in a city, we will analyze more than thirty-five years of patent data in the United States from 1976-2014. Our regression analysis will explore three dimensions that influence the growth of innovation: regulation, socioeconomic diversity, and the spatial geography of the city.</p>
-<html>
+
+content: >
+  ## Lovelace
+
+  Starting with Home Assistant 0.72, we're experimenting with a new way of defining your interface. We're calling it the **Lovelace UI**.
+
+
 
 <div class="card">
   <img src="./images/icon/icons8-scales-filled-100.png" alt="Funding" style="width:100%">
