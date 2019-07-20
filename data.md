@@ -60,7 +60,7 @@ _We have looked into federal awards -- money that the federal government has pro
 <br>
 <p> For federal awards, data are available from 2001 to 2018 with each year having millions of awards and each award having 260 columns of information about funding agency, federal obligation, as well as recipient, and performance center, locations.
 For each year’s data, we aggregate average amount of federal obligation and total number of awards based on city of addresses for both recipient and primary place of performance. We use average amount instead of total amount of federal obligation as cities are having different scale of population and amount of businesses.</p>
-<br>
+
 <p>We also investigated the Empowerment Zone and the Small Business Innovation Research (SBIR) program. The SBIR program is a federal funding program that enables small businesses to get financial awards from federal agencies' R&D budgets which has helped thousands of small businesses with over $100 million every year since 1982.[17] For the SBIR program, data are available from 1983 to 2019 with an average of 6k awards each year and each award contains general information of business including its location, the amount of award the business receives, its funding agency and topic/field for each awarded project. We calculate the average amount of funding per business received and number of businesses awarded for each city in our model aiming to measure if this program has encouraged innovation toward cities. </p>
 
 ## City Diversity Data
