@@ -65,19 +65,19 @@ To understand how this development of an _innovation hub_ happens in a city, we 
 <div class="row">
   <div class="column">
     <div class="card">
-    <img src="./images/icon/icons8-scales-filled-100.png" alt="Funding" style=width:40px;height:80px;"">
+    <img src="./images/icon/icons8-scales-filled-100.png" alt="Funding" style="width:40px;height:80px;">
     <p>Federal Funding</p>
     </div>
   </div>
   <div class="column">
     <div class="card">
-    <img src="./images/icon/icons8-idea-512.png" alt="Funding" style=width:40px;height:80px;"">
+    <img src="./images/icon/icons8-idea-512.png" alt="Funding" style="width:40px;height:80px;">
     <p>Diversity</p>
     </div>
   </div>
   <div class="column">
     <div class="card">
-    <img src="./images/icon/icons8-graph-80.png" alt="Funding" style=width:40px;height:80px;"">
+    <img src="./images/icon/icons8-graph-80.png" alt="Funding" style="width:40px;height:80px;">
     <p>Spatial Factors</p>
     </div>
 </div>
