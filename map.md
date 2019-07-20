@@ -62,8 +62,8 @@ customjs:
         <div id = 'dropdown'></div>
     </div>
   <script id="jsbin-javascript">
-  var width = 800,
-      height = 600,
+  var width = 850,
+      height = 300,
       centered;
 
   // Define color scale
