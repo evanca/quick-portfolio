@@ -39,7 +39,6 @@ description: Project Scope and Problem Statement
 .center {
   display: block;
   margin-left: 35px;
-  margin-right: 35px;
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;

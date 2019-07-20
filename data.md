@@ -9,9 +9,9 @@ description: Information About Variables and Features
 <ul>
   <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Patents</a></li>
   <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">SBIR</a></li>
-  <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Census</a></li>
+  <li><a href="https://api.census.gov/data.html">Census</a></li>
   <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Federal Funding</a></li>
-  <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Empowerment Zone</a></li>
+  <li><a href="https://data2.nhgis.org/main">Demographic</a></li>
 </ul>
 # Patents as Innovation
 
