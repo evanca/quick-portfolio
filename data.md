@@ -40,7 +40,6 @@ Patent classifications, types, organizations along with other engineered feature
 
 The PatentsView data gives a precise description of every successful patent application, including geographic features such as assignee and inventor locations, patent classification features, assignee organization and type, and patent forward and backward citations.</p>
 
-<a id="skip-to-content" href="#content">Top of Page</a>
 
 ## Ranked Score - Top 5 Cities 'Innovation Hub' Indicators
 
@@ -49,6 +48,7 @@ The PatentsView data gives a precise description of every successful patent appl
 <br>
  After aggregation, each city contains fields on the number of assignee patents, inventor patents, the ratio of inventor to assignee patents, citations for assignee and inventor patents, the ratio of citations to patents, proportion of patents being classified into the 8 high-level WIPO classifications, the type of assignee organization (including US/Foreign corporations, governments and individuals), and the patent type (utility, reissue, design, defensive). Below are the top 5 cities for each score, which has been standardized to account for the various different skewed features with one standard function.</p>
 
+ <a id="skip-to-content" href="#content">Back to Top</a>
 
 # Factors That Lead to Innovation
 
@@ -71,6 +71,8 @@ _Demographic and household data can be collected decennially going back to 1970 
 <br>
 <p>Feature of interest include total population, population by income bracket, and nativity. These tract populations were aggregated to specific cities using the open source OSMNX city shape-files available,  even down to the townships level.
 In order to determine how many people fit Richard Florida’s creative class, we collected US Economic 5 Year Data from the Census API. Years available were 1997, 2002, 2007, and 2012. Data collected includes the number of employers and employees per each job title as described by North American Industry Classification System (NAICS) per each Census designated place. Richard Florida describes the creative class as those in academia, arts, and other professions requiring an advanced degree. We mapped the job titles to create or not, and summed the number of creative and non-creative employees per each city in order to determine the size of each city’s creative class.</p>
+
+<a id="skip-to-content" href="#content">Back to Top</a>
 
 ### Data Aggregation
 

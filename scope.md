@@ -28,27 +28,27 @@ description: Project Scope and Problem Statement
 
 # Scope
 <p>To understand how this development of an innovation hub happens in a city, we will analyze more than thirty-five years of patent data in the United States from 1976-2014. Our regression analysis will explore three dimensions that influence the growth of innovation: regulation, socioeconomic diversity, and the spatial geography of the city.</p>
-
+<html>
 <div class="row">
   <div class="column">
     <div class="card">
-    <img src="./images/icon/icons8-scales-filled-100.png" alt="Funding" style="width:50px;height:100px;">
+    <img src="./images/icon/icons8-scales-filled-100.png" alt="Funding" style="width:40%;height:100%;">
     <p>Federal Funding</p>
     </div>
   </div>
   <div class="column">
     <div class="card">
-    <img src="./images/icon/icons8-idea-512.png" alt="Funding" style="width:50px;height:100px;">
+    <img src="./images/icon/icons8-idea-512.png" alt="Funding" style="width:40%;height:100%;">
     <p>Diversity</p>
     </div>
   </div>
   <div class="column">
     <div class="card">
-    <img src="./images/icon/icons8-graph-80.png" alt="Funding" style="width:50px;height:100px;">
+    <img src="./images/icon/icons8-graph-80.png" alt="Funding" style="width:40%;height:100%;">
     <p>Spatial Factors</p>
     </div>
 </div>
-
+</html>
 # Problem Statement:
 
 *How does a city become an "innovation hub"?*
