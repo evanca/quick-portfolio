@@ -42,6 +42,7 @@ description: Project Scope and Problem Statement
   margin-right: auto;
   width: 100%;
   padding: 15px;
+  margin: 35px;
 }
 
 </style>
@@ -53,7 +54,7 @@ To understand how this development of an innovation hub happens in a city, we wi
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="./images/icon/icons8-scales-filled-100.png"  alt="Funding" style="width:100%" class="center" width="80" height="100">
+      <img src="./images/icon/icons8-scales-filled-100.png"  alt="Funding"  class="center" width="80" height="100">
       <div class="containter" style="text-align:center">
         <h4><b>Federal Funding</b></h4>
         </div>
@@ -61,7 +62,7 @@ To understand how this development of an innovation hub happens in a city, we wi
   </div>
   <div class="column">
     <div class="card">
-        <img src="./images/icon/icons8-idea-512.png" alt="Diversity" style="width:100%" class="center" width="80" height="100">
+        <img src="./images/icon/icons8-idea-512.png" alt="Diversity"  class="center" width="80" height="100">
         <div class="containter" style="text-align:center">
           <h4><b>Diversity</b></h4>
         </div>
@@ -69,7 +70,7 @@ To understand how this development of an innovation hub happens in a city, we wi
   </div>
   <div class="column">
     <div class="card">
-        <img src="./images/icon/icons8-graph-80.png" alt="Spatial" style="width:100%" class="center" width="80" height="100">
+        <img src="./images/icon/icons8-graph-80.png" alt="Spatial"  class="center" width="80" height="100">
         <div class="containter" style="text-align:center">
             <h4><b>Spatial Factors</b></h4>
         </div>
