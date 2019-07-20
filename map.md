@@ -62,9 +62,9 @@ customjs:
         <div id = 'dropdown'></div>
     </div>
   <script id="jsbin-javascript">
-  var width = 1000,
+  var width = 800,
       height = 600,
-      left;
+      centered;
 
   // Define color scale
   var color = d3.scale.linear()
