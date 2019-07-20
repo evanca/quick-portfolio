@@ -36,6 +36,13 @@ description: Project Scope and Problem Statement
   clear: both;
   display: table;
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 </style>
 
 # Scope
@@ -45,7 +52,7 @@ To understand how this development of an innovation hub happens in a city, we wi
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="./images/icon/icons8-scales-filled-100.png"  alt="Funding" style="width:50%;">
+      <img src="./images/icon/icons8-scales-filled-100.png"  alt="Funding" style="width:100%;" class="center">
       <div class="containter" style="text-align:center">
         <h4><b>Federal Funding</b></h4>
         </div>
@@ -53,7 +60,7 @@ To understand how this development of an innovation hub happens in a city, we wi
   </div>
   <div class="column">
     <div class="card">
-        <img src="./images/icon/icons8-idea-512.png" alt="Diversity" style="width:75%;">
+        <img src="./images/icon/icons8-idea-512.png" alt="Diversity" style="width:100%;" class="center">
         <div class="containter" style="text-align:center">
           <h4><b>Diversity</b></h4>
         </div>
@@ -61,7 +68,7 @@ To understand how this development of an innovation hub happens in a city, we wi
   </div>
   <div class="column">
     <div class="card">
-        <img src="./images/icon/icons8-graph-80.png" alt="Spatial" style="width:50%;">
+        <img src="./images/icon/icons8-graph-80.png" alt="Spatial" style="width:100%;" class="center">
         <div class="containter" style="text-align:center">
             <h4><b>Spatial Factors</b></h4>
         </div>
