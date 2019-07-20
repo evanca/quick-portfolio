@@ -102,7 +102,7 @@ text.big-text{
         .attr('id', 'assigned_filter')
         .attr('width', 70)
         .attr('height', 18)
-        .attr('x', 80)
+        .attr('x', -100)
         .attr('y', filter_y)
         .style('opacity', 0.5);
         title_svg.append('text').text('Assigned').attr('x', 90).attr('y', filter_text).style('font-size', 12);
