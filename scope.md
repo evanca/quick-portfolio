@@ -16,11 +16,62 @@ description: Project Scope and Problem Statement
   content: "";
   clear: both;
   display: table;
+  * {
+    box-sizing: border-box;
+  }
 
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+
+  .row {margin: 0 -5px;}
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
 </style>
 
 # Scope
 To understand how this development of an _innovation hub_ happens in a city, we will analyze more than thirty-five years of patent data in the United States from 1976-2014. Our regression analysis will explore three dimensions that influence the growth of innovation: regulation, socioeconomic diversity, and the spatial geography of the city.
+
+<div class="row">
+  <div class="column">
+    <div class="card">Funding</div>
+  </div>
+  <div class="column">
+    <div class="card">Demographic</div>
+  </div>
+  <div class="column">
+    <div class="card">Spatial</div>
+</div>
 
 # Problem Statement:
 
