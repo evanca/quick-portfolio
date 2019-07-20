@@ -7,4 +7,4 @@ customjs:
 ---
 # Story Map
 
-<img style="float: right;" src="./images/icon/CUSP.jpeg">
+<img style="float: left;" src="./images/icon/CUSP.jpeg">
