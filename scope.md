@@ -20,7 +20,7 @@ description: Project Scope and Problem Statement
 
 
 .container {
-  padding: 2px 16px;
+  padding: 2px;
 
 }
 
