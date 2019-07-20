@@ -27,8 +27,8 @@ description: Project Scope and Problem Statement
 
 .column {
   float: left;
-  width: 25%;
-  padding: 5px;
+  width: 33%;
+  padding: 15px;
 }
 
 .row::after {
@@ -41,11 +41,11 @@ description: Project Scope and Problem Statement
 # Scope
 To understand how this development of an innovation hub happens in a city, we will analyze more than thirty-five years of patent data in the United States from 1976-2014. Our regression analysis will explore three dimensions that influence the growth of innovation: regulation, socioeconomic diversity, and the spatial geography of the city.
 
-
+<br>
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="./images/icon/icons8-scales-filled-100.png"  alt="Funding" style="width:100%">
+      <img src="./images/icon/icons8-scales-filled-100.png"  alt="Funding" style="width:40px;height:100px;">
       <div class="containter">
         <h4><b>Federal Funding</b></h4>
         </div>
@@ -53,7 +53,7 @@ To understand how this development of an innovation hub happens in a city, we wi
   </div>
   <div class="column">
     <div class="card">
-        <img src="./images/icon/icons8-idea-512.png" alt="Diversity" style="width:100%">
+        <img src="./images/icon/icons8-idea-512.png" alt="Diversity" style="width:40px;height:100px;">
         <div class="containter">
           <h4><b>Diversity</b></h4>
         </div>
@@ -61,7 +61,7 @@ To understand how this development of an innovation hub happens in a city, we wi
   </div>
   <div class="column">
     <div class="card">
-        <img src="./images/icon/icons8-graph-80.png" alt="Spatial" style="width:100%">
+        <img src="./images/icon/icons8-graph-80.png" alt="Spatial" style="width:40px;height:100px;">
         <div class="containter">
             <h4><b>Spatial Factors</b></h4>
         </div>
@@ -69,8 +69,6 @@ To understand how this development of an innovation hub happens in a city, we wi
   </div>
 </div>
 
-
-<br>
 # Problem Statement:
 
 *How does a city become an "innovation hub"?*
