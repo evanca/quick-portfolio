@@ -51,8 +51,9 @@ text.big-text{
 </style>
 </head>
 <body>
-<div style="text-align: left;">
-    <div style="display: inline-block; text-align: left;">
+
+<div class="row" >
+
       <script src="https://d3js.org/d3.v3.min.js"></script>
           <div id = 'chart1'>
             <div id = 'title_div'>
@@ -1166,6 +1167,6 @@ text.big-text{
           .style('fill', 'purple')
          });
       </script>
-    </div>
+    
 </div>
 </body>
