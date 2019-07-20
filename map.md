@@ -7,10 +7,10 @@ customjs:
 ---
 # Story Map
 
-<html>
+
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" >
   <title>JS Bin</title>
 <style id="jsbin-css">
 .background {
