@@ -37,6 +37,10 @@ The PatentsView data gives a precise description of every successful patent appl
 
  <a id="skip-to-content" href="#content">Back to Top</a>
 
+# Visualize results
+<p>First: Select two cities from the search bar.</p>
+<p>Second: Select two variables from the checkbox.</p>
+
  <html>
    <head>
      <meta name="description" content="Capstone-Cities">
