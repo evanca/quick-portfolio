@@ -26,6 +26,7 @@ customjs:
 .map-layer {
   fill: #fff;
   stroke: #aaa;
+  float:left;
 }
 .effect-layer{
   pointer-events:none;
