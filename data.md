@@ -28,7 +28,6 @@ description: Information about Variables & Features
 </ul>
 # Patents as Innovation
 
-# Why are things not connecting??!?!?!
 <i>Ever since The first Patent Act of the U.S. Congress in 1790, the patent has been a key representation of innovation and progress in the United States.</i>
 
 <p>For our project, we collect, engineer, and compare two sets of features: to measure innovation itself and to explain its growth in a city. For the former, we use the thorough patent data from Patentsview.org containing detailed information on every patent assigned to a United States based organization from 1976-2014.</p>
@@ -40,6 +39,8 @@ description: Information about Variables & Features
 Patent classifications, types, organizations along with other engineered features are included in our model to create a logistic regression and a random forest regression. Below we will outline the key variables that lead to increased overall patent production and how this project will classify innovation hubs.
 
 The PatentsView data gives a precise description of every successful patent application, including geographic features such as assignee and inventor locations, patent classification features, assignee organization and type, and patent forward and backward citations.</p>
+
+<a id="skip-to-content" href="#content">Top of Page</a>
 
 ## Ranked Score - Top 5 Cities 'Innovation Hub' Indicators
 
