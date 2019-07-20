@@ -40,7 +40,7 @@ description: Project Scope and Problem Statement
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
 </style>
@@ -60,7 +60,7 @@ To understand how this development of an innovation hub happens in a city, we wi
   </div>
   <div class="column">
     <div class="card">
-        <img src="./images/icon/icons8-idea-512.png" alt="Diversity" style="width:65%" class="center">
+        <img src="./images/icon/icons8-idea-512.png" alt="Diversity" style="width:50%" class="center">
         <div class="containter" style="text-align:center">
           <h4><b>Diversity</b></h4>
         </div>
