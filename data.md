@@ -40,32 +40,6 @@ The PatentsView data gives a precise description of every successful patent appl
 <br>
  After aggregation, each city contains fields on the number of assignee patents, inventor patents, the ratio of inventor to assignee patents, citations for assignee and inventor patents, the ratio of citations to patents, proportion of patents being classified into the 8 high-level WIPO classifications, the type of assignee organization (including US/Foreign corporations, governments and individuals), and the patent type (utility, reissue, design, defensive). Below are the top 5 cities for each score, which has been standardized to account for the various different skewed features with one standard function.</p>
 
-<!--first row of data-->
-<div class="row">
-  <div class="column">
-    <img src="./images/plots/score_5/score1.png" alt="Inventor Citations" style="width:100%">
-    <p>Inventor Citations</p>
-  </div>
-  <div class="column">
-    <img src="./images/headshot/nathan.jpeg" alt="Nathan Caplan" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="./images/headshot/nathan.jpeg" alt="Nathan Caplan" style="width:100%">
-  </div>
-</div>
-
-<!--second row of data-->
-<div class="row">
-  <div class="column">
-    <img src="./images/headshot/nathan.jpeg" alt="Nathan Caplan" style="width:100%">
-  </div>
-  <div>
-  <br>
-  </div>
-  <div class="column">
-    <img src="./images/headshot/nathan.jpeg" alt="Nathan Caplan" style="width:100%">
-  </div>
-</div>
 
 # Factors That Lead to Innovation
 
@@ -74,14 +48,3 @@ _Using previous studies, we have identified three main determinants of an innova
 <p>Different types of regulations include federal programs for R&D funding, tax benefits, and government subsidies. In addition to the regulatory environment, literature also suggests that city growth can be measured by changes in demographic and economic factors.</p>
 
 ## Regulatory data
-<div class="row">
-  <div class="column">
-    <iframe width="300" height="200" frameborder="10" scrolling="no" src="//plot.ly/~sarahjune1/30.embed"></iframe>">
-  </div>
-  <div class="column">
-    <iframe width="300" height="200" frameborder="10" scrolling="no" src="//plot.ly/~sarahjune1/30.embed"></iframe>">
-  </div>
-  <div class="column">
-    <iframe width="300" height="200" frameborder="10" scrolling="no" src="//plot.ly/~sarahjune1/30.embed"></iframe>">
-  </div>
-</div>
