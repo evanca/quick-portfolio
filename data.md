@@ -28,6 +28,7 @@ description: Information about Variables & Features
 </ul>
 # Patents as Innovation
 
+# Why are things not connecting??!?!?!
 <i>Ever since The first Patent Act of the U.S. Congress in 1790, the patent has been a key representation of innovation and progress in the United States.</i>
 
 <p>For our project, we collect, engineer, and compare two sets of features: to measure innovation itself and to explain its growth in a city. For the former, we use the thorough patent data from Patentsview.org containing detailed information on every patent assigned to a United States based organization from 1976-2014.</p>
