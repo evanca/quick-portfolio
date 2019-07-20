@@ -39,7 +39,7 @@ The PatentsView data gives a precise description of every successful patent appl
 
 # Visualize results
 <p>First: Select two cities from the search bar.</p>
-<p>Second: Select two variables from the checkbox.</p>
+<p>Second: Select a variable to plot from the checkbox.</p>
 
  <html>
    <head>

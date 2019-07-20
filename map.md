@@ -51,6 +51,7 @@ text.big-text{
 </style>
 </head>
 <body>
+<div style="text-align:center">
 <script src="https://d3js.org/d3.v3.min.js"></script>
     <div id = 'chart1'>
       <div id = 'title_div'>
@@ -1530,5 +1531,6 @@ d3.json('https://gist.githubusercontent.com/michellechandra/0b2ce4923dc9b5809922
     .style('fill', 'purple')
    });
 </script>
+</div>
 </body>
 </html>
