@@ -14,7 +14,4 @@ _In recent years there has been great interest around cities and their new produ
 <ul>
   <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Final Technical Report</a></li>
   <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Capstone Presentation</a></li>
-  <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Census</a></li>
-  <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Federal Funding</a></li>
-  <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Empowerment Zone</a></li>
 </ul>
