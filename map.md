@@ -58,8 +58,7 @@ text.big-text{
   </div>
 <script id="jsbin-javascript">
 var width = 1160,
-    height = 600,
-    centered;
+    height = 600;
 
 // Define color scale
 var color = d3.scale.linear()
