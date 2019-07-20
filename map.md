@@ -1,3 +1,12 @@
+---
+layout: default
+title: Story Map
+description: Our Final Results
+customjs:
+ - https://d3js.org/d3.v3.min.js
+---
+# Story Map
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,11 +18,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/js/select2.full.js"></script>
   <title>JS Bin</title>
   <style id="jsbin-css">
-/* .dropDown {
-  color:Black;
-  font-size: 14px;
-
-  } */
 
   .header {
     margin-top:20px;
