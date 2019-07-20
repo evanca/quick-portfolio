@@ -10,9 +10,9 @@ description: Information About Variables and Features
   <li><a href="http://www.patentsview.org/web/#viz/relationships">Patents</a></li>
   <li><a href="https://www.sbir.gov">SBIR</a></li>
   <li><a href="https://api.census.gov/data.html">Census</a></li>
-  <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Federal Funding</a></li>
+  <li><a href="https://www.usaspending.gov/#/download_center/custom_award_data">Federal Funding</a></li>
   <li><a href="https://data2.nhgis.org/main">Demographic</a></li>
-  <li><a href="https://www.hud.gov/program_offices/comm_planning/economicdevelopment/programs/rc/ezcontacts">Empowerment Zone</a></li>
+  <li><a href="https://www.gao.gov/new.items/d04306.pdf">Empowerment Zone</a></li>
 </ul>
 # Patents as Innovation
 
