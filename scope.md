@@ -6,49 +6,50 @@ description: Project Scope and Problem Statement
 ---
 
 <style>
-  .column {
-    float: left;
-    width: 25%;
-    padding: 5px;
-  }
 
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
+.card {
 
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
-  }
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.container {
+  padding: 2px 16px;
+}
 
 </style>
 
 # Scope
 <p>To understand how this development of an innovation hub happens in a city, we will analyze more than thirty-five years of patent data in the United States from 1976-2014. Our regression analysis will explore three dimensions that influence the growth of innovation: regulation, socioeconomic diversity, and the spatial geography of the city.</p>
 <html>
-<div class="row">
-  <div class="column">
-    <div class="card">
-    <img src="./images/icon/icons8-scales-filled-100.png" alt="Funding" style="width:40%;height:100%;">
-    <p>Federal Funding</p>
+
+<div class="card">
+  <img src="./images/icon/icons8-scales-filled-100.png" alt="Funding" style="width:100%">
+  <div class="containter"
+    <h4><b>Federal Funding</b></h4>
     </div>
   </div>
-  <div class="column">
-    <div class="card">
-    <img src="./images/icon/icons8-idea-512.png" alt="Funding" style="width:40%;height:100%;">
-    <p>Diversity</p>
+
+  <div class="card">
+    <img src="./images/icon/icons8-idea-512.png" alt="Diversity" style="width:100%">
+    <div class="containter"
+      <h4><b>Diversity</b></h4>
+      </div>
     </div>
-  </div>
-  <div class="column">
+
     <div class="card">
-    <img src="./images/icon/icons8-graph-80.png" alt="Funding" style="width:40%;height:100%;">
-    <p>Spatial Factors</p>
-    </div>
-</div>
-</html>
+      <img src="./images/icon/icons8-graph-80.png" alt="Spatial" style="width:100%">
+      <div class="containter"
+        <h4><b>Spatial Factors</b></h4>
+        </div>
+      </div>
+<br>
 # Problem Statement:
 
 *How does a city become an "innovation hub"?*
