@@ -20,7 +20,7 @@ description: Project Scope and Problem Statement
 </style>
 
 # Scope
-To understand how an 'innovation hub' develops, we will analyze more than thirty-five years of patent data in the United States from 1976-2014. Our regression analysis will explore three dimensions that influence the growth of innovation: regulation, socioeconomic diversity, and the spatial geography of the city.
+To understand how this development of an _innovation hub_ happens in a city, we will analyze more than thirty-five years of patent data in the United States from 1976-2014. Our regression analysis will explore three dimensions that influence the growth of innovation: regulation, socioeconomic diversity, and the spatial geography of the city.
 
 # Problem Statement:
 

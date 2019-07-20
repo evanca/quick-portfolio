@@ -1,4 +1,4 @@
-# Innovation Hubs <br> A Story of Cities and Patents
+# Innovation Hubs - A Story of Cities and Patents
 
 # Abstract
 

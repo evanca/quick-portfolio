@@ -10,6 +10,9 @@ description: Final Results
   <meta name="viewport" content="width=device-width">
   <title>JS Bin</title>
 <style>
+
+<style>
+
 .background {
   fill: #eee;
   pointer-events: all;
@@ -23,6 +26,7 @@ description: Final Results
 .map-layer {
   fill: #fff;
   stroke: #aaa;
+  float: left;
 }
 .effect-layer{
   pointer-events:none;
@@ -47,7 +51,7 @@ text.big-text{
 </style>
 </head>
 <body>
-<div style="text-align: center;">
+<div style="text-align: left;">
     <div style="display: inline-block; text-align: left;">
       <script src="https://d3js.org/d3.v3.min.js"></script>
           <div id = 'chart1'>
