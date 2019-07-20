@@ -19,12 +19,13 @@ description: Information about Variables & Features
 </style>
 
 # Resources
-<a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Patents</a>
-<a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">SBIR</a>
-<a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Census</a>
-<a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Federal Funding</a>
-<a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Empowerment Zone</a>
-
+<ul>
+  <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Patents</a></li>
+  <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">SBIR</a></li>
+  <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Census</a></li>
+  <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Federal Funding</a></li>
+  <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Empowerment Zone</a></li>
+</ul>
 # Patents as Innovation
 
 <i>Ever since The first Patent Act of the U.S. Congress in 1790, the patent has been a key representation of innovation and progress in the United States.</i>
@@ -53,4 +54,22 @@ _Using previous studies, we have identified three main determinants of an innova
 
 <p>Different types of regulations include federal programs for R&D funding, tax benefits, and government subsidies. In addition to the regulatory environment, literature also suggests that city growth can be measured by changes in demographic and economic factors.</p>
 
-## Regulatory data
+## Regulatory Data
+
+_We have looked into federal awards -- money that the federal government has promised to pay to companies, organizations, government entities or individuals by contracts, grants, loans or direct payments._
+<br>
+<p> For federal awards, data are available from 2001 to 2018 with each year having millions of awards and each award having 260 columns of information about funding agency, federal obligation, as well as recipient, and performance center, locations.
+For each year’s data, we aggregate average amount of federal obligation and total number of awards based on city of addresses for both recipient and primary place of performance. We use average amount instead of total amount of federal obligation as cities are having different scale of population and amount of businesses.</p>
+<br>
+<p>We also investigated the Empowerment Zone and the Small Business Innovation Research (SBIR) program. The SBIR program is a federal funding program that enables small businesses to get financial awards from federal agencies' R&D budgets which has helped thousands of small businesses with over $100 million every year since 1982.[17] For the SBIR program, data are available from 1983 to 2019 with an average of 6k awards each year and each award contains general information of business including its location, the amount of award the business receives, its funding agency and topic/field for each awarded project. We calculate the average amount of funding per business received and number of businesses awarded for each city in our model aiming to measure if this program has encouraged innovation toward cities. </p>
+
+## City Diversity Data
+
+_Demographic and household data can be collected decennially going back to 1970 from the IPUMS National Historic GIS at the census tract levels for the entire US._
+<br>
+<p>Feature of interest include total population, population by income bracket, and nativity. These tract populations were aggregated to specific cities using the open source OSMNX city shape-files available,  even down to the townships level.
+In order to determine how many people fit Richard Florida’s creative class, we collected US Economic 5 Year Data from the Census API. Years available were 1997, 2002, 2007, and 2012. Data collected includes the number of employers and employees per each job title as described by North American Industry Classification System (NAICS) per each Census designated place. Richard Florida describes the creative class as those in academia, arts, and other professions requiring an advanced degree. We mapped the job titles to create or not, and summed the number of creative and non-creative employees per each city in order to determine the size of each city’s creative class.</p>
+
+### Data Aggregation
+
+<p>A unique code per each city was designed among all datasets in order to join them. This was created by taking the city name, text processing, and appending the lower cased state abbreviation. We then performed a left join on of our collected and processed data onto the patent data in order to keep as many of the original 1000 top patent producing cities. </p>
