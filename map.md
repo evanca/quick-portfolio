@@ -16,6 +16,9 @@ customjs:
   <style id="jsbin-css">
   .boxed {
   border: 1px solid purple ;
+  display: table;
+  width: 100%;
+
   }
   .background {
     fill: #eee;
