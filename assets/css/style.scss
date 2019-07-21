@@ -2,6 +2,12 @@
 ---
 
 @import "{{ site.theme }}";
+
+
+
+.inner {
+  max-width: 75%;
+}
 $header-bg-color: #1e6bb8;
 $header-bg-color-secondary: #7EA7D3;
 
