@@ -62,7 +62,7 @@ customjs:
         <div id = 'dropdown'></div>
     </div>
   <script id="jsbin-javascript">
-  var width = 825,
+  var width = 1160,
       height = 600,
       centered;
 
