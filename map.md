@@ -57,7 +57,7 @@ customjs:
   </style>
 </head>
 <body>
-<div class="boxed">
+<div class="inner">
   <script src="https://d3js.org/d3.v3.min.js"></script>
       <div id = 'chart1'>
         <div id = 'title_div'>
