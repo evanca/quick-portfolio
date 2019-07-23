@@ -38,19 +38,9 @@
     font-size: 11px;
     line-height: 10px;
     padding: 0px;
-
+  
   }
-  h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-      font-weight: normal;
-      color: #5073B8;
-    }
+
 
 
 .page-header {
@@ -73,3 +63,24 @@
   .inner {
     max-width: 75%;
   }
+
+
+.boxed {
+  float: center !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  max-width: 100% !important;
+}
+
+body {
+  display: block;
+  margin: 0px;
+}
+
+.page{
+width: 100%;
+float: right;
+margin-right: 0;
+padding-left: 0;
+padding-right: 0;
+}
