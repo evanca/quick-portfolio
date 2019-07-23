@@ -3,6 +3,45 @@
 
 @import "{{ site.theme }}";
 
+.main-content {
+  word-wrap: break-word;
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  @include large {
+    max-width: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+
+  @include medium {
+    padding: 2rem 4rem;
+    font-size: 1.1rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
+
+  kbd {
+    background-color: #fafbfc;
+    border: 1px solid #c6cbd1;
+    border-bottom-color: #959da5;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #959da5;
+    color: #444d56;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 10px;
+    padding: 3px 5px;
+    vertical-align: middle;
+  }
+
+
 
 .page-header {
   color: #ffff;
@@ -21,10 +60,9 @@
   padding: 0px;
   }
 
-.inner {
-  max-width: 100%;
-  margin: 0px;
-}
+  .inner {
+    max-width: 75%;
+  }
 
 
 .boxed {
