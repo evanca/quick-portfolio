@@ -18,12 +18,12 @@
   }
 
   @include medium {
-    padding: 2rem 4rem;
+    padding: 0;
     font-size: 1.1rem;
   }
 
   @include small {
-    padding: 2rem 1rem;
+    padding: 0;
     font-size: 1rem;
   }
 
@@ -37,10 +37,20 @@
     display: inline-block;
     font-size: 11px;
     line-height: 10px;
-    padding: 3px 5px;
-    vertical-align: middle;
-  }
+    padding: 0px;
 
+  }
+  h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-weight: normal;
+      color: #5073B8;
+    }
 
 
 .page-header {
