@@ -23,10 +23,20 @@
 .boxed {
   float: left !important;
    margin: 0px !important;
+   padding: 0px !important;
+   max-width: 100% !important;
    border: #999999 10px solid;
 }
 
 body {
   display: block;
   margin: 0px;
+}
+
+.page{
+width: 100%;
+float: right;
+margin-right: 0;
+padding-left: 0;
+padding-right: 0;
 }
