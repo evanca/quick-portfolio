@@ -12,7 +12,7 @@ description: Information About Our Team
   </head>
 
 <body>
-<iframe name="Map" src="./framepage.htm" width="400" height="200" frameborder="0" scrolling="auto" class="frame-area">
+<iframe name="Map" src="./framepage.htm" width="100%" height="800" frameborder="0" scrolling="auto" class="frame-area">
 </iframe>
 </body>
 </html>
