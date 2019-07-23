@@ -19,13 +19,9 @@
   margin: 0px;
 }
 
-script {
-  margin: 0px;
-  padding: 0px;
-  border: #999999 5px solid;
-}
 
 .boxed {
+  float: left !important;
    margin: 0px !important;
    border: #999999 10px solid;
 }
