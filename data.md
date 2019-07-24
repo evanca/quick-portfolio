@@ -14,467 +14,447 @@ description: Information About Variables and Features
   <li><a href="https://data2.nhgis.org/main">Demographic</a></li>
   <li><a href="https://www.gao.gov/new.items/d04306.pdf">Empowerment Zone</a></li>
 </ul>
-# Patents as Innovation
 
-<i>Ever since The first Patent Act of the U.S. Congress in 1790, the patent has been a key representation of innovation and progress in the United States.</i>
+## Factors That Lead to Innovation
 
-<p>For our project, we collect, engineer, and compare two sets of features: to measure innovation itself and to explain its growth in a city. For the former, we use the thorough patent data from Patentsview.org containing detailed information on every patent assigned to a United States based organization from 1976-2014.</p>
+<p>Using previous studies, we have identified three main determinants of a city’s classification as an innovative ‘innovation hub’: regulatory, socioeconomic, and spatial. Different types of regulations include federal programs for research and development (R&D) funding, tax benefits, and government subsidies. In addition to the regulatory environment, literature also suggests that city growth can be measured by changes in demographic and socioeconomic factors. Lastly, these cities are being analyzed over time and in space to identify long-term trends and factors inherent to their geographic properties.</p>
 
 ## How to Measure Innovation?
-<p><i>Data from patent applications, provided by the PatentsView API will serve as a measure for innovation:</i>
-
-<br>
-Patent classifications, types, organizations along with other engineered features are included in our model to create a logistic regression and a random forest regression. Below we will outline the key variables that lead to increased overall patent production and how this project will classify innovation hubs.
-
-The PatentsView data gives a precise description of every successful patent application, including geographic features such as assignee and inventor locations, patent classification features, assignee organization and type, and patent forward and backward citations.</p>
+<p>The patent data obtained is from Patentsview.org. It contains detailed information on every patent assigned to a United States based organization from 1976-2014. Patents and their associated citations have shown to indicate the level of a firm’s innovative capacity, and aggregating this data by city, we can scale this model to evaluate a that capacity.</p>
 
 
-## Ranked Score - Top 5 Cities 'Innovation Hub' Indicators
+## Patent Scoring Method
 
-<p><i>Aggregating the patent data by its city helps paint a picture of each city for each year through an innovative lens.</i>
-
-<br>
- After aggregation, each city contains fields on the number of assignee patents, inventor patents, the ratio of inventor to assignee patents, citations for assignee and inventor patents, the ratio of citations to patents, proportion of patents being classified into the 8 high-level WIPO classifications, the type of assignee organization (including US/Foreign corporations, governments and individuals), and the patent type (utility, reissue, design, defensive). Below are the top 5 cities for each score, which has been standardized to account for the various different skewed features with one standard function.</p>
+<p>For the analyses, the patents were aggregated by city using a couple significant features of patents in the United States. Every patent has a list of assignees -- those who own the rights to the patent -- and a list of inventors -- those who contributed to the innovation itself -- each with an associated company and location. Additionally, every patent contains a number of citations -- the amount of new innovations built off of this patent. By aggregating the number of patents assigned and patents invented with their associated citations, two scores were generated that indicate innovative development: Patents Assigned and Patents Invented.</p>
 
  <a id="skip-to-content" href="#content">Back to Top</a>
 
-# Visualize results
+## Visualize results
 <p>First: Select two cities from the search bar.</p>
 <p>Second: Select a variable to plot from the checkbox.</p>
 
- <html>
-   <head>
-     <meta name="description" content="Capstone-Cities">
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width">
-     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
- <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/css/select2.min.css" rel="stylesheet" />
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/js/select2.full.js"></script>
-   <title>JS Bin</title>
-   <style id="jsbin-css">
+<html>
+ <head>
+   <meta name="description" content="Capstone-Cities">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/css/select2.min.css" rel="stylesheet" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.7/js/select2.full.js"></script>
+ <title>JS Bin</title>
+ <style id="jsbin-css">
+.header {
+ margin-top:20px;
+}
 
-   .header {
-     margin-top:20px;
-     margin-left:20px;
-   }
+.search {
+ width: 60%;
+ margin-top:20px;
+ margin-left:20px;
+}
 
-   .About {
-     margin-top:20px;
-     margin-left:20px;
-   }
+.label {
+ text-anchor: middle;
+}
 
-   .search {
-     width: 60%;
-     margin-top:20px;
-     margin-left:20px;
-   }
+.title {
+ font-family: Helvetica;
+ font-size: 20px;
+ fill:Black;
+ text-anchor: middle;
+}
 
-   .label {
-     fill: black;
-     font-family: Helvetica;
-     font-size: 14px;
-     text-anchor: middle;
-   }
+.axis--y1 line {
+ stroke: Crimson;
+}
 
-   .title {
-     fill:Black;
-   }
+.axis--y1 text {
+ font-size: 12px;
+ fill: Crimson;
+}
 
-   .axis--y1 path {
-   }
+.axis--y1 path {
+ stroke: Crimson;
+}
 
- .axis--y2 path {
-   }
+.axis--y2 line {
+ stroke: SteelBlue;
+}
 
-   .axis--x path {
-   }
+.axis--y2 text {
+ font-size: 12px;
+ fill: SteelBlue;
+}
 
-   .legend--frame {
-     stroke: black;
-     fill: ghostwhite;
-   }
+.axis--y2 path {
+ stroke: SteelBlue;
+}
 
-   .legend--item--box {
-     stroke: black;
-     fill: lightsteelblue;
-   }
+.axis--x path {
+}
 
-   .legend--city--box {
-     stroke: black;
-   }
+.axis--x text {
+ font-size: 10px;
+ fill:black
+}
 
-   .legend--item--label {
-     font-family: Helvetica;
-     font-size: 14px;
-     fill: black;
-     alignment-baseline: central;
-   }
+.curve {
+ fill:none;
+ stroke-width: 1.5;
+}
 
- .grid path {
-   display: none;
- }
+.legend--frame {
+ stroke: black;
+ fill: ghostwhite;
+}
 
- .grid line {
-   stroke: lightgrey;
-   opacity: 0.7;
- }
+.legend--item--box {
+ stroke: black;
+ fill: lightsteelblue;
+}
 
- .grid text {
-   display:none;
- }
- </style>
- </head>
- <body>
-   <h2 class="header">
-     Choose from the following cities
-   </h2>
-   <hr color="purple">
-     <p class="About">
-       About: <br />
-     </p>
+.legend--city--box {
+ stroke: black;
+}
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js"></script>
+.legend--item--label {
+ font-family: Helvetica;
+ font-size: 14px;
+ fill: black;
+ alignment-baseline: central;
+}
+</style>
+</head>
+<body>
+ <h2 class="header">
+   Choose From the Following Cities:
+ </h2>
+ <hr color="purple">
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js"></script>
+<script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+
  <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
 
-   <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+<script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
 
- <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
-
- <!--   <script src="http://cdnjs.cloudflare.com/ajax/libs/select2/3.5.0/select2.min.js"></script>
-   <script src="select2.js"></script> -->
- <!--
-   <script type="text/javascript" src="https://select2.github.io/vendor/js/jquery.min.js"></script>
-     <script type="text/javascript" src="https://select2.github.io/dist/js/select2.full.js"></script> -->
+<!--   <script src="http://cdnjs.cloudflare.com/ajax/libs/select2/3.5.0/select2.min.js"></script>
+ <script src="select2.js"></script> -->
+<!--
+ <script type="text/javascript" src="https://select2.github.io/vendor/js/jquery.min.js"></script>
+   <script type="text/javascript" src="https://select2.github.io/dist/js/select2.full.js"></script> -->
 
 
-   <div id="chart">
-     <div id="search">
-     </div>
+ <div id="chart">
+   <div id="search">
+   </div>
 
-     <svg width="1000" height="800"></svg>  </div>
- <script id="jsbin-javascript">
- var STATS_BY_CITY_URL = "https://raw.githubusercontent.com/rohuniyer/a_story_of_cities_and_patents/master/city_stats.json";
- var TEST_URL = "https://raw.githubusercontent.com/tingyuc3/Data/master/cityTest.json";
+   <svg width="1100" height="800"></svg>  </div>
+<script id="jsbin-javascript">
+var STATS_BY_CITY_URL = "https://raw.githubusercontent.com/rohuniyer/a_story_of_cities_and_patents/master/city_stats.json";
 
- Promise.all([d3.json(STATS_BY_CITY_URL)])
-   .then(createChart);
+Promise.all([d3.json(STATS_BY_CITY_URL)])
+ .then(createChart);
 
- // d3.json("https://raw.githubusercontent.com/rohuniyer/a_story_of_cities_and_patents/master/city_stats.json", function (stats){
- //     var allData = stats
- //    createChart(allData);
- //     });
+function createChart(allData) {    
+ var data = Object.values(allData[0]),
+     citiesMap = data.map(d=>Object.entries(d))[0]
+ .map(d=>{
+   original = d[0];
+   show = d[1].city_for_viewing;
+   return {original: original, show: show};
+ })
+ .sort((a, b) => (a.show > b.show) ? 1 : -1),
+     citiesShow = citiesMap.map(d=>d.show),
+     citiesSearch = citiesShow.map((d,i)=>{return {id:i,text:d}
+ }),
+     features = Object.keys(
+       data.map(d=>Object.values(d))
+       .flat(1)[0])
+ .filter(function(e) {
+   return (e !== 'Year' &&
+           e !== 'city_for_viewing' &&
+           e !== 'scaled_population' &&
+           e !== 'scaled_perc_creative_class');
+ })  
+ .map(d=>{
+   original = d;
+   show = d.toLowerCase()
+     .replace('_',' ')
+     .replace('_',' ')
+     .replace('_',' ')
+     .split(' ')
+     .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+     .join(' ');
+   return {original: original, show: show};
+ });
+ console.log(features)
 
- // d3.json(STATS_BY_CITY_URL).then(createChart)
+ features[1].show='SBIR Award Sum';
+ features[5].show='SBIR Award Mean';
+ features[10].show='SBIR Company Count';
+ features[23].show='Company Count Percentage';
+ features[24].show='Patents (Inventors)';
+ features[25].show='Patents (Assignees)';
+ features.sort((a, b) => (a.show > b.show) ? 1 : -1);
 
- function createChart(allData) {    
-   var data = Object.values(allData[0]),
-       cities  = data
-   .map(d=>Object.keys(d))[0]
-   .map((d,i)=>{
-     return {id:i,text:d};}),
-       //   .map((d,i)=>{city = d.split('_')[0];
-       //                state = d.split('_')[1];
-       //                city_state = city[0].toUpperCase()+city.slice(1)+', '+state.toUpperCase();
-       //                return {id:i,text:city_state};}),
+ var featuresShow = features.map(d=>d.show),
+     svg = d3.select("svg"),
+     g = svg.append("g"),
+     gPlot = svg.append("g"),
+     pArea = [400, 150, 750, 500],
+     pSize = [pArea[2]-pArea[0], pArea[3]-pArea[1]],
+     color = ['Crimson', 'SteelBlue'];
 
-             features = Object.keys(
-               data.map(d=>Object.values(d))
-               .flat(1)[1])
-         .sort(),
- //       features = ['regular_establishments',
- //                   'Award Sum',
- //                   'total_earned_bachelor',
- //                   'percent_graduate',
- //                   'performance_amount',
- //                   'Score_invented',
- //                   'Award Mean',
- //                   'total_less_than_bachelor',
- //                   'total_foreign',
- //                   'median_household_income',
- //                   'scaled_population',
- //                   'scaled_perc_creative_class',
- //                   'Company Count',
- //                   'total_earned_graduate_degree',
- //                   'percent_foreign_born',
- //                   'recipient_count',
- //                   'total_population',
- //                   'recipient_amount',
- //                   'total_native',
- //                   'percent_creative_class',
- //                   'Score_assigned',
- //                   'percent_bachelors',
- //                   'empowerment_zone',
- //                   'performance_count',
- //                   'creative_establishment_ratio',
- //                   'company_count_perc',
- //                   'inventor_patents',
- //                   'Patents',
- //                   'city_for_viewing',
- //                   'performance_mean',
- //                   'regular_employees',
- //                   'creative_employees',
- //                   'Year',
- //                   'creative_establishments',
- //                   'recipient_mean'],
+ function cityData(city) {
+   newData = data.map(d=>Object.entries(d))
+     .flat(1)
+     .filter(d=>(d[0]==city))
+     .map(d=>d[1]);
+   return newData
+ }
 
-       //   .map(d=>d
-       //        .replace('_',' ')
-       //        .replace('_',' ')
-       //        .replace('_',' '))
-       svg = d3.select("svg"),
-       g = svg.append("g"),
-       gPlot = svg.append("g"),
-       pArea = [400, 150, 750, 500],
-       pSize = [pArea[2]-pArea[0], pArea[3]-pArea[1]],
-       color = ['red', 'blue'];    
 
-   function cityData(city) {
-     newData = data.map(d=>Object.entries(d))
-       .flat(1)
-       .filter(d=>(d[0]==city))
-       .map(d=>d[1]);
-     return newData
-   }
+ function createPlot(g, feature, city) {
 
-   function createPlot(g, feature, city) {
-     d3.select(".title").remove()
-     d3.select(".axis--x").remove()
-     d3.select(".axis--y1").remove()
-     d3.select(".axis--y2").remove()
+   d3.select(".title").remove()
+   d3.select(".axis--x").remove()
+   d3.select(".axis--y1").remove()
+   d3.select(".axis--y2").remove()
+   d3.select(".curve").remove()
+   d3.select(".curve").remove()
 
-     var cityCount = city.length,
-         data1 = cityData(city[0]).map(
-           (d,i)=>{
-             if (d!==null){
-               return [d['Year'], d[feature]];
-             } else {
-               return [2001+i, 0];
-             }
-           }
-         ),
-         minValue1 = d3.min(data1, d=>d[1]),
-         maxValue1 = d3.max(data1, d=>d[1]),
-         x = d3.scaleBand()
-     .domain(d3.range(2001, 2013))
-     .range([pArea[0], pArea[2]]),
-         xAxis = d3.axisBottom(x),
-         y1 = d3.scaleLinear()
-     .domain([minValue1*0.9, maxValue1*1.1])
-     .range([pArea[3], pArea[1]]),
-         yAxisLeft = d3.axisLeft(y1);
-
-     if(cityCount==2){
-       var data2 = cityData(city[1]).map(
+   var featureOriginal = features[featuresShow.indexOf(feature)].original,
+       city1 = citiesMap[citiesShow.indexOf(city[0])].original,
+       cityCount = city.length,
+       data1 = cityData(city1).map(
          (d,i)=>{
            if (d!==null){
-             return [d['Year'], d[feature]];
+             return [d['Year'], d[featureOriginal]];
            } else {
-             return [2001+i, 0]
+             return [2001+i, 0];
            }
          }
        ),
-           minValue2 = d3.min(data2, d=>d[1]),
-           maxValue2 = d3.max(data2, d=>d[1]),
-           y2 = d3.scaleLinear()
-       .domain([minValue2, maxValue2])
-       .range([pArea[3], pArea[1]]),
-           yAxisRight= d3.axisRight(y2);
+       minValue1 = d3.min(data1, d=>d[1]),
+       maxValue1 = d3.max(data1, d=>d[1]),
+       x = d3.scaleBand()
+   .domain(d3.range(2001, 2013))
+   .range([pArea[0], pArea[2]]),
+       xAxis = d3.axisBottom(x),
+       y1 = d3.scaleLinear()
+   .domain([minValue1, maxValue1])
+   .range([pArea[3], pArea[1]]),
+       yAxisLeft = d3.axisLeft(y1).ticks(6);
 
-       //           minValue = Math.min(d3.min(data1, d=>d[1]), d3.min(data2, d=>d[1]));
-       //           maxValue = Math.max(d3.max(data1, d=>d[1]), d3.max(data2, d=>d[1]));
-     }
-
-     //         console.log(d3.max(data1, d=>d[1]))
-     //         console.log(d3.max(data2, d=>d[1]))
-     //         console.log(data1)
-     //         console.log(data2)
-
-     gPlot.append("text")
-       .attr("class", "title")
-       .attr("x", x.range()[0]+20)
-       .attr("y", 130)
-       .text(feature+" from 2001-2012");
-
-     gPlot.append("rect")
-       .attr("x", pArea[0])
-       .attr("y", pArea[1])
-       .attr("width", pSize[0])
-       .attr("height", pSize[1])
-       .attr('fill', 'seashell')
-
-     gPlot.append('g')
-       .attr("class", "axis axis--x")
-       .attr("transform", `translate(0,${pArea[3]})`)
-       .call(xAxis)
-       .append("text")
-       .attr("class", "label")
-       .attr("x", (x.range()[0]+x.range()[1])*0.5)
-       .attr("y", 40)
-       .text("Year");
-
-     gPlot.append('g')
-       .attr("class", "axis axis--y1")
-       .attr("transform", `translate(${pArea[0]},0)`)
-       .call(yAxisLeft)
-       .append("text")
-       .attr("class", "label")
-       .attr("transform", "rotate(-90)")
-       .attr("x", -(y1.range()[0]+y1.range()[1])*0.5)
-       .attr("y", -70)
-       .text(feature);
-
-
-     //     gPlot.append("g")
-     //     .attr("class", "axis grid")
-     //     .attr("transform", `translate(0,${pArea[3]})`)
-     //     .call(d3.axisBottom(x)
-     //           .ticks(5, "I")
-     //           .tickSizeInner(-350));
-
-     gPlot.append('path')
-       .datum(data1)
-       .transition().duration(2000)
-       .attr("fill", "none")
-       .attr("stroke", color[0])
-       .attr("stroke-width", 1.5)
-       .attr("d", d3.line()
-             .curve(d3.curveBasis)
-             .x(d=>x(d[0])+14.5)
-             .y(d=>y1(d[1])));     
-
-     if (cityCount==2){
-       gPlot.append('path')
-         .datum(data2)
-         .transition().duration(2000)
-         .attr("fill", "none")
-         .attr("stroke", color[1])
-         .attr("stroke-width", 1.5)
-         .attr("d", d3.line()
-               .curve(d3.curveBasis)
-               .x(d=>x(d[0])+14.5)
-               .y(d=>y2(d[1])));
-
-       gPlot.append('g')
-         .attr("class", "axis axis--y2")
-         .attr("transform", `translate(${pArea[2]},0)`)
-         .call(yAxisRight)
-         .append("text")
-         .attr("class", "label")
-         .attr("transform", "rotate(-90)")
-         .attr("x", -(y2.range()[0]+y2.range()[1])*0.5)
-         .attr("y", 70)
-         .text(feature);
-     }
-
-
-     var cityLegend = gPlot.append("g")
-     .attr("transform", `translate(${pArea[2]+70}, ${pArea[1]})`);
-
-     cityLegend.append("rect")
-       .attr("class", "legend--frame")
-       .attr("x", 0)
-       .attr("y", 0)
-       .attr("width", 120)
-       .attr("height", 50);
-
-     var legendNames =cityLegend.selectAll(".legend--item--box")
-     .data(city)
-     .enter().append("g");
-
-     legendNames.append("rect")
-       .attr("class", "legend--city--box")
-       .attr("x", 5)
-       .attr("y", (d,i) => (i*20+10))
-       .attr("width", 10)
-       .attr("height", 10)
-       .attr("fill", (d,i)=>color[i]);
-
-     legendNames.append("text")
-       .attr("class", "legend--item--label")
-       .attr("x", 25)
-       .attr("y", (d,i) => (15+i*20))
-       .text((d, i) => d);
-
+   if (maxValue1>1e3) {
+     yAxisLeft.tickFormat(d3.formatPrefix(".1", 1e3));
    }
 
-   $('#search').select2({
-     data: cities,
-     placeholder: "Select a City",
-     multiple:'multiple',
-     allowClear: true,
-     maximumSelectionLength: 2,
-     containerCssClass: "search"});
+   if (maxValue1>1e6) {
+     yAxisLeft.tickFormat(d3.formatPrefix(".1", 1e6));
+   }
 
-   var legend = g.append("g")
-   .attr("transform", "translate(20,30)");
+   if(cityCount==2){
 
-   legend.append("rect")
+     var city2 = citiesMap[citiesShow.indexOf(city[1])].original,
+         data2 = cityData(city2).map(
+           (d,i)=>{
+             if (d!==null){
+               return [d['Year'], d[featureOriginal]];
+             } else {
+               return [2001+i, 0]
+             }
+           }
+         ),
+         minValue2 = d3.min(data2, d=>d[1]),
+         maxValue2 = d3.max(data2, d=>d[1]),
+         y2 = d3.scaleLinear()
+     .domain([minValue2, maxValue2])
+     .range([pArea[3], pArea[1]]),
+         yAxisRight= d3.axisRight(y2).ticks(6);
+
+     if (maxValue2>=1e3) {
+       yAxisRight.tickFormat(d3.formatPrefix(".1", 1e3));
+     }
+
+     if (maxValue2>1e6) {
+       yAxisRight.tickFormat(d3.formatPrefix(".1", 1e6));
+     }
+   }
+
+   gPlot.append("text")
+     .attr("class", "title")
+     .attr("x", (x.range()[0]+x.range()[1])*0.5)
+     .attr("y", 130)
+     .text(feature+" from 2001-2012");
+
+   gPlot.append("rect")
+     .attr("x", pArea[0])
+     .attr("y", pArea[1])
+     .attr("width", pSize[0])
+     .attr("height", pSize[1])
+     .attr('fill', 'none')
+
+   gPlot.append('g')
+     .attr("class", "axis axis--x")
+     .attr("transform", `translate(0,${pArea[3]})`)
+     .call(xAxis)
+     .append("text")
+     .attr("class", "label")
+     .attr("x", (x.range()[0]+x.range()[1])*0.5)
+     .attr("y", 40)
+     .text("Year");
+
+   gPlot.append('g')
+     .attr("class", "axis axis--y1")
+     .attr("transform", `translate(${pArea[0]},0)`)
+     .call(yAxisLeft)
+     .append("text")
+     .attr("class", "label")
+     .attr("transform", "rotate(-90)")
+     .attr("x", -(y1.range()[0]+y1.range()[1])*0.5)
+     .attr("y", -60)
+     .text(feature +' for ' + city[0]);
+
+   gPlot.append('path')
+     .attr("class", "curve")
+     .datum(data1)
+     .transition().duration(4000)
+     .attr("stroke", color[0])
+     .attr("d", d3.line()
+           .curve(d3.curveMonotoneX)
+           .x(d=>x(d[0])+14.5)
+           .y(d=>y1(d[1])));     
+
+   if (cityCount==2){
+
+     gPlot.append('path')
+       .attr("class", "curve")
+       .datum(data2)
+       .transition().duration(2000)
+       .attr("stroke", color[1])
+       .attr("d", d3.line()
+             .curve(d3.curveMonotoneX)
+             .x(d=>x(d[0])+14.5)
+             .y(d=>y2(d[1])));
+
+     gPlot.append('g')
+       .attr("class", "axis axis--y2")
+       .attr("transform", `translate(${pArea[2]},0)`)
+       .call(yAxisRight)
+       .append("text")
+       .attr("class", "label")
+       .attr("transform", "rotate(90)")
+       .attr("x", (y2.range()[0]+y2.range()[1])*0.5)
+       .attr("y", -60)
+       .text(feature + ' for ' + city[1]);
+   }
+
+   var cityLegend = gPlot.append("g")
+   .attr("transform", `translate(${pArea[2]+70}, ${pArea[1]})`);
+
+   cityLegend.append("rect")
      .attr("class", "legend--frame")
      .attr("x", 0)
      .attr("y", 0)
-     .attr("width", 250)
-     .attr("height", 710);
+     .attr("width", 190)
+     .attr("height", 50);
 
-   var legendItems = legend.selectAll(".legend--item--box")
-   .data(features)
+   var legendNames =cityLegend.selectAll(".legend--item--box")
+   .data(city)
    .enter().append("g");
 
-   legendItems.append("rect")
-     .attr("class", "legend--item--box")
+   legendNames.append("rect")
+     .attr("class", "legend--city--box")
      .attr("x", 5)
      .attr("y", (d,i) => (i*20+10))
      .attr("width", 10)
-     .attr("height", 10);
+     .attr("height", 10)
+     .attr("fill", (d,i)=>color[i]);
 
-   legendItems.append("text")
+   legendNames.append("text")
      .attr("class", "legend--item--label")
      .attr("x", 25)
-     .attr("y", (d,i) => (15+i*20))
+     .attr("y", (d,i) => (i*20+15))
      .text((d, i) => d);
 
- //   console.log($("#search").select2('data'))  
-
-   $("#search").on('change', function(){
-     var output = ($("#search").select2('data')
-                   .map(d=>Object.values(d)[2]));
-     legendItems.on("click", d=> createPlot(gPlot, d, output));
-   })
  }
- </script>
 
- </body>
- </html>
+ createPlot(g, 'Patents (Assignees)', ["Green Bay, WI", "San Jose, CA"])
 
-# Factors That Lead to Innovation
 
-_Using previous studies, we have identified three main determinants of an innovative ecosystem: regulatory, socioeconomic, and spatial._
+ $('#search').select2({
+   data: citiesSearch,
+   placeholder: "Select a City",
+   multiple:'multiple',
+   allowClear: true,
+   maximumSelectionLength: 2,
+   containerCssClass: "search"});
 
-<p>Different types of regulations include federal programs for R&D funding, tax benefits, and government subsidies. In addition to the regulatory environment, literature also suggests that city growth can be measured by changes in demographic and economic factors.</p>
+ var legend = g.append("g")
+ .attr("transform", "translate(20,30)");
+
+ legend.append("rect")
+   .attr("class", "legend--frame")
+   .attr("x", 0)
+   .attr("y", 0)
+   .attr("width", 240)
+   .attr("height", 630);
+
+ var legendItems = legend.selectAll(".legend--item--box")
+ .data(featuresShow)
+ .enter().append("g");
+
+ legendItems.append("rect")
+   .attr("class", "legend--item--box")
+   .attr("x", 5)
+   .attr("y", (d,i) => (i*20+10))
+   .attr("width", 10)
+   .attr("height", 10);
+
+ legendItems.append("text")
+   .attr("class", "legend--item--label")
+   .attr("x", 25)
+   .attr("y", (d,i) => (15+i*20))
+   .text((d, i) => d);
+
+
+ $("#search").on('change', function(){
+   var output = ($("#search").select2('data')
+                 .map(d=>Object.values(d)[2]));
+   legendItems.on("click", d=>{createPlot(gPlot, d, output)});
+ })
+}
+</script>
+
+</body>
+</html>
+__
 
 ## Regulatory Data
 
-_We have looked into federal awards -- money that the federal government has promised to pay to companies, organizations, government entities or individuals by contracts, grants, loans or direct payments._
-<br>
-<p> For federal awards, data are available from 2001 to 2018 with each year having millions of awards and each award having 260 columns of information about funding agency, federal obligation, as well as recipient, and performance center, locations.
-For each year’s data, we aggregate average amount of federal obligation and total number of awards based on city of addresses for both recipient and primary place of performance. We use average amount instead of total amount of federal obligation as cities are having different scale of population and amount of businesses.</p>
-
-<p>We also investigated the Empowerment Zone and the Small Business Innovation Research (SBIR) program. The SBIR program is a federal funding program that enables small businesses to get financial awards from federal agencies' R&D budgets which has helped thousands of small businesses with over $100 million every year since 1982.[17] For the SBIR program, data are available from 1983 to 2019 with an average of 6k awards each year and each award contains general information of business including its location, the amount of award the business receives, its funding agency and topic/field for each awarded project. We calculate the average amount of funding per business received and number of businesses awarded for each city in our model aiming to measure if this program has encouraged innovation toward cities. </p>
+<p>A federal award can be defined as money the federal government has promised to pay to companies, organizations, government entities or individuals. This is done by contracts, grants, loans or direct payments. Federal awards data are available from 2001 to 2018 with each year having millions of awards. Each award has 260 features ranging from funding agency, federal obligation, to recipient, and performance center, and location.
+Each year’s data was aggregated to average amount of federal obligation and total number of awards based on recipient city and primary place of performance. The average amount was used instead of the total amount of federal obligation to account for the large variation in the sizes of cities being analyzed. </p>
+<p>Empowerment Zone’s and the Small Business Innovation Research (SBIR) program were investigated as well. The SBIR program is a federal funding program that enables small businesses to get financial awards from federal agencies' R&D budgets helping thousands of small businesses with over $100 million awarded every year since 1982. For the SBIR program, data are available from 1983 to 2019 with an average of six thousand awards each year and each award containing general information of each business including its location, the amount of award the business receives, its funding agency and topic/field for each awarded project.</p>
 
 ## City Diversity Data
 
-_Demographic and household data can be collected decennially going back to 1970 from the IPUMS National Historic GIS at the census tract levels for the entire US._
-<br>
-<p>Feature of interest include total population, population by income bracket, and nativity. These tract populations were aggregated to specific cities using the open source OSMNX city shape-files available,  even down to the townships level.
-In order to determine how many people fit Richard Florida’s creative class, we collected US Economic 5 Year Data from the Census API. Years available were 1997, 2002, 2007, and 2012. Data collected includes the number of employers and employees per each job title as described by North American Industry Classification System (NAICS) per each Census designated place. Richard Florida describes the creative class as those in academia, arts, and other professions requiring an advanced degree. We mapped the job titles to create or not, and summed the number of creative and non-creative employees per each city in order to determine the size of each city’s creative class.</p>
+<p>Demographic and household data can be collected decennially going back to 1970 from the Census’ IPUMS National Historic GIS at the place levels for the entire U.S. Features of interest include total population, median household income, education, and nativity.</p>
+
+<p>In order to determine how many people fit Richard Florida’s creative class, we collected US Economic 5 Year Data from the Census API. Years available were 1997, 2002, 2007, and 2012. Data collected includes the number of employers and employees per each job title as described by North American Industry Classification System (NAICS) per Census designated place. Richard Florida describes the creative class as those in academia, arts, and other professions requiring an advanced degree. We mapped the job titles to create or not, and summed the number of creative and non-creative employees per city in order to determine the size of each city’s creative class.</p>
 
 <a id="skip-to-content" href="#content">Back to Top</a>
 
 ### Data Aggregation
 
-<p>A unique code per each city was designed among all datasets in order to join them. This was created by taking the city name, text processing, and appending the lower cased state abbreviation. We then performed a left join on of our collected and processed data onto the patent data in order to keep as many of the original 1000 top patent producing cities. </p>
+<p>A unique code per each city was designed as such, city_state (ex. sanjose_ca), among all datasets in order to join them. We then performed a left join on of our collected and processed data onto the patent data in order to keep as many of the original 1000 top patent producing cities. All final features and their explanations can be found within the appendix.</p>
 
 ## Limitations
 
-<p> A major limitation faced by this experiment was the decline in number of municipalities through various stages of this study. With the original top 1,000 patent producing cities, the retention rate after all the joins with other datasets was found to be between 55%-80%. One reason this occurred was due to PatentsView irregular use of geographies within the same location feature. For instance New York City, NY and Woodlawn, IL, a neighborhood within Chicago, were both listed within the top 1,000 patent producing cities. Finding neighborhood level data (being federal funding, socio-economic, etc.) was not possible and, as a result, neighborhoods, towns, and small municipalities were largely dropped. This amount of data reduction allowed for limited model selection, with the random forest and logistic regressions as the best options. External data sets not only limited the number of cities, but also the years of analysis. PatentsView data went back to the 1970s. However, between all these external data sources, the window of analysis was found between 2001 and  2012. This window allows for the experiment to determine what features are significant to city patent production, but not how these cities became patent producing 'hubs'. Lastly, this time frame also includes two recessions, one being the Great Recession, resulting in outlier data found in 2008 across many features.</p>
+<p> A major limitation faced by this experiment was the decline in number of municipalities through various stages of this study. With the original top 1,000 patent producing cities, the retention rate after all the joins with other datasets was found to be between 55%-80%. One reason this occurred was due to PatentsView irregular use of geographies within the same location feature. For instance New York City, NY and Woodlawn, IL -- a neighborhood within Chicago -- were both listed within the top 1,000 patent producing cities. Finding neighborhood level data across various data sources was not possible and, as a result, neighborhoods, towns, and small municipalities were mostly dropped. This amount of data reduction allowed for limited model selection, with the random forest and logistic regressions as the best options. </p>
+<p>External data sets not only limited the number of cities, but also the years of analysis. PatentsView data went back to the 1970s, however, between all these external data sources, the window of analysis was shorted to 2001 through  2012. This window allows for the experiment to determine what features are significant to city patent production, but not how these cities became patent producing 'hubs'.
+</p>
 
 <a id="skip-to-content" href="#content">Back to Top</a>
