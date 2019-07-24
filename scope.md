@@ -47,8 +47,8 @@ description: Project Scope and Problem Statement
 
 </style>
 
-# Scope
-To understand how this development of an innovation hub happens in a city, we will analyze more than thirty-five years of patent data in the United States from 1976-2014. Our regression analysis will explore three dimensions that influence the growth of innovation: regulation, socioeconomic diversity, and the spatial geography of the city.
+## Scope
+<p>Cities can measure success in many ways, one being economic output. Cities grow and shrink based on their output, whether it is measured through the number of jobs, employers, GDP, innovation, and so on (Quigley et al). It becomes difficult for newer or smaller cities to increase their own output comparable to that of larger cities. For instance startups like to form in regions where they have the best chance for success, such as incubators in Silicon Valley. But what got Silicon Valley to where it is today? And can other cities replicate their success? The goal of this paper to identify how cities can invest in their economic future. This is accomplished by developing an innovation score.  This will provide an understanding of the urban structure that facilitates the growth of innovation in the form of patent production.</p>
 
 
 # Problem Statement:
