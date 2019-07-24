@@ -15,21 +15,21 @@ description: Information About Variables and Features
   <li><a href="https://www.gao.gov/new.items/d04306.pdf">Empowerment Zone</a></li>
 </ul>
 
-## Factors That Lead to Innovation
+<h2> Factors That Lead to Innovation</h2>
 
 <p>Using previous studies, we have identified three main determinants of a city’s classification as an innovative ‘innovation hub’: regulatory, socioeconomic, and spatial. Different types of regulations include federal programs for research and development (R&D) funding, tax benefits, and government subsidies. In addition to the regulatory environment, literature also suggests that city growth can be measured by changes in demographic and socioeconomic factors. Lastly, these cities are being analyzed over time and in space to identify long-term trends and factors inherent to their geographic properties.</p>
 
-## How to Measure Innovation?
+<h2> How to Measure Innovation?</h2>
 <p>The patent data obtained is from Patentsview.org. It contains detailed information on every patent assigned to a United States based organization from 1976-2014. Patents and their associated citations have shown to indicate the level of a firm’s innovative capacity, and aggregating this data by city, we can scale this model to evaluate a that capacity.</p>
 
 
-## Patent Scoring Method
+<h2>Patent Scoring Method</h2>
 
 <p>For the analyses, the patents were aggregated by city using a couple significant features of patents in the United States. Every patent has a list of assignees -- those who own the rights to the patent -- and a list of inventors -- those who contributed to the innovation itself -- each with an associated company and location. Additionally, every patent contains a number of citations -- the amount of new innovations built off of this patent. By aggregating the number of patents assigned and patents invented with their associated citations, two scores were generated that indicate innovative development: Patents Assigned and Patents Invented.</p>
 
  <a id="skip-to-content" href="#content">Back to Top</a>
 
-## Visualize results
+<h2> Visualize results</h2>
 <p>First: Select two cities from the search bar.</p>
 <p>Second: Select a variable to plot from the checkbox.</p>
 
@@ -433,13 +433,13 @@ function createChart(allData) {
 </html>
 __
 
-## Regulatory Data
+<h2> Regulatory Data</h2>
 
 <p>A federal award can be defined as money the federal government has promised to pay to companies, organizations, government entities or individuals. This is done by contracts, grants, loans or direct payments. Federal awards data are available from 2001 to 2018 with each year having millions of awards. Each award has 260 features ranging from funding agency, federal obligation, to recipient, and performance center, and location.
 Each year’s data was aggregated to average amount of federal obligation and total number of awards based on recipient city and primary place of performance. The average amount was used instead of the total amount of federal obligation to account for the large variation in the sizes of cities being analyzed. </p>
 <p>Empowerment Zone’s and the Small Business Innovation Research (SBIR) program were investigated as well. The SBIR program is a federal funding program that enables small businesses to get financial awards from federal agencies' R&D budgets helping thousands of small businesses with over $100 million awarded every year since 1982. For the SBIR program, data are available from 1983 to 2019 with an average of six thousand awards each year and each award containing general information of each business including its location, the amount of award the business receives, its funding agency and topic/field for each awarded project.</p>
 
-## City Diversity Data
+<h2>City Diversity Data</h2>
 
 <p>Demographic and household data can be collected decennially going back to 1970 from the Census’ IPUMS National Historic GIS at the place levels for the entire U.S. Features of interest include total population, median household income, education, and nativity.</p>
 
@@ -447,11 +447,11 @@ Each year’s data was aggregated to average amount of federal obligation and to
 
 <a id="skip-to-content" href="#content">Back to Top</a>
 
-### Data Aggregation
+<h2> Data Aggregation</h2>
 
 <p>A unique code per each city was designed as such, city_state (ex. sanjose_ca), among all datasets in order to join them. We then performed a left join on of our collected and processed data onto the patent data in order to keep as many of the original 1000 top patent producing cities. All final features and their explanations can be found within the appendix.</p>
 
-## Limitations
+<h2> Limitations</h2>
 
 <p> A major limitation faced by this experiment was the decline in number of municipalities through various stages of this study. With the original top 1,000 patent producing cities, the retention rate after all the joins with other datasets was found to be between 55%-80%. One reason this occurred was due to PatentsView irregular use of geographies within the same location feature. For instance New York City, NY and Woodlawn, IL -- a neighborhood within Chicago -- were both listed within the top 1,000 patent producing cities. Finding neighborhood level data across various data sources was not possible and, as a result, neighborhoods, towns, and small municipalities were mostly dropped. This amount of data reduction allowed for limited model selection, with the random forest and logistic regressions as the best options. </p>
 <p>External data sets not only limited the number of cities, but also the years of analysis. PatentsView data went back to the 1970s, however, between all these external data sources, the window of analysis was shorted to 2001 through  2012. This window allows for the experiment to determine what features are significant to city patent production, but not how these cities became patent producing 'hubs'.
