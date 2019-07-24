@@ -12,6 +12,4 @@ _In recent years there has been great interest around cities and their new produ
 
 ## Working Materials
 <ul>
-  <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Final Technical Report</a></li>
-  <li><a href="https://github.com/rohuniyer/a_story_of_cities_and_patents">Capstone Presentation</a></li>
-</ul>
+  <li><a href="./Final_Technical_Report/Innovation_Hubs_A_Story_of_Cities_and_Patents.pdf">Final Technical Report</a></li>
