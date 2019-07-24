@@ -48,7 +48,9 @@ description: Project Scope and Problem Statement
 </style>
 
 ## Scope
-<p>Cities can measure success in many ways, one being economic output. Cities grow and shrink based on their output, whether it is measured through the number of jobs, employers, GDP, innovation, and so on (Quigley et al). It becomes difficult for newer or smaller cities to increase their own output comparable to that of larger cities. For instance startups like to form in regions where they have the best chance for success, such as incubators in Silicon Valley. But what got Silicon Valley to where it is today? And can other cities replicate their success? The goal of this paper to identify how cities can invest in their economic future. This is accomplished by developing an innovation score.  This will provide an understanding of the urban structure that facilitates the growth of innovation in the form of patent production.</p>
+<p>Cities can measure success in many ways, one being economic output. Cities grow and shrink based on their output, whether it is measured through the number of jobs, employers, GDP, innovation, and so on. </p>
+
+<p>It becomes difficult for newer or smaller cities to increase their own output comparable to that of larger cities. For instance startups like to form in regions where they have the best chance for success, such as incubators in Silicon Valley. But what got Silicon Valley to where it is today? And can other cities replicate their success? The goal of this paper to identify how cities can invest in their economic future. This is accomplished by developing an innovation score.  This will provide an understanding of the urban structure that facilitates the growth of innovation in the form of patent production.</p>
 
 
 # Problem Statement:
