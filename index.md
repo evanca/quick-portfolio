@@ -2,7 +2,13 @@
 
 ---
 
-### Computational Complexity 
+## Kagglenoobs The Data Science Community
+
+---
+[Kagglenoobs](https://github.com/jorellano/kagglebot)
+<img src="images/knoobs.png?raw=true"/>
+
+
 
 [Fast Multipole Method (FMM)](/sample_page)
 <img src="images/barnes_hut.gif?raw=true"/>
@@ -16,14 +22,21 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
+[Appearances](https://www.youtube.com/watch?v=-SZ8o8YNgY0)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-### Category Name 2
+### How_to_projects
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)
+
+---
+
+
+
 
 ---
 
