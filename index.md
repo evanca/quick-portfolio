@@ -10,7 +10,7 @@
 
 
 
-[Fast Multipole Method (FMM)](/sample_page)
+[Fast Multipole Method (FMM)](/portfolio/sample_page)
 <img src="images/barnes_hut.gif?raw=true"/>
 
 ---
