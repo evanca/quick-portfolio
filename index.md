@@ -5,7 +5,7 @@
 ## Kagglenoobs The Data Science Community
 
 ---
-[Kagglenoobs](https://github.com/jorellano/kagglebot)
+[Kagglenoobs](/portfolio/knoobs.md)
 <img src="images/knoobs.png?raw=true"/>
 
 
