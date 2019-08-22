@@ -6,6 +6,8 @@ Kagglenoobs is a slack channel I started 4 years ago, when I had no idea how to 
 
 Over the past 4 years, I have seen the field of ML expand to many different disciplines, and have been impressed by the helpful community I surrounded myself with. The 
 
+[Join us ]( https://github.com/jorellano/kagglebot) for the github, or check us out on [slack](https://kagglenoobs.herokuapp.com) and talk to me or one of the many people who are much more intelligent than I.
+
 
 **Project description:** The N-body problem is a physics problem that was first understood the great himself, Newton. He was the first to solve this problem when he was able to map the trajectories of the planets in our solar system. The problem was then revisited in the 1960's by Rohklin & Greengard when they created the Fast Multi Pole method to understand the movement of (damn I forgot, edit later)... Now to what I am doing.: My interest in this specific algorithm is for ML & inevitably DL where problems in NLP tend to have (O)N^2 complex problems. 
 
