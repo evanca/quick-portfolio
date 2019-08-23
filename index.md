@@ -27,7 +27,7 @@
 
 ### How_to_projects
 
-- [Project 1 Title](http://example.com/)
+- [Project 1 Title](something_willgohere/)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
