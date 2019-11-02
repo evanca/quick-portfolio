@@ -1,35 +1,19 @@
-## Portfolio
+## Examples
 
 ---
 
-### Category Name 1 
+### Microservices
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Azure Water Monitoring System](https://github.com/smitchell/water-monitoring-azure-example)
+<img src="images/FloodWarning.png?raw=true"/>
 
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [Soring Cloud Vault](https://github.com/smitchell/spring-cloud-config-vault)
+- [Spring OAuth2 SSO](https://github.com/smitchell/spring-oauth2-sso-config-no-eureka)
+- [Cloud Foundry Angular](https://github.com/smitchell/cloud-foundry-angular-example)
+- [Spring Batch](https://github.com/smitchell/batch-demo)
+- [ACLED to GeoJSON](https://github.com/smitchell/acled-to-geojson)
+- [Garmin FIT file to GeoJSON](garmin-fit-geojson)
 
 ---
-
-
-
-
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+<p style="font-size:8px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+<!-- Remove above link if you don't want to attribute -->
