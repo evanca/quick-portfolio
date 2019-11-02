@@ -1,16 +1,20 @@
-## Examples
+## Git Projects
 
 ---
 
 ### Microservices
 
 [Azure Water Monitoring System](https://github.com/smitchell/water-monitoring-azure-example)
+
 <img src="images/FloodWarning.png?raw=true"/>
 
-- [Soring Cloud Vault](https://github.com/smitchell/spring-cloud-config-vault)
+### Spring Framework
+- [Spring Cloud Vault](https://github.com/smitchell/spring-cloud-config-vault)
 - [Spring OAuth2 SSO](https://github.com/smitchell/spring-oauth2-sso-config-no-eureka)
 - [Cloud Foundry Angular](https://github.com/smitchell/cloud-foundry-angular-example)
 - [Spring Batch](https://github.com/smitchell/batch-demo)
+
+### Geospatial
 - [ACLED to GeoJSON](https://github.com/smitchell/acled-to-geojson)
 - [Garmin FIT file to GeoJSON](garmin-fit-geojson)
 
