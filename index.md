@@ -13,6 +13,7 @@
 - [Spring OAuth2 SSO](https://github.com/smitchell/spring-oauth2-sso-config-no-eureka)
 - [Cloud Foundry Angular](https://github.com/smitchell/cloud-foundry-angular-example)
 - [Spring Batch](https://github.com/smitchell/batch-demo)
+- [Spring JDBC vs eCache](https://github.com/smitchell/SpringJdbcEcache)
 
 ### Geospatial
 - [ACLED to GeoJSON](https://github.com/smitchell/acled-to-geojson)
