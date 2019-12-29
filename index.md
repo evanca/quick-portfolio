@@ -9,7 +9,7 @@
 
 ---
 [TicTacToe C++](https://github.com/sayashraaj/tictactoe)
-<img src="images/project2collage.png?raw=true"/>
+<img src="images/project2collage.jpg?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
