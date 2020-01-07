@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[Macros](/macros)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
