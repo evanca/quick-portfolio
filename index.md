@@ -2,21 +2,19 @@
 
 ---
 
-### Category Name 1 
+### Macros
 
-[Macros](/macros)
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[1. Cloudflare Follow-up](/macros1)
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Macro 2 Title](/pdf/sample_presentation.pdf)
+
+---
+[Macro 3 Title](http://example.com/)
 
 ---
 
-### Category Name 2
+### User Guides
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
