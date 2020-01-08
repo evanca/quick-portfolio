@@ -42,9 +42,6 @@ To support the team through this unexpected inbound, I crafted the following mac
 
 This macro was quickly utilized by the entire team to respond to customer inquiries. By providing assurance, including more specific instructions, and utilizing an image, we were able to clarify what actions were required by our users. Within 4 hours, ticket numbers decreased from 265 to 7.
 
-### 2. Macro 2
-
-Macro 2 text
 
 [Back to Menu](/index)
 
