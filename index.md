@@ -5,7 +5,7 @@
 ### Macros
 
 [1. Cloudflare Follow-up](/macros1)<br>
-[Macro 2 Title](/pdf/sample_presentation.pdf)<br>
+[2. Black Friday](/macros2)<br>
 [Macro 3 Title](http://example.com/)<br>
 
 ---
