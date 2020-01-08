@@ -34,7 +34,7 @@ To support the team through this unexpected inbound, I crafted the following mac
 >
 >Here is a general example screenshot -- however, please note this might look different on your end, depending on what DNS service you use:
 >
->https://share.getcloudapp.com/kpuyxZ92
+>[Screenshot](https://share.getcloudapp.com/kpuyxZ92)
 >
 >As long as the above is correct on your account, then you should be all set and no changes will need to be made!
 >
