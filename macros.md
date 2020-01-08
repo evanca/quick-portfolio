@@ -46,5 +46,5 @@ This macro was quickly utilized by the entire team to respond to customer inquir
 
 Macro 2 text
 
-###[Back to Menu](p/index)
+**[Back to Menu]**(/index)
 
