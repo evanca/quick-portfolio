@@ -18,7 +18,7 @@ I create and maintain a repository of over 200 macros for a customer support tea
 
 The email included techincal jargon, as well as concerning language (e.g., "potential outages"). This created confusion and concern for users. As a result, the Customer Care department was quickly inundated with more inbound than the team was prepared to handle. Additionally, custom domain issues are difficult to troubleshoot since the Customer Care team does not have access to users' DNS records.
 
-In an attempt to support the team through this unexpected inbound, I crafted the following macro that same morning.
+To support the team through this unexpected inbound, I crafted the following macro that same morning.
 
 *Follow-up Macro:*
 
@@ -40,9 +40,11 @@ In an attempt to support the team through this unexpected inbound, I crafted the
 >
 >If you have further concerns, please feel free to send over a screenshot of your DNS records and we'd be happy to review and look into this further for you.
 
-This macro was quickly utilized by the entire team to respond to customer inquiries. Within 4 hours, ticket numbers decreased from 265 to 7.
+This macro was quickly utilized by the entire team to respond to customer inquiries. By providing assurance, including more specific instructions, and utilizing an image, we were able to clarify what actions were required by our users. Within 4 hours, ticket numbers decreased from 265 to 7.
 
 ### 2. Macro 2
 
 Macro 2 text
+
+###[Back to Menu](p/index)
 
