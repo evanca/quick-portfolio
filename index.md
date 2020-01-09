@@ -1,5 +1,6 @@
 ## Portfolio
 
+This portfolio is a work in progress and will be updated on a working basis.
 ---
 
 ### Macros
