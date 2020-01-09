@@ -12,7 +12,7 @@ I create and maintain a repository of over 200 macros for a customer support tea
 
 The Customer Care team was challenged with responding to pushback from angry existing customers, while maintaining company line on marketing campaign decisions. 
 
-*Macro Copy:
+*Macro Copy*:
 > Thank you for following up on this and for your honest feedback!
 >
 >I understand you're disappointed to not receive the new customer promotional discount, and I've certainly passed this along to our team here.
@@ -25,5 +25,6 @@ The Customer Care team was challenged with responding to pushback from angry exi
 >
 >If you have any additional questions, feel free to reach out at any time. We're happy to help, and hope you have a great day!
 
+This macro was utilized to de-escalate loyal custoners and keep our team functioning through a period of high inbound.
 
 [Back to Menu](/index)
