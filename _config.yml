@@ -3,7 +3,7 @@ logo: "/images/zinaspain2.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   My professional portfolio 
   <br>
-  <a href = "/aboutme">A little more about me</a>
+  <a href = "/personal">A little more about me</a>
   
   <br><br>
   <a href = "mailto: zinakurian@gmail.com">zinakurian@gmail.com</a>
