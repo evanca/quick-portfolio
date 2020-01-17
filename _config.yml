@@ -3,10 +3,10 @@ logo: "/images/zinaspain2.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   My professional portfolio 
   <br><br>
-  zinakurian@gmail.com
-  <br>zkurian2@jhu.edu
+  <a href = "mailto: zinakurian@gmail.com">zinakurian@gmail.com</a>
   <br>
-  @letsmapit
+  <a href = "mailto: zkurian2@jhu.edu">zkurian2@jhu.edu</a>
+  <br>
   
   <br><br>
   <a href="https://www.linkedin.com/in/zinakurian">View My LinkedIn Profile</a> 
