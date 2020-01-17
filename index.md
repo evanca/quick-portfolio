@@ -4,7 +4,7 @@
 
 ### Projects
 
-[Biomedical Design Course Projects](/instrumentation.md)
+[Biomedical Design Course Projects](/instruments)
 
 ---
 [Santa Clara University - Senior Design](/seniordesign.md)
