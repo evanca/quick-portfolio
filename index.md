@@ -4,23 +4,19 @@
 
 ### Projects
 
-[Biomedical Design Course Projects](/instrumentation)
+[Biomedical Design Course Projects](/instrumentation.md)
 
 ---
-[Santa Clara University - Senior Design](/seniordesign)
+[Santa Clara University - Senior Design](/seniordesign.md)
 
----
-[Project 3 Title](http://example.com/)
 
 ---
 
 ### Industry Experience
 
-- [Clinical Account Specialist](http://example.com/)
+- Clinical Account Specialist
 - [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+
 
 ---
 
