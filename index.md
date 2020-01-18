@@ -7,7 +7,7 @@
 [Biomedical Design Course Projects](/instruments)
 
 ---
-[Santa Clara University - Senior Design](/seniordesign.md)
+[Santa Clara University - Senior Design](/seniordesign)
 
 
 ---
