@@ -12,7 +12,7 @@
 
 ### User Guides
 
-[1. How to Use an Umbrella](/pdf/umbrella)
+[1. How to Use an Umbrella](/pdf/umbrella.pdf)
 
 ---
 
