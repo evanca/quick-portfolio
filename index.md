@@ -13,7 +13,7 @@
 
 ---
 [Wildlife Photography](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/20200129_004032-COLLAGE.jpg?raw=true"/>
 
 ---
 
