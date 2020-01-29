@@ -5,7 +5,7 @@
 ### Current Projects 
 
 [Baltimore STEW-MAP](/sample_page)
-<img src="images/stewmap.png?raw=true"/>
+<img src="images/Screenshot (92).png?raw=true"/>
 
 ---
 [Algal Biofuels Research](/pdf/sample_presentation.pdf)
