@@ -4,16 +4,15 @@
 
 ### Current Projects 
 
+[Wildlife Photography](http://example.com/)
+<img src="images/20200129_004923-COLLAGE.jpg?raw=true"/>
+---
 [Baltimore STEW-MAP](/sample_page)
 <img src="images/Screenshot (92).png?raw=true"/>
 
 ---
 [Algal Biofuels Research](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Wildlife Photography](http://example.com/)
-<img src="images/20200129_004923-COLLAGE.jpg?raw=true"/>
 
 ---
 
