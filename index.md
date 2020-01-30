@@ -10,7 +10,7 @@
 ---
 [Baltimore Stewardship Mapping Project](https://www.nrs.fs.fed.us/stew-map/baltimore/)
 <img src="images/Screenshot (92).png?raw=true"/>
-
+As a research assistant for Baltimore STEW-MAP 2019 I am updating Baltimore’s comprehensive map of the hundreds of civic groups partcipiating in environmental stewardship in Baltimore. 
 
 ---
 [Algal Biofuels Research](/pdf/sample_presentation.pdf)
