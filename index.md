@@ -4,10 +4,11 @@
 
 ### Current Projects 
 
-[Wildlife Photography](http://example.com/)
+[Wildlife Photography](https://www.instagram.com/allthingswild.photos/)
 <img src="images/20200129_004923-COLLAGE.jpg?raw=true"/>
+
 ---
-[Baltimore STEW-MAP](/sample_page)
+[Baltimore Stewardship Mapping Project](https://www.nrs.fs.fed.us/stew-map/baltimore/)
 <img src="images/Screenshot (92).png?raw=true"/>
 
 ---
