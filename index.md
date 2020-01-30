@@ -11,14 +11,14 @@
 [Baltimore Stewardship Mapping Project](https://www.nrs.fs.fed.us/stew-map/baltimore/)
 <img src="images/Screenshot (92).png?raw=true"/>
 
+
 ---
 [Algal Biofuels Research](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
-### Category Name 2
-
+### Other Work
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
