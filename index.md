@@ -2,13 +2,13 @@
 
 ---
 
-### Category Name 1 
+### Machine Learning Project in R 
 
-[Project 1 Title](/myProject/Xiaoran_Yujing_TeamPsyduckHeadache~!)
+[Zero-Inflated Poisson Model](/MyProject/Xiaoran_Yujing_TeamPsyduckHeadache~!)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/myProject/Urban_Growth_Environmental_Protection.pdf)
+[Project 2 Title](/MyProject/Urban_Growth_Environmental_Protection.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
