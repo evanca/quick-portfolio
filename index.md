@@ -14,7 +14,7 @@ As a research assistant for Baltimore STEW-MAP 2019 I am updating Baltimore’s 
 
 ---
 [Algal Biofuels Research](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/algae culture.jpg?raw=true"/>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
