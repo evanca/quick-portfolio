@@ -44,7 +44,11 @@
 ---
 
 ### NetLogo Project
+---
 
+### Photo Work
+[8gL Clothing Lookbook](https://www.8gl.store/lookbook)
+<img src="images/lookbook.jpg?raw=true"/>
 
 
 ---
