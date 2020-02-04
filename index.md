@@ -4,27 +4,22 @@
 
 ### Machine Learning Project in R 
 
-[Zero-Inflated Poisson Model](/MyProject/Xiaoran_Yujing_TeamPsyduckHeadache~!)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Regional EMS Call Prediction in Virginia Beach](/MyProject/Xiaoran_Yujing_TeamPsyduckHeadache~!)
+<img src="images/EMS_Calls_VirginiaBeach.gif?raw=true"/>
 
 ---
-[Project 2 Title](/MyProject/Urban_Growth_Environmental_Protection.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Housing Price Prediction in San Francisco](/MyProject/Urban_Growth_Environmental_Protection.pdf)
+<img src="images/sf.jpg?raw=true"/>
 
 ---
 
-### Category Name 2
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
+### Google Earth Engine and ArcGIS Project
+
+- [Urban Growth and Environmental Sustainability Analysis](/MyProject/Urban_Growth_Environmental_Protection.pdf)
+- [Ohio Population Movement](/MyProject/Ohio_Population_Movement.pdf)
+- [Lancaster County Urban Growth](/MyProject/LancasterCountyUrbanGrowthProject.pdf)
 - [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
 ---
 
 
