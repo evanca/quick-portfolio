@@ -4,11 +4,11 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[Project 1 Title](/myProject/Xiaoran_Yujing_TeamPsyduckHeadache~!)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Project 2 Title](/myProject/Urban_Growth_Environmental_Protection.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
