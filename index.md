@@ -2,7 +2,7 @@
 
 ---
 
-### Machine Learning Project in R 
+### Predictive Modeling in R 
 
 [Housing Price Prediction in San Francisco](/MyProject/MUSA_507_Midterm_writeup_HippoHippo.pdf)
 <img src="images/sf.jpg?raw=true"/>
@@ -18,18 +18,20 @@
 ---
 
 
-### ArcGIS Project
+### ArcGIS Projects
 
 [Urban Growth and Environmental Sustainability Analysis](/MyProject/Urban_Growth_Environmental_Protection.pdf)
+<img src="images/urbandevelop.jpg?raw=true"/>
 
 ---
 [Lancaster County Urban Growth](/MyProject/LancasterCountyUrbanGrowthProject.pdf)
+<img src="images/urbanidx.jpg?raw=true"/>
 
 ---
 
 
 ### Machine Learning with Python
----
+
 [Taxi Data Analysis in New York City](https://xinyimsumyee.github.io/tanalyxi/)
 <img src="images/taxi.jpg?raw=true"/>
 
@@ -37,6 +39,7 @@
 ### Google Earth Engine Project
 
 [Ohio Population Movements](/MyProject/Ohio_Population_Movement.pdf)
+<img src="images/gee.jpg?raw=true"/>
 
 
 
