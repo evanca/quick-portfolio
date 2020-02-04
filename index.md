@@ -5,7 +5,7 @@
 ### Predictive Modeling in R 
 
 [Housing Price Prediction in San Francisco](/MyProject/MUSA_507_Midterm_writeup_HippoHippo.pdf)
-<img src="images/sf.jpg?raw=true"/>
+<img src="images/sfpredict.jpg?raw=true"/>
 
 ---
 [Regional EMS Call Prediction in Virginia Beach](/MyProject/Xiaoran_Yujing_TeamPsyduckHeadache~!)
@@ -34,12 +34,16 @@
 
 [Taxi Data Analysis in New York City](https://xinyimsumyee.github.io/tanalyxi/)
 <img src="images/taxi.jpg?raw=true"/>
-
+---
 
 ### Google Earth Engine Project
 
 [Ohio Population Movements](/MyProject/Ohio_Population_Movement.pdf)
 <img src="images/gee.jpg?raw=true"/>
+
+---
+
+### NetLogo Project
 
 
 
