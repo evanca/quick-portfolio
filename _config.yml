@@ -1,10 +1,10 @@
 title: Godfred Osei Anin # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+logo: "/images/IMG_5033.JPG?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   First description 
-  <br><br>
+  <br>Aspired Data Scientist(Machine Learning)<br>
   Second description 
-  <br><br>
+  <br>I'm best known for my interest in new technologies and football. When I am not working, i find myself playing FIFA or listening to a Drake music<br>
   <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
