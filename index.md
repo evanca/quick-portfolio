@@ -5,7 +5,7 @@
 ### Current Projects 
 
 [Wildlife Photography](https://www.instagram.com/allthingswild.photos/)
-<img src="images/20200129_004923-COLLAGE.jpg?raw=true"/>
+<img src="PhotoMap.png?raw=true"/>
 
 ---
 [Baltimore Stewardship Mapping Project](https://www.nrs.fs.fed.us/stew-map/baltimore/)
