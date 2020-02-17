@@ -1,7 +1,7 @@
 ---
 layout: post-sidebar
 date: 2015-02-10
-categories: raspberry kubernetes
+categories: raspberry kubernetes spring architecture
 author_name : Fred Smith
 author_url : /author/fred
 author_avatar: fred

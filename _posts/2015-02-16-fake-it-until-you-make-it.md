@@ -1,7 +1,7 @@
 ---
 layout: post-no-feature
 date: 2015-02-10
-categories: motivation
+categories: architecture
 author_name : Fred Smith
 author_url : /author/fred
 author_avatar: fred

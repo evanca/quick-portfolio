@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2015-02-10
-categories: raspberry kubernetes
+categories: raspberry kubernetes architecture
 author_name : Steve Mitchell
 author_url : /author/steve
 author_avatar: steve

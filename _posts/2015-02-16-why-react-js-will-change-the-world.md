@@ -2,7 +2,7 @@
 layout: post-sidebar
 date: 2015-02-10
 title: "Why React JS Will Change the World"
-categories: coding js
+categories: architecture spring
 author_name : Dan Robberts
 author_url : /author/dan
 author_avatar: dan

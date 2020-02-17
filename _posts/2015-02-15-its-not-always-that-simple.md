@@ -1,7 +1,7 @@
 ---
 layout: post-sidebar
 date: 2015-02-10
-categories: motivation
+categories: architecture
 author_name : Steve Mitchell
 author_url : /author/steve
 author_avatar: steve
