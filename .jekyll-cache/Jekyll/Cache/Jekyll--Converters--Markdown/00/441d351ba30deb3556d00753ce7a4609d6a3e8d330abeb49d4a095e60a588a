@@ -1,0 +1,2 @@
+I"f<p>React components implement a <code class="highlighter-rouge">render()</code> method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by <code class="highlighter-rouge">render()</code> via <code class="highlighter-rouge">this.props</code>.</p>
+:ET

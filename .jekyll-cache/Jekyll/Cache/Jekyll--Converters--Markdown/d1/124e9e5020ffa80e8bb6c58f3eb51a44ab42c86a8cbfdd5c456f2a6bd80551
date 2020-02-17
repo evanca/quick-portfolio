@@ -1,0 +1,23 @@
+I"�<p>The Grunt ecosystem is huge and it’s growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn’t already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze. See how to <a href="http://gruntjs.com/">get started</a>.</p>
+
+<p>In one word: automation. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes. After you’ve configured it through a Gruntfile, a task runner can do most of that mundane work for you—and your team—with basically zero effort.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">{</span>
+  <span class="dl">"</span><span class="s2">name</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">my-project-name</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">version</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">0.1.0</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">devDependencies</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+    <span class="dl">"</span><span class="s2">grunt</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">~0.4.5</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">grunt-contrib-jshint</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">~0.10.0</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">grunt-contrib-nodeunit</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">~0.4.1</span><span class="dl">"</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">grunt-contrib-uglify</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">~0.5.0</span><span class="dl">"</span>
+  <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>The easiest way to add Grunt and gruntplugins to an existing <code class="highlighter-rouge">package.json</code> is with the command <code class="highlighter-rouge">npm install &lt;module&gt; --save-dev</code>. Not only will this install <code class="highlighter-rouge">&lt;module&gt;</code> locally, but it will automatically be added to the devDependencies section, using a tilde version range.</p>
+
+<p>For example, this will install the latest version of Grunt in your project folder, adding it to your devDependencies:</p>
+
+<p>Grunt</p>
+:ET

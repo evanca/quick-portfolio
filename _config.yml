@@ -1,9 +1,8 @@
 # Site settings
 title: Steve Mitchell
 email: stevecmitchell@gmail.com
-description: > # Writer Theme is a responsive template
- focussed on typography, minimal design and
-  quality photography built using the Jekyll platform.
+description: > # Permission to Play
+ Permission to Play is a journey into making tech learning fun.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 enable_retina: false
@@ -15,10 +14,10 @@ nav_list:
   About : ['About', '/about', 'fa-anchor']
   Contact : ['Contact', '/contact', 'fa-plane']
   Author : ['Author', '/author/michelle', 'fa-user']
-single_footer: '<p>The writer community loves your content. Writer &copy; 2016 <a href="/">latest posts</a></p>'
+single_footer: '<p>Let us hear what you think. Permission to Play &copy; 2020 <a href="/">latest posts</a></p>'
 footer_links:
     About: ['About', '/about']
-    Writer: ['Writer 2016', '/about']
+    Writer: ['Permission to Play 2020', '/about']
 
 
 # Build settings

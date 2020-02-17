@@ -2,9 +2,9 @@
 layout: post-sidebar
 date: 2015-02-10
 categories: motivation
-author_name : Michelle Jones
-author_url : /author/michelle
-author_avatar: michelle
+author_name : Steve Mitchell
+author_url : /author/steve
+author_avatar: steve
 show_avatar : true
 read_time : 14
 feature_image: feature-book

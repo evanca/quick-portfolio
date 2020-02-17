@@ -2,9 +2,9 @@
 layout: post
 date: 2015-02-10
 categories: storytime life journey
-author_name : Michelle Jones
-author_url : /author/michelle
-author_avatar: michelle
+author_name : Steve Mitchell
+author_url : /author/steve
+author_avatar: steve
 show_avatar : true
 read_time : 12
 feature_image: feature-wolf
