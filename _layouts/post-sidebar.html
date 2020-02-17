@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<header class="hero-image" style='background-image: url({{"/img/" | append: page.feature_image | prepend: site.baseurl }}.jpg);'>
+    <span class="menu-trigger animated fadeInDown">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+
+    {% include nav.html %}
+</header>
+
+<main class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-8 single-content-sidebar">
+
+            <h1>{{ page.title }}</h1>
+
+            {{ content }}
+
+        </div><!-- main-content/col -->
+
+        <div class="col-xs-12 col-md-3 col-md-offset-1 single-content-sidebar-area">
+
+            <img src='{{ "/img/" | append: page.author_avatar | prepend: site.baseurl }}.jpg' class="user-icon " alt="user-image">
+            <div class="meta">
+
+                <div class="sidebar-info">
+                    <a href="{{ page.author_url | prepend: site.baseurl }}">{{ page.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: page.categories.first | prepend: site.baseurl }}'>{{ page.categories.first | capitalize }}</a>
+                </div>
+
+                <div class="sidebar-readtime">
+                    <i class="fa fa-bookmark"></i> {{ page.read_time }} minute read
+                </div>
+
+            </div>
+
+            <h2 class="favorites">Similar Posts</h2>
+
+            {% for post in site.related_posts %}
+                {% if forloop.index <= 5 %}
+                <div class="similar-post">
+                    <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+    </div> <!--/row -->
+
+</main> <!-- /container -->
+
+<footer class="single">
+    {% include footer-single.html %}
+
+    {% if page.show_related_posts == true %}
+        {% include footer-related-posts.html %}
+    {% endif %}
+</footer>

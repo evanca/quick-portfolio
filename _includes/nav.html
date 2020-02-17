@@ -1,0 +1,7 @@
+<div id="menu-target">
+    <ul>
+        {% for page in site.nav_list %}
+            <li><i class="fa {{ page[1][2] }}"></i><a href="{{ page[1][1] | prepend: site.baseurl }}">{{ page[1][0] }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

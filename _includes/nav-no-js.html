@@ -1,0 +1,11 @@
+<!-- if the user has javascript disabled they can still use the menu -->
+<noscript>
+    <div class="no-js-menu clearfix">
+        <ul>
+            {% for page in site.nav_list %}
+                <li><i class="fa {{ page[1][2] }}"></i><a href="{{ page[1][1] | prepend: site.baseurl }}">{{ page[1][0] }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</noscript>
+<!-- end no script -->

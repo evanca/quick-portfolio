@@ -1,0 +1,35 @@
+---
+layout: with-sidebar
+---
+{% assign author_posts = site.posts | where: "author_name", page.author_name %}
+
+<div class="author-bio">
+
+    <img src='{{ "/img/" | append : page.author_avatar | prepend: site.baseurl }}.jpg'>
+
+    <div class="author-bio__info">
+        {{ content }}
+    </div>
+</div>
+
+<h2 class="favorites">All Post by {{ page.author_name }}</h2>
+
+<div class="posts-block animated fadeIn ">
+
+    {% for post in author_posts %}
+        <article class="post">
+          <div class="post-preview">
+            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+
+
+            {{ post.excerpt }}
+
+            <p class="meta">
+                <span>{{ post.author_name }}</span>
+                <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+            </p>
+          </div>
+        </article>
+    {% endfor %}
+
+</div>

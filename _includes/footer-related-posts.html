@@ -1,0 +1,11 @@
+<div class="row read-another-section">
+    {% for post in site.related_posts %}
+        {% if forloop.index <= 6 %}
+        <a href="{{ post.url | prepend: site.baseurl }}"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
+            <div class="overlay"></div>
+            <img src='{{ "/img/" | append: post.square_related | prepend: site.baseurl }}.jpg'>
+            <h3 class="read-another">{{ post.title }}</h3>
+        </div></a>
+        {% endif %}
+    {% endfor %}
+</div>

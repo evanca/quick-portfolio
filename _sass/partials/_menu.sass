@@ -1,0 +1,63 @@
+#menu-target
+    position: absolute !important
+    top: -9999px !important
+    left: -9999px !important
+
+.jPanelMenu-panel
+    box-shadow: #000 2px 2px 10px
+    transition: all 450ms
+    background-color: #fff !important
+    min-height: 100%
+
+#jPanelMenu-menu
+    background-color: #333337
+    overflow: hidden
+    overflow-y: hidden !important
+
+    ul
+        padding: 10px 0
+
+    li
+        margin: 0
+        padding: 10px 0
+        list-style: none
+
+        i
+            padding: 0 20px
+            color: #DADADA
+            font-style: normal
+            +font-size(14)
+        a
+            color: #DADADA
+            font-family: $sans
+            font-weight: 700
+            border-bottom: 0 transparent
+            +font-size(12)
+
+            &:hover
+                border-bottom: none
+                color: #fff
+    hr
+        margin: 20px auto
+        width: 40%
+
+.menu-trigger
+    top: 15px
+    left: 15px
+    z-index: 1080
+    position: absolute
+    display: block
+    height: 40px
+    width: 40px
+    background: #333
+    padding-top: 8px
+    cursor: pointer
+
+    span
+        height: 5px
+        width: 28px
+        float: left
+        display: block
+        margin: 0 6px 5px
+        background: #fff
+

@@ -1,0 +1,74 @@
+// vendor
+@import "vendor/bootstrap.min"
+@import "vendor/font-awesome.min"
+
+@import "mixins"
+@import "type"
+@import "animate"
+@import "partials/bootstrap-components"
+
+// includes
+@import "partials/shared"
+@import "partials/menu"
+@import "partials/sidebar"
+
+// pages
+@import "partials/main-content"
+@import "partials/single"
+@import "partials/favorites"
+@import "partials/category"
+@import "partials/contact"
+@import "partials/author"
+@import "partials/alt-home"
+@import "partials/page-404"
+
+@import "nojs"
+
+.left-container
+    margin-left: 15px
+    padding-left: 0
+
+    +breakpoint(only-sm)
+        max-width: 100%
+        width: 100%
+
+
+.no-gutter
+    padding-left: 0
+    padding-right: 0
+
+.no-gutter-left
+    padding-left: 0
+
+.no-gutter-right
+    padding-right: 0
+
+html,
+body
+    font-size: 62.5%
+
+    +breakpoint(md)
+        height: 100%
+
+.hide
+    position: absolute !important
+    top: -9999px !important
+    left: -9999px !important
+
+img
+    max-width: 100%
+
+main
+    display: block
+
+
+a
+    color: #999999
+    text-decoration: none
+
+    &:hover,
+    &:active,
+    &:focus
+        text-decoration: none
+        color: #333
+        border-bottom: solid 1px #999

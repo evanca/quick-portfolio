@@ -1,0 +1,24 @@
+<section class="sidebar col-md-5 col-sm-12" style='background-image: url({{"/img/" | append: page.feature_image | prepend: site.baseurl }}.jpg);'>
+
+    <span class="menu-trigger animated fadeInDown">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+
+    <div class="site-info">
+        <div class="primary-info">
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.desc }}</p>
+
+        </div>
+
+        {% if page.include_cta_btn == true %}
+        <div class="secondary-info">
+            <p>
+                <a class="btn btn-primary" href="{{ page.cta_link | prepend: site.baseurl }}"><i class="fa {{ page.cta_icon }}"></i>{{page.cta_text}}</a>
+            </p>
+        </div>
+        {% endif %}
+    </div>
+</section><!-- end sidebar -->

@@ -1,0 +1,54 @@
+@mixin breakpoint($size)
+
+    @if $size == sm
+        @media (min-width: 768px)
+            @content
+
+    @else if $size == only-sm
+        @media (min-width: 768px) and (max-width: 992px)
+            @content
+
+    @else if $size == md
+        @media (min-width: 992px)
+            @content
+
+    @else if $size == lg
+        @media (min-width: 1200px)
+            @content
+
+@mixin font-size($value)
+    font-size: $value + px
+    font-size: ($value / 10) + rem
+
+@mixin line-height($value)
+    line-height: $value + px
+    line-height: ($value/10) + rem
+
+@mixin clearfix
+    *zoom: 1
+
+    &:before,
+    &:after
+        content: " "
+        display: table
+
+    &:after
+        clear: both
+
+@mixin up-bold
+    text-transform: uppercase
+    font-weight: 700
+
+@mixin placeholder
+    &::-webkit-input-placeholder
+        @content
+
+    &:-moz-placeholder
+        @content
+
+    &::-moz-placeholder
+        @content
+
+    &:-ms-input-placeholder
+        @content
+

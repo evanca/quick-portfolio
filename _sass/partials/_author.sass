@@ -1,0 +1,31 @@
+.author-bio
+    +clearfix
+    img
+        border-radius: 50%
+        width: 150px
+        float: left
+
+        +breakpoint(md)
+            float: right
+            width: 220px
+
+
+    .author-bio__info
+        float: left
+
+        h1
+            margin: 30px 0 20px
+
+.view-all-by-author
+    text-align: right
+    margin: 20px 0
+    a
+        +font-size(13)
+        +up-bold
+        font-family: $sans
+
+
+    i
+        margin-left: 5px
+        +font-size(9)
+        transform: translateY(-1px)

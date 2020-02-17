@@ -1,0 +1,41 @@
+---
+layout: with-sidebar
+---
+
+<section class="row">
+    <div class="col-sm-12">
+        <h2 class="favorites">Favorite posts</h2>
+    </div>
+
+    {% for post in site.posts %}
+        {% if forloop.index <= 4 %}
+        <article class="post-favorite col-xs-12 col-sm-6 ">
+            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+
+            {{ post.excerpt | truncatewords: 18 }}
+        </article>
+        <!-- wrap first two posts into their own row and start a new row for post 3 & 4 -->
+        {% if forloop.index == 2 %}
+          </section><!-- end fav posts -->
+          <section class="row"><!-- start new row -->
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+
+</section><!-- end fav posts -->
+
+<section class="row favorite-categories animated fadeIn">
+    <div class="col-sm-12">
+        <h2 class="favorites">Favorite categories<h2>
+    </div>
+
+     {% for category in site.categories %}
+        {% if forloop.index <= 3 %}
+        <div class="category-preview col-xs-6 col-sm-4 ">
+            <h2>{{ category | first | capitalize }}</h2>
+            <a href='{{ "/category/" | append: category.first | prepend: site.baseurl }}'><img src='{{ "/img/" | append: category.first | prepend: site.baseurl }}-thumbnail.jpg' alt="category-image"></a>
+        </div>
+        {% endif %}
+    {% endfor %}
+
+</section>

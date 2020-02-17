@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-2">
+            <img src="{{ site.baseurl }}/img/{{ page.author_avatar }}.jpg" class="user-icon " alt="user-image">
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <div class="category-list">
+                <p>Published <span>{{ page.date | date: "%b %-d, %Y" }}</span></p>
+                <p><a href="{{ page.author_url  | prepend: site.baseurl }}">{{ page.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: page.categories.first | prepend: site.baseurl }}'>{{ page.categories.first | capitalize }}</a></p>
+
+                <div class="other-catergories">
+                    <h3>Also found in</h3>
+
+                    <ul>
+                        {% for category in page.categories %}
+                        <li>
+                            <a href='{{ "/category/" | append: page.categories.first | prepend: site.baseurl }}'>{{ category | capitalize }}</a>
+                            {% if forloop.last %}{% else %},{% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+            </div>
+        </div><!-- end col -->
+        <div class="col-xs-12 col-sm-4">
+            <div class="social">
+                <p>Share this article</a>
+                <div class="social-links">
+                    <a class="social-icon" href="#" data-platform="twitter" data-message="{{ page.social-message }}" data-url="{{ page.url | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-twitter"></i></a>
+
+                    <a class="social-icon" href="#" data-platform="facebook" data-message="{{ page.social-message }}" data-url="{{ page.url | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-facebook-official"></i></a>
+                    <a class="social-icon" data-platform="mail"  href="mailto:{{ site.email }}?body={{ page.url | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div><!-- end row -->
+</div>

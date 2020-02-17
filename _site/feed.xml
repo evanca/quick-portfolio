@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steve Mitchell</title>
+    <description>focussed on typography, minimal design and
+ quality photography built using the Jekyll platform.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 16 Feb 2020 19:52:49 -0600</pubDate>
+    <lastBuildDate>Sun, 16 Feb 2020 19:52:49 -0600</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Supercharge Your Workflow With Grunt</title>
+        <description>&lt;p&gt;The Grunt ecosystem is huge and it’s growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn’t already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze. See how to &lt;a href=&quot;http://gruntjs.com/&quot;&gt;get started&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In one word: automation. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes. After you’ve configured it through a Gruntfile, a task runner can do most of that mundane work for you—and your team—with basically zero effort.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;my-project-name&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;0.1.0&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;devDependencies&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;grunt&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;~0.4.5&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;grunt-contrib-jshint&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;~0.10.0&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;grunt-contrib-nodeunit&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;~0.4.1&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;grunt-contrib-uglify&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;~0.5.0&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The easiest way to add Grunt and gruntplugins to an existing &lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt; is with the command &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install &amp;lt;module&amp;gt; --save-dev&lt;/code&gt;. Not only will this install &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;module&amp;gt;&lt;/code&gt; locally, but it will automatically be added to the devDependencies section, using a tilde version range.&lt;/p&gt;
+
+&lt;p&gt;For example, this will install the latest version of Grunt in your project folder, adding it to your devDependencies:&lt;/p&gt;
+
+&lt;p&gt;Grunt&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Feb 2015 02:50:28 -0600</pubDate>
+        <link>http://localhost:4000/supercharge-your-workflow-with-grunt</link>
+        <guid isPermaLink="true">http://localhost:4000/supercharge-your-workflow-with-grunt</guid>
+        
+        
+        <category>coding</category>
+        
+        <category>js</category>
+        
+      </item>
+    
+      <item>
+        <title>CSS with Superpowers</title>
+        <description>&lt;p&gt;Sass is completely compatible with all versions of CSS. We take this compatibility seriously, so that you can seamlessly use any available CSS libraries.&lt;/p&gt;
+
+&lt;p&gt;Sass boasts more features and abilities than any other CSS extension language out there. The Sass Core Team has worked endlessly to not only keep up, but stay ahead.&lt;/p&gt;
+
+&lt;h2 id=&quot;mature&quot;&gt;Mature&lt;/h2&gt;
+&lt;p&gt;Sass has been actively supported for about 8 years by its loving Core&lt;/p&gt;
+
+&lt;h2 id=&quot;team&quot;&gt;Team&lt;/h2&gt;
+&lt;p&gt;Over and over again, the industry is choosing Sass as the premier CSS extension language.&lt;/p&gt;
+
+&lt;h2 id=&quot;large-community&quot;&gt;Large Community&lt;/h2&gt;
+&lt;p&gt;Sass is actively supported and developed by a consortium of several tech companies and hundreds of developers.&lt;/p&gt;
+
+&lt;h2 id=&quot;frameworks&quot;&gt;Frameworks&lt;/h2&gt;
+&lt;p&gt;There are endless number of frameworks built with Sass. Compass, Bourbon, and Susy just to name a few.&lt;/p&gt;
+
+&lt;p&gt;Dreamcatcher cold-pressed American Apparel, post-ironic Carles Shoreditch craft beer Banksy PBR retro distillery before they sold out freegan asymmetrical kogi. Food truck Schlitz direct trade, deep v ethical yr sriracha mumblecore freegan. Tattooed occupy pork belly, letterpress typewriter cold-pressed viral swag farm-to-table flexitarian. +1 hashtag put a bird on it authentic. 3 wolf moon locavore Vice, normcore actually meggings leggings cornhole brunch. Four loko vinyl trust fund, Intelligentsia wolf Bushwick lo-fi sriracha. Deep v vegan forage selvage.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Feb 2015 02:50:28 -0600</pubDate>
+        <link>http://localhost:4000/css-with-superpowers</link>
+        <guid isPermaLink="true">http://localhost:4000/css-with-superpowers</guid>
+        
+        
+        <category>coding</category>
+        
+        <category>css</category>
+        
+      </item>
+    
+      <item>
+        <title>10 Reasons to travel the world</title>
+        <description>&lt;p&gt;Ask yourself, why not? What is the number one reason you wouldn’t. If the reason you get back is fear, you should just do it.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati doloribus, culpa, et suscipit praesentium incidunt, libero officiis ipsum fugiat odit aperiam commodi unde dignissimos veritatis accusamus molestias iste magni nobis?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/post-assets/fire.jpg&quot; alt=&quot;Fire image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kale chips bespoke church-key American Apparel flannel pickled. Mlkshk High Life Blue Bottle, leggings gastropub four dollar toast post-ironic fap American Apparel VHS. Cliche cold-pressed single-origin coffee mlkshk retro distillery. 3 wolf moon Tumblr selvage semiotics food truck. Intelligentsia Pitchfork meh sriracha chambray, fanny pack lomo irony fap pickled stumptown. Twee +1 artisan, cred ethical gluten-free 90’s four loko Odd Future cronut small batch organic. Seitan hashtag jean shorts art party messenger bag.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Scenester Echo Park tilde&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Locavore brunch kale chips vegan selvage High Life you probably haven’t heard of them before they sold out pork belly. Flexitarian organic wayfarers, cronut food truck bicycle rights drinking vinegar bespoke meditation mustache swag mumblecore semiotics locavore. Whatever kogi readymade, jean shorts pork belly chia distillery wayfarers. Art party single-origin coffee four dollar toast VHS, try-hard hoodie kogi normcore Neutra actually church-key flexitarian swag.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 11 Feb 2015 02:50:28 -0600</pubDate>
+        <link>http://localhost:4000/ten-reasons-to-travel-the-world</link>
+        <guid isPermaLink="true">http://localhost:4000/ten-reasons-to-travel-the-world</guid>
+        
+        
+        <category>travel</category>
+        
+        <category>storytime</category>
+        
+      </item>
+    
+      <item>
+        <title>Why React JS Will Change the World</title>
+        <description>&lt;p&gt;React components implement a &lt;code class=&quot;highlighter-rouge&quot;&gt;render()&lt;/code&gt; method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by &lt;code class=&quot;highlighter-rouge&quot;&gt;render()&lt;/code&gt; via &lt;code class=&quot;highlighter-rouge&quot;&gt;this.props&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;build/react.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;build/JSXTransformer.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;example&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/jsx&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/h1&amp;gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,
+&lt;/span&gt;        &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;want-commonjs&quot;&gt;Want CommonJS?&lt;/h2&gt;
+&lt;p&gt;If you want to use React with browserify, webpack, or another CommonJS-compatible module system, just use the react npm package. In addition, the jsx build tool can be integrated into most packaging systems (not just CommonJS) quite easily.&lt;/p&gt;
+
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
+&lt;p&gt;Check out the tutorial and the other examples in the starter kit’s examples directory to learn more.&lt;/p&gt;
+
+&lt;p&gt;We also have a wiki where the community contributes with workflows, UI-components, routing, data management etc.&lt;/p&gt;
+
+&lt;p&gt;Good luck, and welcome!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/why-react-js-will-change-the-world</link>
+        <guid isPermaLink="true">http://localhost:4000/why-react-js-will-change-the-world</guid>
+        
+        
+        <category>coding</category>
+        
+        <category>js</category>
+        
+      </item>
+    
+      <item>
+        <title>Fake It Until You Make It</title>
+        <description>&lt;p&gt;Don’t listen to your critics, most people spend all day talking about what others are doing and no time doing anything themselves.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in finibus diam, sit amet sollicitudin dui. Praesent erat dui, mattis sed elementum non, molestie et ipsum. Quisque fringilla vitae dolor a lacinia. Integer aliquam arcu non tortor egestas volutpat. Proin vitae pretium purus, a rhoncus sapien. Nam posuere rutrum lorem, eu sagittis ante scelerisque pretium. Morbi fermentum mauris a elit lacinia venenatis. Nunc ut iaculis nunc, sed faucibus nulla. Nunc at massa ut mi varius venenatis et id nibh. Sed molestie nibh sed risus mattis elementum. Ut iaculis, dolor sed consequat efficitur, nisi risus scelerisque dui, at bibendum velit nisi quis risus. Nunc gravida leo ut arcu tempus, et iaculis ex ullamcorper. Maecenas eget dolor diam. Suspendisse dapibus pulvinar tempus.&lt;/p&gt;
+
+&lt;p&gt;Vestibulum semper dui risus, ut vestibulum ex vestibulum in. Duis vel placerat augue. Morbi dapibus turpis nisi, eleifend hendrerit ligula congue non. Vestibulum felis velit, vulputate at metus ac, ullamcorper pharetra sapien. Praesent eget nibh scelerisque, scelerisque velit semper, ultrices velit. Nunc luctus quam ut condimentum sodales. Quisque eget eleifend nibh. Donec sit amet metus massa.&lt;/p&gt;
+
+&lt;p&gt;Quisque sagittis arcu quis mauris consectetur tempus. Etiam id erat pretium, rutrum quam ut, commodo lacus. Proin vitae condimentum odio. Morbi facilisis ligula vitae auctor pretium. Fusce lorem lectus, ultrices sit amet neque ut, condimentum bibendum libero. Mauris cursus neque eros, vel consectetur quam mollis nec. Mauris quis est nec elit euismod condimentum. Vestibulum imperdiet suscipit elit et scelerisque. Vivamus mollis sagittis ante.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/fake-it-until-you-make-it</link>
+        <guid isPermaLink="true">http://localhost:4000/fake-it-until-you-make-it</guid>
+        
+        
+        <category>motivation</category>
+        
+      </item>
+    
+      <item>
+        <title>Its Not Always That Simple</title>
+        <description>&lt;p&gt;If you always do what you’ve always done, you’ll always get what you’ve always had.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Want shows up in what you say, expectation shows up in behaviour&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in finibus diam, sit amet sollicitudin dui. Praesent erat dui, mattis sed elementum non, molestie et ipsum. Quisque fringilla vitae dolor a lacinia. Integer aliquam arcu non tortor egestas volutpat. Proin vitae pretium purus, a rhoncus sapien. Nam posuere rutrum lorem, eu sagittis ante scelerisque pretium. Morbi fermentum mauris a elit lacinia venenatis. Nunc ut iaculis nunc, sed faucibus nulla. Nunc at massa ut mi varius venenatis et id nibh. Sed molestie nibh sed risus mattis elementum. Ut iaculis, dolor sed consequat efficitur, nisi risus scelerisque dui, at bibendum velit nisi quis risus. Nunc gravida leo ut arcu tempus, et iaculis ex ullamcorper. Maecenas eget dolor diam. Suspendisse dapibus pulvinar tempus.&lt;/p&gt;
+
+&lt;p&gt;Vestibulum semper dui risus, ut vestibulum ex vestibulum in. Duis vel placerat augue. Morbi dapibus turpis nisi, eleifend hendrerit ligula congue non. Vestibulum felis velit, vulputate at metus ac, ullamcorper pharetra sapien. Praesent eget nibh scelerisque, scelerisque velit semper, ultrices velit. Nunc luctus quam ut condimentum sodales. Quisque eget eleifend nibh. Donec sit amet metus massa.&lt;/p&gt;
+
+&lt;p&gt;Quisque sagittis arcu quis mauris consectetur tempus. Etiam id erat pretium, rutrum quam ut, commodo lacus. Proin vitae condimentum odio. Morbi facilisis ligula vitae auctor pretium. Fusce lorem lectus, ultrices sit amet neque ut, condimentum bibendum libero. Mauris cursus neque eros, vel consectetur quam mollis nec. Mauris quis est nec elit euismod condimentum. Vestibulum imperdiet suscipit elit et scelerisque. Vivamus mollis sagittis ante.&lt;/p&gt;
+
+&lt;p&gt;Aenean commodo, massa quis mattis lacinia, mi ipsum vestibulum nisi, ut tincidunt massa erat quis neque. Aliquam volutpat eu ligula a tincidunt. Suspendisse imperdiet, lacus vitae pretium imperdiet, nisi elit efficitur felis, id ullamcorper nulla dolor ac massa. In rutrum eget nisi et maximus. Nam consequat libero et feugiat lobortis. Donec sit amet felis faucibus, egestas enim id, condimentum justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed aliquam, nisl vel volutpat semper, mi lacus tempus ante, hendrerit consequat massa lorem at lacus. Phasellus vel felis scelerisque, consectetur arcu ac, euismod massa.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/its-not-always-that-simple</link>
+        <guid isPermaLink="true">http://localhost:4000/its-not-always-that-simple</guid>
+        
+        
+        <category>motivation</category>
+        
+      </item>
+    
+      <item>
+        <title>Stop Thinking And Start Doing</title>
+        <description>&lt;p&gt;Get out of your head. Every good decision starts with a momment of action. What are you going to do today!&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in finibus diam, sit amet sollicitudin dui. Praesent erat dui, mattis sed elementum non, molestie et ipsum. Quisque fringilla vitae dolor a lacinia. Integer aliquam arcu non tortor egestas volutpat. Proin vitae pretium purus, a rhoncus sapien. Nam posuere rutrum lorem, eu sagittis ante scelerisque pretium. Morbi fermentum mauris a elit lacinia venenatis. Nunc ut iaculis nunc, sed faucibus nulla. Nunc at massa ut mi varius venenatis et id nibh. Sed molestie nibh sed risus mattis elementum. Ut iaculis, dolor sed consequat efficitur, nisi risus scelerisque dui, at bibendum velit nisi quis risus. Nunc gravida leo ut arcu tempus, et iaculis ex ullamcorper. Maecenas eget dolor diam. Suspendisse dapibus pulvinar tempus.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/post-assets/walk.jpg&quot; alt=&quot;walk&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/post-assets/water.jpg&quot; alt=&quot;water&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/post-assets/woods.jpg&quot; alt=&quot;woods&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vestibulum semper dui risus, ut vestibulum ex vestibulum in. Duis vel placerat augue. Morbi dapibus turpis nisi, eleifend hendrerit ligula congue non. Vestibulum felis velit, vulputate at metus ac, ullamcorper pharetra sapien. Praesent eget nibh scelerisque, scelerisque velit semper, ultrices velit. Nunc luctus quam ut condimentum sodales. Quisque eget eleifend nibh. Donec sit amet metus massa.&lt;/p&gt;
+
+&lt;p&gt;Quisque sagittis arcu quis mauris consectetur tempus. Etiam id erat pretium, rutrum quam ut, commodo lacus. Proin vitae condimentum odio. Morbi facilisis ligula vitae auctor pretium. Fusce lorem lectus, ultrices sit amet neque ut, condimentum bibendum libero. Mauris cursus neque eros, vel consectetur quam mollis nec. Mauris quis est nec elit euismod condimentum. Vestibulum imperdiet suscipit elit et scelerisque. Vivamus mollis sagittis ante.&lt;/p&gt;
+
+&lt;p&gt;Aenean commodo, massa quis mattis lacinia, mi ipsum vestibulum nisi, ut tincidunt massa erat quis neque. Aliquam volutpat eu ligula a tincidunt. Suspendisse imperdiet, lacus vitae pretium imperdiet, nisi elit efficitur felis, id ullamcorper nulla dolor ac massa. In rutrum eget nisi et maximus. Nam consequat libero et feugiat lobortis. Donec sit amet felis faucibus, egestas enim id, condimentum justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed aliquam, nisl vel volutpat semper, mi lacus tempus ante, hendrerit consequat massa lorem at lacus. Phasellus vel felis scelerisque, consectetur arcu ac, euismod massa.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 10 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/stop-thinking-and-start-doing</link>
+        <guid isPermaLink="true">http://localhost:4000/stop-thinking-and-start-doing</guid>
+        
+        
+        <category>motivation</category>
+        
+        <category>storytime</category>
+        
+      </item>
+    
+      <item>
+        <title>A Great Story Never Told</title>
+        <description>&lt;p&gt;I’ve never told this to anyone. Sit yourself down and strap yourself in, you will experience some turbulence before you reach a steady altitude.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/post-assets/iceland.jpg&quot; alt=&quot;iceland&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 10 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/a-great-story-never-told</link>
+        <guid isPermaLink="true">http://localhost:4000/a-great-story-never-told</guid>
+        
+        
+        <category>storytime</category>
+        
+        <category>life</category>
+        
+        <category>journey</category>
+        
+      </item>
+    
+      <item>
+        <title>You Dont Have To Be Great To Get Started</title>
+        <description>&lt;p&gt;It was a cold December morning, as I sat out on my porch I decided today was the day.&lt;/p&gt;
+
+&lt;p&gt;Dreamcatcher cold-pressed American Apparel, post-ironic Carles Shoreditch craft beer Banksy PBR retro distillery before they sold out freegan asymmetrical kogi. Food truck Schlitz direct trade, deep v ethical yr sriracha mumblecore freegan. Tattooed occupy pork belly, letterpress typewriter cold-pressed viral swag farm-to-table flexitarian. +1 hashtag put a bird on it authentic. 3 wolf moon locavore Vice, normcore actually meggings leggings cornhole brunch. Four loko vinyl trust fund, Intelligentsia wolf Bushwick lo-fi sriracha. Deep v vegan forage selvage.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/post-assets/view.jpg&quot; alt=&quot;view&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nihil eum cum quas! Consectetur aliquam molestias quos voluptatum recusandae accusantium eaque sed architecto esse. Ut obcaecati, porro numquam sed. Odio.&lt;/p&gt;
+
+&lt;p&gt;Dreamcatcher cold-pressed American Apparel, post-ironic Carles Shoreditch craft beer Banksy PBR retro distillery before they sold out freegan asymmetrical kogi. Food truck Schlitz direct trade, deep v ethical yr sriracha mumblecore freegan. Tattooed occupy pork belly, letterpress typewriter cold-pressed viral swag farm-to-table flexitarian. +1 hashtag put a bird on it authentic. 3 wolf moon locavore Vice, normcore actually meggings leggings cornhole brunch. Four loko vinyl trust fund, Intelligentsia wolf Bushwick lo-fi sriracha. Deep v vegan forage selvage.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quam provident accusamus vero autem culpa illum quo enim maiores eius error, sapiente inventore cum hic earum. Libero porro quisquam harum.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 10 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/you-dont-have-to-be-great-to-get-started</link>
+        <guid isPermaLink="true">http://localhost:4000/you-dont-have-to-be-great-to-get-started</guid>
+        
+        
+        <category>motivation</category>
+        
+        <category>leadership</category>
+        
+        <category>journey</category>
+        
+      </item>
+    
+  </channel>
+</rss>

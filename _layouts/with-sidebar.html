@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<main class="container left-container">
+    <div class="row">
+        {% include nav.html %}
+        {% include sidebar.html %}
+
+        <div class="col-md-7 col-sm-12 col-md-offset-5 main-content">
+            {{ content }}
+            {% include mini-footer.html %}
+        </div><!-- main content -->
+    </div> <!--/row -->
+
+</main> <!-- /container -->

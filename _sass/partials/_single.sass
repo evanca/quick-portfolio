@@ -1,0 +1,235 @@
+.hero-image
+    height: 150px
+    width: 100%
+    background-image: url(../img/default-single-hero.jpg)
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+
+    +breakpoint(sm)
+        height: 300px
+    +breakpoint(md)
+        height: 390px
+    +breakpoint(lg)
+        height: 460px
+
+.meta
+    +clearfix
+    +font-size(12)
+    margin-bottom: 0
+
+    +breakpoint(sm)
+        +font-size(16)
+
+    +breakpoint(md)
+        margin-bottom: 20px
+
+    // used on the author page
+    .time
+        +font-size(23)
+        float: right
+    .min
+        +font-size(13)
+        float: right
+
+
+.subtitle
+    margin: 5px 0 20px 0
+    font-style: italic
+    +font-size(20)
+
+    +breakpoint(sm)
+        +font-size(24)
+
+hr
+    display: block
+    width: 20%
+    margin: 50px auto 40px auto
+    border: 1px solid #dededc
+
+blockquote
+    +font-size(24)
+    padding: 0 20px
+
+.pullquote
+    text-align: center
+    +line-height(48)
+    +font-size(38)
+    margin: 50px -5%
+
+.single-content,
+.single-content-sidebar
+    padding: 30px 8%
+
+    +breakpoint(md)
+        padding: 30px 14% 70px
+    +breakpoint(lg)
+        padding: 30px 18% 100px
+
+    h1
+        letter-spacing: -1pt
+
+        +breakpoint(sm)
+            +font-size(44)
+    h2
+        +font-size(28)
+
+.single-content-sidebar
+
+    padding: 30px 8%
+
+    +breakpoint(md)
+        padding: 30px 0 70px
+    +breakpoint(lg)
+        padding: 30px 0 170px
+
+.single-content-sidebar-area
+
+    padding: 30px 15px
+
+    +breakpoint(md)
+        padding: 70px 0 0 25px
+
+    .meta
+        +clearfix
+        width: 80%
+
+        +breakpoint(md)
+            margin-bottom: 200px
+    .user-img
+        width: 20%
+
+    hr
+        width: 100%
+        margin: 15px auto
+
+
+    .similar-post
+
+        a,
+        h3
+            font-family: $sans
+            font-weight: 700
+            color: #333
+            +font-size(20)
+
+
+    .similar-cat
+        position: relative
+        margin-bottom: 10px
+
+        img
+            width: 100%
+        h3
+            font-family: $sans
+            font-weight: 700
+            color: #fff
+            +font-size(20)
+            position: absolute
+            bottom: 15px
+            right: 15px
+            margin: 0
+
+footer.single
+    padding: 40px 0 0 0
+    background-color: #F5F5F5
+    border-top: solid 1px #E9E9E9
+    text-align: center
+
+    &.without-readmore
+        padding: 40px 0 40px 0
+
+    +breakpoint(sm)
+        text-align: left
+    .social
+        text-align: center
+
+    .social-icon
+        margin: 20px 10px
+        display: inline-block
+        color: #ccc
+        +font-size(24)
+        border: none
+
+        i
+            font-style: normal
+
+        &:hover,
+        &:active
+            border: none
+
+    .category-list
+        padding: 30px 0
+
+        +breakpoint(sm)
+            border-right: solid 4px #E9E9E9
+            padding: 0
+    img
+        width: 60px
+        height: 60px
+
+    .user-icon
+        float: none
+
+        +breakpoint(sm)
+            float: right
+    p,
+    h3
+        text-transform: uppercase
+        letter-spacing: 2px
+        font-family: $sans
+        +font-size(14)
+        line-height: 30px
+        margin: 0
+
+        span
+            border-bottom: solid 1px #222
+
+    h3
+        display: inline
+
+    .other-catergories
+        margin-top: 15px
+        margin-bottom: 40px
+
+    ul
+        display: inline
+        padding: 0
+
+    ul li
+        list-style: none
+        display: inline
+        font-style: italic
+
+footer.single-page
+    padding: 40px 0
+    text-align: center
+
+footer
+
+    .read-another-container
+        position: relative
+        text-align: center
+        img
+            width: auto
+            height: auto
+            z-index: 1
+
+        .overlay
+            position: absolute
+            width: 100%
+            z-index: 2
+            background-color: rgba(0,0,0,0.6)
+            top: 0
+            bottom: 0
+
+.read-another
+    position: absolute
+    top: 50%
+    left: 50%
+    transform : translate(-50%, -50%)
+    -ms-transform : translate(-50%, -50%)
+    -webkit-transform : translate(-50%, -50%)
+
+    color: #fff
+    z-index: 3

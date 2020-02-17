@@ -1,0 +1,69 @@
+---
+layout: default
+---
+<main class="container left-container">
+    <div class="row">
+
+        {% include nav.html %}
+
+        <section class="sidebar col-md-6 col-sm-12" >
+
+            <span class="menu-trigger animated fadeInDown">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </span>
+
+            <div class="sub-nav">
+                <a href="#"> Latest Posts</a>
+            </div>
+
+            <div class="animated fadeIn">
+                {% for post in site.posts %}
+                    {% if forloop.index <= page.post_count %}
+                    <article class="post">
+                        <div class="post-preview col-xs-10 no-gutter">
+                            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+
+                            <p class="meta">
+                                <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize}}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize}}</a>
+                            </p>
+                        </div>
+                    </article>
+                    {% endif %}
+                {% endfor %}
+
+            </div><!-- Home page posts -->
+
+        </section><!-- end sidebar -->
+
+        <section class="col-md-6 col-sm-12 col-md-offset-6 alt-main">
+
+            <div class="sub-nav">
+                <a href="#" >Categories</a>
+            </div>
+
+
+
+            <div class="home-page-categories animated fadeIn ">
+                <div class="category row">
+                    <section>
+                        {% for category in site.categories %}
+
+                            <div class="category-preview col-xs-6 col-sm-4 ">
+                                <h2>{{ category | first }}</h2>
+                                <a href='{{ "/category/" | append: category.first | prepend: site.baseurl }}/'>
+                                    <img src='{{ "/img/" | append: category.first | prepend: site.baseurl }}-thumbnail.jpg' alt="category-image">
+                                </a>
+                            </div>
+                        {% endfor %}
+
+                    </section>
+                </div>
+            </div>
+
+            {% include mini-footer.html %}
+
+        </section><!-- main content -->
+    </div> <!--/row -->
+</main> <!-- /container -->

@@ -1,0 +1,33 @@
+---
+layout: with-sidebar
+---
+
+<div class="sub-nav">
+    <a href="#" class="select-posts active">Posts</a>
+</div>
+
+<div class="category-page-posts animated fadeIn ">
+    {% for post in site.categories[page.category] %}
+    <article class="post">
+        <div class="post-preview col-xs-10  no-gutter">
+
+        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+
+        {{ post.excerpt | truncatewords: 28 }}
+
+        <p class="meta">
+            <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize}}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> {{ post.read_time }} minutes
+        </p>
+
+        </div>
+
+        {% if post.show_avatar == true %}
+        <div class=" col-xs-2  no-gutter">
+            <img src='{{ "/img/" | append: post.author_avatar | prepend: site.baseurl }}.jpg' class="user-icon user-1" alt="user-image">
+        </div>
+        {% endif %}
+
+    </article>
+
+    {% endfor %}
+</div>

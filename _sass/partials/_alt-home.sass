@@ -1,0 +1,43 @@
+.alt-home
+    // overide all of the styles on the normal homepage
+
+    .sidebar
+        background: none
+        background-color: #F9F9F9
+        height: auto
+        border-right: solid 2px #D8D8D8
+        padding: 15px 15px  5px 50px
+
+        +breakpoint(md)
+            height: 100%
+            overflow-y: scroll
+
+        .sub-nav
+            border-color: #D8D8D8
+            margin-bottom: 20px
+            margin: 70px 30px 20px 0
+            a
+                margin-right: 0
+
+    .sub-nav
+        text-align: right
+
+        +breakpoint(md)
+            margin: 70px 0 0 0
+
+
+    .alt-main
+        padding: 15px
+
+    .post
+        padding: 10px 0
+
+        .post-preview
+
+            h2
+                line-height: 1
+
+            h2 a
+                +font-size(22)
+            a
+                +font-size(16)

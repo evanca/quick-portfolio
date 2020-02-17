@@ -1,0 +1,9 @@
+<footer class="split-footer">
+    {% for links in site.footer_links %}
+        <a href="{{ links[1][1] }}">{{ links[1][0] }}</a>
+
+        {% unless forloop.last %}
+            <i class="link-spacer"></i>
+        {% endunless%}
+    {% endfor %}
+</footer>
