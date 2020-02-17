@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2015-02-10
-categories: storytime life journey
+categories: raspberry kubernetes
 author_name : Steve Mitchell
 author_url : /author/steve
 author_avatar: steve

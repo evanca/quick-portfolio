@@ -2,7 +2,7 @@
 layout: post
 title:  "10 Reasons to travel the world"
 date: 2015-02-11 08:50:28
-categories: travel storytime
+categories: raspberry kubernetes
 author_name : Steve Mitchell
 author_url : /author/steve
 author_avatar: steve
