@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "10 Reasons to travel the world"
-date: 2015-02-11 08:50:28
-categories: raspberry kubernetes
+title:  "This is a test of this Blog template"
+date: 2020-02-17 08:50:28
+categories: raspberry kubernetes spring architecture
 author_name : Steve Mitchell
 author_url : /author/steve
 author_avatar: steve
 show_avatar : true
-read_time : 34
+read_time : 5
 feature_image: feature-wolf
 show_related_posts: false
 square_related: recommend-wolf

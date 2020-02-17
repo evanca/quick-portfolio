@@ -9,8 +9,6 @@ enable_retina: false
 permalink: :title
 nav_list:
   Home : ['Home', '/', 'fa-home']
-  Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
-  Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
   About : ['About', '/about', 'fa-anchor']
   Contact : ['Contact', '/contact', 'fa-plane']
   Author : ['Author', '/author/michelle', 'fa-user']
