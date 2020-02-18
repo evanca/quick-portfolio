@@ -2,7 +2,7 @@
 layout: author
 title: Author
 permalink: author/steve/
-feature_image: feature-sea
+feature_image: feature-raspberry
 author_avatar: steve
 author_name: Steve Mitchell
 title: Steve Mitchell
