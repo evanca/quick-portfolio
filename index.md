@@ -6,7 +6,7 @@
 
 ### [Wildlife Photography](/project_photos/index1.md)
 <img src="images/PhotoMap.png?raw=true"/>
-I love to travel and take wildlife and landscape photos. This is a map of some of my favorite photos that I've taken. Click the link to see more photos!
+I love to travel and take pictures of wildlife and landscapes. This is a map of some of my favorite photos that I've taken. Click the link to see more photos!
 
 ---
 ### [Baltimore Stewardship Mapping Project](https://www.nrs.fs.fed.us/stew-map/baltimore/)
