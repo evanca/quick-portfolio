@@ -11,7 +11,7 @@ I love to travel and take pictures of wildlife and landscapes. This is a map of 
 ---
 ### [Baltimore Stewardship Mapping Project](https://www.nrs.fs.fed.us/stew-map/baltimore/)
 <img src="images/Screenshot (92).png?raw=true"/>
-As a research assistant for Baltimore STEW-MAP 2019 I am updating Baltimore’s comprehensive map of the hundreds of civic groups partcipiating in environmental stewardship in Baltimore. 
+As a research assistant for the USDA Forest Service I am updating Baltimore’s comprehensive map of the hundreds of civic groups partcipiating in environmental stewardship in Baltimore as part of the 2019 Baltimore STEWMAP Project. 
 
 ---
 ### [Algal Biofuels Research](/pdf/CAH 6 ERN poster.pdf)
@@ -19,5 +19,5 @@ As a research assistant for Baltimore STEW-MAP 2019 I am updating Baltimore’s 
 I am working on a student research project in the UMBC Biology Department. The project invloves using molecular biology techniques to genetically modify existing algal organisms to improve their capability to produce biofuels.
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+<p style="font-size:12px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
