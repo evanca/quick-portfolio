@@ -6,7 +6,7 @@
 
 [Wildlife Photography](https://www.instagram.com/allthingswild.photos/)
 <img src="images/PhotoMap.png?raw=true"/>
-I love to travel and take wildlife and landscape photos. This is a map of some of my favorite photos that I've taken. Click the link to see more photos on my Instagram.
+I love to travel and take wildlife and landscape photos. This is a map of some of my favorite photos that I've taken. Click the link to see more photos!
 
 ---
 [Baltimore Stewardship Mapping Project](https://www.nrs.fs.fed.us/stew-map/baltimore/)
