@@ -1,0 +1,31 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+a {
+ color:#0e9c89;
+}
+a:hover,
+a:focus {
+ color:#0e9c89;
+}
+a small {
+ color:#0e9c89;
+}
+a:hover small {
+ color:#0e9c89
+}
+
+body {
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-size: 105%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ letter-spacing: -0.08em;
+}
+
+header h1 a {
+ font-size: 1.2em;
+}
