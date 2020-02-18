@@ -4,7 +4,7 @@
 
 ### Current Projects 
 
-### [Wildlife Photography](https://www.instagram.com/allthingswild.photos/)
+### [Wildlife Photography](/project_photos/index1.md)
 <img src="images/PhotoMap.png?raw=true"/>
 I love to travel and take wildlife and landscape photos. This is a map of some of my favorite photos that I've taken. Click the link to see more photos!
 
