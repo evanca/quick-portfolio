@@ -4,18 +4,18 @@
 
 ### Current Projects 
 
-### [Wildlife Photography]
-## [Click Here](/project_photos/index1.md)
+## Wildlife Photography
+### [Click Here](/project_photos/index1.md)
 I love to travel and take pictures of wildlife and landscapes. This map has some of my favorite photos that I've taken. Click the link below the title to see a more detailed map of my photos!
 <img src="images/PhotoMap.png?raw=true"/>
 
 ---
-### [Baltimore Stewardship Mapping Project](https://www.nrs.fs.fed.us/stew-map/baltimore/)
+## [Baltimore Stewardship Mapping Project](https://www.nrs.fs.fed.us/stew-map/baltimore/)
 As a research assistant for the USDA Forest Service I am updating Baltimore’s comprehensive map of the hundreds of civic groups partcipiating in environmental stewardship in Baltimore as part of the 2019 Baltimore STEWMAP Project. 
 <img src="images/Screenshot (92).png?raw=true"/>
 
 ---
-### [Algal Biofuels Research](/pdf/CAH 6 ERN poster.pdf)
+## [Algal Biofuels Research](/pdf/CAH 6 ERN poster.pdf)
 I am working on a student research project in the UMBC Biology Department. The project invloves using molecular biology techniques to genetically modify existing algal organisms to improve their capability to produce biofuels.
 <img src="images/algae culture.jpg?raw=true"/>
 
