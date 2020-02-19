@@ -127,5 +127,5 @@
             background-color: #f8f8f8 !important;
         }
 		.leaflet-popup-content img {max-width: 300px;}
-		.leaflet-popup-content img {portrait}
+		.leaflet-popup-content img {position: portrait}
 		.leaflet-popup-content {width: 290px;}
