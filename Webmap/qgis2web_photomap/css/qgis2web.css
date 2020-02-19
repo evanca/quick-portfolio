@@ -22,7 +22,7 @@
             padding-right: 10px;
         }
         .leaflet-popup-content {
-            width:auto;
+            Height:auto;
             padding-right:10px;
         }
         .leaflet-tooltip {
@@ -127,5 +127,4 @@
             background-color: #f8f8f8 !important;
         }
 		.leaflet-popup-content img {max-width: 300px;}
-		.leaflet-popup-content img {height: auto}
 		.leaflet-popup-content {width: 290px;}
