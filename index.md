@@ -15,7 +15,7 @@ As a research assistant for the USDA Forest Service I am updating Baltimore’s 
 <img src="images/Screenshot (92).png?raw=true"/>
 
 ---
-### [Algal Biofuels Research](rad-sc.github.io/pdf/CAH 6 ERN poster.pdf)
+### [Algal Biofuels Research]
 I am working on a student research project in the UMBC Biology Department. The project invloves using molecular biology techniques to genetically modify existing algal organisms to improve their capability to produce biofuels.
 <img src="images/algae culture.jpg?raw=true"/>
 
