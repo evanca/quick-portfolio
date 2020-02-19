@@ -3,6 +3,7 @@
 ---
 
 ### Current Projects 
+---
 
 ## [Wildlife Photography](https://https://www.instagram.com/allthingswild.photos/)
 ### [Click Here](/project_photos/index1.md)
