@@ -10,12 +10,8 @@ permalink: :title
 nav_list:
   Home : ['Home', '/', 'fa-home']
   About : ['About', '/about', 'fa-anchor']
-  Contact : ['Contact', '/contact', 'fa-plane']
-  Author : ['Author', '/author/steve', 'fa-user']
 single_footer: '<p>Let us hear what you think. Permission to Play &copy; 2020 <a href="/">latest posts</a></p>'
 footer_links:
-    About: ['About', '/about']
-    Writer: ['Permission to Play 2020', '/about']
 # Disqus Comments
 disqus:
   # Leave shortname blank to disable comments site-wide.
