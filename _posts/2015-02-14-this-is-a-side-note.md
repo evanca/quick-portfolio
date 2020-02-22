@@ -1,16 +1,17 @@
 ---
-layout: post
-title:  "This is a test of this Blog template"
-date: 2020-02-17 08:50:28
-categories: raspberry kubernetes spring architecture
+layout: post-no-feature
+title:  "This is a test of side nodes"
+comments: true
+date: 2020-02-18 08:50:28
+categories: side-notes
 author_name : Steve Mitchell
 author_url : /author/steve
 author_avatar: steve
 show_avatar : true
 read_time : 5
-feature_image: feature-raspberry
+feature_image: feature-sidenotes
 show_related_posts: false
-square_related: recommend-wolf
+square_related: recommend-sidenotes
 ---
 
 Ask yourself, why not? What is the number one reason you wouldn't. If the reason you get back is fear, you should just do it.

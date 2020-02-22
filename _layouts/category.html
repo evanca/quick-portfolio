@@ -1,5 +1,6 @@
 ---
 layout: with-sidebar
+comments: false
 ---
 
 <div class="sub-nav">
@@ -16,7 +17,7 @@ layout: with-sidebar
         {{ post.excerpt | truncatewords: 28 }}
 
         <p class="meta">
-            <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize}}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> {{ post.read_time }} minutes
+            <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize | replace: "-", " " }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> {{ post.read_time }} minutes
         </p>
 
         </div>

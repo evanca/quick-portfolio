@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: false
 ---
 
 <header class="hero-image" style='background-image: url({{"/img/" | append: page.feature_image | prepend: site.baseurl }}.jpg);'>
@@ -28,7 +29,7 @@ layout: default
             <div class="meta">
 
                 <div class="sidebar-info">
-                    <a href="{{ page.author_url | prepend: site.baseurl }}">{{ page.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: page.categories.first | prepend: site.baseurl }}'>{{ page.categories.first | capitalize }}</a>
+                    <a href="{{ page.author_url | prepend: site.baseurl }}">{{ page.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: page.categories.first | prepend: site.baseurl }}'>{{ page.categories.first | capitalize  | replace: "-", " " }}</a>
                 </div>
 
                 <div class="sidebar-readtime">
