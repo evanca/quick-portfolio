@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Spring Cloud Config with Spring Vault"
+url: /spring-cloud-config-vault
 comments: true
 date: 2019-10-12 08:50:28
 categories: spring
