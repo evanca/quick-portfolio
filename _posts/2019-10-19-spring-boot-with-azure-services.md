@@ -9,7 +9,7 @@ author_url : /author/steve
 author_avatar: steve
 show_avatar : true
 read_time : 5
-feature_image: feature-flood-warning-azure
+feature_image: feature-architecture
 show_related_posts: false
 square_related: recommend-raspberry
 ---
