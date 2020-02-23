@@ -23,7 +23,10 @@ comments: true
             <h1>{{ page.title }}</h1>
 
             {{ content }}
-            {% include comments.html %}
+
+            {% if site.disqus.shortname %}
+                {% include comments.html %}
+            {% endif %}
 
         </div><!-- main-content/col -->
     </div> <!--/row -->
