@@ -19,6 +19,7 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   shortname: cloud-native-topics
+  disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics: UA-1918559-7
