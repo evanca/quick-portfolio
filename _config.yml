@@ -1,22 +1,27 @@
 # Site settings
-title: Steve Mitchell
+title: Cloud Native Topics
 email: stevecmitchell@gmail.com
-description: > # Permission to Play
- Permission to Play is a journey into making tech learning fun.
+description:
+ Cloud-native Topics is a journey into making tech learning fun.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 enable_retina: false
 permalink: :title
 nav_list:
   Home : ['Home', '/', 'fa-home']
-  About : ['About', '/about', 'fa-anchor']
-single_footer: '<p>Let us hear what you think. Permission to Play &copy; 2020 <a href="/">latest posts</a></p>'
+  About : ['About', '/about', 'fa-user']
+single_footer: Exploring Cloud-native topics the fun way
 footer_links:
+  About: ['About', '/about/']
+  Writer: ['Writer 2015', '/about/']
 # Disqus Comments
 disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  shortname: https-smitchell-github-com
+  shortname: cloud-native-topics
+
+# Google Analytics
+google_analytics: UA-1918559-7
 
 # Build settings
 # markdown: kramdown
