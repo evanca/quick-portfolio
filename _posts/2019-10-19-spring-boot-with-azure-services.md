@@ -3,7 +3,7 @@ layout: post
 title:  "Spring Boot with Azure Services"
 comments: true
 date: 2019-10-19 08:50:28
-categories: spring architecture
+categories: spring
 author_name : Steve Mitchell
 author_url : /author/steve
 author_avatar: steve

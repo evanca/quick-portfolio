@@ -8,22 +8,15 @@ author_name : Steve Mitchell
 author_url : /author/steve
 author_avatar: steve
 show_avatar : true
-read_time : 5
+read_time : 2
 feature_image: feature-spring
 show_related_posts: false
-square_related: recommend-raspberry
+square_related: recommend-spring
 ---
 
-In 2019, I created a <a href="https://github.com/smitchell/water-monitoring-azure-example"> project demonstrating integration of Spring Boot with Azure services</a>. Below is a 4-min overview.
+The Spring Cloud and Spring Vault project is a simple example of using Spring Vault with Spring Config. There is still much to explore, like auto-unseal, to it will continue to evolve.
 
-The project is a flood warning system that consumes river level measurement events from monitoring stations. The measurements are used issue flood advisories and to send out notifications.
-
-In 2020, I will expand on this idea with with a production quality, cloud-native Spring boot application running on Kubernetes.
-
-What this space...
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lW3zlj3zWjM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+https://github.com/smitchell/spring-cloud-config-vault
 
 
 [jekyll]:      http://jekyllrb.com
