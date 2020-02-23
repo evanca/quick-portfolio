@@ -1,39 +1,22 @@
 # Site settings
-title: Cloud Native Topics
-logo: "/img/steve.jpg"
+title: Steve Mitchell
 email: stevecmitchell@gmail.com
 description: > # Permission to Play
-  Cloud Native Topics is the story of my journey into exploring cloud-native software and architecture
-  <br></br>
-  <a href="https://www.linkedin.com/in/stevencmitchell/">View my LinkedIn Profile</a>
+ Permission to Play is a journey into making tech learning fun.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://smitchell.github.io" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 enable_retina: false
 permalink: :title
 nav_list:
   Home : ['Home', '/', 'fa-home']
   About : ['About', '/about', 'fa-anchor']
-single_footer: '<p>Let us hear what you think. Permission to Play <a href="/">latest posts</a></p>'
+single_footer: '<p>Let us hear what you think. Permission to Play &copy; 2020 <a href="/">latest posts</a></p>'
 footer_links:
-    About: ['About', '/about/']
-    Steve Mitchell: ['Steve Mitchell 2020', '/authors/steve']
-single_footer: Exploring Cloud-native topics the fun way
-
 # Disqus Comments
 disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  shortname: cloud-native-topics
-  disqus_show_comment_count: true
-
-# Google Analytics
-google_analytics: UA-1918559-7
-
-# Social icons
-github_username: smitchell
-
-social_message: Checkout this post at smitchell.github.io
-
+  shortname: https-smitchell-github-com
 
 # Build settings
 # markdown: kramdown

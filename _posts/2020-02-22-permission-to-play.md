@@ -1,9 +1,7 @@
 ---
 layout: post
 title:  "Permission to Play"
-url: /permission-to-play
 comments: true
-disqus_identifier: 1002
 date: 2020-02-22 13:17:00
 categories: raspberry kubernetes
 author_name : Steve Mitchell
@@ -45,6 +43,6 @@ In this upcoming series of articles, I will tell you the story of how I built a 
 
 Let me know what other topics I should include.
 
-[jekyll]:      https://jekyllrb.com
+[jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help

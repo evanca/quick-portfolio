@@ -1,9 +1,7 @@
 ---
 layout: post
 title:  "Spring Boot with Azure Services"
-url: /spring-boot-with-azure-services
 comments: true
-disqus_identifier: 1001
 date: 2019-10-19 08:50:28
 categories: spring architecture
 author_name : Steve Mitchell
@@ -28,6 +26,6 @@ What this space...
 
 
 
-[jekyll]:      https://jekyllrb.com
+[jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help
