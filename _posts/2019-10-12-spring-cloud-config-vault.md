@@ -16,7 +16,7 @@ square_related: recommend-spring
 
 The Spring Cloud and Spring Vault project is a simple example of using Spring Vault with Spring Config. There is still much to explore, like auto-unseal, to it will continue to evolve.
 
-https://github.com/smitchell/spring-cloud-config-vault
+* <a href="https://github.com/smitchell/spring-cloud-config-vault">https://github.com/smitchell/spring-cloud-config-vault</a>
 
 
 [jekyll]:      http://jekyllrb.com
