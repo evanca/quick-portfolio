@@ -2,6 +2,7 @@
 layout: post
 title:  "Spring Cloud Config with Spring Vault"
 comments: true
+disqus_identifier: 1000
 date: 2019-10-12 08:50:28
 categories: spring
 author_name : Steve Mitchell
@@ -19,6 +20,6 @@ The Spring Cloud and Spring Vault project is a simple example of using Spring Va
 * <a href="https://github.com/smitchell/spring-cloud-config-vault">https://github.com/smitchell/spring-cloud-config-vault</a>
 
 
-[jekyll]:      http://jekyllrb.com
+[jekyll]:      https://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help

@@ -16,6 +16,10 @@
     {% endif %}
     <script src=' {{ "/js/main.js" | prepend: site.baseurl }}'></script>
     <script id="dsq-count-scr" src="//https-smitchell-github-com.disqus.com/count.js" async></script>
+    {% include analytics.html %}
+<!--    {% if jekyll.environment == 'production' %}-->
+<!--    {% include analytics.html %}-->
+<!--    {% endif %}-->
   </body>
 
 </html>
