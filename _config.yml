@@ -24,5 +24,10 @@ disqus:
 # Google Analytics
 google_analytics: UA-1918559-7
 
+# Social icons
+github_username: smitchell
+
+social_message: Checkout this post at smitchell.github.io
+
 # Build settings
 # markdown: kramdown
