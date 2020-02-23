@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Permission to Play"
+url: /permission-to-play
 comments: true
 disqus_identifier: 1002
 date: 2020-02-22 13:17:00

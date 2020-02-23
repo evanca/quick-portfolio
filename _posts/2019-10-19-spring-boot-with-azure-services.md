@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Spring Boot with Azure Services"
+url: /spring-boot-with-azure-services
 comments: true
 disqus_identifier: 1001
 date: 2019-10-19 08:50:28

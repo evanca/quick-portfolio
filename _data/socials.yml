@@ -1,0 +1,24 @@
+
+facebook:
+  id: 'steve.c.mitchell'
+  href: 'https://www.facebook.com/'
+  title: 'Facebook'
+  fa-icon: 'fa-facebook-square'
+
+linkedin:
+  id: 'stevencmitchell'
+  href: 'https://www.linkedin.com/'
+  title: 'LinkedIn'
+  fa-icon: 'fa-linkedin'
+
+twitter:
+  id: 'runner_steve'
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  fa-icon: 'fa-twitter-square'
+
+github:
+  id: 'smitchell'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa-github-square'

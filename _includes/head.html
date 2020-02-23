@@ -14,4 +14,67 @@
     <!--[if lt IE 9]>
         <script src="{{ "/js/vendor/html5shiv.min.js" | prepend: site.baseurl }}"></script>
     <![endif]-->
+
+    <!-- facebook Open Graph Metadatas -->
+    <meta content="609039549219229" property="fb:app_id">
+    <meta content="{{ site.title }}" property="og:site_name">
+    {% if page.title %}
+    <meta content="{{ page.title }}" property="og:title">
+    {% else %}
+    <meta content="{{ site.title }}" property="og:title">
+    {% endif %}
+    {% if page.title %}
+    <meta content="article" property="og:type">
+    {% else %}
+    <meta content="website" property="og:type">
+    {% endif %}
+    {% if page.description %}
+    <meta content="{{ page.description }}" property="og:description">
+    {% else %}
+    <meta content="{{ site.description }}" property="og:description">
+    {% endif %}
+    {% if page.url %}
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    {% endif %}
+    {% if page.date %}
+    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+    <meta content="{{ site.url }}/about/" property="article:author">
+    {% endif %}
+    {% if page.header-img %}
+    <meta content="{{ site.url }}/{{ page.header-img }}" property="og:image">
+    {% endif %}
+    {% if page.categories %}
+    {% for category in page.categories limit:1 %}
+    <meta content="{{ category }}" property="article:section">
+    {% endfor %}
+    {% endif %}
+    {% if page.tags %}
+    {% for tag in page.tags %}
+    <meta content="{{ tag }}" property="article:tag">
+    {% endfor %}
+    {% endif %}
+
+    <!-- Twitter cards metadatas -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@runner_steve">
+    <meta name="twitter:creator" content="@runner_steve">
+    {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+    <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.url %}
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    {% endif %}
+    {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.header-img %}
+    <meta name="twitter:image:src" content="{{ site.url }}/{{ page.header-img }}">
+    {% endif %}
+
+    {% include google_analytics.html %}
+
 </head>
