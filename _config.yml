@@ -4,7 +4,7 @@ email: stevecmitchell@gmail.com
 description:
  Cloud-native Topics is a journey into making tech learning fun.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://smitchell.github.io" # the base hostname & protocol for your site
 enable_retina: false
 permalink: :title
 nav_list:
