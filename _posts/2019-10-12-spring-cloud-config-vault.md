@@ -8,7 +8,7 @@ categories: spring
 author_name : Steve Mitchell
 author_url : /author/steve
 author_avatar: steve
-show_avatar : true
+show_avatar : false
 read_time : 2
 feature_image: feature-spring
 show_related_posts: false

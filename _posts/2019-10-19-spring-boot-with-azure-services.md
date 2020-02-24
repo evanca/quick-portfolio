@@ -8,7 +8,7 @@ categories: spring architecture
 author_name : Steve Mitchell
 author_url : /author/steve
 author_avatar: steve
-show_avatar : true
+show_avatar : false
 read_time : 5
 feature_image: feature-architecture
 show_related_posts: false
