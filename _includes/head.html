@@ -3,7 +3,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src 'self' data: twimg.com; font-src 'self' https://fonts.gstatic.com; default-src 'self';">
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self' 'unsafe-inline';
+          font-src 'self' data: fonts.gstatic.com;
+          script-src-elem  'self' 'unsafe-inline' www.google-analytics.com www.googletagmanager.com cloud-native-topics.disqus.com c.disquscdn.com;
+          style-src-elem  'self'  'unsafe-inline' data: fonts.googleapis.com  'unsafe-inline';
+          img-src data:  'self' www.google-analytics.com cdn.viglink.com referrer.disqus.com c.disquscdn.com;
+          connect-src  'self' links.services.disqus.com c.disquscdn.com;">
 
     <title>{{ site.title }} | {% if page.title %}{{ page.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
