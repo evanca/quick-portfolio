@@ -44,6 +44,8 @@ In this upcoming series of articles, I will tell you the story of how I built a 
 
 Let me know what other topics I should include.
 
+Continue reading with the first article in the series: <a href="https://smitchell.github.io/some-assembly-required">Some Assembly Required</a>.
+
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help
