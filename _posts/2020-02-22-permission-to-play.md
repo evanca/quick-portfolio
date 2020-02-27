@@ -18,8 +18,8 @@ square_related: recommend-kubernetes
 It started as a friendly Twitter rivalry between me (<a href="https://twitter.com/runner_steve">@runner_steve</a>), and DaShaun Carter (<a href="https://twitter.com/dashaun">@Dashaun</a>) of Pivotal. The challenge: who could create the sexiest Kubernetes cluster out of Raspberry Pis? 
 
 <figure class="half">
-    <a href="/img/tweet_dashaun.png"><img src="/img/tweet-dashaun_sm.jpg"></a>
-    <a href="/img/tweet_steve.png"><img src="/img/tweet-steve_sm.jpg"></a>
+    <a href="/img/post-assets/2020-02-22-permission-to-play/tweet_dashaun.png"><img src="/img/post-assets/2020-02-22-permission-to-play/tweet-dashaun_sm.jpg"></a>
+    <a href="/img/post-assets/2020-02-22-permission-to-play/tweet_steve.png"><img src="/img/post-assets/2020-02-22-permission-to-play/tweet-steve_sm.jpg"></a>
     <figcaption>Raspberry Pi Twitter Rivalry.</figcaption>
 </figure>
 

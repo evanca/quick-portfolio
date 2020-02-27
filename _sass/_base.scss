@@ -58,6 +58,11 @@ figcaption {
     font-size: $small-font-size;
 }
 
+.center-image {
+    margin: 0 auto;
+    display: block;
+}
+
 
 
 /**
@@ -221,3 +226,5 @@ pre {
         }
     }
 }
+
+
