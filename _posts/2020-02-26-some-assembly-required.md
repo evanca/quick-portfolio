@@ -104,7 +104,6 @@ I’m so happy that I work at <a href="https://thinkahead.com">Ahead</a> where t
 In the next installment of the series, coming soon, I'll detail the set-up of Raspbian, booting off of SSD.
 
 ### References
-* <a href="https://www.raspberrypi.org/trademark-rules/">https://www.raspberrypi.org/trademark-rules/</a>
 * <a href="https://blog.alexellis.io/cooling-off-your-rpi4/">https://blog.alexellis.io/cooling-off-your-rpi4</a>
 * <a href="https://www.hackster.io/news/do-you-need-to-use-a-fan-for-cooling-with-the-new-raspberry-pi-4-6d523ca12453">https://www.hackster.io/news/do-you-need-to-use-a-fan-for-cooling-with-the-new-raspberry-pi-4-6d523ca12453</a>
 * <a href="https://www.seeedstudio.com/blog/2019/09/18/raspberry-pi-4-cooling-test-compare-heat-sinks-and-cooling-fan/">https://www.seeedstudio.com/blog/2019/09/18/raspberry-pi-4-cooling-test-compare-heat-sinks-and-cooling-fan</a>
