@@ -100,6 +100,9 @@ Finish your mechanical installation of the cluster parts and we’ll pick-up wit
 
 I’m so happy that I work at <a href="https://thinkahead.com">Ahead</a> where this kind of experimentation is encouraged. If you want to learn about opportunities at Ahead, please reach out to my buddy, <a href="mailto:kaleigh.baker@thinkahead.com">Kaleigh</a>, to find out what positions are open or drop her your resume. 
 
+## Next
+In the next installment of the series, coming soon, I'll detail the set-up of Raspbian, booting off of SSD.
+
 ### References
 * <a href="https://www.raspberrypi.org/trademark-rules/">https://www.raspberrypi.org/trademark-rules/</a>
 * <a href="https://blog.alexellis.io/cooling-off-your-rpi4/">https://blog.alexellis.io/cooling-off-your-rpi4</a>
