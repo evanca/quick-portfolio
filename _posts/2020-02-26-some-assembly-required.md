@@ -74,8 +74,8 @@ I added 256gb mSATA drives to all the Raspberry Pis in my cluster. That’s over
 ## Power
 If you buy an official Raspberry Pi power supply you can ignore this section. If you have a lot of Raspberry Pis in your cluster you can save space by using an Anker 6-Port USB Charging Station, but be careful ordering the cables.
 
-Raspberry Pis jad a bug in its USB-C connector, causing some USB-C cables to not work with the Raspberry Pi 4. This was corrected in the Raspberry Pi 4B V1.2. If you have an early version, pick one from <a href="https://www.tomshardware.com/news/raspberry-pi-4-usb-c-cables-that-work,39869.html">reviewed on Top’s Hardware</a>. I did and it works fine. Keep your shipping material slips handy, in case you buy an incompatible cable. 
-#@# Cooling
+Raspberry Pis had a bug in its USB-C connector, causing some USB-C cables to not work with the Raspberry Pi 4. This was corrected in the Raspberry Pi 4B V1.2. If you have an early version, choose one from those <a href="https://www.tomshardware.com/news/raspberry-pi-4-usb-c-cables-that-work,39869.html">reviewed on Top’s Hardware</a>. I did, and they work fine. Keep your shipping material slips handy, in case you buy an incompatible cable. 
+## Cooling
 Nobody likes listening to fans. I have a Raspberry Pi 3 with a variable speed fan that can get quite loud.
 
 {% include image.html url="/img/post-assets/2020-02-26-some-assembly-required/fan_cooled.png" description="Fan approaching takeoff speed" %}
