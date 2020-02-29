@@ -4,7 +4,7 @@
 
 ### Predictive Modeling in R 
 
-[Housing Price Prediction in San Francisco](/MyProject/MUSA_507_Midterm_writeup_HippoHippo)
+[Housing Price Prediction in San Francisco](/MyProject/MUSA_507_Midterm_writeup_HippoHippo.html)
 <img src="images/sfpredict.jpg?raw=true"/>
 
 ---
