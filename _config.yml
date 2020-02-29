@@ -1,11 +1,28 @@
-title: LUTFI ZAYED # your name (or website title) here
-logo: "/images/1168897.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
-  <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
-  
-theme: jekyll-theme-minimal
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My first website!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<button class="btn btn-primary">Default</button>
+	<header style=background-color: black>
+		<nav>
+			<ul>
+				<li>Home</li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h2>Home</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+</body>
+</html>
