@@ -14,6 +14,10 @@ single_footer: Exploring Cloud-native topics the fun way
 footer_links:
   About: ['About', '/about/']
   Writer: ['Steve Mitchell', '/author/steve']
+plugins:
+ - jekyll-feed
+ - jekyll-sitemap
+ - jekyll-seo-tag
 # Disqus Comments
 disqus:
   # Leave shortname blank to disable comments site-wide.
@@ -24,11 +28,12 @@ disqus:
 # Google Analytics
 google_analytics: UA-1918559-7
 
-# Social icons
-github_username: smitchell
-twitter_username: runner_steve
-
-social_message: Checkout this post at smitchell.github.io
-
 # Build settings
-# markdown: kramdown
+markdown: kramdown
+kramdown:
+ syntax_highlighter: rouge
+ syntax_highlighter_opts:
+  span:
+   line_numbers: true
+  block:
+   line_numbers: true

@@ -44,6 +44,7 @@ In this upcoming series of articles, I will tell you the story of how I built a 
 
 Let me know what other topics I should include.
 
+----
 ## Next
 The first article in the series covers choosing and assembling the components: <a href="https://smitchell.github.io/some-assembly-required">Some Assembly Required</a>.
 

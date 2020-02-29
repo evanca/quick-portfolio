@@ -4,16 +4,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta http-equiv="Content-Security-Policy"
-          content="default-src 'self' 'unsafe-inline';
+          content="default-src 'self' 'unsafe-inline' c.disquscdn.com disqus.com;
           font-src 'self' data: fonts.gstatic.com;
+          frame-src www.youtube.com  disqus.com;
           script-src-elem  'self' 'unsafe-inline' www.google-analytics.com www.googletagmanager.com cloud-native-topics.disqus.com c.disquscdn.com;
-          style-src-elem  'self'  'unsafe-inline' data: fonts.googleapis.com  'unsafe-inline';
+          style-src-elem  'self'  'unsafe-inline' data: fonts.googleapis.com  c.disquscdn.com;
           img-src data:  'self' www.google-analytics.com cdn.viglink.com referrer.disqus.com c.disquscdn.com;
           connect-src  'self' links.services.disqus.com c.disquscdn.com;">
 
     <title>{{ site.title }} | {% if page.title %}{{ page.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+    <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -84,4 +86,6 @@
     {% endif %}
 
     {% include google_analytics.html %}
+    {% feed_meta %}
+    {% seo %}
 </head>
