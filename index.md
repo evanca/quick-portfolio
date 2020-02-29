@@ -18,7 +18,12 @@
 ---
 
 
-### ArcGIS Projects
+### ArcGIS Projects and Visualizations 
+
+[Visualize Philadelphia Crime Incidents]
+<img src="/MyProject/philly_crime.gif?raw=true"/>
+
+---
 
 [Urban Growth and Environmental Sustainability Analysis](/MyProject/Urban_Growth_Environmental_Protection.pdf)
 <img src="images/urbandevelop.jpg?raw=true"/>
