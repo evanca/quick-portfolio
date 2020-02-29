@@ -20,13 +20,15 @@
 
 ### ArcGIS Projects and Visualizations 
 
-[Visualize Philadelphia Crime Incidents]
-<img src="/MyProject/philly_crime.gif?raw=true"/>
-
----
 
 [Urban Growth and Environmental Sustainability Analysis](/MyProject/Urban_Growth_Environmental_Protection.pdf)
 <img src="images/urbandevelop.jpg?raw=true"/>
+
+---
+
+## Visualize Philadelphia Crime Incidents
+What time of day Philly has the heightest crime rate? 
+<img src="/MyProject/philly_crime.gif?raw=true"/>
 
 ---
 [Lancaster County Urban Growth](/MyProject/LancasterCountyUrbanGrowthProject.pdf)
