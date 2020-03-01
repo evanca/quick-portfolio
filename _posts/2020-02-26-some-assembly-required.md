@@ -70,11 +70,13 @@ Why should you pay for an mSATA drive with a USB-C adapter? The performance of t
     <figcaption>mSATA Adapter</figcaption>
 </figure>
 
-https://storage.jamesachambers.com/msata/
-{% include warning.html content="The INDMEM SSD mSATA cards I bought got performance of 1332 when I tested them using http://www.iozone.org. they should have scored over 8000. I recommend that you choose a high scoring SSD from this list instead. <a href='https://storage.jamesachambers.com/msata/'>https://storage.jamesachambers.com/msata/</a>."  I updated my public list to include a Kingston SSD instead of the INDMEM SSD%}
-
-
 I added 256gb mSATA drives to all the Raspberry Pis in my cluster. That’s overkill, but since I want to fully enjoy playing on my Raspberry Pi playground, I spent the extra money.
+
+{% include warning.html content="The INDMEM SSD mSATA cards I bought received a performance score of 1,332 when I tested them using http://www.iozone.org. A score over 8,000 is more typical for mSATA. I recommend that you choose a high scoring SSD from this list. <a href='https://storage.jamesachambers.com/msata/'>https://storage.jamesachambers.com/msata/</a>.  
+
+I updated my public list to include a Kingston SSD instead of the INDMEM SSD. I will test it when I add my next Pi." %}
+
+
 ## Power
 If you buy an official Raspberry Pi power supply you can ignore this section. If you have a lot of Raspberry Pis in your cluster you can save space by using an Anker 6-Port USB Charging Station, but be careful ordering the cables.
 {% include image.html url="/img/post-assets/2020-02-26-some-assembly-required/power.png" description="Power Distribution" %}
