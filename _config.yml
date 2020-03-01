@@ -18,6 +18,10 @@ plugins:
  - jekyll-feed
  - jekyll-sitemap
  - jekyll-seo-tag
+ - jekyll-gist
+
+# https://github.com/jekyll/jekyll-gist
+
 # Disqus Comments
 disqus:
   # Leave shortname blank to disable comments site-wide.
