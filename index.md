@@ -9,9 +9,9 @@
 
 ---
 
-### Walter Athletic Center Story
+### Walter Athletic Center Story (NACDA Magazine)
 
-[Read the full article](/pdf/sample_presentation.pdf)
+[Read the full article](/pdf/WACsample.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
@@ -19,9 +19,9 @@
 ### Sustainability at Northwestern Story & Website
 
 [Visit the site here](http://www.medillnews847.com/jour320/fall18/final/nutrash/index.html?fbclid=IwAR2vGl_eM6Usv3rIf30LUy13Rb6ILrs5cMPutuburBBpbQ2hqK0-DMOC-5Y)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Screen Shot 2020-03-01 at 7.43.34 PM.png"/>
 
----
+
 
 ### Online Articles 
 
