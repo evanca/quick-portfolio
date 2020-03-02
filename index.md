@@ -4,7 +4,7 @@
 
 ### Northwestern Football Yearbook Story 
 
-[Project 1 Title](/sample_page)
+[Read the full article](/pdf/May01.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
