@@ -23,7 +23,7 @@
 - [The Legacy of Northwestern Tennis (NUSports.com)](https://nusports.com/news/2018/8/27/womens-tennis-legacy-of-leadership-the-alumni-network-of-northwestern-tennis.aspx)
 - [Seahawks vs. 49ers Week 10 Recap (SI.com)](https://www.si.com/nfl/2019/11/12/seahawks-hand-49ers-first-loss-monday-night-football)
 - [A Closer Look at the Atlanta Hawks Rebuild (SI.com)](https://www.si.com/nba/2019/11/12/atlanta-hawks-golden-state-warriors-blueprint)
-- [College Basketball March Madness Droughts](https://www.si.com/college/2019/10/16/march-madness-ncaa-tournament-droughts)
+- [College Basketball March Madness Droughts (SI.com)](https://www.si.com/college/2019/10/16/march-madness-ncaa-tournament-droughts)
 
 ---
 
