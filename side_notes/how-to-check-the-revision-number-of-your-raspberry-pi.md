@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "SIDE NOTE: How to check the revision number of your Raspberry Pi"
-url: /how-to-check-the-revision-number-of-your-raspberry-pi
 comments: true
 date: 2020-02-26 13:17:00
-categories: [side-notes]
 author_name : Steve Mitchell
 author_url : /author/steve
 author_avatar: steve
