@@ -2,7 +2,16 @@
 layout: with-sidebar
 comments: false
 ---
-
+<div class="row">
+        <div id="search">
+            <form role="search" method="get" action="{{ '/search/' | prepend: site.baseurl }}">
+                <input id="searchString" name="searchString"
+                       placeholder="Search keywords" type="text">
+                <input id="searchButton" name="googleSearchName" type="submit" value="Search">
+            </form>
+        </div>
+</div>
+<div class="row">
 <div class="sub-nav">
     <a href="#" class="select-posts active">Posts</a>
     <a href="#" class="select-categories">Categories</a>
