@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomSearchEngine id="cj3ci6x7xuz" creator="007699357961925698255" keywords="Raspberry pi kubernetes k8s k3s cloud-native java spring" language="en" encoding="UTF-8" safesearch="true" autocompletions="true">
+    <Title>smitchell.github.io</Title>
+    <Description>Cloud-native topics</Description>
+    <Context>
+        <BackgroundLabels>
+            <Label name="_cse_cj3ci6x7xuz" mode="FILTER"/>
+            <Label name="_cse_exclude_cj3ci6x7xuz" mode="ELIMINATE"/>
+        </BackgroundLabels>
+    </Context>
+    <LookAndFeel element_layout="8" theme="7" custom_theme="false" url_length="full" element_branding="show" enable_cse_thumbnail="true" promotion_url_length="full" font="2">
+        <Logo/>
+        <Colors/>
+        <Promotions/>
+        <SearchControls/>
+        <Results/>
+    </LookAndFeel>
+    <ImageSearchSettings enable="false"/>
+    <autocomplete_settings/>
+    <sort_by_keys label="Relevance" key="raspberry spring java kubernetes k8s k3s cloud"/>
+    <sort_by_keys label="Date" key="date"/>
+</CustomSearchEngine>
