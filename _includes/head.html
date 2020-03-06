@@ -7,7 +7,7 @@
           content="default-src 'self' 'unsafe-inline' 'unsafe-eval' c.disquscdn.com disqus.com;
           font-src 'self' data: fonts.gstatic.com;
           frame-src www.youtube.com  disqus.com cse.google.com;
-          script-src-elem  'self' 'unsafe-inline' www.google-analytics.com www.googletagmanager.com cloud-native-topics.disqus.com c.disquscdn.com cse.google.com www.google.com;
+          script-src-elem  'self' 'unsafe-inline' www.google-analytics.com www.googletagmanager.com cloud-native-topics.disqus.com c.disquscdn.com cse.google.com www.google.com clients1.google.com;
           style-src-elem  'self'  'unsafe-inline' data: fonts.googleapis.com  c.disquscdn.com www.google.com fonts.googleapis.com;
           img-src data:  'self' www.google-analytics.com cdn.viglink.com referrer.disqus.com c.disquscdn.com *.google.com *.googleapis.com *.gstatic.com;
           connect-src  'self' links.services.disqus.com c.disquscdn.com  www.google-analytics.com;">
@@ -25,6 +25,8 @@
     <!--[if lt IE 9]>
         <script src="{{ "/js/vendor/html5shiv.min.js" | prepend: site.baseurl }}"></script>
     <![endif]-->
+
+    <script async src="https://cse.google.com/cse.js?cx=007699357961925698255:cj3ci6x7xuz"></script>
 
     <!-- facebook Open Graph Metadatas -->
     <meta content="609039549219229" property="fb:app_id">
