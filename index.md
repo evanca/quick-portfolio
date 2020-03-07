@@ -5,14 +5,14 @@
 ### Northwestern Football Yearbook Story 
 
 [Read the full article](/pdf/May01.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/dummy_thumbnail.jpg"/>
 
 ---
 
 ### Walter Athletic Center Story (NACDA Magazine)
 
 [Read the full article](/pdf/WACsample.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/dummy_thumbnail.jpg"/>
 
 ---
 
@@ -20,7 +20,7 @@
 
 [Visit the site here](http://www.medillnews847.com/jour320/fall18/final/nutrash/index.html?fbclid=IwAR2vGl_eM6Usv3rIf30LUy13Rb6ILrs5cMPutuburBBpbQ2hqK0-DMOC-5Y)
 
-<img src="images/Screen Shot 2020-03-01 at 7.43.34 PM.png"/>
+<img src="images/medill-news-screenshot.png"/>
 
 
 
