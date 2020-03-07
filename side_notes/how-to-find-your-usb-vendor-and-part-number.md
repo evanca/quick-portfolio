@@ -55,7 +55,7 @@ console=serial0,115200 console=tty1 root=/dev/sda rootfstype=ext4 elevator=deadl
 
 After rebooting, I used hwinfo again to verify that the change had worked.
 
-{% include image.html url="/img/side-note-assets/how-to-find-your-usb-vendor-and-part-number/hwinfo-scsi_after.png" description="The Drive Module is now usb_storage instead of uas" %}
+{% include image.html url="/img/side-note-assets/how-to-find-your-usb-vendor-and-part-number/hwinfo_scsi_after.png" description="The Drive Module is now usb_storage instead of uas" %}
 
 Alternatively, I could have verified it worked with the lsusb command:
 
