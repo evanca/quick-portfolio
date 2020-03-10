@@ -150,7 +150,7 @@ ssh pi@192.168.1.10
 ```
 
 ## Preparing the SSD
-Technically, the Raspberry Pi 4 doesn’t support booting from micro SATA yet. You can get around this booting issue  by assigning root to /dev/sda1. Technically, the Raspberry Pi still boots from the MicroSD card but then all IO to root happens on the mSATA drive. This "Try At Home" <a href="https://www.youtube.com/watch?v=FM9wuFLufyA">YouTube video</a> gives great step-by-step instructions.
+Technically, the Raspberry Pi 4 doesn’t support booting from micro SATA yet. You can get around this booting issue  by assigning root to /dev/sda. Technically, the Raspberry Pi still boots from the MicroSD card but then all IO to root happens on the mSATA drive. This "Try At Home" <a href="https://www.youtube.com/watch?v=FM9wuFLufyA">YouTube video</a> gives great step-by-step instructions.
 
 {% include tip.html content="This optional step, to boot from an SSD, may differ depending on your setup. My SSD mounted as /dev/sda, but yours may not. To find your SSD run the “sudo fdisk --list” command. Your SSD will be described like “Disk /dev/sda: 238.5 GiB, Disk model: SD mSATA.” Take note of the path, e.g. /dev/sda, and use that wherever you see “/dev/sda” referenced below." %}
 
