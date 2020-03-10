@@ -14,10 +14,12 @@ show_related_posts: false
 Whether or not you use an SSD, you should know that too many writes shorten the life of MicroSD cards and SSDs. To reduce the number of writes, I applied some tips from this post by <a href="http://ideaheap.com/2013/07/stopping-sd-card-corruption-on-a-raspberry-pi/">Nicholas Wertzberger</a>.
 
 ### Disable Swapping
-1. sudo dphys-swapfile swapoff
-1. sudo dphys-swapfile uninstall
-1. sudo update-rc.d dphys-swapfile remove
+```shell
+sudo dphys-swapfile swapoff
+sudo dphys-swapfile uninstall
+sudo update-rc.d dphys-swapfile remove
 ### Moving logging to tempfs
+```
 
 Edit /etc/fstab and add the following for lines.
 
