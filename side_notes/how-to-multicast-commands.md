@@ -31,7 +31,7 @@ Add the hostname of all the Raspberry nodes to the /etc/hosts file on your compu
 
 ## Use SSH Keys for Authentication
 
-Complex passwords are a drag to type over and over, so use SSH keys to authenticate with your Raspberry Pi nodes. You’ll need RSA keys on your laptop. Look in ~/.ssh. If you don’t have one, use ssh-keygen to create one:
+Complex passwords are a drag to type over and over. Use SSH keys to authenticate with your Raspberry Pi nodes. You’ll need RSA keys on your laptop. Look in ~/.ssh. If you don’t have one, use ssh-keygen to create one:
 
 ```shell
 ssh-keygen
@@ -47,11 +47,11 @@ You can now ssh into pi1 without a password. Repeat for each Raspberry Pi node i
 
 ## Automatically Sign in to all the Nodes at Once
 
-This last step takes a bit of work to set-up, but it allows you to use a keyboard shortcut in iTerm to open terminals to all of your Raspberry Pi nodes at once. This allows you to automatically sign in to all of them. Next, you can use iTerm’s “Broadcast Input to all Panes” feature to send keystrokes simultaneously to all the nodes.
+This last step takes a bit of work to set up, but it allows you to use a keyboard shortcut in iTerm to open terminals to all of your Raspberry Pi nodes at once. This allows you to automatically sign in to all of them. Next, you can use iTerm’s “Broadcast Input to all Panes” feature to send keystrokes simultaneously to all of the nodes.
 
 Read <a href="https://blog.andrewray.me/how-to-create-custom-iterm2-window-arrangments/">Andrew Ray’s blog post</a> and follow his step-by-step instructions. Here are the screenshots from my setup.
 
-Split your terminal window into panes for all the Raspberry Pi nodes, then create a separate profile for each host.
+Split your terminal window into panes for all the Raspberry Pi nodes. Then create a separate profile for each host.
 
 {% include image.html url="/img/side-note-assets/how-to-multicast-commands/iterm-profile_anotated.png" description="Create Profile for Each Host" %}
 
