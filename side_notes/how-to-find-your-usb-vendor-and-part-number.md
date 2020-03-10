@@ -14,7 +14,7 @@ show_related_posts: false
  Given the vendor, 045b, and part, 0229, the parameter to add to /boot/cmdline.txt would look like this: \"usb-storage.quirks=045b:3483:u\". This article goes on to explain why you need the usb-storage.quirks parameter, and how I found my vendor and part number. You can stop here if you found your vendor and part number on <a href='http://www.linux-usb.org/usb.ids'>http://www.linux-usb.org/usb.ids</a>.
 " %}
 
-Some posts I read about booting from SSD mentioned usb-storage.quirks and I began to worry that I had missed an important step. The issue is that in certain situations the Linux "uas" storage driver disables SAT transfers. You can see which storage driver is in use with the lsusb command or dmesg command as shown below.
+Some posts I read about booting from SSD mentioned usb-storage.quirks. I began to worry that I had missed an important step. The issue is that in certain situations, the Linux "uas" storage driver disables SAT transfers. You can see which storage driver is in use with the lsusb command or dmesg command as shown below.
 
 {% include image.html url="/img/side-note-assets/how-to-find-your-usb-vendor-and-part-number/lsusb_cmd.png" description="Checking the Storage Drive type with lsusb" %}
 
@@ -33,7 +33,7 @@ sudo apt get hwinfo
 hwinfo --scsi
 ```
 
-The output shows my INDMEM mSATA is bound to the "uas" storage driver, but Vendor and Device are not hexadecimal numbers. To get those I had to find my USB to mSATA converter.
+The output shows my INDMEM mSATA is bound to the "uas" storage driver, but Vendor and Device are not hexadecimal numbers. To get those, I had to find my USB to mSATA converter.
 
 {% include image.html url="/img/side-note-assets/how-to-find-your-usb-vendor-and-part-number/hwinfo_scsi_before.png" description="mSATA attached to uas Storage Driver (which is not what we want)" %}
 
