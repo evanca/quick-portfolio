@@ -221,7 +221,7 @@ The response from “findmnt” should be “/dev/sda” (or whatever you passed
 
 {% include tip.html content="Extend the life of your MicroSD or SSD with a few tweaks: <a href='/side_notes/how-to-reduce-writes-to-ssd.html'>How to Reduce Writes to SSD</a>." %}
 
-# The Raspberry Pi won’t boot - What do I do?
+### The Raspberry Pi won’t boot - What do I do?
 If you make a mistake in the cmdline.txt file, booting might fail. No worries. That is why you made a backup copy of cmdline.txt before making changes. Remove the MicroSD card from the Pi, pop it into your computer, and restore the original /boot/cmdline.txt file from the backup you created. Problem solved.
 ## Rinse and Repeat
 Repeat this process for each Raspberry Pi. The next post will cover simple tips that making working on your Raspberry Pis a pleasure.
