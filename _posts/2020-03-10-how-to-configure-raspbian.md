@@ -211,13 +211,14 @@ console=serial0,115200 console=tty1 root=PARTUUID=738a4d67-02 rootfstype=ext4 el
 ### AFTER
 console=serial0,115200 console=tty1 root=<span style="color:red">/dev/sda</span> rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait <span style="color:red">usb-storage.quirks=045b:0229:u</span
 
-Reboot after editing the fle.
-
-Reconnect to the host and verify the change with this command. The response from “findmnt” should be “/dev/sda” (or whatever you passed into cmdline.txt).
+Reboot and then reconnect to the host and verify the change with the findmnt command. 
 
 ```shell
 findmnt -n -o SOURCE /
 ```
+
+The response from “findmnt” should be “/dev/sda” (or whatever you passed into cmdline.txt).
+
 {% include tip.html content="Extend the life of your MicroSD or SSD with a few tweaks: <a href='/side_notes/how-to-reduce-writes-to-ssd.html'>How to Reduce Writes to SSD</a>." %}
 
 # The Raspberry Pi won’t boot - What do I do?
