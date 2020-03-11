@@ -10,7 +10,7 @@ show_avatar : false
 read_time : 4
 show_related_posts: false
 ---
-In the article <a href="https://smitchell.github.io/how-to-configure-raspbian-linux">How to Configure Raspbian Linux</a> we discuss the usb-storage.quirks parameter to bind to the right storage manager. This side note goes on to explain in more detail.
+The article <a href="https://smitchell.github.io/how-to-configure-raspbian-linux">How to Configure Raspbian Linux</a> discussed using the usb-storage.quirks parameter to bind to the right storage manager. This side note goes on to explain usb-storage.quirks in more detail.
 
 {% include tip.html content="All you have to do for this step is to find the vendor and part number of your USB to mSATA adapter <a href='http://www.linux-usb.org/usb.ids'>here</a> and append the usb-storage.quirks parameter to /boot/cmdline.txt. 
  Given the vendor, 045b, and part, 0229, the parameter to add to /boot/cmdline.txt would look like this: \"usb-storage.quirks=045b:3483:u\". This article goes on to explain why you need the usb-storage.quirks parameter, and how I found my vendor and part number. You can stop here if you found your vendor and part number on <a href='http://www.linux-usb.org/usb.ids'>http://www.linux-usb.org/usb.ids</a>.
