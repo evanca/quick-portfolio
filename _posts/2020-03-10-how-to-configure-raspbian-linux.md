@@ -201,7 +201,7 @@ sudo cp /boot/cmdline.txt /boot/cmdline.txt.bak
 
 Carefully edit /boot/cmdline.txt and change the root path, "root=/dev/sda," and append the usb-storage.quirks parameter, i.e. "usb-storage.quirks=045b:0229:u."
 
-{% include tip.html content="To learn how to find your USB to mSATA vendor and part numbers for the usb-storage.quirks command, see my side note: <a href='https://smitchell.github.io/side_notes/how-to-find-your-usb-vendor-and-part-number.html'>How to find your USB vendor and part number</a>." %}
+{% include tip.html content="To learn how to use \"usb-storage.quirks\" to bind to the right USB storage driver, see my side note: <a href='https://smitchell.github.io/side_notes/how-to-bind-to-the-right-usb-storage-driver.html'>How to bind to the right USB Storage Driver</a>." %}
 
 Here is how the cmdline looks before and after editing.
 ### BEFORE
