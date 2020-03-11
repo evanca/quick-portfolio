@@ -1,6 +1,6 @@
 ---
 layout: sidenote
-title:  "How to bind to the right USB storage driver."
+title:  "How to bind to the right USB storage driver"
 comments: true
 date: 2020-03-07 10:16:00
 author_name : Steve Mitchell
