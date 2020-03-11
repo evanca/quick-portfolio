@@ -59,11 +59,17 @@ touch /Volumes/boot/ssh
 # First Boot
 There are a number of changes to make after the first boot. Assuming that you are running headless, the first challenge is discovering the DHCP IP address assigned to the Raspberry Pi when it booted.
 ## Find the IP Address
-Insert the MicroSD into the Raspberry Pis, power it on, and give it a minute to come online. <a href="https://angryip.org/">Angry IP Scanner<a/> is a free network scanner to sniff out the IP address on your network. The new device shows up with a hostname of “raspberrypi,” as pictured below.
+Insert the MicroSD into the Raspberry Pi, power it on, and give it a minute to come online. <a href="https://angryip.org/">Angry IP Scanner<a/> is a free network scanner to sniff out the IP address on your network. The new device shows up with a hostname of “raspberrypi,” as pictured below.
 
 {% include image.html url="/img/post-assets/2020-03-10-how-to-configure-raspbian/network-scan.png" description="https://angryip.org/" %}
 
-Open a terminal and use “ssh” to connect to the Raspberry Pi as the “pi” user. The default password is “raspberry.”
+Open a terminal and use “ssh” to connect to the Raspberry Pi as the “pi” user, for example:
+
+```shell
+ssh pi@192.168.1.196
+```
+
+The default password is “raspberry.” Use "apt" to upgrade Raspbian to current versions.
 
 ```shell
 sudo apt update
@@ -121,10 +127,10 @@ The last thing we’ll do before rebooting is change the hostname. This makes it
 Select Hostname and change the name from “raspberrypi” to a unique name for your cluster. I named mine “pi1” - “pi6.” Select “yes” when prompted to reboot.
 
 Give the Pi a minute to finish rebooting, then use ssh to reconnect to the host using the same DHCP IP address you originally found on the network with the IP scanner. This time log in using the new password you set above.
-# Reserved DHCP or Static IP
+## Reserved DHCP or Static IP
 
 You’ll want to lock down the Raspberry Pi’s internet address so that it doesn’t change after a shutdown or loss of power. Most home routers have a setting to reserve the DHCP address for a device. That may be the easiest option for you, in which case, you can sign in to your home router and reserve the DHCP address of each Raspberry Pi. Alternatively, you can give each Raspberry Pi a static IP address.
-## Static IP Addresses 
+### Static IP Addresses 
 
 To use static IP addresses, sign in to your home router and find its DHCP address range.
 
@@ -149,8 +155,8 @@ To test the change, ssh to the host using the new static IP address.
 ssh pi@192.168.1.10
 ```
 
-## Preparing the SSD
-Technically, the Raspberry Pi 4 doesn’t support booting from micro SATA yet. You can get around this booting issue  by assigning root to /dev/sda. Technically, the Raspberry Pi still boots from the MicroSD card but then all IO to root happens on the mSATA drive. This "Try At Home" <a href="https://www.youtube.com/watch?v=FM9wuFLufyA">YouTube video</a> gives great step-by-step instructions.
+# Booting from SSD
+Technically, the Raspberry Pi 4 doesn’t support booting from SSD yet. You can get around this booting issue by assigning root path to /dev/sda. Technically, the Raspberry Pi still boots from the MicroSD card but then all reads and writes to the root directory happens on the mSATA drive. This "Try At Home" <a href="https://www.youtube.com/watch?v=FM9wuFLufyA">YouTube video</a> gives great step-by-step instructions.
 
 {% include tip.html content="This optional step, to boot from an SSD, may differ depending on your setup. My SSD mounted as /dev/sda, but yours may not. To find your SSD run the “sudo fdisk --list” command. Your SSD will be described like “Disk /dev/sda: 238.5 GiB, Disk model: SD mSATA.” Take note of the path, e.g. /dev/sda, and use that wherever you see “/dev/sda” referenced below." %}
 
@@ -243,7 +249,5 @@ In my next article we will cover installing Kubernetes and setting up your clust
 * <a href="https://www.raspberrypi.org/documentation/remote-access/ssh/">https://www.raspberrypi.org/documentation/remote-access/ssh</a>
 * <a href="https://www.raspberrypi.org/documentation/raspbian/updating.md">https://www.raspberrypi.org/documentation/raspbian/updating.md</a>
 * <a href="https://www.youtube.com/watch?v=FM9wuFLufyA">https://www.youtube.com/watch?v=FM9wuFLufyA</a>
-* <a href="https://www.zdnet.com/article/raspberry-pi-extending-the-life-of-the-sd-card/">https://www.zdnet.com/article/raspberry-pi-extending-the-life-of-the-sd-card</a>
-* <a href="http://ideaheap.com/2013/07/stopping-sd-card-corruption-on-a-raspberry-pi/">http://ideaheap.com/2013/07/stopping-sd-card-corruption-on-a-raspberry-pi</a>
 
 

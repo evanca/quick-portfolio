@@ -31,3 +31,10 @@ tmpfs    /var/spool/mqueue    tmpfs    defaults,noatime,nosuid,mode=0700,gid=12,
 ```
 
 These changes should help extend the life of your MicroSD or SSD.
+
+----
+
+## References
+
+* <a href="https://www.zdnet.com/article/raspberry-pi-extending-the-life-of-the-sd-card/">https://www.zdnet.com/article/raspberry-pi-extending-the-life-of-the-sd-card</a>
+* <a href="http://ideaheap.com/2013/07/stopping-sd-card-corruption-on-a-raspberry-pi/">http://ideaheap.com/2013/07/stopping-sd-card-corruption-on-a-raspberry-pi</a>
