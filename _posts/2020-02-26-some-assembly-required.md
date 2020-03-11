@@ -110,7 +110,7 @@ Finish your mechanical installation of the cluster parts and we’ll pick-up wit
 I’m so happy that I work at <a href="https://thinkahead.com">Ahead</a> where this kind of experimentation is encouraged. If you want to learn about opportunities at Ahead, please reach out to my buddy, <a href="mailto:kaleigh.baker@thinkahead.com">Kaleigh</a>, to find out what positions are open or drop her your resume. 
 
 ## Next
-In the next installment of the series, <a href="https://smitchell.github.io/how-to-configure-raspbian">How to Configure Raspbian</a>, I detail the set-up of Raspbian, booting off of SSD.
+In the next installment of the series, <a href="https://smitchell.github.io/how-to-configure-raspbian-linux">How to Configure Raspbian</a>, I detail the set-up of Raspbian, booting off of SSD.
 
 ----
 ### References

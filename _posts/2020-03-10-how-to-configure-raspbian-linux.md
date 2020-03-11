@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "How to Configure Raspbian"
-url: /how-to-configure-raspbian
+title:  "How to Configure Raspbian Linux"
+url: /how-to-configure-raspbian-linux
 comments: true
 date: 2020-03-03 07:17:00
 categories: raspberry
