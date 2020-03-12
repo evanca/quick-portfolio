@@ -36,20 +36,15 @@ You can see there was some assembly required.
 
 You can find the parts I used on my public shopping list at Amazon. Click the image below to open the shopping list page.
 
-<figure>
-    <a href="https://www.amazon.com/ideas/amzn1.account.AHYJ6ZRYBTXK37T2RDJPTLDER2CA/1GR6KKLS0JP9Q"><img src="/img/post-assets/2020-02-26-some-assembly-required/components.jpg"></a>
-    <figcaption>K3S Raspberry Pi 4 Cluster Parts on Amazon</figcaption>
-</figure>
+{% include image.html url="/img/post-assets/2020-02-26-some-assembly-required/components.jpg" description="<a href='https://www.amazon.com/ideas/amzn1.account.AHYJ6ZRYBTXK37T2RDJPTLDER2CA/1GR6KKLS0JP9Q'>K3S Raspberry Pi 4 Cluster Parts on Amazon</a>" %}
 
 In addition, I ordered clear acrylic plexiglass to connect the cluster mounts together. I ordered the 3/16” thickness, but I should have ordered the <a href="https://www.estreetplastics.com/1-8-x-6-x-12-Clear-Acrylic-Plexiglass-Sheet-p/1001250612.htm">next thinner size</a> to match the thickness of the tower case.
 
 ## Memory
 The new Raspberry Pi 4 is powerful enough to replace a simple desktop computer given its up to 4gb of memory, high-speed USB-3 connectors, 2 4k micro HDMI ports, gigabit Ethernet, and four ARM processing cores.
 
-<figure>
-    <a href="https://www.raspberrypi.org/products/raspberry-pi-4-model-b/specifications/"><img src="/img/post-assets/2020-02-26-some-assembly-required/raspberrypispecs.png"></a>
-    <figcaption>Raspberry Pi Tech Specs</figcaption>
-</figure>
+{% include image.html url="/img/post-assets/2020-02-26-some-assembly-required/raspberrypispecs.png" description="Raspberry Pi Tech Specs" %}
+
 
 My cluster runs Rancher K3s Kubernetes. The K3s hardware requirements are:
 * **RAM** - 512mb minimum (Pi 4 has up to 4gb LPDDR4-2400 SDRAM)
@@ -65,10 +60,7 @@ I bought Micro SATA extensions for my Raspberry Pis. If you decide to use mSATA,
 
 Why should you pay for an mSATA drive with a USB-C adapter? The performance of the mSATA drive is better than the MicroSD. The chart below shows performance tests done by Jeff Geerling in his blog post, <a href="https://www.jeffgeerling.com/blog/2019/raspberry-pi-microsd-card-performance-comparison-2019Raspberry">Pi MicroSD Card Performance Comparisons, 2019</a>,  July 19, 2019. Jeff measured hdparm of 43.92 using the microSD card vs 345.41 using a USB3 SSD.
 
-<figure>
-    <a href="https://www.jeffgeerling.com/blog/2019/raspberry-pi-microsd-card-performance-comparison-2019Raspberry"><img src="/img/post-assets/2020-02-26-some-assembly-required/pi-4-microsd-performance-vs-pi-3-b-plus.png"></a>
-    <figcaption>mSATA Adapter</figcaption>
-</figure>
+{% include image.html url="/img/post-assets/2020-02-26-some-assembly-required/pi-4-microsd-performance-vs-pi-3-b-plus.png" description="mSATA Adapter"%}
 
 I added 256gb mSATA drives to all the Raspberry Pis in my cluster. That’s overkill, but since I want to fully enjoy playing on my Raspberry Pi playground, I spent the extra money.
 

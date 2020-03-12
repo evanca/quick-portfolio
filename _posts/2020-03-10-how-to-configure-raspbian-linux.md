@@ -14,6 +14,8 @@ feature_image: feature-raspberry
 show_related_posts: false
 square_related: recommend-raspberry
 ---
+{% include image.html url="/img/post-assets/2020-03-10-how-to-configure-raspbian/raspbian-logo-300x253.png" description="Raspbian Logo" %}
+
 This article is the second in my series describing how I built a small data center out of Raspberry Pis and the struggles I overcame along the way. The first article, <a href="https://smitchell.github.io/some-assembly-required">Some Assembly Required</a>, covered choosing parts and assembling the cluster. This article picks up from there with the installation of the operating system on your Raspberry Pis.
 
 Six steps to setting up your OS:
