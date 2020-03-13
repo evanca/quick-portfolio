@@ -24,5 +24,10 @@ I am working on a student research project in the UMBC Biology Department. The p
 <img src="images/algae culture.jpg?raw=true"/>
 
 ---
+### Advanced GIS Course Projects
+
+# [A spatial analysis of florida with sea level rise](/project1_486/readME.md)
+# [Project 2 (coming soon)](http://example.com/)
+---
 <p style="font-size:12px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
