@@ -1,7 +1,7 @@
 ## [A Spatial Analysis of Florida with Sea Level Rise](/project1_486//)
 
 # [Introduction](/project1_486//)
-<img src="https://rad-sc.github.io/project1_486/FloridaLand.pdf?raw=true"/>
+<img src="http://rad-sc.github.io/project1_486/FloridaLand.pdf?raw=true"/>
 Florida is a coastal state with porous limestone ground and flat terrain that makes it vulnerable to sea level rise. Florida is also especially vulnerably to tropical storms, where damage is increased with water level. According to former NASA scientist James Hansen, sea level rise could accelerate exponentially in the next 50-150 years on a magnitude of several meters. For my analysis I was interested to see what extents of land sea level rise would cover at various depths across the entire state of Florida.
 
 # Data Anaylsis
