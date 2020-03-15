@@ -8,7 +8,7 @@
 <img src="images/sfpredict.jpg?raw=true"/>
 
 ---
-[Regional EMS Call Prediction in Virginia Beach](/MyProject/Xiaoran_Yujing_TeamPsyduckHeadache~!)
+[Regional EMS Call Prediction in Virginia Beach](/MyProject/Xiaoran_Yujing_TeamPsyduckHeadache~!)(space)
 [Presentation and Interface Design](/MyProject/EMS_presentation.pdf)
 <img src="images/EMS_Calls_VirginiaBeach.gif?raw=true"/>
 
@@ -27,8 +27,8 @@
 
 ---
 
-## Visualize Philadelphia Crime Incidents
-# What time of day Philly has the heightest crime rate? 
+Visualize Philadelphia Crime Incidents
+- What time of day Philly has the heightest crime rate? 
 <img src="/MyProject/philly_crime.gif?raw=true"/>
 
 ---
