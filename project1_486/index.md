@@ -15,13 +15,21 @@ I obtained my initial data from the State of Florida's open source GIS database.
 <img src="rad-sc.github.io/Project1_486/images/SeaLevelRiseFast.gif?raw=true"/>
 
 Area of land below sea level under future rise:
+<br><br>
 Sea level +1 foot = __ sq feet under water
+<br><br>
 Sea level +3 feet = __ sq feet under water
+<br><br>
 Sea level +5 feet = __ sq feet under water
+<br><br>
 Sea level +10 feet = __ sq feet under water
+<br><br>
 Sea level +30 feet = __ sq feet under water
+<br><br>
 Sea level +70 feet =  __ sq feet under water
+<br><br>
 Sea level +100 feet = __ sq feet under water
+<br><br>
 Sea Level +230 feet = __ sq feet under water
 
 Conclusions...
