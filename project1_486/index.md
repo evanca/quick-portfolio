@@ -1,4 +1,4 @@
-# A Spatial Analysis of Florida with Sea Level Rise(/project1_486//)
+# A Spatial Analysis of Florida with Sea Level Rise
 
 ## Introduction
 <img src="rad-sc.github.io/Project1_486/images/FloridaLand.png?raw=true"/>
