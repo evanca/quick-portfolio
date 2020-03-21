@@ -41,7 +41,7 @@ Sea level +100 feet = 26,800,000 sq kilometers under water, 893,000 sq kilometer
 Sea Level +230 feet = 57,900,000 sq kilometers under water, 445,000 sq kilometers lost per foot rise
 <br><br>
 3,510,344 sq kilometers left above, 124,000,000 sq kilometers lost
-
+<br><br>
   According to my spatial analysis, over 100 million square kilometers of Florida could be lost in the event that all global ice sea ice melted. While 230 feet of sea level rise is extreme, it is useful to look at all the varying levels of rise possible. Based on the area lost per foot of rise for each category, sea level rise between 70 and 100 feet will consume the most sqare kilometers per foot rise: 893,000 sq km. Slightly more relevant and in second place for most square kilometers lost per foot rise is between 3 and 5 feet of rise at 726,000 sq km per foot rise. Current projections of sea level rise based on current climate change predictions show that it is possible that we could gain 2 meters of water (~6 feet) in the next 100 years. The amount of land being potentially displaced in Florida over the next 100 years is expansive, and the response efforts to the effects of climate change must include support for those displaced by rising sea level globally. Florida is just one example of a placce undergoing coastal shrinking, and with the majority of global populations living in coastal areas it is extremely important to consider these effects. 
 
 
