@@ -3,6 +3,7 @@
 ## Introduction
 
 ### Florida's Current Land Above Sea Level
+Will Sea Level rise put Florida underwater?
 <img src="https://rad-sc.github.io/project1_486/images/FloridaLand.png?raw=true"/>
   Florida is a coastal state with a porous limestone ground and flat terrain that makes it vulnerable to the effects of sea level rise. Florida is also especially vulnerably to damage from tropical storms, which become more powerful with rising water level. According to former NASA scientist James Hansen, sea level rise could accelerate exponentially in the next 50-150 years on an magnitude of several meters. I was interested in what Florida would look like at varying levels of sea level rise after seeing the following image from NASA's Earth Observatory. 
 <br><br>
