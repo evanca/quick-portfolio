@@ -21,35 +21,26 @@ I symbolized the raster image with unique values, at intervals between below 0-1
 ## Florida visualized to show various sea levels and area analysis
 
 <img src="https://rad-sc.github.io/project1_486/images/SeaLevelRiseFast.gif?raw=true"/>
-
+<br><br>
 Area of land below sea level under future rise:
 <br><br>
-Sea level +1 foot = ~18,000 sq kilometers under water
-18,000 sq kilometers lost lost per foot rise
+Sea level +1 foot = ~18,000 sq kilometers under water, 18,000 sq kilometers lost lost per foot rise
 <br><br>
-Sea level +3 feet = ~98,000 sq kilometers under water
-48,800 sq kilometers lost per foot rise
+Sea level +3 feet = ~98,000 sq kilometers under water, 48,800 sq kilometers lost per foot rise
 <br><br>
-Sea level +5 feet = 1,450,000 sq kilometers under water
-726,000 sq kilometers lost per foot rise
+Sea level +5 feet = 1,450,000 sq kilometers under water, 726,000 sq kilometers lost per foot rise
 <br><br>
-Sea level +10 feet = 1,750,000 sq kilometers under water
-350,000 sq kilometers lost per foot rise
+Sea level +10 feet = 1,750,000 sq kilometers under water, 350,000 sq kilometers lost per foot rise
 <br><br>
-Sea level +30 feet = 10,500,000 sq kilometers under water
-522,000 sq kilometers lost per foot rise
+Sea level +30 feet = 10,500,000 sq kilometers under water, 522,000 sq kilometers lost per foot rise
 <br><br>
-Sea level +70 feet =  25,700,000 sq kilometers under water
-641,000 sq kilometers lost per foot rise
+Sea level +70 feet =  25,700,000 sq kilometers under water, 641,000 sq kilometers lost per foot rise
 <br><br>
-Sea level +100 feet = 26,800,000 sq kilometers under water
-893,000 sq kilometers lost per foot rise
+Sea level +100 feet = 26,800,000 sq kilometers under water, 893,000 sq kilometers lost per foot rise
 <br><br>
-Sea Level +230 feet = 57,900,000 sq kilometers under water
-445,000 sq kilometers lost per foot rise
+Sea Level +230 feet = 57,900,000 sq kilometers under water, 445,000 sq kilometers lost per foot rise
 
-3,510,344 sq kilometers left above
-124,000,000 sq kilometers lost
+3,510,344 sq kilometers left above, 124,000,000 sq kilometers lost
 
 According to my spatial analysis, over 100 million square kilometers of Florida could be lost in the event that all global ice sea ice melted. While 230 feet of sea level rise is extreme it is useful to look at all the varying levels of rise possible. Based on the area lost per foot of rise for each category, sea level rise between 70 and 100 feet will consume the most sqare kilometers per foot rise, 893,000 sq km. Slightly more relevant and in second place for most square kilometers lost per foot rise is between 3 and 5 feet of rise at 726,000 sq km per foot rise. Current projections of sea level rise based on current climate change projections how that it is possibly that we will gain 2 meters of water (~6 feet) in the next 100 years. The amount of land being potentially displaced in Florida over the next 100 years is expansive, and the response efforts to the effects of climate change must include support for those displaced by rising sea level globally. Florida is just one example of a placce undergoing coastal shrinking, and with the majority of global populations living in coastal areas it is extremely important to consider these effects. 
 
