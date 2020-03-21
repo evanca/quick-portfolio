@@ -1,7 +1,7 @@
 # A Spatial Analysis of Florida with Sea Level Rise
 
 ## Introduction
-<br><br>
+
 ### Florida's Current Land Above Sea Level
 <img src="https://rad-sc.github.io/project1_486/images/FloridaLand.png?raw=true"/>
 <br><br>
