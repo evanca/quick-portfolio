@@ -18,7 +18,7 @@
 
 ### Sustainability at Northwestern Story & Website
 
-[Visit the site here](http://www.medillnews847.com/jour320/fall18/final/nutrash/index.html?fbclid=IwAR2vGl_eM6Usv3rIf30LUy13Rb6ILrs5cMPutuburBBpbQ2hqK0-DMOC-5Y)
+[Visit the site here](http://www.medillnews847.com/jour320/fall18/final/nutrash/index.html?fbclid=IwAR2vGl_eM6Usv3rIf30LUy13Rb6ILrs5cMPutuburBBpbQ2hqK0-DMOC-5Y/ target="_blank")
 
 <img src="images/medill-news-screenshot.png"/>
 
