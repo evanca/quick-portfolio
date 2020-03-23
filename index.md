@@ -5,7 +5,7 @@
 ### Northwestern Football Yearbook Story 
 
 <p>
-  <a href="/pdf/May01.pdf" target=_blank> Read the full article </a>
+  <a href="/pdf/May01.pdf" target="_blank"> Read the full article </a>
   </p>
 
 <img src="images/fullsizeoutput_7cf.jpeg"/>
