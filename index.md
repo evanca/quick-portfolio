@@ -28,7 +28,7 @@
 
 - [NBA Thanksgiving (SI.com)](https://www.si.com/nba/2019/11/28/thanksgiving-for-each-team)
 - [The Legacy of Northwestern Tennis (NUSports.com)](https://nusports.com/news/2018/8/27/womens-tennis-legacy-of-leadership-the-alumni-network-of-northwestern-tennis.aspx)
-- [Seahawks vs. 49ers Week 10 Recap (SI.com)](https://www.si.com/nfl/2019/11/12/seahawks-hand-49ers-first-loss-monday-night-football)
+- [Chargers vs. Titans Week 7 Preview (SI.com)](https://www.si.com/nfl/2019/10/17/titans-marcus-mariota-mike-vrabel-chargers-philip-rivers-brock-osweiler)
 - [A Closer Look at the Atlanta Hawks Rebuild (SI.com)](https://www.si.com/nba/2019/11/12/atlanta-hawks-golden-state-warriors-blueprint)
 - [College Basketball March Madness Droughts (SI.com)](https://www.si.com/college/2019/10/16/march-madness-ncaa-tournament-droughts)
 
