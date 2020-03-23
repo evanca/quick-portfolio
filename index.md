@@ -5,14 +5,16 @@
 ### Northwestern Football Yearbook Story 
 
 [Read the full article](/pdf/May01.pdf)
-<img src="images/dummy_thumbnail.jpg"/>
+
+<img src="images/fullsizeoutput_7cf.jpeg"/>
 
 ---
 
 ### Walter Athletic Center Story (NACDA Magazine)
 
 [Read the full article](/pdf/WACsample.pdf)
-<img src="images/dummy_thumbnail.jpg"/>
+
+<img src="images/fullsizeoutput_7ce.jpeg"/>
 
 ---
 
