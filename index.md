@@ -5,15 +5,21 @@
 ### Predictive Modeling in R 
 
 [Housing Price Prediction in San Francisco](/MyProject/MUSA_507_Midterm_writeup_HippoHippo.html)
+Predicting San Francisco home price for Zillow to provide local-level insights of marketing trends. Proposing major influcing factors of housing price. 
+Skills used: R, OLS regression model
 <img src="images/sfpredict.jpg?raw=true"/>
 
 ---
 [Regional EMS Call Prediction in Virginia Beach ](/MyProject/Xiaoran_Yujing_TeamPsyduckHeadache~!)|
 [Presentation and Interface Design](/MyProject/EMS_presentation.pdf)
-<img src="images/EMS_Calls_VirginiaBeach.gif?raw=true"/>
+A predicting model to forecast when and where the EMS calls take place on the next few weeks. Helped to better place ambulances at certain places adn times to reduce response times. 
+Skills used: R, zero-inflated poisson model, time and spatial lag, Figma 
+<img src="images/combine.jpg?raw=true"/>
 
 ---
 [Weapon Violation Prediction in Chicago](/MyProject/XiaoranWang_RiskPrediction)
+A geospatial risk prediction for the case of weapon violaiton in Chicago. Discussed the reporting and selection bias, as well as fairness and recidivism. 
+Skills used: R, Possion Regression Model
 <img src="images/wv.jpg?raw=true"/>
 
 ---
