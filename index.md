@@ -47,7 +47,7 @@ Skills used: Python, Data visualizaiton (Dash, Panel, Foilum), Clustering analys
 
 **Visualize Philadelphia Crime Incidents**<br/> 
 What time of day Philly has the heightest crime rate?<br/> 
-Skills used: R, Possion Regression Model 
+Skills used: Python 
 <img src="/MyProject/philly_crime.gif?raw=true"/>
 
 ---
