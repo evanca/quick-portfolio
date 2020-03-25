@@ -22,7 +22,9 @@ The geospatial risk prediction for the case of weapon violaiton in Chicago. Disc
 Skills used: R, Possion regression model
 <img src="images/wv.jpg?raw=true"/>
 
+
 ---
+
 
 ### Machine Learning with Python
 
@@ -30,6 +32,8 @@ Skills used: R, Possion regression model
 The analysis report is about manhattan taxi demand and supply distributions in. Presenting the taxi pattern in maps, interactive dashboards, and statistical graphs to provide the general pattern of taxi movements. Planning routing for taxi drivers by network analysis.<br/>
 Skills used: Python, Data visualizaiton (Dash, Panel, Foilum), Clustering analysis and Random forest ML model by Scikit-learn, GitHub Pages 
 <img src="images/taxi.jpg?raw=true"/>
+
+
 ---
 
 
@@ -60,6 +64,11 @@ Skills used: R, Possion Regression Model
 ---
 
 ### NetLogo Project
+
+[Agent-based Spatial Pattern Modeling for Random motion and Biased Random Motion]</br>
+The program loads the OSU buildings and pavement GIS data from shapefiles and create NetLogo patches correspondingly. The model picks up a random building as a target for student movement and then generates up to 200 students at buildings (green patches). Student motion can be either random or biased. When the motion is set to be random, a student moves ahead if the patch ahead of him is feasible (the patch exists in the NetLogo world and corresponds to building or pavement), or makes a random left turn if not. When the motion is set to be biased, a student faces towards the target building after every successful move.
+<img src="images/netlogo.gif?raw=true"/>
+
 ---
 
 ### Photo Work
