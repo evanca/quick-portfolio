@@ -5,7 +5,7 @@
 ### Predictive Modeling in R 
 
 [Housing Price Prediction in San Francisco](/MyProject/MUSA_507_Midterm_writeup_HippoHippo.html)
-
+<br><br/>
 Predicting San Francisco home price for Zillow to provide local-level insights of marketing trends. Proposing major influcing factors of housing price. 
 Skills used: R, OLS regression model
 <img src="images/sfpredict.jpg?raw=true"/>
