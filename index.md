@@ -13,13 +13,15 @@ Skills used: R, OLS regression model
 ---
 [Regional EMS Call Prediction in Virginia Beach ](/MyProject/Xiaoran_Yujing_TeamPsyduckHeadache~!)|
 [Presentation and Interface Design](/MyProject/EMS_presentation.pdf)
-A predicting model to forecast when and where the EMS calls take place on the next few weeks. Helped to better place ambulances at certain places adn times to reduce response times. 
+<br><br/>
+A predicting model to forecast when and where the EMS calls take place on the next few weeks. Helping to better place ambulances at certain places adn times to reduce response times. 
 Skills used: R, zero-inflated poisson model, time and spatial lag, Figma 
 <img src="images/combine.jpg?raw=true"/>
 
 ---
 [Weapon Violation Prediction in Chicago](/MyProject/XiaoranWang_RiskPrediction)
-A geospatial risk prediction for the case of weapon violaiton in Chicago. Discussed the reporting and selection bias, as well as fairness and recidivism. 
+<br><br/>
+A geospatial risk prediction for the case of weapon violaiton in Chicago. Discussing the reporting and selection bias, as well as fairness and recidivism. 
 Skills used: R, Possion Regression Model
 <img src="images/wv.jpg?raw=true"/>
 
@@ -34,8 +36,8 @@ Skills used: R, Possion Regression Model
 
 ---
 
-Visualize Philadelphia Crime Incidents
-- What time of day Philly has the heightest crime rate? 
+Visualize Philadelphia Crime Incidents<br><br/>
+What time of day Philly has the heightest crime rate? 
 <img src="/MyProject/philly_crime.gif?raw=true"/>
 
 ---
