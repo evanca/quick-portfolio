@@ -4,24 +4,21 @@
 
 ### Predictive Modeling in R 
 
-[Housing Price Prediction in San Francisco](/MyProject/MUSA_507_Midterm_writeup_HippoHippo.html)
-<br><br/>
-Predicting San Francisco home price for Zillow to provide local-level insights of marketing trends. Proposing major influcing factors of housing price. 
+[Housing Price Prediction in San Francisco](/MyProject/MUSA_507_Midterm_writeup_HippoHippo.html)<br/>
+Predicting San Francisco home price for Zillow to provide local-level insights of marketing trends. Proposing major influcing factors of housing price.<br/>
 Skills used: R, OLS regression model
 <img src="images/sfpredict.jpg?raw=true"/>
 
 ---
 [Regional EMS Call Prediction in Virginia Beach ](/MyProject/Xiaoran_Yujing_TeamPsyduckHeadache~!)|
-[Presentation and Interface Design](/MyProject/EMS_presentation.pdf)
-<br><br/>
-A predicting model to forecast when and where the EMS calls take place on the next few weeks. Helping to better place ambulances at certain places adn times to reduce response times. 
+[Presentation and Interface Design](/MyProject/EMS_presentation.pdf)<br/>
+A predicting model to forecast when and where the EMS calls take place on the next few weeks. Helping to better place ambulances at certain places adn times to reduce response times.<br/> 
 Skills used: R, zero-inflated poisson model, time and spatial lag, Figma 
 <img src="images/combine.jpg?raw=true"/>
 
 ---
-[Weapon Violation Prediction in Chicago](/MyProject/XiaoranWang_RiskPrediction)
-<br><br/>
-A geospatial risk prediction for the case of weapon violaiton in Chicago. Discussing the reporting and selection bias, as well as fairness and recidivism. 
+[Weapon Violation Prediction in Chicago](/MyProject/XiaoranWang_RiskPrediction)<br/>
+A geospatial risk prediction for the case of weapon violaiton in Chicago. Discussing the reporting and selection bias, as well as fairness and recidivism.<br/> 
 Skills used: R, Possion Regression Model
 <img src="images/wv.jpg?raw=true"/>
 
@@ -36,8 +33,7 @@ Skills used: R, Possion Regression Model
 
 ---
 
-Visualize Philadelphia Crime Incidents<br><br/>
-What time of day Philly has the heightest crime rate? 
+Visualize Philadelphia Crime Incidents: What time of day Philly has the heightest crime rate? 
 <img src="/MyProject/philly_crime.gif?raw=true"/>
 
 ---
