@@ -45,12 +45,13 @@ Skills used: Python, Data visualizaiton (Dash, Panel, Foilum), Clustering analys
 
 ---
 
-Visualize Philadelphia Crime Incidents: What time of day Philly has the heightest crime rate?<br/> 
+**Visualize Philadelphia Crime Incidents**<br/> 
+What time of day Philly has the heightest crime rate?<br/> 
 Skills used: R, Possion Regression Model 
 <img src="/MyProject/philly_crime.gif?raw=true"/>
 
 ---
-[Lancaster County Urban Growth](/MyProject/LancasterCountyUrbanGrowthProject.pdf)
+[Lancaster County Urban Growth](/MyProject/LancasterCountyUrbanGrowthProject.pdf)s
 <img src="images/urbanidx.jpg?raw=true"/>
 
 ---
@@ -58,14 +59,15 @@ Skills used: R, Possion Regression Model
 
 ### Google Earth Engine Project
 
-[Ohio Population Movements](/MyProject/Ohio_Population_Movement.pdf)
+[Ohio Population Movements](/MyProject/Ohio_Population_Movement.pdf)<br/>
+Skills used: Google Earth Engine, JavaScript
 <img src="images/gee.jpg?raw=true"/>
 
 ---
 
 ### NetLogo Project
 
-**Agent-based Spatial Pattern Modeling for Random motion and Biased Random Motion** </br>
+**Agent-based Spatial Pattern Modeling for Random motion and Biased Random Motion** <br/>
 The program loads the OSU buildings and pavement GIS data from shapefiles and create NetLogo patches correspondingly. The model picks up a random building as a target for student movement and then generates up to 200 students at buildings (green patches). Student motion can be either random or biased. When the motion is set to be random, a student moves ahead if the patch ahead of him is feasible (the patch exists in the NetLogo world and corresponds to building or pavement), or makes a random left turn if not. When the motion is set to be biased, a student faces towards the target building after every successful move.
 <img src="images/netlogo.gif?raw=true"/>
 
