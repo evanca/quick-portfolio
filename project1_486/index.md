@@ -19,6 +19,7 @@ Will Sea Level rise put Florida underwater?
 
 
 ## Florida visualized to show various sea levels and area analysis
+The symbolized elevations were made into a gif using Gimp 2.10
 
 <img src="https://rad-sc.github.io/project1_486/images/SeaLevelRise.gif?raw=true"/>
 <br><br>
