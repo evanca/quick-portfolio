@@ -27,7 +27,7 @@ I am working on a student research project in the UMBC Biology Department. The p
 ### Advanced GIS Course Projects
 
 # [A Spatial Analysis of Florida with Sea Level Rise](/project1_486/index.md)
-# [Project 2 (coming soon)](http://example.com/)
+# [Comparing Geotagged #COVID19 Tweets to Geotagged #ToiletPaper tweets](/Lab6/index.md)
 ---
 <p style="font-size:12px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
