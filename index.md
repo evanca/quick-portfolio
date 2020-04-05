@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[Project 1 Title](https://github.com/Reshma-34/WiDS-Datathon-2020)
 <img src="images/icu.jpg?raw=true"/>
 
 ---
