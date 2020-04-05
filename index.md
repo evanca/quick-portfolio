@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Women in Data Science (WiDS) Datathon 2020](/sample_page)
+[Project 1 Title](/sample_page)
 <img src="images/icu.jpg?raw=true"/>
 
 ---
