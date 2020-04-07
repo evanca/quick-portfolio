@@ -19,10 +19,13 @@ The research involved many rounds of user testing with user-centric HCI methodol
 
 This project resulted in a number of conference presentations.
 
-*Roddy,  S., & Furlong, D. (2015). Embodied Auditory Display Affordances. In  Proceedings of the 12th Sound and Music Computing Conference: National  University of Ireland Maynooth (pp. 477-484).
-*Roddy,  S., & Furlong, D. (2015). Sonification Listening: An Empirical  Embodied Approach. In Proceedings of The 21st International Conference on Auditory Display (ICAD 2015) July 8–10, 2015, Graz, Austria.  (pp.181-187).
-*Roddy,  S., & Furlong, D. (2013). Embodied cognition in auditory display.  In Proceedings Of the 19th International Conference on Auditory Display,  July 6-10 Łódź, Poland ( pp. 127-134).
-*Roddy,  S., & Furlong, D. (2013). Rethinking the Transmission Medium in  Live Computer Music Performance. Presented at the Irish Sound Science and Technology Convocation, Dún Laoghaire Institute of Art, Design and Technology. 
+Roddy,  S., & Furlong, D. (2015). Embodied Auditory Display Affordances. In  Proceedings of the 12th Sound and Music Computing Conference: National  University of Ireland Maynooth (pp. 477-484).
+
+Roddy,  S., & Furlong, D. (2015). Sonification Listening: An Empirical  Embodied Approach. In Proceedings of The 21st International Conference on Auditory Display (ICAD 2015) July 8–10, 2015, Graz, Austria.  (pp.181-187).
+
+Roddy,  S., & Furlong, D. (2013). Embodied cognition in auditory display.  In Proceedings Of the 19th International Conference on Auditory Display,  July 6-10 Łódź, Poland ( pp. 127-134).
+
+Roddy,  S., & Furlong, D. (2013). Rethinking the Transmission Medium in  Live Computer Music Performance. Presented at the Irish Sound Science and Technology Convocation, Dún Laoghaire Institute of Art, Design and Technology. 
 
 It also resulted in a number of journal articles including an article in [Organised Sound](https://www.cambridge.org/core/journals/organised-sound/article/embodied-aesthetics-in-auditory-display/65EC753E1FA165ADAB7E1034FEAE6576)
 
@@ -32,20 +35,15 @@ These have been gathered into a collection entitled 'The Human Cost', named for 
 
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2888609678/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://stephenroddy.bandcamp.com/album/the-human-cost-sonification-and-irelands-economic-crash">The Human Cost: Sonification and Ireland&#39;s Economic Crash by Stephen Roddy</a></iframe>
 
-### 2. Assess assumptions on which statistical inference will be based
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+A number of these pieces have been performed live at academic conferences and cultural events at national and international levels including:
 
-### 3. Support the selection of appropriate statistical tools and techniques
+[The Irish Sound Science and Technology Convocation 2014](https://s3images.coroflot.com/user_files/individual_files/711451_7SZ94dIf0s3EopLGzawCUcKWt.pdf)
+[The CMC's 2015 Salon Series in the National Concert Hall Dublin](https://www.cmc.ie/content/contemporary-music-centres-salon-series-opens-eclectic-electro-acoustic-program)
+[The International Conference on Auditory Display Concert 2015](https://iem.kug.ac.at/icad15/icad15/schedule/concerts-installations.html)
+[The Sound and Music Computing Conference 2015](https://www.maynoothuniversity.ie/smc15/concert1.html)
+[The Irish Sound Science and Technology Conference 2015](https://1.bp.blogspot.com/-ijiHIylZ-i0/XoyVxt_f-sI/AAAAAAAAGis/l86mwHCqqyUxJk-1xY-ISM3EwFUyJ3yMACLcBGAsYHQ/s1600/Issta2015%2Bcopy.jpg)
+[The International Conference on Auditory Display 2017](https://www.icad.org/icad2017/program-2/concert.html)
+[Audio Mostly 2017](https://audiomostly.com/2017/program/music-program/)
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<img src="images/Issta2015 copy.jpg?raw=true"/>
