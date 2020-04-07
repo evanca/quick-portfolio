@@ -38,12 +38,12 @@ These have been gathered into a collection entitled 'The Human Cost', named for 
 
 A number of these pieces have been performed live at academic conferences and cultural events at national and international levels including:
 
-[The Irish Sound Science and Technology Convocation 2014](https://s3images.coroflot.com/user_files/individual_files/711451_7SZ94dIf0s3EopLGzawCUcKWt.pdf)
-[The CMC's 2015 Salon Series in the National Concert Hall Dublin](https://www.cmc.ie/content/contemporary-music-centres-salon-series-opens-eclectic-electro-acoustic-program)
-[The International Conference on Auditory Display Concert 2015](https://iem.kug.ac.at/icad15/icad15/schedule/concerts-installations.html)
-[The Sound and Music Computing Conference 2015](https://www.maynoothuniversity.ie/smc15/concert1.html)
-[The Irish Sound Science and Technology Conference 2015](https://1.bp.blogspot.com/-ijiHIylZ-i0/XoyVxt_f-sI/AAAAAAAAGis/l86mwHCqqyUxJk-1xY-ISM3EwFUyJ3yMACLcBGAsYHQ/s1600/Issta2015%2Bcopy.jpg)
-[The International Conference on Auditory Display 2017](https://www.icad.org/icad2017/program-2/concert.html)
-[Audio Mostly 2017](https://audiomostly.com/2017/program/music-program/)
+[The Irish Sound Science and Technology Convocation 2014](https://s3images.coroflot.com/user_files/individual_files/711451_7SZ94dIf0s3EopLGzawCUcKWt.pdf). 
+[The CMC's 2015 Salon Series in the National Concert Hall Dublin](https://www.cmc.ie/content/contemporary-music-centres-salon-series-opens-eclectic-electro-acoustic-program). 
+[The International Conference on Auditory Display Concert 2015](https://iem.kug.ac.at/icad15/icad15/schedule/concerts-installations.html). 
+[The Sound and Music Computing Conference 2015](https://www.maynoothuniversity.ie/smc15/concert1.html). 
+[The Irish Sound Science and Technology Conference 2015](https://1.bp.blogspot.com/-ijiHIylZ-i0/XoyVxt_f-sI/AAAAAAAAGis/l86mwHCqqyUxJk-1xY-ISM3EwFUyJ3yMACLcBGAsYHQ/s1600/Issta2015%2Bcopy.jpg). 
+[The International Conference on Auditory Display 2017](https://www.icad.org/icad2017/program-2/concert.html). 
+[Audio Mostly 2017](https://audiomostly.com/2017/program/music-program/). 
 
 <img src="images/Issta2015 copy.jpg?raw=true"/>
