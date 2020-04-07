@@ -19,10 +19,10 @@ The research involved many rounds of user testing with user-centric HCI methodol
 
 This project resulted in a number of conference presentations.
 
-Roddy,  S., & Furlong, D. (2015). Embodied Auditory Display Affordances. In  Proceedings of the 12th Sound and Music Computing Conference: National  University of Ireland Maynooth (pp. 477-484).
-Roddy,  S., & Furlong, D. (2015). Sonification Listening: An Empirical  Embodied Approach. In Proceedings of The 21st International Conference on Auditory Display (ICAD 2015) July 8–10, 2015, Graz, Austria.  (pp.181-187).
-Roddy,  S., & Furlong, D. (2013). Embodied cognition in auditory display.  In Proceedings Of the 19th International Conference on Auditory Display,  July 6-10 Łódź, Poland ( pp. 127-134).
-Roddy,  S., & Furlong, D. (2013). Rethinking the Transmission Medium in  Live Computer Music Performance. Presented at the Irish Sound Science and Technology Convocation, Dún Laoghaire Institute of Art, Design and Technology. 
+*Roddy,  S., & Furlong, D. (2015). Embodied Auditory Display Affordances. In  Proceedings of the 12th Sound and Music Computing Conference: National  University of Ireland Maynooth (pp. 477-484).
+*Roddy,  S., & Furlong, D. (2015). Sonification Listening: An Empirical  Embodied Approach. In Proceedings of The 21st International Conference on Auditory Display (ICAD 2015) July 8–10, 2015, Graz, Austria.  (pp.181-187).
+*Roddy,  S., & Furlong, D. (2013). Embodied cognition in auditory display.  In Proceedings Of the 19th International Conference on Auditory Display,  July 6-10 Łódź, Poland ( pp. 127-134).
+*Roddy,  S., & Furlong, D. (2013). Rethinking the Transmission Medium in  Live Computer Music Performance. Presented at the Irish Sound Science and Technology Convocation, Dún Laoghaire Institute of Art, Design and Technology. 
 
 It also resulted in a number of journal articles including an article in [Organised Sound](https://www.cambridge.org/core/journals/organised-sound/article/embodied-aesthetics-in-auditory-display/65EC753E1FA165ADAB7E1034FEAE6576)
 
