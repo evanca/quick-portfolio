@@ -12,7 +12,9 @@ The majority of the project was coded in Csound a programming language for audio
 The project involved the development of new techniques and systems for representing different kinds of data with sound.  Some of these approaches involved the simulation of human vocal sounds.
 
 [Texture](audio/Rough Smooth.wav/)
+
 [Size](audio/Size.wav/)
+
 [Speed](audio/Speed.wav/)
 
 
