@@ -13,6 +13,9 @@ The project involved the development of new techniques and systems for represent
 
 [Texture](audio/Rough Smooth.wav/) | [Amount](audio/Amount.wav/) | [Speed](audio/Speed.wav/) | [Size](audio/Size.wav/)
 
+The research involved many rounds of user testing with user-centric HCI methodologies to determine the best appraoch for mapping data to sound in order to communicate information about the original data to a listener or user. 
+
+<img src="images/page.png?raw=true"/>
 
 
 ### 2. Assess assumptions on which statistical inference will be based
