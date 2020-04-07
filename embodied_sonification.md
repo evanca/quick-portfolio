@@ -58,7 +58,7 @@ A number of these pieces have been performed live at academic conferences and cu
 
 <iframe height="842" src="https://drive.google.com/file/d/0BwMBM58DHm2balNPRERtbEJYNHM/preview" width="592"></iframe>
 
-[Digital Appendices](https://www.dropbox.com/sh/byilxk53kzkdr8b/AADpZQZO3iv0hRL7rU72Pk-ha?dl=0).  
+[Digital Appendices](https://www.dropbox.com/sh/byilxk53kzkdr8b/AADpZQZO3iv0hRL7rU72Pk-ha?dl=0).  <br/>
 [Link to thesis in Trinity College Dublin Repository](http://www.tara.tcd.ie/handle/2262/80506).  
 
 **Skills:**
