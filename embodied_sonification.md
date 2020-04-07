@@ -2,6 +2,7 @@
 
 **Project description:** This project involved the development of Sonification and Auditory Display systems based on human-centered design principles derived from cognitive science studies. The research and development portions of the project were carried out in fulfillment of a PhD degree at the Department of Electronic and Electrical Engineering in Trinity College Dublin.
 
+**Project Overview:** 
 Sonification is the representation of data with sound and Auditory Display is the use of audio to present information to a listener. In certain contexts and for certain types of data sound can be an effective means of representation and communication.
 
 The majority of the project was coded in Csound a programming language for audio written in C. Rapid prototyping platforms were developed in Csound and used to prototype new ideas in an efficient manner. 
@@ -10,7 +11,7 @@ The majority of the project was coded in Csound a programming language for audio
 
 The project involved the development of new techniques and systems for representing different kinds of data with sound.  Some of these approaches involved the simulation of human vocal sounds.
 
-https://soundcloud.com/user-649654717/changes-in-texture
+[Texture](/audio/Rough Smooth.wav) 
 
 ### 2. Assess assumptions on which statistical inference will be based
 
