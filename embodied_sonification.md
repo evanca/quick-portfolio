@@ -1,16 +1,16 @@
-## This can be your internal website page / project page
+## Embodied Sonification
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** This project involved the development of Sonification and Auditory Display systems based on human-centered design principles derived from cognitive science studies. The research and development portions of the project were carried out in fulfillment of a PhD degree at the Department of Electronic and Electrical Engineering in Trinity College Dublin.
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+Sonification is the representation of data with sound and Auditory Display is the use of audio to present information to a listener. In certain contexts and for certain types of data sound can be an effective means of representation and communication.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+The majority of the project was coded in Csound a programming language for audio written in C. Rapid prototyping platforms were developed in Csound and used to prototype new ideas in an efficient manner. 
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+<img src="images/CSoundCode.png?raw=true"/>
+
+The project involved the development of new techniques and systems for representing different kinds of data with sound.  Some of these approaches involved the simulation of human vocal sounds.
+
+https://soundcloud.com/user-649654717/changes-in-texture
 
 ### 2. Assess assumptions on which statistical inference will be based
 
