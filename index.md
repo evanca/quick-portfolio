@@ -2,10 +2,8 @@
 
 ---
 
-### Category Name 1 
-
 [Embodied Sonification](/embodied_sonification)
-<img src="images/symbol.png?raw=true"/>
+<img src="images/data.png?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
