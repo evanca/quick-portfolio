@@ -15,7 +15,7 @@ The project involved the development of new techniques and systems for represent
 
 The research involved many rounds of user testing with user-centric HCI methodologies to determine the best appraoch for mapping data to sound in order to communicate information about the original data to a listener or user. 
 
-<img src="images/page.png?raw=true"/>
+<img src="images/page2.png?raw=true"/>
 
 
 ### 2. Assess assumptions on which statistical inference will be based
