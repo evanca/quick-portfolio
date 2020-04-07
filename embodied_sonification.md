@@ -6,7 +6,7 @@ Sonification is the representation of data with sound and Auditory Display is th
 
 The majority of the project was coded in Csound a programming language for audio written in C. Rapid prototyping platforms were developed in Csound and used to prototype new ideas in an efficient manner. 
 
-<img src="images/CSoundCode.png?raw=true"/>
+<img src="images/CsoundCode.png?raw=true"/>
 
 The project involved the development of new techniques and systems for representing different kinds of data with sound.  Some of these approaches involved the simulation of human vocal sounds.
 
