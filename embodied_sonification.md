@@ -53,5 +53,13 @@ A number of these pieces have been performed live at academic conferences and cu
 
 <img src="images/Issta2015 copy.jpg?raw=true"/>
 
+
+**Embodied Sonification PhD Thesis
+<iframe height="842" src="https://drive.google.com/file/d/0BwMBM58DHm2balNPRERtbEJYNHM/preview" width="592"></iframe>
+
+Digital Appendices: <a href="https://www.dropbox.com/sh/byilxk53kzkdr8b/AADpZQZO3iv0hRL7rU72Pk-ha?dl=0" rel="nofollow" target="_blank">https://www.dropbox.com/sh/byilxk53kzkdr8b/AADpZQZO3iv0hRL7rU72Pk-ha?dl=0</a>
+<br />
+Link to thesis in Trinity College Dublin Repository: <a href="http://www.tara.tcd.ie/handle/2262/80506" rel="nofollow" target="_blank">http://www.tara.tcd.ie/handle/2262/80506</a>
+
 **Skills:**
 **Tags:**
