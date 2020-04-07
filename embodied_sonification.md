@@ -52,3 +52,6 @@ A number of these pieces have been performed live at academic conferences and cu
 [Audio Mostly 2017](https://audiomostly.com/2017/program/music-program/). 
 
 <img src="images/Issta2015 copy.jpg?raw=true"/>
+
+**Skills:**
+**Tags:**
