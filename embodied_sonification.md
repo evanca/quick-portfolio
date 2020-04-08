@@ -8,12 +8,13 @@
 
 **Coding & Technology**
 The majority of the project was coded in Csound a programming language for audio written in C. Rapid prototyping platforms were developed in Csound and used to prototype new ideas in an efficient manner. 
+[Prototyping Platform 1](/Embodied Sonification/Prototyoing_Model1_Vocal_Gesture2015).  
 
 <img src="images/CsoundCode.png?raw=true"/>
 
-[Prototyping Platform](/Prototyping_Model1_Vocal_Gesture2015)  
 
 The project involved the development of new techniques and systems for representing different kinds of data with sound. Some of these approaches involved the simulation of human vocal sounds, others relied on the synthesis of pure tones with sine wave generators a third class of techniques involved the use of recorded soundscapes to communicate data to a listener and a fruther appraoch involved the use of doppler shift processing and spatialisation to create a sense of temporal context in sonification listening. 
+
 
 Pure Sine Tones:
 
