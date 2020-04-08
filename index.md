@@ -5,7 +5,7 @@
 [Embodied Sonification](/projects/embodied_sonification/embodied_sonification)
 <img src="images/data.png?raw=true"/>
 ---
-[Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/projects/AD4IOT/AD4IOT)
+[Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/projects/AD4IOT/AD4IoT)
 <img src="images/data.png?raw=true"/>
 ---
 [Zones](/projects/embodied_sonification/embodied_sonification)
