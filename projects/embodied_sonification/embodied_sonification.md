@@ -8,7 +8,7 @@
 
 **Coding & Technology**
 The majority of the project was coded in Csound a programming language for audio written in C. Rapid prototyping platforms were developed in Csound and used to prototype new ideas in an efficient manner.
-[Prototyping Platform 1](/Embodied Sonification/Prototyoing_Model1_Vocal_Gesture2015).  
+[Prototyping Platform 1](/Embodied Sonification/Prototyping_Model1_Vocal_Gesture2015).  
 
 <img src="images/CsoundCode.png?raw=true"/>
 
@@ -42,9 +42,9 @@ Temporospatial Motion Framework:
 **Research Methods:**
 **Software Engineering/Product Development**
 
-The project applied empirical research methods and involved many rounds of evaluation. It involved both user-centric HCI methodologies and more traditional psychological experiments designed to guage users judgements of stimuli.
+The project applied empirical research methods and involved many rounds of evaluation. It involved both user-centric HCI methodologies and more traditional psychological experiments designed to gauge users judgements of stimuli.
 
-to determine the best appraoch for mapping data to sound in order to communicate information about the original data to a listener or user.
+to determine the best approach for mapping data to sound in order to communicate information about the original data to a listener or user.
 
 <img src="images/page2.png?raw=true"/>
 
@@ -107,5 +107,5 @@ A number of these pieces have been performed live at academic conferences and cu
 
 **Creative Skills:**
 **Technical Skills**
-**Research Tecniques**
+**Research Techniques**
 **Tags:**
