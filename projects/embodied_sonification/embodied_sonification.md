@@ -15,7 +15,7 @@ The majority of the project was coded in Csound a programming language for audio
 
 The project involved the development of new techniques and systems for representing different kinds of data with sound. Some of these approaches involved the the synthesis of pure tones with sine wave generators and addititve synthesis methods. Others relied on the simulation of human vocal sounds. A third class of techniques involved the simulation of the acoustic properties
 
-use of recorded soundscapes to communicate data to a listener and a fruther appraoch involved the use of doppler shift processing and spatialisation to create a sense of temporal context in sonification listening.
+use of recorded soundscapes to communicate data to a listener and a further approach involved the use of doppler shift processing and spatialisation to create a sense of temporal context in sonification listening.
 
 
 Pure Sine Tones:
@@ -25,10 +25,10 @@ Pure Sine Tones:
 [Decreasing Tempo](projects/embodied_sonification/audio/Ch2/Experiment B rhythm.mp3)
 
 Vocal Gestures:
-[Texture](projects/embodied_sonification/audio/Ch3/Rough Smooth.mp3) | [Amount](aprojects/embodied_sonification/audio/Ch3/Amount.mp3) | [Speed](projects/embodied_sonification/audio/Ch3/Speed.mp3) | [Size](projects/embodied_sonification/audio/Ch3/Size.mp3) [Spatial Extent](projects/embodied_sonification/audio/Ch3/Spatial.mp3) | [Tension](projects/embodied_sonification/audio/Ch3/Vowel Tension.mp3) | [Anger](projects/embodied_sonification/audio/Ch3/Anger.mp3)
+[Texture](projects/embodied_sonification/audio/Ch3/Rough Smooth.mp3) | [Amount](projects/embodied_sonification/audio/Ch3/Amount.mp3) | [Speed](projects/embodied_sonification/audio/Ch3/Speed.mp3) | [Size](projects/embodied_sonification/audio/Ch3/Size.mp3) [Spatial Extent](projects/embodied_sonification/audio/Ch3/Spatial.mp3) | [Tension](projects/embodied_sonification/audio/Ch3/Vowel Tension.mp3) | [Anger](projects/embodied_sonification/audio/Ch3/Anger.mp3)
 
 Soundscape Sonification:
-[Sonnification of Irish GDP from 1979 to 2013](projects/embodied_sonification/audio/Ch4/Sonification.mp3) |
+[Sonification of Irish GDP from 1979 to 2013](projects/embodied_sonification/audio/Ch4/Sonification.mp3) |
 [Emigration Low](projects/embodied_sonification/audio/Ch4/Emigration Place Lo.mp3) |
 [Emigration High](projects/embodied_sonification/audio/Ch4/Emigration Place Hi.mp3) |
 [Poverty Low](projects/embodied_sonification/audio/Ch4/Poverty Meta Lo.mp3) |
