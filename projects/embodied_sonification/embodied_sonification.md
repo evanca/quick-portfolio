@@ -1,31 +1,35 @@
 ## Embodied Sonification
 
-**Project description:** Sonification is the representation of data with sound and Auditory Display is the use of audio to present information to a listener. In certain contexts and for certain types of data sound can be an effective means of representation and communication. This project involved the development of Sonification and Auditory Display systems based on human-centred design principles derived from embodied cognition an area of cognitive science that is critical to our understanding of meaning-making in cognition. The research and development portions of the project were carried out in fulfilment of a PhD degree at the Department of Electronic and Electrical Engineering in Trinity College Dublin under the supervision of Dr. Dermot Furlong. The project was later developed in a more creative direction with the release of "The Human Cost" a collection of Data-driven Musical works created using the tools and techniques developed during the initial research project.
-
+**Project description:** Sonification is the representation of data with sound and Auditory Display is the use of audio to present information to a listener. In certain contexts and for certain types of data sound can be an effective means of representation and communication. This project involved the development of Sonification and Auditory Display systems based on human-centered design principles derived from embodied cognition an area of cognitive science that is critical to our understanding of meaning-making in cognition. The research and development portions of the project were carried out in fulfillment of a PhD degree at the Department of Electronic and Electrical Engineering in Trinity College Dublin under the supervision of Dr. Dermot Furlong. Throughout the project music composition and sound design practices informed by the embodied cognition literature were employed as exploratory research methods. This helped to identify exciting new possibilities for mapping data to sound. These possibilities were then empirically tested to confirm their efficacy for sonification tasks. A number of data-driven musical works were created as a byproduct of the research process.
 
 **Project Overview:**
 
 **Coding & Technology**
-The majority of the project was coded in Csound a programming language for audio written in C.
-Rapid prototyping platforms were developed in Csound and used to prototype new ideas in an efficient manner.
+The majority of the project was coded in Csound a programming language for audio written in C. Many of the stimuli used experiments and evaluations were also produced in Csound. Additional sounds and stimuli were produced in Native Instruments Reaktor 5 and production work was carried out int the Logic Pro X DAW. Rapid prototyping platforms were developed in Csound and used to prototype new ideas in an efficient manner. The two prototyping platforms below were developed using fof (fonction d'onde formantique') synthesis methods and generate simulated vocal gestures.
 
 [Prototyping Platform 1](code/Prototyping_Model1_Vocal_Gesture2015) | [Prototyping Platform 2](code/Prototyping_Model2_Vocal_Gestures2015)
 
 <img src="images/CsoundCode.png?raw=true"/>
 
-The project involved the development of new techniques and systems for representing different kinds of data with sound. Some of these approaches involved the the synthesis of pure tones with sine wave generators and additive synthesis methods. Others relied on the simulation of human vocal sounds. A third class of techniques involved the simulation of the acoustic properties
+**Data to Sound**
+The project involved the development of new techniques and systems for mapping a range of data types to sound in order to represent changes in the original data set.
+Physical and spatial datatypes like temperature, distance, height, weight, speed, amount, texture, etc. were used in the project.
+Weather data was also used. As the project progressed the focus fell increasingly on socio-economic data
 
-use of recorded soundscapes to communicate data to a listener and a further approach involved the use of doppler shift processing and spatialisation to create a sense of temporal context in sonification listening.
+The first phases of the project dealt with the concept of 'polarity'. This asks what counts as an increase and what counts as a decrease when mapping data to sound. The pitch and tempo of pure sine tones from 'numerical data', data that is a count of some specific thing like population, chemical concentration, RPM, etc., and attribute data, data that describes some attribute of a thing like size, depth, mass, etc.
 
-
-Pure Sine Tones:
+Pure Sine Tone Examples:
 [Increasing Frequency](audio/Ch2/Experiment C Pitch.mp3) |
 [Decreasing Frequency](audio/Ch2/Experiment B Pitch.mp3) |  
 [Increasing Tempo](audio/Ch2/Experiment C rhythm.mp3) |  
 [Decreasing Tempo](audio/Ch2/Experiment B rhythm.mp3)
 
-Vocal Gestures:
+The second phase explored the kinds of data that can be best represented with simulated vocal gestures. This phase made use of the vocal gesture prototyping platforms
+
+Effective Vocal Gesture Examples:
 [Texture](audio/Ch3/Rough Smooth.mp3) | [Amount](audio/Ch3/Amount.mp3) | [Speed](projects/embodied_sonification/audio/Ch3/Speed.mp3) | [Size](audio/Ch3/Size.mp3) [Spatial Extent](audio/Ch3/Spatial.mp3) | [Tension](audio/Ch3/Vowel Tension.mp3) | [Anger](audio/Ch3/Anger.mp3)
+
+The third phase examined how soundscapes can be used to represent data. Initial soundscape elements were synthesised and mapped to data using prototyping platforms in Csound but this approach was abandoned in favour of soundscape recordings that could be manipulated and mapped to data. This section explored how the concepts of conceptual metaphor and blending can be applied to design better soundscape sonifications.
 
 Soundscape Sonification:
 [Sonification of Irish GDP from 1979 to 2013](audio/Ch4/Sonification.mp3) |
@@ -34,9 +38,15 @@ Soundscape Sonification:
 [Poverty Low](audio/Ch4/Poverty Meta Lo.mp3) |
 [Poverty High](audio/Ch4/Poverty Meta Hi.mp3)
 
+The final phase explored how doppler shifting can be used to add a sense of temporal context to a sonification:
+
 Temporospatial Motion Framework:
 [Original Framework](audio/Ch5/Example of Original Framework.mp3) |
 [Refined Framework](audio/Ch5/Example of Refined Framework .mp3)
+
+
+**Findings:**
+Overall the project found that designing sonifications on the basis of principles from the field of embodied cognition generally leads to more effective solutions. The project resulted in the Embodied Sonification Listening Model, which reconciles embodied cognition principles with the task of "sonification listening": listening to a sound in order to extract information about the dataset it represents. For a more detailed description of findings see the finished document.
 
 
 **Research Methods:**
