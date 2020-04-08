@@ -63,7 +63,7 @@ This project resulted in a number of conference presentations.
 
 [Roddy,  S., & Furlong, D. (2013). Rethinking the Transmission Medium in  Live Computer Music Performance. Presented at the Irish Sound Science and Technology Convocation, Dún Laoghaire Institute of Art, Design and Technology.](papers/ISSTC2013RODDY.pdf)
 
-It also resulted in a number of journal articles including an article in [Organised Sound](papers/projects/embodied_sonification/Organised Sound - Embodied Aesthetics in Auditory Display.pdf)
+It also resulted in a number of journal articles including an article in [Organised Sound](papers/Organised Sound - Embodied Aesthetics in Auditory Display.pdf)
 
 
 **Creative Technology and Multimedia Outputs:**
