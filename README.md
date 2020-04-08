@@ -2,13 +2,6 @@
 
 ### Introduction
 
-THis is a markdown file. 
-
-Hi there mary.
-Hows life?
-
-Here you could explain how stuff works ya know?
-
 
 Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
 
