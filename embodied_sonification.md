@@ -13,17 +13,30 @@ The majority of the project was coded in Csound a programming language for audio
 <img src="images/CsoundCode.png?raw=true"/>
 
 
-The project involved the development of new techniques and systems for representing different kinds of data with sound. Some of these approaches involved the simulation of human vocal sounds, others relied on the synthesis of pure tones with sine wave generators a third class of techniques involved the use of recorded soundscapes to communicate data to a listener and a fruther appraoch involved the use of doppler shift processing and spatialisation to create a sense of temporal context in sonification listening. 
+The project involved the development of new techniques and systems for representing different kinds of data with sound. Some of these approaches involved the the synthesis of pure tones with sine wave generators and addititve synthesis methods. Others relied on the simulation of human vocal sounds. A third class of techniques involved the simulation of the acoustic properties 
+
+use of recorded soundscapes to communicate data to a listener and a fruther appraoch involved the use of doppler shift processing and spatialisation to create a sense of temporal context in sonification listening. 
 
 
 Pure Sine Tones:
+[Increasing Frequency](audio/Embodied Sonification/Ch2/Experiment C Pitch.wav)
+[Decreasing Frequency](audio/Embodied Sonification/Ch2/Experiment B Pitch.wav) 
+[Increasing Tempo](audio/Embodied Sonification/Ch2/Experiment C rhythm.wav) 
+[Decreasing Tempo](audio/Embodied Sonification/Ch2/Experiment B rhythm.wav)
 
-Vocal Sounds:
-[Texture](audio/Rough Smooth.wav/) | [Amount](audio/Amount.wav/) | [Speed](audio/Speed.wav/) | [Size](audio/Size.wav/)
+Vocal Gestures:
+[Texture](audio/Embodied Sonification/Ch3/Rough Smooth.wav) | [Amount](aaudio/Embodied Sonification/Ch3/Amount.wav) | [Speed](audio/Embodied Sonification/Ch3/Speed.wav) | [Size](audio/Embodied Sonification/Ch3/Size.wav) [Spatial Extent](audio/Embodied Sonification/Ch3/Spatial.wav) | [Tension](audio/Embodied Sonification/Ch3/Vowel Tension.wav) | [Anger](audio/Embodied Sonification/Ch3/Anger.wav)
 
 Soundscape Sonification:
+[Sonnification of Irish GDP from 1979 to 2013](audio/Embodied Sonification/Ch4/Sonification.mp3)
+[Emigration Low](audio/Embodied Sonification/Ch4/Emigration Place Lo.mp3)
+[Emigration High](audio/Embodied Sonification/Ch4/Emigration Place Hi.mp3)
+[Poverty Low](audio/Embodied Sonification/Ch4/Poverty Meta Lo.wav) 
+[Poverty High](audio/Embodied Sonification/Ch4/Poverty Meta Hi.wav)
 
 Temporospatial Motion Framework:
+[Original Framework](audio/Embodied Sonification/Ch5/Example of Original Framework.wav) 
+[Refined Framework](audio/Embodied Sonification/Ch5/Example of Refined Framework .wav)
 
 
 **Research Methods:** 
