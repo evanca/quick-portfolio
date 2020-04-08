@@ -7,7 +7,7 @@
 
 **Coding & Technology**
 The majority of the project was coded in Csound a programming language for audio written in C. Rapid prototyping platforms were developed in Csound and used to prototype new ideas in an efficient manner.
-[Prototyping Platform 1](/projects/embodied_sonification/code/Prototyping_Model1_Vocal_Gesture2015)  |  
+[Prototyping Platform 1](/projects/embodied_sonification/code/Prototyping_Model1_Vocal_Gesture2015) | 
 [Prototyping Platform 2](/projects/embodied_sonification/code/Prototyping_Model2_Vocal_Gestures2015).  
 
 <img src="/projects/embodied_sonification/images/CsoundCode.png?raw=true"/>
