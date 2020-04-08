@@ -1,19 +1,28 @@
 ## Embodied Sonification
 
-**Project description:** This project involved the development of Sonification and Auditory Display systems based on human-centered design principles derived from cognitive science studies. The research and development portions of the project were carried out in fulfillment of a PhD degree at the Department of Electronic and Electrical Engineering in Trinity College Dublin.
+**Project description:** This project involved the development of Sonification and Auditory Display systems based on human-centered design principles derived from cognitive science studies. The research and development portions of the project were carried out in fulfillment of a PhD degree at the Department of Electronic and Electrical Engineering in Trinity College Dublin. Sonification is the representation of data with sound and Auditory Display is the use of audio to present information to a listener. In certain contexts and for certain types of data sound can be an effective means of representation and communication.
+
 
 **Project Overview:** 
-Sonification is the representation of data with sound and Auditory Display is the use of audio to present information to a listener. In certain contexts and for certain types of data sound can be an effective means of representation and communication.
 
+
+**Coding & Technology**
 The majority of the project was coded in Csound a programming language for audio written in C. Rapid prototyping platforms were developed in Csound and used to prototype new ideas in an efficient manner. 
 
 <img src="images/CsoundCode.png?raw=true"/>
 
-The project involved the development of new techniques and systems for representing different kinds of data with sound.  Some of these approaches involved the simulation of human vocal sounds.
+The project involved the development of new techniques and systems for representing different kinds of data with sound. Some of these approaches involved the simulation of human vocal sounds, others relied on the synthesis of pure tones with sine wave generators a third class of techniques involved the use of recorded soundscapes to communicate data to a listener and a fruther appraoch involved the use of doppler shift processing and spatialisation to create a sense of temporal context in sonification listening. 
 
 [Texture](audio/Rough Smooth.wav/) | [Amount](audio/Amount.wav/) | [Speed](audio/Speed.wav/) | [Size](audio/Size.wav/)
 
-The research involved many rounds of user testing with user-centric HCI methodologies to determine the best appraoch for mapping data to sound in order to communicate information about the original data to a listener or user. 
+
+
+**Research Methods:** 
+**Software Engineering/Product Development**
+
+The project applied empirical research methods and involved many rounds of evaluation. It involved both user-centric HCI methodologies and more traditional psychological experiments designed to guage users judgements of stimuli.
+
+to determine the best appraoch for mapping data to sound in order to communicate information about the original data to a listener or user. 
 
 <img src="images/page2.png?raw=true"/>
 
