@@ -53,7 +53,7 @@ This project resulted in a number of conference presentations.
 It also resulted in a number of journal articles including an article in [Organised Sound](papers/embodied sonification/Organised Sound - Embodied Aesthetics in Auditory Display.pdf)
 
 
-**Creative Technology Outputs:** 
+**Creative Technology and Multimedia Outputs:** 
 
 
 Data-driven music composition and sound design techniques were used to aid in the design of sonification mapping strategies. These approaches allowed me to find novel and interesting sonic parameters for mapping data.  This practice resulted in the production of a number of data-driven sound works in the course of the research project. 
