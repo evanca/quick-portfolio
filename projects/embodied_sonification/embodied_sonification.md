@@ -8,7 +8,7 @@
 
 **Coding & Technology**
 The majority of the project was coded in Csound a programming language for audio written in C. Rapid prototyping platforms were developed in Csound and used to prototype new ideas in an efficient manner.
-[Prototyping Platform 1](/Embodied Sonification/Prototyping_Model1_Vocal_Gesture2015).  
+[Prototyping Platform 1](/projects/embodied_sonification/Prototyping_Model1_Vocal_Gesture2015).  
 
 <img src="images/CsoundCode.png?raw=true"/>
 
@@ -19,24 +19,24 @@ use of recorded soundscapes to communicate data to a listener and a fruther appr
 
 
 Pure Sine Tones:
-[Increasing Frequency](Embodied Sonification/audio/Ch2/Experiment C Pitch.mp3) |
-[Decreasing Frequency](Embodied Sonification/audio/Ch2/Experiment B Pitch.mp3) |  
-[Increasing Tempo](Embodied Sonification/audio/Ch2/Experiment C rhythm.mp3) |  
-[Decreasing Tempo](Embodied Sonification/audio/Ch2/Experiment B rhythm.mp3)
+[Increasing Frequency](projects/embodied_sonification/audio/Ch2/Experiment C Pitch.mp3) |
+[Decreasing Frequency](projects/embodied_sonification/audio/Ch2/Experiment B Pitch.mp3) |  
+[Increasing Tempo](projects/embodied_sonification/audio/Ch2/Experiment C rhythm.mp3) |  
+[Decreasing Tempo](projects/embodied_sonification/audio/Ch2/Experiment B rhythm.mp3)
 
 Vocal Gestures:
-[Texture](Embodied Sonification/audio/Ch3/Rough Smooth.mp3) | [Amount](aEmbodied Sonification/audio/Ch3/Amount.mp3) | [Speed](Embodied Sonification/audio/Ch3/Speed.mp3) | [Size](Embodied Sonification/audio/Ch3/Size.mp3) [Spatial Extent](Embodied Sonification/audio/Ch3/Spatial.mp3) | [Tension](Embodied Sonification/audio/Ch3/Vowel Tension.mp3) | [Anger](Embodied Sonification/audio/Ch3/Anger.mp3)
+[Texture](projects/embodied_sonification/audio/Ch3/Rough Smooth.mp3) | [Amount](aprojects/embodied_sonification/audio/Ch3/Amount.mp3) | [Speed](projects/embodied_sonification/audio/Ch3/Speed.mp3) | [Size](projects/embodied_sonification/audio/Ch3/Size.mp3) [Spatial Extent](projects/embodied_sonification/audio/Ch3/Spatial.mp3) | [Tension](projects/embodied_sonification/audio/Ch3/Vowel Tension.mp3) | [Anger](projects/embodied_sonification/audio/Ch3/Anger.mp3)
 
 Soundscape Sonification:
-[Sonnification of Irish GDP from 1979 to 2013](Embodied Sonification/audio/Ch4/Sonification.mp3) |
-[Emigration Low](Embodied Sonification/audio/Ch4/Emigration Place Lo.mp3) |
-[Emigration High](Embodied Sonification/audio/Ch4/Emigration Place Hi.mp3) |
-[Poverty Low](Embodied Sonification/audio/Ch4/Poverty Meta Lo.mp3) |
-[Poverty High](Embodied Sonification/audio/Ch4/Poverty Meta Hi.mp3)
+[Sonnification of Irish GDP from 1979 to 2013](projects/embodied_sonification/audio/Ch4/Sonification.mp3) |
+[Emigration Low](projects/embodied_sonification/audio/Ch4/Emigration Place Lo.mp3) |
+[Emigration High](projects/embodied_sonification/audio/Ch4/Emigration Place Hi.mp3) |
+[Poverty Low](projects/embodied_sonification/audio/Ch4/Poverty Meta Lo.mp3) |
+[Poverty High](projects/embodied_sonification/audio/Ch4/Poverty Meta Hi.mp3)
 
 Temporospatial Motion Framework:
-[Original Framework](Embodied Sonification/audio/Ch5/Example of Original Framework.mp3) |
-[Refined Framework](Embodied Sonification/audio/Ch5/Example of Refined Framework .mp3)
+[Original Framework](projects/embodied_sonification/audio/Ch5/Example of Original Framework.mp3) |
+[Refined Framework](projects/embodied_sonification/audio/Ch5/Example of Refined Framework .mp3)
 
 
 **Research Methods:**
@@ -56,15 +56,15 @@ to determine the best approach for mapping data to sound in order to communicate
 
 This project resulted in a number of conference presentations.
 
-[Roddy,  S., & Furlong, D. (2015). Embodied Auditory Display Affordances. In  Proceedings of the 12th Sound and Music Computing Conference: National  University of Ireland Maynooth (pp. 477-484).](papers/embodied sonification/EmbodiedAffordancesinAuditoryDisplayRoddyFurlong.pdf)
+[Roddy,  S., & Furlong, D. (2015). Embodied Auditory Display Affordances. In  Proceedings of the 12th Sound and Music Computing Conference: National  University of Ireland Maynooth (pp. 477-484).](projects/embodied_sonification/papers/EmbodiedAffordancesinAuditoryDisplayRoddyFurlong.pdf)
 
-[Roddy,  S., & Furlong, D. (2015). Sonification Listening: An Empirical  Embodied Approach. In Proceedings of The 21st International Conference on Auditory Display (ICAD 2015) July 8–10, 2015, Graz, Austria.  (pp.181-187).](stephenroddy.github.io/papers/embodied sonification/)
+[Roddy,  S., & Furlong, D. (2015). Sonification Listening: An Empirical  Embodied Approach. In Proceedings of The 21st International Conference on Auditory Display (ICAD 2015) July 8–10, 2015, Graz, Austria.  (pp.181-187).](projects/embodied_sonification/papers/projects/embodied_sonification/papers/SonificationListeningAnempiricalEmbodiedApproachRoddyandFurlong2015.pdf)
 
-[Roddy,  S., & Furlong, D. (2013). Embodied cognition in auditory display.  In Proceedings Of the 19th International Conference on Auditory Display,  July 6-10 Łódź, Poland ( pp. 127-134).](papers/embodied sonification/SonificationListeningAnempiricalEmbodiedApproachRoddyandFurlong2015.pdf)
+[Roddy,  S., & Furlong, D. (2013). Embodied cognition in auditory display.  In Proceedings Of the 19th International Conference on Auditory Display,  July 6-10 Łódź, Poland ( pp. 127-134).](projects/embodied_sonification/papers/SonificationListeningAnempiricalEmbodiedApproachRoddyandFurlong2015.pdf)
 
-[Roddy,  S., & Furlong, D. (2013). Rethinking the Transmission Medium in  Live Computer Music Performance. Presented at the Irish Sound Science and Technology Convocation, Dún Laoghaire Institute of Art, Design and Technology.](papers/embodied sonification/ISSTC2013RODDY.pdf)
+[Roddy,  S., & Furlong, D. (2013). Rethinking the Transmission Medium in  Live Computer Music Performance. Presented at the Irish Sound Science and Technology Convocation, Dún Laoghaire Institute of Art, Design and Technology.](projects/embodied_sonification/papers/ISSTC2013RODDY.pdf)
 
-It also resulted in a number of journal articles including an article in [Organised Sound](papers/embodied sonification/Organised Sound - Embodied Aesthetics in Auditory Display.pdf)
+It also resulted in a number of journal articles including an article in [Organised Sound](papers/projects/embodied_sonification/Organised Sound - Embodied Aesthetics in Auditory Display.pdf)
 
 
 **Creative Technology and Multimedia Outputs:**
