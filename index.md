@@ -11,6 +11,9 @@
 [Zones](/projects/embodied_sonification/embodied_sonification)
 <img src="images/data.png?raw=true"/>
 ---
+[Embodied at the GPO](/projects/embodied_sonification/embodied_sonification)
+<img src="images/data.png?raw=true"/>
+---
 
 ### Category Name 2
 
