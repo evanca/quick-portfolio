@@ -19,23 +19,23 @@ use of recorded soundscapes to communicate data to a listener and a fruther appr
 
 
 Pure Sine Tones:
-[Increasing Frequency](audio/Embodied Sonification/Ch2/Experiment C Pitch.wav)
-[Decreasing Frequency](audio/Embodied Sonification/Ch2/Experiment B Pitch.wav) 
-[Increasing Tempo](audio/Embodied Sonification/Ch2/Experiment C rhythm.wav) 
+[Increasing Frequency](audio/Embodied Sonification/Ch2/Experiment C Pitch.wav) | 
+[Decreasing Frequency](audio/Embodied Sonification/Ch2/Experiment B Pitch.wav) |  
+[Increasing Tempo](audio/Embodied Sonification/Ch2/Experiment C rhythm.wav) |  
 [Decreasing Tempo](audio/Embodied Sonification/Ch2/Experiment B rhythm.wav)
 
 Vocal Gestures:
 [Texture](audio/Embodied Sonification/Ch3/Rough Smooth.wav) | [Amount](aaudio/Embodied Sonification/Ch3/Amount.wav) | [Speed](audio/Embodied Sonification/Ch3/Speed.wav) | [Size](audio/Embodied Sonification/Ch3/Size.wav) [Spatial Extent](audio/Embodied Sonification/Ch3/Spatial.wav) | [Tension](audio/Embodied Sonification/Ch3/Vowel Tension.wav) | [Anger](audio/Embodied Sonification/Ch3/Anger.wav)
 
 Soundscape Sonification:
-[Sonnification of Irish GDP from 1979 to 2013](audio/Embodied Sonification/Ch4/Sonification.mp3)
-[Emigration Low](audio/Embodied Sonification/Ch4/Emigration Place Lo.mp3)
-[Emigration High](audio/Embodied Sonification/Ch4/Emigration Place Hi.mp3)
-[Poverty Low](audio/Embodied Sonification/Ch4/Poverty Meta Lo.wav) 
+[Sonnification of Irish GDP from 1979 to 2013](audio/Embodied Sonification/Ch4/Sonification.mp3) | 
+[Emigration Low](audio/Embodied Sonification/Ch4/Emigration Place Lo.mp3) | 
+[Emigration High](audio/Embodied Sonification/Ch4/Emigration Place Hi.mp3) | 
+[Poverty Low](audio/Embodied Sonification/Ch4/Poverty Meta Lo.wav) | 
 [Poverty High](audio/Embodied Sonification/Ch4/Poverty Meta Hi.wav)
 
 Temporospatial Motion Framework:
-[Original Framework](audio/Embodied Sonification/Ch5/Example of Original Framework.wav) 
+[Original Framework](audio/Embodied Sonification/Ch5/Example of Original Framework.wav) | 
 [Refined Framework](audio/Embodied Sonification/Ch5/Example of Refined Framework .wav)
 
 
