@@ -18,13 +18,13 @@ use of recorded soundscapes to communicate data to a listener and a further appr
 
 
 Pure Sine Tones:
-[Increasing Frequency](projects/embodied_sonification/audio/Ch2/Experiment C Pitch.mp3) |
-[Decreasing Frequency](projects/embodied_sonification/audio/Ch2/Experiment B Pitch.mp3) |  
-[Increasing Tempo](projects/embodied_sonification/audio/Ch2/Experiment C rhythm.mp3) |  
-[Decreasing Tempo](projects/embodied_sonification/audio/Ch2/Experiment B rhythm.mp3)
+[Increasing Frequency](/projects/embodied_sonification/audio/Ch2/Experiment C Pitch.mp3) |
+[Decreasing Frequency](/projects/embodied_sonification/audio/Ch2/Experiment B Pitch.mp3) |  
+[Increasing Tempo](/projects/embodied_sonification/audio/Ch2/Experiment C rhythm.mp3) |  
+[Decreasing Tempo](/projects/embodied_sonification/audio/Ch2/Experiment B rhythm.mp3)
 
 Vocal Gestures:
-[Texture](projects/embodied_sonification/audio/Ch3/Rough Smooth.mp3) | [Amount](projects/embodied_sonification/audio/Ch3/Amount.mp3) | [Speed](projects/embodied_sonification/audio/Ch3/Speed.mp3) | [Size](projects/embodied_sonification/audio/Ch3/Size.mp3) [Spatial Extent](projects/embodied_sonification/audio/Ch3/Spatial.mp3) | [Tension](projects/embodied_sonification/audio/Ch3/Vowel Tension.mp3) | [Anger](projects/embodied_sonification/audio/Ch3/Anger.mp3)
+[Texture](/projects/embodied_sonification/audio/Ch3/Rough Smooth.mp3) | [Amount](/projects/embodied_sonification/audio/Ch3/Amount.mp3) | [Speed](projects/embodied_sonification/audio/Ch3/Speed.mp3) | [Size](/projects/embodied_sonification/audio/Ch3/Size.mp3) [Spatial Extent](/projects/embodied_sonification/audio/Ch3/Spatial.mp3) | [Tension](/projects/embodied_sonification/audio/Ch3/Vowel Tension.mp3) | [Anger](/projects/embodied_sonification/audio/Ch3/Anger.mp3)
 
 Soundscape Sonification:
 [Sonification of Irish GDP from 1979 to 2013](/projects/embodied_sonification/audio/Ch4/Sonification.mp3) |
