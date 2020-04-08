@@ -34,6 +34,12 @@ to determine the best appraoch for mapping data to sound in order to communicate
 
 <img src="images/page2.png?raw=true"/>
 
+
+**Summary of Findings:** 
+
+
+**Research Outputs:** 
+
 This project resulted in a number of conference presentations.
 
 [Roddy,  S., & Furlong, D. (2015). Embodied Auditory Display Affordances. In  Proceedings of the 12th Sound and Music Computing Conference: National  University of Ireland Maynooth (pp. 477-484).](papers/embodied sonification/EmbodiedAffordancesinAuditoryDisplayRoddyFurlong.pdf)
@@ -45,6 +51,10 @@ This project resulted in a number of conference presentations.
 [Roddy,  S., & Furlong, D. (2013). Rethinking the Transmission Medium in  Live Computer Music Performance. Presented at the Irish Sound Science and Technology Convocation, Dún Laoghaire Institute of Art, Design and Technology.](papers/embodied sonification/ISSTC2013RODDY.pdf)
 
 It also resulted in a number of journal articles including an article in [Organised Sound](papers/embodied sonification/Organised Sound - Embodied Aesthetics in Auditory Display.pdf)
+
+
+**Creative Technology Outputs:** 
+
 
 Data-driven music composition and sound design techniques were used to aid in the design of sonification mapping strategies. These approaches allowed me to find novel and interesting sonic parameters for mapping data.  This practice resulted in the production of a number of data-driven sound works in the course of the research project. 
 
