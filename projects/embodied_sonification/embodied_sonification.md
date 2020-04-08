@@ -7,7 +7,7 @@
 
 **Coding & Technology**
 The majority of the project was coded in Csound a programming language for audio written in C. Rapid prototyping platforms were developed in Csound and used to prototype new ideas in an efficient manner.
-[Prototyping Platform 1](/projects/embodied_sonification/code/Prototyping_Model1_Vocal_Gesture2015) | 
+[Prototyping Platform 1](/projects/embodied_sonification/code/Prototyping_Model1_Vocal_Gesture2015) |
 [Prototyping Platform 2](/projects/embodied_sonification/code/Prototyping_Model2_Vocal_Gestures2015).  
 
 <img src="/projects/embodied_sonification/images/CsoundCode.png?raw=true"/>
@@ -27,11 +27,11 @@ Vocal Gestures:
 [Texture](projects/embodied_sonification/audio/Ch3/Rough Smooth.mp3) | [Amount](projects/embodied_sonification/audio/Ch3/Amount.mp3) | [Speed](projects/embodied_sonification/audio/Ch3/Speed.mp3) | [Size](projects/embodied_sonification/audio/Ch3/Size.mp3) [Spatial Extent](projects/embodied_sonification/audio/Ch3/Spatial.mp3) | [Tension](projects/embodied_sonification/audio/Ch3/Vowel Tension.mp3) | [Anger](projects/embodied_sonification/audio/Ch3/Anger.mp3)
 
 Soundscape Sonification:
-[Sonification of Irish GDP from 1979 to 2013](projects/embodied_sonification/audio/Ch4/Sonification.mp3) |
-[Emigration Low](projects/embodied_sonification/audio/Ch4/Emigration Place Lo.mp3) |
-[Emigration High](projects/embodied_sonification/audio/Ch4/Emigration Place Hi.mp3) |
-[Poverty Low](projects/embodied_sonification/audio/Ch4/Poverty Meta Lo.mp3) |
-[Poverty High](projects/embodied_sonification/audio/Ch4/Poverty Meta Hi.mp3)
+[Sonification of Irish GDP from 1979 to 2013](/projects/embodied_sonification/audio/Ch4/Sonification.mp3) |
+[Emigration Low](/projects/embodied_sonification/audio/Ch4/Emigration Place Lo.mp3) |
+[Emigration High](/projects/embodied_sonification/audio/Ch4/Emigration Place Hi.mp3) |
+[Poverty Low](/projects/embodied_sonification/audio/Ch4/Poverty Meta Lo.mp3) |
+[Poverty High](/projects/embodied_sonification/audio/Ch4/Poverty Meta Hi.mp3)
 
 Temporospatial Motion Framework:
 [Original Framework](projects/embodied_sonification/audio/Ch5/Example of Original Framework.mp3) |
