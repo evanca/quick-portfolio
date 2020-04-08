@@ -1,6 +1,5 @@
 ## Prototyoing_Model1_Vocal_Gesture 2015
-
-**Tags:**
+**Prototyoing_Model1_Vocal_Gesture 2015**
 ```Csound
 <CsoundSynthesizer>
 <CsOptions>
