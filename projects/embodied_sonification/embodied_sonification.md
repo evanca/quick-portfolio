@@ -1,17 +1,16 @@
 ## Embodied Sonification
 
-**Project description:** Sonification is the representation of data with sound and Auditory Display is the use of audio to present information to a listener. In certain contexts and for certain types of data sound can be an effective means of representation and communication. This project involved the development of Sonification and Auditory Display systems based on human-centred design principles derived from embodied cognition an area of cognitive science that is critical to our understanding of meaning-making in cognition. The research and development portions of the project were carried out in fulfilment of a PhD degree at the Department of Electronic and Electrical Engineering in Trinity College Dublin under the supervision of Dr. Dermot Furlong. 
+**Project description:** Sonification is the representation of data with sound and Auditory Display is the use of audio to present information to a listener. In certain contexts and for certain types of data sound can be an effective means of representation and communication. This project involved the development of Sonification and Auditory Display systems based on human-centred design principles derived from embodied cognition an area of cognitive science that is critical to our understanding of meaning-making in cognition. The research and development portions of the project were carried out in fulfilment of a PhD degree at the Department of Electronic and Electrical Engineering in Trinity College Dublin under the supervision of Dr. Dermot Furlong. The project was later developed in a more creative direction with the release of "The Human Cost" a collection of Data-driven Musical works created using the tools and techniques developed during the initial research project.
 
 
 **Project Overview:**
 
-
 **Coding & Technology**
 The majority of the project was coded in Csound a programming language for audio written in C. Rapid prototyping platforms were developed in Csound and used to prototype new ideas in an efficient manner.
-[Prototyping Platform 1](/projects/embodied_sonification/code/Prototyping_Model1_Vocal_Gesture2015).  
+[Prototyping Platform 1](/projects/embodied_sonification/code/Prototyping_Model1_Vocal_Gesture2015)  |  
+[Prototyping Platform 2](/projects/embodied_sonification/code/Prototyping_Model2_Vocal_Gestures2015).  
 
 <img src="/projects/embodied_sonification/images/CsoundCode.png?raw=true"/>
-
 
 The project involved the development of new techniques and systems for representing different kinds of data with sound. Some of these approaches involved the the synthesis of pure tones with sine wave generators and additive synthesis methods. Others relied on the simulation of human vocal sounds. A third class of techniques involved the simulation of the acoustic properties
 
