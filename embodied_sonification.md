@@ -11,10 +11,18 @@ The majority of the project was coded in Csound a programming language for audio
 
 <img src="images/CsoundCode.png?raw=true"/>
 
+[Prototyping Platform](/Prototyoing_Model1_Vocal_Gesture 2015)  
+
 The project involved the development of new techniques and systems for representing different kinds of data with sound. Some of these approaches involved the simulation of human vocal sounds, others relied on the synthesis of pure tones with sine wave generators a third class of techniques involved the use of recorded soundscapes to communicate data to a listener and a fruther appraoch involved the use of doppler shift processing and spatialisation to create a sense of temporal context in sonification listening. 
 
+Pure Sine Tones:
+
+Vocal Sounds:
 [Texture](audio/Rough Smooth.wav/) | [Amount](audio/Amount.wav/) | [Speed](audio/Speed.wav/) | [Size](audio/Size.wav/)
 
+Soundscape Sonification:
+
+Temporospatial Motion Framework:
 
 
 **Research Methods:** 
