@@ -2,8 +2,7 @@
 
 ---
 
-[Embodied Sonification](/projects/embodied_sonification)
-[PRototyping Model](/Prototyping_Model1_Vocal_Gesture2015)
+[Embodied Sonification](/projects/embodied_sonification/embodied_sonification)
 <img src="images/data.png?raw=true"/>
 
 ---
