@@ -1,7 +1,7 @@
 ## Portfolio
 
 ---
-
+<!-- //Use some ahref tags to make the images link across to the pages also -->
 [Embodied Sonification](/projects/embodied_sonification/embodied_sonification)
 <img src="images/tabs/HCtab.png?raw=true"/>
 
