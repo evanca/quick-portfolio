@@ -86,17 +86,17 @@ A number of these pieces have been performed live at academic conferences and cu
 
 
 ### Embodied Sonification PhD Thesis
-<iframe height="842" src="https://drive.google.com/file/d/0BwMBM58DHm2balNPRERtbEJYNHM/preview" width="592"></iframe>
+<iframe height="842" src="https://drive.google.com/file/d/0BwMBM58DHm2balNPRERtbEJYNHM/preview" width="592"></iframe><br/>
 
-[Digital Appendices](https://www.dropbox.com/sh/byilxk53kzkdr8b/AADpZQZO3iv0hRL7rU72Pk-ha?dl=0).  
-[Link to thesis in Trinity College Dublin Repository](http://www.tara.tcd.ie/handle/2262/80506).  
+[Digital Appendices](https://www.dropbox.com/sh/byilxk53kzkdr8b/AADpZQZO3iv0hRL7rU72Pk-ha?dl=0)<br/>
+[Link to thesis in Trinity College Dublin Repository](http://www.tara.tcd.ie/handle/2262/80506)<br/>
 
 
 ### Press
-[CMC Salon Series Press Release](https://www.cmc.ie/content/contemporary-music-centres-salon-series-opens-eclectic-electro-acoustic-program)    
-[The Offaly Express](https://www.offalyexpress.ie/news/home/265639/offaly-man-prepares-for-unique-musical-performance-in-london.html)    
-[Glór Mundo 29th September 2017](https://www.facebook.com/GlorMundO/posts/868313836667030)    
-[Glór Mundo 27th September 2017](https://www.facebook.com/glormundo/posts/868313836667030)    
+[CMC Salon Series Press Release](https://www.cmc.ie/content/contemporary-music-centres-salon-series-opens-eclectic-electro-acoustic-program)<br/>
+[The Offaly Express](https://www.offalyexpress.ie/news/home/265639/offaly-man-prepares-for-unique-musical-performance-in-london.html)<br/>
+[Glór Mundo 29th September 2017](https://www.facebook.com/GlorMundO/posts/868313836667030)<br/>
+[Glór Mundo 27th September 2017](https://www.facebook.com/glormundo/posts/868313836667030)<br/>
 
 
 ### Creative Skills
