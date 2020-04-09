@@ -33,8 +33,7 @@ The next performance with the system titled 'Signal to Noise Loops i++'' took pl
 <img src="images/PosterXcoax.jpg?raw=true"/><br/>
 * [xCoAx Poster](images/PosterXcoax.jpg)
 
-
-
+#### ISSTA & CSMC 2018<br/>
 A third performance with an updated system took place at ISSTA 2018 in Derry/Londonderry and a fourth, with a newer version of the system, at CSMC 2018 in Dublin. Signal to Noise Loops i++ employed liine’s Lemur app for iOS to control the synthesis of audio materials in Native Instrument’s Reaktor. Reaktor also ran patches employing a mixture of additive and subtractive synthesis techniques to generate audio materials. In this performance traffic data from IoT devices around Dublin was mapped to control synthesis, timbral and performance parameters of the piece. <br />
 The current Submission <i>Urban Affect Networks</i> represents a further development of the system. The Ai-driven PerformIOT module has been updated to allow it even more control. Alongside generating its own musical material it now treats the material performed by the human player as ‘optional’. It listens to the material played by the human and decides what it likes and what it does not like, keeping and sometimes embellishing what it likes and completely re-writing what it does not like on the fly.<br />
 
