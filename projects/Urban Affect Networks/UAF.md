@@ -1,9 +1,9 @@
-<h2 style="text-align: right;">
-Stephen Roddy </h2>
+## Urban Affect Networks
+
 <br />
 Urban Affect Networks emanates from a wider project that links live electronic music performance, IoT Network Data and Artificial Intelligence.The performance draws data from networks of IoT devices placed around Dublin City. Network traffic data is mapped to control parameters of the live performance and how this takes place is mediated by an AI-driven system called PerformIOT. The mood or affective state of the AI system is determined by the state of Dublin city, as represented through the IoT sensor data. The AI system performs alongside a human musician makes musical choices on the basis of this affective state.The document describes the elements involved. It also includes a technical rider along with an example excerpt <br />
-<h4>
-Description of the Work:</h4>
+
+<h4>Description of the Work:</h4>
 Urban Affect Networks is a live electronic data-driven musical performance. The performance will be realised through the prototype ‘PerformIoT’ system. PerformIoT is an AI-driven system written in Python for leveraging IoT data in live electronic music performance. The PerformIoT AI system has grown out of work undertaken to sonify IoT network data from Pervasive Nation, a nationwide IoT network testbed operated by CONNECT, the Science Foundation Ireland Research Centre for Future Networks headquartered at Trinity College Dublin. The PerformIoT AI system retrieves data from the relevant API and maps it to OSC for use in a live performance setting. The first use for the frameworks was for the piece Noise Loops for Laptop, Improvised Electric Guitar and Dublin City Noise Data. This was performed at the 2017 Sonic Dreams Festival. In this piece IoT data from sensors measuring ambient noise levels around Dublin city was mapped to control performance parameters of a live electric guitar improvisation. The data was mapped to control the timbre of the guitar utilizing a multiband distortion to morph the sound. The data was also mapped to control advanced buffer, delay and filtering processing of the performance. It also controlled the synthesis of percussive elements within the performance. <br />
 <br />
 <iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album=793201642/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=2969131966/transparent=true/" style="border: 0; height: 120px; width: 100%;"><a href="http://stephenroddy.bandcamp.com/album/home-part-2-silence-ep">Home Part 2: Silence EP by Stephen Roddy</a></iframe>
