@@ -10,6 +10,7 @@ The first iteration of 'PerformIoT' was a rule-based AI system that employed the
 The first use for the framework was for the piece 'Noise Loops for Laptop, Improvised Electric Guitar and Dublin City Noise Data'. This was performed at the 2017 Sonic Dreams Festival. In this piece IoT data from sensors measuring ambient noise levels around Dublin city was mapped to control performance parameters of a live electric guitar improvisation. The data was mapped to control the timbre of the guitar utilizing a multiband distortion to morph the sound. The data was also mapped to control advanced buffer, delay and filtering processing of the performance and that also controlled the synthesis of percussive elements within the performance. In this iteration the system was mapped to control live DSP process which mashed up and remixed the performance in realtime on the basis of the IoT data <br />
 <br />
 
+[Sonic Dreams 2017 Poster](images/Sonic-Dreams-Festival-2017-final-poster-2.jpg)
 <img src="/images/Sonic-Dreams-Festival-2017-final-poster-2.jpg?raw=true"/><br/>
 
 <iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album=793201642/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=2969131966/transparent=true/" style="border: 0; height: 120px; width: 100%;"><a href="http://stephenroddy.bandcamp.com/album/home-part-2-silence-ep">Home Part 2: Silence EP by Stephen Roddy</a></iframe>
