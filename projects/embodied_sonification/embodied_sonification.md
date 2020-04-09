@@ -19,10 +19,7 @@ Weather data was also used. As the project progressed the focus fell increasingl
 The first phases of the project dealt with the concept of 'polarity'. This asks what counts as an increase and what counts as a decrease when mapping data to sound. The pitch and tempo of pure sine tones from 'numerical data', data that is a count of some specific thing like population, chemical concentration, RPM, etc., and attribute data, data that describes some attribute of a thing like size, depth, mass, etc.
 
 Pure Sine Tone Examples:
-[Increasing Frequency](audio/Ch2/Experiment C Pitch.mp3) |
-[Decreasing Frequency](audio/Ch2/Experiment B Pitch.mp3) |  
-[Increasing Tempo](audio/Ch2/Experiment C rhythm.mp3) |  
-[Decreasing Tempo](audio/Ch2/Experiment B rhythm.mp3)
+[Increasing Frequency](audio/Ch2/Experiment C Pitch.mp3) | [Decreasing Frequency](audio/Ch2/Experiment B Pitch.mp3) | [Increasing Tempo](audio/Ch2/Experiment C rhythm.mp3) | [Decreasing Tempo](audio/Ch2/Experiment B rhythm.mp3)
 
 The second phase explored the kinds of data that can be best represented with simulated vocal gestures. This phase made use of the vocal gesture prototyping platforms
 
@@ -32,35 +29,21 @@ Effective Vocal Gesture Examples:
 The third phase examined how soundscapes can be used to represent data. Initial soundscape elements were synthesised and mapped to data using prototyping platforms in Csound but this approach was abandoned in favour of soundscape recordings that could be manipulated and mapped to data. This section explored how the concepts of conceptual metaphor and blending can be applied to design better soundscape sonifications.
 
 Soundscape Sonification:
-[Sonification of Irish GDP from 1979 to 2013](audio/Ch4/Sonification.mp3) |
-[Emigration Low](audio/Ch4/Emigration Place Lo.mp3) |
-[Emigration High](audio/Ch4/Emigration Place Hi.mp3) |
-[Poverty Low](audio/Ch4/Poverty Meta Lo.mp3) |
-[Poverty High](audio/Ch4/Poverty Meta Hi.mp3)
+[Sonification of Irish GDP from 1979 to 2013](audio/Ch4/Sonification.mp3) | [Emigration Low](audio/Ch4/Emigration Place Lo.mp3) | [Emigration High](audio/Ch4/Emigration Place Hi.mp3) | [Poverty Low](audio/Ch4/Poverty Meta Lo.mp3) | [Poverty High](audio/Ch4/Poverty Meta Hi.mp3)
 
 The final phase explored how doppler shifting can be used to add a sense of temporal context to a sonification:
 
 Temporospatial Motion Framework:
-[Original Framework](audio/Ch5/Example of Original Framework.mp3) |
-[Refined Framework](audio/Ch5/Example of Refined Framework .mp3)
+[Original Framework](audio/Ch5/Example of Original Framework.mp3) | [Refined Framework](audio/Ch5/Example of Refined Framework .mp3)
 
+**Research Methods:**
+
+The project applied empirical research methods and involved many rounds of evaluation collecting and analysing both quantitative and qualitative data. It involved both user-centric HCI methods (e.g. user evaluations, A/B testing, surveys etc.) and more traditional psychological experiments designed to gauge users judgements of stimuli. Some pilot testing was done in with small in person groups but the majority of the testing was carried out online in order to sample from a large international group of users.
 
 **Findings:**
 Overall the project found that designing sonifications on the basis of principles from the field of embodied cognition generally leads to more effective solutions. The project resulted in the Embodied Sonification Listening Model, which reconciles embodied cognition principles with the task of "sonification listening": listening to a sound in order to extract information about the dataset it represents. For a more detailed description of findings see the finished document.
 
-
-**Research Methods:**
-**Software Engineering/Product Development**
-
-The project applied empirical research methods and involved many rounds of evaluation. It involved both user-centric HCI methodologies and more traditional psychological experiments designed to gauge users judgements of stimuli.
-
-to determine the best approach for mapping data to sound in order to communicate information about the original data to a listener or user.
-
 <img src="images/page2.png?raw=true"/>
-
-
-**Summary of Findings:**
-
 
 **Research Outputs:**
 
@@ -78,7 +61,6 @@ It also resulted in a number of journal articles including an article in [Organi
 
 
 **Creative Technology and Multimedia Outputs:**
-
 
 Data-driven music composition and sound design techniques were used to aid in the design of sonification mapping strategies. These approaches allowed me to find novel and interesting sonic parameters for mapping data.  This practice resulted in the production of a number of data-driven sound works in the course of the research project.
 
