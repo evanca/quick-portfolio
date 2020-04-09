@@ -3,7 +3,7 @@
 ---
 
 [Embodied Sonification](/projects/embodied_sonification/embodied_sonification)
-<img src="images/data.png?raw=true"/>
+<img src="images/The Human Cost Album Cover No TEXT.png?raw=true"/>
 ---
 [Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/projects/ad4iot/AD4IoT)
 <img src="images/data.png?raw=true"/>
