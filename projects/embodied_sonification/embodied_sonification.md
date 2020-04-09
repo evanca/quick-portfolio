@@ -1,16 +1,16 @@
 ## Embodied Sonification
 
-###Project Overview:
+### Project Overview
 Sonification is the representation of data with sound and Auditory Display is the use of audio to present information to a listener. In certain contexts and for certain types of data sound can be an effective means of representation and communication. This project involved the development of Sonification and Auditory Display systems based on human-centered design principles derived from embodied cognition an area of cognitive science that is critical to our understanding of meaning-making in cognition. The research and development portions of the project were carried out in fulfillment of a PhD degree at the Department of Electronic and Electrical Engineering in Trinity College Dublin under the supervision of Dr. Dermot Furlong. Throughout the project music composition and sound design practices informed by the embodied cognition literature were employed as exploratory research methods. This helped to identify exciting new possibilities for mapping data to sound. These possibilities were then empirically tested to confirm their efficacy for sonification tasks. A number of data-driven musical works were created as a byproduct of the research process.
 
-**Coding & Technology**
+### Coding & Technology
 The majority of the project was coded in Csound a programming language for audio written in C. Many of the stimuli used experiments and evaluations were also produced in Csound. Additional sounds and stimuli were produced in Native Instruments Reaktor 5 and production work was carried out int the Logic Pro X DAW. Rapid prototyping platforms were developed in Csound and used to prototype new ideas in an efficient manner. The two prototyping platforms below were developed using fof (fonction d'onde formantique') synthesis methods and generate simulated vocal gestures.
 
 [Prototyping Platform 1](code/Prototyping_Model1_Vocal_Gesture2015) | [Prototyping Platform 2](code/Prototyping_Model2_Vocal_Gestures2015)
 
 <img src="images/CsoundCode.png?raw=true"/>
 
-**Data to Sound**
+### Data to Sound
 The project involved the development of new techniques and systems for mapping a range of data types to sound in order to represent changes in the original data set.
 Physical and spatial datatypes like temperature, distance, height, weight, speed, amount, texture, etc. were used in the project.
 Weather data was also used. As the project progressed the focus fell increasingly on socio-economic data
@@ -35,15 +35,15 @@ The final phase explored how doppler shifting can be used to add a sense of temp
 Temporospatial Motion Framework:
 [Original Framework](audio/Ch5/Example of Original Framework.mp3) | [Refined Framework](audio/Ch5/Example of Refined Framework .mp3)
 
-**Research Methods**
+### Research Methods
 The project applied empirical research methods and involved many rounds of evaluation collecting and analysing both quantitative and qualitative data. It involved both user-centric HCI methods (e.g. user evaluations, A/B testing, surveys etc.) and more traditional psychological experiments designed to gauge users judgements of stimuli. Some pilot testing was done in with small in person groups but the majority of the testing was carried out online in order to sample from a large international group of users.
 
-**Findings:**
+### Findings
 Overall the project found that designing sonifications on the basis of principles from the field of embodied cognition generally leads to more effective solutions. The project resulted in the Embodied Sonification Listening Model, which reconciles embodied cognition principles with the task of "sonification listening": listening to a sound in order to extract information about the dataset it represents. For a more detailed description of findings see the finished document.
 
 <img src="images/page2.png?raw=true"/>
 
-**Research Outputs:**
+### Research Outputs
 This project resulted in a number of conference presentations.
 
 [Roddy,  S., & Furlong, D. (2015). Embodied Auditory Display Affordances. In  Proceedings of the 12th Sound and Music Computing Conference: National  University of Ireland Maynooth (pp. 477-484).](papers/EmbodiedAffordancesinAuditoryDisplayRoddyFurlong.pdf)
@@ -57,7 +57,7 @@ This project resulted in a number of conference presentations.
 It also resulted in a number of journal articles including an article in [Organised Sound](papers/Organised Sound - Embodied Aesthetics in Auditory Display.pdf)
 
 
-**Creative Technology and Multimedia Outputs:**
+### Creative Technology and Multimedia Outputs
 Data-driven music composition and sound design techniques were used to aid in the design of sonification mapping strategies. These approaches allowed me to find novel and interesting sonic parameters for mapping data.  This practice resulted in the production of a number of data-driven sound works in the course of the research project.
 
 These have been gathered into a collection entitled 'The Human Cost', named for the socioeconomic data from the 2008 financial crash represented in the pieces and are available ffrom the usual streaming services online:
@@ -85,25 +85,25 @@ A number of these pieces have been performed live at academic conferences and cu
 <img src="images/Issta2015 copy.jpg?raw=true"/>
 
 
-**Embodied Sonification PhD Thesis**
+### Embodied Sonification PhD Thesis
 <iframe height="842" src="https://drive.google.com/file/d/0BwMBM58DHm2balNPRERtbEJYNHM/preview" width="592"></iframe>
 
 [Digital Appendices](https://www.dropbox.com/sh/byilxk53kzkdr8b/AADpZQZO3iv0hRL7rU72Pk-ha?dl=0).  
 [Link to thesis in Trinity College Dublin Repository](http://www.tara.tcd.ie/handle/2262/80506).  
 
 
-**Press**
+### Press
 [CMC Salon Series Press Release](https://www.cmc.ie/content/contemporary-music-centres-salon-series-opens-eclectic-electro-acoustic-program)
 [The Offaly Express](https://www.offalyexpress.ie/news/home/265639/offaly-man-prepares-for-unique-musical-performance-in-london.html)
 [Glór Mundo 29th September 2017](https://www.facebook.com/GlorMundO/posts/868313836667030)
 [Glór Mundo 27th September 2017](https://www.facebook.com/glormundo/posts/868313836667030)
 
 
-**Creative Skills:**
+### Creative Skills
 HCI Design. Interaction Design. UX Design. Sound Design. Music Composition. Data Sonification. Data Visualisation.
 
-**Technical & Research Skills**
+### Technical & Research Skills
 Programming. Data Analysis. Audio Engineering. Recording. Data Analysis. Data Sonification. Data Visualisation. User Evaluations. A/B Testing. Experimental Design. Distributed User Testing.
 
-**Tags**
-Embodied Cognition. Sonification. Auditory Display. Stephen Roddy
+### Tags
+Embodied Cognition. Sonification. Auditory Display. Stephen Roddy.
