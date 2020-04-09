@@ -24,10 +24,10 @@ Dublin City Noise Loops&nbsp;</span></div>
 <br /></div>
 
 #### xCoAx 2018<br/>
-The next performance with the system titled 'Signal to Noise Loops i++'' took place at xCoAx in Madrid in 2018. This performance involved a more refined version of the the AI-driven PerformIOT system which had been further developed after the SAW festival performance. The system was updated to generate music alongside the human performer. Machine listening techniques were employed whereby the system would listen to what the human performer played and then make decisions about what it wanted to play as well as whether or not it wanted to intervene in the human’s performance. <br />
+The next performance with the system titled 'Signal to Noise Loops i++'' took place at xCoAx in Madrid in 2018. This performance involved a more refined version of the the AI-driven PerformIOT system which had been further developed after the SAW festival performance. The system was updated to generate music alongside the human performer. Machine listening techniques were employed whereby the system would listen to what the human performer played and then make decisions about what it wanted to play as well as whether or not it wanted to intervene in the human’s performance. I gave a talk describing how this iteration of the system worked at the conference and took part in a broader artists panel also.<br />
 
 * [xCoAx Performance](images/xcoaxPerformance.jpg)
-* [xCoAx Presentation Image 1](images/xcoax1.jpg)
+* [xCoAx Artist Talk](images/xcoax1.jpg)
 * [xCoAx Artists Panel](images/xcoax5.jpg)
 
 <img src="images/PosterXcoax.jpg?raw=true"/><br/>
