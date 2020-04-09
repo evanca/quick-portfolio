@@ -12,28 +12,27 @@ The majority of the project was coded in Csound a programming language for audio
 <img src="images/CsoundCode.png?raw=true"/><br/>
 
 ### Data to Sound
-The project involved the development of new techniques and systems for mapping a range of data types to sound in order to represent changes in the original data set.
-Physical and spatial datatypes like temperature, distance, height, weight, speed, amount, texture, etc. were used in the project.
-Weather data was also used. As the project progressed the focus fell increasingly on socio-economic data
+The project involved the development of new techniques and systems for mapping a range of datatypes to sound in order to represent changes in the original data set.
+Physical and spatial datatypes like temperature, distance, height, weight, speed, amount, texture, etc. were used in the project.Weather data was also used. As the project progressed the focus fell increasingly on socio-economic data
 
-The first phases of the project dealt with the concept of 'polarity'. This asks what counts as an increase and what counts as a decrease when mapping data to sound. The pitch and tempo of pure sine tones from 'numerical data', data that is a count of some specific thing like population, chemical concentration, RPM, etc., and attribute data, data that describes some attribute of a thing like size, depth, mass, etc.
+The first phases of the project dealt with the concept of 'polarity'. It examined whether listeners interpret increases in a sonic dimension (e.g. pitch, tempo) to increases in the data represented or decreases in the data represented. I investigated how this operated for 'numerical data', (i.e. data that is a count of some specific thing like population, chemical concentration, RPM, etc.), and attribute data, (i.e. data that describes some attribute of a thing like size, depth, mass, etc.). <br/>
 
-Pure Sine Tone Examples:
+**Pure Sine Tone Examples:**<br/>
 [Increasing Frequency](audio/Ch2/Experiment C Pitch.mp3) | [Decreasing Frequency](audio/Ch2/Experiment B Pitch.mp3) | [Increasing Tempo](audio/Ch2/Experiment C rhythm.mp3) | [Decreasing Tempo](audio/Ch2/Experiment B rhythm.mp3)
 
-The second phase explored the kinds of data that can be best represented with simulated vocal gestures. This phase made use of the vocal gesture prototyping platforms
+The second phase explored the kinds of data that can be best represented with simulated vocal gestures. This phase made use of the vocal gesture prototyping platforms.
 
-Effective Vocal Gesture Examples:
+**Effective Vocal Gesture Examples:**<br/>
 [Texture](audio/Ch3/Rough Smooth.mp3) | [Amount](audio/Ch3/Amount.mp3) | [Speed](projects/embodied_sonification/audio/Ch3/Speed.mp3) | [Size](audio/Ch3/Size.mp3) [Spatial Extent](audio/Ch3/Spatial.mp3) | [Tension](audio/Ch3/Vowel Tension.mp3) | [Anger](audio/Ch3/Anger.mp3)
 
 The third phase examined how soundscapes can be used to represent data. Initial soundscape elements were synthesised and mapped to data using prototyping platforms in Csound but this approach was abandoned in favour of soundscape recordings that could be manipulated and mapped to data. This section explored how the concepts of conceptual metaphor and blending can be applied to design better soundscape sonifications.
 
-Soundscape Sonification:
+**Soundscape Sonification:**<br/>
 [Sonification of Irish GDP from 1979 to 2013](audio/Ch4/Sonification.mp3) | [Emigration Low](audio/Ch4/Emigration Place Lo.mp3) | [Emigration High](audio/Ch4/Emigration Place Hi.mp3) | [Poverty Low](audio/Ch4/Poverty Meta Lo.mp3) | [Poverty High](audio/Ch4/Poverty Meta Hi.mp3)
 
 The final phase explored how doppler shifting can be used to add a sense of temporal context to a sonification:
 
-Temporospatial Motion Framework:
+**Temporospatial Motion Framework:**<br/>
 [Original Framework](audio/Ch5/Example of Original Framework.mp3) | [Refined Framework](audio/Ch5/Example of Refined Framework .mp3)
 
 ### Research Methods
@@ -53,7 +52,7 @@ This project resulted in a number of conference presentations.
 * [Roddy,  S., & Furlong, D. (2013). Rethinking the Transmission Medium in  Live Computer Music Performance. Presented at the Irish Sound Science and Technology Convocation, Dún Laoghaire Institute of Art, Design and Technology.](papers/ISSTC2013RODDY.pdf)<br/>
 
 It also resulted in a number of journal articles including an article in [Organised Sound](papers/Organised Sound - Embodied Aesthetics in Auditory Display.pdf)<br/>
-
+* [Organised Sound Paper](papers/Organised Sound - Embodied Aesthetics in Auditory Display.pdf)<br/>
 
 ### Creative Technology and Multimedia Outputs
 Data-driven music composition and sound design techniques were used to aid in the design of sonification mapping strategies. These approaches allowed me to find novel and interesting sonic parameters for mapping data.  This practice resulted in the production of a number of data-driven sound works in the course of the research project.
@@ -65,8 +64,7 @@ These have been gathered into a collection entitled 'The Human Cost', named for 
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2888609678/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://stephenroddy.bandcamp.com/album/the-human-cost-sonification-and-irelands-economic-crash">The Human Cost: Sonification and Ireland&#39;s Economic Crash by Stephen Roddy</a></iframe>
 
 
-A number of these pieces have been performed live at academic conferences and cultural events at national and international levels including:
-
+A number of these pieces have been performed live at academic conferences and cultural events at national and international levels including:<br/>
 * [The Irish Sound Science and Technology Convocation 2014](https://s3images.coroflot.com/user_files/individual_files/711451_7SZ94dIf0s3EopLGzawCUcKWt.pdf)<br/>
 * [The CMC's 2015 Salon Series in the National Concert Hall Dublin](https://www.cmc.ie/content/contemporary-music-centres-salon-series-opens-eclectic-electro-acoustic-program)<br/>
 * [The International Conference on Auditory Display Concert 2015](https://iem.kug.ac.at/icad15/icad15/schedule/concerts-installations.html)<br/>
@@ -78,7 +76,7 @@ A number of these pieces have been performed live at academic conferences and cu
 <img src="images/Issta2015 copy.jpg?raw=true"/>
 
 ### Embodied Sonification PhD Thesis
-<iframe height="842" src="https://drive.google.com/file/d/0BwMBM58DHm2balNPRERtbEJYNHM/preview" width="592"></iframe>
+<iframe height="842" src="https://drive.google.com/file/d/0BwMBM58DHm2balNPRERtbEJYNHM/preview" width="592"></iframe><br/>
 
 * [Digital Appendices](https://www.dropbox.com/sh/byilxk53kzkdr8b/AADpZQZO3iv0hRL7rU72Pk-ha?dl=0)<br/>
 * [Link to thesis in Trinity College Dublin Repository](http://www.tara.tcd.ie/handle/2262/80506)
