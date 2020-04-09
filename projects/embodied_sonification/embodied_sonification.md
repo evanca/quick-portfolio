@@ -93,10 +93,10 @@ A number of these pieces have been performed live at academic conferences and cu
 
 
 ### Press
-[CMC Salon Series Press Release](https://www.cmc.ie/content/contemporary-music-centres-salon-series-opens-eclectic-electro-acoustic-program)
-[The Offaly Express](https://www.offalyexpress.ie/news/home/265639/offaly-man-prepares-for-unique-musical-performance-in-london.html)
-[Glór Mundo 29th September 2017](https://www.facebook.com/GlorMundO/posts/868313836667030)
-[Glór Mundo 27th September 2017](https://www.facebook.com/glormundo/posts/868313836667030)
+[CMC Salon Series Press Release](https://www.cmc.ie/content/contemporary-music-centres-salon-series-opens-eclectic-electro-acoustic-program)    
+[The Offaly Express](https://www.offalyexpress.ie/news/home/265639/offaly-man-prepares-for-unique-musical-performance-in-london.html)    
+[Glór Mundo 29th September 2017](https://www.facebook.com/GlorMundO/posts/868313836667030)    
+[Glór Mundo 27th September 2017](https://www.facebook.com/glormundo/posts/868313836667030)    
 
 
 ### Creative Skills
