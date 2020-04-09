@@ -10,9 +10,8 @@ The first iteration of 'PerformIoT' was a rule-based AI system that employed the
 The first use for the framework was for the piece 'Noise Loops for Laptop, Improvised Electric Guitar and Dublin City Noise Data'. This was performed at the 2017 Sonic Dreams Festival. In this piece IoT data from sensors measuring ambient noise levels around Dublin city was mapped to control performance parameters of a live electric guitar improvisation. The data was mapped to control the timbre of the guitar utilizing a multiband distortion to morph the sound. The data was also mapped to control advanced buffer, delay and filtering processing of the performance and that also controlled the synthesis of percussive elements within the performance. In this iteration the system was mapped to control live DSP process which mashed up and remixed the performance in realtime on the basis of the IoT data <br />
 <br />
 
-* [Sonic Dreams 2017 Poster](images/SonicDreams.jpg)
-
 <img src="images/SonicDreams.jpg?raw=true"/>
+* [Sonic Dreams 2017 Poster](images/SonicDreams.jpg)
 
 
 <iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album=793201642/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=2969131966/transparent=true/" style="border: 0; height: 120px; width: 100%;"><a href="http://stephenroddy.bandcamp.com/album/home-part-2-silence-ep">Home Part 2: Silence EP by Stephen Roddy</a></iframe>
@@ -27,14 +26,12 @@ Dublin City Noise Loops&nbsp;</span></div>
 #### xCoAx 2018<br/>
 The next performance with the system titled 'Signal to Noise Loops i++'' took place at xCoAx in Madrid in 2018. This performance involved a more refined version of the the AI-driven PerformIOT system which had been further developed after the SAW festival performance. The system was updated to generate music alongside the human performer. Machine listening techniques were employed whereby the system would listen to what the human performer played and then make decisions about what it wanted to play as well as whether or not it wanted to intervene in the human’s performance. <br />
 
-* [Sonic Dreams 2017 Poster](images/xCoaxPoster.jpg)
-* [Sonic Dreams 2017 Poster](images/xCoaxPoster.jpg)
-* [Sonic Dreams 2017 Poster](images/xCoaxPoster.jpg)
-* [Sonic Dreams 2017 Poster](images/xCoaxPoster.jpg)
-* [Sonic Dreams 2017 Poster](images/xCoaxPoster.jpg)
+* [xCoAx Performance](images/xcoaxPerformance.jpg)
+* [xCoAx Presentation Image 1](images/xcoax1.jpg)
+* [xCoAx Artists Panel](images/xcoax5.jpg)
 
-<img src="images/xCoaxPoster.jpg?raw=true"/><br/>
-<img src="images/xCoaxPoster.jpg?raw=true"/><br/>
+<img src="images/PosterXcoax.jpg?raw=true"/><br/>
+* [xCoAx Poster](images/PosterXcoax.jpg)
 
 
 
