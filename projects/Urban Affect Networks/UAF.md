@@ -36,9 +36,15 @@ The next performance with the system titled 'Signal to Noise Loops i++'' took pl
 #### ISSTA & CSMC 2018<br/>
 A third performance with an updated system took place at ISSTA 2018 in Derry/Londonderry and a fourth, with a newer version of the system, at CSMC 2018 in Dublin. Signal to Noise Loops i++ employed liine’s Lemur app for iOS to control the synthesis of audio materials in Native Instrument’s Reaktor. Reaktor also ran patches employing a mixture of additive and subtractive synthesis techniques to generate audio materials. In this performance traffic data from IoT devices around Dublin was mapped to control synthesis, timbral and performance parameters of the piece. <br />
 The current Submission <i>Urban Affect Networks</i> represents a further development of the system. The Ai-driven PerformIOT module has been updated to allow it even more control. Alongside generating its own musical material it now treats the material performed by the human player as ‘optional’. It listens to the material played by the human and decides what it likes and what it does not like, keeping and sometimes embellishing what it likes and completely re-writing what it does not like on the fly.<br />
-
 The system makes these decision based on the ‘mood’ or ‘affective state’ of Dublin city. The AI system accesses the IoT data and reads noise levels, pollution levels, traffic flows (pedestrian and vehicle), emergency warnings and weather data. These data points define the affective state or mood of the AI. <br />
 When the data represents a healthy and functioning city the AI is in a good mood and collaborates better with the human performer coordinating its music-making with that of the human. When the city is in a sub-optimal state, the AI has a negative affective state or mood and begins to overwrite the human performer and make more independent musical decisions that are reflective of the state of the city.<br />
+
+<img src="images/csmc2018_concert_performers.jpg.webp?raw=true"/><br/>
+* [CSMC2018 Concert Performance](/images/csmc2018_concert_performers.jpg.webp)
+
+* [ISSTA 2018 Programme](/files/ISSTA programme.pdf)
+* [CSMC 2018 Concert](files/Concert – CSMC2018.pdf)
+
 <br />
 <div style="text-align: center;">
 <iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album=793201642/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3477147735/transparent=true/" style="border: 0; height: 120px; width: 100%;"><a href="http://stephenroddy.bandcamp.com/album/home-part-2-silence-ep">Home Part 2: Silence EP by Stephen Roddy</a></iframe>Signal to Noise Loops i++ </div>
