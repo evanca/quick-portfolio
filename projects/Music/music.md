@@ -1,3 +1,8 @@
+## Sound, Music & Audio Production
+
+### Overview
+
+
 I write and record engineer audio and musical pieces across a diverse range of genres and styles. My recent
 releases have explored the spectrum between the underground Synthwave
 and Darksynth movements. My output has been described as "quirky, odd,
