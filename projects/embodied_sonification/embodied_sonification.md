@@ -1,6 +1,6 @@
 ## Embodied Sonification
 
-**Project Overview:**
+###Project Overview:
 Sonification is the representation of data with sound and Auditory Display is the use of audio to present information to a listener. In certain contexts and for certain types of data sound can be an effective means of representation and communication. This project involved the development of Sonification and Auditory Display systems based on human-centered design principles derived from embodied cognition an area of cognitive science that is critical to our understanding of meaning-making in cognition. The research and development portions of the project were carried out in fulfillment of a PhD degree at the Department of Electronic and Electrical Engineering in Trinity College Dublin under the supervision of Dr. Dermot Furlong. Throughout the project music composition and sound design practices informed by the embodied cognition literature were employed as exploratory research methods. This helped to identify exciting new possibilities for mapping data to sound. These possibilities were then empirically tested to confirm their efficacy for sonification tasks. A number of data-driven musical works were created as a byproduct of the research process.
 
 **Coding & Technology**
