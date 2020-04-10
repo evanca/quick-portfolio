@@ -71,13 +71,13 @@ This discordant configuration however is in perfect harmony with Nancy's vision 
 
    1. Follow link for the Piece: [Click Here for the Piece](https://stephenroddy.github.io/58IndicesLangTrans/)
 
-   1b. The mobile link is the following: [Mobile version](https://stephenroddy.github.io/58IndicesLangTrans/mobile.html)
+   2. The mobile link is the following: [Mobile version](https://stephenroddy.github.io/58IndicesLangTrans/mobile.html)
 
-   2. Wait for the page to load.
+   3. Wait for the page to load.
 
-   3. Press 'Play Index' to hear a random index, view the waveform and see the translation.
+   4. Press 'Play Index' to hear a random index, view the waveform and see the translation.
 
-   4. Press 'Play Index' again for another one. All but one of the audio files is associated to an index.
+   5. Press 'Play Index' again for another one. All but one of the audio files is associated to an index.
 
 [Click Here for the Piece](https://stephenroddy.github.io/58IndicesLangTrans/)
 [Mobile version](https://stephenroddy.github.io/58IndicesLangTrans/mobile.html)
