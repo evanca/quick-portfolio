@@ -3,9 +3,6 @@
 
 ### Iteration 1: First Piece and Venice Performance
 
-[When ready click here to begin](https://stephenroddy.github.io/58IndicesLangTrans/)
-[Mobile version available here](https://stephenroddy.github.io/58IndicesLangTrans/mobile.html)
-
 This project grew in dialogue with another ongoing project titled 58+1 Indices on the body. That project is a collaboration between the artistic collective AMAE and the artist Pier Giorgio De Pinto and philosopher Jean-luc Nancy. This project focuses on Nancy's 58 indices sur le corps (58 indices on the body), written in 2006 by Jean-Luc Nancy presented in his book Corpus. The project combines performances, videos, interactive installations and collaborations with a large and varied group of artists.
 
 As part of this project Jean Luc Nancy recorded himself reading his 58 indices on the body, he also wrote an additional index specifically for the project. The project presented here grew out of a collaboration with AMAE, Pier Giorgio De Pinto and Jean Luc Nancy in which I originally set some of these indices to music in 2015. The result was a piece that we were invited to present during the Helicotrema festival at the Francois Pinault Foundation in Venice alongside La Biennale events taking place throughout the city.
@@ -66,15 +63,12 @@ This discordant configuration however is in perfect harmony with Nancy's vision 
 
 ### Directions
 
-   1. Follow link for the Piece: [Click Here for the Piece](https://stephenroddy.github.io/58IndicesLangTrans/)
+   1. Follow link for the Piece: [Desktop](https://stephenroddy.github.io/58IndicesLangTrans/)
 
-   2. The mobile link is the following: [Mobile version](https://stephenroddy.github.io/58IndicesLangTrans/mobile.html)
+   2. The mobile link is the following: [Mobile](https://stephenroddy.github.io/58IndicesLangTrans/mobile.html)
 
    3. Wait for the page to load.
 
    4. Press 'Play Index' to hear a random index, view the waveform and see the translation.
 
    5. Press 'Play Index' again for another one. All but one of the audio files is associated to an index.
-
-[Click Here for the Piece](https://stephenroddy.github.io/58IndicesLangTrans/)
-[Mobile version](https://stephenroddy.github.io/58IndicesLangTrans/mobile.html)
