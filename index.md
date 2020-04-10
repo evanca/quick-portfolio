@@ -8,11 +8,14 @@
 [Urban Affect Networks ](/projects/Urban Affect Networks/UAF)
 <img src="images/tabs/UAFtab.png?raw=true"/>
 
-[Sound, Music & Audio Production](/projects/Music/music)
-<img src="images/tabs/STRtab.png?raw=true"/>
-
 [Indices on the Body](/projects/indices/indices_audio)
 <img src="images/tabs/JLNtab.png?raw=true"/>
+
+[Zones](/projects/embodied_sonification/embodied_sonification)
+<img src="images/tabs/ZNStab.png?raw=true"/>
+
+[Sound, Music & Audio Production](/projects/Music/music)
+<img src="images/tabs/STRtab.png?raw=true"/>
 
 [Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/projects/ad4iot/AD4IoT)
 <img src="images/tabs/STRtab.png?raw=true"/>
@@ -21,9 +24,6 @@
 <img src="images/tabs/STRtab.png?raw=true"/>
 
 [Embodied at the GPO](/projects/embodied_sonification/embodied_sonification)
-<img src="images/tabs/STRtab.png?raw=true"/>
-
-[Zones](/projects/embodied_sonification/embodied_sonification)
 <img src="images/tabs/STRtab.png?raw=true"/>
 
 [Legitimate Bodies Projects](/projects/Music/music)
