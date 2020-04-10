@@ -67,7 +67,7 @@ This discordant configuration however is in perfect harmony with Nancy's vision 
 
 >Why indices? Because there's no totality to the body, no synthetic unity. There are pieces, zones, fragments. There's one bit after another, a stomach, an eyelash, a thumb-nail, a shoulder, a breast, a nose, an upper intestine, a choledoch, a pancreas: anatomy is endless, until eventually running into an exhaustive enumeration of cells. But this doesn't yield a totality...
 
-### Directions
+## Directions
 
    1. Follow link for the Piece: [Click Here for the Piece](https://stephenroddy.github.io/58IndicesLangTrans/)
 
@@ -81,3 +81,21 @@ This discordant configuration however is in perfect harmony with Nancy's vision 
 
 [Click Here for the Piece](https://stephenroddy.github.io/58IndicesLangTrans/)
 [Mobile version](https://stephenroddy.github.io/58IndicesLangTrans/mobile.html)
+
+<--
+## Technical/Performance Requirements:
+
+The piece was debuted at ISSTA 2019.
+
+It can be installed using two stereo speakers and a screen at the conference/festival (screen can be provided by the artist.
+The piece can also be made available for the audience to experience at the conference online via the Web App.
+
+The audio is mixed for a standard stereo setup. The entire performance is available as a web app in standard and mobile versions. The piece can be installed using two stereo speakers, a screen/projector and an interaction medium. The piece can also be made available for the audience to experience via the Web App. This can be launched locally from a laptop or accessed online during the performance.
+
+## Credits
+
+This project builds on code originally created by Yannis Yannakopoulos at codrops and is powered by p5js and its p5.sound library. By Yannis Yannakopoulos [Twitter](https://twitter.com/neundex) [GitHub](https://github.com/codrops)- [p5js](http://www.p5js.org) [ml5.js](https://ml5js.org/). To create your own sentiment analysis model using the imdb dataset see here: [link](https://machinelearningmastery.com/predict-sentiment-movie-reviews-using-deep-learning/)).
+
+
+## License
+This resource can be used freely if integrated or build upon in personal or commercial projects such as websites, web apps and web templates intended for sale. It is not allowed to take the resource "as-is" and sell it, redistribute, re-publish it, or sell "pluginized" versions of it. Free plugins built using this resource should have a visible mention and link to the original work. Always consider the licenses of all included libraries, scripts and images used. 
