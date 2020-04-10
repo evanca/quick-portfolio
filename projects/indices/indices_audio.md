@@ -16,14 +16,23 @@ You can hear that pieces here:
 * [21, 7 & 3 (feat. Jean-Luc Nancy, Amae & DePinto)](https://stephenroddy.bandcamp.com/track/21-7-3-feat-jean-luc-nancy-amae-depinto)
 
 
-<img src="images//Users/Stephen/Documents/GitHub/stephenroddy.github.io/projects/indices/images/12186271_1116088238416382_7289188895621671914_o.jpg?raw=true"/><br/>
+<img src="images/12186271_1116088238416382_7289188895621671914_o.jpg?raw=true"/><br/>
 
 
-Later, in 2016/2017, I recorded additional Soundworks and musical pieces incorporating Nancy's indexes, a portion of which will be set to performances and recorded by video artists as part of the 63 Videos on the Body project. You can hear those pieces here on my collection"Le Son Du Corps Et Un Corps de Sons" available on: [Spotify](https://open.spotify.com/album/3DsDLwlP74rKzIRaGvsyeh) and [Apple Music](https://music.apple.com/us/album/le-son-du-corps-et-un-corps-de-sons/1314413365)
+Later, in 2016/2017, I recorded additional Soundworks and musical pieces incorporating Nancy's indexes, a portion of which will be set to performances and recorded by video artists as part of the 63 Videos on the Body project. You can hear those pieces here on my collection"Le Son Du Corps Et Un Corps de Sons" available on:
 
-The current piece collects all of my sonic/musical work for the project to date. These works are presented here in the form of a web app. The audience is invited to listen to the pieces, and reflect on the indices which have been translated into English from Nancy's native French by Richard A. Rand for the Englisht translation of Nancy's Corpus for the Perspectives in Continental Philosophy Series.
+* [Spotify](https://open.spotify.com/album/3DsDLwlP74rKzIRaGvsyeh)
+* [Apple Music](https://music.apple.com/us/album/le-son-du-corps-et-un-corps-de-sons/1314413365)
+
+
+In 2019 I developed a small web application for installation at an Irish Sound Science and Technology Event at the Cork School of Music 2019.
+* [ISSTA 2019](https://drive.google.com/file/d/1W_np9Jb-QEeny_Hd4wzR12Zvv-CdpXFr/view)
+It collects together and iterates upon all of my sonic/musical work for the project to date. The audience is invited to listen to the pieces, and reflect on the indices which have been translated into English from Nancy's native French by Richard A. Rand for the Englisht translation of Nancy's Corpus for the Perspectives in Continental Philosophy Series.
 
 The text is also analysed using a machine learning model for sentiment analysis [implemented in ml5.js](https://ml5js.org/). This analysis returns a value on a scale of 0 (negative) to 1 (positive).This sentiment is reflected in the color of the waveform that is drawn across on the screen. The shape of the waveform represents the amplitude values of the recording while at a given time, while its colour represents the sentiment value assigned to the translated text.
+
+<img src="/images/EINp-vEWwAATkE2.jpg?raw=true"/><br/>
+
 
 The piece is a reflection on translations across languages, vocalisation, and technologies.
 The original indices were written in French. Jean-luc Nancy's reading of them introduces a new layer of meaning through his use of prosody and intonation.
@@ -47,8 +56,11 @@ This discordant configuration however is in perfect harmony with Nancy's vision 
 
 ## Technical/Performance Requirements:
 
-The piece can be installed using two stereo speakers and a screen at the conference/festival (screen can be provided by the artist.
+The piece was debuted at ISSTA 2019.
+
+It can be installed using two stereo speakers and a screen at the conference/festival (screen can be provided by the artist.
 The piece can also be made available for the audience to experience at the conference online via the Web App.
+
 The audio is mixed for a standard stereo setup. The entire performance is available as a web app. The piece can be installed using two stereo speakers, a screen/projector and an interaction medium. The piece can also be made available for the audience to experience via the Web App. This can be launched locally from a laptop or accessed online during the performance.
 
 ## Credits
