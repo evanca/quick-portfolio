@@ -72,3 +72,12 @@ This discordant configuration however is in perfect harmony with Nancy's vision 
    4. Press 'Play Index' to hear a random index, view the waveform and see the translation.
 
    5. Press 'Play Index' again for another one. All but one of the audio files is associated to an index.
+
+### Creative Skills
+Sound Design. Music Composition. Sound Art. Visual Design.
+
+### Technical
+Javascript. HTML. CSS. Git.Sentiment Analysis. Machine Learning Knowledge. Creative Coding. Audio Recording and Engineering.Web Development.
+
+### Tags
+Indices on the Body. Pier De Pinto. AMAE. Jean-Luc Nancy. Stephen Roddy. Sound. Music. Contemporary Art.
