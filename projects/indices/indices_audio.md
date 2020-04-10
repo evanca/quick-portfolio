@@ -1,7 +1,7 @@
 ## Sound, Music & Machine Learning: 58+1 Indices On The Body:
 
 
-### Project Overview
+### Iteration 1
 
 [When ready click here to begin](https://stephenroddy.github.io/58IndicesLangTrans/)
 [Mobile version available here](https://stephenroddy.github.io/58IndicesLangTrans/mobile.html)
@@ -20,7 +20,7 @@ You can hear that piece here:
 
 <img src="images/12186271_1116088238416382_7289188895621671914_o.jpg?raw=true"/><br/>
 
-### Further Pieces
+### Iteration 2: Further Pieces
 
 Later, in 2016/2017, I recorded additional Soundworks and musical pieces incorporating Nancy's indexes, a portion of which will be set to performances and recorded by video artists as part of the 63 Videos on the Body project. You can hear those pieces here on my collection"Le Son Du Corps Et Un Corps de Sons" available on:
 
@@ -32,7 +32,7 @@ Later, in 2016/2017, I recorded additional Soundworks and musical pieces incorpo
 <br/>
 
 
-### Iterations: Language, Translations & Machine Learning
+### Iterations 3: Language, Translations & Machine Learning
 
 In 2019 I developed an art installation to be delivered via web application for the 2019 Irish Sound Science and Technology Event at the Cork School of Music. The piece was titled: 58+1 Indices On The Body: A Reflection on Translations through Language, Technology and Sounds - Selected Indices Soundworks and Musical Pieces w/Sentiment Analysis
 
