@@ -20,9 +20,6 @@
 [ML Applications in Human-computer Interaction](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
 
-[Indices on the Body](/projects/indices/indices_audio)
-<img src="images/tabs/JLNtab.png?raw=true"/>
-
 [Embodied at the GPO](/projects/embodied_sonification/embodied_sonification)
 <img src="images/tabs/STRtab.png?raw=true"/>
 
