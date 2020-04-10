@@ -8,7 +8,16 @@ This project grew in dialogue with another ongoing project titled 58+1 Indices o
 
 As part of this project Jean Luc Nancy recorded himself reading his 58 indices on the body, he also wrote an additional index specifically for the project. The project presented here grew out of a collaboration with AMAE, Pier Giorgio De Pinto and Jean Luc Nancy in which I originally set some of these indices to music in 2015. The result was a piece that we were invited to present during the Helicotrema festival at the Francois Pinault Foundation in Venice alongside La Biennale events taking place throughout the city.
 
+
 [AMAE/De Pinto w/Jean-Luc Nancy & Stephen Roddy at Helicotrema 2015](http://helicotrema.blauerhase.com/helicotrema-2015/)
+
+
+You can hear that pieces here:
+* [21, 7 & 3 (feat. Jean-Luc Nancy, Amae & DePinto)](https://stephenroddy.bandcamp.com/track/21-7-3-feat-jean-luc-nancy-amae-depinto)
+
+
+<img src="images//Users/Stephen/Documents/GitHub/stephenroddy.github.io/projects/indices/images/12186271_1116088238416382_7289188895621671914_o.jpg?raw=true"/><br/>
+
 
 Later, in 2016/2017, I recorded additional Soundworks and musical pieces incorporating Nancy's indexes, a portion of which will be set to performances and recorded by video artists as part of the 63 Videos on the Body project. You can hear those pieces here on my collection"Le Son Du Corps Et Un Corps de Sons" available on: [Spotify](https://open.spotify.com/album/3DsDLwlP74rKzIRaGvsyeh) and [Apple Music](https://music.apple.com/us/album/le-son-du-corps-et-un-corps-de-sons/1314413365)
 
