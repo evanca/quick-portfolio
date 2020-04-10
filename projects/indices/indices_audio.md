@@ -1,4 +1,4 @@
-## 58 Indices On The Body: A Reflection on Translations through Language, Technology and Sounds - Selected Indices Soundworks and Musical Pieces w/Sentiment Analysis
+## Sound, Music & Machine Learning: 58+1 Indices On The Body:
 
 [When ready click here to begin](https://stephenroddy.github.io/58IndicesLangTrans/)
 
@@ -12,7 +12,7 @@ As part of this project Jean Luc Nancy recorded himself reading his 58 indices o
 [AMAE/De Pinto w/Jean-Luc Nancy & Stephen Roddy at Helicotrema 2015](http://helicotrema.blauerhase.com/helicotrema-2015/)
 
 
-You can hear that pieces here:
+You can hear that piece here:
 * [21, 7 & 3 (feat. Jean-Luc Nancy, Amae & DePinto)](https://stephenroddy.bandcamp.com/track/21-7-3-feat-jean-luc-nancy-amae-depinto)
 
 
@@ -25,9 +25,11 @@ Later, in 2016/2017, I recorded additional Soundworks and musical pieces incorpo
 * [Apple Music](https://music.apple.com/us/album/le-son-du-corps-et-un-corps-de-sons/1314413365)
 
 
-In 2019 I developed a small web application for installation at an Irish Sound Science and Technology Event at the Cork School of Music 2019.
-* [ISSTA 2019](https://drive.google.com/file/d/1W_np9Jb-QEeny_Hd4wzR12Zvv-CdpXFr/view)
+In 2019 I developed an art installation to be delivered via web application for the 2019 Irish Sound Science and Technology Event at the Cork School of Music. The piece was titled: 58+1 Indices On The Body: A Reflection on Translations through Language, Technology and Sounds - Selected Indices Soundworks and Musical Pieces w/Sentiment Analysis
+
 It collects together and iterates upon all of my sonic/musical work for the project to date. The audience is invited to listen to the pieces, and reflect on the indices which have been translated into English from Nancy's native French by Richard A. Rand for the Englisht translation of Nancy's Corpus for the Perspectives in Continental Philosophy Series.
+* [ISSTA 2019](https://drive.google.com/file/d/1W_np9Jb-QEeny_Hd4wzR12Zvv-CdpXFr/view)
+
 
 The text is also analysed using a machine learning model for sentiment analysis [implemented in ml5.js](https://ml5js.org/). This analysis returns a value on a scale of 0 (negative) to 1 (positive).This sentiment is reflected in the color of the waveform that is drawn across on the screen. The shape of the waveform represents the amplitude values of the recording while at a given time, while its colour represents the sentiment value assigned to the translated text.
 
