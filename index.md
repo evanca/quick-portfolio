@@ -17,18 +17,17 @@
 [Sound, Music & Audio Production](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
 
+[Embodied at the GPO](/projects/embodied_sonification/embodied_sonification)
+<img src="images/tabs/GPOtab.png?raw=true"/>
+
+[Legitimate Bodies Projects](/projects/Music/music)
+<img src="images/tabs/LBtab.jpg?raw=true"/>
+
 [Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/projects/ad4iot/AD4IoT)
 <img src="images/tabs/STRtab.png?raw=true"/>
 
 [ML Applications in Human-computer Interaction](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
-
-[Embodied at the GPO](/projects/embodied_sonification/embodied_sonification)
-<img src="images/tabs/STRtab.png?raw=true"/>
-
-[Legitimate Bodies Projects](/projects/Music/music)
-<img src="images/tabs/STRtab.png?raw=true"/>
-
 
 ---
 
