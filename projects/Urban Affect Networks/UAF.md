@@ -34,7 +34,7 @@ The next performance with the system titled 'Signal to Noise Loops i++'' took pl
 * [xCoAx Poster](images/PosterXcoax.jpg)
 
 #### ISSTA & CSMC 2018<br/>
-A third performance with an updated system took place at ISSTA 2018 in Derry/Londonderry and a fourth, with a newer version of the system, at CSMC 2018 in Dublin. Signal to Noise Loops i++ employed liine’s Lemur app for iOS to control the synthesis of audio materials in Native Instrument’s Reaktor. Reaktor also ran patches employing a mixture of additive and subtractive synthesis techniques to generate audio materials. In this performance traffic data from IoT devices around Dublin was mapped to control synthesis, timbral and performance parameters of the piece. <br />
+A third performance with an updated system took place at ISSTA 2018 in Derry/Londonderry and incorporated genetic algorithms into the PerformIoT system. A fourth performance with a newer version of the system also took place at CSMC 2018 in Dublin. Signal to Noise Loops i++ employed liine’s Lemur app for iOS to control the synthesis of audio materials in Native Instrument’s Reaktor. Reaktor also ran patches employing a mixture of additive and subtractive synthesis techniques to generate audio materials. In this performance traffic data from IoT devices around Dublin was mapped to control synthesis, timbral and performance parameters of the piece. <br />
 The current Submission <i>Urban Affect Networks</i> represents a further development of the system. The Ai-driven PerformIOT module has been updated to allow it even more control. Alongside generating its own musical material it now treats the material performed by the human player as ‘optional’. It listens to the material played by the human and decides what it likes and what it does not like, keeping and sometimes embellishing what it likes and completely re-writing what it does not like on the fly.<br />
 The system makes these decision based on the ‘mood’ or ‘affective state’ of Dublin city. The AI system accesses the IoT data and reads noise levels, pollution levels, traffic flows (pedestrian and vehicle), emergency warnings and weather data. These data points define the affective state or mood of the AI. <br />
 When the data represents a healthy and functioning city the AI is in a good mood and collaborates better with the human performer coordinating its music-making with that of the human. When the city is in a sub-optimal state, the AI has a negative affective state or mood and begins to overwrite the human performer and make more independent musical decisions that are reflective of the state of the city.<br />
@@ -74,3 +74,12 @@ Signal to Noise Loops i++<br />
 <a href="https://music.apple.com/us/album/signal-to-noise-loops-i/1450892433?i=1450892434">https://music.apple.com/us/album/signal-to-noise-loops-i/1450892433?i=1450892434</a><br />
 <a href="https://stephenroddy.bandcamp.com/track/signal-to-noise-loops-i">https://stephenroddy.bandcamp.com/track/signal-to-noise-loops-i</a><br />
 <br />
+
+### Creative Skills
+Sound Design. Music Composition. Live Electronic Music performance. Instrumental Guitar Performance.  Audio Sound Art. Visual Design.
+
+### Technical
+IoT Networks. Statistical Data Analytic. Python. HTTP, OSC & MIDI protocols. GOFAI. Evolutionary Computing. Audio DSP. Creative Coding. HTTP. HCI. Auditory Display & Sonification. Audio Engineering.
+
+### Tags
+Urban Affect Networks. Music. Data. GOFAI.
