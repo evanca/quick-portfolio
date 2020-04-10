@@ -48,7 +48,7 @@ The piece is a reflection on translations across languages, vocalisation, and te
 The original indices were written in French. Jean-luc Nancy's reading of them reveals a new layer of meaning through his use of prosody and intonation.
 We are presented with English translations of the text that must to some degree reflect the choices and interpretations of the translator.
 The sentiment analysis introduces an additional layer of meaning/distortion. It does not always represent the translated text very well and rarely represents the information conveyed in Nancy's vocalisations in the original French. The colours chosen to reflect the sentiment values introduce further culturally conditioned ideas about sentiment and emotion.
-The original sentiment analysis model is also quite crude. Drawing from theml5.js reference file:
+The original sentiment analysis model is also quite crude. Drawing from the ml5.js reference file:
 
 >Sentiment is a model trained to predict the sentiment of any given text. The default model, currently 'moviereviews', is trained using IMDB reviews that have been truncated to a maximum of 200 words, only the 20000 most used words in the reviews are used.
 
