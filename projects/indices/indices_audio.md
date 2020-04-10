@@ -29,6 +29,7 @@ Later, in 2016/2017, I recorded additional Soundworks and musical pieces incorpo
 
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1061781095/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://stephenroddy.bandcamp.com/album/le-son-du-corps-et-un-corps-de-sons">Le Son Du Corps Et Un Corps de Sons by Stephen Roddy feat. Jean-Luc Nancy, AMAE &amp; DePinto)</a></iframe>
 
+
 ### Iterations: Language, Translations & Machine Learning
 
 In 2019 I developed an art installation to be delivered via web application for the 2019 Irish Sound Science and Technology Event at the Cork School of Music. The piece was titled: 58+1 Indices On The Body: A Reflection on Translations through Language, Technology and Sounds - Selected Indices Soundworks and Musical Pieces w/Sentiment Analysis
@@ -52,7 +53,7 @@ The original sentiment analysis model is also quite crude. Drawing from theml5.j
 
 >his model, ported from tensorflowJS, scores the sentiment of text with a value between 0 ("negative") and 1 ("positive").
 
-Source:[Sentiment() reference](https://ml5js.org/reference/api-Sentiment/)
+Source: [Sentiment() reference](https://ml5js.org/reference/api-Sentiment/)
 
 This introduces yet another layer of distortion where the sentiment of a section of translated text is interpreted in relation to patterns derived from 200 word movie reviews and the complex phenomenon of sentiment is then classified along a simple linear scale from 0-1.
 
@@ -67,6 +68,7 @@ This discordant configuration however is in perfect harmony with Nancy's vision 
 ## Directions
 
    1. Follow link for the Piece: [Click Here for the Piece](https://stephenroddy.github.io/58IndicesLangTrans/)
+
    1b. The mobile link is the following: [Mobile version](https://stephenroddy.github.io/58IndicesLangTrans/mobile.html)
 
    2. Wait for the page to load.
