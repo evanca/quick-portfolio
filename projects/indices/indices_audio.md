@@ -63,9 +63,9 @@ This discordant configuration however is in perfect harmony with Nancy's vision 
 
 ### Directions
 
-   1. Follow link for the Piece: [Desktop](https://stephenroddy.github.io/58IndicesLangTrans/)
+   1. Follow link for the Desktop version: [Desktop](https://stephenroddy.github.io/58IndicesLangTrans/)
 
-   2. The mobile link is the following: [Mobile](https://stephenroddy.github.io/58IndicesLangTrans/mobile.html)
+   2. Follow link for the Mobile version:: [Mobile](https://stephenroddy.github.io/58IndicesLangTrans/mobile.html)
 
    3. Wait for the page to load.
 
