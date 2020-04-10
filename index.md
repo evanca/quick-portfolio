@@ -12,7 +12,7 @@
 <img src="images/tabs/JLNtab.png?raw=true"/>
 
 [Zones](/projects/embodied_sonification/embodied_sonification)
-<img src="images/tabs/ZNStab.png?raw=true"/>
+<img src="images/tabs/ZNStab.jpg?raw=true"/>
 
 [Sound, Music & Audio Production](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
