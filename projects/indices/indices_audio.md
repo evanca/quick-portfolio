@@ -28,10 +28,8 @@ Later, in 2016/2017, I recorded additional Soundworks and musical pieces incorpo
 
 * [Spotify](https://open.spotify.com/album/3DsDLwlP74rKzIRaGvsyeh)
 * [Apple Music](https://music.apple.com/us/album/le-son-du-corps-et-un-corps-de-sons/1314413365)
-
 <br/>
-
-
+<br/>
 ### Iterations 3: Language, Translations & Machine Learning
 
 In 2019 I developed an art installation to be delivered via web application for the 2019 Irish Sound Science and Technology Event at the Cork School of Music. The piece was titled: 58+1 Indices On The Body: A Reflection on Translations through Language, Technology and Sounds - Selected Indices Soundworks and Musical Pieces w/Sentiment Analysis
