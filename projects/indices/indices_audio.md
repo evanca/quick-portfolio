@@ -48,17 +48,18 @@ We are presented with English translations of the text that must to some degree 
 The sentiment analysis introduces an additional layer of meaning/distortion. It does not always represent the translated text very well and rarely represents the information conveyed in Nancy's vocalisations in the original French. The colours chosen to reflect the sentiment values introduce further culturally conditioned ideas about sentiment and emotion.
 The original sentiment analysis model is also quite crude. Drawing from theml5.js reference file:
 
-```Sentiment is a model trained to predict the sentiment of any given text. The default model, currently 'moviereviews', is trained using IMDB reviews that have been truncated to a maximum of 200 words, only the 20000 most used words in the reviews are used.
-```
+>Sentiment is a model trained to predict the sentiment of any given text. The default model, currently 'moviereviews', is trained using IMDB reviews that have been truncated to a maximum of 200 words, only the 20000 most used words in the reviews are used.
 
-```
-"his model, ported from tensorflowJS, scores the sentiment of text with a value between 0 ("negative") and 1 ("positive").
-```
+>his model, ported from tensorflowJS, scores the sentiment of text with a value between 0 ("negative") and 1 ("positive").
+
 Source:[Sentiment() reference](https://ml5js.org/reference/api-Sentiment/)
 
 This introduces yet another layer of distortion where the sentiment of a section of translated text is interpreted in relation to patterns derived from 200 word movie reviews and the complex phenomenon of sentiment is then classified along a simple linear scale from 0-1.
 
-The use of sonic and musical materials to frame the texts introduces yet another layer of meanings and distortions. The soundworlds evoked do not always match the indices, sometimes they are built around the ebb and flow of Nancy's vocalisations as he reads. Other times they seem completely random. All of this again is filtered through my specific presentation of these materials. Each of these disparate components introduce layers of interpretation and distortion particular. Rarely are the voice, sound and sentiment analysis in harmony with one another. Rarely are the voice, sound and sentiment analysis in harmony with one another.
+The use of sonic and musical materials to frame the texts introduces yet another layer of distortion. The soundworlds evoked do not always match the indices, sometimes they are built around the ebb and flow of Nancy's vocalisations as he reads. Sometimes around the text. Other times they seem completely random.
+
+Rarely are the original text, the spoken words, the english translation, the sound, and sentiment analysis in harmony with one another.
+
 This discordant configuration however is in perfect harmony with Nancy's vision of the human body as expressed in his indices. As Nancy comments in index 46:
 
 >Why indices? Because there's no totality to the body, no synthetic unity. There are pieces, zones, fragments. There's one bit after another, a stomach, an eyelash, a thumb-nail, a shoulder, a breast, a nose, an upper intestine, a choledoch, a pancreas: anatomy is endless, until eventually running into an exhaustive enumeration of cells. But this doesn't yield a totality...
@@ -70,9 +71,9 @@ This discordant configuration however is in perfect harmony with Nancy's vision 
 
    2. Wait for the page to load.
 
-   3. Press 'Play Index' to hear an index, view the waveform and see the translation.
+   3. Press 'Play Index' to hear a random index, view the waveform and see the translation.
 
-   4. Press 'Play Index' again for another one.
+   4. Press 'Play Index' again for another one. All but one of the audio files is associated to an index.
 
 [Click Here for the Piece](https://stephenroddy.github.io/58IndicesLangTrans/)
 [Mobile version](https://stephenroddy.github.io/58IndicesLangTrans/mobile.html)
