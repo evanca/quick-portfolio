@@ -33,11 +33,9 @@ Later, in 2016/2017, I recorded additional Soundworks and musical pieces incorpo
 
 ### Iterations 3: Language, Translations & Machine Learning
 
-In 2019 I developed an art installation to be delivered via web application for the 2019 Irish Sound Science and Technology Event at the Cork School of Music. The piece was titled: 58+1 Indices On The Body: A Reflection on Translations through Language, Technology and Sounds - Selected Indices Soundworks and Musical Pieces w/Sentiment Analysis
+In 2019 I developed an art installation to be delivered via web application for the [2019 Irish Sound Science and Technology Event at the Cork School of Music](https://drive.google.com/file/d/1W_np9Jb-QEeny_Hd4wzR12Zvv-CdpXFr/view). The piece was titled: 58+1 Indices On The Body: A Reflection on Translations through Language, Technology and Sounds - Selected Indices Soundworks and Musical Pieces w/Sentiment Analysis
 
 It collects together and iterates upon all of my sonic/musical work for the project to date. The audience is invited to listen to the pieces, and reflect on the indices which have been translated into English from Nancy's native French by Richard A. Rand for the English translation of Nancy's Corpus for the Perspectives in Continental Philosophy Series.
-
-* [ISSTA 2019](https://drive.google.com/file/d/1W_np9Jb-QEeny_Hd4wzR12Zvv-CdpXFr/view)
 
 The text is also analysed using a machine learning model for sentiment analysis [implemented in ml5.js](https://ml5js.org/). This analysis returns a value on a scale of 0 (negative) to 1 (positive). This sentiment is reflected in the color of the waveform that is drawn across on the screen. The shape of the waveform represents the amplitude values of the recording while at a given time, while its colour represents the sentiment value assigned to the translated text.
 
