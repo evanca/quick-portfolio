@@ -2,11 +2,15 @@
 
 ---
 <!-- //Use some ahref tags to make the images link across to the pages also -->
-[Embodied Sonification](/projects/embodied_sonification/embodied_sonification)
-<img src="images/tabs/HCtab.png?raw=true"/>
+
+[Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/projects/ad4iot/AD4IoT)
+<img src="images/tabs/ADIOTtab.png?raw=true"/>
 
 [Urban Affect Networks ](/projects/Urban Affect Networks/UAF)
 <img src="images/tabs/UAFtab.png?raw=true"/>
+
+[Embodied Sonification](/projects/embodied_sonification/embodied_sonification)
+<img src="images/tabs/HCtab.png?raw=true"/>
 
 [Indices on the Body](/projects/indices/indices_audio)
 <img src="images/tabs/JLNtab.png?raw=true"/>
@@ -23,8 +27,6 @@
 [Legitimate Bodies Projects](/projects/Music/music)
 <img src="images/tabs/LBtab.jpg?raw=true"/>
 
-[Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/projects/ad4iot/AD4IoT)
-<img src="images/tabs/STRtab.png?raw=true"/>
 
 [ML Applications in Human-computer Interaction](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
