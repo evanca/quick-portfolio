@@ -34,10 +34,14 @@ I then shifted focus to the creation of auditory displays comprised of multiple 
 [example from date range]
 
 ### Phase 3: Refine the Data to Sound Mapping Strategies
+
 The third phase of the project involved the refinement of the mapping strategies developed in the first two phases.
 
+[Link to Sonifications]
+[Link to Paper in Sound Studies Journal]
 
 ### Phase 4: Smart Cities Data and Machine Learning Techniques
+
 Phase four of the project involved the introduction of new data sources.
 
 [CSMC Paper]
