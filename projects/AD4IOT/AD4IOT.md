@@ -1,93 +1,32 @@
-## Notes on the approach to be taken here.
+**Project description:**
+Auditory Display for Large Scale IoT Networks was a Postdoctoral project I undertook at CONNECT, the Science Foundation Ireland Research Centre for Future Networks headquartered at Trinity College Dublin. The project was funded by an Irish Research Council Government of Ireland Postdoctoral Research Fellowship.
 
-1. Created a sonification of the pervasive nation data. The historical sonification in the son work folder.
-2. Created individual different types of sonification with different mapping types in csound.
-3. There should be examples of these bounced down and sent over email.
-4. The eventual tested application is in the sound studies journal we can repeat that here.
-5. Also created the implementation we used for the big demo day thing. That's there. Can include pictures of the interface too.
-6. Later this project broke off again and resulted in some other stuff.
-For example I did the crypto currency monitoring ML thing.
-I also made the ML driven application that used data from Smart Cities.
-I have all that mostly written up in a paper and can borrow from that too.
+### Research Process
 
-NOTE:
-When gathering this material check PNSOn stuff.
-The PNSon examples are some of the better ones.
+This project was driven by the overarching research question: Can auditory display solutions present complex information in an intuitive manner in the context of IoT network monitoring tasks?. To answer this I began by talking to users who work with IoT networks, experts in the fields of IoT and Auditory Display and I also consulted the academic literature more generally.I broke the research question into smaller pieces: How can we best represent complex IoT data with sound? How useful can sound be for understanding data of this nature? What sounds should be used for different IoT data types and in what contexts? etc.
+I used standard HCI methodologies to answer these questions. This was an iterative development process in which I would create a prototype solution, evaluate the solution, then iteration on the prototype taking the results of evaluation into account.
 
+### Phase 1: Individual Network Specific Data Types.
 
+Phase 1 of the project involved working with data from the Pervasive Nation a Low Powered Wide Area Network (LPWAN) infrastructure operated as an Internet of Things testbed by CONNECT, in Trinity College Dublin.
 
+This phase involved the development of mapping strategies for representing network specific datatypes with sound. I determined a few sets of useful mapping strategies for representing IoT data in different use contexts and task scenarios.
 
+### Data, Sound and Code.
 
+Code was written in Python to retrieve network data from the server, analyse it, structure it and translate using the Open Sound Control (OSC) protocol so that it was ready to be sent to a synthesiser and mapped to sound parameters.
+A wide range of scripts were written in Csound to represent different network behaviours and map specific datatypes to sound. Patches for mapping the data to sound were also developed in Reaktor 5.
 
+[Picture of some code]
 
+You can hear some examples of individual datatypes here:
 
+### Phase 2: Full Networks and Multiple Data Streams.
 
+I then shifted focus to the creation of auditory displays comprised of multiple streams of IoT network data. Mapping strategies that work well in isolation do not necessarily work well in unison. I developed new mapping strategies for representing multiple streams of IoT data.
 
+### Phase 3: Refine the Data to Sound Mapping Strategies
+The third phase of the project involved the refinement of the mapping strategies developed in the first two phases.
 
-
-
-
-
-
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### 1. Suggest hypotheses about the causes of observed phenomena
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 2. Assess assumptions on which statistical inference will be based
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 3. Support the selection of appropriate statistical tools and techniques
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-
-## This can be your internal website page / project page
-
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### 1. Suggest hypotheses about the causes of observed phenomena
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 2. Assess assumptions on which statistical inference will be based
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 3. Support the selection of appropriate statistical tools and techniques
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Phase 4: Smart Cities Data and Machine Learning Techniques
+Phase four of the project involved the introduction of new data sources.
