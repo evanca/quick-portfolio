@@ -55,3 +55,6 @@ SON work
 Historical SON
 PN_SON
 International Dub  Pres Son
+
+Outputs beyond papers mostly speaking engagements.
+Reference them too. 
