@@ -44,7 +44,7 @@ I then shifted focus to the creation of auditory displays comprised of multiple 
 
 [Large overall Plennary Sonification 1]
 [Large overall Plennary Sonification 2]
-[Descriptions of indivudal sound sections]
+[Descriptions of individual sound sections]
 
 ### Phase 3: Refine the Data to Sound Mapping Strategies and Development of Design Principles
 
