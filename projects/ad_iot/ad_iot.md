@@ -63,7 +63,7 @@ The system represents traffic data and weather data with distinct sound objects.
 
 Machine learning techniques used in the mappings strategy. For example a variational autoencoder implementation was used to blend together musical motifs.
 
-[ Describe all of the leves across which the system operates. ]
+[ Describe all of the levels across which the system operates. ]
 [ Go back to the paper and re-read all of this to get a godod sense of it. ]]
 
 
