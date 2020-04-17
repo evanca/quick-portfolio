@@ -16,7 +16,9 @@ This phase involved the development of mapping strategies for representing netwo
 During Phase 1 I wrote code was in Python to retrieve network data from the server with http requests, analysed and structured using pandas and then translated to the Open Sound Control (OSC) protocol using OSC.py. At this point it was ready to be sent to a synthesiser and mapped to sound parameters.
 A wide range of scripts were written in Csound to represent different network behaviours and map specific datatypes to sound. Patches for mapping the data to sound were also developed in Reaktor 5.
 
-[Picture of the code]
+[Picture of the Python code] [obscure the network credentials]
+[Picture of the Csound code]
+
 
 You can hear some examples of individual datatypes here:
 
@@ -24,12 +26,25 @@ You can hear some examples of individual datatypes here:
 [data 2]
 [data 3]
 
+Different mapping strategies for the same datatypes:
+
+[data 1]
+[data 2]
+[data 3]
+
 ### Phase 2: Full Networks, Multiple Data Streams .
 
-I then shifted focus to the creation of auditory displays comprised of multiple streams of IoT network data. Mapping strategies that work well in isolation do not necessarily work well in unison. I developed new mapping strategies for representing multiple streams of IoT data.
+I then shifted focus to the creation of auditory displays comprised of multiple streams of IoT network data. Mapping strategies that work well in isolation do not necessarily work well in unison. I developed new mapping strategies for representing multiple streams of IoT data. this also required the development of new methods for acquiring, cleaning organising and mapping  multiple data streams to OSC and MIDI in Python.
 
 [historical son 1]
-[example from date range]
+
+[example from date range 1]
+[example from date range 2]
+[example from date range 3]
+
+[Large overall Plennary Sonification 1]
+[Large overall Plennary Sonification 2]
+[Descriptions of indivudal sound sections]
 
 ### Phase 3: Refine the Data to Sound Mapping Strategies and Development of Design Principles
 
