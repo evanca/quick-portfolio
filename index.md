@@ -1,9 +1,8 @@
-## Portfolio  | ##[Back to Site](https://www.stephenroddy.com)
+## Portfolio
 <br />
+####
 ---
-#### Please Note: This portfolio site is currently under construction.
-#### It will be updated with new projects over the coming weeks.
-#### Please check back later to see the finished version.
+#### Please Note: This portfolio site is currently under construction. It will be updated with new projects throughout May 2020. Please check back later to see the finished version.
 ---
 <!-- //Use some ahref tags to make the images link across to the pages also -->
 ### Live Pages
