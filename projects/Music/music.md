@@ -4,7 +4,7 @@
 
 
 <br />
-<br /><data:blog .pagetitle=""><data:blog .pagetitle=""><div class="tralbumData tralbum-about">Stephen Roddy is an independent Irish musician and performer with a
+<br /><div class="tralbumData tralbum-about">Stephen Roddy is an independent Irish musician and performer with a
 background in sonification and experimental electronic music
 composition. He makes "quirky, odd, heavy" music that is "big and bold"
 and "not afraid of taking risks". Stephen creates immersive multimedia
@@ -14,7 +14,7 @@ performance systems which he uses in collaboration with other musicians,
 joy to behold”. Past performances include the Helicotrema Recorded Audio
  Festival in Venice, the Contemporary Music Centre’s Salon Series at the
  National Concert Hall of Ireland and the Dublin Dance Festival's
-Embodied at the GPO and the Sonorities Contemporary Music Festival.</div></data:blog></data:blog><br />
+Embodied at the GPO and the Sonorities Contemporary Music Festival.</div><br />
 <br />
 <h4>
 <div style="margin-bottom: 5px; margin-left: auto; margin-right: auto; text-align: center;">
@@ -22,9 +22,8 @@ Embodied at the GPO and the Sonorities Contemporary Music Festival.</div></data:
 </h4>
 
 
-
 <div class="tralbumData tralbum-about">
-</div><div><br /></div><div><h4>Forthcoming Track:</h4><div style="text-align: center;"><data:blog .pagetitle=""><data:blog .pagetitle=""><a href="https://www.youtube.com/watch?v=jtbQdaVQO6M" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" data-original-height="3840" data-original-width="3840" src="https://1.bp.blogspot.com/-JL8UsdPA3xQ/Xpm_llZdGeI/AAAAAAAAGkI/QDd_tFXqe2QdxXBOLjM9oN-QLOMS36kwgCK4BGAsYHg/Search%2BParty%2BCover_FINAL.png" /></a></data:blog></data:blog></div><div style="text-align: center;"><i>Release Date: 1st May 2020.</i><br /></div></div><div class="tralbumData tralbum-about">
+</div><div><br /></div><div><h4>Forthcoming Track:</h4><div style="text-align: center;"><a href="https://www.youtube.com/watch?v=jtbQdaVQO6M" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" data-original-height="3840" data-original-width="3840" src="https://1.bp.blogspot.com/-JL8UsdPA3xQ/Xpm_llZdGeI/AAAAAAAAGkI/QDd_tFXqe2QdxXBOLjM9oN-QLOMS36kwgCK4BGAsYHg/Search%2BParty%2BCover_FINAL.png" /></a></div><div style="text-align: center;"><i>Release Date: 1st May 2020.</i><br /></div></div><div class="tralbumData tralbum-about">
 </div>
 
 <div class="tralbumData tralbum-about">
