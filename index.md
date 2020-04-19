@@ -17,7 +17,7 @@
 [Sound, Music & Audio Production](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
 
-### Pages Under Construction:
+### Coming Soon (Under Construction)
 <br />
 [Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/)
 <img src="images/tabs/ADIOTtab.png?raw=true"/>
