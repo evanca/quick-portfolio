@@ -6,7 +6,6 @@
 #### Please check back later to see the finished version.
 ---
 <!-- //Use some ahref tags to make the images link across to the pages also -->
-<br />
 ### Live Pages
 <br />
 [Urban Affect Networks ](/projects/Urban Affect Networks/UAF)
@@ -21,7 +20,6 @@
 [Sound, Music & Audio Production](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
 
-<br />
 ### Pages Under Construction:
 <br />
 [Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/)
