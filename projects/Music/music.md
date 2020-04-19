@@ -23,6 +23,7 @@ Embodied at the GPO and the Sonorities Contemporary Music Festival.
 <h4>Forthcoming Track:</h4><a href="https://www.youtube.com/watch?v=jtbQdaVQO6M" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" data-original-height="3840" data-original-width="3840" src="https://1.bp.blogspot.com/-JL8UsdPA3xQ/Xpm_llZdGeI/AAAAAAAAGkI/QDd_tFXqe2QdxXBOLjM9oN-QLOMS36kwgCK4BGAsYHg/Search%2BParty%2BCover_FINAL.png" /></a><i>Release Date: 1st May 2020.</i><br />
 
 <h4>Albums:</h4>
+<div style="margin-bottom: 5px; margin-left: auto; margin-right: auto; text-align: center;">
 <iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album=2079483448/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" style="border: 0; height: 470px; width: 350px;"><a href="http://stephenroddy.bandcamp.com/album/wave-grid">Wave Grid by Stephen Roddy</a></iframe>
 
 <iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album=323970419/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" style="border: 0; height: 470px; width: 350px;"><a href="http://stephenroddy.bandcamp.com/album/purple-waves-e-p">Purple Waves E.P. by Stephen Roddy</a></iframe>
@@ -43,18 +44,19 @@ Embodied at the GPO and the Sonorities Contemporary Music Festival.
 
 <iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album=2757998325/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" style="border: 0; display: inline-block; height: 470px; width: 350px;"><a href="http://stephenroddy.bandcamp.com/album/alethia-d-i-y-electronic-music">Alethia: D.I.Y. Electronic Music by Stephen Roddy</a></iframe><br /></div>
 
-
+<br />
 <h4>EPs</h4>
 <br />
-
+<div style="margin-bottom: 5px; margin-left: auto; margin-right: auto; text-align: center;">
 <iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album=793201642/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" style="border: 0; height: 470px; width: 350px;"><a href="http://stephenroddy.bandcamp.com/album/home-part-2-silence">Home Part 2: Silence by Stephen Roddy</a></iframe>
 
 <iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album=1936923822/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" style="border: 0; height: 470px; width: 350px;"><a href="http://stephenroddy.bandcamp.com/album/work-in-progress-home">Work in Progress: Home by Stephen Roddy</a></iframe>
-
+</div>
+<br />
 <h4>Videos:</h4>
 <br />
 
-
+<div style="margin-bottom: 5px; margin-left: auto; margin-right: auto; text-align: center;">
   <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="266" src="https://www.youtube.com/embed/jtbQdaVQO6M" width="320"></iframe>
 
   <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="266" src="https://www.youtube.com/embed/2ahTJa_pvmw" width="320"></iframe>
