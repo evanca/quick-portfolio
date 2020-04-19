@@ -21,6 +21,7 @@ Embodied at the GPO and the Sonorities Contemporary Music Festival.
 </h4>
 
 <h4>Forthcoming Track:</h4><a href="https://www.youtube.com/watch?v=jtbQdaVQO6M" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" data-original-height="3840" data-original-width="3840" src="https://1.bp.blogspot.com/-JL8UsdPA3xQ/Xpm_llZdGeI/AAAAAAAAGkI/QDd_tFXqe2QdxXBOLjM9oN-QLOMS36kwgCK4BGAsYHg/Search%2BParty%2BCover_FINAL.png" /></a><i>Release Date: 1st May 2020.</i><br />
+<br />
 
 <h4>Albums:</h4>
 <div style="margin-bottom: 5px; margin-left: auto; margin-right: auto; text-align: center;">
