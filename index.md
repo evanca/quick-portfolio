@@ -21,7 +21,7 @@
 ### Coming Soon
 
 ---
-#### The following portfolio pages are under construction and will go live throughout may.
+#### The following portfolio pages are under construction and will go live throughout May 2020.
 ---
 [Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/)
 <img src="images/tabs/ADIOTtab.png?raw=true"/>
