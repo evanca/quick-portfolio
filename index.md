@@ -1,5 +1,4 @@
 ## Portfolio
-#### 
 ---
 #### Please Note: This portfolio site is currently under construction. It will be updated with new projects throughout May 2020. Please check back later to see the finished version.
 ---
