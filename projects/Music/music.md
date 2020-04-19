@@ -1,8 +1,6 @@
 ## Sound, Music & Audio Production
 
 ### Overview
-
-
 <br />
 <br /><div class="tralbumData tralbum-about">Stephen Roddy is an independent Irish musician and performer with a
 background in sonification and experimental electronic music
