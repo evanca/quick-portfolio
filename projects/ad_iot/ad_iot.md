@@ -1,8 +1,8 @@
-**Project description:**
+### Project description.
 
 Auditory Display for Large Scale IoT Networks was a Postdoctoral project I undertook at CONNECT, the Science Foundation Ireland Research Centre for Future Networks headquartered at Trinity College Dublin. The project was funded by an Irish Research Council Government of Ireland Postdoctoral Research Fellowship.
 
-### Research Process
+### Research Process.
 
 This project was driven by the overarching research question: Can auditory display solutions present complex information in an intuitive manner in the context of IoT network monitoring tasks?. To answer this I began by talking to users who work with IoT networks, experts in the fields of IoT and Auditory Display and I also consulted the academic literature more generally.I broke the research question into smaller pieces: How can we best represent complex IoT data with sound? How useful can sound be for understanding data of this nature? What sounds should be used for different IoT data types and in what contexts? etc.
 I used theoretical frameworks from the field of Embodied Cognitive Science that apply to meaning-making and music cognition to ground the work in a meaningful context and I applied standard HCI methodologies to answer these questions posed above. This involved an iterative development process in which I would create a prototype solution based on the Embodied Cognition literature, evaluate the efficacy of the solution with users and then repeatedly iterate upon the design of the prototype taking the results of each successive evaluation into account.
@@ -32,7 +32,7 @@ Different mapping strategies for the same datatypes:
 [data 2]
 [data 3]
 
-### Phase 2: Full Networks, Multiple Data Streams .
+### Phase 2: Full Networks, Multiple Data Streams.
 
 I then shifted focus to the creation of auditory displays comprised of multiple streams of IoT network data. Mapping strategies that work well in isolation do not necessarily work well in unison. I developed new mapping strategies for representing multiple streams of IoT data. this also required the development of new methods for acquiring, cleaning organising and mapping  multiple data streams to OSC and MIDI in Python.
 
@@ -46,7 +46,7 @@ I then shifted focus to the creation of auditory displays comprised of multiple 
 [Large overall Plennary Sonification 2]
 [Descriptions of individual sound sections]
 
-### Phase 3: Refine the Data to Sound Mapping Strategies and Development of Design Principles
+### Phase 3: Refine the Data to Sound Mapping Strategies and Development of Design Principles.
 
 The third phase of the project involved the refinement of the mapping strategies developed in the first two phases. Approaches that worked were further developed and expanded upon while those that didn't were discarded. This phase resulted in the creation of a new system for sonifying IoT Network data and the creation of a number of design guidelines for future systems. The design guidelines and auditory display system are presented in the Journal of Sonic Studies.
 
@@ -56,7 +56,7 @@ The third phase of the project involved the refinement of the mapping strategies
 
 [Link to Paper in Sound Studies Journal]
 
-### Phase 4: Market Data, Smart Cities, Evolutionary Computing & Machine Learning Techniques
+### Phase 4: Market Data, Smart Cities, Evolutionary Computing & Machine Learning Techniques.
 
 Having finalised the design of a system for representing IoT Network Traffic Data and put forward a set of guidelines for developing systems of this type, phase four of the project shifted focus again to consider a broader range of data sources. In the original funding application this phase of the project was intended to explore more creative/artistic applications of auditory display.
 During phase 4 I focused on writing functional code that could to be easily deployed to the web. The two systems designed during this phase are designed to run client-side with the standard HTML/Javascript/CSS stack. In introduced Machine Learning (MuiscVAE, a javascript based variational autoencoder implementation created for musical data by the Google Magenta team) and Evolutionary Computing techniques (mostly genetic algorithms) to aid in the process of mapping data to sound. First, I created an ambient auditory display solution for monitoring financial markets. The data was from the from highly volatile 2018 cryptocurrency markets. It represented the live dollar values of different cryptocurrencies, retrieved via the Coinbase Pro API (originally GDAX). I created multiple mapping strategies for this data, some to generative musical pieces that would represent the overall state of the data in a more stimulating and creative manner and others to more straightforward sound parameters similar to auditory graphs. The system makes use Evolutionary Computing and Machine Learning techniques. It was presented at the 2018 conference on the Computer Simulation of Musical Creativity.
