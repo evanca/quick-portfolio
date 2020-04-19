@@ -3,6 +3,10 @@
 ---
 <!-- //Use some ahref tags to make the images link across to the pages also -->
 
+
+
+<!-- Below are the properly linked tabs. Make these available and delete others when portfolio is complete -->
+<!--
 [Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/projects/ad_iot/ad_iot)
 <img src="images/tabs/ADIOTtab.png?raw=true"/>
 
@@ -24,12 +28,13 @@
 [Embodied at the GPO](/projects/embodied_sonification/embodied_sonification)
 <img src="images/tabs/GPOtab.png?raw=true"/>
 
+
 [Legitimate Bodies Projects](/projects/Music/music)
 <img src="images/tabs/LBtab.jpg?raw=true"/>
 
-
 [ML Applications in Human-computer Interaction](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
+-->
 
 ---
 
