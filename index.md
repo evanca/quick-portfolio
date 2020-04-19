@@ -3,9 +3,6 @@
 ---
 <!-- //Use some ahref tags to make the images link across to the pages also -->
 
-
-
-
 [Urban Affect Networks ](/projects/Urban Affect Networks/UAF)
 <img src="images/tabs/UAFtab.png?raw=true"/>
 
@@ -21,7 +18,7 @@
 
 
 
-
+Under Construction:
 [Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/)
 <img src="images/tabs/ADIOTtab.png?raw=true"/>
 [ML Applications in Human-computer Interaction](/)
