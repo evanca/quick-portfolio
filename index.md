@@ -1,4 +1,4 @@
-## Portfolio  ##[Back to Site](https://www.stephenroddy.com)
+## Portfolio  | ##[Back to Site](https://www.stephenroddy.com)
 <br />
 ---
 #### Please Note: This portfolio site is currently under construction.
