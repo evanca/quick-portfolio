@@ -18,8 +18,11 @@
 [Sound, Music & Audio Production](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
 
-### Coming Soon (Under Construction)
-<br />
+### Coming Soon
+
+---
+#### The following portfolio pages are under construction and will go live throughout may.
+---
 [Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/)
 <img src="images/tabs/ADIOTtab.png?raw=true"/>
 [ML Applications in Human-computer Interaction](/)
