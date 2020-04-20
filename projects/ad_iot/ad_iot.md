@@ -39,11 +39,9 @@ These sonifications represent an aggregate of 3 data types (device, gate and upl
 
 [Sonification 2](/audio/PN Sonifications/B/PN2 Sonification_10-15.7.16_1c.m4a)
 
-
-The following sonification represents the same data (device gateway and upload messages) from Jun 22nd to July 15th 2016. The data to sound mapping strategy is much richer than the previous examples. 
+The following sonification represents the same data (device gateway and upload messages) from Jun 22nd to July 15th 2016. The data to sound mapping strategy is much richer than the previous examples.
 
 [Sonification 3](/audio/pn_son/Historical Son.mp3)
-
 
 
 [example from date range 2]
