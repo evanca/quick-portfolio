@@ -33,7 +33,6 @@ I then shifted focus to the creation of auditory displays comprised of multiple 
 These sonifications represent an aggregate of 3 data types (device, gate and upload messages) sent across the network from 10th to 15th of July 2016. The increase in activity on the network is clearly apparent. The oscillating pitch tone represents the passage of times with one full trough-peak-trough cycle equal to 24hrs. The other sounds are mapped to the represent activity on the network:
 
 [Sonification 1](/audio/PN Sonifications/A/PN1 Sonification_10-15.7.16_1d.m4a)
-
 [Sonification 2](/audio/PN Sonifications/B/PN2 Sonification_10-15.7.16_1c.m4a)
 
 The following sonification represents the same data (device gateway and upload messages) from Jun 22nd to July 15th 2016. The data to sound mapping strategy is much richer than the previous examples.
