@@ -77,14 +77,34 @@ During phase 4 I focused on writing functional code that could to be easily depl
 
 [Link to CSMC Paper](/papers/Roddy.pdf)
 
-[CSMC] Example Sonifications
+[Link to CSMC Paper](/papers/Roddy.pdf)
 
-[CSMC APP Interface Design from Figma]
+This system works around the idea of target states. Target states of interest in the market data are associated with unique musical structures. As the data tends towards these target states the audio tends towards the musical structures. This way the listener can gauge how close the market is to the target state by listening to how much the musical structures differ from the target state structures.
+
+This is implemented using Genetic Algorithms (GA):
+
+[GA Original State](/audio/mp3s and m4as/GEN_Original.mp3)
+[GA Target State](/audio/mp3s and m4as/GEN_Target.mp3)
+[GA Blended State](/audio/mp3s and m4as/GEN_Blended.mp3)
+
+
+and Variational Autoencoders (VAE):
+
+[VAE Original State](/audio/mp3s and m4as/ML_Original.mp3)
+[VAE Target State](/audio/mp3s and m4as/ML_Target.mp3)
+[VAE Blended State](/audio/mp3s and m4as/ML_Blended.mp3)
+
+
+[] Example Sonifications
 
 This final phase of the project also involved the development of a system for Smart Cities data. Rather than dealing with data at the level of the network, this phase investigated the use of sensor level data. The system uses traffic data from open APIs around Dublin including Noise level data (Sonitus Systems API), number of public bikes available at stands and number of Free Parking Spaces in multi-storey car parks (Dublin City Council API), Travel Times on key routes around the city (Transport Infrastructure Ireland).
 It also uses weather data from the OpenWeather Maps API including rainfall, windspeed and temperature levels. Theoretical frameworks from Embodied Cognitive Science and music theory were once again used to guide the initial design of the system. The system is comprised of four component layers: Data Acquisition & Processing, the Generative Engine, Sound Synthesis Engine, and Post Processing. The output consists of three data-driven sound objects presented in sequence. The first object represents weather data the second represents traffic data and the third represents the number of available bikes at city bike stands. When attended to in sequence, the sonification is intended to give an overall sense of the state of the city in terms of these three categories.
 A number of strategies to mapping data to sound were adopted here.
 Traditional approaches to mapping data to sound (parameter mapping sonification) were employed alongside approaches that involve machine learning techniques. For example in the generative engine the highest point in the dataset is represented with a unique musical structure and the lowest point is represented with another. By blending these motifs together using MusicVAE new musical structures are generated to represent values between these two points.
+
+Expands on teh target state idea form last time
+The high point of the data is represented with one musical structure and the low point with another one. All data points in between ]are then represented as blends of these two musical structures.
+
 
 [audio examples of the rain motiffs]
 [image examples of the rain motiffs?]
