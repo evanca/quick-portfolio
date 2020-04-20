@@ -70,8 +70,6 @@ The third phase of the project involved the refinement of the mapping strategies
 
 ### Phase 4: Market Data, Smart Cities, Evolutionary Computing & Machine Learning Techniques.
 
-<img src="images/Model2.png?raw=true"/><br/>
-
 Having finalised the design of a system for representing IoT Network Traffic Data and put forward a set of guidelines for developing systems of this type, phase four of the project shifted focus again to consider a broader range of data sources. In the original funding application this phase of the project was intended to explore more creative/artistic applications of auditory display.
 During phase 4 I focused on writing functional code that could to be easily deployed to the web. The two systems designed during this phase are designed to run client-side with the standard HTML/Javascript/CSS stack. In introduced Machine Learning (MuiscVAE, a javascript based variational autoencoder implementation created for musical data by the Google Magenta team) and Evolutionary Computing techniques (mostly genetic algorithms) to aid in the process of mapping data to sound. First, I created an ambient auditory display solution for monitoring financial markets. The data was from the from highly volatile 2018 cryptocurrency markets. It represented the live dollar values of different cryptocurrencies, retrieved via the Coinbase Pro API (originally GDAX). I created multiple mapping strategies for this data, some to generative musical pieces that would represent the overall state of the data in a more stimulating and creative manner and others to more straightforward sound parameters similar to auditory graphs. The system makes use Evolutionary Computing and Machine Learning techniques. It was presented at the 2018 conference on the Computer Simulation of Musical Creativity.
 
@@ -79,14 +77,15 @@ During phase 4 I focused on writing functional code that could to be easily depl
 
 [Link to CSMC Paper](/papers/Roddy.pdf)
 
+<img src="images/Model2.png?raw=true"/><br/>
+
 This system works around the idea of target states. Target states of interest in the market data are associated with unique musical structures. As the data tends towards these target states the audio tends towards the musical structures. This way the listener can gauge how close the market is to the target state by listening to how much the musical structures differ from the target state structures.
 
-This is implemented using Genetic Algorithms (GA):
+This is implemented at the generative level using Genetic Algorithms (GA):
 
 [GA Original State](/audio/mp3s and m4as/GEN_Original.mp3)
 [GA Target State](/audio/mp3s and m4as/GEN_Target.mp3)
 [GA Blended State](/audio/mp3s and m4as/GEN_Blended.mp3)
-
 
 and Variational Autoencoders (VAE):
 
@@ -94,8 +93,16 @@ and Variational Autoencoders (VAE):
 [VAE Target State](/audio/mp3s and m4as/ML_Target.mp3)
 [VAE Blended State](/audio/mp3s and m4as/ML_Blended.mp3)
 
+It is implemented at the sound synthesis level by defining target timbral qualities for each audio stream.
+This results in a scales of timbral changes that can be used to represent the data, in relation to the target states described above.
 
-[] Example Sonifications
+[Scale 1](/audio/mp3s and m4as/NoteConvergence_scale.m4a)
+[Scale 2](/audio/mp3s and m4as/NotetoNoise_scale.m4a)
+[Scale 2](/audio/mp3s and m4as/SynthWash.m4a)
+
+Bringing these steams together results in musical systems which are representative of the difference between target data states defined by a user, and the current state of the market:
+
+[Example Sonification](/audio/mp3s and m4as/LiveSystem.mp3)
 
 This final phase of the project also involved the development of a system for Smart Cities data. Rather than dealing with data at the level of the network, this phase investigated the use of sensor level data. The system uses traffic data from open APIs around Dublin including Noise level data (Sonitus Systems API), number of public bikes available at stands and number of Free Parking Spaces in multi-storey car parks (Dublin City Council API), Travel Times on key routes around the city (Transport Infrastructure Ireland).
 It also uses weather data from the OpenWeather Maps API including rainfall, windspeed and temperature levels. Theoretical frameworks from Embodied Cognitive Science and music theory were once again used to guide the initial design of the system. The system is comprised of four component layers: Data Acquisition & Processing, the Generative Engine, Sound Synthesis Engine, and Post Processing. The output consists of three data-driven sound objects presented in sequence. The first object represents weather data the second represents traffic data and the third represents the number of available bikes at city bike stands. When attended to in sequence, the sonification is intended to give an overall sense of the state of the city in terms of these three categories.
