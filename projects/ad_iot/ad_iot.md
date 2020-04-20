@@ -47,6 +47,11 @@ The following sonification represents the same data (device gateway and upload m
 [example from date range 2]
 [example from date range 3]
 
+The end result of this phase was an auditory display system for represnting multiple streams of network data at once.
+
+<img src="images/Network_GUI.png?raw=true"/><br/>
+
+
 [Large overall Plennary Sonification 1]
 [Large overall Plennary Sonification 2]
 [Descriptions of individual sound sections]
