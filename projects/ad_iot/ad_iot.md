@@ -109,7 +109,7 @@ It also uses weather data from the OpenWeather Maps API including rainfall, wind
 A number of strategies to mapping data to sound were adopted here.
 Traditional approaches to mapping data to sound (parameter mapping sonification) were employed alongside approaches that involve machine learning techniques. For example in the generative engine the highest point in the dataset is represented with a unique musical structure and the lowest point is represented with another. By blending these motifs together using MusicVAE new musical structures are generated to represent values between these two points.
 
-Expands on teh target state idea form last time
+Expands on the target state idea form last time
 The high point of the data is represented with one musical structure and the low point with another one. All data points in between ]are then represented as blends of these two musical structures.
 
 
