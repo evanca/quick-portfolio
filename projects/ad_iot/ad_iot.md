@@ -16,9 +16,8 @@ This phase involved the development of mapping strategies for representing netwo
 During Phase 1 I wrote code was in Python to retrieve network data from the server with http requests, analysed and structured using pandas and then translated to the Open Sound Control (OSC) protocol using OSC.py. At this point it was ready to be sent to a synthesiser and mapped to sound parameters.
 A wide range of scripts were written in Csound to represent different network behaviours and map specific datatypes to sound. Patches for mapping the data to sound were also developed in Reaktor 5.
 
-[Picture of the Python code] [obscure the network credentials]
-[Picture of the Csound code]
-
+<img src="images/PN_Son_Data Handling.png?raw=true"/><br/>
+<img src="images/PNSON Prototype.png?raw=true"/><br/>
 
 You can hear some examples of individual datatypes here:
 
@@ -67,15 +66,29 @@ During phase 4 I focused on writing functional code that could to be easily depl
 [CSMC APP Interface Design from Figma]
 
 This final phase of the project also involved the development of a system for Smart Cities data.The system uses traffic data from open APIs around Dublin including Noise level data (Sonitus Systems API), number of public bikes available at stands and number of Free Parking Spaces in multi-storey car parks (Dublin City Council API), Travel Times on key routes around the city (Transport Infrastructure Ireland).
-It also uses weather data from the OpenWeather Maps API including rainfall, windspeed and temperature levels. Theoretical frameworks from Embodied Cognitive Science and music theory were once again used to guide the initial design of the system. The system is comprised of four component layers: Data Acquisition & Processing, the Generative Engine,  Sound Synthesis Engine, and Post Processing. The output consists of three data-driven sound objects presented in sequence. The first object represents weather data the second represents traffic data and the third represents the number of available bikes at city bike stands. When attended to in sequence, the sonification is intended to give an overall sense of the state of the city in terms of these three categories.
+It also uses weather data from the OpenWeather Maps API including rainfall, windspeed and temperature levels. Theoretical frameworks from Embodied Cognitive Science and music theory were once again used to guide the initial design of the system. The system is comprised of four component layers: Data Acquisition & Processing, the Generative Engine, Sound Synthesis Engine, and Post Processing. The output consists of three data-driven sound objects presented in sequence. The first object represents weather data the second represents traffic data and the third represents the number of available bikes at city bike stands. When attended to in sequence, the sonification is intended to give an overall sense of the state of the city in terms of these three categories.
+A number of strategies to mapping data to sound were adopted here.
+Traditional approaches to mapping data to sound (parameter mapping sonification) were employed alongside approaches that involve machine learning techniques. For example in the generative engine the highest point in the dataset is represented with a unique musical structure and the lowest point is represented with another. By blending these motifs together using MusicVAE new musical structures are generated to represent values between these two points.
 
-Traditional approaches to mapping data to sound (parameter mapping sonification) were employed alongside approaches that involve machine learning techniques.
+[audio examples of the rain motiffs]
+[image examples of the rain motiffs?]
+
+In the sound synthesis engine, data is mapped directly to sound synthesis  parameters:
+
+[audio example of the bikes]
 
 
-Machine learning techniques used in the mappings strategy. For example a variational autoencoder implementation was used to blend together musical motifs.
 
 
 
+### Creative Skills
+HCI Design. Interaction Design. UX Design. Sound Design. Music Composition. Data Sonification. Data Visualisation.
+
+### Technical & Research Skills
+Programming. Data Analysis. Audio Engineering. Recording. Data Analysis. Data Sonification. Data Visualisation. User Evaluations. A/B Testing. Experimental Design. Distributed User Testing.
+
+### Tags
+Embodied Cognition. Sonification. Auditory Display. Stephen Roddy.
 
 
 
