@@ -19,12 +19,12 @@ A wide range of scripts were written in Csound to represent different network be
 <img src="images/PN_Son_Data Handling.png?raw=true"/><br/>
 <img src="images/PNSON Prototype.png?raw=true"/><br/>
 
+The following examples all represent messages with bad MIC codes sent across the network in the 24 hour period between 6pm on Thursday Mar 9th and 6pm Thursday Mar 10th 2016. In example 3 the bell marks the passage of time
 
-You can hear some examples of individual datatypes here:
+[Example 1](/audio/PN Sonifications/1.mp3)
+[Example 2](/audio/PN Sonifications/2.mp3)
+[Example 3](/audio/PN Sonifications/3.mp3)
 
-[data 1]
-[data 2]
-[data 3]
 
 Different mapping strategies for the same datatypes.
 
