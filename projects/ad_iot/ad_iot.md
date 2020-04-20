@@ -19,25 +19,30 @@ A wide range of scripts were written in Csound to represent different network be
 <img src="images/PN_Son_Data Handling.png?raw=true"/><br/>
 <img src="images/PNSON Prototype.png?raw=true"/><br/>
 
+
 You can hear some examples of individual datatypes here:
 
 [data 1]
 [data 2]
 [data 3]
 
-Different mapping strategies for the same datatypes:
+Different mapping strategies for the same datatypes.
 
-[data 1]
-[data 2]
-[data 3]
 
 ### Phase 2: Full Networks, Multiple Data Streams.
 
 I then shifted focus to the creation of auditory displays comprised of multiple streams of IoT network data. Mapping strategies that work well in isolation do not necessarily work well in unison. I developed new mapping strategies for representing multiple streams of IoT data. this also required the development of new methods for acquiring, cleaning organising and mapping  multiple data streams to OSC and MIDI in Python.
 
-[historical son 1]
+
+
+These sonifications represent an aggregate of 3 data types sent across the network from 10th to 15th of July 2016. The increase in activity on the network is clearly apparent. The oscillating pitch tone represents the passage of times with one full trough-peak-trough cycle equal to 24hrs. The other sounds are mapped to the represent activity on the network:
+
+[Sonification 1](/PN Sonifications/A/PN1 Sonification_10-15.7.16_1d.m4a)
+[Sonification 1](/PN Sonifications/B/PN1 Sonification_10-15.7.16_1c.m4a)
 
 [example from date range 1]
+
+
 [example from date range 2]
 [example from date range 3]
 
@@ -65,7 +70,7 @@ During phase 4 I focused on writing functional code that could to be easily depl
 [CSMC] Example Sonifications
 [CSMC APP Interface Design from Figma]
 
-This final phase of the project also involved the development of a system for Smart Cities data.The system uses traffic data from open APIs around Dublin including Noise level data (Sonitus Systems API), number of public bikes available at stands and number of Free Parking Spaces in multi-storey car parks (Dublin City Council API), Travel Times on key routes around the city (Transport Infrastructure Ireland).
+This final phase of the project also involved the development of a system for Smart Cities data. Rather than dealing with data at the level of the network, this phase investigated the use of sensor level data. The system uses traffic data from open APIs around Dublin including Noise level data (Sonitus Systems API), number of public bikes available at stands and number of Free Parking Spaces in multi-storey car parks (Dublin City Council API), Travel Times on key routes around the city (Transport Infrastructure Ireland).
 It also uses weather data from the OpenWeather Maps API including rainfall, windspeed and temperature levels. Theoretical frameworks from Embodied Cognitive Science and music theory were once again used to guide the initial design of the system. The system is comprised of four component layers: Data Acquisition & Processing, the Generative Engine, Sound Synthesis Engine, and Post Processing. The output consists of three data-driven sound objects presented in sequence. The first object represents weather data the second represents traffic data and the third represents the number of available bikes at city bike stands. When attended to in sequence, the sonification is intended to give an overall sense of the state of the city in terms of these three categories.
 A number of strategies to mapping data to sound were adopted here.
 Traditional approaches to mapping data to sound (parameter mapping sonification) were employed alongside approaches that involve machine learning techniques. For example in the generative engine the highest point in the dataset is represented with a unique musical structure and the lowest point is represented with another. By blending these motifs together using MusicVAE new musical structures are generated to represent values between these two points.
