@@ -19,11 +19,16 @@ A wide range of scripts were written in Csound to represent different network be
 <img src="images/PN_Son_Data Handling.png?raw=true"/><br/>
 <img src="images/PNSON Prototype.png?raw=true"/><br/>
 
-The following examples all represent messages with bad MIC's (message integrity codes) sent across the network in the 24 hour period between 6pm on Thursday Mar 9th and 6pm Thursday Mar 10th 2016. In example 3 the bell marks the passage of time
+The following examples all represent messages with bad MIC's (message integrity codes) sent across the network in the 24 hour period between 6pm on Mar 9th and 6pm Mar 10th 2016. In example 3 the bell marks the passage of time
 
 [Bad MIC 1](/audio/PN Sonifications/1.mp3)
 [Bad MIC 2](/audio/PN Sonifications/2.mp3)
 [Bad MIC 3](/audio/PN Sonifications/3.mp3)
+
+The next examples show the use of different datasets with the same synthesis techniques. The first represents the RSSI strength of active network devices from March 10th to March 11th and the second represents the number of UL messages (uploads) during that timeframe.
+
+[RSSI Strength](/audio/PN Sonifications/RSSI.mp3)
+[UL Messages](/audio/PN Sonifications/UL.mp3)
 
 
 ### Phase 2: Full Networks, Multiple Data Streams.
@@ -43,19 +48,16 @@ The following sonification represents the same data (device gateway and upload m
 [example from date range 2]
 [example from date range 3]
 
-The end result of this phase was an auditory display system for representing multiple streams of network data at once. Users could interact with the system via GUI to focus on specific streams of data.
+The end result of this phase was an auditory display system for representing multiple streams of network data at once. It represented both aggregates of network data  and continuous streams of data. Users could interact with the system via GUI to focus on specific streams of data and attenutate others.
 
 <img src="images/Network_GUI.png?raw=true"/><br/>
 
-[Sonification 4](/audio/Son 3.mp3)
-
-
-
+[Network Sonification Example 4](/audio/Son 3.mp3)
 
 
 ### Phase 3: Refine the Data to Sound Mapping Strategies and Development of Design Principles.
 
-The third phase of the project involved the refinement of the mapping strategies developed in the first two phases. Approaches that worked were further developed and expanded upon while those that didn't were discarded. This phase resulted in the creation of a new system for sonifying IoT Network data and the creation of a number of design guidelines for future systems. The design guidelines and auditory display system are presented in the Journal of Sonic Studies.
+The third phase of the project involved the refinement of the mapping strategies developed in the first two phases and the extension of the approach to represent even more data. Approaches that worked were further developed and expanded upon while those that didn't were discarded. This phase resulted in the creation of a new system for sonifying IoT Network data and the creation of a number of design guidelines for future systems. The design guidelines and auditory display system are presented in the Journal of Sonic Studies.
 
 [Link to Sonifications]
 [Link to Sonifications]
