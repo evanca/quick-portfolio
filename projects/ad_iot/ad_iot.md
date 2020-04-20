@@ -47,11 +47,11 @@ The following sonification represents the same data (device gateway and upload m
 [example from date range 2]
 [example from date range 3]
 
-The end result of this phase was an auditory display system for represnting multiple streams of network data at once.
+The end result of this phase was an auditory display system for representing multiple streams of network data at once. Users could interact with the system via GUI to focus on specific streams of data.
 
 <img src="images/Network_GUI.png?raw=true"/><br/>
 
-[Sonification 4](/audio/pn_son/Historical Son.mp3)
+[Sonification 4](/audio/Son 3.mp3)
 
 
 
