@@ -128,8 +128,8 @@ In the sound synthesis engine, data can be mapped directly a wide range of sound
 
 Data can also be mapped in more complex ways to change the timbre of the musical patterns playing at multiple layers. At the synthesis layer temperature data is mapped to control the harmonicity of the Duo Synth instrument that synthesises the motif patterns. At the FX layer it is mapped control the intensity of a chorusing effect.
 
-[High Temperature](/audio/smart_city/Temperature/tempHi.mp3)
-[Low Temperature](/audio/smart_city/Temperature/tempLow.mp3)
+[High Temperature](/audio/smart_city/Temperature/tempHi.m4a)
+[Low Temperature](/audio/smart_city/Temperature/tempLow.m4a)
 
 
 ### Creative Skills
