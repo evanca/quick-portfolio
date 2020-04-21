@@ -123,7 +123,6 @@ In the sound synthesis engine, data can be mapped directly a wide range of sound
 
 <img src="images/BikeDone.tif?raw=true"/><br/>
 
-
 [High number of Bikes](/audio/smart_city/Bikes/bikesHi.mp3)
 [Low number of Bikes](/audio/smart_city/Bikes/bikesLow.mp3)
 
