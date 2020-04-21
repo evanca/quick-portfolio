@@ -111,15 +111,39 @@ It also uses weather data from the OpenWeather Maps API including rainfall, wind
 <img src="images/Model2.png?raw=true"/><br/>
 
 A number of strategies to mapping data to sound were adopted here.
-Traditional approaches to mapping data to sound (parameter mapping sonification) were employed alongside approaches that involve machine learning techniques. For example in the generative engine the highest point in the dataset is represented with a unique musical pattern and the lowest point is represented with another. By blending these motifs together using MusicVAE new musical patterns are generated to represent values between these two points. Essentially, the high point of the data is represented with one musical motif and the low point with another one. All data points in between are then represented as blends of these two motifs.
-This is a refinement of the target states approach I used for the previous system.
+Traditional approaches to mapping data to sound (parameter mapping sonification) were employed alongside approaches that involve machine learning techniques. For example in the generative engine the highest point in the dataset is represented with a unique musical pattern and the lowest point is represented with another. By blending these motifs together using MusicVAE new musical patterns are generated to represent values between these two points. Essentially, the high point of the data is represented with one musical motif and the low point with another one. All data points in between are then represented as blends of these two motifs. This is a refinement of the target states approach I used for the previous system.
+
+
+Data is mapped across the generative, sound synthesis and post-processing layers for each data object.
+
+
+Data | Sound
+-----| -----
+stuff|sounds
+
+Weather Data Object:
+Rainfall data is mapped to control the blending of the Rain motif into the Shine motif. With higher rainfall values the musical pattern sound closer to the Rain motif with lower values it sounds closer to the Shine motif.
 
 [Rain motif](/audio/smart_city/MotifLevel/rainMotif.mp3)
 [Shine motif](/audio/smart_city/MotifLevel/shineMotif.mp3)
 
+In the following example the rain motif transforms into the shine motif.
+
 [Rain to Shine Blend](/audio/smart_city/MotifLevel/RainShineMotif.m4a)
 
-In the sound synthesis engine, data can be mapped directly a wide range of sound synthesis parameters. For example The bike sound object is created using a pink noise generator and a delay.
+At the sound synthesis level Temperature data is mapped to control the harmonicity ratio between two monophonic synthesisers and at the post processing level it is mapped to control a chorusing effect.
+
+[High Temperature](/audio/smart_city/Temperature/tempHi.m4a)
+[Low Temperature](/audio/smart_city/Temperature/tempLow.m4a)
+
+Windspeed is mapped to control the cycle frequency of an automatic filter at the FX layer.
+
+[High Windspeed](/audio/smart_city/Windspeed/HiWind.m4a)
+
+Traffic Data Object:
+
+
+Bike Data Object:
 
 <img src="images/BikeMap.png?raw=true"/><br/>
 
@@ -128,8 +152,11 @@ In the sound synthesis engine, data can be mapped directly a wide range of sound
 
 Data can also be mapped in more complex ways to change the timbre of the musical patterns playing at multiple layers. At the synthesis layer temperature data is mapped to control the harmonicity of the Duo Synth instrument that synthesises the motif patterns. At the FX layer it is mapped control the intensity of a chorusing effect.
 
-[High Temperature](/audio/smart_city/Temperature/tempHi.m4a)
-[Low Temperature](/audio/smart_city/Temperature/tempLow.m4a)
+
+Bike Data Object:
+
+
+Traffic Data Object:
 
 
 ### Creative Skills
