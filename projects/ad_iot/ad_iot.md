@@ -24,14 +24,14 @@ A wide range of scripts were written in Csound to represent different network be
 
 The following examples all represent messages with bad MIC's (message integrity codes) sent across the network in the 24 hour period between 6pm on Mar 9th and 6pm Mar 10th 2016. In example 3 the bell marks the passage of time
 
-[Bad MIC 1](/audio/PN Sonifications/1.mp3)
-[Bad MIC 2](/audio/PN Sonifications/2.mp3)
-[Bad MIC 3](/audio/PN Sonifications/3.mp3)
+- [Bad MIC 1](/audio/PN Sonifications/1.mp3)
+- [Bad MIC 2](/audio/PN Sonifications/2.mp3)
+- [Bad MIC 3](/audio/PN Sonifications/3.mp3)
 
 The next examples show the use of different datasets with the same synthesis techniques. The first represents the RSSI strength of active network devices from March 10th to March 11th and the second represents the number of UL messages (uploads) during that timeframe.
 
-[RSSI Strength](/audio/PN Sonifications/RSSI.mp3)
-[UL Messages](/audio/PN Sonifications/UL.mp3)
+- [RSSI Strength](/audio/PN Sonifications/RSSI.mp3)
+- [UL Messages](/audio/PN Sonifications/UL.mp3)
 
 
 #### Phase 2: Full Networks, Multiple Data Streams.
@@ -40,37 +40,33 @@ I then shifted focus to the creation of auditory displays comprised of multiple 
 
 These sonifications represent an aggregate of 3 data types (device, gate and upload messages) sent across the network from 10th to 15th of July 2016. The increase in activity on the network is clearly apparent. The oscillating pitch tone represents the passage of times with one full trough-peak-trough cycle equal to 24hrs. The other sounds are mapped to the represent activity on the network:
 
-[Sonification 1](/audio/PN Sonifications/A/PN1 Sonification_10-15.7.16_1d.m4a)
-[Sonification 2](/audio/PN Sonifications/B/PN2 Sonification_10-15.7.16_1c.m4a)
+- [Sonification 1](/audio/PN Sonifications/A/PN1 Sonification_10-15.7.16_1d.m4a)
+- [Sonification 2](/audio/PN Sonifications/B/PN2 Sonification_10-15.7.16_1c.m4a)
 
 The following sonification represents the same data (device gateway and upload messages) from Jun 22nd to July 15th 2016. The data to sound mapping strategy is much richer than the previous examples.
 
-[Sonification 3](/audio/pn_son/Historical Son.mp3)
-
-
-[example from date range 2]
-[example from date range 3]
+- [Sonification 3](/audio/pn_son/Historical Son.mp3)
 
 The end result of this phase was an auditory display system for representing multiple streams of network data at once. It represented both aggregates of network data  and continuous streams of data. Users could interact with the system via GUI to focus on specific streams of data and attenutate others.
 
 <img src="images/Network_GUI.png?raw=true"/><br/>
 
-[Network Sonification Example 4](/audio/Son 3.mp3)
+- [Network Sonification Example 4](/audio/Son 3.mp3)
 
 
 #### Phase 3: Refine the Data to Sound Mapping Strategies and Development of Design Principles.
 
 The third phase of the project involved the refinement of the mapping strategies developed in the first two phases and the extension of the approach to represent even more data. Approaches that worked were further developed and expanded upon while those that didn't were discarded. This phase resulted in the creation of a new system for sonifying IoT Network data and the creation of a number of design guidelines for future systems. The design guidelines and auditory display system are presented in the Journal of Sonic Studies.
 
-[Example of Strong RSSI](/audio/fullsystem/Mp3s/RSSI Strong.mp3)
-[Example of High Signal to Noise Ratio](/audio/fullsystem/Mp3s/SNR Hi.mp3)
-[Example of Gateway Reboot](/audio/fullsystem/Mp3s/GWReboot.mp3)
+- [Example of Strong RSSI](/audio/fullsystem/Mp3s/RSSI Strong.mp3)
+- [Example of High Signal to Noise Ratio](/audio/fullsystem/Mp3s/SNR Hi.mp3)
+- [Example of Gateway Reboot](/audio/fullsystem/Mp3s/GWReboot.mp3)
 
-[Sonification of Healthy Network Activity](/audio/fullsystem/Mp3s/Good Network.mp3)
-[Sonification of Standard Network Activity](/audio/fullsystem/Mp3s/Standard Network.mp3)
-[Sonification of Unhealthy Network Activity](/audio/fullsystem/Mp3s/Bad Network.mp3)
+- [Sonification of Healthy Network Activity](/audio/fullsystem/Mp3s/Good Network.mp3)
+- [Sonification of Standard Network Activity](/audio/fullsystem/Mp3s/Standard Network.mp3)
+- [Sonification of Unhealthy Network Activity](/audio/fullsystem/Mp3s/Bad Network.mp3)
 
-[Link to JSS Paper](https://www.researchcatalogue.net/view/515156/515157)
+- [Link to JSS Paper](https://www.researchcatalogue.net/view/515156/515157)
 
 #### Phase 4: Market Data, Smart Cities, Evolutionary Computing & Machine Learning Techniques.
 
@@ -79,32 +75,32 @@ During phase 4 I focused on writing functional code that could to be easily depl
 
 
 <iframe height="842" src="https://stephenroddy.github.io/projects/ad_iot/papers/Roddy.pdf" width="592"></iframe><br/>
-[Link to CSMC Paper](/papers/Roddy.pdf)
+- [Link to CSMC Paper](/papers/Roddy.pdf)
 
 This system works around the idea of target states. Target states of interest in the market data are associated with unique musical structures. As the data tends towards these target states the audio tends towards the musical motif. This way the listener can gauge how close the market is to the target state by listening to how much the musical motif differ from the target state pattern.
 
 This is implemented at the generative level using Genetic Algorithms (GA):
 
-[GA Original State](/audio/mp3s and m4as/GEN_Original.mp3)
-[GA Target State](/audio/mp3s and m4as/GEN_Target.mp3)
-[GA Blended State](/audio/mp3s and m4as/GEN_Blended.mp3)
+- [GA Original State](/audio/mp3s and m4as/GEN_Original.mp3)
+- [GA Target State](/audio/mp3s and m4as/GEN_Target.mp3)
+- [GA Blended State](/audio/mp3s and m4as/GEN_Blended.mp3)
 
 and Variational Autoencoders (VAE):
 
-[VAE Original State](/audio/mp3s and m4as/ML_Original.mp3)
-[VAE Target State](/audio/mp3s and m4as/ML_Target.mp3)
-[VAE Blended State](/audio/mp3s and m4as/ML_Blended.mp3)
+- [VAE Original State](/audio/mp3s and m4as/ML_Original.mp3)
+- [VAE Target State](/audio/mp3s and m4as/ML_Target.mp3)
+- [VAE Blended State](/audio/mp3s and m4as/ML_Blended.mp3)
 
 It is implemented at the sound synthesis level by defining target timbral qualities for each audio stream.
 This results in a scales of timbral changes that can be used to represent the data, in relation to the target states described above.
 
-[Scale 1](/audio/mp3s and m4as/NoteConvergence_scale.m4a)
-[Scale 2](/audio/mp3s and m4as/NotetoNoise_scale.m4a)
-[Scale 2](/audio/mp3s and m4as/SynthWash.m4a)
+- [Scale 1](/audio/mp3s and m4as/NoteConvergence_scale.m4a)
+- [Scale 2](/audio/mp3s and m4as/NotetoNoise_scale.m4a)
+- [Scale 2](/audio/mp3s and m4as/SynthWash.m4a)
 
 Bringing these steams together results in musical systems which are representative of the difference between target data states defined by a user, and the current state of the market:
 
-[Example Sonification](/audio/mp3s and m4as/LiveSystem.mp3)
+- [Example Sonification](/audio/mp3s and m4as/LiveSystem.mp3)
 
 This final phase of the project also involved the development of a system for Smart Cities data. Rather than dealing with data at the level of the network, this phase investigated the use of sensor level data. The system uses traffic data from open APIs around Dublin including Noise level data (Sonitus Systems API), number of public bikes available at stands and number of Free Parking Spaces in multi-storey car parks (Dublin City Council API), Travel Times on key routes around the city (Transport Infrastructure Ireland).
 It also uses weather data from the OpenWeather Maps API including rainfall, windspeed and temperature levels. Theoretical frameworks from Embodied Cognitive Science and music theory were once again used to guide the initial design of the system. The system is comprised of the same four component layers involved in the previous system and represented in the figure above. The output consists of three data-driven sound objects presented in sequence. The first object represents weather data the second represents traffic data and the third represents the number of available bikes at city bike stands. When attended to in sequence, the sonification is intended to give an overall sense of the state of the city in terms of these three categories.
@@ -130,21 +126,21 @@ Synthesis Method: Two Sine wave Generators w/amplitude envelopes + one filter & 
 
 Rainfall data is mapped to control the blending of the Rain motif into the Shine motif. With higher rainfall values the musical pattern sound closer to the Rain motif with lower values it sounds closer to the Shine motif. The motif is synthesised using two monophonic synths
 
-[Rain motif](/audio/smart_city/MotifLevel/rainMotif.mp3)
-[Shine motif](/audio/smart_city/MotifLevel/shineMotif.mp3)
+- [Rain motif](/audio/smart_city/MotifLevel/rainMotif.mp3)
+- [Shine motif](/audio/smart_city/MotifLevel/shineMotif.mp3)
 
 In the following example the rain motif transforms into the shine motif.
 
-[Rain to Shine Blend](/audio/smart_city/MotifLevel/RainShineMotif.m4a)
+- [Rain to Shine Blend](/audio/smart_city/MotifLevel/RainShineMotif.m4a)
 
 At the sound synthesis level Temperature data is mapped to control the harmonicity ratio between two monophonic synthesisers and at the post processing level it is mapped to control a chorusing effect.
 
-[High Temperature](/audio/smart_city/Temperature/tempHi.m4a)
-[Low Temperature](/audio/smart_city/Temperature/tempLow.m4a)
+- [High Temperature](/audio/smart_city/Temperature/tempHi.m4a)
+- [Low Temperature](/audio/smart_city/Temperature/tempLow.m4a)
 
 Windspeed is mapped to control the cycle frequency of an automatic filter at the FX layer.
 
-[High Windspeed](/audio/smart_city/Windspeed/HiWind.m4a)
+- - [High Windspeed](/audio/smart_city/Windspeed/HiWind.m4a)
 
 #####Traffic Data Object:
 
@@ -160,15 +156,15 @@ Synthesis Method: AM Synthesis.
 Average travel time data for the motorways feeding Dublin is mapped to control the blend between the low traffic motif and the high traffic motif in the generative engine.
 Noise level data is mapped to control the addition fo distortion and reverb to the signal. The number of free carpark spaces in the city is mapped to control the cutoff frequencey of a lowpass filter.
 
-[Low Traffic & High Noise](/audio/smart_city/Bikes/NoiseTrafLo.mp3)
-[High Traffic & High Noise](/audio/smart_city/Bikes/NoiseTrafHi.mp3)
+- [Low Traffic & High Noise](/audio/smart_city/Bikes/NoiseTrafLo.mp3)
+- [High Traffic & High Noise](/audio/smart_city/Bikes/NoiseTrafHi.mp3)
 
-[High Noise & Few Parking Spaces](/audio/smart_city/Bikes/FewSpacesMuchNoise.mp3)
-[No Noise & Few Parking Spaces](/audio/smart_city/Bikes/FewSpacesMuchNoise.mp3)
+- [High Noise & Few Parking Spaces](/audio/smart_city/Bikes/FewSpacesMuchNoise.mp3)
+- [No Noise & Few Parking Spaces](/audio/smart_city/Bikes/FewSpacesMuchNoise.mp3)
 
 In the following example the high traffic motif transforms into the low traffic motif:
 
-[High Traffic to Low Traffic](/audio/smart_city/Traffic/fullTraffic20.mp3)
+- [High Traffic to Low Traffic](/audio/smart_city/Traffic/fullTraffic20.mp3)
 
 
 #####Bike Data Object:
@@ -176,13 +172,13 @@ In the following example the high traffic motif transforms into the low traffic 
 
 The bike data object consists of a pink noise generator and a ping pong delay. In a ping pong delay the echo swaps back and over between left and right channels each time it is heard. I mapped the data from the number of available bikes in the city to control the rate at which this takes place.
 
-[High number of Bikes](/audio/smart_city/Bikes/bikesHi.mp3)
-[Low number of Bikes](/audio/smart_city/Bikes/bikesLow.mp3)
+- [High number of Bikes](/audio/smart_city/Bikes/bikesHi.mp3)
+- [Low number of Bikes](/audio/smart_city/Bikes/bikesLow.mp3)
 
 
 The following is an example sonification with this system. It represents good weather slight chance of rain above average traffic and few free bikes:
 
-[Full system sonification](/audio/smart_city/Full Son/Smart City ML Sonification.mp3)
+- [Full system sonification](/audio/smart_city/Full Son/Smart City ML Sonification.mp3)
 
 
 ### Creative Skills
@@ -192,7 +188,4 @@ HCI Design. Interaction Design. UX Design. Sound Design. Music Composition. Data
 Programming. Data Analysis. Audio Engineering. Recording. Data Analysis. Data Sonification. Data Visualisation. User Evaluations. A/B Testing. Experimental Design. Distributed User Testing.
 
 ### Tags
-Embodied Cognition. Sonification. Auditory Display. Stephen Roddy.
-
-
-References to speaking engagement outputs.
+Internet of Things Networks, Embodied Cognition. Sonification. Auditory Display. Stephen Roddy.
