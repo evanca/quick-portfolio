@@ -125,7 +125,7 @@ Degree Temperature | Harmonicity Ratio | Sound Synthesis
 Degree Temperature | Chorusing | Post-processing
 Windspeed | Panner Freq & Filter Freq | Post-processing
 
-Synthesis Method: Two Sine wave Generators w/amplitude envelopes, one filter each & 1 filter envelope each.
+Synthesis Method: Two Sine wave Generators w/amplitude envelopes + one filter & filter envelope each.
 
 Rainfall data is mapped to control the blending of the Rain motif into the Shine motif. With higher rainfall values the musical pattern sound closer to the Rain motif with lower values it sounds closer to the Shine motif. The motiff is synthesised using two monophonic synths
 
@@ -155,6 +155,16 @@ Noise Data | Reverb | Post-processing
 Parking Spaces | Low Pass Filter | Post-processing
 
 Synthesis Method: AM Synthesis.
+
+Average travel time data for the motorways feeding Dublin is mapped to control the blend between the low traffic motif and the high traffic motif in the generative engine.
+Noise level data is mapped to control the addition fo distortion and reverb to the signal. The number of free carpark spaces in the city is mapped to control the cutoff frequencey of a lowpass filter.
+
+[Low Traffic & High Noise](/audio/smart_city/Bikes/NoiseTrafLo.mp3)
+[High Traffic & High Noise](/audio/smart_city/Bikes/NoiseTrafHi.mp3)
+
+[High Noise & Few Parking Spaces](/audio/smart_city/Bikes/FewSpacesMuchNoise.mp3)
+[No Noise & Few Parking Spaces](/audio/smart_city/Bikes/FewSpacesMuchNoise.mp3)
+
 
 Bike Data Object:
 
