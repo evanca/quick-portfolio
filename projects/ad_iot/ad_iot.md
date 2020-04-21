@@ -177,6 +177,7 @@ The bike data object consists of a pink noise generator and a ping pong delay. I
 
 
 
+
 ### Creative Skills
 HCI Design. Interaction Design. UX Design. Sound Design. Music Composition. Data Sonification. Data Visualisation.
 
