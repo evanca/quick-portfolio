@@ -119,13 +119,15 @@ This is a refinement of the target states approach I used for the previous syste
 
 [Rain to Shine Blend](/audio/smart_city/MotifLevel/RainShineMotif.m4a)
 
-In the sound synthesis engine, data can be mapped directly to sound synthesis parameters:
+In the sound synthesis engine, data can be mapped directly to sound synthesis parameters. For example,
 
 [High number of Bikes](/audio/smart_city/Bikes/bikesHi.mp3)
 [Low number of Bikes](/audio/smart_city/Bikes/bikesLow.mp3)
 
-It can also be mapped to change the timbre of the musical patterns playing. Temperature causing a chorusing effect as the temperature increases the motif becomes increasingly 'chorused'.
+Data can also be mapped in more complex ways to change the timbre of the musical patterns playing at multiple layers. At the synthesis layer temperature data is mapped to control the harmonicity of the Duo Synth instrument that synthesises the motif patterns. At the FX layer it is mapped control the intensity of a chorusing effect.
 
+[High Temperature](/audio/smart_city/Temperature/tempHi.mp3)
+[Low Temperature](/audio/smart_city/Temperature/tempLow.mp3)
 
 
 ### Creative Skills
