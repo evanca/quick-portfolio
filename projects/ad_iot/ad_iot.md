@@ -127,7 +127,7 @@ Windspeed | Panner Freq & Filter Freq | Post-processing
 
 Synthesis Method: Two Sine wave Generators w/amplitude envelopes + one filter & filter envelope each.
 
-Rainfall data is mapped to control the blending of the Rain motif into the Shine motif. With higher rainfall values the musical pattern sound closer to the Rain motif with lower values it sounds closer to the Shine motif. The motiff is synthesised using two monophonic synths
+Rainfall data is mapped to control the blending of the Rain motif into the Shine motif. With higher rainfall values the musical pattern sound closer to the Rain motif with lower values it sounds closer to the Shine motif. The motif is synthesised using two monophonic synths
 
 [Rain motif](/audio/smart_city/MotifLevel/rainMotif.mp3)
 [Shine motif](/audio/smart_city/MotifLevel/shineMotif.mp3)
@@ -169,6 +169,10 @@ Noise level data is mapped to control the addition fo distortion and reverb to t
 Bike Data Object:
 
 <img src="images/BikeMap.png?raw=true"/><br/>
+
+
+A filter and a delay unit are added to the signal chain for the noise generator. The bike data is mapped to control the cutoff point of the filter as well as the feedback, wet/dry level the delay times of the noise generator. The delay unit in question is a PingPongDelay.  According to the Tone.js documentiton”PingPongDelay is a feedback delay effect where the echo is heard first in one channel and next in the opposite channel. In a stereo system these are the right and left channels. PingPongDelay in more simplified terms is two Tone.FeedbackDelays with independent delay values. Each delay is routed to one channel (left or right), and the channel triggered second will always trigger at the same interval after the first.” (Embodied Mapping). The ping pong delay and the amplitude envelope for the noise generator are controlled to simulate the sound generated when cycling a bike. The amplitude envelope has even attack, decay and sustain periods, of 100ms each followed by a sharp 1ms release. The ping pong delay introduces repeats of the original pattern alternating between hard left and hard right presentations of each succcessive repeat to create a sound simillar to a cycling motion. The data is mapped to control the delay in the range of .15 to 1.5.
+
 
 [High number of Bikes](/audio/smart_city/Bikes/bikesHi.mp3)
 [Low number of Bikes](/audio/smart_city/Bikes/bikesLow.mp3)
