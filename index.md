@@ -6,7 +6,7 @@
 ### Live Pages
 <br />
 
-[Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/projects/ad_iot/ad_iot)
+[Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot)
 <img src="images/tabs/ADIOTtab.png?raw=true"/>
 
 [Urban Affect Networks ](/projects/Urban Affect Networks/UAF)
