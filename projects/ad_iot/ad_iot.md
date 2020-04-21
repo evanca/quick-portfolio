@@ -124,6 +124,7 @@ Rainfall | Motif Blending | Generative
 Degree Temperature | Harmonicity Ratio | Sound Synthesis
 Degree Temperature | Chorusing | Post-processing
 Windspeed | Panner Freq & Filter Freq | Post-processing
+
 Synthesis Method: Dual Monophonic Synths.
 
 Rainfall data is mapped to control the blending of the Rain motif into the Shine motif. With higher rainfall values the musical pattern sound closer to the Rain motif with lower values it sounds closer to the Shine motif.
@@ -152,6 +153,7 @@ Traffic Times | Motif Blending | Generative
 Noise Data | Distortion | Post-processing
 Noise Data | Reverb | Post-processing
 Parking Spaces | Low Pass Filter | Post-processing
+
 Synthesis Method: AM Synthesis.
 
 Bike Data Object:
