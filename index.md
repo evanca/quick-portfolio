@@ -22,7 +22,7 @@
 <img src="images/tabs/STRtab.png?raw=true"/>
 
 ### Coming Soon
-
+ 
 ---
 #### The following portfolio pages are under construction and will go live throughout May 2020.
 ---
