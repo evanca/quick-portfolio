@@ -113,7 +113,7 @@ Traditional approaches to mapping data to sound (parameter mapping sonification)
 
 Data is mapped across the generative, sound synthesis and post-processing layers for each data object.
 
-##### Weather Data Object:
+#### Weather Data Object:
 
 Data | Sound | Layer
 ---- | ----- | -----
@@ -140,9 +140,9 @@ At the sound synthesis level Temperature data is mapped to control the harmonici
 
 Windspeed is mapped to control the cycle frequency of an automatic filter at the FX layer.
 
-- - [High Windspeed](/audio/smart_city/Windspeed/HiWind.m4a)
+- [High Windspeed](/audio/smart_city/Windspeed/HiWind.m4a)
 
-##### Traffic Data Object:
+#### Traffic Data Object:
 
 Data | Sound | Layer
 ---- | ----- | -----
@@ -167,7 +167,7 @@ In the following example the high traffic motif transforms into the low traffic 
 - [High Traffic to Low Traffic](/audio/smart_city/Traffic/fullTraffic20.mp3)
 
 
-##### Bike Data Object:
+#### Bike Data Object:
 <img src="images/BikeMap.png?raw=true"/><br/>
 
 The bike data object consists of a pink noise generator and a ping pong delay. In a ping pong delay the echo swaps back and over between left and right channels each time it is heard. I mapped the data from the number of available bikes in the city to control the rate at which this takes place.
