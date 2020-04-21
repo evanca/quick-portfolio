@@ -119,7 +119,7 @@ Data is mapped across the generative, sound synthesis and post-processing layers
 Weather Data Object:
 
 Data | Sound | Layer
------| ----- | -----
+---- | ----- | -----
 Rainfall | Motif Blending | Generative
 Degree Temperature | Harmonicity Ratio | Sound Synthesis
 Degree Temperature | Chorusing | Post-processing
@@ -147,12 +147,12 @@ Windspeed is mapped to control the cycle frequency of an automatic filter at the
 Traffic Data Object:
 
 Data | Sound | Layer
------| ----- | ---
+---- | ----- | -----
 Traffic Times | Motif Blending | Generative
 Noise Data | Distortion | Post-processing
 Noise Data | Reverb | Post-processing
 Parking Spaces | Low Pass Filter | Post-processing
-Synthesis Method: AM Synthesis. 
+Synthesis Method: AM Synthesis.
 
 Bike Data Object:
 
