@@ -26,8 +26,7 @@
 ---
 #### The following portfolio pages are under construction and will go live throughout May 2020.
 ---
-[Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/)
-<img src="images/tabs/ADIOTtab.png?raw=true"/>
+
 [ML Applications in Human-computer Interaction](/)
 <img src="images/tabs/STRtab.png?raw=true"/>
 [Embodied at the GPO](/)
