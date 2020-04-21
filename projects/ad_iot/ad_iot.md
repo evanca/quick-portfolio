@@ -116,16 +116,14 @@ Traditional approaches to mapping data to sound (parameter mapping sonification)
 
 Data is mapped across the generative, sound synthesis and post-processing layers for each data object.
 
-
-Data | Sound
------| -----
-Rainfall | Motif Blending (Generative Layer)
-Degree Temperature | Harmonicity Ratio (Synthesis Layer)
- | Chorusing (FX Layer)
-Windspeed | Panner Freq & Filter Freq (FX Layer)
-
-
 Weather Data Object:
+Data | Sound | Layer
+-----| ----- | -----
+Rainfall | Motif Blending | Generative
+Degree Temperature | Harmonicity Ratio | Sound Synthesis
+Degree Temperature | Chorusing | Post-processing
+Windspeed | Panner Freq & Filter Freq | Post-processing
+
 Rainfall data is mapped to control the blending of the Rain motif into the Shine motif. With higher rainfall values the musical pattern sound closer to the Rain motif with lower values it sounds closer to the Shine motif.
 
 [Rain motif](/audio/smart_city/MotifLevel/rainMotif.mp3)
@@ -146,6 +144,12 @@ Windspeed is mapped to control the cycle frequency of an automatic filter at the
 
 Traffic Data Object:
 
+Data | Sound | Layer
+-----| ----- | ---
+Traffic Times | Motif Blending | Generative
+Noise Data | Distortion | Post-processing
+Noise Data | Reverb | Post-processing
+Parking Spaces | Low Pass Filter | Post-processing
 
 Bike Data Object:
 
