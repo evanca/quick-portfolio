@@ -165,8 +165,9 @@ Noise level data is mapped to control the addition fo distortion and reverb to t
 [High Noise & Few Parking Spaces](/audio/smart_city/Bikes/FewSpacesMuchNoise.mp3)
 [No Noise & Few Parking Spaces](/audio/smart_city/Bikes/FewSpacesMuchNoise.mp3)
 
+In the following example the high traffic motif transforms into the low traffic motif:
 
-Bike Data Object:
+[High Traffic to Low Traffic](/audio/smart_city/Traffic/fullTraffic20.mp3)
 
 <img src="images/BikeMap.png?raw=true"/><br/>
 
@@ -176,6 +177,9 @@ The bike data object consists of a pink noise generator and a ping pong delay. I
 [Low number of Bikes](/audio/smart_city/Bikes/bikesLow.mp3)
 
 
+The following is an example sonification with this system. It represents good weather slight chance of rain above average traffic and few free bikes: 
+
+[Full system sonification](/audio/smart_city/Full Son/Smart City ML Sonification.mp3)
 
 
 ### Creative Skills
@@ -187,13 +191,5 @@ Programming. Data Analysis. Audio Engineering. Recording. Data Analysis. Data So
 ### Tags
 Embodied Cognition. Sonification. Auditory Display. Stephen Roddy.
 
-
-
-Resources:
-
-SON work
-Historical SON
-PN_SON
-International Dub  Pres Son
 
 References to speaking engagement outputs.
