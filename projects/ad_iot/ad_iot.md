@@ -185,7 +185,7 @@ The following is an example sonification with this system. It represents good we
 HCI Design. Interaction Design. UX Design. Sound Design. Music Composition. Data Sonification. Data Visualisation.
 
 ### Technical & Research Skills
-Programming. Data Analysis. Audio Engineering. Recording. Data Analysis. Data Sonification. Data Visualisation. User Evaluations. A/B Testing. Experimental Design. Distributed User Testing.
+HTML/CSS/Javascript. Python. Csound. OSC& MIDI. Programming. Data Analysis. Audio Engineering. Recording. Data Analysis. Data Sonification. Data Visualisation. User Evaluations. A/B Testing. Experimental Design. Distributed User Testing.
 
 ### Tags
 Internet of Things Networks, Embodied Cognition. Sonification. Auditory Display. Stephen Roddy.
