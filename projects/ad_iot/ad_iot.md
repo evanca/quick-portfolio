@@ -55,6 +55,7 @@ The end result of this phase was an auditory display system for representing mul
 
 [Network Sonification Example 4](/audio/Son 3.mp3)
 
+
 ### Phase 3: Refine the Data to Sound Mapping Strategies and Development of Design Principles.
 
 The third phase of the project involved the refinement of the mapping strategies developed in the first two phases and the extension of the approach to represent even more data. Approaches that worked were further developed and expanded upon while those that didn't were discarded. This phase resulted in the creation of a new system for sonifying IoT Network data and the creation of a number of design guidelines for future systems. The design guidelines and auditory display system are presented in the Journal of Sonic Studies.
@@ -76,7 +77,7 @@ During phase 4 I focused on writing functional code that could to be easily depl
 
 [Link to CSMC Paper](/papers/Roddy.pdf)
 
-[Link to CSMC Paper](/papers/Roddy.pdf)
+<iframe height="842" src="/papers/Roddy.pdf" width="592"></iframe><br/>
 
 <img src="images/Model2.png?raw=true"/><br/>
 
