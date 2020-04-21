@@ -77,7 +77,7 @@ During phase 4 I focused on writing functional code that could to be easily depl
 
 [Link to CSMC Paper](/papers/Roddy.pdf)
 
-<iframe height="842 "width="592" src="https://stephenroddy,github.io/projects/ad_iot/papers/Roddy.pdf"></iframe><br/>
+<iframe height="842 "width="592" src="https://stephenroddy.github.io/projects/ad_iot/papers/Roddy.pdf"></iframe><br/>
 
 <img src="images/Model2.png?raw=true"/><br/>
 
