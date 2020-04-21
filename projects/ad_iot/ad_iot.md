@@ -121,7 +121,7 @@ This is a refinement of the target states approach I used for the previous syste
 
 In the sound synthesis engine, data can be mapped directly a wide range of sound synthesis parameters. For example The bike sound object is created using a pink noise generator and a delay.
 
-<img src="images/BikeDone.tif?raw=true"/><br/>
+<img src="images/BikeMap.png?raw=true"/><br/>
 
 [High number of Bikes](/audio/smart_city/Bikes/bikesHi.mp3)
 [Low number of Bikes](/audio/smart_city/Bikes/bikesLow.mp3)
