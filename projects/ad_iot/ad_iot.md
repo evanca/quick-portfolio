@@ -116,11 +116,8 @@ This is a refinement of the target states approach I used for the previous syste
 
 [Rain motif](/audio/MotifLevel/rainMotif.mp3)
 [Shine motif](/audio/MotifLevel/shineMotif.mp3)
-
 [Rain to Shine Blend](/audio/MotifLevel/rainMotif.mp3)
 
-[audio examples of the rain motiffs]
-[image examples of the rain motiffs?]
 
 In the sound synthesis engine, data is mapped directly to sound synthesis  parameters:
 
