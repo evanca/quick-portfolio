@@ -125,9 +125,9 @@ Degree Temperature | Harmonicity Ratio | Sound Synthesis
 Degree Temperature | Chorusing | Post-processing
 Windspeed | Panner Freq & Filter Freq | Post-processing
 
-Synthesis Method: Dual Monophonic Synths.
+Synthesis Method: Two Sine wave Generators w/amplitude envelopes, one filter each & 1 filter envelope each.
 
-Rainfall data is mapped to control the blending of the Rain motif into the Shine motif. With higher rainfall values the musical pattern sound closer to the Rain motif with lower values it sounds closer to the Shine motif.
+Rainfall data is mapped to control the blending of the Rain motif into the Shine motif. With higher rainfall values the musical pattern sound closer to the Rain motif with lower values it sounds closer to the Shine motif. The motiff is synthesised using two monophonic synths
 
 [Rain motif](/audio/smart_city/MotifLevel/rainMotif.mp3)
 [Shine motif](/audio/smart_city/MotifLevel/shineMotif.mp3)
@@ -163,13 +163,6 @@ Bike Data Object:
 [High number of Bikes](/audio/smart_city/Bikes/bikesHi.mp3)
 [Low number of Bikes](/audio/smart_city/Bikes/bikesLow.mp3)
 
-Data can also be mapped in more complex ways to change the timbre of the musical patterns playing at multiple layers. At the synthesis layer temperature data is mapped to control the harmonicity of the Duo Synth instrument that synthesises the motif patterns. At the FX layer it is mapped control the intensity of a chorusing effect.
-
-
-Bike Data Object:
-
-
-Traffic Data Object:
 
 
 ### Creative Skills
