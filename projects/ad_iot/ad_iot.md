@@ -73,7 +73,7 @@ The third phase of the project involved the refinement of the mapping strategies
 ### Phase 4: Market Data, Smart Cities, Evolutionary Computing & Machine Learning Techniques.
 
 Having finalised the design of a system for representing IoT Network Traffic Data and put forward a set of guidelines for developing systems of this type, phase four of the project shifted focus again to consider a broader range of data sources. In the original funding application this phase of the project was intended to explore more creative/artistic applications of auditory display.
-During phase 4 I focused on writing functional code that could to be easily deployed to the web. The two systems designed during this phase are designed to run client-side with the standard HTML/Javascript/CSS stack. In introduced Machine Learning (MuiscVAE, a javascript based variational autoencoder implementation created for musical data by the Google Magenta team) and Evolutionary Computing techniques (mostly genetic algorithms) to aid in the process of mapping data to sound. First, I created an ambient auditory display solution for monitoring financial markets. The data was from the from highly volatile 2018 cryptocurrency markets. It represented the live dollar values of different cryptocurrencies, retrieved via the Coinbase Pro API (originally GDAX). I created multiple mapping strategies for this data, some to generative musical pieces that would represent the overall state of the data in a more stimulating and creative manner and others to more straightforward sound parameters similar to auditory graphs. The system makes use Evolutionary Computing and Machine Learning techniques. It was presented at the 2018 conference on the Computer Simulation of Musical Creativity.
+During phase 4 I focused on writing functional code that could to be easily deployed to the web. The two systems designed during this phase are designed to run client-side with the standard HTML/Javascript/CSS stack and sound is synthesised using the tone.js library. In introduced Machine Learning (MuiscVAE, a javascript based variational autoencoder implementation created for musical data by the Google Magenta team) and Evolutionary Computing techniques (mostly genetic algorithms) to aid in the process of mapping data to sound. First, I created an ambient auditory display solution for monitoring financial markets. The data was from the from highly volatile 2018 cryptocurrency markets. It represented the live dollar values of different cryptocurrencies, retrieved via the Coinbase Pro API (originally GDAX). I created multiple mapping strategies for this data, some to generative musical pieces that would represent the overall state of the data in a more stimulating and creative manner and others to more straightforward sound parameters similar to auditory graphs. The system makes use Evolutionary Computing and Machine Learning techniques. It was presented at the 2018 conference on the Computer Simulation of Musical Creativity.
 
 
 <iframe height="842" src="https://stephenroddy.github.io/projects/ad_iot/papers/Roddy.pdf" width="592"></iframe><br/>
@@ -115,16 +115,16 @@ Traditional approaches to mapping data to sound (parameter mapping sonification)
 This is a refinement of the target states approach I used for the previous system.
 
 [Rain motif](/audio/smart_city/MotifLevel/rainMotif.mp3)
-
 [Shine motif](/audio/smart_city/MotifLevel/shineMotif.mp3)
 
 [Rain to Shine Blend](/audio/smart_city/MotifLevel/RainShineMotif.m4a)
 
+In the sound synthesis engine, data can be mapped directly to sound synthesis parameters:
 
-In the sound synthesis engine, data is mapped directly to sound synthesis  parameters:
+[High number of Bikes](/audio/smart_city/Bikes/bikesHi.mp3)
+[Low number of Bikes](/audio/smart_city/Bikes/bikesLow.mp3)
 
-[audio example of the bikes]
-
+It can also be mapped to change the timbre of the musical patterns playing. Temperature causing a chorusing effect as the temperature increases the motif becomes increasingly 'chorused'.
 
 
 
