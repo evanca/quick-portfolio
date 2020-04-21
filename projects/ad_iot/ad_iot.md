@@ -119,7 +119,11 @@ Data is mapped across the generative, sound synthesis and post-processing layers
 
 Data | Sound
 -----| -----
-stuff|sounds
+Rainfall | Motif Blending (Generative Layer)
+Degree Temperature | Harmonicity Ratio (Synthesis Layer)
+ | Chorusing (FX Layer)
+Windspeed | Panner Freq & Filter Freq (FX Layer)
+
 
 Weather Data Object:
 Rainfall data is mapped to control the blending of the Rain motif into the Shine motif. With higher rainfall values the musical pattern sound closer to the Rain motif with lower values it sounds closer to the Shine motif.
