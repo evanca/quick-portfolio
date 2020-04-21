@@ -80,7 +80,7 @@ During phase 4 I focused on writing functional code that could to be easily depl
 [Link to CSMC Paper](/papers/Roddy.pdf)
 
 
-This system works around the idea of target states. Target states of interest in the market data are associated with unique musical structures. As the data tends towards these target states the audio tends towards the musical structures. This way the listener can gauge how close the market is to the target state by listening to how much the musical structures differ from the target state structures.
+This system works around the idea of target states. Target states of interest in the market data are associated with unique musical structures. As the data tends towards these target states the audio tends towards the musical motif. This way the listener can gauge how close the market is to the target state by listening to how much the musical motif differ from the target state pattern.
 
 This is implemented at the generative level using Genetic Algorithms (GA):
 
@@ -111,12 +111,11 @@ It also uses weather data from the OpenWeather Maps API including rainfall, wind
 <img src="images/Model2.png?raw=true"/><br/>
 
 A number of strategies to mapping data to sound were adopted here.
-Traditional approaches to mapping data to sound (parameter mapping sonification) were employed alongside approaches that involve machine learning techniques. For example in the generative engine the highest point in the dataset is represented with a unique musical structure and the lowest point is represented with another. By blending these motifs together using MusicVAE new musical structures are generated to represent values between these two points. This is a refinement of the target states approach I used for the previous system.
+Traditional approaches to mapping data to sound (parameter mapping sonification) were employed alongside approaches that involve machine learning techniques. For example in the generative engine the highest point in the dataset is represented with a unique musical pattern and the lowest point is represented with another. By blending these motifs together using MusicVAE new musical patterns are generated to represent values between these two points. Essentially, the high point of the data is represented with one musical motif and the low point with another one. All data points in between are then represented as blends of these two motifs.
+This is a refinement of the target states approach I used for the previous system.
 
-
-Expands on the target state idea form last time
-The high point of the data is represented with one musical structure and the low point with another one. All data points in between ]are then represented as blends of these two musical structures.
-
+[Rain motif](/audio/rainMotif.mp3)
+[No Rain motif]()
 
 [audio examples of the rain motiffs]
 [image examples of the rain motiffs?]
