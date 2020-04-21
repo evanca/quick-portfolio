@@ -170,9 +170,7 @@ Bike Data Object:
 
 <img src="images/BikeMap.png?raw=true"/><br/>
 
-
-A filter and a delay unit are added to the signal chain for the noise generator. The bike data is mapped to control the cutoff point of the filter as well as the feedback, wet/dry level the delay times of the noise generator. The delay unit in question is a PingPongDelay.  According to the Tone.js documentiton”PingPongDelay is a feedback delay effect where the echo is heard first in one channel and next in the opposite channel. In a stereo system these are the right and left channels. PingPongDelay in more simplified terms is two Tone.FeedbackDelays with independent delay values. Each delay is routed to one channel (left or right), and the channel triggered second will always trigger at the same interval after the first.” (Embodied Mapping). The ping pong delay and the amplitude envelope for the noise generator are controlled to simulate the sound generated when cycling a bike. The amplitude envelope has even attack, decay and sustain periods, of 100ms each followed by a sharp 1ms release. The ping pong delay introduces repeats of the original pattern alternating between hard left and hard right presentations of each succcessive repeat to create a sound simillar to a cycling motion. The data is mapped to control the delay in the range of .15 to 1.5.
-
+The bike data object consists of a pink noise generator and a ping pong delay. In a ping pong delay the echo swaps back and over between left and right channels each time it is heard. I mapped the data from the number of available bikes in the city to control the rate at which this takes place.
 
 [High number of Bikes](/audio/smart_city/Bikes/bikesHi.mp3)
 [Low number of Bikes](/audio/smart_city/Bikes/bikesLow.mp3)
