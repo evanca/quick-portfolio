@@ -5,6 +5,10 @@
 <!-- //Use some ahref tags to make the images link across to the pages also -->
 ### Live Pages
 <br />
+
+[Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/projects/ad_iot/ad_iot/)
+<img src="images/tabs/ADIOTtab.png?raw=true"/>
+
 [Urban Affect Networks ](/projects/Urban Affect Networks/UAF)
 <img src="images/tabs/UAFtab.png?raw=true"/>
 
