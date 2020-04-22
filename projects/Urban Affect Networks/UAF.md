@@ -58,11 +58,17 @@ Paper on earlier iteration of system:</h4>
 <br />
 <iframe frameborder="0" src="https://drive.google.com/file/d/1awK-N8_hdNML3_gH56VgX2g1jtuekjO6/preview" style="height: 500px; width: 600px;"></iframe>
 
-
 <br />
-<h4>
-&nbsp;</h4>
-<h4>
+
+### Outputs & Activities
+
+### Performances:
+- [Signal to Noise Loops 3++ @ ISSTA 2018, Derry, September 2018](http://issta.ie/call-2018/)
+- [Signal to Noise Loops i2+: Noise Water Dirt @ CSMC 2018, Dublin, August 2018](https://csmc2018.wordpress.com/)
+- [Signal to Noise Loops i++ Live @ xCoAx 2018, Madrid](https://2018.xcoax.org/#perf04)
+- [Noise Loops for Laptop, Improvised Electric Guitar and Dublin City Noise Level Data @ Sonic Dreams 2017, Sonic Arts Waterford, September 30th 2017](https://1.bp.blogspot.com/-HhZc6oL93Og/W0yMNH4jnVI/AAAAAAAAGFE/VlxW3bOMTlono3rkqbBMtE4XAxElOOgAQCLcBGAs/s1600/Sonic-Dreams-Festival-2017-final-poster-2.jpg)
+
+### Recordings
 Link to Performances with earlier iterations of the System:</h4>
 Dublin City Noise Loops<br />
 <a href="https://open.spotify.com/track/63x9Nav3h61MNbcV6uycCX">https://open.spotify.com/track/63x9Nav3h61MNbcV6uycCX</a><br />
