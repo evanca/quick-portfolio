@@ -47,7 +47,7 @@ The following sonification represents the same data (device gateway and upload m
 
 - [Sonification 3](/audio/pn_son/Historical Son.mp3)
 
-The end result of this phase was an auditory display system for representing multiple streams of network data at once. It represented both aggregates of network data  and continuous streams of data. Users could interact with the system via GUI to focus on specific streams of data and attenutate others.
+The end result of this phase was an auditory display framework for representing multiple streams of network data at once. It represented both aggregates of network data  and continuous streams of data. Users could interact with the system via GUI to focus on specific streams of data and attenuate others.
 
 <img src="images/Network_GUI.png?raw=true"/><br/>
 
@@ -56,7 +56,7 @@ The end result of this phase was an auditory display system for representing mul
 
 #### Phase 3: Refine the Data to Sound Mapping Strategies and Development of Design Principles.
 
-The third phase of the project involved the refinement of the mapping strategies developed in the first two phases and the extension of the approach to represent even more data. Approaches that worked were further developed and expanded upon while those that didn't were discarded. This phase resulted in the creation of a new system for sonifying IoT Network data and the creation of a number of design guidelines for future systems. The design guidelines and auditory display system are presented in the Journal of Sonic Studies.
+The third phase of the project involved the refinement of the mapping strategies developed in the first two phases and the extension of the approach to represent even more data. Approaches that worked were further developed and expanded upon while those that didn't were discarded. This phase resulted in the creation of a new framework for sonifying IoT Network data and the creation of a number of design guidelines for future framework. The design guidelines and auditory display framework are presented in the Journal of Sonic Studies.
 
 - [Example of Strong RSSI](/audio/fullsystem/Mp3s/RSSI Strong.mp3)
 - [Example of High Signal to Noise Ratio](/audio/fullsystem/Mp3s/SNR Hi.mp3)
@@ -70,14 +70,14 @@ The third phase of the project involved the refinement of the mapping strategies
 
 #### Phase 4: Market Data, Smart Cities, Evolutionary Computing & Machine Learning Techniques.
 
-Having finalised the design of a system for representing IoT Network Traffic Data and put forward a set of guidelines for developing systems of this type, phase four of the project shifted focus again to consider a broader range of data sources. In the original funding application this phase of the project was intended to explore more creative/artistic applications of auditory display.
-During phase 4 I focused on writing functional code that could to be easily deployed to the web. The two systems designed during this phase are designed to run client-side with the standard HTML/Javascript/CSS stack and sound is synthesised using the tone.js library. In introduced Machine Learning (MuiscVAE, a javascript based variational autoencoder implementation created for musical data by the Google Magenta team) and Evolutionary Computing techniques (mostly genetic algorithms) to aid in the process of mapping data to sound. First, I created an ambient auditory display solution for monitoring financial markets. The data was from the from highly volatile 2018 cryptocurrency markets. It represented the live dollar values of different cryptocurrencies, retrieved via the Coinbase Pro API (originally GDAX). I created multiple mapping strategies for this data, some to generative musical pieces that would represent the overall state of the data in a more stimulating and creative manner and others to more straightforward sound parameters similar to auditory graphs. The system makes use Evolutionary Computing and Machine Learning techniques. It was presented at the 2018 conference on the Computer Simulation of Musical Creativity.
+Having finalised the design of a framework for representing IoT Network Traffic Data and put forward a set of guidelines for developing frameworks of this type, phase four of the project shifted focus again to consider a broader range of data sources. In the original funding application this phase of the project was intended to explore more creative/artistic applications of auditory display.
+During phase 4 I focused on writing functional code that could to be easily deployed to the web. The two frameworks designed during this phase are designed to run client-side with the standard HTML/Javascript/CSS stack and sound is synthesised using the tone.js library. In introduced Machine Learning (MuiscVAE, a javascript based variational autoencoder implementation created for musical data by the Google Magenta team) and Evolutionary Computing techniques (mostly genetic algorithms) to aid in the process of mapping data to sound. First, I created an ambient auditory display solution for monitoring financial markets. The data was from the from highly volatile 2018 cryptocurrency markets. It represented the live dollar values of different cryptocurrencies, retrieved via the Coinbase Pro API (originally GDAX). I created multiple mapping strategies for this data, some to generative musical pieces that would represent the overall state of the data in a more stimulating and creative manner and others to more straightforward sound parameters similar to auditory graphs. The framework makes use Evolutionary Computing and Machine Learning techniques. It was presented at the 2018 conference on the Computer Simulation of Musical Creativity.
 
 
 <iframe height="842" src="https://stephenroddy.github.io/projects/ad_iot/papers/Roddy.pdf" width="592"></iframe><br/>
 - [Link to CSMC Paper](/papers/Roddy.pdf)
 
-This system works around the idea of target states. Target states of interest in the market data are associated with unique musical structures. As the data tends towards these target states the audio tends towards the musical motif. This way the listener can gauge how close the market is to the target state by listening to how much the musical motif differ from the target state pattern.
+This framework works around the idea of target states. Target states of interest in the market data are associated with unique musical structures. As the data tends towards these target states the audio tends towards the musical motif. This way the listener can gauge how close the market is to the target state by listening to how much the musical motif differ from the target state pattern.
 
 This is implemented at the generative level using Genetic Algorithms (GA):
 
@@ -102,15 +102,15 @@ Bringing these steams together results in musical systems which are representati
 
 - [Example Sonification](/audio/mp3s and m4as/LiveSystem.mp3)
 
-#### Smart Cities Data 
+#### Smart Cities Data
 
-This final phase of the project also involved the development of a system for Smart Cities data. Rather than dealing with data at the level of the network, this phase investigated the use of sensor level data. The system uses traffic data from open APIs around Dublin including Noise level data (Sonitus Systems API), number of public bikes available at stands and number of Free Parking Spaces in multi-storey car parks (Dublin City Council API), Travel Times on key routes around the city (Transport Infrastructure Ireland).
-It also uses weather data from the OpenWeather Maps API including rainfall, windspeed and temperature levels. Theoretical frameworks from Embodied Cognitive Science and music theory were once again used to guide the initial design of the system. The system is comprised of the same four component layers involved in the previous system and represented in the figure above. The output consists of three data-driven sound objects presented in sequence. The first object represents weather data the second represents traffic data and the third represents the number of available bikes at city bike stands. When attended to in sequence, the sonification is intended to give an overall sense of the state of the city in terms of these three categories.
+This final phase of the project also involved the development of a framework for Smart Cities data. Rather than dealing with data at the level of the network, this phase investigated the use of sensor level data. The framework uses traffic data from open APIs around Dublin including Noise level data (Sonitus Systems API), number of public bikes available at stands and number of Free Parking Spaces in multi-storey car parks (Dublin City Council API), Travel Times on key routes around the city (Transport Infrastructure Ireland).
+It also uses weather data from the OpenWeather Maps API including rainfall, windspeed and temperature levels. Theoretical frameworks from Embodied Cognitive Science and music theory were once again used to guide the initial design of the framework. The framework is comprised of the same four component layers involved in the previous framework and represented in the figure above. The output consists of three data-driven sound objects presented in sequence. The first object represents weather data the second represents traffic data and the third represents the number of available bikes at city bike stands. When attended to in sequence, the sonification is intended to give an overall sense of the state of the city in terms of these three categories.
 
 <img src="images/Model2.png?raw=true"/><br/>
 
 A number of strategies to mapping data to sound were adopted here.
-Traditional approaches to mapping data to sound (parameter mapping sonification) were employed alongside approaches that involve machine learning techniques. For example in the generative engine the highest point in the dataset is represented with a unique musical pattern and the lowest point is represented with another. By blending these motifs together using MusicVAE new musical patterns are generated to represent values between these two points. Essentially, the high point of the data is represented with one musical motif and the low point with another one. All data points in between are then represented as blends of these two motifs. This is a refinement of the target states approach I used for the previous system.
+Traditional approaches to mapping data to sound (parameter mapping sonification) were employed alongside approaches that involve machine learning techniques. For example in the generative engine the highest point in the dataset is represented with a unique musical pattern and the lowest point is represented with another. By blending these motifs together using MusicVAE new musical patterns are generated to represent values between these two points. Essentially, the high point of the data is represented with one musical motif and the low point with another one. All data points in between are then represented as blends of these two motifs. This is a refinement of the target states approach I used for the previous framework.
 
 
 Data is mapped across the generative, sound synthesis and post-processing layers for each data object.
@@ -178,9 +178,41 @@ The bike data object consists of a pink noise generator and a ping pong delay. I
 - [Low number of Bikes](/audio/smart_city/Bikes/bikesLow.mp3)
 
 
-The following is an example sonification with this system. It represents good weather slight chance of rain above average traffic and few free bikes:
+The following is an example sonification with this framework. It represents good weather slight chance of rain above average traffic and few free bikes:
 
-- [Full system sonification](/audio/smart_city/Full Son/Smart City ML Sonification.mp3)
+- [Full framework sonification](/audio/smart_city/Full Son/Smart City ML Sonification.mp3)
+
+#### The Outputs
+
+#### Book Chapter
+- [Roddy S., Bridges B. (2018) Sound, Ecological Affordances and Embodied Mappings in Auditory Display. In: Filimowicz M., Tzankova V. (eds) New Directions in Third Wave Human-Computer Interaction: Volume 2 - Methodologies. Human–Computer Interaction Series. Springer, Cham.](https://link.springer.com/chapter/10.1007/978-3-319-73374-6_12)
+
+#### Journal Article
+- [Roddy S., & Bridges B. (2018) Addressing the Mapping Problem in Sonic Information Design through Embodied Image Schemata, Conceptual Metaphors and Conceptual Blending. The Journal of Sonic Studies. 17.](https://www.researchcatalogue.net/view/515156/515157)
+
+#### Conference Papers
+
+- [Sounding Human with Data: The Role of Embodied Conceptual Metaphors and Aesthetics in Representing and Exploring Data Sets @ Music Technology Workshop 2016, Michael Smurfit Business School, University College Dublin, June 10th 2016](http://www.ucd.ie/mustwork2016/t4media/MusTWork_2016_Proceedings.pdf)
+
+- [Roddy, S. (2017) Absolute Nothingness: The Kyoto School and Soundart Practice. In Proceedings of Invisible Places 2017.](https://www.researchgate.net/publication/318115471_Absolute_Nothingness_The_Kyoto_School_and_Sound_Art_Practice)
+
+- [Roddy, S. (2018) Ambient Data Monitoring w/Generative Music Systems using Evolutionary Computing & Machine Learning Techniques. CSMC 2018, Dublin, August 2018.](/papers/Roddy.pdf)
+
+#### Science Communication Article
+
+- [Technology Trends Transforming the World' for Impakter January 2019](https://impakter.com/technology-trends-transforming-the-world/)
+
+#### Conference Presentation
+- [IoT and AI-Driven Audio in the Smart City: A Rhythmanalysis inspired approach. ISSTA 2018, Derry](https://drive.google.com/file/d/1XsfvVcSOV8eOTL1HJto_b3DV3w0S30y0/view)
+
+#### Invited Talks
+
+- ["Whose Music?": Panel Discussion on AI in Music Composition at Music Current 2019, CMC Dublin](https://www.facebook.com/events/2480204325324203/)
+- [Data-driven Sound for Raising Awareness, Public Outreach and Insight Generation in Complex Data Sets @ I.NY Creative Education Symposium, Irish World Academy, University of Limerick, October 11th 2017](https://thisisiny.com/2017-2/symposium/)
+- [Sonification, Sound Art & IOT @ The Arts and Technology Research Lab, Trinity College Dublin, December 12th 2016](https://www.tcd.ie/creative-arts/atrl/)
+- [Embodied Sonification @ D.A.T.A: Dublin Arts and Technology Association, The Connect Centre, November 3rd 2016.](http://www.data.ie/?p=2565)
+- [Sonification @ The Connect Centre for Future Networks and Communications, Trinity College Dublin, August 2016](https://connectcentre.ie/)
+- [Sounding Human with Data. @ The International Digital Empathy Workshop, Ulster University, October 31st 2016](https://www.ulster.ac.uk/conference/digital-empathy)
 
 
 ### Creative Skills
