@@ -87,6 +87,38 @@ A number of these pieces have been performed live at academic conferences and cu
 * [Glór Mundo 29th September 2017](https://www.facebook.com/GlorMundO/posts/868313836667030)<br/>
 * [Glór Mundo 27th September 2017](https://www.facebook.com/glormundo/posts/868313836667030)
 
+### Outputs
+This was a multidisciplinary project that resulted in a number of outputs across a broad range of disciplines.
+
+#### Journal Articles
+- [Roddy, S. (2020) Using Conceptual Metaphors to Represent Temporal Context in Time-Series Data Sonification. Interacting with Computers](https://academic.oup.com/iwc/article-abstract/doi/10.1093/iwc/iwz036/5670599)
+- [Roddy, S., & Furlong, D. (2014). Embodied Aesthetics in Auditory Display. Organised Sound, 19(01), 70-77](https://www.cambridge.org/core/journals/organised-sound/article/embodied-aesthetics-in-auditory-display/65EC753E1FA165ADAB7E1034FEAE6576)
+
+#### Conference Papers
+- [Roddy, S. (2017) Composing The Good Ship Hibernia and the Hole in the Bottom of the World. In Proceedings of Audio Mostly 2017 23-26 August 2017](https://www.researchgate.net/publication/319332093_Composing_The_Good_Ship_Hibernia_and_the_Hole_in_the_Bottom_of_the_World)
+- [Roddy, S., & Furlong, D. (2015). Embodied Auditory Display Affordances. In Proceedings of the 12th Sound and Music Computing Conference: National University of Ireland Maynooth (pp. 477-484)](https://www.researchgate.net/publication/280641643_Embodied_Auditory_Display_Affordances)
+- [Roddy, S., & Furlong, D. (2015). Sonification Listening: An Empirical Embodied Approach. In Proceedings of The 21st International Conference on Auditory Display (ICAD 2015) July 8–10, 2015, Graz, Austria. (pp.181-187)](https://smartech.gatech.edu/bitstream/handle/1853/54125/ICAD%20Proceedings%2015-Roddy.pdf?sequence=1&isAllowed=y)
+- [Roddy, S., & Furlong, D. (2013). Embodied cognition in auditory display. In Proceedings Of the 19th International Conference on Auditory Display, July 6-10 Łódź, Poland ( pp. 127-134)](https://smartech.gatech.edu/handle/1853/51657)
+- [Roddy, S., & Furlong, D. (2013). Rethinking the Transmission Medium in Live Computer Music Performance. Presented at the Irish Sound Science and Technology Convocation, Dún Laoghaire Institute of Art, Design and Technology](http://issta.ie/wp-content/uploads/ISSTC-2013-RODDY.pdf)
+
+#### Performances and installations
+- [The Good Ship Hibernia @ Audio Mostly Queen Mary University London 23-26 August 2017](https://audiomostly.com/2017/)
+- [The Good Ship Hibernia @ The 2017 ICAD Concert, Playhouse Theatre, Pennsylvania State University, PA, USA 20-23 June 2017](https://www.icad.org/icad2017/program-2/concert.html)
+- [Doom & Gloom @ Irish sound Science & Technology Convocation, UL & MIC, Limerick, Ireland August 12-13 2015](http://issta.ie/isstc-2015/)
+- [Doom & Gloom @ Sound and Music Computing Concert, NUI Maynooth, Ireland: July 30th -August 1st, 2015](https://www.maynoothuniversity.ie/smc15/concert1.html)
+- [Doom & Gloom @ International Community for Auditory Display Concert, Forum Stadtpark, Graz, Austria: 8-10 July 2015](http://www.forumstadtpark.at/index.php?idcatside=999)
+- [Extensive Structure no 1, The Human Cost, Doom & Gloom @ Contemporary Music Centre Spring Salon Series,  National Concert Hall, Kevin Barry Room March 24th 2015](https://www.cmc.ie/news/200315/cmcs-salon-series-returns-24-march-eclectic-programme-electro-acoustic-works)
+- [Idle Hands- A 31-Part Exploration Of Irish Unemployment From 1983 - 2014 In G Major @ Irish Sound Signal and Technology Convocation @ NUI Maynooth, Ireland August 2014](http://issta.ie/isstc/isstc-2014/)
+- [Symmetric Relations and Hidden Rotations @ Irish Sound Science and Technology Convocation @ Ulster University September 7th-9th 2016](http://issta.ie/isstc-2016/)
+- [Symmetric Relations and Hidden Rotations @ Sonorities Festival of Contemporary Music @ Belfast November 24-26 2016](http://www.sonoritiesfestival.co.uk/images/Sonorities2016_Programme.pdf)
+
+#### Presentations
+- [Data Listening @ Discover Research Dublin 2015, Trinity College Dublin](https://discoverresearchdublin.com/)
+- [Sonification and the Digital Divide @ Digital Material Conference, National University of Ireland Galway, May 21st 2015](https://irishhumanities.com/events/digital-material-conference/)
+
+#### Press
+- [Newspaper Article "Offaly man prepares for 'unique' musical performance in London". The Offaly Express, 17 August 2017.](https://www.offalyexpress.ie/news/home/265639/offaly-man-prepares-for-unique-musical-performance-in-london.html)
+
 ### Creative Skills
 HCI Design. Interaction Design. UX Design. Sound Design. Music Composition. Data Sonification. Data Visualisation.
 
