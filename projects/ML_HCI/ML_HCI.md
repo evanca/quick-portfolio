@@ -16,3 +16,7 @@
 
 1. Upload the Interface for AM Synthesis.
 2. Upload the Interface for FM Synthesis.
+
+1. Talk about the original project with the machine learning training for muiscal models that I did.
+2. Then talk about the pivot over to controlling Drones.
+3. Then cover the movement from drones to sound synthesis.
