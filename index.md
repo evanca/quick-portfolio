@@ -20,7 +20,7 @@
 #### Please Note: This portfolio site is currently under construction. The following pages will go live in the coming weeks. Please check back later to see the finished version.
 ---
 
-[ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)
+[ML Applications in Human-computer Interaction](/)
 <img src="images/tabs/MLHCItab.png?raw=true"/>
 [Dance Projects](/)
 <img src="images/tabs/GPOtab.png?raw=true"/>
@@ -30,6 +30,11 @@
 
 <!-- Below are the properly linked tabs. Make these available and delete others when portfolio is complete -->
 <!--
+
+[ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)
+<img src="images/tabs/MLHCItab.png?raw=true"/>
+
+
 Legitimate Bodies Projects](/)
 <img src="images/tabs/LBtab.jpg?raw=true"/>
 
