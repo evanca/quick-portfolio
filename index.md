@@ -33,12 +33,12 @@
 <img src="images/tabs/GPOtab.png?raw=true"/>
 [Zones 1 & 2](/)
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
-[Legitimate Bodies Projects](/)
-<img src="images/tabs/LBtab.jpg?raw=true"/>
 
 
 <!-- Below are the properly linked tabs. Make these available and delete others when portfolio is complete -->
 <!--
+Legitimate Bodies Projects](/)
+<img src="images/tabs/LBtab.jpg?raw=true"/>
 
 [Auditory Display Solutions for Large-scale Internet of Things (IoT) Network ](/projects/ad_iot/ad_iot)
 <img src="images/tabs/ADIOTtab.png?raw=true"/>
