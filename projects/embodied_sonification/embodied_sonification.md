@@ -95,6 +95,7 @@ This was a multidisciplinary project that resulted in a number of outputs across
 - [Roddy, S., & Furlong, D. (2014). Embodied Aesthetics in Auditory Display. Organised Sound, 19(01), 70-77](https://www.cambridge.org/core/journals/organised-sound/article/embodied-aesthetics-in-auditory-display/65EC753E1FA165ADAB7E1034FEAE6576)
 
 #### Conference Papers
+- [Roddy, S. & Furlong, D. (2018) Vowel Formant Profiles and Image Schemata in Auditory Display. In Proceedings of HCI 2018 4-6 July 2018, Belfast](https://www.researchgate.net/publication/326572938_Vowel_Formant_Profiles_and_Image_Schemata_in_Auditory_Display)
 - [Roddy, S. (2017) Composing The Good Ship Hibernia and the Hole in the Bottom of the World. In Proceedings of Audio Mostly 2017 23-26 August 2017](https://www.researchgate.net/publication/319332093_Composing_The_Good_Ship_Hibernia_and_the_Hole_in_the_Bottom_of_the_World)
 - [Roddy, S., & Furlong, D. (2015). Embodied Auditory Display Affordances. In Proceedings of the 12th Sound and Music Computing Conference: National University of Ireland Maynooth (pp. 477-484)](https://www.researchgate.net/publication/280641643_Embodied_Auditory_Display_Affordances)
 - [Roddy, S., & Furlong, D. (2015). Sonification Listening: An Empirical Embodied Approach. In Proceedings of The 21st International Conference on Auditory Display (ICAD 2015) July 8–10, 2015, Graz, Austria. (pp.181-187)](https://smartech.gatech.edu/bitstream/handle/1853/54125/ICAD%20Proceedings%2015-Roddy.pdf?sequence=1&isAllowed=y)
