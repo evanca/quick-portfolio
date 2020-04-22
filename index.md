@@ -1,11 +1,6 @@
 ## Portfolio
----
-#### Please Note: This portfolio site is currently under construction. It will be updated with new projects throughout May 2020. Please check back later to see the finished version.
----
 <!-- //Use some ahref tags to make the images link across to the pages also -->
-### Live Pages
 <br />
-
 [Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot)
 <img src="images/tabs/ADIOTtab.png?raw=true"/>
 
@@ -21,10 +16,8 @@
 [Sound, Music & Audio Production](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
 
-### Coming Soon
-
 ---
-#### The following portfolio pages are under construction and will go live throughout May 2020.
+#### Please Note: This portfolio site is currently under construction. The following pages will go live in the coming weeks. Please check back later to see the finished version.
 ---
 
 [ML Applications in Human-computer Interaction](/)
