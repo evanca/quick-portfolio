@@ -183,6 +183,7 @@ The following is an example sonification with this framework. It represents good
 - [Full framework sonification](/audio/smart_city/Full Son/Smart City ML Sonification.mp3)
 
 #### The Outputs
+This project resulted in a large body of outputs across a range of disciplines. Some of these explored the [technical](/papers/Roddy.pdf) aspects of the frameworks created while others considered the [aesthetic](http://www.ucd.ie/mustwork2016/t4media/MusTWork_2016_Proceedings.pdf), [theoretical](https://link.springer.com/chapter/10.1007/978-3-319-73374-6_12) and [social](https://impakter.com/technology-trends-transforming-the-world/) dimensions involved this research project.
 
 #### Book Chapter
 - [Roddy S., Bridges B. (2018) Sound, Ecological Affordances and Embodied Mappings in Auditory Display. In: Filimowicz M., Tzankova V. (eds) New Directions in Third Wave Human-Computer Interaction: Volume 2 - Methodologies. Human–Computer Interaction Series. Springer, Cham.](https://link.springer.com/chapter/10.1007/978-3-319-73374-6_12)
