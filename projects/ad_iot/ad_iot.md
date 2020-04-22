@@ -191,22 +191,17 @@ The following is an example sonification with this framework. It represents good
 - [Roddy S., & Bridges B. (2018) Addressing the Mapping Problem in Sonic Information Design through Embodied Image Schemata, Conceptual Metaphors and Conceptual Blending. The Journal of Sonic Studies. 17.](https://www.researchcatalogue.net/view/515156/515157)
 
 #### Conference Papers
-
 - [Sounding Human with Data: The Role of Embodied Conceptual Metaphors and Aesthetics in Representing and Exploring Data Sets @ Music Technology Workshop 2016, Michael Smurfit Business School, University College Dublin, June 10th 2016](http://www.ucd.ie/mustwork2016/t4media/MusTWork_2016_Proceedings.pdf)
-
 - [Roddy, S. (2017) Absolute Nothingness: The Kyoto School and Soundart Practice. In Proceedings of Invisible Places 2017.](https://www.researchgate.net/publication/318115471_Absolute_Nothingness_The_Kyoto_School_and_Sound_Art_Practice)
-
 - [Roddy, S. (2018) Ambient Data Monitoring w/Generative Music Systems using Evolutionary Computing & Machine Learning Techniques. CSMC 2018, Dublin, August 2018.](/papers/Roddy.pdf)
 
 #### Science Communication Article
-
 - [Technology Trends Transforming the World' for Impakter January 2019](https://impakter.com/technology-trends-transforming-the-world/)
 
 #### Conference Presentation
 - [IoT and AI-Driven Audio in the Smart City: A Rhythmanalysis inspired approach. ISSTA 2018, Derry](https://drive.google.com/file/d/1XsfvVcSOV8eOTL1HJto_b3DV3w0S30y0/view)
 
 #### Invited Talks
-
 - ["Whose Music?": Panel Discussion on AI in Music Composition at Music Current 2019, CMC Dublin](https://www.facebook.com/events/2480204325324203/)
 - [Data-driven Sound for Raising Awareness, Public Outreach and Insight Generation in Complex Data Sets @ I.NY Creative Education Symposium, Irish World Academy, University of Limerick, October 11th 2017](https://thisisiny.com/2017-2/symposium/)
 - [Sonification, Sound Art & IOT @ The Arts and Technology Research Lab, Trinity College Dublin, December 12th 2016](https://www.tcd.ie/creative-arts/atrl/)
