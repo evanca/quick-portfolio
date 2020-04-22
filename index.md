@@ -22,16 +22,16 @@
 <img src="images/tabs/STRtab.png?raw=true"/>
 
 ### Coming Soon
- 
+
 ---
 #### The following portfolio pages are under construction and will go live throughout May 2020.
 ---
 
 [ML Applications in Human-computer Interaction](/)
 <img src="images/tabs/STRtab.png?raw=true"/>
-[Embodied at the GPO](/)
+[Dance Projects](/)
 <img src="images/tabs/GPOtab.png?raw=true"/>
-[Zones](/)
+[Zones 1 & 2](/)
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
 [Legitimate Bodies Projects](/)
 <img src="images/tabs/LBtab.jpg?raw=true"/>
