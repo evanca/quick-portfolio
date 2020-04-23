@@ -11,7 +11,7 @@ We created two location/proximity-aware installations that were delivered over m
 My role involved the design of the visual and audio elements for each installation, assistance in the design and testing of the underlying AR framework and to install each piece.
 
 #### Sound design & Sonification
-The first installation involved 7 different sonifications of data from the European migrant crisis. Two datasets were used. The first represented the number of migrants lost at sea between the 01/10/2015 and the 24/08/2016 and the second represented Syrian Emigration Rate 2007-2014. Data was acquired from the World Bank's open data resources.
+The first installation involved 7 different sonifications of data from the European migrant crisis. Two datasets were used. The first represented the number of migrants lost at sea between the 01/10/2015 and the 24/08/2016 and the second represented Syrian Emigration Rate 2007-2014. Data was acquired from the UNHRC and the World Bank's open data resources.
 
 The 6 sonifications of those lost at sea were created using granular synthesis techniques (in Csound) where audio files containing recordings of the Mediterranean sea were split into tiny pieces called grains and then reassembled to create timbral structures termed 'grain clouds'. The data was mapped to control the parameters of these grain clouds: amplitude, density, transposition factor, octaviation ratio and grain size. The original recording of waves in the Mediterranean sea was  reprocessed to become a sonification. The end result is a sonification that still sounds like the sea, but the sound rises in intensity to reflect the data.
 
@@ -26,11 +26,31 @@ An additional 5 sonifications were created using these techniques.
 
 The data representing the Syrian emigration rate was dealt with differently. This data was mapped to midi control change (CC) values and used to control the level of distortion applied to a tone that was synthesised using wavetable synthesis techniques in Logic Pro X. The results is a drone that grows in intensity to reflect the changes in the original dataset.
 
-[Droning Sonification](/OtherSon.mp3)
+[Drone Sonification](/OtherSon.mp3)
 
 Soundscape recordings were gathered from sources in Middle Eastern countries and Europe. Further sound design elements included material taken from TV and Radio broadcasts about the crisis, which were edited into a collage and soundscapes designed to evoke a sense off empty space.
 
 [Radio Collage 1](/Radio1.mp3)
+
+#### Overall Concept
+
+Each installation had a number of live hotspots and as you move towards a hotspot the soundscape you experience over your headphones change. There are distinct locations
+Distinct locations:
+Syria
+Drone place
+Mediterranean place
+Media
+Europe
+Idealised Empty place
+
+
+[Standing in the Center](/Standing in Center.mp3)
+[Standing at the Edge](/Standing at Edge.mp3)
+
+
+
+
+
 
 
 Additional sonification strategies were explored also
