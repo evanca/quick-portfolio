@@ -2,7 +2,7 @@
 <!-- //Use some ahref tags to make the images link across to the pages also -->
 <br />
 [Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot)
-<img src="images/tabs/ADIOTtab.png?raw=true"/>
+<img src="images/tabs/ADIOTtab3.png?raw=true"/>
 
 [Urban Affect Networks ](/projects/Urban Affect Networks/UAF)
 <img src="images/tabs/UAFtab.png?raw=true"/>
