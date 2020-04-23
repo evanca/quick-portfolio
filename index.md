@@ -2,28 +2,30 @@
 
 ---
 
-### Category Name 1 
+### Professional 
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Self Building Jenkins CI Server](/self-building-jenkins)
+<img src="images/vagrant.png?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Launching an Open Source Office](/OSO-launch)
+<img src="images/OSO.png?raw=true"/>
+
+---
+[Automated Branch Protection Web Service](https://github.com/zkoppert/Auto-branch-protect)
+<img src="images/web-service.png?raw=true"/>
+
+---
+[Article on Productivity Dashboard for Devs](https://medium.com/initial-state/productivity-dashboard-for-devs-58eea6b2c59a)
+<img src="images/dashboard.png">
 
 ---
 
-### Category Name 2
+### Personal
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [GitHub App - Comments on new issues](https://github.com/zkoppert/Carl-the-llama)
+    - I used this project as an opportunity to learn CI with JavaScript, CD to AWS Lambda, project documentation and security scanning with semmle.
+- [Article on Career Planning](https://medium.com/@zacheryk89/career-planning-in-tech-91b650457a59)
 
 ---
 
