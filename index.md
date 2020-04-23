@@ -27,6 +27,7 @@
 [Zones](/)
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
 
+<!-- made some changes to tab colors -->
 
 <!-- Below are the properly linked tabs. Make these available and delete others when portfolio is complete -->
 <!--
