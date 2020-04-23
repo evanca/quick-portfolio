@@ -18,7 +18,7 @@ The 6 sonifications of those lost at sea were created using granular synthesis t
 [Original Recording of Waves](/original file is waves.mp3)
 [Sonification made from recording](/sonification file is waves1.mp3)
 
-An additional 5 sonifications were created using these techniques. 
+An additional 5 sonifications were created using these techniques.
 
 [Example 1](/MedSon1.mp3)
 [Example 2](/MedSon3.mp3)
@@ -34,7 +34,6 @@ Soundscape recordings were gathered from sources in Middle Eastern countries and
 
 
 Additional sonification strategies were explored also
-
 
 Soundscape recordings were gathered from sources in Middle Eastern countries and Europe.
 
