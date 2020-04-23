@@ -24,7 +24,7 @@
 <img src="images/tabs/MLHCItab.png?raw=true"/>
 [Dance Projects](/)
 <img src="images/tabs/GPOtab.png?raw=true"/>
-[Zones 1 & 2](/)
+[Zones](/)
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
 
 
