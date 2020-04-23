@@ -58,13 +58,13 @@ The end result of this phase was an auditory display framework for representing 
 
 The third phase of the project involved the refinement of the mapping strategies developed in the first two phases and the extension of the approach to represent even more data. Approaches that worked were further developed and expanded upon while those that didn't were discarded. This phase resulted in the creation of a new framework for sonifying IoT Network data and the creation of a number of design guidelines for future framework. The design guidelines and auditory display framework are presented in the Journal of Sonic Studies.
 
-- [Example of Strong RSSI](/audio/fullsystem/Mp3s/RSSI Strong.mp3)
-- [Example of High Signal to Noise Ratio](/audio/fullsystem/Mp3s/SNR Hi.mp3)
-- [Example of Gateway Reboot](/audio/fullsystem/Mp3s/GWReboot.mp3)
+- [Example of Strong RSSI](/audio/framework/Mp3s/RSSI Strong.mp3)
+- [Example of High Signal to Noise Ratio](/audio/framework/Mp3s/SNR Hi.mp3)
+- [Example of Gateway Reboot](/audio/framework/Mp3s/GWReboot.mp3)
 
-- [Sonification of Healthy Network Activity](/audio/fullsystem/Mp3s/Good Network.mp3)
-- [Sonification of Standard Network Activity](/audio/fullsystem/Mp3s/Standard Network.mp3)
-- [Sonification of Unhealthy Network Activity](/audio/fullsystem/Mp3s/Bad Network.mp3)
+- [Sonification of Healthy Network Activity](/audio/framework/Mp3s/Good Network.mp3)
+- [Sonification of Standard Network Activity](/audio/framework/Mp3s/Standard Network.mp3)
+- [Sonification of Unhealthy Network Activity](/audio/framework/Mp3s/Bad Network.mp3)
 
 - [Link to JSS Paper](https://www.researchcatalogue.net/view/515156/515157)
 
