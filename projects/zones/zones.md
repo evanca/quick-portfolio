@@ -1,15 +1,52 @@
-physical### The Zones Project
+### The Zones Project
 
 #### Project Description
 Zones was collaborative project between Alan Dormer, Black Bear Software and myself.
-It involved the development two mobile-based Augmented Reality (AR) installation systems. AR enriches and enhances our experience of real-world environments by overlaying new perceptual information that seamlessly integrates into our experience of an environment in realtime. This combination of the real and virtual worlds opens up new interactive and experiential possibilities.
+It involved the development two mobile-based Augmented Reality (AR) installations. AR enriches and enhances our experience of real-world environments by overlaying new perceptual information that seamlessly integrates into our experience of an environment in realtime. This combination of the real and virtual worlds opens up new interactive and experiential possibilities.
+
+#### How it Worked
+We created two location/proximity-aware installations that were delivered over mobile devices with headphones. The system mapped audio and images to specific locations within the environments. Participants could then navigate through the spaces and the sounds they were hearing and images they were seeing over the app would change depending on the route they took through the environment.  
+
+#### My Role
+My role involved the design of the visual and audio elements for each installation, assistance in the design and testing of the underlying AR framework and to install each piece.
+
+#### Sound design & Sonification
+The first installation involved 7 different sonifications of data from the European migrant crisis. Two datasets were used. The first represented the number of migrants lost at sea between the 01/10/2015 and the 24/08/2016 and the second represented Syrian Emigration Rate 2007-2014.
+
+The 6 sonifications of those lost at sea were created using granular synthesis techniques where audio files containing recordings of the Mediterranean sea were split into tiny pieces called grains and then reassembled to create timbral structures termed 'grain clouds'. The data was mapped to control the parameters of these grain clouds. The original recording of waves in the Mediterranean sea was  reprocessed to become a sonification. The end result is a sonification that still sounds like the sea, but the sound rises in intensity to reflect the data.
+
+[Original Recording of Waves](/original file is waves.mp3)
+[Sonification made from recording](/sonification file is waves1.mp3)
+
+An additional 5 sonifications were created using these techniques
+[Example 1](/MedSon1.mp3)
+[Example 2](/MedSon3.mp3)
+[Example 3](/MedSon5.mp3)
+
+The data representing the Syrian emigration rate was dealt with differently. This data was mapped to midi control change (CC) values and used to synthesis a sonification in Reaktor 5 (I think it was reaktor 5 recheck all the files)
+
+[Example 1](/OtherSon.mp3)
+
+Soundscape recordings were gathered from sources in Middle Eastern countries and Europe. Further sound design elements included material taken from TV and Radio broadcasts about the crisis, which were edited into a collage and soundscapes designed to evoke a sense off empty space.
+
+[Radio Collage 1](/Radio1.mp3)
 
 
-The two installations in this project
+Additional sonification strategies were explored also
+
+
+Soundscape recordings were gathered from sources in Middle Eastern countries and Europe.
+
+Further sonic elements were synthesised using a variety of synthesis techniques.
 
 
 
-#### Project Description
+
+#### Visual Design
+
+#### Location
+
+#### Iteration 2
 
 Network and mobile technologies allow us to layer virtual digital spaces on top of real-world spaces introducing new perceptual information that augments our experience of the physical world.
 
