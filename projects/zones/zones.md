@@ -16,16 +16,16 @@ The first installation involved 7 different sonifications of data from the Europ
 The 6 sonifications of those lost at sea were created using granular synthesis techniques (in Csound) where audio files containing recordings of the Mediterranean sea were split into tiny pieces called grains and then reassembled to create timbral structures termed 'grain clouds'. The data was mapped to control the parameters of these grain clouds: amplitude, density, transposition factor, octaviation ratio and grain size. The original recording of waves in the Mediterranean sea was  reprocessed to become a sonification. The end result is a sonification that still sounds like the sea, but the sound rises in intensity to reflect the data. The original recording of the waves is then mixed back into the sonification to create the final audio stream.
 
 
-[Original Recording of Waves](/original file is waves.mp3)
-[Sonification made from recording](/sonification file is waves1.mp3)
+- [Original Recording of Waves](/original file is waves.mp3)
+- [Sonification made from recording](/sonification file is waves1.mp3)
 
-[Final File: Data & Waves](/MedSon1.mp3)
+- [Final File: Data & Waves](/MedSon1.mp3)
 
 A number of additional sonifications were created in which the data is mapped to slightly different timescales or parameters.
 
-[Example 1](/MedSon1.mp3)
-[Example 2](/MedSon3.mp3)
-[Example 3](/MedSon5.mp3)
+- [Example 1](/MedSon1.mp3)
+- [Example 2](/MedSon3.mp3)
+- [Example 3](/MedSon5.mp3)
 
 The data representing the Syrian emigration rate was dealt with differently. This data was mapped to midi control change (CC) values and used to control the level of distortion applied to a tone that was synthesised using wavetable synthesis techniques in Logic Pro X. The results is a drone that grows in intensity to reflect the changes in the original dataset.
 
