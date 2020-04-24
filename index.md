@@ -7,6 +7,9 @@
 [Urban Affect Networks ](/projects/Urban Affect Networks/UAF)
 <img src="images/tabs/UAFtab.png?raw=true"/>
 
+[The Zones Project](/projects/zones/zones)
+<img src="images/tabs/ZNStab.jpg?raw=true"/>
+
 [Embodied Sonification](/projects/embodied_sonification/embodied_sonification)
 <img src="images/tabs/HCtab.png?raw=true"/>
 
@@ -24,8 +27,7 @@
 <img src="images/tabs/MLHCItab.png?raw=true"/>
 [Dance Projects](/)
 <img src="images/tabs/NEWtab.png?raw=true"/>
-[The Zones Project](/)
-<img src="images/tabs/ZNStab.jpg?raw=true"/>
+
 
 <!-- made some changes to tab colours -->
 
