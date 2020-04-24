@@ -32,16 +32,9 @@ Soundscape recordings were gathered from sources in Middle Eastern countries and
 
 [Radio Collage 1](/Radio1.mp3)
 
-#### Overall Concept
+#### Experience Design
 
-Each installation had a number of live hotspots and as you move towards a hotspot the soundscape you experience over your headphones change. There are distinct locations
-Distinct locations:
-Syria
-Drone place
-Mediterranean place
-Media
-Europe
-Idealised Empty place
+Each installation had a number of distinct environments each with their own soundscape and associated imagery. As you move through the physical space you can explores these different environments. Three of these environments are tied to specific places. One environment is comprised of soundscapes from Syria, another consists of the Mediterranean sea sonifications and a third is comprised of soundscapes from around Europe. The remaining three are more abstract sonic landscapes. One designed to sound like an idealised empty space or void, a second comprised of collages of TV and radio broadcasts about the crisis and a third consisted of threatening drone sounds 
 
 
 [Standing in the Center](/Standing in Center.mp3)
