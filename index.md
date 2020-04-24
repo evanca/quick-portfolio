@@ -24,7 +24,7 @@
 <img src="images/tabs/MLHCItab.png?raw=true"/>
 [Dance Projects](/)
 <img src="images/tabs/NEWtab.png?raw=true"/>
-[Zones](/)
+[The Zones Project](/)
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
 
 <!-- made some changes to tab colours -->
