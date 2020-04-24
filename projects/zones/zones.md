@@ -1,14 +1,14 @@
 ### The Zones Project
 
 #### Project Description
-Zones was collaborative project between Alan Dormer and myself.
+Zones was collaborative project between Alan Dormer, Black Bear Software and myself.
 It involved the development two mobile-based Augmented Reality (AR) installations. AR enriches and enhances our experience of real-world environments by overlaying new perceptual information that seamlessly integrates into our experience of an environment in realtime. This combination of the real and virtual worlds opens up new interactive and experiential possibilities.
 
 #### How it Worked
 We created two location/proximity-aware installations that were delivered over mobile devices with headphones. The system was driven by a mobile phone application interacting with a Bluetooth (BLE 4.0) beacon infrastructure. The system mapped audio and images to specific locations within the environments. Participants could then navigate through the spaces and the sounds they were hearing and images they were seeing over the app would change depending on the route they took through the environment.  
 
 #### The Design Process
-My role involved the design of the visual and audio elements for each installation, assistance in the design and testing of the underlying AR framework and to install each piece. The development process involved working with Alan our developer Shane to put together a prototype. With this in place we set up an indoor testing space and an outdoor space. We installed the prototype in both spaces and began user testing. We adopted an iterative approach to design where testing would be followed by consultation with Shane who would implement our changes.
+My role involved the design of the visual and audio elements for each installation, assistance in the design and testing of the underlying AR framework and to install each piece. The development process involved working with Alan and the development team at Black Bear to put together a prototype. With this in place we set up an indoor testing space and an outdoor space. We installed the prototype in both spaces and began user testing. We adopted an iterative approach to design where testing would be followed by consultation with Black Bear who would implement our changes.
 
 #### Sound design & Sonification
 The first installation involved 7 different sonifications of data from the European migrant crisis. Two datasets were used. The first represented the number of migrants lost at sea between the 01/10/2015 and the 24/08/2016 and the second represented Syrian Emigration Rate 2007-2014. Data was acquired from the UNHRC and the World Bank's open data resources.
