@@ -50,8 +50,7 @@ Empty Environment:
 - [Empty Space 3](Zones 1/Audio/SR/B6/Emp3.mp3)
 - [Empty Space 5](Zones 1/Audio/SR/B6/Emp5.mp3)
 
-
-Navigating through the Installation:
+Navigating through Zones 1:
 - [Zones 1 Installation](Zones 1/Audio/Zones_1.mp3)
 
 #### Visual Design
@@ -77,13 +76,11 @@ The first iteration of Zones was installed at the the Craft Village in Derry whe
 <img src="images/craft_village.jpg?raw=true"/><br/>
 
 We were invited to install a second iteration of Zones indoors at the International Workshop on Digital Empathy in The Great Hall at Ulster University's Magee Campus in Derry.
-The second iteration of Zones was a sizeable improvement over the first. Additional sonification and audio elements were introduced to account for the new location and a new soundscape elements were designed punctuate this new experience. The environment that had previously comprised of a sonification of Syrian emigration data was now populated with droning tones created using wavetable synthesis methods.
+The second iteration of Zones was a sizeable improvement over the first. Additional audio elements were introduced to account for the new location and a new soundscape elements were designed punctuate this new experience. The environment that had previously comprised of a sonification of Syrian emigration data was now populated with droning tones created using wavetable synthesis methods.
 
 <img src="images/great_hall.jpg?raw=true"/><br/>
 
-- [2](/Standing in Center.mp3)
-- [Son 2](/Standing at Edge.mp3)
-
-- [Moving through the Center](/Standing in Center.mp3)
-- [Moving around Edge 4](/Standing at Edge.mp3)
-- [Approaching Dronescape from Edge 2](/Standing at Edge.mp3)
+Navigating through Zones 2:
+- [Moving through the Center](/Zones 2/Audio/Full Recordings/Z2_Centre.mp3)
+- [Moving around Syria](/Zones 2/Audio/Full Recordings/Z2_SyriaScape.mp3)
+- [Approaching the DroneScape](/Zones 2/Audio/Full Recordings/Z2_DroneScape.mp3)
