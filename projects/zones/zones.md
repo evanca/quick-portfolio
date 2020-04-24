@@ -66,12 +66,13 @@ Location 5:
 <img src="images/app/page5.png?raw=true"/><br/>
 
 #### Experience Design
-
 Each installation had a number of distinct environments each with their own soundscape and associated imagery. As you move through the physical space you can explores these different environments. Three of these environments are tied to specific places. One environment is comprised of soundscapes from Syria, another consists of the Mediterranean sea sonifications and a third is comprised of soundscapes from around Europe. The remaining three are more abstract sonic landscapes. One sonic landscape is designed to sound like an idealised empty space or void.  A second is comprised of relevant media material from TV and radio broadcasts and a third is comprised of the sonification of the Syrian emigration rate described previously.
 Mobile technologies played an [important role in helping people navigate their way out of Syria and into Europe at the onset of the Syrian Civil War.](https://www.wired.com/2015/12/smartphone-syrian-refugee-crisis/) The Zones project was designed with this phenomenon in mind allowing the audience members to navigate through an analogous series of environments using their own mobile devices.
 
 #### Installations & Iterations
-The first iteration of Zones was installed at the the Craft Village in Derry where it was open to public audiences for three days as part of the 2016 Irish Sound Science and Technology Festival. The installation was well received and covered on local radio.
+The first iteration of Zones was installed at the the Craft Village in Derry where it was open to public audiences for three days as part of the 2016 Irish Sound Science and Technology Festival. The installation was well received and covered on local radio and we delivered a conference presentation about the development of the system:
+
+[Sound Place and Multi-place @ The Irish Sound Science and Technology Association Conference, Ulster University, September 7th 2016](https://drive.google.com/file/d/1GuGESpqTsXv98x-d86LRmn9hikweBm5n/view)
 
 <img src="images/craft_village.jpg?raw=true"/><br/>
 
