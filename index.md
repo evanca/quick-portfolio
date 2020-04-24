@@ -7,14 +7,14 @@
 [Urban Affect Networks ](/projects/Urban Affect Networks/UAF)
 <img src="images/tabs/UAFtab.png?raw=true"/>
 
-[The Zones Project](/projects/zones/zones)
-<img src="images/tabs/ZNStab.jpg?raw=true"/>
-
 [Embodied Sonification](/projects/embodied_sonification/embodied_sonification)
 <img src="images/tabs/HCtab.png?raw=true"/>
 
 [Indices on the Body](/projects/indices/indices_audio)
 <img src="images/tabs/JLNtab.png?raw=true"/>
+
+[The Zones Project](/projects/zones/zones)
+<img src="images/tabs/ZNStab.jpg?raw=true"/>
 
 [Sound, Music & Audio Production](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
