@@ -39,15 +39,13 @@ Soundscape recordings were gathered from sources in Middle Eastern countries and
 We chose a clean and minimalistic approach to the design of the visuals components for the app. I created some visual elements for the landing page and re-processed (glitched) as series of images representing the different environments. The app was reactive to the users location so rather than touching or swiping it was responsive to their movement throughout the physical space and virtual environments.
 
 <img src="images/app/about.png?raw=true"/><br/>
-- [About Page](/images/app/about.png)
-
-More images:
-- [Holding page](/images/app/hold.png)
-- [Location 4 ](/images/app/hold.png)
-- [Location 5](/images/app/hold.png)
-
+About Page
+<img src="images/app/hold.png?raw=true"/><br/>
+Holding Page
 <img src="images/app/page4.png?raw=true"/><br/>
+Location 4
 <img src="images/app/page5.png?raw=true"/><br/>
+Location 5
 
 #### Experience Design
 
