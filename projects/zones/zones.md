@@ -21,7 +21,6 @@ The 6 sonifications of those lost at sea were created using granular synthesis t
 
 - [Original Recording of Waves](/original file is waves.mp3)
 - [Sonification made from recording](/sonification file is waves1.mp3)
-
 - [Final File: Data & Waves](/MedSon1.mp3)
 
 A number of additional sonifications were created in which the data is mapped to slightly different timescales or parameters.
@@ -64,6 +63,8 @@ The first iteration of Zones was installed at the the Craft Village in Derry whe
 
 We were invited to install a second iteration of Zones indoors at the International Workshop on Digital Empathy in The Great Hall at Ulster University's Magee Campus in Derry.
 The second iteration of Zones was a sizeable improvement over the first. Additional sonification and audio elements were introduced to account for the new location and a new soundscape elements were designed punctuate this new experience. The environment that had previously comprised of a sonification of Syrian emigration data was now populated with droning tones created using wavetable synthesis methods.
+
+<img src="images/great_hall.jpg?raw=true"/><br/>
 
 - [2](/Standing in Center.mp3)
 - [Son 2](/Standing at Edge.mp3)
