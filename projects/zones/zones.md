@@ -7,8 +7,8 @@ It involved the development two mobile-based Augmented Reality (AR) installation
 #### How it Worked
 We created two location/proximity-aware installations that were delivered over mobile devices with headphones. The system was driven by a mobile phone application interacting with a Bluetooth (BLE 4.0) beacon infrastructure. The system mapped audio and images to specific locations within the environments. Participants could then navigate through the spaces and the sounds they were hearing and images they were seeing over the app would change depending on the route they took through the environment.  
 
-#### My Role
-My role involved the design of the visual and audio elements for each installation, assistance in the design and testing of the underlying AR framework and to install each piece.
+#### The Design Process
+My role involved the design of the visual and audio elements for each installation, assistance in the design and testing of the underlying AR framework and to install each piece. The development process involved working with Alan & Black Bear to put together a prototype. With this in place we set up an indoor testing space and an outdoor space. We installed the prototype in both spaces and began user testing. We adopted an iterative approach to design where testing would be followed by consultation with the development team at Black Bear who would implement our changes.
 
 #### Sound design & Sonification
 The first installation involved 7 different sonifications of data from the European migrant crisis. Two datasets were used. The first represented the number of migrants lost at sea between the 01/10/2015 and the 24/08/2016 and the second represented Syrian Emigration Rate 2007-2014. Data was acquired from the UNHRC and the World Bank's open data resources.
@@ -32,13 +32,6 @@ Soundscape recordings were gathered from sources in Middle Eastern countries and
 
 [Radio Collage 1](/Radio1.mp3)
 
-#### Experience Design
-
-Each installation had a number of distinct environments each with their own soundscape and associated imagery. As you move through the physical space you can explores these different environments. Three of these environments are tied to specific places. One environment is comprised of soundscapes from Syria, another consists of the Mediterranean sea sonifications and a third is comprised of soundscapes from around Europe. The remaining three are more abstract sonic landscapes. One sonic landscape is designed to sound like an idealised empty space or void.  A second is comprised of material form TV and radio broadcasts about the crisis and a third consisted of harsh drone sounds synthesised using.
-
-[Standing in the Center](/Standing in Center.mp3)
-[Standing at the Edge](/Standing at Edge.mp3)
-
 #### Visual Design
 We chose a clean and minimalistic approach to the design of the visuals components for the app. I created some visual elements for the landing page and re-processed (glitched) as series of images representing the different environments. The app was reactive to the users location so rather than touching or swiping it was responsive to their movement throughout the physical space and virtual environments.
 
@@ -46,10 +39,21 @@ We chose a clean and minimalistic approach to the design of the visuals componen
 
 #### Experience Design
 
-Each installation had a number of distinct environments each with their own soundscape and associated imagery. As you move through the physical space you can explores these different environments. Three of these environments are tied to specific places. One environment is comprised of soundscapes from Syria, another consists of the Mediterranean sea sonifications and a third is comprised of soundscapes from around Europe. The remaining three are more abstract sonic landscapes. One sonic landscape is designed to sound like an idealised empty space or void.  A second is comprised of material form TV and radio broadcasts about the crisis and a third consisted of harsh drone sounds that were synthesised using wavetable synthesis methods and distortion modelling.
+Each installation had a number of distinct environments each with their own soundscape and associated imagery. As you move through the physical space you can explores these different environments. Three of these environments are tied to specific places. One environment is comprised of soundscapes from Syria, another consists of the Mediterranean sea sonifications and a third is comprised of soundscapes from around Europe. The remaining three are more abstract sonic landscapes. One sonic landscape is designed to sound like an idealised empty space or void.  A second is comprised of relevant media material from TV and radio broadcasts and a third is comprised of the sonification of the Syrian emigration rate described previously.
 Mobile technologies played an [important role in helping people navigate their way out of Syria and into Europe at the onset of the Syrian Civil War.](https://www.wired.com/2015/12/smartphone-syrian-refugee-crisis/) The Zones project was designed with this phenomenon in mind allowing the audience members to navigate through an analogous series of environments using their own mobile devices.
 
-[Standing in the Center](/Standing in Center.mp3)
-[Standing at the Edge](/Standing at Edge.mp3)
-
 #### Installations & Iterations
+The first iteration of Zones was installed at the the Craft Village in Derry as part of the 2016 Irish Sound Science and Technology Festival.
+
+
+[Zones 1 Example](/Standing at Edge.mp3)
+
+We were invited to install a second version indoors at the International Workshop on Digital Empathy in The Great Hall at Ulster University's Magee Campus in Derry.
+The second iteration of Zones was a further improvement over the first. Additional sonification and audio elements were introduced to account for the new location and a new soundscape was designed as a bed on which these elements could sit.
+
+[2](/Standing in Center.mp3)
+[Son 2](/Standing at Edge.mp3)
+
+[Moving through the Center](/Standing in Center.mp3)
+[Moving around Edge 4](/Standing at Edge.mp3)
+[Approaching Dronescape from Edge 2](/Standing at Edge.mp3)
