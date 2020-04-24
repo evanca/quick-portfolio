@@ -27,19 +27,32 @@ Sonification made from original recording:
 Finished Audio Mixing Waves and Sonification:
 - [Final File: Data & Waves](/Zones1 /Audio/Lost_at_sea/MedSon1.mp3)
 
-A number of additional sonifications were created in which the data is mapped to slightly different timescales or parameters.
+A number of additional sonifications were created in which the data is mapped to slightly different timescales and synthesis parameters.
 
-- [Example 1](/MedSon2.mp3)
-- [Example 2](/MedSon3.mp3)
-- [Example 3](/MedSon5.mp3)
+- [Medson3](Zones 1/Audio/SR/B3/MedSon3.mp3)
+- [Medson4](Zones 1/Audio/SR/B3/MedSon4.mp3)
+- [Medson5](Zones 1/Audio/SR/B3/MedSon5.mp3)
 
 The data representing the Syrian emigration rate was dealt with differently. This data was mapped to midi control change (CC) values and used to control the level of distortion applied to a tone that was synthesised using wavetable synthesis techniques in Logic Pro X. The results is a drone that grows in intensity to reflect the changes in the original dataset.
 
-- [Drone Sonification](/OtherSon.mp3)
+- [Drone Sonification](/Zones 1/Audio/SR/B2/Son.mp3)
 
-Soundscape recordings were gathered from sources in Middle Eastern countries and Europe. Further sound design elements included material taken from TV and Radio broadcasts about the crisis, which were edited into a collage and soundscapes designed to evoke a sense off empty space.
+Soundscape recordings were gathered from sources in Middle Eastern countries and Europe. A number of these were recorded by Alan.
+I processed these recordings further using distortion and artificial glitching techniques. Further sound design elements included material taken from TV and Radio broadcasts about the crisis, which were edited into a collage and soundscapes designed to evoke a sense off empty space.
 
-- [Radio Collage 1](/Radio1.mp3)
+Media Environment:
+- [Media Collage 1](Zones 1/Audio/SR/B4/Rad1.mp3)
+- [Media Collage 2](Zones 1/Audio/SR/B4/Rad2.mp3)
+- [Media Collage 3](Zones 1/Audio/SR/B4/Rad3.mp3)
+
+Empty Environment:
+- [Empty Space 1](Zones 1/Audio/SR/B6/Emp1.mp3)
+- [Empty Space 3](Zones 1/Audio/SR/B6/Emp3.mp3)
+- [Empty Space 5](Zones 1/Audio/SR/B6/Emp5.mp3)
+
+
+Navigating through the Installation:
+- [Zones 1 Installation](Zones 1/Audio/Zones_1.mp3)
 
 #### Visual Design
 We chose a clean and minimalistic approach to the design of the visuals components for the app. I created some visual elements for the landing page and re-processed (glitched) as series of images representing the different environments. The app was reactive to the users location so rather than touching or swiping it was responsive to their movement throughout the physical space and virtual environments.
@@ -62,8 +75,6 @@ Mobile technologies played an [important role in helping people navigate their w
 The first iteration of Zones was installed at the the Craft Village in Derry where it was open to public audiences for three days as part of the 2016 Irish Sound Science and Technology Festival. The installation was well received and covered on local radio.
 
 <img src="images/craft_village.jpg?raw=true"/><br/>
-
-- [Zones 1 Example](/Standing at Edge.mp3)
 
 We were invited to install a second iteration of Zones indoors at the International Workshop on Digital Empathy in The Great Hall at Ulster University's Magee Campus in Derry.
 The second iteration of Zones was a sizeable improvement over the first. Additional sonification and audio elements were introduced to account for the new location and a new soundscape elements were designed punctuate this new experience. The environment that had previously comprised of a sonification of Syrian emigration data was now populated with droning tones created using wavetable synthesis methods.
