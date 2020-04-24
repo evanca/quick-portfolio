@@ -43,13 +43,11 @@ Each installation had a number of distinct environments each with their own soun
 Mobile technologies played an [important role in helping people navigate their way out of Syria and into Europe at the onset of the Syrian Civil War.](https://www.wired.com/2015/12/smartphone-syrian-refugee-crisis/) The Zones project was designed with this phenomenon in mind allowing the audience members to navigate through an analogous series of environments using their own mobile devices.
 
 #### Installations & Iterations
-The first iteration of Zones was installed at the the Craft Village in Derry as part of the 2016 Irish Sound Science and Technology Festival.
-
+The first iteration of Zones was installed at the the Craft Village in Derry where it was open to public audiences for three days as part of the 2016 Irish Sound Science and Technology Festival. The installation was well received and covered on local radio.
 
 [Zones 1 Example](/Standing at Edge.mp3)
 
-
-We were invited to install a second version indoors at the International Workshop on Digital Empathy in The Great Hall at Ulster University's Magee Campus in Derry.
+We were invited to install a second iteration of Zones indoors at the International Workshop on Digital Empathy in The Great Hall at Ulster University's Magee Campus in Derry.
 The second iteration of Zones was a sizeable improvement over the first. Additional sonification and audio elements were introduced to account for the new location and a new soundscape elements were designed punctuate this new experience. The environment that had previously comprised of a sonification of Syrian emigration data was now populated with droning tones created using wavetable synthesis methods.
 
 [2](/Standing in Center.mp3)
