@@ -5,7 +5,7 @@ Zones was collaborative project between Alan Dormer, Black Bear Software and mys
 It involved the development two mobile-based Augmented Reality (AR) installations. AR enriches and enhances our experience of real-world environments by overlaying new perceptual information that seamlessly integrates into our experience of an environment in realtime. This combination of the real and virtual worlds opens up new interactive and experiential possibilities.
 
 #### How it Worked
-We created two location/proximity-aware installations that were delivered over mobile devices with headphones. The system mapped audio and images to specific locations within the environments. Participants could then navigate through the spaces and the sounds they were hearing and images they were seeing over the app would change depending on the route they took through the environment.  
+We created two location/proximity-aware installations that were delivered over mobile devices with headphones. The system was driven by a mobile phone application interacting with a Bluetooth (BLE 4.0) beacon infrastructure. The system mapped audio and images to specific locations within the environments. Participants could then navigate through the spaces and the sounds they were hearing and images they were seeing over the app would change depending on the route they took through the environment.  
 
 #### My Role
 My role involved the design of the visual and audio elements for each installation, assistance in the design and testing of the underlying AR framework and to install each piece.
@@ -34,79 +34,22 @@ Soundscape recordings were gathered from sources in Middle Eastern countries and
 
 #### Experience Design
 
-Each installation had a number of distinct environments each with their own soundscape and associated imagery. As you move through the physical space you can explores these different environments. Three of these environments are tied to specific places. One environment is comprised of soundscapes from Syria, another consists of the Mediterranean sea sonifications and a third is comprised of soundscapes from around Europe. The remaining three are more abstract sonic landscapes. One designed to sound like an idealised empty space or void, a second comprised of collages of TV and radio broadcasts about the crisis and a third consisted of threatening drone sounds 
-
+Each installation had a number of distinct environments each with their own soundscape and associated imagery. As you move through the physical space you can explores these different environments. Three of these environments are tied to specific places. One environment is comprised of soundscapes from Syria, another consists of the Mediterranean sea sonifications and a third is comprised of soundscapes from around Europe. The remaining three are more abstract sonic landscapes. One sonic landscape is designed to sound like an idealised empty space or void.  A second is comprised of material form TV and radio broadcasts about the crisis and a third consisted of harsh drone sounds synthesised using.
 
 [Standing in the Center](/Standing in Center.mp3)
 [Standing at the Edge](/Standing at Edge.mp3)
 
-
-
-
-
-
-
-Additional sonification strategies were explored also
-
-Soundscape recordings were gathered from sources in Middle Eastern countries and Europe.
-
-Further sonic elements were synthesised using a variety of synthesis techniques.
-
-
-
-
 #### Visual Design
+We chose a clean and minimalistic approach to the design of the visuals components for the app. I created some visual elements for the landing page and re-processed (glitched) as series of images representing the different environments. The app was reactive to the users location so rather than touching or swiping it was responsive to their movement throughout the physical space and virtual environments.
 
-#### Location
+<img src="images/CsoundCode.png?raw=true"/><br/>
 
-#### Iteration 2
+#### Experience Design
 
-Network and mobile technologies allow us to layer virtual digital spaces on top of real-world spaces introducing new perceptual information that augments our experience of the physical world.
+Each installation had a number of distinct environments each with their own soundscape and associated imagery. As you move through the physical space you can explores these different environments. Three of these environments are tied to specific places. One environment is comprised of soundscapes from Syria, another consists of the Mediterranean sea sonifications and a third is comprised of soundscapes from around Europe. The remaining three are more abstract sonic landscapes. One sonic landscape is designed to sound like an idealised empty space or void.  A second is comprised of material form TV and radio broadcasts about the crisis and a third consisted of harsh drone sounds that were synthesised using wavetable synthesis methods and distortion modelling.
+Mobile technologies played an [important role in helping people navigate their way out of Syria and into Europe at the onset of the Syrian Civil War.](https://www.wired.com/2015/12/smartphone-syrian-refugee-crisis/) The Zones project was designed with this phenomenon in mind allowing the audience members to navigate through an analogous series of environments using their own mobile devices.
 
-AR enriches and enhances our experience of real-world environments by overlaying new perceptual information that seamlessly integrates into our experience of a real-world environment.
+[Standing in the Center](/Standing in Center.mp3)
+[Standing at the Edge](/Standing at Edge.mp3)
 
-
-augments our experience of the physical world.
-
-
-
-
-
-
- ph us a means of layering or infusing physical space with transparent digital space.
-These proximity and location aware systems embedded a l sound and images
-
-These systems were location aware and as users moved through a physical space they would experience sounds and images from other spaces.
-
-location aware systems
-
-
-The first was developed for public exhibition and was installed at the Craft Village Derry during the 2016 ISSTA Festival.
-
-<IMAGE>
-<link>
- We were invited to install the second system was installed at the Digital Empathy Workshop at the Ulster University's Magee campus.
-
-<IMAGE>
-<link>
-
-mobile based proximity aware AR
-
-
-
- for public exhibition. These systems were installed at two diffferent events
-
-Network and mobile technologies affords us a means of layering or infusing physical space with transparent digital space.
-
-
-
-
-Zones Sound Art Projects
-
-
-Sonic material
-The sonic material is gathered from various recordings, archival recordings, and media outlets and is reflective of the original themes of the piece to explore the geopolitical climate surrounding borders, territory and the flow of people’s. Sound affords the listener a mode of understanding themselves, their world and the mutual relationships by which the two are inexorably linked. This installation exploits that fact to organise the audience’s experience of the piece in a way that reveals their own critical role in, and relationship to, that climate.
-Technological implementation
-The work will be mediated through a mobile phone application that interacts with a Bluetooth (BLE 4.0) beacon infrastructure. The application, which is
-custom and developed for the festival, uses various methods of proximity and triangulation to trigger and develop sonic events. Encouraging movement through this development, each listening experience will produce new material and development based on a number of contextual and software parameters along with varying files based on time of experience. The work will be developed for headphones.
-Note: the application will ask for permissions to activate Bluetooth and location services. This is outside of the control of the developers. As technologists it is also outside of our concern.
+#### Installations 
