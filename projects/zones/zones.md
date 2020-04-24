@@ -18,7 +18,6 @@ The first installation involved 7 different sonifications of data from the Europ
 
 The 6 sonifications of those lost at sea were created using granular synthesis techniques (in Csound) where audio files containing recordings of the Mediterranean sea were split into tiny pieces called grains and then reassembled to create timbral structures termed 'grain clouds'. The data was mapped to control the parameters of these grain clouds: amplitude, density, transposition factor, octaviation ratio and grain size. The original recording of waves in the Mediterranean sea was  reprocessed to become a sonification. The end result is a sonification that still sounds like the sea, but the sound rises in intensity to reflect the data. The original recording of the waves is then mixed back into the sonification to create the final audio stream.
 
-
 Original Recording of Waves:
 - [Original](/Zones1 /Audio/Lost_at_sea/Waves.mp3)
 
