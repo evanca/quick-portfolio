@@ -52,6 +52,8 @@ Mobile technologies played an [important role in helping people navigate their w
 #### Installations & Iterations
 The first iteration of Zones was installed at the the Craft Village in Derry where it was open to public audiences for three days as part of the 2016 Irish Sound Science and Technology Festival. The installation was well received and covered on local radio.
 
+<img src="images/app/craft_village.jpg?raw=true"/><br/>
+
 [Zones 1 Example](/Standing at Edge.mp3)
 
 We were invited to install a second iteration of Zones indoors at the International Workshop on Digital Empathy in The Great Hall at Ulster University's Magee Campus in Derry.
