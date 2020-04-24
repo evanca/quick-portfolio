@@ -41,6 +41,7 @@ We chose a clean and minimalistic approach to the design of the visuals componen
 <img src="images/app/about.png?raw=true"/><br/>
 - [About Page](/images/app/about.png)
 
+More images:
 - [Holding page](/images/app/hold.png)
 - [Location 4 ](/images/app/hold.png)
 - [Location 5](/images/app/hold.png)
