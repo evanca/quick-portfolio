@@ -7,6 +7,10 @@ It involved the development two mobile-based Augmented Reality (AR) installation
 #### How it Worked
 We created two location/proximity-aware installations that were delivered over mobile devices with headphones. The system was driven by a mobile phone application interacting with a Bluetooth (BLE 4.0) beacon infrastructure. The system mapped audio and images to specific locations within the environments. Participants could then navigate through the spaces and the sounds they were hearing and images they were seeing over the app would change depending on the route they took through the environment.  
 
+Poster:
+<img src="images/Poster.png?raw=true"/><br/>
+
+
 #### The Design Process
 My role involved the design of the visual and audio elements for each installation, assistance in the design and testing of the underlying AR framework and to install each piece. The development process involved working with Alan and the development team at Black Bear to put together a prototype. With this in place we set up an indoor testing space and an outdoor space. We installed the prototype in both spaces and began user testing. We adopted an iterative approach to design where testing would be followed by consultation with Black Bear who would implement our changes.
 
