@@ -13,12 +13,14 @@ My role involved the design of the visual and audio elements for each installati
 #### Sound design & Sonification
 The first installation involved 7 different sonifications of data from the European migrant crisis. Two datasets were used. The first represented the number of migrants lost at sea between the 01/10/2015 and the 24/08/2016 and the second represented Syrian Emigration Rate 2007-2014. Data was acquired from the UNHRC and the World Bank's open data resources.
 
-The 6 sonifications of those lost at sea were created using granular synthesis techniques (in Csound) where audio files containing recordings of the Mediterranean sea were split into tiny pieces called grains and then reassembled to create timbral structures termed 'grain clouds'. The data was mapped to control the parameters of these grain clouds: amplitude, density, transposition factor, octaviation ratio and grain size. The original recording of waves in the Mediterranean sea was  reprocessed to become a sonification. The end result is a sonification that still sounds like the sea, but the sound rises in intensity to reflect the data.
+The 6 sonifications of those lost at sea were created using granular synthesis techniques (in Csound) where audio files containing recordings of the Mediterranean sea were split into tiny pieces called grains and then reassembled to create timbral structures termed 'grain clouds'. The data was mapped to control the parameters of these grain clouds: amplitude, density, transposition factor, octaviation ratio and grain size. The original recording of waves in the Mediterranean sea was  reprocessed to become a sonification. The end result is a sonification that still sounds like the sea, but the sound rises in intensity to reflect the data. The original recording of the waves is then mixed back into the sonification toThis sonification was then mixed back into the recording of the waves 
 
 [Original Recording of Waves](/original file is waves.mp3)
 [Sonification made from recording](/sonification file is waves1.mp3)
 
-An additional 5 sonifications were created using these techniques.
+
+
+An number of additional  5 sonifications were created using these techniques.
 
 [Example 1](/MedSon1.mp3)
 [Example 2](/MedSon3.mp3)

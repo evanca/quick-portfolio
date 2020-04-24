@@ -7,9 +7,6 @@
 [Urban Affect Networks ](/projects/Urban Affect Networks/UAF)
 <img src="images/tabs/UAFtab.png?raw=true"/>
 
-[The Zones Project](/projects/zones/zones)
-<img src="images/tabs/ZNStab.jpg?raw=true"/>
-
 [Embodied Sonification](/projects/embodied_sonification/embodied_sonification)
 <img src="images/tabs/HCtab.png?raw=true"/>
 
@@ -22,6 +19,8 @@
 ---
 #### Please Note: This portfolio site is currently under construction. The following pages will go live in the coming weeks. Please check back later to see the finished version.
 ---
+[The Zones Project](/)
+<img src="images/tabs/ZNStab.jpg?raw=true"/>
 
 [ML Applications in Human-computer Interaction](/)
 <img src="images/tabs/MLHCItab.png?raw=true"/>
