@@ -24,7 +24,7 @@
 ---
 
 [ML Applications in Human-computer Interaction](/)
-<img src="images/tabs/MLHCItab.png?raw=true"/>
+<img src="images/tabs/GEStab.png?raw=true"/>
 [Dance Projects](/)
 <img src="images/tabs/NEWtab.png?raw=true"/>
 
