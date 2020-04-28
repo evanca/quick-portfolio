@@ -1,7 +1,10 @@
 
 
-<iframe src="https://editor.p5js.org/roddyst/embed/sAdryDYz1"></iframe>
 
+
+<iframe src="https://editor.p5js.org/roddyst/embed/3LK9dABOj"></iframe>
+
+<!-- <iframe src="https://editor.p5js.org/roddyst/embed/sAdryDYz1"></iframe>
 
 //Notes:
 
@@ -20,3 +23,4 @@
 1. Talk about the original project with the machine learning training for muiscal models that I did.
 2. Then talk about the pivot over to controlling Drones.
 3. Then cover the movement from drones to sound synthesis.
+-->
