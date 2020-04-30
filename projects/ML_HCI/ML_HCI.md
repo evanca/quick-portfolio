@@ -7,7 +7,7 @@ This project is ongoing as part of my current Postdoctoral research work at the 
 #### Phase 1: Machine Learning for Music Generation
 The initial portions of phase 1 involved building machine learning models to generate musical materials offline. This was carried out with the Keras library in Python where I used LSTM networks to learn to learn features from sets of MIDI data and generate new musical sequences using those models and built on previous work by [Sigurður Skúli Sigurgeirsson](https://github.com/Skuldur). During this initial portion of the project it became obvious ML technologies have creative sonic potentials beyond the generation of musical patterns and I became increasingly focused on the application of ML techniques in online and real-time contexts. I found the generation of musical patterns to be quite a limited approach as at best it removes much of what I find fun about the processes of making and playing music.
 
-<img src="images/model_def_py.png.png?raw=true"/><br/>
+<img src="images/model_def_py.png?raw=true"/><br/>
 
 #### Phase 2: Computer Vision and Machine Learning for Gestural control of Unmanned Aerial Vehicles
 The second phase of the project explored the application of machine learning techniques to real-time human-computer interaction contexts. My colleagues and I at the department of Electrical and Electronic Engineering TCD, designed and built a gestural control interface which could be used to control the flight of a an unmanned aerial vehicle (drone).
