@@ -23,8 +23,8 @@ Phase 3 of this project is still ongoing. It aims to integrate work carried out 
 You can experience a stable prototype of these here.
 To use the prototypes stand in front of your webcam and move your hands to control sonic and visual parameters:
 
-- [Current Prototype](https://editor.p5js.org/roddyst/present/l46Zsp63H)
-- [Drone Animation Prototype](https://editor.p5js.org/roddyst/present/6A5YgZa21)
+- [Current Gestural Interaction Prototype](https://editor.p5js.org/roddyst/present/l46Zsp63H)
+- [Previous Drone Animation Prototype](https://editor.p5js.org/roddyst/present/6A5YgZa21)
 
 ### Creative Skills
 HCI Design. Interaction Design. UX Design. Visual Design. Interface Design. Sound Design.
