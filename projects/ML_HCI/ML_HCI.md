@@ -20,8 +20,11 @@ The system allowed users to control the flight path of a drone through their han
 #### Phase 3: Gestural Control of Sound Synthesis
 Phase 3 of this project is still ongoing. It aims to integrate work carried out in the first two phases of the project. I have adapted the gestural control system I designed during phase 2 to control the parameters of different sound synthesis routines. While phase 1 of the project was exploratory in nature and phase 2 was centred around developing a workable application, I have adopted a standard iterative development style in phase 3. This return to a structured HCI style research and development model is resulting in the production and refinement of a series or prototypes for the gestural control of sound synthesis parameters.
 
-You can experience a stable prototype of these here :
-- [Current Prototype](https://editor.p5js.org/roddyst/present/3LK9dABOj)
+You can experience a stable prototype of these here.
+To use the prototypes stand in front of your webcam and move your hands to control sonic and visual parameters:
+
+- [Current Prototype](https://editor.p5js.org/roddyst/present/l46Zsp63H)
+- [Drone Animation Prototype](https://editor.p5js.org/roddyst/present/6A5YgZa21)
 
 ### Creative Skills
 HCI Design. Interaction Design. UX Design. Visual Design. Interface Design. Sound Design.
