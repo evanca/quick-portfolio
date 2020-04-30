@@ -24,7 +24,7 @@ You can experience a stable prototype of these here :
 HCI Design. Interaction Design. UX Design. Visual Design. Interface Design. Sound Design.
 
 ### Technical & Research Skills
-HTML/CSS/Javascript. Python. Computer Vision. Machine Learning. Keras. Music21. MIDI. Sound & Music Computing. Data Analysis. Audio Engineering. Audio DSP. Sound Synthesis. Data Analysis. User Evaluation.
+HTML/CSS/Javascript. Python. Computer Vision. Machine Learning. Keras. Music21. MIDI. Sound & Music Computing. Serial. Data Analysis. Audio Engineering. Audio DSP. Sound Synthesis. Data Analysis. User Evaluation.
 
 ### Tags
 Human-computer Interaction. Gestural Interfaces. Machine Learning. Embodied Cognition. Stephen Roddy.
@@ -51,7 +51,7 @@ Human-computer Interaction. Gestural Interfaces. Machine Learning. Embodied Cogn
 1. Upload the Interface for AM Synthesis.
 2. Upload the Interface for FM Synthesis.
 
-1. Talk about the original project with the machine learning training for muiscal models that I did.
+1. Talk about the original project elements with the machine learning training for musical models that I did.
 2. Then talk about the pivot over to controlling Drones.
 3. Then cover the movement from drones to sound synthesis.
 -->
