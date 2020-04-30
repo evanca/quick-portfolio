@@ -14,6 +14,9 @@ The second phase of the project explored the application of machine learning tec
 The hardware required to communicate with the drone was designed and built by a colleague. I built the system gestural interface system HTML, Javascript and Node.js and used the p5.js and ml5.js libraries. I worked with another colleague to integrate the interface with hardware.
 The system allowed users to control the flight path of a drone through their hand movements. The users hand-movements are captured via camera/webcam and analysed using the ml5js [Posenet](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5) implementation. These hand movements are then mapped to control the drone. The system was opened to the members of the public during the 2019 Trinity College Dublin Open Day.
 
+<img src="images/Drone Project.gif?raw=true"/><br/>
+
+
 #### Phase 3: Gestural Control of Sound Synthesis
 Phase 3 of this project is still ongoing. It aims to integrate work carried out in the first two phases of the project. I have adapted the gestural control system I designed during phase 2 to control the parameters of different sound synthesis routines. While phase 1 of the project was exploratory in nature and phase 2 was centred around developing a workable application, I have adopted a standard iterative development style in phase 3. This return to a structured HCI style research and development model is resulting in the production and refinement of a series or prototypes for the gestural control of sound synthesis parameters.
 
