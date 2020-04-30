@@ -2,10 +2,12 @@
 
 #### Overview
 
-This project is ongoing as part of my current Postdoctoral research work at the Department of Electrical and Electronic Engineering in Trinity College Dublin.
+This project is ongoing as part of my current Postdoctoral research work at the Department of Electrical and Electronic Engineering in Trinity College Dublin. The project aims to integrate machine learning techniques into human computer interaction and music technology contexts.  
 
 #### Phase 1: Machine Learning for Music Generation
 The initial portions of phase 1 involved building machine learning models to generate musical materials offline. This was carried out with the Keras library in Python where I used LSTM networks to learn to learn features from sets of MIDI data and generate new musical sequences using those models. During this initial portion of the project it became obvious ML technologies have creative sonic potentials beyond the generation of musical patterns and I became increasingly focused on the application of ML techniques in online and real-time contexts. I found the generation of musical patterns to be quite a limited approach as at best it removes much of what I find fun about the processes of making and playing music.
+
+<img src="images/model_def_py.png.png?raw=true"/><br/>
 
 #### Phase 2: Computer Vision and Machine Learning for Gestural control of Unmanned Aerial Vehicles
 The second phase of the project explored the application of machine learning techniques to real-time human-computer interaction contexts. My colleagues and I at the department of Electrical and Electronic Engineering TCD, designed and built a gestural control interface which could be used to control the flight of a an unmanned aerial vehicle (drone).
@@ -15,7 +17,8 @@ The system allowed users to control the flight path of a drone through their han
 #### Phase 3: Gestural Control of Sound Synthesis
 Phase 3 of this project is still ongoing. It aims to integrate work carried out in the first two phases of the project. I have adapted the gestural control system I designed during phase 2 to control the parameters of different sound synthesis routines. While phase 1 of the project was exploratory in nature and phase 2 was centred around developing a workable application, I have adopted a standard iterative development style in phase 3. This return to a structured HCI style research and development model is resulting in the production and refinement of a series or prototypes for the gestural control of sound synthesis parameters.
 
-You can experience a stable prototype of these here : [Prototype 2](https://editor.p5js.org/roddyst/present/3LK9dABOj)
+You can experience a stable prototype of these here :
+- [Current Prototype](https://editor.p5js.org/roddyst/present/3LK9dABOj)
 
 
 
