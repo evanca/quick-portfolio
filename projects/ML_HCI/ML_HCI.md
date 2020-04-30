@@ -20,6 +20,14 @@ Phase 3 of this project is still ongoing. It aims to integrate work carried out 
 You can experience a stable prototype of these here :
 - [Current Prototype](https://editor.p5js.org/roddyst/present/3LK9dABOj)
 
+### Creative Skills
+HCI Design. Interaction Design. UX Design. Visual Design. Interface Design. Sound Design.
+
+### Technical & Research Skills
+HTML/CSS/Javascript. Python. Computer Vision. Machine Learning. Keras. Music21. MIDI. Sound & Music Computing. Data Analysis. Audio Engineering. Audio DSP. Sound Synthesis. Data Analysis. User Evaluation.
+
+### Tags
+Human-computer Interaction. Gestural Interfaces. Machine Learning. Embodied Cognition. Stephen Roddy.
 
 
 <!--
