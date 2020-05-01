@@ -2,20 +2,32 @@
 
 #### Project Overview
 
-In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/I Proclaim with dancer/choreographer Sibéal Davitt and writer Tristan Rosenstock for 'Embodied at the GPO'. This was a series of six new dance solos by Irish-based female choreographers that were performed inside the GPO to mark the role played by Women the 1916 rising.
-For this project I developed an interactive music performance system that fulfilled a number of important roles in the overall production. It captured sounds produced by the dance from a series of microphones placed around the stage. This audio was then processed live and inserted into the music. The audio signal was further analysed using FFT analysis and the amplitudes across different frequency bands were used to both drive and control different parameters of the musical piece. The result is a vibrant and dynamic musical soundscape that reacts in real-time to the sounds created by the dancer. The system also allowed me to perform live music for the dance while also incorporating further musical elements that had been composed prior to the performance.
+In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/I Proclaim with dancer/choreographer Sibéal Davitt and writer Tristan Rosenstock for 'Embodied at the GPO'. This was a series of six new dance solos by Irish-based female choreographers that were performed inside the GPO to mark the role played by Women the 1916 rising. The pieces were commissioned by An Post's 'GPO Witness History' and the Dublin Dance Festival.
+For this project I developed an interactive music performance system that fulfilled a number of important roles in the overall production. It captured sounds produced by the dance from a series of microphones placed around the stage. This audio was then processed live and inserted into the music. The audio signal was further analysed using FFT analysis and the amplitudes across different frequency bands were used to both drive and control different parameters of the musical piece. The result is a vibrant and dynamic musical soundscape that reacts in real-time to the sounds created by the dancer. The system also allowed me to improvise musical elements live each night while also incorporating further musical elements that had been composed prior to the performance.
 
 ### Research & Development Process
 
-In developing this system I used a participatory design methodology that allowed the choreographer and writer participate in the system design. This processes involved the team members getting together in the studio to work out some ideas. At the start of a session I would explore some questions: Given our vision for the overall production what should the role of the music performance system be?  How should it integrate into the production? What should the music sound like aesthetically for the different sequences of the dance? I would then use rapid prototyping techniques to create a prototype system that we could test there and then in the session. Based on the feedback of the other team members I would either scrap an idea or flesh it out more fully.We had sessions where presented our production to the other performers who were taking part in the event and additional sessions where we showed our work to other choreographers and artists. These were invaluable in providing additional feedback for the overall production and provided especially useful information for my development process.
+In developing this system I used a participatory design methodology that allowed the choreographer and writer participate in the system design. We began this process three months before the initial rehearsals. This processes involved the team members getting together in the studio to work out some ideas. At the start of a session I would explore some questions: Given our vision for the overall production what should the role of the music performance system be?  How should it integrate into the production? What should the music sound like aesthetically for the different sequences of the dance? I would then use rapid prototyping techniques to create a prototype system that we could test there and then in the session. Based on the feedback of the other team members I would either scrap an idea or flesh it out more fully.We had sessions where presented our production to the other performers who were taking part in the event and additional sessions where we showed our work to other choreographers and artists. These were invaluable in providing additional feedback for the overall production and provided especially useful information for my development process.
 
 ### Performances
+The performances ran from the 20th-22nd of April and sold out each night. 
 
 
-WORDS
+### Press
+<!--
+https://www.irishtimes.com/culture/stage/bodily-autonomy-and-inequality-women-dance-around-the-proclamation-1.2609030
+[EXAMINER LINK](/files/examiner.pdf)
+https://www.tn2magazine.ie/embodied-review/
+
+
+
+-->
+
+<!--WORDS
 It also allowed a performer to improvise live alongside the dancer. All three nights of the performance were sold out and it attracted positive reviews in the national and local press with the Examiner describing our performance as “a raw, rhythmic, primal yet playful performance that is searingly powerful and a sheer joy to behold”. The success of this piece led to a residency at Dance House in 2018 in which Sibéal and myself worked with traditional concertina player Niall Vallely to further develop the system to incorporate a traditional instrumentalist.
 
 
+### Press
 
 
 In developing this system I used a participatory design methodology
@@ -65,3 +77,4 @@ My first prototype for this project utilised the accelerometer, gyroscope and co
 
 
 captures
+-->
