@@ -10,7 +10,7 @@ For this project I developed an interactive music performance system that fulfil
 In developing this system I used a participatory design methodology that allowed the choreographer and writer participate in the system design. We began this process three months before the initial rehearsals. This processes involved the team members getting together in the studio to work out some ideas. At the start of a session I would explore some questions: Given our vision for the overall production what should the role of the music performance system be?  How should it integrate into the production? What should the music sound like aesthetically for the different sequences of the dance? I would then use rapid prototyping techniques to create a prototype system that we could test there and then in the session. Based on the feedback of the other team members I would either scrap an idea or flesh it out more fully.We had sessions where presented our production to the other performers who were taking part in the event and additional sessions where we showed our work to other choreographers and artists. These were invaluable in providing additional feedback for the overall production and provided especially useful information for my development process.
 
 ### Performances
-The performances ran from the 20th-22nd of April and sold out each night. 
+The performances ran from the 20th-22nd of April and sold out each night.
 
 
 ### Press
