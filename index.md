@@ -10,14 +10,14 @@
 [Embodied Sonification](/projects/embodied_sonification/embodied_sonification)
 <img src="images/tabs/HCtab.png?raw=true"/>
 
+[ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)
+<img src="images/tabs/GEStab.png?raw=true"/>
+
 [Indices on the Body](/projects/indices/indices_audio)
 <img src="images/tabs/JLNtab.png?raw=true"/>
 
 [The Zones Project](/projects/zones/zones)
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
-
-[ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)
-<img src="images/tabs/GEStab.png?raw=true"/>
 
 [Sound, Music & Audio Production](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
@@ -26,9 +26,14 @@
 #### Please Note: This portfolio site is currently under construction. The following pages will go live in the coming weeks. Please check back later to see the finished version.
 ---
 
-[Dance Projects](/)
+[Fógraím / I Proclaim](/)
 <img src="images/tabs/NEWtab.png?raw=true"/>
 
+[Hear This Dance](/)
+<img src="images/tabs/NEWtab.png?raw=true"/>
+
+[Legitimate Bodies Projects](/)
+<img src="images/tabs/NEWtab.png?raw=true"/>
 
 <!-- made some changes to tab colours -->
 
