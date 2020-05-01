@@ -1,3 +1,0 @@
-### Performance Systems for Dance
-
-####
