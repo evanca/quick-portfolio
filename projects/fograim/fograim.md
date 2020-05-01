@@ -10,6 +10,8 @@ Description of the piece.
 
 #### Project Overview
 
+
+In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/I Proclaim with dancer/choreographer Sibéal Davitt and writer Tristan Rosenstock for 'Embodied at the GPO'. This was a series of six new dance solos by Irish-based female choreographers that were performed inside the GPO to mark the role played by Women the 1916 rising.
 For this project I developed an electronic music performance system that fulfilled a number of important roles in the overall production. Firstly it captured sounds produced by the dance from a series of microphones placed around the stage. This audio was then processed live and inserted into the music. The audio signal was further analysed using FFT analysis and the amplitudes across different frequency bands were used to both drive and control different parameters of the musical piece. The result is a vibrant and dynamic musical soundscape that reacts in real-time to the sounds created by the dancer.
 
 
@@ -20,11 +22,8 @@ We had sessions where presented our production to the other performers who were 
 
 
 
-
-
-WORDS:
-
-In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/I Proclaim with Sibéal Davitt and Tristan Rosenstock for Embodied at the GPO. Commissioned by An Post Witness History in association with Dublin Dance Festival, Embodied was a series of six new dance solos by female choreographers based in Ireland. It aimed to shine a light on the role of women as initiators of change within Irish society. For our piece, I created an interactive system that integrated technologies and principles from artificial intelligence and generative music systems with creative coding and smart technologies. The system created music from the body movements and physical gestures expressed during a dance performance. It allowed a dancer to contribute to generating musical content through body movement. It also allowed a performer to improvise live alongside the dancer. All three nights of the performance were sold out and it attracted positive reviews in the national and local press with the Examiner describing our performance as “a raw, rhythmic, primal yet playful performance that is searingly powerful and a sheer joy to behold”. The success of this piece led to a residency at Dance House in 2018 in which Sibéal and myself worked with traditional concertina player Niall Vallely to further develop the system to incorporate a traditional instrumentalist.
+WORDS
+It also allowed a performer to improvise live alongside the dancer. All three nights of the performance were sold out and it attracted positive reviews in the national and local press with the Examiner describing our performance as “a raw, rhythmic, primal yet playful performance that is searingly powerful and a sheer joy to behold”. The success of this piece led to a residency at Dance House in 2018 in which Sibéal and myself worked with traditional concertina player Niall Vallely to further develop the system to incorporate a traditional instrumentalist.
 
 
 
