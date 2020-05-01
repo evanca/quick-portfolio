@@ -10,13 +10,21 @@ Description of the piece.
 
 #### Project Overview
 
-For this project I developed an electronic music performance system that fulfilled a number of important roles in the overall production. Firstly it captured sounds produced by the dance from a series of microphones placed around the stage. This audio was then processed live and inserted into the music. The audio signal was further analysed using FFT analysis and the amplitudes across different frequency bands were used to both drive and control different parameters of the musical piece. The result is a vibrant and dynamic musical soundscape that reacts in real-time to the sounds created by the daner.
+For this project I developed an electronic music performance system that fulfilled a number of important roles in the overall production. Firstly it captured sounds produced by the dance from a series of microphones placed around the stage. This audio was then processed live and inserted into the music. The audio signal was further analysed using FFT analysis and the amplitudes across different frequency bands were used to both drive and control different parameters of the musical piece. The result is a vibrant and dynamic musical soundscape that reacts in real-time to the sounds created by the dancer.
 
 
-### Development Process
+### Research & Development Process
 
 In developing this system I used a participatory design methodology that allowed the choreographer and writer participate in the system design. This processes involved the team members getting together in the studio to work out some ideas. At the start of a session I would explore some questions: Given our vision for the overall production what should the role of the music performance system be?  How should it integrate into the production? What should the music sound like aesthetically for the different sequences of the dance? I would then use rapid prototyping techniques to create a prototype system that we could test there and then in the session. Based on the feedback of the other team members I would either scrap an idea or flesh it out more fully.
 We had sessions where presented our production to the other performers who were taking part in the event and additional sessions where we showed our work to other choreographers and artists. These were invaluable in providing additional feedback for the overall production and provided especially useful information for my development process.
+
+
+
+
+
+WORDS:
+
+In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/I Proclaim with Sibéal Davitt and Tristan Rosenstock for Embodied at the GPO. Commissioned by An Post Witness History in association with Dublin Dance Festival, Embodied was a series of six new dance solos by female choreographers based in Ireland. It aimed to shine a light on the role of women as initiators of change within Irish society. For our piece, I created an interactive system that integrated technologies and principles from artificial intelligence and generative music systems with creative coding and smart technologies. The system created music from the body movements and physical gestures expressed during a dance performance. It allowed a dancer to contribute to generating musical content through body movement. It also allowed a performer to improvise live alongside the dancer. All three nights of the performance were sold out and it attracted positive reviews in the national and local press with the Examiner describing our performance as “a raw, rhythmic, primal yet playful performance that is searingly powerful and a sheer joy to behold”. The success of this piece led to a residency at Dance House in 2018 in which Sibéal and myself worked with traditional concertina player Niall Vallely to further develop the system to incorporate a traditional instrumentalist.
 
 
 

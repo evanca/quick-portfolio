@@ -26,6 +26,9 @@
 #### Please Note: This portfolio site is currently under construction. The following pages will go live in the coming weeks. Please check back later to see the finished version.
 ---
 
+[Dance Projects](/)
+<img src="images/tabs/NEWtab.png?raw=true"/>
+<!--
 [Fógraím / I Proclaim](/)
 <img src="images/tabs/NEWtab.png?raw=true"/>
 
@@ -34,6 +37,8 @@
 
 [Legitimate Bodies Projects](/)
 <img src="images/tabs/NEWtab.png?raw=true"/>
+
+-->
 
 <!-- made some changes to tab colours -->
 
