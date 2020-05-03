@@ -29,7 +29,7 @@ The performances ran from the 20th-22nd of April and sold out each night and was
 
 
 ### Iteration 2: The 'Hear This Dance' System
-In 2017 I was commissioned to work on a second project that expanded on Fógraím/I Proclaim during a residency in Dance Ireland. The piece was entitled 'Hear this Dance'. The team this time around included Sibéal Davitt covering choreography and dance, Niall Vallely on concertina and myself. The goal this time around was to expand on the system I created for the GPO shows to perform and new piece. This new system needed to support a second musician and allow the dancer to record and loop her steps. These loops could then be used as musical materials by the system.
+In 2017 I was commissioned to work on a second project that expanded on Fógraím/I Proclaim during a residency in Dance Ireland. The piece was entitled 'Hear this Dance'. The team this time around included Sibéal Davitt covering choreography and dance, Niall Vallely on concertina and myself. The goal this time around was to expand on the system I created for the GPO shows to perform and new piece. This new system needed to support a second musician and expand on their performance. It also had to allow the dancer to record and loop her steps. These loops could then be used as musical materials in the piece. My updated system accounted for these new additions and also allowed me greater control over the musical content generated.
 
 <img src="images/hear-this-dance-1.jpg?raw=true"/><br/>
 
@@ -38,15 +38,88 @@ I used a similar participatory design process ass before. I would present a prot
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WWRnM_9cv9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 - [Announcement](https://www.danceireland.ie/whats-on/events/dance-ireland-residency-sibeal-davitt-3)
 - [Showing](https://www.danceireland.ie/whats-on/events/new-movements-sibeal-davitt/)
 - [Connect Coverage](https://connectcentre.ie/news/stephen-roddy-work-dance-ireland/)
 
 ### Creative Skills
-Sound Design. Music Composition. Live Electronic Music performance.Generative Music.  Audio Sound Art. Visual Design.
+Sound Design. Music Composition & Performance. Live Electronic Music performance. Generative Music.
 
 ### Technical
 Live Audio. Recording. Sound Synthesis & Audio DSP. Python. OSC & MIDI protocols. Audio Engineering.
 
 ### Tags
 Dance, Technology, Fógraím / I Proclaim, Hear This Dance, Live Music, Embodied At The GPO, Generative Music.
+
+
+<!--
+
+### Hear This Dance: Project Overview
+
+
+
+### Hear This Dance
+
+#### Project Overview
+thanks to the success of the Forgraim/ Project I was in
+
+<img src="images/hear-this-dance-1.jpg?raw=true"/><br/>
+
+
+
+It also allowed a performer to improvise live alongside the dancer. All three nights of the performance were sold out and it attracted positive reviews in the national and local press with the Examiner describing our performance as “a raw, rhythmic, primal yet playful performance that is searingly powerful and a sheer joy to behold”. The success of this piece led to a residency at Dance House in 2018 in which Sibéal and myself worked with traditional concertina player Niall Vallely to further develop the system to incorporate a traditional instrumentalist.
+
+
+### Press
+
+
+In developing this system I used a participatory design methodology
+
+
+
+While working on the project we also had the opportunity to showcase our work to the other members of the dance company  
+
+
+
+s and dance studios and
+
+
+
+
+
+#### Hear This Dance
+
+Choreography: Sibéal Davitt
+
+Concertina: Niall Vallely
+
+Composer: Stephen Roddy
+
+
+
+I began my research process 3 month ahead of our first rehearsal.
+
+My first prototype for this project utilised the accelerometer, gyroscope and compass native to the iPhone 5 to directly control musical parameters. This rendered the While working on this system I found causal link between body movements and sonic results to be too direct. this made the relationship between physical movement and sonic effect quite predictable and boring so I decided to change my approach and focus on the sounds created by the dancer.
+
+
+
+#### Legitimate Bodies
+
+
+
+  prototyped a system
+
+
+
+
+
+
+ and reprocesses this
+
+
+ roles in the overall production. Firstly it allowed me
+
+
+captures
+-->
