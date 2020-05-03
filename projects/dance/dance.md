@@ -1,6 +1,6 @@
-### Fógraím / I Proclaim
+### Dance Projects
 
-#### Project Overview
+#### ### Fógraím / I Proclaim: Project Overview
 
 In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/I Proclaim with dancer/choreographer Sibéal Davitt and writer Tristan Rosenstock for 'Embodied at the GPO'. This was a series of six new dance solos by Irish-based female choreographers that were performed inside the GPO to mark the role played by Women the 1916 rising. The pieces were commissioned by An Post's 'GPO Witness History' and the Dublin Dance Festival.
 
@@ -14,14 +14,17 @@ For this project I developed an interactive music performance system that fulfil
 
 In developing this system I used a participatory design methodology that allowed the choreographer and writer participate in the system design. We began this process three months before the initial rehearsals. This processes involved the team members getting together in the studio to work out some ideas. We used both the CoisCéim dance studio and the Dance Ireland studios. At the start of a session I would explore some questions: Given our vision for the overall production what should the role of the music performance system be?  How should it integrate into the production? What should the music sound like aesthetically for the different sequences of the dance? I would then use rapid prototyping techniques to create a prototype system that we could test there and then in the session. Based on the feedback of the other team members I would either scrap an idea or flesh it out more fully. We had sessions where presented our production to the other performers who were taking part in the event and additional sessions where we showed our work to other choreographers and artists. These were invaluable in providing additional feedback for the overall production and provided especially useful information for my development process.
 
+<img src="images/2.jpg?raw=true"/><br/>
+
+
 ### Performances & Press
-The performances ran from the 20th-22nd of April and sold out each night and was well recieved in the press. The production was well received in the press:
+The performances ran from the 20th-22nd of April and sold out each night and was well received in the press. The production was well received in the press:
 
 [Irish Times Review](https://www.irishtimes.com/culture/stage/bodily-autonomy-and-inequality-women-dance-around-the-proclamation-1.2609030)
 [Examiner Review](/files/examiner.pdf)
 [TN2 Review](https://www.tn2magazine.ie/embodied-review/)
 
-
+### Hear This Dance: Project Overview
 
 <!--
 
