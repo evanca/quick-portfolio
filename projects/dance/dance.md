@@ -37,3 +37,7 @@ In 2017 I was commissioned to work on a second project that expanded on Fógraí
 I used a similar participatory design process ass before. I would present a prototype to my collaborators during a session and incorporate their feedback and ideas using rapid prototyping techniques. I gained more general audience feedback through public showings we did in June and September as well as more informal feedback sessions with colleagues and friends.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WWRnM_9cv9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- [Announcement](https://www.danceireland.ie/whats-on/events/dance-ireland-residency-sibeal-davitt-3)
+- [Showing](https://www.danceireland.ie/whats-on/events/new-movements-sibeal-davitt/)
+- [Connect Coverage](https://connectcentre.ie/news/stephen-roddy-work-dance-ireland/)
