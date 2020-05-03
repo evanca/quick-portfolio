@@ -43,7 +43,7 @@ I used a similar participatory design process ass before. I would present a prot
 - [Connect Coverage](https://connectcentre.ie/news/stephen-roddy-work-dance-ireland/)
 
 ### Creative Skills
-Sound Design. Music Composition. Live Electronic Music performance. Generative Music.  Audio Sound Art. Visual Design.
+Sound Design. Music Composition. Live Electronic Music performance.Generative Music.  Audio Sound Art. Visual Design.
 
 ### Technical
 Live Audio. Recording. Sound Synthesis & Audio DSP. Python. OSC & MIDI protocols. Audio Engineering.
