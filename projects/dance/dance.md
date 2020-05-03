@@ -24,9 +24,12 @@ The performances ran from the 20th-22nd of April and sold out each night and was
 [Examiner Review](/files/examiner.pdf)
 [TN2 Review](https://www.tn2magazine.ie/embodied-review/)
 
-### Hear This Dance: Project Overview
 
 <!--
+
+### Hear This Dance: Project Overview
+
+
 
 ### Hear This Dance
 
