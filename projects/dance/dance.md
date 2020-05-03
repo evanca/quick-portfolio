@@ -1,14 +1,14 @@
 ### Dance Projects
 
 #### ### Fógraím / I Proclaim: Project Overview
-
 In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/I Proclaim with dancer/choreographer Sibéal Davitt and writer Tristan Rosenstock for 'Embodied at the GPO'. This was a series of six new dance solos by Irish-based female choreographers that were performed inside the GPO to mark the role played by Women the 1916 rising. The pieces were commissioned by An Post's 'GPO Witness History' and the Dublin Dance Festival.
 
 <img src="images/1.jpg?raw=true"/><br/>
 
 For this project I developed an interactive music performance system that fulfilled a number of important roles in the overall production. It captured sounds produced by the dance from a series of microphones placed around the stage. This audio was then processed live and inserted into the music. The audio signal was further analysed using FFT analysis and the amplitudes across different frequency bands were used to both drive and control different parameters of the musical piece. The result is a vibrant and dynamic musical soundscape that reacts in real-time to the sounds created by the dancer. The system also allowed me to improvise musical elements live each night while also incorporating further musical elements that had been composed prior to the performance.
 
-<img src="images/flyer.jpg?raw=true"/><br/>
+- (/audio/Saoirse 3.mp3)
+<img src="images/flyer.jpeg?raw=true"/><br/>
 
 ### Research & Development Process
 
@@ -16,13 +16,15 @@ In developing this system I used a participatory design methodology that allowed
 
 <img src="images/2.jpg?raw=true"/><br/>
 
-
 ### Performances & Press
+
+- S
+
 The performances ran from the 20th-22nd of April and sold out each night and was well received in the press. The production was well received in the press:
 
-[Irish Times Review](https://www.irishtimes.com/culture/stage/bodily-autonomy-and-inequality-women-dance-around-the-proclamation-1.2609030)
-[Examiner Review](/files/examiner.pdf)
-[TN2 Review](https://www.tn2magazine.ie/embodied-review/)
+- [Irish Times Review](https://www.irishtimes.com/culture/stage/bodily-autonomy-and-inequality-women-dance-around-the-proclamation-1.2609030)
+- [Examiner Review](/files/examiner.pdf)
+- [TN2 Review](https://www.tn2magazine.ie/embodied-review/)
 
 
 <!--
