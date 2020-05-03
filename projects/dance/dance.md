@@ -7,7 +7,8 @@ In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/
 
 For this project I developed an interactive music performance system that fulfilled a number of important roles in the overall production. It captured sounds produced by the dance from a series of microphones placed around the stage. This audio was then processed live and inserted into the music. The audio signal was further analysed using FFT analysis and the amplitudes across different frequency bands were used to both drive and control different parameters of the musical piece. The result is a vibrant and dynamic musical soundscape that reacts in real-time to the sounds created by the dancer. The system also allowed me to improvise musical elements live each night while also incorporating further musical elements that had been composed prior to the performance.
 
-- (/audio/Saoirse 3.mp3)
+- [Saoirse](/audio/Saoirse 3.mp3)
+
 <img src="images/flyer.jpeg?raw=true"/><br/>
 
 ### Research & Development Process
