@@ -28,17 +28,6 @@
 
 [Dance Projects](/)
 <img src="images/tabs/NEWtab.png?raw=true"/>
-<!--
-[Fógraím / I Proclaim](/)
-<img src="images/tabs/NEWtab.png?raw=true"/>
-
-[Hear This Dance](/)
-<img src="images/tabs/NEWtab.png?raw=true"/>
-
-[Legitimate Bodies Projects](/)
-<img src="images/tabs/NEWtab.png?raw=true"/>
-
--->
 
 <!-- made some changes to tab colours -->
 
