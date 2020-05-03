@@ -19,15 +19,11 @@
 [The Zones Project](/projects/zones/zones)
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
 
+[Dance Projects](/projects/dance/dance)
+<img src="images/tabs/NEWtab.png?raw=true"/>
+
 [Sound, Music & Audio Production](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
-
----
-#### Please Note: This portfolio site is currently under construction. The following pages will go live in the coming weeks. Please check back later to see the finished version.
----
-
-[Dance Projects](/)
-<img src="images/tabs/NEWtab.png?raw=true"/>
 
 ---
 
