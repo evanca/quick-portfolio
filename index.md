@@ -20,7 +20,7 @@
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
 
 [Dance Projects](/projects/dance/dance)
-<img src="images/tabs/NEWtab.png?raw=true"/>
+<img src="images/tabs/DANCEtab.png?raw=true"/>
 
 [Sound, Music & Audio Production](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
