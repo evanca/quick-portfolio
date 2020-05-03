@@ -10,17 +10,18 @@
 [Embodied Sonification](/projects/embodied_sonification/embodied_sonification)
 <img src="images/tabs/HCtab.png?raw=true"/>
 
-[ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)
-<img src="images/tabs/GEStab.png?raw=true"/>
-
 [Indices on the Body](/projects/indices/indices_audio)
 <img src="images/tabs/JLNtab.png?raw=true"/>
+
+[Dance Projects](/projects/dance/dance)
+<img src="images/tabs/DANCEtab.png?raw=true"/>
+
+[ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)
+<img src="images/tabs/GEStab.png?raw=true"/>
 
 [The Zones Project](/projects/zones/zones)
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
 
-[Dance Projects](/projects/dance/dance)
-<img src="images/tabs/DANCEtab.png?raw=true"/>
 
 [Sound, Music & Audio Production](/projects/Music/music)
 <img src="images/tabs/STRtab.png?raw=true"/>
