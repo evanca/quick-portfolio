@@ -1,6 +1,7 @@
 ## Portfolio
 <!-- //Use some ahref tags to make the images link across to the pages also -->
 
+---
 [Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot)<br />
 <img src="images/tabs/ADIOTtab3.png?raw=true"/>
 
