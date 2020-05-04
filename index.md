@@ -23,12 +23,13 @@
 ---
 [The Zones Project](/projects/zones/zones)
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
-
----
-[Sound, Music & Audio Production](/projects/Music/music)
-<img src="images/tabs/STRtab.png?raw=true"/>
-
 ---
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
+
+<!--
+---
+[Sound, Music & Audio Production](/projects/Music/music)
+<img src="images/tabs/STRtab.png?raw=true"/>
+-->
