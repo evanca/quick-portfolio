@@ -1,11 +1,12 @@
 title: Stephen Roddy PhD # your name (or website title) here
 logo: "/images/38278590_289827491598867_4278751191707418624_n.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <br>
-  This portfolio showcases a number of Research and Developer projects that I have undertaken at the intersection of Computer Science and the Creative/Digital Arts.
-  <br><br>
-
-  <a href="https://www.stephenroddy.com/">Back to stephenroddy.com</a>
+Portfolio of Research and Development Projects.
+<br><br>
+I am a Researcher and Developer working at the intersection of Computer Science and the Digital Arts.
+This portfolio documents and showcases many of the projects that I have undertaken.
+<br><br>
+<a href="https://www.stephenroddy.com/">Back to stephenroddy.com</a>
 
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
