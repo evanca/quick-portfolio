@@ -1,8 +1,10 @@
 title: Madilyn Moeller # your name (or website title) here
 logo: "/images/mortarboard-moellem3.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-Miami University '20  <br>
-Writer, Editor, Humanities Scholar  <br>
+Miami University 2020  
+<br>
+Writer, Editor, Humanities Scholar  
+<br>
   <a href="https://www.linkedin.com/in/madilyn-moeller/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
