@@ -14,7 +14,7 @@
 [Indices on the Body](/projects/indices/indices_audio)<br />
 <img src="images/tabs/JLNtab.png?raw=true"/>
 
-[Dance Projects](/projects/dance/dance)
+[Dance Projects](/projects/dance/dance)<br />
 <img src="images/tabs/DANCEtab.png?raw=true"/>
 
 [ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)<br />
