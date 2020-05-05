@@ -1,11 +1,11 @@
 title: <h1>Madilyn Moeller</h1> # your name (or website title) here
 logo: "/images/mortarboard-moellem3.jpg?raw=true" # your photo (or logo) here
-description:  # your text below (remove <br> elements if you don't need line breaks)
-<h2>Miami University 2020</h2>
-<br>
-<h2>Writer, Editor, Humanities Scholar</h2>
-<br>
+description: > # your text below (remove <br> elements if you don't need line breaks)
+First description
+<br><br>
+Second Description
+<br><br>
   <a href="https://www.linkedin.com/in/madilyn-moeller/">View My LinkedIn Profile</a> 
  <span> 
 theme: jekyll-theme-minimal
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here </span>
+google_analytics: UA-000000-0 </span> # your Google Analytics tracking ID here 
