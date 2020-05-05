@@ -3,8 +3,9 @@
 
 ---
 [Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot)<br />
+<a href="/projects/ad_iot/ad_iot">
 <img src="images/tabs/ADIOTtab3.png?raw=true"/>
-
+</a>
 [Urban Affect Networks ](/projects/Urban Affect Networks/UAF)<br />
 <img src="images/tabs/UAFtab.png?raw=true"/>
 
