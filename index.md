@@ -27,14 +27,14 @@
 <img src="images/tabs/DANCEtab.png?raw=true"/>
 </a>
 
-[ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)<br />
-<a href="/projects/ML_HCI/ML_HCI">
-<img src="images/tabs/GEStab.png?raw=true"/>
-</a>
-
 [The Zones Project](/projects/zones/zones)<br />
 <a href="/projects/zones/zones">
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
+</a>
+
+[ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)<br />
+<a href="/projects/ML_HCI/ML_HCI">
+<img src="images/tabs/GEStab.png?raw=true"/>
 </a>
 
 ---
