@@ -17,6 +17,11 @@
 <img src="images/tabs/HCtab.png?raw=true"/>
 </a>
 
+[ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)<br />
+<a href="/projects/ML_HCI/ML_HCI">
+<img src="images/tabs/GEStab.png?raw=true"/>
+</a>
+
 [Indices on the Body](/projects/indices/indices_audio)<br />
 <a href="/projects/indices/indices_audio">
 <img src="images/tabs/JLNtab.png?raw=true"/>
@@ -30,11 +35,6 @@
 [The Zones Project](/projects/zones/zones)<br />
 <a href="/projects/zones/zones">
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
-</a>
-
-[ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)<br />
-<a href="/projects/ML_HCI/ML_HCI">
-<img src="images/tabs/GEStab.png?raw=true"/>
 </a>
 
 ---
