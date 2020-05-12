@@ -22,11 +22,6 @@
 <img src="images/tabs/GEStab.png?raw=true"/>
 </a>
 
-[Indices on the Body](/projects/indices/indices_audio)<br />
-<a href="/projects/indices/indices_audio">
-<img src="images/tabs/JLNtab.png?raw=true"/>
-</a>
-
 [Dance Projects](/projects/dance/dance)<br />
 <a href="/projects/dance/dance">
 <img src="images/tabs/DANCEtab.png?raw=true"/>
@@ -36,6 +31,12 @@
 <a href="/projects/zones/zones">
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
 </a>
+
+[Indices on the Body](/projects/indices/indices_audio)<br />
+<a href="/projects/indices/indices_audio">
+<img src="images/tabs/JLNtab.png?raw=true"/>
+</a>
+
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
