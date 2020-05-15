@@ -8,7 +8,7 @@
 <img src="images/IMG-2612.jpg?raw=true"/>
 
 ---
-[Research Grant Proposal](/pdf/PSY410-Grant-Proposal-Revised.pdf)
+[Research Grant Proposal](/pdf/PSY410 Grant Proposal Revised.pdf)
 <img src="images/alina-grubnyak-tEVGmMaPFXk-unsplash-cropped.jpg?raw=true"/>
 
 ---
@@ -16,7 +16,7 @@
 <img src="images/Lab_mouse_mg_3213.jpg?raw=true"/>
 
 ---
-[Stress in Adolescent Rats](/pdf/PSY351-Final-Manuscript.pdf)
+[Stress in Adolescent Rats](/pdf/PSY351 Final Manuscript.pdf)
 <img src="images/Lab_mouse_mg_3213.jpg?raw=true"/>
 
 ### Professional Writing
