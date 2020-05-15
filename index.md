@@ -5,7 +5,7 @@
 ### Category Name 1 
 
 [Ebook Exploration](https://github.com/timlockridge/digpub-the-scarlet-letter)
-<img src="images/lauris-rosentals-RyKLUffUhVM-unsplash.jpg?raw=true"/>
+<img src="/images/lauris-rosentals-RyKLUffUhVM-unsplash.jpg?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
