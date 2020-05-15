@@ -13,7 +13,7 @@
 
 ---
 <a href="http://www.historichopewellchurch.org">
-[Capstone Website]</a>
+Capstone Website</a>
 <img src="images/hhcbrochureimage.png?raw=true"/>
 
 ---
@@ -37,7 +37,7 @@
 
 ---
 <a href="https://1drv.ms/b/s!AiohIVjc79L6vDT6vk-KqESyRUMu">
-[Research Proposal Presentation]</a>
+Research Proposal Presentation</a>
 <img src="images/Lab_mouse_mg_3213.jpg?raw=true"/>
 
 ---
