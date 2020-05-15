@@ -4,7 +4,6 @@
 - Bachelor of Arts in Professional Writing EXPECTED MAY 2020 <br />
 - Bachelor of Arts in Psychology, Neuroscience Co-Major EXPECTED MAY 2020 <br />
 - Honors: Phi Beta Kappa, Cum Laude, University Honors Program, Humanities Scholar, Redhawk Eminence Scholar, Dean’s List 2016-2019, GPA 3.84/4.0. <br />
-<br />
 
 ## WORK EXPERIENCE <br />
 **Writing Associate, HOWE CENTER FOR WRITING EXCELLENCE** (JAN.-MAY 2020) <br />
@@ -21,7 +20,6 @@
 - Initiated campaign to collect feedback from guests after departure, implementing feedback <br />
 - Created spreadsheets to track and assign house maintenance, assigning and performing cleaning for 14 rooms <br />
 - Transitioned registration protocols for new Family Room space in Dayton Children’s Hospital <br />
-<br />
 
 ## RESEARCH EXPERIENCE <br />
 **COMPASS (Compilation of Miami Publications Advancing the Social Sciences)** (AUG. 2019-MAY 2020) <br />
@@ -33,7 +31,6 @@
 - Collaborated with two researchers to assess relearning ability of mice lacking Dopamine transporters <br />
 - Proposed research after review of prior literature, performed study, analyzed data and presented results <br />
 - Earned $1000 Undergraduate Research Award for excellence in field <br />
-<br />
 
 ## LEADERSHIP <br />
 **Secretary, TAU BETA SIGMA, DELTA EPSILON** (DEC. 2018-DEC. 2019) <br />
@@ -46,6 +43,7 @@
 **“Valentunes” Chair, TAU BETA SIGMA, DELTA EPSILON** (MAY 2017-MAY 2018) <br />
 - Coordinated annual Valentine’s Day themed fundraising performance event, “Valentunes,” raising $700 for Mr. Holland’s Opus Foundation <br />
 - Recruited musical acts, designed promotional materials, appointed committees, delegated tasks, ran logistics <br />
+<br />
 
 ## SKILLS <br />
 Experience Grant writing; Adobe InDesign (Intermediate), Illustrator (Basic), Photoshop (Basic); HTML5 (Intermediate) <br />
