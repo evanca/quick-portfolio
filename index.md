@@ -8,8 +8,8 @@
 <img src="/images/lauris-rosentals-RyKLUffUhVM-unsplash.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/PSY410-Grant-Proposal-Revised.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Research Grant Proposal](/pdf/PSY410-Grant-Proposal-Revised.pdf)
+<img src="images/alina-grubnyak-tEVGmMaPFXk-unsplash-cropped.jpg?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
