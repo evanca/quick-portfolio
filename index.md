@@ -12,7 +12,8 @@
 <img src="images/alina-grubnyak-tEVGmMaPFXk-unsplash-cropped.jpg?raw=true"/>
 
 ---
-[Research Proposal Presentation](https://1drv.ms/b/s!AiohIVjc79L6vDT6vk-KqESyRUMu)
+<a href="https://1drv.ms/b/s!AiohIVjc79L6vDT6vk-KqESyRUMu">
+[Research Proposal Presentation]</a>
 <img src="images/Lab_mouse_mg_3213.jpg?raw=true"/>
 
 ---
@@ -42,7 +43,8 @@
 <img src="images/after_breast_cancer_logo.png?raw=true"/>
 
 ---
-[Capstone Website](http://www.historichopewellchurch.org/)
+<a href="http://www.historichopewellchurch.org">
+[Capstone Website]</a>
 <img src="images/hhcbrochureimage.png?raw=true"/>
 
 ---
