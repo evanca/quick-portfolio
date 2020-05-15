@@ -32,7 +32,7 @@
 - Proposed research after review of prior literature, performed study, analyzed data and presented results <br />
 - Earned $1000 Undergraduate Research Award for excellence in field <br />
 <br />
-## LEADERSHIP<br />
+## LEADERSHIP <br />
 **Secretary, TAU BETA SIGMA, DELTA EPSILON** (DEC. 2018-DEC. 2019) <br />
 - Recorded and distributed minutes twice weekly during spring and fall semesters <br />
 - Tracked attendance for 50 members at 44 Chapter functions <br />
