@@ -30,10 +30,14 @@
 
 ### Professional Writing
 
-[Exploration in Ebooks: The Scarlet Letter](https://github.com/timlockridge/digpub-the-scarlet-letter)
+[Exploration in Ebooks: The Scarlet Letter] (https://github.com/timlockridge/digpub-the-scarlet-letter)
 <img src="/images/lauris-rozentals-RyKLUffUhVM-unsplash.jpg?raw=true"/>
 
 ---
+
+[Grant Proposal] (/pdf/Full Proposal Narrative .pdf)
+<img src="images/after_breast_cancer_logo.png?raw=true"/>
+
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
