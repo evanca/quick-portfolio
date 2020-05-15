@@ -16,6 +16,8 @@
 <img src="images/Lab_mouse_mg_3213.jpg?raw=true"/>
 
 ---
+[Stress in Adolescent Rats](/pdf/PSY351-Final-Manuscript.pdf)
+<img src="images/Lab_mouse_mg_3213.jpg?raw=true"/>
 
 ### Professional Writing
 
