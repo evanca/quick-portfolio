@@ -12,7 +12,7 @@
 <img src="images/alina-grubnyak-tEVGmMaPFXk-unsplash-cropped.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Proposal Presentation](https://1drv.ms/b/s!AiohIVjc79L6vDT6vk-KqESyRUMu)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
