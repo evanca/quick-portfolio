@@ -4,19 +4,19 @@
 
 ### Neuroscience 
 
-[BURP-BN Poster](/pdf/DATKO_Hinklefinal.pdf)
+[BURP-BN Poster] (/pdf/DATKO_Hinklefinal.pdf)
 <img src="images/IMG-2612.jpg?raw=true"/>
 
 ---
-[Research Grant Proposal](/pdf/PSY410 Grant Proposal Revised.pdf)
+[Research Grant Proposal] (/pdf/PSY410 Grant Proposal Revised.pdf)
 <img src="images/alina-grubnyak-tEVGmMaPFXk-unsplash-cropped.jpg?raw=true"/>
 
 ---
-[Research Proposal Presentation](https://1drv.ms/b/s!AiohIVjc79L6vDT6vk-KqESyRUMu)
+[Research Proposal Presentation] (https://1drv.ms/b/s!AiohIVjc79L6vDT6vk-KqESyRUMu)
 <img src="images/Lab_mouse_mg_3213.jpg?raw=true"/>
 
 ---
-[Stress in Adolescent Rats](/pdf/PSY351 Final Manuscript.pdf)
+[Stress in Adolescent Rats] (/pdf/PSY351 Final Manuscript.pdf)
 <img src="images/Lab_mouse_mg_3213.jpg?raw=true"/>
 
 ---
@@ -38,15 +38,14 @@
 <img src="/images/lauris-rozentals-RyKLUffUhVM-unsplash.jpg?raw=true"/>
 
 ---
-
 [Grant Proposal] (/pdf/Full Proposal Narrative .pdf)
 <img src="images/after_breast_cancer_logo.png?raw=true"/>
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+---
+[Capstone Website] (http://www.historichopewellchurch.org/)
+<img src="images/Logo_for_Web.png?raw=true"/>
+
+
 
 ---
 
