@@ -4,7 +4,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   Writer, Editor, Humanities Scholar
   <br>
   Miami University(OH) 2020. Psychology, Neuroscience, & Professional Writing. <br />
-  <a href="/about/">Resume</a> <br />
+  <a href="https://github.com/mmmoeller/mmmoeller.github.io/blob/master/about.md">Resume</a> <br />
   <a href="https://www.linkedin.com/in/madilyn-moeller/">View my LinkedIn</a>
   <br>
 theme: jekyll-theme-minimal
