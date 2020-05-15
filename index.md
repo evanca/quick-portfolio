@@ -5,7 +5,7 @@
 ### Neuroscience 
 
 [BURP-BN Poster](/pdf/DATKO_Hinklefinal.pdf)
-<img src="images/Lab_mouse_mg_3213.jpg?raw=true"/>
+<img src="images/IMG-2612.jpg?raw=true"/>
 
 ---
 [Research Grant Proposal](/pdf/PSY410-Grant-Proposal-Revised.pdf)
