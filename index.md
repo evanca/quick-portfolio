@@ -2,6 +2,30 @@
 
 ---
 
+### Professional Writing
+
+[Exploration in Ebooks: The Scarlet Letter](https://github.com/timlockridge/digpub-the-scarlet-letter)
+<img src="/images/lauris-rozentals-RyKLUffUhVM-unsplash.jpg?raw=true"/>
+
+---
+[Grant Proposal](/pdf/Full Proposal Narrative .pdf)
+<img src="images/after_breast_cancer_logo.png?raw=true"/>
+
+---
+<a href="http://www.historichopewellchurch.org">
+[Capstone Website]</a>
+<img src="images/hhcbrochureimage.png?raw=true"/>
+
+---
+[Self Help Genre Presentation](/pdf/ENG495 Self Help Presentation.pdf)
+<img src="images/selfhelptitleslide.png?raw=true"/>
+
+---
+[Louie's Legacy Client Project](/pdf/ENG411 Client Report.pdf)
+<img src="images/LouiesLegacy-4color.png?raw=true"/>
+
+---
+
 ### Neuroscience 
 
 [BURP-BN Poster](/pdf/DATKO_Hinklefinal.pdf)
@@ -33,29 +57,6 @@
 [Darkling Beetle Food Preference](/pdf/Exploring Food Preferences in Tenebrio molitor, the Darkling Beetle.pdf)
 <img src="images/IMG-0195.jpg?raw=true"/>
 
-### Professional Writing
-
-[Exploration in Ebooks: The Scarlet Letter](https://github.com/timlockridge/digpub-the-scarlet-letter)
-<img src="/images/lauris-rozentals-RyKLUffUhVM-unsplash.jpg?raw=true"/>
-
----
-[Grant Proposal](/pdf/Full Proposal Narrative .pdf)
-<img src="images/after_breast_cancer_logo.png?raw=true"/>
-
----
-<a href="http://www.historichopewellchurch.org">
-[Capstone Website]</a>
-<img src="images/hhcbrochureimage.png?raw=true"/>
-
----
-[Self Help Genre Presentation](/pdf/ENG495 Self Help Presentation.pdf)
-<img src="images/selfhelptitleslide.png?raw=true"/>
-
----
-[Louie's Legacy Client Project](/pdf/ENG411 Client Report.pdf)
-<img src="images/LouiesLegacy-4color.png?raw=true"/>
-
----
 
 
 
