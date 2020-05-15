@@ -28,6 +28,10 @@
 [Milkweed Experiment Report] (/pdf/BIO465 Milkweed Manuscript.pdf)
 <img src="images/IMG-0376.jpg?raw=true"/>
 
+---
+[Darkling Beetle Food Preference] (/pdf/Exploring Food Preferences in Tenebrio molitor, the Darkling Beetle.pdf)
+<img src="images/IMG-0195.jpg?raw=true"/>
+
 ### Professional Writing
 
 [Exploration in Ebooks: The Scarlet Letter] (https://github.com/timlockridge/digpub-the-scarlet-letter)
