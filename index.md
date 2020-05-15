@@ -4,8 +4,8 @@
 
 ### Neuroscience 
 
-[BURP-BN Poster](https://github.com/timlockridge/digpub-the-scarlet-letter)
-<img src="/images/lauris-rosentals-RyKLUffUhVM-unsplash.jpg?raw=true"/>
+[BURP-BN Poster](/pdf/DATKO_Hinklefinal.pdf)
+<img src="images/lauris-rosentals-RyKLUffUhVM-unsplash.jpg?raw=true"/>
 
 ---
 [Research Grant Proposal](/pdf/PSY410-Grant-Proposal-Revised.pdf)
