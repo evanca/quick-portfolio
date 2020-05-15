@@ -5,6 +5,7 @@
 - Bachelor of Arts in Psychology, Neuroscience Co-Major EXPECTED MAY 2020 <br />
 - Honors: Phi Beta Kappa, Cum Laude, University Honors Program, Humanities Scholar, Redhawk Eminence Scholar, Dean’s List 2016-2019, GPA 3.84/4.0. <br />
 <br />
+
 ## WORK EXPERIENCE <br />
 **Writing Associate, HOWE CENTER FOR WRITING EXCELLENCE** (JAN.-MAY 2020) <br />
 - Consult for Economics course (ECO 347) of 30 students over series of 5 memos and final report <br />
@@ -21,6 +22,7 @@
 - Created spreadsheets to track and assign house maintenance, assigning and performing cleaning for 14 rooms <br />
 - Transitioned registration protocols for new Family Room space in Dayton Children’s Hospital <br />
 <br />
+
 ## RESEARCH EXPERIENCE <br />
 **COMPASS (Compilation of Miami Publications Advancing the Social Sciences)** (AUG. 2019-MAY 2020) <br />
 - Review research manuscripts for publication, evaluating statistics, content, and suitability <br />
@@ -32,6 +34,7 @@
 - Proposed research after review of prior literature, performed study, analyzed data and presented results <br />
 - Earned $1000 Undergraduate Research Award for excellence in field <br />
 <br />
+
 ## LEADERSHIP <br />
 **Secretary, TAU BETA SIGMA, DELTA EPSILON** (DEC. 2018-DEC. 2019) <br />
 - Recorded and distributed minutes twice weekly during spring and fall semesters <br />
