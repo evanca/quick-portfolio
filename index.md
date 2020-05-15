@@ -8,7 +8,7 @@
 <img src="/images/lauris-rosentals-RyKLUffUhVM-unsplash.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Project 2 Title](/pdf/PSY410-Grant-Proposal-Revised.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
