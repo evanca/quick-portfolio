@@ -44,5 +44,5 @@
 - Coordinated annual Valentine’s Day themed fundraising performance event, “Valentunes,” raising $700 for Mr. Holland’s Opus Foundation <br />
 - Recruited musical acts, designed promotional materials, appointed committees, delegated tasks, ran logistics <br />
 
-## SKILLS<br />
+## SKILLS <br />
 Experience Grant writing; Adobe InDesign (Intermediate), Illustrator (Basic), Photoshop (Basic); HTML5 (Intermediate) <br />
