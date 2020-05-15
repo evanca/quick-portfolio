@@ -21,7 +21,7 @@
 
 ---
 [Alcohol and Anxiety] (/pdf/PSY293 Research Final Paper-1.pdf)
-<img src=" ?raw=true"/>
+<img src="images/anastasiia-rozumna-z1C4U9-zeVs-unsplash.jpg?raw=true"/>
 
 ### Professional Writing
 
