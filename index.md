@@ -45,7 +45,13 @@
 [Capstone Website](http://www.historichopewellchurch.org/)
 <img src="images/Logo_for_Web.png?raw=true"/>
 
+---
+[Self Help Genre Presentation](/pdf/ENG495 Self Help Presentation.pdf)
+<img src='images/selfhelptitleslide.png?raw=true"/>
 
+---
+[Louie's Legacy Client Project](/pdf/ENG411 Client Report.pdf)
+<img src="images/LouiesLegacy-4color.png?raw=true"/>
 
 ---
 
