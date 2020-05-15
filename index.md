@@ -43,7 +43,7 @@
 
 ---
 [Capstone Website](http://www.historichopewellchurch.org/)
-<img src="images/Logo_for_Web.png?raw=true"/>
+<img src="images/Logo_For_Web.png?raw=true"/>
 
 ---
 [Self Help Genre Presentation](/pdf/ENG495 Self Help Presentation.pdf)
