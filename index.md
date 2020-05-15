@@ -4,45 +4,45 @@
 
 ### Neuroscience 
 
-[BURP-BN Poster] (/pdf/DATKO_Hinklefinal.pdf)
+[BURP-BN Poster](/pdf/DATKO_Hinklefinal.pdf)
 <img src="images/IMG-2612.jpg?raw=true"/>
 
 ---
-[Research Grant Proposal] (/pdf/PSY410 Grant Proposal Revised.pdf)
+[Research Grant Proposal](/pdf/PSY410 Grant Proposal Revised.pdf)
 <img src="images/alina-grubnyak-tEVGmMaPFXk-unsplash-cropped.jpg?raw=true"/>
 
 ---
-[Research Proposal Presentation] (https://1drv.ms/b/s!AiohIVjc79L6vDT6vk-KqESyRUMu)
+[Research Proposal Presentation](https://1drv.ms/b/s!AiohIVjc79L6vDT6vk-KqESyRUMu)
 <img src="images/Lab_mouse_mg_3213.jpg?raw=true"/>
 
 ---
-[Stress in Adolescent Rats] (/pdf/PSY351 Final Manuscript.pdf)
+[Stress in Adolescent Rats](/pdf/PSY351 Final Manuscript.pdf)
 <img src="images/Lab_mouse_mg_3213.jpg?raw=true"/>
 
 ---
-[Alcohol and Anxiety] (/pdf/PSY293 Research Final Paper-1.pdf)
+[Alcohol and Anxiety](/pdf/PSY293 Research Final Paper-1.pdf)
 <img src="images/matthieu-joannon-6ciLddToTgM-unsplash.jpg?raw=true"/>
 
 ### Biology
 
-[Milkweed Experiment Report] (/pdf/BIO465 Milkweed Manuscript.pdf)
+[Milkweed Experiment Report](/pdf/BIO465 Milkweed Manuscript.pdf)
 <img src="images/IMG-0376.jpg?raw=true"/>
 
 ---
-[Darkling Beetle Food Preference] (/pdf/Exploring Food Preferences in Tenebrio molitor, the Darkling Beetle.pdf)
+[Darkling Beetle Food Preference](/pdf/Exploring Food Preferences in Tenebrio molitor, the Darkling Beetle.pdf)
 <img src="images/IMG-0195.jpg?raw=true"/>
 
 ### Professional Writing
 
-[Exploration in Ebooks: The Scarlet Letter] (https://github.com/timlockridge/digpub-the-scarlet-letter)
+[Exploration in Ebooks: The Scarlet Letter](https://github.com/timlockridge/digpub-the-scarlet-letter)
 <img src="/images/lauris-rozentals-RyKLUffUhVM-unsplash.jpg?raw=true"/>
 
 ---
-[Grant Proposal] (/pdf/Full Proposal Narrative .pdf)
+[Grant Proposal](/pdf/Full Proposal Narrative .pdf)
 <img src="images/after_breast_cancer_logo.png?raw=true"/>
 
 ---
-[Capstone Website] (http://www.historichopewellchurch.org/)
+[Capstone Website](http://www.historichopewellchurch.org/)
 <img src="images/Logo_for_Web.png?raw=true"/>
 
 
