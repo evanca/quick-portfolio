@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Ebook Exploration](/downloads/the-scarlet-letter-6.epub)
+[Ebook Exploration](https://github.com/timlockridge/digpub-the-scarlet-letter)
 <img src="images/lauris-rosentals-RyKLUffUhVM-unsplash.jpg?raw=true"/>
 
 ---
