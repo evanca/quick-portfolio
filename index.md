@@ -47,7 +47,7 @@
 
 ---
 [Self Help Genre Presentation](/pdf/ENG495 Self Help Presentation.pdf)
-<img src='images/selfhelptitleslide.png?raw=true"/>
+<img src="images/selfhelptitleslide.png?raw=true"/>
 
 ---
 [Louie's Legacy Client Project](/pdf/ENG411 Client Report.pdf)
