@@ -19,6 +19,10 @@
 [Stress in Adolescent Rats](/pdf/PSY351 Final Manuscript.pdf)
 <img src="images/Lab_mouse_mg_3213.jpg?raw=true"/>
 
+---
+[Alcohol and Anxiety] (/pdf/PSY293 Research Final Paper-1.pdf)
+<img src=" ?raw=true"/>
+
 ### Professional Writing
 
 [Exploration in Ebooks: The Scarlet Letter](https://github.com/timlockridge/digpub-the-scarlet-letter)
