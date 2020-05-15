@@ -17,10 +17,12 @@
 
 ---
 
-### Category Name 2
+### Professional Writing
 
-[Ebook Exploration](https://github.com/timlockridge/digpub-the-scarlet-letter)
+[Exploration in Ebooks: The Scarlet Letter](https://github.com/timlockridge/digpub-the-scarlet-letter)
 <img src="/images/lauris-rozentals-RyKLUffUhVM-unsplash.jpg?raw=true"/>
+
+---
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
