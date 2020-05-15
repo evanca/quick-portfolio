@@ -21,7 +21,7 @@
 
 ---
 [Alcohol and Anxiety] (/pdf/PSY293 Research Final Paper-1.pdf)
-<img src="images/mattieu-joannon-6ciLddTotgM-unsplash.jpg?raw=true"/>
+<img src="images/matthieu-joannon-6ciLddToTgM-unsplash.jpg?raw=true"/>
 
 ### Biology
 
