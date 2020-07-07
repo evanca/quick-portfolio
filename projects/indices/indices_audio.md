@@ -28,9 +28,9 @@ Later, in 2016/2017, I recorded additional Soundworks and musical pieces incorpo
 * [Spotify](https://open.spotify.com/album/3DsDLwlP74rKzIRaGvsyeh)
 * [Apple Music](https://music.apple.com/us/album/le-son-du-corps-et-un-corps-de-sons/1314413365)
 
-### Iterations 3: Language, Translations & Machine Learning
+### Iterations 3 & 4: Language, Translations & Machine Learning
 
-In 2019 I developed an art installation to be delivered via web application for the [2019 Irish Sound Science and Technology Event at the Cork School of Music](https://drive.google.com/file/d/1W_np9Jb-QEeny_Hd4wzR12Zvv-CdpXFr/view). The piece was titled: 58+1 Indices On The Body: A Reflection on Translations through Language, Technology and Sounds - Selected Indices Soundworks and Musical Pieces w/Sentiment Analysis
+In 2019/2020 I developed an art installation to be delivered via web application for the 2020 edition of [NIME: The International Conference on New Interfaces for Musical Expression](https://nime2020.bcu.ac.uk/). This installation was entitled 'Indices Online'. An earlier version of the project was installed for the [2019 Irish Sound Science and Technology Event at the Cork School of Music](https://drive.google.com/file/d/1W_np9Jb-QEeny_Hd4wzR12Zvv-CdpXFr/view). That piece was titled: 58+1 Indices On The Body: A Reflection on Translations through Language, Technology and Sounds - Selected Indices Soundworks and Musical Pieces w/Sentiment Analysis.
 
 It collects together and iterates upon all of my sonic/musical work for the project to date. The audience is invited to listen to the pieces, and reflect on the indices which have been translated into English from Nancy's native French by Richard A. Rand for the English translation of Nancy's Corpus for the Perspectives in Continental Philosophy Series.
 
