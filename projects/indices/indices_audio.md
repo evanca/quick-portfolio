@@ -36,7 +36,7 @@ It collects together and iterates upon all of my sonic/musical work for the proj
 
 The text is also analysed using a machine learning model for sentiment analysis [implemented in ml5.js](https://ml5js.org/). This analysis returns a value on a scale of 0 (negative) to 1 (positive). This sentiment is reflected in the color of the waveform that is drawn across on the screen. The shape of the waveform represents the amplitude values of the recording while at a given time, while its colour represents the sentiment value assigned to the translated text.
 
-<img src="images/EINp-vEWwAATkE2.jpg?raw=true"/><br/>
+<img src="images/ind_images.png?raw=true"/><br/>
 
 
 The piece is a reflection on translations across languages, vocalisation, and technologies.
