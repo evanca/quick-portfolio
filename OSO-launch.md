@@ -33,7 +33,7 @@ I'm sharing the proposal that was developed here in the hopes that it might insp
 -	Maintaining open source license compliance reviews and oversight
 -	Scouting open source technology opportunities with advance development teams
 
-## Why
+### Why
 **Business Outcomes**
 -	Reduced time to market of new product’s
 -	Lowered development costs
@@ -44,7 +44,7 @@ I'm sharing the proposal that was developed here in the hopes that it might insp
 -	Recruit and retain great software talent for COMPANY
 -	Set and maintain open source software policies and best practices
 
-## How
+### How
 **Staffing Critical Mass** __(Team to work closely with existing legal dept.)__
 -	Open Source Director - Zack Koppert
 -	Open Source Developer (x2)
@@ -68,6 +68,6 @@ I'm sharing the proposal that was developed here in the hopes that it might insp
 **Growth Path**
 -	Launch and incubate this group to serve BUSINESS-UNIT before expanding to support COMPANY-wide 
 -	Expand beyond BUSINESS-UNIT to COMPANY-wide office expanding reuse and compliance
--	Integrate at a PARENT-COMPANY level working with other OpCo’s
+-	Integrate at a PARENT-COMPANY level working with other companies
 
 
