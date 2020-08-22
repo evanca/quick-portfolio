@@ -5,7 +5,7 @@
 <h3> Works in Progress: </h3>
 [Astronomy Picture of the Day: Web App](/projects/NASA_APOD/nasa_apod)<br />
 <a href="/projects/NASA_APOD/nasa_apod">
-<img src="images/tabs/nasaTab.png?raw=true"/>
+<img src="images/tabs/nasaTab2.png?raw=true"/>
 </a>
 <br />
 <h3> Recent Projects: </h3>
