@@ -3,11 +3,11 @@
 
 ---
 <h3> Works in Progress: </h3>
-[NASA_APoD: Web App](/projects/NASA_APOD/nasa_apod)<br />
+[Astronomy Picture of the Day: Web App](/projects/NASA_APOD/nasa_apod)<br />
 <a href="/projects/NASA_APOD/nasa_apod">
 <img src="images/tabs/nasaTab.png?raw=true"/>
 </a>
-
+<br />
 <h3> Recent Projects: </h3>
 [Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot)<br />
 <a href="/projects/ad_iot/ad_iot">
