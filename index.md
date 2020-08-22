@@ -2,6 +2,13 @@
 <!-- //Use some ahref tags to make the images link across to the pages also -->
 
 ---
+<h3> Works in Progress: </h3>
+[NASA_APoD: Web App](/projects/NASA_APOD/nasa_apod)<br />
+<a href="<a href="/projects/NASA_APOD/nasa_apod>
+<img src="images/tabs/nasaTab.png?raw=true"/>
+</a>
+
+<h3> Recent Projects: </h3>
 [Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot)<br />
 <a href="/projects/ad_iot/ad_iot">
 <img src="images/tabs/ADIOTtab3.png?raw=true"/>
