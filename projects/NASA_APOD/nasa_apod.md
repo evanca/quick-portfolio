@@ -11,7 +11,7 @@ NASA:_APoD - Astronomy Picture of the Day is a web app project I am currently wo
 
 <br />
 You can try out the app in its current state here:
-<br />
+<br /> <br />
 <a href="https://stephenroddy.github.io/NASA---APOD---Proj/" target="_blank">NASA Astronomy Picture of the Day - Web App</a>
 
 ### Technologies
