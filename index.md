@@ -2,13 +2,7 @@
 <!-- //Use some ahref tags to make the images link across to the pages also -->
 
 ---
-<h3> Works in Progress: </h3>
-[Astronomy Picture of the Day: Web App](/projects/NASA_APOD/nasa_apod)<br />
-<a href="/projects/NASA_APOD/nasa_apod">
-<img src="images/tabs/nasaTab2.png?raw=true"/>
-</a>
-<br />
-<h3> Recent Projects: </h3>
+<h3>Recent Projects: </h3>
 [Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot)<br />
 <a href="/projects/ad_iot/ad_iot">
 <img src="images/tabs/ADIOTtab3.png?raw=true"/>
@@ -44,6 +38,17 @@
 <img src="images/tabs/JLNtab.png?raw=true"/>
 </a>
 
+<br />
+<h3>Works in Progress: </h3>
+[dog.dipslay()](/projects/dog-display/dog_display)<br />
+<a href="/projects/dog-display/dog_display">
+<img src="images/tabs/dogTab.png?raw=true"/>
+</a>
+
+[Astronomy Picture of the Day: Web App](/projects/NASA_APOD/nasa_apod)<br />
+<a href="/projects/NASA_APOD/nasa_apod">
+<img src="images/tabs/nasaTab2.png?raw=true"/>
+</a>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
