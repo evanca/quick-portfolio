@@ -40,7 +40,7 @@
 
 <br />
 <h3>Works in Progress: </h3>
-[dog.dipslay()](/projects/dog-display/dog_display)<br />
+[dog.display()](/projects/dog-display/dog_display)<br />
 <a href="/projects/dog-display/dog_display">
 <img src="images/tabs/dogTab.png?raw=true"/>
 </a>
