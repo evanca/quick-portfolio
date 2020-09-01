@@ -40,6 +40,11 @@
 
 <br />
 <h3>Works in Progress: </h3>
+[Data-scape: Multimodal Data Analytics](/projects/data-scape/data-scape)<br />
+<a href="/projects/NASA_APOD/nasa_apod">
+<img src="images/tabs/dsTab.png?raw=true"/>
+</a>
+
 [dog.display()](/projects/dog-display/dog_display)<br />
 <a href="/projects/dog-display/dog_display">
 <img src="images/tabs/dogTab.png?raw=true"/>
@@ -49,6 +54,8 @@
 <a href="/projects/NASA_APOD/nasa_apod">
 <img src="images/tabs/nasaTab2.png?raw=true"/>
 </a>
+
+
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
