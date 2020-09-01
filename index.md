@@ -2,6 +2,12 @@
 <!-- //Use some ahref tags to make the images link across to the pages also -->
 
 ---
+<h3>Work in Progress: </h3>
+[Data-scape: Multimodal Data Analytics](/projects/data-scape/data-scape)<br />
+<a href="/projects/NASA_APOD/nasa_apod">
+<img src="images/tabs/dsTab.png?raw=true"/>
+</a>
+
 <h3>Recent Projects: </h3>
 [Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot)<br />
 <a href="/projects/ad_iot/ad_iot">
@@ -39,12 +45,7 @@
 </a>
 
 <br />
-<h3>Works in Progress: </h3>
-[Data-scape: Multimodal Data Analytics](/projects/data-scape/data-scape)<br />
-<a href="/projects/NASA_APOD/nasa_apod">
-<img src="images/tabs/dsTab.png?raw=true"/>
-</a>
-
+<h3>Projects for Fun!: </h3>
 [dog.display()](/projects/dog-display/dog_display)<br />
 <a href="/projects/dog-display/dog_display">
 <img src="images/tabs/dogTab.png?raw=true"/>
