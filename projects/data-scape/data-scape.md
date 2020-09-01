@@ -15,4 +15,4 @@ The framework will be usable as a front-end alternative to purely visual dashboa
 Javascript, React, ApexCharts, d3.js, Tone.js, p5.js, Bootstrap, Node.js JSX, JSON, HTML5, CSS, RESTful, API
 
 ### Data Source for Prototype:
-https://opendata-geohive.hub.arcgis.com/datasets/d8eb52d56273413b84b0187a4e9117be_0/geoservice?geometry=-7.694%2C53.288%2C-7.691%2C53.289
+[COVID-19 HPSC Stats Ireland - GeoHive Open Data Catalogue](https://opendata-geohive.hub.arcgis.com/datasets/d8eb52d56273413b84b0187a4e9117be_0/geoservice?geometry=-7.694%2C53.288%2C-7.691%2C53.289)
