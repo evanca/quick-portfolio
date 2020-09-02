@@ -20,7 +20,6 @@ Users will be able to register for an account and login to save their dashboards
 
 You check in on the development of the platform and see it  in its current state here:
 
-<br /> <br />
 <a href="https://stephenroddy.github.io/data-scape" target="_blank">Data-Scape - Multimodal Data Analytics for the Web</a>
 
 
