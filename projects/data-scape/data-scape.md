@@ -1,4 +1,4 @@
-### Data-scape: A Personalised Framework for Multimodal Data Analytics
+### Data-scape: A Framework for Multimodal Data Analytics
 
 #### Project Description
 I am currently working on a framework for Multimodal Data Analytics that draw upon my research over the past 9 years.
