@@ -10,10 +10,19 @@ Essentially it can integrates graphs and maps from ApexCharts and d3.js, audio f
 
 The framework will be usable as a front-end alternative to purely visual dashboards and will allow data to be represented with images, sound and animated visuals.
 
-<img src="images/Multimodal Data Analytics 2.png?raw=true"/><br/>
+<a href="https://stephenroddy.github.io/data-scape/" target="_blank"><img src="images/Multimodal Data Analytics 2.png?raw=true"/><br/></a>
 
 In its current state the framework consists of a simple dashboard.
 This will be improved upon with new features over the next 12 months
+
+The end result will present a user with bespoke, personalised data dashboards.
+Users will be able to register for an account and login to save their dashboards and the different data that feed those dashboards.
+
+You check in on the development of the platform and see it  in its current state here:
+
+<br /> <br />
+<a href="https://stephenroddy.github.io/data-scape" target="_blank">Data-Scape - Multimodal Data Analytics for the Web</a>
+
 
 ### Technologies
 Javascript, React, ApexCharts, d3.js, Tone.js, p5.js, Bootstrap, Node.js JSX, JSON, HTML5, CSS, RESTful, API
