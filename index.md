@@ -2,7 +2,7 @@
 <!-- //Use some ahref tags to make the images link across to the pages also -->
 
 ---
-<h3>Work in Progress: </h3>
+<h3>Ongoing Projects: </h3>
 [Data-scape: Multimodal Data Analytics](/projects/data-scape/data-scape)<br />
 <a href="/projects/data-scape/data-scape">
 <img src="images/tabs/dsTab.png?raw=true"/>
