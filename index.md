@@ -4,7 +4,7 @@
 
 ### Machine Learning
 
-[Predicting Nitrogen Dioxide($$NO_{2}$$)Vertical Profiles Using Random Forest](/sample_page)
+[Predicting Vertical Profiles of Nitrogen Dioxide Using Random Forest](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
