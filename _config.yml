@@ -1,11 +1,11 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+title: Jennifer Grant 
+logo: "/images/IMG_1961.jpeg?raw=true" 
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  I am a recent UC Berkeley graduate, with a BA in Applied Mathematics.  
   <br><br>
-  Second description 
+  At Berkeley I found my passion for data science. I am all about building & improving machine learning models and love communicating results through cool data visualizations
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/jenniferlgrant/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
