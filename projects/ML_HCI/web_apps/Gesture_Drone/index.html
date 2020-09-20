@@ -1,0 +1,233 @@
+<!DOCTYPE html><html lang="en"><head>
+    <title>Getting Started with ml5.js</title>
+    <!-- p5 -->
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <!-- ml5 -->
+    <script src="ml5.min.js"></script>
+  </head>
+
+  <body>
+    <script>
+// Copyright (c) 2018 ml5
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+/* ===
+ml5 Example
+PoseNet example using p5.js
+=== */
+
+let video;
+let poseNet;
+let poses = [];
+
+let leftX = 0;
+let leftY = 0;
+let rightX = 0;
+let rightY = 0;
+      
+// Sound Synthesis setup
+let carrier; // this is the oscillator we will hear
+let modulator; // this oscillator will modulate the frequency of the carrier
+// the carrier frequency pre-modulation
+let carrierBaseFreq = 220;
+// min/max ranges for modulator
+let modMaxFreq = 112;
+let modMinFreq = 0;
+let modMaxDepth = 150;
+let modMinDepth = -150;
+
+//Preload All Images
+let drone_image; 
+let cute_drone;
+let par1;
+let par2;
+let parSky;
+
+
+      
+function preload() {
+  drone_image = loadImage('drone.png');
+  cute_drone = loadImage('cute.png');
+  par1 = loadImage('par1.png');
+  par2 = loadImage('par2.png');
+  parSky = loadImage('parSky.png');
+}
+
+function setup() {
+ // let canvas = createCanvas(640, 480);
+ //let canvas = createCanvas(windowWidth*.75,windowHeight)*.75;
+  
+  let canvas = createCanvas(540, 540);
+
+
+  
+  video = createCapture(VIDEO);
+  video.size(width, height);
+
+  // Create a new poseNet method with a single detection
+  poseNet = ml5.poseNet(video, modelReady);
+  // This sets up an event that fills the global variable "poses"
+  // with an array every time new poses are detected
+  poseNet.on('pose', function(results) {
+    poses = results;
+  });
+  poseNet.on('pose', gotPoses);
+  // Hide the video element, and just show the canvas
+  video.hide();
+  
+  //Setup up for audio elements
+  carrier = new p5.Oscillator('sine');
+  carrier.amp(.05); // set amplitude
+  carrier.freq(carrierBaseFreq); // set frequency
+  carrier.start(); // start oscillating
+
+  // try changing the type to 'square', 'sine' or 'triangle'
+  modulator = new p5.Oscillator('sawtooth');
+  modulator.start();
+
+  // add the modulator's output to modulate the carrier's frequency
+  modulator.disconnect();
+  carrier.freq(modulator);
+  
+  // initialise left hand and right hand shapes
+
+  //let rightHand = ellipse(0, 0, 0);
+  //let leftHand  = ellipse(0, 0, 0);
+}
+
+       
+function gotPoses(poses) {
+  // console.log(poses);
+  if (poses.length > 0) {
+  // catches the left and right wrists
+    let lhX = poses[0].pose.keypoints[9].position.x;  
+    let lhY = poses[0].pose.keypoints[9].position.y;
+    let rhX = poses[0].pose.keypoints[10].position.x;
+    let rhY = poses[0].pose.keypoints[10].position.y;
+
+    leftX = lerp(leftX, lhX, 0.25); //lerp = linear interpolation
+    leftY = lerp(leftY, lhY, 0.25);
+    rightX = lerp(rightX, rhX, 0.25);
+    rightY = lerp(rightY, rhY, 0.25);
+    
+  }
+}  
+          
+function modelReady() {
+  select('#status').html('Model Loaded');
+  console.log('model ready');
+}
+
+
+function draw() {
+  //Need to tranlate our drawing commands for WEBGL
+  // translate(-width/2,-height/2,0); //moves our drawing origin to the top left corner
+ // image(video, 0, 0, width, height);
+  
+  
+  //Creater Parrallex background
+  //destination parameters
+  dx = 0;
+  dy = 0;
+  screenBuffer =840;
+  dWidth = width+screenBuffer;
+  dHeight = height;
+  
+  //source parameters
+  sx = 350;
+  sy = 0;
+  sWidth = 1920;
+  sHeight = 1080;
+  
+  image(parSky, dx-(rightX*.1), dy, dWidth, dHeight, sx, sy, sWidth, sHeight);
+  image(par2, dx-(rightX*.25), dy, dWidth, dHeight, sx, sy, sWidth, sHeight);
+  image(par1, dx-(rightX*.5), dy, dWidth, dHeight, sx, sy, sWidth, sHeight);
+
+ 
+  // updates animation frames by using an html
+  // img element, positioning it over top of
+  // the canvas.
+
+  //gif_createImg.position(50, 900);
+//Draw elipses on hands
+ // let d = dist(rightX, rightY, leftX, leftY);
+
+ // let rightHand = ellipse(rightX, rightY, 50);
+ // fill(0, 0, 250);
+ // let leftHand = ellipse(leftX, leftY, 50);
+ // fill(250, 0, 0);
+
+  // We can call both functions to draw all keypoints and the skeletons
+  //drawKeypoints();
+  //drawSkeleton();
+  drawDrone();
+  
+  //Map right hand movement. in Y to mod frequencey and X to depth
+  let carFreq = map(leftY, height, 0, carrierBaseFreq, carrierBaseFreq*5);
+  carrier.freq(carFreq);
+  
+  let modFreq = map(rightY, height, 0, modMinFreq, modMaxFreq);
+  modulator.freq(modFreq);
+
+  let modDepth = map(rightX, 0, width, modMinDepth, modMaxDepth);
+  modulator.amp(modDepth);
+  
+}
+
+
+// A function to draw ellipses over the detected keypoints
+function drawKeypoints()  {
+  // Loop through all the poses detected
+  for (let i = 0; i < poses.length; i++) {
+    // For each pose detected, loop through all the keypoints
+    let pose = poses[i].pose;
+    for (let j = 0; j < pose.keypoints.length; j++) {
+      // A keypoint is an object describing a body part (like rightArm or leftShoulder)
+      let keypoint = pose.keypoints[j];
+      // Only draw an ellipse is the pose probability is bigger than 0.2
+      if (keypoint.score > 0.2) {
+        fill(255, 0, 0);
+        noStroke();
+        ellipse(keypoint.position.x, keypoint.position.y, 10, 10);
+      }
+    }
+  }
+}
+
+// A function to draw the skeletons
+function drawSkeleton() {
+  // Loop through all the skeletons detected
+  for (let i = 0; i < poses.length; i++) {
+    let skeleton = poses[i].skeleton;
+    // For every skeleton, loop through all body connections
+    for (let j = 0; j < skeleton.length; j++) {
+      let partA = skeleton[j][0];
+      let partB = skeleton[j][1];
+      stroke(255, 0, 0);
+      line(partA.position.x, partA.position.y, partB.position.x, partB.position.y);
+    }
+  }
+}  
+
+function drawDrone()  {
+  let scaleFactor = .15;
+  //let width_height_ratio = width/height;
+  //image(drone_image,rightX,leftY,width*.15,height*.15);
+  image(cute_drone,rightX,leftY,width*scaleFactor,height*scaleFactor);
+}     
+      
+      // this doesn't work
+      function mousePressed() {
+  if (mouseX > 0 && mouseX < 100 && mouseY > 0 && mouseY < 100) {
+    let fs = fullscreen();
+    fullscreen(!fs);
+  }
+}
+
+    </script>
+  
+</body></html>
