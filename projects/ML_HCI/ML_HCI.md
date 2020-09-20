@@ -24,7 +24,7 @@ You can experience a stable prototype of these here.
 To use the prototypes stand in front of your webcam and move your hands to control sonic and visual parameters:
 
 - [Prototype 2: Gestural Control of Sound Synthesis](https://editor.p5js.org/roddyst/present/l46Zsp63H)
-- [Rpototype 1: Animatied Drone](https://editor.p5js.org/roddyst/present/6A5YgZa21)
+- [Prototype 1: Animatied Drone](https://editor.p5js.org/roddyst/present/6A5YgZa21)
 
 ### Creative Skills
 HCI Design. Interaction Design. UX Design. Visual Design. Interface Design. Sound Design.
