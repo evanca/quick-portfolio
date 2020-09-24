@@ -11,6 +11,6 @@
 
 ### Data Analysis & Visualizations
 
-[Exploring the Data Science Lifecycle with NBA Team Salary Data](/nba_report)
+[Exploring the Data Science Lifecycle with NBA Team Salary Data](/nba_report.html)
 
 ---
