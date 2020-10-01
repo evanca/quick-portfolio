@@ -3,6 +3,8 @@ logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Welcome to my very simple portfolio page!
   <br><br>
+  Aspiring web developer!
+  <br><br>
     <a href="https://www.linkedin.com/in/mvrcusj/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
