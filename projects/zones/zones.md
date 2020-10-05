@@ -69,7 +69,7 @@ Location 5:
 Each installation had a number of distinct environments each with their own soundscape and associated imagery. As you move through the physical space you can explores these different environments. Three of these environments are tied to specific places. One environment is comprised of soundscapes from Syria, another consists of the Mediterranean sea sonifications and a third is comprised of soundscapes from around Europe. The remaining three are more abstract sonic landscapes. One sonic landscape is designed to sound like an idealised empty space or void.  A second is comprised of relevant media material from TV and radio broadcasts and a third is comprised of the sonification of the Syrian emigration rate described previously.
 Mobile technologies played an [important role in helping people navigate their way out of Syria and into Europe at the onset of the Syrian Civil War.](https://www.wired.com/2015/12/smartphone-syrian-refugee-crisis/) The Zones project was designed with this phenomenon in mind allowing the audience members to navigate through an analogous series of environments using their own mobile devices.
 
-#### Installations & Iterations
+#### Installations & Iteration 2
 The first iteration of Zones was installed at the the Craft Village in Derry where it was open to public audiences for three days as part of the 2016 Irish Sound Science and Technology Festival. The installation was well received and covered on local radio and we delivered a conference presentation about the development of the system:
 
 [Sound Place and Multi-place @ The Irish Sound Science and Technology Association Conference, Ulster University, September 7th 2016](https://drive.google.com/file/d/1GuGESpqTsXv98x-d86LRmn9hikweBm5n/view)
@@ -77,11 +77,15 @@ The first iteration of Zones was installed at the the Craft Village in Derry whe
 <img src="images/craft_village.jpg?raw=true"/><br/>
 
 We were invited to install a second iteration of Zones indoors at the International Workshop on Digital Empathy in The Great Hall at Ulster University's Magee Campus in Derry.
-The second iteration of Zones was a sizeable improvement over the first. Additional audio elements were introduced to account for the new location and a new soundscape elements were designed punctuate this new experience. The environment that had previously comprised of a sonification of Syrian emigration data was now populated with droning tones created using wavetable synthesis methods.
-
-<img src="images/great_hall.jpg?raw=true"/><br/>
+The second iteration of Zones was a sizeable improvement over the first. Additional audio elements were introduced to account for the new location and a new soundscape elements were designed punctuate this new experience. The environment that had previously comprised of a sonification of Syrian emigration data was now populated with droning tones created using a variety of methods including wavetable synthesis and formant synthesis.
 
 Navigating through Zones 2:
 - [Moving through the Center](/Zones 2/Audio/Full Recordings/Z2_Centre.mp3)
 - [Moving around Syria](/Zones 2/Audio/Full Recordings/Z2_SyriaScape.mp3)
 - [Approaching the DroneScape](/Zones 2/Audio/Full Recordings/Z2_DroneScape.mp3)
+
+
+For example, in the DroneScape Sonification above data is mapped to control the pitch and formant shape, of a formant synthesis method, [fof synthesis to be precise](https://www.jstor.org/stable/3679809?seq=1) implemented with Csound. The data also controls the intensity of a Doppler shifting effect applied to the signal.
+
+
+<img src="images/great_hall.jpg?raw=true"/><br/>
