@@ -19,13 +19,13 @@ The first installation involved 7 different sonifications of data from the Europ
 The 6 sonifications of those lost at sea were created using granular synthesis techniques (in Csound) where audio files containing recordings of the Mediterranean sea were split into tiny pieces called grains and then reassembled to create timbral structures termed 'grain clouds'. The data was mapped to control the parameters of these grain clouds: amplitude, density, transposition factor, octaviation ratio and grain size. The original recording of waves in the Mediterranean sea was  reprocessed to become a sonification. The end result is a sonification that still sounds like the sea, but the sound rises in intensity to reflect the data. The original recording of the waves is then mixed back into the sonification to create the final audio stream.
 
 Original Recording of Waves:
-- [Original](/Zones 1/Audio/Lost at sea/Waves.mp3)
+- [Original](Zones 1/Audio/Lost at sea/Waves.mp3)
 
 Sonification made from original recording:
-- [Sonification](/Zones 1/Audio/Lost at sea/Waves1 Sonified.mp3)
+- [Sonification](Zones 1/Audio/Lost at sea/Waves1 Sonified.mp3)
 
 Finished Audio Mixing Waves and Sonification:
-- [Final File: Data & Waves](/Zones 1/Audio/Lost at sea/MedSon1.mp3)
+- [Final File: Data & Waves](Zones 1/Audio/Lost at sea/MedSon1.mp3)
 
 A number of additional sonifications were created in which the data is mapped to slightly different timescales and synthesis parameters.
 
@@ -35,7 +35,7 @@ A number of additional sonifications were created in which the data is mapped to
 
 The data representing the Syrian emigration rate was dealt with differently. This data was mapped to midi control change (CC) values and used to control the level of distortion applied to a tone that was synthesised using wavetable synthesis techniques in Logic Pro X. The results is a drone that grows in intensity to reflect the changes in the original dataset.
 
-- [Drone Sonification](/Zones 1/Audio/SR/B2/Son.mp3)
+- [Drone Sonification](Zones 1/Audio/SR/B2/Son.mp3)
 
 Soundscape recordings were gathered from sources in Middle Eastern countries and Europe. A number of these were recorded by Alan.
 I processed these recordings further using distortion and artificial glitching techniques. Further sound design elements included material taken from TV and Radio broadcasts about the crisis, which were edited into a collage and soundscapes designed to evoke a sense off empty space.
