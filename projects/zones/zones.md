@@ -22,7 +22,7 @@ Original Recording of Waves:
 - [Original](/Zones 1/Audio/Lost at sea/Waves.mp3)
 
 Sonification made from original recording:
-- [Sonification](/Zones 1/Audio/Lost at sea/Waves1_Sonified.mp3)
+- [Sonification](/Zones 1/Audio/Lost at sea/Waves1 Sonified.mp3)
 
 Finished Audio Mixing Waves and Sonification:
 - [Final File: Data & Waves](/Zones 1/Audio/Lost at sea/MedSon1.mp3)
