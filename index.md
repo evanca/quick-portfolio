@@ -3,7 +3,7 @@
 
 ---
 <h3>Ongoing Projects: </h3>
-[Data-scape: Multimodal Data Analytics](/projects/data-scape/data-scape)<br />
+[Data-scape: An Online Framework for Data Sonification](/projects/data-scape/data-scape)<br />
 <a href="/projects/data-scape/data-scape">
 <img src="images/tabs/dsTab2.png?raw=true"/>
 </a>
