@@ -1,22 +1,17 @@
-### Data-scape: A Framework for Multimodal Data Analytics
+### Data-scape: An Online Framework for Data Sonification
 
 #### Project Description
-I am currently working on a framework for Multimodal Data Analytics that draw upon my research over the past 9 years.
-The prototype is being built with COVID-19 data data but the framework will be usable with a wide range of data sources upon completion.
+I am currently working on an online framework for data sonification that draws upon my research in the field over the past 9 years.
+The prototype is being built to represent COVID-19 data. The final framework will be usable with a wide range of different data sources.
 
-This project is to develop a react and bootstrap based framework for multimodal data analytics.
+The initial aim of the project is to integrate a number of online resources for data sonficiation. The framework runs client-side in modern web browsers and uses the Fetch API for data acquisition, [Apex Charts](https://apexcharts.com/), [d3.js](https://d3js.org/) and [p5.js](https://p5js.org/) for interactive visualisation, and [Tone.js](https://tonejs.github.io/) for sonification. These elements are embedded with the React framework for stability and ease of use, with visual presentation managed through Bootstrap.
 
-Essentially it can integrates graphs and maps from ApexCharts and d3.js, audio from Tone.js and HTML5 Canvas & WebGL based animations.
-
-The framework will be usable as a front-end alternative to purely visual dashboards and will allow data to be represented with images, sound and animated visuals.
+The system can also handle more advanced animations and interactivity (HTML5 Canvas & WebGL based) via the p5.js library which has also been integrated.
 
 <a href="https://stephenroddy.github.io/data-scape/" target="_blank"><img src="images/Multimodal Data Analytics 2.png?raw=true"/><br/></a>
 
-In its current state the framework consists of a simple dashboard.
-This will be improved upon with new features over the next 12 months
-
-The end result will present a user with bespoke, personalised data dashboards.
-Users will be able to register for an account and login to save their dashboards and the different data that feed those dashboards.
+The framework provides a front-end alternative to purely visual dashboards and in it's current state allows users to interact with graphs, sonifications and visualisations based on data from the current COVID-19 pandemic.
+This functionality will be expanded upon and improved over the next 12 months with the addition of more advanced and refined sonifications and visualisations.
 
 You check in on the development of the platform and see it  in its current state here:
 
