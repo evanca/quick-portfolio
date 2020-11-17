@@ -30,9 +30,12 @@
 
 
 
-### Online Articles 
+### Digital Bylines 
 
 <ul>
+  <li>
+<a href="https://www.metrowestdailynews.com/story/sports/high-school/2020/09/21/familiar-face-millis-high-alum-olivia-zitoli-takes-over-as-head-girls-soccer-coach/42902257/" target="_blank"> Coach Olivia Zitoli Profile (MetroWest Daily News)</a>
+  </li>
   <li>
 <a href="https://www.si.com/nba/2019/11/28/thanksgiving-for-each-team" target="_blank"> NBA Thanksgiving (SI.com)</a>
   </li>
@@ -43,16 +46,13 @@
 <a href="https://www.si.com/nfl/2019/10/17/titans-marcus-mariota-mike-vrabel-chargers-philip-rivers-brock-osweiler" target="_blank"> Chargers vs. Titans Week 7 Preview (SI.com)</a>
   </li>
   <li>
-<a href="https://www.si.com/nba/2019/11/12/atlanta-hawks-golden-state-warriors-blueprint" target="_blank"> A Closer Look at the Atlanta Hawks Rebuild (SI.com)</a>
-  </li>
-  <li>
-<a href= "https://www.si.com/college/2019/10/16/march-madness-ncaa-tournament-droughts" target="_blank"> College Basketball March Madness Droughts (SI.com)</a>
+<a href= "https://www.southcoasttoday.com/photogallery/nb/20180823/news/817009997/PH/1" target="_blank"> Sea Lab Celebrates Its 50th Anniversary (The Standard-Times)</a>
   </li>
 </ul>
 
 ---
 
-### Other Links 
+### Additional Links 
 
 <ul>
   <li>
