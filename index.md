@@ -26,10 +26,10 @@
 
 ### Online Articles 
 
+- [Coach Olivia Zitoli Profile (MetroWest Daily News)] (https://www.metrowestdailynews.com/story/sports/high-school/2020/09/21/familiar-face-millis-high-alum-olivia-zitoli-takes-over-as-head-girls-soccer-coach/42902257/)
 - [NBA Thanksgiving (SI.com)](https://www.si.com/nba/2019/11/28/thanksgiving-for-each-team)
 - [The Legacy of Northwestern Tennis (NUSports.com)](https://nusports.com/news/2018/8/27/womens-tennis-legacy-of-leadership-the-alumni-network-of-northwestern-tennis.aspx)
 - [Chargers vs. Titans Week 7 Preview (SI.com)](https://www.si.com/nfl/2019/10/17/titans-marcus-mariota-mike-vrabel-chargers-philip-rivers-brock-osweiler)
-- [A Closer Look at the Atlanta Hawks Rebuild (SI.com)](https://www.si.com/nba/2019/11/12/atlanta-hawks-golden-state-warriors-blueprint)
 - [College Basketball March Madness Droughts (SI.com)](https://www.si.com/college/2019/10/16/march-madness-ncaa-tournament-droughts)
 
 ---
