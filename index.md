@@ -10,7 +10,7 @@
 [Project 2 Title](/pdf/sample_presentation.pdf)
 
 ---
-[Project 3 Title]
+[Project 3 Title](http://example.com/)
 
 ---
 
