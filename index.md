@@ -1,8 +1,8 @@
-## Portfolio
+## CV
 
 ---
 
-### Category Name 1 
+### Publications
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -17,7 +17,7 @@
 
 ---
 
-### Category Name 2
+### Projects
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
@@ -27,9 +27,13 @@
 
 ---
 
+### Experience
 
+### Teaching
 
+### Scholarships
 
+### Skills
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
