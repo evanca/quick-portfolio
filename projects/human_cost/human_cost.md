@@ -77,5 +77,6 @@ While the growth rate is strong the sailing is smooth and the weather is good. W
 Harmonic material also sounds throughout the journey. This material was performed in response to the soundscape of the sea journey with the perceived fidelity and timbral character of the performance determined by the GDP data.
 
 
+
 #### Learn more about the research project from which these pieces emerged here:
-- [Embodied Sonification](./embodied_sonification/embodied_sonification)
+- [Embodied Sonification](../embodied_sonification/embodied_sonification)
