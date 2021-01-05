@@ -57,11 +57,14 @@ It also resulted in a number of journal articles including an article in [Organi
 ### Creative Technology and Multimedia Outputs
 Data-driven music composition and sound design techniques were used to aid in the design of sonification mapping strategies. These approaches allowed me to find novel and interesting sonic parameters for mapping data.  This practice resulted in the production of a number of data-driven sound works in the course of the research project.
 
-These have been gathered into a collection entitled 'The Human Cost', named for the socioeconomic data from the 2008 financial crash represented in the pieces and are available ffrom the usual streaming services online:
+These have been gathered into a collection entitled 'The Human Cost', named for the socioeconomic data from the 2008 financial crash represented in the pieces and are available from the usual streaming services online:
 
 [Spotify](https://open.spotify.com/artist/6FZOlLhsey17jwrTGBV07c) | [Apple Music](https://music.apple.com/ie/album/the-human-cost/1278676607)
 
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2888609678/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://stephenroddy.bandcamp.com/album/the-human-cost-sonification-and-irelands-economic-crash">The Human Cost: Sonification and Ireland&#39;s Economic Crash by Stephen Roddy</a></iframe>
+
+You can learn more about  these compositions here:
+[The Human Cost Sonifications](../human_cost/human_cost)
 
 
 A number of these pieces have been performed live at academic conferences and cultural events at national and international levels including:<br/>

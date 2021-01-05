@@ -24,6 +24,11 @@
 <img src="images/tabs/EStab.png?raw=true"/>
 </a>
 
+[The Human Cost Sonifications](/projects/human_cost/human_cost)<br />
+<a href="/projects/embodied_sonification/embodied_sonification">
+<img src="images/tabs/HCtab.png?raw=true"/>
+</a>
+
 [ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)<br />
 <a href="/projects/ML_HCI/ML_HCI">
 <img src="images/tabs/GEStab.png?raw=true"/>
