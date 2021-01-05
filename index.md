@@ -21,7 +21,7 @@
 
 [Embodied Sonification](/projects/embodied_sonification/embodied_sonification)<br />
 <a href="/projects/embodied_sonification/embodied_sonification">
-<img src="images/tabs/HCtab.png?raw=true"/>
+<img src="images/tabs/EStab.png?raw=true"/>
 </a>
 
 [ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)<br />
