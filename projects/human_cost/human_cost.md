@@ -3,9 +3,9 @@
 ### Project Overview
 Sonification is the mapping of data to sound in order to communicate something about the original data source.
 
-This collection is built around sonified materials where data from the Irish financial crash is mapped to sound in order to communicate information to the listener. The pieces are not sonifications in the pure sense but rather leverage the sonification technique for com compositional aims
+This collection is built around sonified materials where data from the Irish financial crash of 2008 is mapped to sound in order to communicate information to the listener. The pieces are not sonifications in the pure sense but rather leverage the sonification technique for com compositional aims
 
-These data-driven compositions are the result of research undertaken during the completion of my PhD entitled 'Embodied Sonification'. Tracks 2, 3 and 4 feature in the PhD document while tracks 1 and 5 make use of techniques and materials developed i the course of my research.
+These data-driven compositions are the result of empirical research undertaken during the completion of my PhD entitled 'Embodied Sonification'. Tracks 2, 3 and 4 feature in the PhD document while tracks 1 and 5 make use of techniques and materials developed i the course of my research.
 
 My pieces are intended to communicate to the listener with a listener through feeling. The are intended to make the listener feel the data as opposed to simply hear or see the data. Sound provides the perfect medium by which to achieve this.
 
