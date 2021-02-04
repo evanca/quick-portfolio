@@ -6,7 +6,7 @@
 
 
 [Week 1](/pdf/Week_1_Merged.pdf)
-<img src="images/Alaska_Geomorphology_Map.pdf?raw=true"/>
+<Alaska_Geomorphology_Map.pdf?raw=true"/>
 
 
 
