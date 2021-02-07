@@ -4,7 +4,8 @@
 
 ### Publications
 
-[Project 1 Title](/sample_page)
+[Traffic Data Classification using Machine Learning Algorithms in
+SDN Networks](/sample_page)
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
