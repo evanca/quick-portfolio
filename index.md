@@ -7,20 +7,20 @@
 [Traffic Data Classification using Machine Learning Algorithms in
 SDN Networks](/sample_page)
 
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
 
----
-[Project 3 Title](http://example.com/)
+[An Iterative Algorithm of Key Feature Selection for Multi-class Classification](/pdf/sample_presentation.pdf)
 
----
+[Machine Learning based Algorithm for Small Amount Multi -featured Data in Three Classes](http://example.com/)
+
+[Study on Impact of Class Combinations on Performance of Multiple Class Classification](/pdf/sample_presentation.pdf)
+
+
+[Survey on Machine Learning Algorithms for SDN/NFV Automation](http://example.com/)
 
 ### Projects
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-
+- [Supervised Agile Machine Learning Techniques for Network Automation based on Network Data Analytic Function](http://example.com/)
+- [Language-Conditioning Processing System based on Connectionism Model and Machine Learning for Age-Related Language Impairment Prediction](http://example.com/)
 
 ---
 
@@ -41,7 +41,10 @@ and content-based filtering
 ### Teaching
 
 ### Scholarships
-
+* Research Assistant Scholarship, Ewha Womans University 2020
+* Admissions Scholarship(full tuition for one year), Ewha Womans University 2019
+* DEAN’S List, Ewha Womans University Spring 2018 / Fall 2017 / 2015
+* National Grant, South Korea 2018 2017 2016 / Fall 2015
 ### Skills
 - Computer: C, C++, Python (Pytorch), R, MATLAB, LaTeX
 - Languages: English (fluent), Korean (native)
