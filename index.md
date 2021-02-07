@@ -4,25 +4,25 @@
 
 ### Publications
 
-[Traffic Data Classification using Machine Learning Algorithms in
-SDN Networks](/sample_page)
+[Traffic Data Classification using Machine Learning Algorithms in SDN Networks] | 2nd author(/sample_page)
 
 
-[An Iterative Algorithm of Key Feature Selection for Multi-class Classification](/pdf/sample_presentation.pdf)
+[An Iterative Algorithm of Key Feature Selection for Multi-class Classification] | 1st author (/pdf/sample_presentation.pdf)
 
-[Machine Learning based Algorithm for Small Amount Multi -featured Data in Three Classes](http://example.com/)
+[Machine Learning based Algorithm for Small Amount Multi -featured Data in Three Classes] | 1st author(http://example.com/)
 
-[Study on Impact of Class Combinations on Performance of Multiple Class Classification](/pdf/sample_presentation.pdf)
+[Study on Impact of Class Combinations on Performance of Multiple Class Classification] | 1st author(/pdf/sample_presentation.pdf)
 
 
-[Survey on Machine Learning Algorithms for SDN/NFV Automation](http://example.com/)
+[Survey on Machine Learning Algorithms for SDN/NFV Automation] | 2nd author(http://example.com/)
 
+<!--
 ### Projects
-
 - **Supervised Agile Machine Learning Techniques for Network Automation based on Network Data Analytic Function** | 2019–Present\
 *meta information, deep learning, machine learning*
 - **Language-Conditioning Processing System based on Connectionism Model and Machine Learning for Age-Related Language Impairment Prediction** | 2019–2020\
 *linear regression, feature selection*
+-->
 ---
 
 ### Experience
@@ -39,7 +39,6 @@ and content-based filtering
 - **Ewha Womans University Undergrad Student Researcher, Advisor Sung Min Park** | Winter 2018
   * Studied electronic circuit used in Lidar and CMOS Amplifier for Gigabit Ethernet
 
-### Teaching
 
 ### Scholarships
 * **Research Assistant Scholarship**, Ewha Womans University  | 2020
