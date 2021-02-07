@@ -19,9 +19,10 @@ SDN Networks](/sample_page)
 
 ### Projects
 
-- [Supervised Agile Machine Learning Techniques for Network Automation based on Network Data Analytic Function](http://example.com/)
-- [Language-Conditioning Processing System based on Connectionism Model and Machine Learning for Age-Related Language Impairment Prediction](http://example.com/)
-
+- **Supervised Agile Machine Learning Techniques for Network Automation based on Network Data Analytic Function** | 2019–Present\
+*meta information, deep learning, machine learning*
+- **Language-Conditioning Processing System based on Connectionism Model and Machine Learning for Age-Related Language Impairment Prediction** | 2019–2020\
+*linear regression, feature selection*
 ---
 
 ### Experience
