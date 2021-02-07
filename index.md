@@ -6,15 +6,13 @@
 
 [Traffic Data Classification using Machine Learning Algorithms in SDN Networks](/sample_page) | 2nd author
 
-
 [An Iterative Algorithm of Key Feature Selection for Multi-class Classification](/pdf/sample_presentation.pdf) | 1st author
 
-[Machine Learning based Algorithm for Small Amount Multi -featured Data in Three Classes](http://example.com/) | 1st author
+[Machine Learning based Algorithm for Small Amount Multi-featured Data in Three Classes](http://example.com/) | 1st author
 
 [Study on Impact of Class Combinations on Performance of Multiple Class Classification](/pdf/sample_presentation.pdf) | 1st author
 
-
-[Survey on Machine Learning Algorithms for SDN/NFV Automation] | 2nd author(http://example.com/)
+[Survey on Machine Learning Algorithms for SDN/NFV Automation](http://example.com/) | 2nd author
 
 <!--
 ### Projects
