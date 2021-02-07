@@ -31,10 +31,10 @@ Managed team and established architecture for a chatbot that satisfied user requ
 Processed with large-scale multimedia data to generate Generative Adversarial Network using AWS
 Experienced in recommendation algorithms by applying text mining-related theories such as collaborate filtering
 and content-based filtering
-– Ewha Womans University Undergrad Student Researcher, Advisor Hyunggon Park Fall 2018
+- Ewha Womans University Undergrad Student Researcher, Advisor Hyunggon Park Fall 2018
 Surveyed for SDN/NFV network architecture and applied Machine Learning for 5G topology
 Studied the use of Omics data such as PPI data and clinical data to extract meaningful features
-– Ewha Womans University Undergrad Student Researcher, Advisor Sung Min Park Winter 2018
+- Ewha Womans University Undergrad Student Researcher, Advisor Sung Min Park Winter 2018
 Studied electronic circuit used in Lidar and CMOS Amplifier for Gigabit Ethernet
 
 ### Teaching
