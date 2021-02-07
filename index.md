@@ -25,7 +25,7 @@ SDN Networks](/sample_page)
 ---
 
 ### Experience
-- **Visiting Scholar at Carnegie Mellon University, Advisor Alex Hauptmann** | Jan 2020-Jul 2020
+- **Visiting Scholar at Carnegie Mellon University, Advisor Alex Hauptmann** | Jan 2020-Jul 2020\
 *Full Scholarship for Intensive AI Program in CMU under the Ministry of Science and ICT*
   * Developed a general model for chatbot with profoundly experienced in Natural language Processing (NLP)
   * Managed team and established architecture for a chatbot that satisfied user requirements
