@@ -4,15 +4,15 @@
 
 <!--### Publications-->
 ## International Conference
-[Traffic Data Classification using Machine Learning Algorithms in SDN Networks](/pdf/ICTC2020.pdf) | 2nd author  
-[An Iterative Algorithm of Key Feature Selection for Multi-class Classification](/pdf/ICUFN2019.pdf) | 1st author  
+[Traffic Data Classification using Machine Learning Algorithms in SDN Networks](/pdf/ICTC2020.pdf)  | 2nd author  
+[An Iterative Algorithm of Key Feature Selection for Multi-class Classification](/pdf/ICUFN2019.pdf)  | 1st author  
 
 ## Domestic Conference
-Machine Learning based Algorithm for Small Amount Multi-featured Data in Three Classes | 1st author  
-Study on Impact of Class Combinations on Performance of Multiple Class Classification | 1st author  
+Machine Learning based Algorithm for Small Amount Multi-featured Data in Three Classes  | 1st author  
+Study on Impact of Class Combinations on Performance of Multiple Class Classification  | 1st author  
 
 ## Domestic Journal Articles
-Survey on Machine Learning Algorithms for SDN/NFV Automation | 2nd author  
+Survey on Machine Learning Algorithms for SDN/NFV Automation  | 2nd author  
 
 <!--
 ### Projects
