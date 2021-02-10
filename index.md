@@ -2,7 +2,7 @@
 
 
 
-### Publications
+<!--### Publications-->
 ## International Conference
 [Traffic Data Classification using Machine Learning Algorithms in SDN Networks](/pdf/ICTC2020.pdf) | 2nd author
 
