@@ -6,9 +6,10 @@
 
 ---
 ### [Week 1](/pdf/Week_1_Merged.pdf)
-<div class = "text-#189e59">
+<div class = "text-green">
 Learning the basics of QGIS
 </div>
+
 [<img src="images/Geo_Map.PNG?raw=true"/>](/pdf/Week_1_Merged.pdf)
 
 ---
