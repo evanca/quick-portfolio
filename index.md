@@ -1,11 +1,12 @@
 ## Portfolio
-
+<link type="text/css" rel="stylesheet" href="/style.css" />
 ---
 
-### GIS 486 
+# GIS 486 
 
 ---
-### [Week 1](/pdf/Week_1_Merged.pdf)
+## [Week 1](/pdf/Week_1_Merged.pdf)
+
 <div class = "text-green">
 Learning the basics of QGIS
 </div>
@@ -13,7 +14,7 @@ Learning the basics of QGIS
 [<img src="images/Geo_Map.PNG?raw=true"/>](/pdf/Week_1_Merged.pdf)
 
 ---
-### [Week 2](pdf/Crookshank_Week2_Merged.pdf)
+## [Week 2](pdf/Crookshank_Week2_Merged.pdf)
 
 Learning the basics of R and its applications in QGIS
 
