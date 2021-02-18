@@ -4,10 +4,12 @@
 
 ### GIS 486 
 
+---
+### [Week 1](/pdf/Week_1_Merged.pdf)
 
-[Week 1](/pdf/Week_1_Merged.pdf)
+Learning the basics of QGIS
 
-<img src="images/Geo_Map.PNG?raw=true"/>
+[<img src="images/Geo_Map.PNG?raw=true"/>](/pdf/Week_1_Merged.pdf)
 
 
 
