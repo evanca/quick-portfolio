@@ -8,18 +8,18 @@
 /* Everything below this is my own customizations */
 
 a {
- color:#6a0dad;
+ color:#189e59;
 }
 
 a:hover,
 a:focus {
- color:#6a0dad;
+ color:#189e59;
 }
 a small {
- color:#6a0dad;
+ color:#189e59;
 }
 a:hover small {
- color:#6a0dad
+ color:#189e59
 }
 
 /* body means everything, the default for the page */
@@ -36,10 +36,10 @@ h1, h2, h3, h4, h5, h6 {
 
 header h1 a {
  font-size: 1.2em;
- color: #34ebd8;
+ color: #189e59;
 }
 
 header h1 a:hover {
  font-size: 1.2em;
- color: "red";
+ color: "green";
 }
