@@ -17,10 +17,6 @@ Learning the basics of QGIS
 
 Learning the basics of R and its applications in QGIS
 
-<div class="text-purple">
-  This text is purple, <a href="#" class="text-inherit">including the link</a>
-</div>
-
 
 [<img src="images/Week2_Image.PNG?raw=true"/>](/pdf/Crookshank_Week2_Merged.pdf)
 
