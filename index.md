@@ -1,7 +1,7 @@
 ## Portfolio
-<link type="text/css" rel="stylesheet" href="/style.css" />
----
 
+---
+<link type="text/css" rel="stylesheet" href="/style.css" />
 # GIS 486 
 
 ---
