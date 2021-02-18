@@ -13,9 +13,11 @@ Learning the basics of QGIS
 [<img src="images/Geo_Map.PNG?raw=true"/>](/pdf/Week_1_Merged.pdf)
 
 ---
-### [Week 2]
+### [Week 2](pdf/Crookshank_Week2_Merged.pdf)
 <div class = "text-#189e59">
 Learning the basics of R and its applications in QGIS
+  
+
 </div>
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
