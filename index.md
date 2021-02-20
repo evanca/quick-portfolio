@@ -6,6 +6,7 @@
 
 ### [Car MPG Regression Analysis](https://github.com/indyscout97/carMPGregregression)
 ### <img src="images/carMPG.png?raw=true"/>
+
 ### *Project Team:*
 ### Dria Fabrizio, Jack Beck, Jordan Waldroop
 
