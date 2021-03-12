@@ -37,6 +37,8 @@ This color scheme looked much better as still images, but it's a bit trippy as a
 
 I barely documented this code but it's just doing the same thing over and over again in a startlingly inelegant way, so enjoy!
 
+[The code in question](Projects/Crookshank_Week6.Rmd)
+
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
