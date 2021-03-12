@@ -1,0 +1,129 @@
+
+        #map {
+            background-color: #ffffff
+        }
+        th {
+            text-align: left;
+            vertical-align: top;
+        }
+        .info {
+            padding: 6px 8px;
+            font: 14px/16px Arial, Helvetica, sans-serif;
+            background: white;
+            background: rgba(255,255,255,0.8);
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            border-radius: 5px;
+        }
+        .info h2 {
+            margin: 0 0 5px;
+            color: #777;
+        }
+        .leaflet-container {
+            background: #fff;
+            padding-right: 10px;
+        }
+        .leaflet-popup-content {
+            width:auto;
+            padding-right:10px;
+        }
+        .leaflet-tooltip {
+            background: none;
+            box-shadow: none;
+            border: none;
+        }
+        .leaflet-tooltip-left:before, .leaflet-tooltip-right:before {
+            border: 0px;
+        }
+        }
+        .fa, .leaflet-container, a {
+            color: #000000 !important;
+        }
+        .leaflet-control-zoom-in, .leaflet-control-zoom-out,
+        .leaflet-control-locate a,
+        .leaflet-touch .leaflet-control-geocoder-icon,
+        .leaflet-control-search .search-button,
+         .leaflet-control-measure {
+            background-color: #f8f8f8 !important;
+            border-radius: 0px !important;
+            color: #000000 !important;
+        }
+        .abstract {
+            font: bold 18px 'Lucida Console', Monaco, monospace;
+            text-indent: 1px;
+            background-color: #f8f8f8 !important;
+            width: 30px !important;
+            color: #000000 !important;
+            height: 30px !important;
+            text-align: center !important;
+            line-height: 30px !important;
+        }
+        .abstractUncollapsed {
+            padding: 6px 8px;
+            font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+            background-color:#f8f8f8 !important;
+            color: #000000 !important;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            border-radius: 5px;
+            max-width: 40%;
+        }
+        .leaflet-touch .leaflet-control-layers,
+        .leaflet-touch .leaflet-bar,
+        .leaflet-control-search,
+        .leaflet-control-measure {
+            border: 3px solid rgba(255,255,255,.4) !important;
+        }
+        .leaflet-control-attribution a {
+            color: #0078A8 !important;
+        }
+        .leaflet-control-scale-line {
+            border: 2px solid #f8f8f8 !important;
+            border-top: none !important;
+            color: black !important;
+        }
+        .leaflet-control-search .search-button,
+        .leaflet-container .leaflet-control-search,
+        .leaflet-control-measure {
+            box-shadow: none !important;
+        }
+        .leaflet-control-search .search-button {
+            width: 30px !important;
+            height: 30px !important;
+            font-size: 13px !important;
+            text-align: center !important;
+            line-height: 30px !important;
+        }
+        .leaflet-control-measure .leaflet-control {
+            width: 30px !important;
+            height: 30px !important;
+        }
+        .leaflet-container .leaflet-control-search{
+            background: none !important;
+        }
+        .leaflet-control-search .search-input {
+            margin: 0px 0px 0px 0px !important;
+            height: 30px !important;
+        }
+        .leaflet-control-measure {
+            background: none!important;
+            border-radius: 4px !important;
+        }
+        .leaflet-control-measure .leaflet-control-measure-interaction {
+            background-color: #f8f8f8 !important;
+        }
+        .leaflet-touch .leaflet-control-measure
+        .leaflet-control-measure-toggle,
+        .leaflet-touch .leaflet-control-measure
+        .leaflet-control-measure-toggle:hover {
+            width: 30px !important;
+            height: 30px !important;
+            border-radius: 0px !important;
+            background-color: #f8f8f8 !important;
+            color: #000000 !important;
+            font-size: 13px;
+            line-height: 30px;
+            text-align: center;
+            text-indent: 0%;
+        }
+        .leaflet-control-layers-toggle {
+            background-color: #f8f8f8 !important;
+        }
