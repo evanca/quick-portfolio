@@ -25,7 +25,7 @@ Learning the basics of R and its applications in QGIS
 
 <img src="images/webmap_png.png?raw=true"/>
 
-[Projects/Webmaps/Week_6/W6_Third_Try/qgis2web_2021_03_11-21_35_23_701071/index.html]
+[please work](Projects/Webmaps/Week_6/W6_Third_Try/qgis2web_2021_03_11-21_35_23_701071/index)
 
 
 ---
