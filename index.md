@@ -22,9 +22,8 @@ Learning the basics of R and its applications in QGIS
 [<img src="images/Week2_Image.PNG?raw=true"/>](/pdf/Crookshank_Week2_Merged.pdf)
 
 ## [Week 6](pdf/webmap_pdf.pdf)
-[<img src="images/webmap_png.png?raw=true"/>]
 
-(/Projects/Webmaps/Week 6/Week_6_qgis2web/index.html)
+[<img src="images/webmap_png.png?raw=true"/>](/Projects/Webmaps/Week 6/Week_6_qgis2web/index.html)
 
 
 ---
