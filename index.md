@@ -21,7 +21,7 @@ Learning the basics of R and its applications in QGIS
 [This is the Notebook used](/Projects/Crookshank_Chap2.Rmd)
 [<img src="images/Week2_Image.PNG?raw=true"/>](/pdf/Crookshank_Week2_Merged.pdf)
 
-## [Week 6](/ethancrookshank.github.io/Projects/Webmaps/Week 6/Week_6_qgis2web/)
+## [Week 6](//Projects/Webmaps/Week 6/Week_6_qgis2web)
 
 
 ---
