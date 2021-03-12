@@ -1,0 +1,280 @@
+---
+title: "Census Shenanigans"
+output: html_notebook
+author: Ethan Crookshank
+---
+
+Loading all of the packages that we need and using the API key to fetch census data
+```{r}
+# packages
+library(tidyverse)
+library(tidycensus)
+library(sf)
+library(ggplot2)
+
+# settings for tidycensus
+options(tigris_class = "sf")
+options(tigris_use_cache = TRUE)
+census_api_key("937eed644b7bc41f3ae13d18f51a459a4ac85100")
+
+```
+
+
+Alright, every single chunk after this does the Same. Exact. Thing.
+
+First, we assign the 2019 data for average weekly hours worked in Maryland to the conveniently named mean_work_hours_2019 variable.
+
+Next, we map it, because I was going to be ambitious and try to fulfill the "make a really good map with ggplots" challenge before my other classes clotheslined me, and I never took this line out. Post-hoc, it's probably good to make sure that it's actually plotting the data that you think should be in there.
+
+We then convert to Mercator after plotting to prove that these ideas occurred to me at entirely different points in time.
+
+Finally we write this data to a shapefile that we can load later in qgis or arcmap.
+```{r}
+mean_work_hours_2019 <- get_acs(geography = "tract", 
+     variables = c("avg_work_hrs"="B23020_001"), 
+     year = 2019,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+
+
+mean_work_hours_2019 %>% ggplot(aes(fill=mean_work_hours_2019$avg_work_hrsE, color=mean_work_hours_2019$avg_work_hrsE))+
+  geom_sf() + 
+  coord_sf(crs=26918) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+
+mean_work_hours_2019 <- st_transform(mean_work_hours_2019, 3857)
+
+
+st_write(mean_work_hours_2019,  "MD_Mean_Work_Hours_2019.shp", update= T)
+
+```
+Same as above but for 2018
+```{r}
+mean_work_hours_2018 <- get_acs(geography = "tract", 
+     variables = c("avg_work_hrs"="B23020_001"), 
+     year = 2018,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+
+
+mean_work_hours_2018 %>% ggplot(aes(fill=mean_work_hours_2018$avg_work_hrsE, color=mean_work_hours_2018$avg_work_hrsE))+
+  geom_sf() + 
+  coord_sf(crs=26918) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+
+mean_work_hours_2018 <- st_transform(mean_work_hours_2018, 3857)
+
+
+st_write(mean_work_hours_2018,  "MD_Mean_Work_Hours_2018.shp", update= T)
+```
+Next up is 2017
+```{r}
+mean_work_hours_2017 <- get_acs(geography = "tract", 
+     variables = c("avg_work_hrs"="B23020_001"), 
+     year = 2017,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+
+
+mean_work_hours_2017 %>% ggplot(aes(fill=mean_work_hours_2017$avg_work_hrsE, color=mean_work_hours_2017$avg_work_hrsE))+
+  geom_sf() + 
+  coord_sf(crs=26918) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+
+mean_work_hours_2017 <- st_transform(mean_work_hours_2017, 3857)
+
+
+st_write(mean_work_hours_2017,  "MD_Mean_Work_Hours_2017.shp", update= T)
+```
+
+And now 2016
+```{r}
+mean_work_hours_2016 <- get_acs(geography = "tract", 
+     variables = c("avg_work_hrs"="B23020_001"), 
+     year = 2016,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+
+
+mean_work_hours_2016 %>% ggplot(aes(fill=mean_work_hours_2016$avg_work_hrsE, color=mean_work_hours_2016$avg_work_hrsE))+
+  geom_sf() + 
+  coord_sf(crs=26918) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+
+mean_work_hours_2016 <- st_transform(mean_work_hours_2016, 3857)
+
+
+st_write(mean_work_hours_2016,  "MD_Mean_Work_Hours_2016.shp", update= T)
+```
+
+
+
+
+I'm not too good at math but I think 2015 comes next
+```{r}
+mean_work_hours_2015 <- get_acs(geography = "tract", 
+     variables = c("avg_work_hrs"="B23020_001"), 
+     year = 2015,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+
+
+mean_work_hours_2015 %>% ggplot(aes(fill=mean_work_hours_2015$avg_work_hrsE, color=mean_work_hours_2015$avg_work_hrsE))+
+  geom_sf() + 
+  coord_sf(crs=26918) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+
+mean_work_hours_2015 <- st_transform(mean_work_hours_2015, 3857)
+
+
+st_write(mean_work_hours_2015,  "MD_Mean_Work_Hours_2015.shp", update= T)
+```
+On to 2014
+```{r}
+mean_work_hours_2014 <- get_acs(geography = "tract", 
+     variables = c("avg_work_hrs"="B23020_001"), 
+     year = 2014,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+
+
+mean_work_hours_2014 %>% ggplot(aes(fill=mean_work_hours_2014$avg_work_hrsE, color=mean_work_hours_2014$avg_work_hrsE))+
+  geom_sf() + 
+  coord_sf(crs=26918) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+
+mean_work_hours_2014 <- st_transform(mean_work_hours_2014, 3857)
+
+
+st_write(mean_work_hours_2014,  "MD_Mean_Work_Hours_2014.shp", update= T)
+```
+2013, no fuss no muss
+```{r}
+mean_work_hours_2013 <- get_acs(geography = "tract", 
+     variables = c("avg_work_hrs"="B23020_001"), 
+     year = 2013,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+
+
+mean_work_hours_2013 %>% ggplot(aes(fill=mean_work_hours_2013$avg_work_hrsE, color=mean_work_hours_2013$avg_work_hrsE))+
+  geom_sf() + 
+  coord_sf(crs=26918) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+
+mean_work_hours_2013 <- st_transform(mean_work_hours_2013, 3857)
+
+
+st_write(mean_work_hours_2013,  "MD_Mean_Work_Hours_2013.shp", update= T)
+```
+2012, when the world was supposed to end
+```{r}
+mean_work_hours_2012 <- get_acs(geography = "tract", 
+     variables = c("avg_work_hrs"="B23020_001"), 
+     year = 2012,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+
+
+mean_work_hours_2012 %>% ggplot(aes(fill=mean_work_hours_2012$avg_work_hrsE, color=mean_work_hours_2012$avg_work_hrsE))+
+  geom_sf() + 
+  coord_sf(crs=26918) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+
+mean_work_hours_2012 <- st_transform(mean_work_hours_2012, 3857)
+
+
+st_write(mean_work_hours_2012,  "MD_Mean_Work_Hours_2012.shp", update= T)
+```
+I bet 2011 is next
+```{r}
+mean_work_hours_2011 <- get_acs(geography = "tract", 
+     variables = c("avg_work_hrs"="B23020_001"), 
+     year = 2011,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+
+
+mean_work_hours_2011 %>% ggplot(aes(fill=mean_work_hours_2011$avg_work_hrsE, color=mean_work_hours_2011$avg_work_hrsE))+
+  geom_sf() + 
+  coord_sf(crs=26918) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+
+mean_work_hours_2011 <- st_transform(mean_work_hours_2011, 3857)
+
+
+st_write(mean_work_hours_2011,  "MD_Mean_Work_Hours_2011.shp", update= T)
+```
+
+And finally 2010, because that's as far back as this data was available for!
+```{r}
+mean_work_hours_2010 <- get_acs(geography = "tract", 
+     variables = c("avg_work_hrs"="B23020_001"), 
+     year = 2010,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+
+
+
+
+mean_work_hours_2010 %>% ggplot(aes(fill=mean_work_hours_2010$avg_work_hrsE, color=mean_work_hours_2010$avg_work_hrsE))+
+  geom_sf() + 
+  coord_sf(crs=26918) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+
+mean_work_hours_2010 <- st_transform(mean_work_hours_2010, 3857)
+
+
+st_write(mean_work_hours_2010,  "MD_Mean_Work_Hours_2010.shp", update= T)
+
+```
