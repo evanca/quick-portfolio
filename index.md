@@ -21,6 +21,9 @@ Learning the basics of R and its applications in QGIS
 [This is the Notebook used](/Projects/Crookshank_Chap2.Rmd)
 [<img src="images/Week2_Image.PNG?raw=true"/>](/pdf/Crookshank_Week2_Merged.pdf)
 
+##[Week 6]
+
+
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
