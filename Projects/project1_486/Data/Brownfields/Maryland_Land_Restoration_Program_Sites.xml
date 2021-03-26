@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <title>Maryland Land Restoration Program Sites</title>
+                <onlink>https://mdewin64.mde.state.md.us/arcgis/rest/services/MDE_LRP/LandRestorationProgram/MapServer/0</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>These data sets consist of digital data describing sites under the oversight of Maryland's Land Restoration Program (LRP). Within the LRP, three programs exist to investigate eligible properties with known or perceived controlled hazardous substance contamination, protect public health and the environment, accelerate cleanup of properties, and provide liability releases and finality to site cleanup: the Voluntary Cleanup Program (VCP), the Brownfields Initiative, and State Remediation Sites. This dataset describes and details each site relative to these programs.This is a MD iMAP hosted service. Find more information on https://imap.maryland.gov.Map Service Link: https://mdewin64.mde.state.md.us/arcgis/rest/services/MDE_LRP/LandRestorationProgram/MapServer/0</abstract>
+            <purpose>Maryland Land Restoration Program Sites</purpose>
+        </descript>
+        <status>
+            <update>Monthly</update>
+        </status>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>MDE</themekey>
+                <themekey>Land Restoration Program</themekey>
+                <themekey>Voluntary Cleanup</themekey>
+                <themekey>Contamination</themekey>
+                <themekey>Hazardous substance</themekey>
+                <themekey>VCP</themekey>
+                <themekey>LRP</themekey>
+                <themekey>Determination Area</themekey>
+                <themekey>Maryland</themekey>
+                <themekey>MD</themekey>
+                <themekey>Maryland Department of the Environment</themekey>
+                <themekey>dynamic</themekey>
+                <themekey>MD iMAP</themekey>
+                <themekey>WMS</themekey>
+                <themekey>WFS</themekey>
+                <themekey>Environment</themekey>
+                <themekey>ENVL</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>The Spatial Data, and the information therein, (collectively the "Data") is provided "as is" without warranty of any kind, either expressed, implied, or statutory. The user assumes the entire risk as to quality and performance of the Data. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the State of Maryland be liable for direct, indirect, incidental, consequential or special damages of any kind. The State of Maryland does not accept liability for any damages or misrepresentation caused by inaccuracies in the Data or as a result to changes to the Data, nor is there responsibility assumed to maintain the Data in any manner or form. The Data can be freely distributed as long as the metadata entry is not modified or deleted. Any data derived from the Data must acknowledge the State of Maryland in the metadata.</useconst>
+        <datacred>MDE; LMA; Land Restoration Program</datacred>
+    </idinfo>
+    <metainfo>
+        <metd>20180226</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
