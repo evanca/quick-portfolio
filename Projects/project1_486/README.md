@@ -1,9 +1,23 @@
-General Plan
+Topic: Urban pollution throughout Maryland.
 
-For this project I intend expand upon a lab done in GES 386 and analyze the distribution of brownfield sites in across Maryland
 
-I think it may be interesting to map the distribution of brownfield sites alongside water quality maps for MD. While I imagine that there will be a fairly strong correlation, the patterns that are found might lead to more focused questions down the line.
+Datasets used:
 
-The brownfield data for Maryland is readily available at https://mdewin64.mde.state.md.us/LRP/index.html, and I have found a good source of water quality data here https://www.waterqualitydata.us/
+Polluting Fascilities Data: (https://gispub2.epa.gov/npdat/DataDownloads.html?fbclid=IwAR3etuLHt8CV9CjjA3FlqnM3_GwosszkZ-IQ846QqMLPDbDTovv4zNZVf1I, "Facilities Likely to Discharge N/P to Water")
+Contaminated Plots Data (https://mdewin64.mde.state.md.us/LRP/index.html)
+Phosphorous Data (https://sparrow.wim.usgs.gov/sparrow-northeast-2012/, "Total Phosphorous")
 
-Future me will expand on this probably, the data is downloading slowly but I'll have a better idea of what exactly I want to do once I can poke around in it a bit
+
+General Overview 
+
+
+For this project I wanted to take a look at the relationship between heavily contaminated areas (brownfields) and local water quality.
+I already knew where to find the brownfield data (https://mdewin64.mde.state.md.us/LRP/index.html), as it had been used for a lab last semester. 
+For the water quality aspect of the project, my initial approach was to search for water quality data (specifically stream data) from  https://www.waterqualitydata.us/, but the data available there was not as useful as I had hoped it would be. 
+
+In order to find usable data, I poked around on the internet exploring the many and varied water quality datasets available. 
+Amongst the many other files that I downloaded was the 2012 SPARROW models (https://sparrow.wim.usgs.gov/sparrow-northeast-2012/), which provided an estimated dataset for various measurements of phosphorous, nitrogen, and suspended solids content in catchements along the northeast US. 
+On a later trip back for data I found the dataset of polluting facilities 
+
+
+After some experimentation with the many datasets that I had collected, 
