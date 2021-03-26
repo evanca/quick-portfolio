@@ -4,7 +4,9 @@ Topic: Urban pollution throughout Maryland.
 Datasets used:
 
 Polluting Fascilities Data: (https://gispub2.epa.gov/npdat/DataDownloads.html?fbclid=IwAR3etuLHt8CV9CjjA3FlqnM3_GwosszkZ-IQ846QqMLPDbDTovv4zNZVf1I, "Facilities Likely to Discharge N/P to Water")
+
 Contaminated Plots Data (https://mdewin64.mde.state.md.us/LRP/index.html)
+
 Phosphorous Data (https://sparrow.wim.usgs.gov/sparrow-northeast-2012/, "Total Phosphorous")
 
 
