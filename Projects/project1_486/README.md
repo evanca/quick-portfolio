@@ -1,4 +1,4 @@
-**Topic: Urban pollution throughout Maryland.
+**Topic: Urban pollution throughout Maryland.**
 
 
 **Datasets used:
