@@ -7,7 +7,7 @@ EPA Polluting Facilities Data: (https://gispub2.epa.gov/npdat/DataDownloads.html
 
 MD Contaminated Plots Data (https://mdewin64.mde.state.md.us/LRP/index.html)
 
-SPARROW Phosphorous Data (https://sparrow.wim.usgs.gov/sparrow-northeast-2012/, "Total Phosphorous")
+SPARROW Phosphorus Data (https://sparrow.wim.usgs.gov/sparrow-northeast-2012/, "Total Phosphorous")
 
 
 **Why These Datasets?**
@@ -19,7 +19,7 @@ I initially planned on using brownfield site distribution as a proxy for centrer
 For the water quality aspect of the project, my initial approach was to search for water quality data (specifically stream data) from  https://www.waterqualitydata.us/, but the data available there was not as useful as I had hoped it would be and I ultimately did not end up using it. After finding several fragmentary datasets of stream quality in various sections of Maryland, I wound up pivoting from looking for measured data to modeled data, as I expected that would have fewer spatial gaps in the data. This lead me to the SPARROW 2012 model, which provided, among other datasets, estimated total phosphorous data for the entire northeast US.
 
 
-**Transformations and Analysis**
+**Transformations, Subsets, and Analysis**
 
 In order to map the data, I needed to first limit all of the datasets to the Maryland region. This was easily achieved simply by using the clipping tools in QGIS. The modeled dataset (when clipped) did not fill the Maryland region entirely, and I wanted to use that to clip the rest of the shapefiles. However, my attempts to do so resulted in errors, and so there are data in the final map that fall outside the area of the model. 
 
@@ -27,3 +27,4 @@ I attempted to restrict the brownfield dataset to only those sites within 5 mile
 
 Similarly, the polluting facilities dataset was split into major and minor sites based on the expected impact that those sites could have on the watersheds that they discharge into. I used these classifications to categorize the symbology for the shapefile, representing the major polluters with large red dots and the minor polluters with much smaller light blue dots. I kept the minor sites in despite removing the non-brownfield sites earlier as I felt that the minor sites were a better representation of urban pollution overall than the non-brownfield sites. If I was examining a smaller area of Maryland, I would likely include both.
 
+The total phosphorus data provided many potential variables to base graduated symbolism on, allowing me to control for area (load vs yield), position in the larger watershed (accumulated vs incremental values), loss due to transport (delivered vs non-delivered) and even land use type (rural, urban, from manure, etc.). I found that assigning color based on the catchment's Delivered Incrimental Load of Urban Area Phosphorus (DINCL_S2) best isolated the desired factor (urban phosphorus) and showed a very clear relationship between the locations of elevated phosphorus load from urban land use and the locations of the polluting facilities.
