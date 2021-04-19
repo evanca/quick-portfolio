@@ -1,10 +1,14 @@
 ## Portfolio
 
 ---
-<link type="text/css" rel="stylesheet" href="/style.css" />
-h1 {
+<head>
+  h1 {
   text-align: center;
 }
+  </head>
+
+<link type="text/css" rel="stylesheet" href="/style.css" />
+
 # GIS 486 
 
 ---
