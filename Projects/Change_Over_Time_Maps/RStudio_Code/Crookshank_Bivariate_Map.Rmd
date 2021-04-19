@@ -1,0 +1,304 @@
+---
+title: "Census Lab 2: Bivariate Maps and Change Over Time"
+output: html_notebook
+author: Ethan Crookshank
+---
+
+This chunk contains the necessary packages that will be used as well as the API key needed to fetch census data.
+
+```{r}
+
+
+# Loading all of the packages that we need and using the API key to fetch census data
+
+# packages
+library(tidyverse)
+library(tidycensus)
+library(sf)
+library(ggplot2)
+# settings for tidycensus
+options(tigris_class = "sf")
+options(tigris_use_cache = TRUE)
+census_api_key("937eed644b7bc41f3ae13d18f51a459a4ac85100")
+
+
+```
+
+
+
+Part 1: Single Variable Change over Time
+
+
+The first task is to show change over time for one variable. To do this, we need to create two variables containing data from the same census dataset but from two different years. We will be using 2015 and 2019 as our two years. The data we will be using is median gross rent as a percentage of income, essentially a measure of how expensive rent is in an area relative to average income levels in that region.
+
+
+```{r}
+
+#This fetches the 2019 data for median gross rent divided by income by tract for MD
+rent_per_inc_2019 <- get_acs(geography = "tract", 
+     variables = c("rent_per_inc19"="B25071_001"), 
+     year = 2019,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+#Now to transform to web mercator:
+rent_per_inc_2019 <- st_transform(rent_per_inc_2019, 3857)
+
+
+rent_per_inc_2019 %>% ggplot(aes(fill=rent_per_inc19E, color=rent_per_inc19E))+
+  geom_sf() + 
+  coord_sf(crs=3857) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+```
+We can use the same code for the 2015 data just by swapping 2019 out for 2015 in the variable names and the year= portion of the census data fetch function.
+
+
+```{r}
+#This fetches the 2015 data for median gross rent divided by income by tract for MD
+
+rent_per_inc_2015 <- get_acs(geography = "tract", 
+     variables = c("rent_per_inc15"="B25071_001"), 
+     year = 2015,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+rent_per_inc_2015 <- st_transform(rent_per_inc_2015, 3857)
+
+#Check for erros or gaps by plotting
+rent_per_inc_2015 %>% ggplot(aes(fill=rent_per_inc15E, color=rent_per_inc15E))+
+  geom_sf() + 
+  coord_sf(crs=3857) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+```
+
+Now that we have data for the two time periods, we can find the change by subtracting the data for 2015 from the data for 2019, and writing the results onto a new variable. We then plot this new variable to ensure that it is different from the prior two maps, which would indicate that the code worked. 
+```{r}
+
+#In order to ensure that the GEOID, NAME, and Geography columns all matched the data, I set the difference data set to be equal to the 2019 data, and then removed the extraneous columns after doing the main operation
+
+Change_Over_Time <- rent_per_inc_2019
+Change_Over_Time$Change_RPIe <- rent_per_inc_2019$rent_per_inc19E - rent_per_inc_2015$rent_per_inc15E
+Change_Over_Time$rent_per_inc19E<- NULL
+Change_Over_Time$rent_per_inc19M<- NULL
+
+#This is not the most elegant way of doing this but it works.
+
+
+#Again, checking for errors by plotting. There are a few holes but overall it looks good.
+Change_Over_Time %>% ggplot(aes(fill=Change_RPIe, color=Change_RPIe))+
+  geom_sf() + 
+  coord_sf(crs=3857) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+
+
+
+```
+
+Once satisfied with the data, we can write it to a Shapefile for manipulation in QGIS
+```{r}
+st_write(Change_Over_Time, "Percent Income Towards Rent.SHP")
+```
+
+
+
+
+
+
+
+
+
+
+Part 2: Bivariate Change over Time
+
+
+
+
+
+
+In order to make a bivariate change over time map, we need to merge two sets of data. This can be done before or after subtracting to find change over time, but would be simpler to do afterwards as we already have a finished change over time variable from part 1 that we can use.
+
+The first step, as before, is to identify a dataset and check how it looks in the two time periods we are working in, 2015 and 2019. 
+
+The dataset that we will be using for this step is number of renting households with incomes below the poverty line. This dataset was chosen because it could potentially reveal some interesting patterns when viewed as a bivariate map with the previous dataset, as it is not difficult to imagine a relationship between areas with high rents relative to income and areas with high numbers of renters living below the poverty line.
+
+As before we fetch and map the desired data twice, once for 2019 as shown here
+
+
+
+```{r}
+
+#An estimate of renting households below the poverty line in 2019 made by summing the data sets within "poverty level by household type by tenure" that fit the constraints of being both below the poverty level and being renter occupied.
+
+
+#This is the data for Renter occupied households with income in the past 12 months below poverty level that contain Married-couple families
+
+Poor_renters_2019_1 <- get_acs(geography = "tract", 
+     variables = c("poor_renters19_1"="B17019_005"), 
+     year = 2019,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+Poor_renters_2019_1 <- st_transform(Poor_renters_2019_1, 3857)
+
+
+
+#This is the data for Renter occupied households with income in the past 12 months below poverty level that contain a male householder, and no wife present
+
+Poor_renters_2019_2 <- get_acs(geography = "tract", 
+     variables = c("poor_renters19_2"="B17019_009"), 
+     year = 2019,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+Poor_renters_2019_2 <- st_transform(Poor_renters_2019_2, 3857)
+
+
+#This is the data for Renter occupied households with income in the past 12 months below poverty level that contain a female householder, no husband present
+
+Poor_renters_2019_3 <- get_acs(geography = "tract", 
+     variables = c("poor_renters19_3"="B17019_012"), 
+     year = 2019,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+Poor_renters_2019_3 <- st_transform(Poor_renters_2019_3, 3857)
+
+#Here we create a variable for the aggregate data set. I set it to match the Poor_renters_2019_1 dataset initially so ensure that the GEOID, NAME, and Geometry columns are correct, and then delete the extraneous columns by setting the, as NULL
+Poor_renters_2019 <- Poor_renters_2019_1
+Poor_renters_2019$poor_renters19_1E <- NULL
+Poor_renters_2019$poor_renters19_1M <- NULL
+
+#Here we create the column poor_renters19E by summing the 3 component categories
+Poor_renters_2019$poor_renters19E <- Poor_renters_2019_1$poor_renters19_1E + Poor_renters_2019_2$poor_renters19_2E + Poor_renters_2019_3$poor_renters19_3E
+
+#Plotting the data to check for gaps, obvious problems
+Poor_renters_2019 %>% ggplot(aes(fill=poor_renters19E, color=poor_renters19E))+
+  geom_sf() + 
+  coord_sf(crs=3857) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+```
+
+And again for 2015, as shown here.
+
+
+```{r}
+
+#An estimate of renting households below the poverty line in 2015 made by summing the data sets within "poverty level by household type by tenure" that fit the constraints of being both below the poverty level and being renter occupied.
+
+
+#This is the data for Renter occupied households with income in the past 12 months below poverty level that contain Married-couple families
+
+Poor_renters_2015_1 <- get_acs(geography = "tract", 
+     variables = c("poor_renters15_1"="B17019_005"), 
+     year = 2015,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+Poor_renters_2015_1 <- st_transform(Poor_renters_2015_1, 3857)
+
+
+
+#This is the data for Renter occupied households with income in the past 12 months below poverty level that contain a male householder, and no wife present
+
+Poor_renters_2015_2 <- get_acs(geography = "tract", 
+     variables = c("poor_renters15_2"="B17019_009"), 
+     year = 2015,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+Poor_renters_2015_2 <- st_transform(Poor_renters_2015_2, 3857)
+
+
+
+#This is the data for Renter occupied households with income in the past 12 months below poverty level that contain a female householder, no husband present
+
+Poor_renters_2015_3 <- get_acs(geography = "tract", 
+     variables = c("poor_renters15_3"="B17019_012"), 
+     year = 2015,
+     survey = "acs5",
+     state =" MD", 
+     
+     geometry = TRUE, # download the shapefile with the data
+     output = "wide") # need this
+
+Poor_renters_2015_3 <- st_transform(Poor_renters_2015_3, 3857)
+
+
+#Here we create a variable for the aggregate data set. I set it to match the Poor_renters_2015_1 dataset initially so ensure that the GEOID, NAME, and Geometry columns are correct, and then delete the extraneous columns by setting the, as NULL
+
+
+Poor_renters_2015 <- Poor_renters_2015_1
+Poor_renters_2015$poor_renters15_1E <- NULL
+Poor_renters_2015$poor_renters15_1M <- NULL
+
+#Here we create the column poor_renters15E by summing the 3 component categories
+
+Poor_renters_2015$poor_renters15E <- Poor_renters_2015_1$poor_renters15_1E + Poor_renters_2015_2$poor_renters15_2E + Poor_renters_2015_3$poor_renters15_3E
+
+#Checking for errors, gaps by plotting
+Poor_renters_2015 %>% ggplot(aes(fill=poor_renters15E, color=poor_renters15E))+
+  geom_sf() + 
+  coord_sf(crs=3857) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+```
+
+As there does not seem to be any major gaps in the data, it is time to create our second change over time variable. We will accomplish this exactly as we did earlier.
+```{r}
+
+
+Change_Over_Time2 <- Poor_renters_2019
+Change_Over_Time2$Change_2_PRe <- Poor_renters_2019$poor_renters19E - Poor_renters_2015$poor_renters15E
+Change_Over_Time2$poor_renters19E<- NULL
+Change_Over_Time2$poor_renters19M<- NULL
+
+#This is not the most elegant way of doing this but it works.
+
+Change_Over_Time2 %>% ggplot(aes(fill=Change_2_PRe, color=Change_2_PRe))+
+  geom_sf() + 
+  coord_sf(crs=3857) + # Web Mercator 3857, or UTM 18N for Maryland 26918
+  scale_fill_viridis_c(option="magma", direction=-1) +
+  scale_color_viridis_c(option="magma", direction=-1)
+
+
+
+```
+
+With both Change over time datasets finished, we can now merge them with a left join and save the result to a shapefile for use in QGIS
+
+
+```{r}
+
+Joined_Changes <- st_join(Change_Over_Time, Change_Over_Time2, join = st_intersects, left = TRUE,  largest = FALSE)
+
+
+
+st_write(Joined_Changes, "Bivariate_Change.shp")
+
+```
+
