@@ -2,7 +2,9 @@
 
 Bivariate and Change Over Time Maps Using U.S. Census Data
  
- 
+
+
+
 ##Project goals: 
 
 Create two change over time maps, one with a single set of data and another with two, by using RStudio to fetch and organize the data.
@@ -10,6 +12,11 @@ Export organized data as shapefiles for use in QGIS.
 Using QGIS rendering tools and additional packages, create a bivariate map showing how two variables changed over time.
 Format the maps created in QGIS and publish to Github along with annotated RMD from RStudio
 
+
+##File Directory Logic
+
+This project is stored under the "Project" directory, which houses the various maps I have produced as well as the code required to produce them. 
+Within the project folder I have created a sub-folder specifically for this project, as it requires a number of files that are not relevant to other maps that I have produced.
 
 ##Data Used
 
