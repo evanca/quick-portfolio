@@ -15,12 +15,15 @@
 
 
 
-
+<div class = "text-green">
 ### Changes in Maryland Renting Between 2015 and 2019
-
+</div>
 For a more in-depth overview of the technical side of this project, [please see here](/Projects/Change_Over_Time_Maps/Readme)
 
+<div class = "text-green">
 ## Rent, Income, and Poverty
+</div>
+
 
 With my own graduation approaching and the Covid-19 pandemic slowly abating (or at least becoming normal), the looming spectre of moving out and dealing with rent raises its head once more. With this on my mind, I decided to take a look at rent data, and see if there were any interesting patterns to find. 
 
