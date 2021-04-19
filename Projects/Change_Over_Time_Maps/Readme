@@ -1,0 +1,62 @@
+## Project Description: 
+
+Bivariate and Change Over Time Maps Using U.S. Census Data
+ 
+
+
+
+## Project goals: 
+
+Create two change over time maps, one with a single set of data and another with two, by using RStudio to fetch and organize the data.
+Export organized data as shapefiles for use in QGIS. 
+Using QGIS rendering tools and additional packages, create a bivariate map showing how two variables changed over time.
+Format the maps created in QGIS and publish to Github along with annotated RMD from RStudio
+
+
+## File Directory Logic
+
+This project is stored under the "Project" directory, which houses the various maps I have produced as well as the code required to produce them. 
+Within the project folder I have created a sub-folder (Change Over Time Maps) specifically for this project, as it requires a number of files that are not relevant to other maps that I have produced.
+This sub-folder is then further divided into a separate folder for the RStudio code (both html and RMD), the completed map PDFs, and images of the completed maps. 
+I decided to divide the map-related files based on file type rather than subject as the .pngs and .pdfs perform different functions when setting up the frontend of the github page, even if they display similar information on the backend.
+##Data Used
+
+2019 and 2015 U.S. Cencus Bureau data for "Median Gross Rent as a Percentage of Income" and "Poverty Status in Past 12 Months By Household Type by Tenure"
+For the latter, the three data subsets dealing with renters below the poverty line were added together to effectively create a "Renters below poverty line" data set.
+
+
+## Data Manipulations Performed
+
+In order to create change over time maps (or, more specifically, difference between years maps), I needed to create variables containing data on the same subject, but for two different years.
+I chose the years 2019 and 2015 for these maps, as I felt that would leave enough time for changes to occur without being so long as to invite issues due to certain data not being available until recently.
+
+Once the 2019 and 2015 variables were assigned data using an API key to fetch census data, the data was plotted to check for gaps or errors.
+After plotting, the next task was to find the difference between the years via subtraction.
+This was a fairly simple operation that involved creating a new "difference" feature and setting one of its columns to be the difference between the values of the two years.
+At this point, the first shapefile could be exported, as this was all that was required to prepare the data for the single-variable change over time map.
+
+In order to prepare for the second map, data from three different (and mutually exclusive) census data sets had to be aggregated.
+This required repeating the process as before, but fetching three different values for each year and adding the resulting data together to create a new aggregate column.
+Once the aggregates were created and checked for errors and gaps, the data for the two years were subtracted from each other to produce a differences feature, which was checked as well.
+
+After the difference features for both variables were confirmed to be free of major gaps, the features were joined together using a left join. 
+The resulting joined data was then written to a shapefile and exported to QGIS.
+
+
+## Map Manipulations Performed
+
+The single vairable change over time map used the rent as a percentage of income data, which contained a few polygons without data. 
+In order to better distinguish between polygons in which no change occured (which were colored off-white) from the white background visible through these null polygons, a black shapefile of Maryland was added so that "no data" polygons would appear black.
+The color scale used was a defualt red to blue scale that I modified to change the 0 value (which was white by default) to a slighlty yellow off-white to make it more visible.
+The data was classified such that polygons with a 0 belonged to their own class, with polygons that had values very close to zero (i.e. +/-0.00001) put into the next class over. 
+This decision was made in case the zeroes arose from errors, such as the same data being used in both years rather than new data being collected.
+Given the degree of precision used in the data, it seemed unlikely that so many tracts produced the exact same values four years apart. 
+
+The bivariate map required less manual classification of the data, as being limited to three classes per variable removed many of the advantages that manual classification has over the automatic classification calculator.
+After much experimentation with color scales and classification, I settled on using the equal count preset classification in conjunction with a custom brown-tan scale and light blue-bright blue scale.
+While the classes that resulted from this were rather uneven in size, this combination of classification and color provided the best balance of accurately representing the data and maintaining map legibility.
+A legend was generated for the bivariate map through the aptly named "Bivariate Legend" QGIS plugin. 
+
+
+
+
