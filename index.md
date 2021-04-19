@@ -16,7 +16,7 @@
 
 
 <div class = "text-green">
-### Changes in Maryland Renting Between 2015 and 2019
+Changes in Maryland Renting Between 2015 and 2019
 </div>
 For a more in-depth overview of the technical side of this project, [please see here](/Projects/Change_Over_Time_Maps/Readme)
 
