@@ -16,8 +16,9 @@ Format the maps created in QGIS and publish to Github along with annotated RMD f
 ##File Directory Logic
 
 This project is stored under the "Project" directory, which houses the various maps I have produced as well as the code required to produce them. 
-Within the project folder I have created a sub-folder specifically for this project, as it requires a number of files that are not relevant to other maps that I have produced.
-
+Within the project folder I have created a sub-folder (Change Over Time Maps) specifically for this project, as it requires a number of files that are not relevant to other maps that I have produced.
+This sub-folder is then further divided into a separate folder for the RStudio code (both html and RMD), the completed map PDFs, and images of the completed maps. 
+I decided to divide the map-related files based on file type rather than subject as the .pngs and .pdfs perform different functions when setting up the frontend of the github page, even if they display similar information on the backend.
 ##Data Used
 
 2019 and 2015 U.S. Cencus Bureau data for "Median Gross Rent as a Percentage of Income" and "Poverty Status in Past 12 Months By Household Type by Tenure"
