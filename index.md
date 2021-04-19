@@ -14,6 +14,15 @@
 
 
 ## Renting, Poverty, and Income 
+
+
+
+
+[<img src="Projects/Change_Over_Time_Maps/Map_Images/Rent_Change_Over_Time_Map.png?raw=true"/>](/Projects/Change_Over_Time_Maps/Map_PDFs/Rent_Change_Over_Time_Map.pdf)
+
+
+
+I wanted to take a look at how the
 [<img src="Projects/Change_Over_Time_Maps/Map_Images/Bivariate_Rent_Map.png?raw=true"/>](/Projects/Change_Over_Time_Maps/Map_PDFs/Bivariate_Rent_Map.pdf)
 
 
