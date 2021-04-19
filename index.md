@@ -18,8 +18,8 @@ Learning the basics of QGIS
 
 Learning the basics of R and its applications in QGIS
 
-[This is the Notebook used](/Projects/Crookshank_Chap2.Rmd)
 [<img src="images/Week2_Image.PNG?raw=true"/>](/pdf/Crookshank_Week2_Merged.pdf)
+[This is the Notebook used](/Projects/Crookshank_Chap2.Rmd)
 
 ## [Week 6](pdf/webmap_pdf.pdf)
 
