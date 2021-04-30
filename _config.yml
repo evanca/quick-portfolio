@@ -1,12 +1,10 @@
 title: Yichi Zhang # your name (or website title) here
 logo: "/images/0260[1605].JPG" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
-  <br>2023 Auburn University Student/n
-      Chemical Engineering  
+  <br> 2023 Auburn University Student
+  <br>Chemical Engineering  
+  <br> 
   <br>
-  Second description 
-  <br><br>
   <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
