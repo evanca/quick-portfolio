@@ -17,9 +17,9 @@
 
 ---
 
-### Category Name 2
+### Personal Information
 
-- [Project 1 Title](http://example.com/)
+- [Resume](https://drive.google.com/file/d/1W-j7iMxHNAVJEOdyics1a1Lstx7_eXbT/view?usp=sharing)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
