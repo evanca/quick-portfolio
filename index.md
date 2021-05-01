@@ -2,28 +2,26 @@
 
 ---
 
-### Category Name 1 
+### Personal Photo Gallory  
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Qinghai Monk]
+<img src="https://drive.google.com/file/d/1HfGbpeznQI0Q02prC2zwH1aZDrZ4RLCH/view?usp=sharing"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Ursinus Day]
+<img src="https://drive.google.com/file/d/1KdNiO9M1Nq7gCznNtUkM1hlDWpmn-o64/view?usp=sharing"/>
 
 ---
+[Fly Eagle Fly]
+<img src="https://drive.google.com/file/d/1-7lYSET3G6cwRT7yVCD2ImO1nSEwZ6Zl/view?usp=sharing"/>
 
+---
+[War Eagle]
+<img src="https://drive.google.com/file/d/1bgrIplMgabOqyU-5mqF80S6KchTKPy1B/view?usp=sharing"/>
+---
 ### Personal Information
 
 - [Resume](https://drive.google.com/file/d/1W-j7iMxHNAVJEOdyics1a1Lstx7_eXbT/view?usp=sharing)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
 
 ---
 
