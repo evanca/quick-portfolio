@@ -5,19 +5,16 @@
 ### Personal Photo Gallory  
 
 [Qinghai Monk]
-<img src="https://drive.google.com/file/d/1HfGbpeznQI0Q02prC2zwH1aZDrZ4RLCH/view?usp=sharing"/>
+<img src="images/Photo1.jpg"/>
 
 ---
 [Ursinus Day]
-<img src="https://drive.google.com/file/d/1KdNiO9M1Nq7gCznNtUkM1hlDWpmn-o64/view?usp=sharing"/>
+<img src="images/Ursinus photo.jpg"/>
 
 ---
 [Fly Eagle Fly]
-<img src="https://drive.google.com/file/d/1-7lYSET3G6cwRT7yVCD2ImO1nSEwZ6Zl/view?usp=sharing"/>
+<img src="images/Ursinus photo.jpg"/>
 
----
-[War Eagle]
-<img src="https://drive.google.com/file/d/1bgrIplMgabOqyU-5mqF80S6KchTKPy1B/view?usp=sharing"/>
 ---
 ### Personal Information
 
