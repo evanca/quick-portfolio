@@ -5,7 +5,7 @@
 
 - [Resume](https://drive.google.com/file/d/1W-j7iMxHNAVJEOdyics1a1Lstx7_eXbT/view?usp=sharing)
 - Previously enrolled in Ursinus College, Chemistry Major
-- Transferred to Auburn University and changed to <p title="Chemical Engieerning">CHEN</p> Major. Planning to get <p title="Chemical Engieerning">CHEN</p> and <p title="Computer Science">CS</p> duel degree.
+- Transferred to Auburn University and changed to CHEN("Chemical Engieerning") Major. Planning to get CHEN("Chemical Engieerning") and CS("Computer Science") duel degree.
 - Looking for Engineering-related Internship/Co-op programs. Would like to engage in any github project with prerequirements of basic JAVA, C++ and Matlab
 
 ---
