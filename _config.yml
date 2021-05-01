@@ -3,11 +3,10 @@ logo: "/images/0260[1605].JPG" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   2023 Auburn University Student<br>
   Chemical Engineering<br>
-  <p> Email:</p>
-  <p title="School Email"> yzz0192@auburn.edu</p>
-  <p title="Personal"> yizhang1728@gmail.com</p>
-  <br>
-  <a href="<a href="https://www.linkedin.com/in/jim-zhang1728/">Resume</a><br>
+  Email:<br>
+  <a title="School Email"> yzz0192@auburn.edu</a>
+  <a title="Personal"> yizhang1728@gmail.com</a>
+  <a href="<a href="https://www.linkedin.com/in/jim-zhang1728/">Resume</a>
   <a href="https://www.linkedin.com/in/jim-zhang1728/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
