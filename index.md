@@ -13,7 +13,7 @@
 
 ---
 [Fly Eagle Fly]
-<img src="images/Ursinus photo.jpg"/>
+<img src="images/Personalphoto1.jpg"/>
 
 ---
 ### Personal Information
