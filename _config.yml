@@ -4,9 +4,9 @@ description: > # your text below (remove <br> elements if you don't need line br
   2023 Auburn University Student<br>
   Chemical Engineering<br>
   Email:<br>
-  <a title="School Email"> yzz0192@auburn.edu</a>
-  <a title="Personal"> yizhang1728@gmail.com</a>
-  <a href="<a href="https://www.linkedin.com/in/jim-zhang1728/">Resume</a>
+  <a title="School Email"> yzz0192@auburn.edu</a><br>
+  <a title="Personal"> yizhang1728@gmail.com</a><br>
+  <a href="<a href="https://www.linkedin.com/in/jim-zhang1728/">Resume</a><br><br>
   <a href="https://www.linkedin.com/in/jim-zhang1728/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
