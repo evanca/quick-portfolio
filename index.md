@@ -2,13 +2,7 @@
 <!-- //Use some ahref tags to make the images link across to the pages also -->
 
 ---
-<h3>Ongoing Projects: </h3>
-[Data-scape: An Online Framework for Data Sonification](/projects/data-scape/data-scape)<br />
-<a href="/projects/data-scape/data-scape">
-<img src="images/tabs/dsTab2.png?raw=true"/>
-</a>
 
-<h3>Recent Projects: </h3>
 [Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot)<br />
 <a href="/projects/ad_iot/ad_iot">
 <img src="images/tabs/ADIOTtab3.png?raw=true"/>
@@ -32,6 +26,11 @@
 [ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)<br />
 <a href="/projects/ML_HCI/ML_HCI">
 <img src="images/tabs/GEStab.png?raw=true"/>
+</a>
+
+[Data-scape: An Online Framework for Data Sonification](/projects/data-scape/data-scape)<br />
+<a href="/projects/data-scape/data-scape">
+<img src="images/tabs/dsTab2.png?raw=true"/>
 </a>
 
 [Dance Projects](/projects/dance/dance)<br />
