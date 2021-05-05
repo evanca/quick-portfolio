@@ -10,7 +10,7 @@
 
 [Urban Affect Networks ](/projects/Urban Affect Networks/UAF)<br />
 <a href="/projects/Urban Affect Networks/UAF">
-<img src="images/tabs/DATAtab.png/>
+<img src="images/tabs/DATAtab.png?raw=true"/>
 </a>
 
 [Embodied Sonification](/projects/embodied_sonification/embodied_sonification)<br />
