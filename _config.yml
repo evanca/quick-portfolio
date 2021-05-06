@@ -8,18 +8,5 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a title="Personal"> yizhang1728@gmail.com</a><br><br>
   <a href="https://www.linkedin.com/in/jim-zhang1728/">View My LinkedIn Profile</a> 
   
-  <input type="text" value="Hello World" id="myInput">
-<button onclick="myFunction()">Copy text</button>
-
-<script>
-function myFunction() {
-  var copyText = document.getElementById("myInput");
-  copyText.select();
-  copyText.setSelectionRange(0, 99999)
-  document.execCommand("copy");
-  alert("Copied the text: " + copyText.value);
-}
-</script>
-  
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
