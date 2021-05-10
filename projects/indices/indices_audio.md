@@ -18,7 +18,7 @@ You can hear that piece here:
 
 
 <img src="images/12186271_1116088238416382_7289188895621671914_o.jpg?raw=true"/><br/>
-
+Credit: Pier Giorgio De Pinto
 ### Iteration 2: Further Pieces
 
 Later, in 2016/2017, I recorded additional Soundworks and musical pieces incorporating Nancy's indexes, a portion of which will be set to performances and recorded by video artists as part of the 63 Videos on the Body project. You can hear those pieces here on my collection"Le Son Du Corps Et Un Corps de Sons" available on:
