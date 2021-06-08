@@ -1,10 +1,10 @@
 title: Andy Chand # your name (or website title) here
 logo: "/images/1615557311594.jfif?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  GIS Graduate
   <br><br>
-  Second description 
-  <br><br>
+  # Second description 
+  # <br><br>
   <a href="https://www.linkedin.com/in/andy-chand/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
