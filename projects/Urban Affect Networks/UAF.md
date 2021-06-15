@@ -41,7 +41,7 @@ The next performance with the system titled 'Signal to Noise Loops i++'' took pl
 The third iteration of the system introduced evolutionary approaches to generative music influenced by Eduardo Reck Miranda and Alan Dorin. The evolutionary algorithms generated and organised content within the performance at the textural and timbral levels. This iteration of the system made use of new IoT data sources. The system was now 'making decisions based on the ‘mood’ or ‘affective state’ of Dublin city. The system accesses the IoT data and reads noise levels, pollution levels, traffic flows (pedestrian and vehicle), emergency warnings, and weather data. These data points define the affective state or mood of the generative system and data to sound mapping strategy, and thereby the music. <br />
 When the data represents a healthy and functioning city the generative system is in a good mood and collaborates better with the human performer in a harmonious manner, coordinating its music-making with that of the human. When the city is in a sub-optimal state, the system has a 'negative affective state' or 'mood' and begins to overwrite the human performer and make more independent musical decisions that are reflective of the state of the city.<br />
 
-#### ISSTA & CSMC 2018<br/>
+#### Performances 3 & 4: ISSTA & CSMC 2018<br/>
 A third performance took place at ISSTA 2018 in Derry/Londonderry. This version made use of evolutionary approaches to generative music. A fourth performance took place at CSMC 2018 in Dublin. In this performance, the wider set of data sources described above are mapped to control a range of sound synthesis, timbral and performance parameters in the piece. <br />
 
 <img src="images/csmc2018_concert_performers.jpg.webp?raw=true"/><br/>
@@ -62,7 +62,7 @@ While the earlier systems used procedural techniques alone to generate materials
 While working on the fourth iteration of the system the COVID-19 Crisis hit. To continue the project, I chose to adapt it to an online mode of presentation. I also chose to make use of data representing the city before the COVID-19 crisis hit as well as during the COVID-19 crisis. This involved using the new iteration of the system to create a fixed composition in two movements. In the interests of clarity, I used one stream of data, the original Noise Data. The first movement used data from March of 2019 while the second movement used data from March 2020.
 Alongside the piece, I also created a visualisation of the data which maps the Noise data to control the radii and colours of dots in a dot-matrix representation of Dublin City.
 
-#### New York City Electroacoustic Music Festival and International Conference on Computer Music
+#### Performances 5 & 6: New York City Electroacoustic Music Festival and International Conference on Computer Music
 The piece is scheduled for performance at the 2021 New York City Electroacoustic Music Festival and the International Conference on Computer Music 2021.
 
 
