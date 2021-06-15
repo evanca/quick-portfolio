@@ -11,7 +11,7 @@ A number of strategies to mapping data to sound were adopted here.
 Traditional approaches to mapping data to sound (parameter mapping sonification) were employed alongside approaches that involve machine learning techniques. For example in the generative engine the highest point in the dataset is represented with a unique musical pattern and the lowest point is represented with another. By blending these motifs together using MusicVAE new musical patterns are generated to represent values between these two points. Essentially, the high point of the data is represented with one musical motif and the low point with another one. All data points in between are then represented as blends of these two motifs. This is a refinement of the target states approach I used for the previous framework.
 
 
-Data is mapped across the generative, sound synthesis and post-processing layers for each data object.
+Data are mapped across the generative, sound synthesis and post-processing layers for each data object.
 
 #### Weather Data Object:
 
