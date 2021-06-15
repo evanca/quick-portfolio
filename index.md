@@ -8,7 +8,7 @@
 <img src="images/tabs/ADIOTtab3.png?raw=true"/>
 </a>
 
-[Urban Affect Networks ](/projects/Urban Affect Networks/UAF)<br />
+[Urban Affect Networks: Signal to Noise Loops](/projects/Urban Affect Networks/UAF)<br />
 <a href="/projects/Urban Affect Networks/UAF">
 <img src="images/tabs/DATAtab.png?raw=true"/>
 </a>
