@@ -103,7 +103,7 @@ Signal to Noise Loops i++<br />
 Sound Design. Music Composition. Live Electronic Music performance. Instrumental Guitar Performance.  Audio Sound Art. Visual Design.
 
 ### Technical
-IoT Networks. Statistical Data Analytic. Python. HTTP, OSC & MIDI protocols. GOFAI. Evolutionary Computing. Audio DSP. Creative Coding. HTTP. HCI. Auditory Display & Sonification. Audio Engineering.
+IoT Networks. Statistical Data Analytic. Python. HTTP, OSC & MIDI protocols. Evolutionary Computing. Audio DSP. Creative Coding. HTTP. HCI. Auditory Display & Sonification. Audio Engineering.
 
 ### Tags
 Urban Affect Networks. Signal to Noise Loops. Generative Music. Music. Data. Machine Learning. Evolutionary Algorithms.
