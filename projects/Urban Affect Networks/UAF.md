@@ -55,14 +55,14 @@ A third performance took place at ISSTA 2018 in Derry/Londonderry. This version 
 <iframe seamless="" src="https://bandcamp.com/EmbeddedPlayer/album=793201642/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3477147735/transparent=true/" style="border: 0; height: 120px; width: 100%;"><a href="http://stephenroddy.bandcamp.com/album/home-part-2-silence-ep">Home Part 2: Silence EP by Stephen Roddy</a></iframe>Signal to Noise Loops i++ </div>
 <br />
 
-### Iteration 4: Machine Learning
+#### Iteration 4: Machine Learning
 While the earlier systems used procedural techniques alone to generate materials at the level of the note/object/event version 4 integrates machine learning tools alongside procedural techniques. The system uses Google Magenta's 'Continue' tool (using RNNs) to elaborate upon the data-driven, procedurally generated harmonic materials. It also uses 'Interpolate' (driven by MusicVAE) to generate a series of melodies with qualities lying along a linear spectrum <i>between</i> two input melodic sequences.
 
-### COVID-19 Crisis Response <br />
+#### COVID-19 Crisis Response <br />
 While working on the fourth iteration of the system the COVID-19 Crisis hit. To continue the project, I chose to adapt it to an online mode of presentation. I also chose to make use of data representing the city before the COVID-19 crisis hit as well as during the COVID-19 crisis. This involved using the new iteration of the system to create a fixed composition in two movements. In the interests of clarity, I used one stream of data, the original Noise Data. The first movement used data from March of 2019 while the second movement used data from March 2020.
 Alongside the piece, I also created a visualisation of the data which maps the Noise data to control the radii and colours of dots in a dot-matrix representation of Dublin City.
 
-### New York City Electroacoustic Music Festival and International Conference on Computer Music
+#### New York City Electroacoustic Music Festival and International Conference on Computer Music
 The piece is scheduled for performance at the 2021 New York City Electroacoustic Music Festival and the International Conference on Computer Music 2021.
 
 
