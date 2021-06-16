@@ -9,7 +9,7 @@
 </a>
 
 [Signal to Noise Loops](/projects/Signal_To_Noise_Loops/s2nl)<br />
-<a href="/projects/Urban Affect Networks/UAF">
+<a href="/projects/Signal_To_Noise_Loops/s2nl">
 <img src="images/tabs/DATAtab.png?raw=true"/>
 </a>
 
