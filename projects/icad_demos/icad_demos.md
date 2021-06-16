@@ -1,6 +1,7 @@
 ### THE DESIGN OF A SMART CITY SONIFICATION SYSTEM USING A CONCEPTUAL BLENDING AND MUSICAL FRAMEWORK, WEB AUDIO AND DEEP LEARNING TECHNIQUES
 #### by Stephen Roddy and Brian Bridges
 
+
 #### Poster Object
 <a href="images/Poster 1080p.png">
 <img src="images/Poster 1080p.png?raw=true"/><br/>
