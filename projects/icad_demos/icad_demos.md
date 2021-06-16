@@ -7,7 +7,7 @@
 
 * [PDF Version of Poster](papers/poster_icad.pdf)
 
-#### Smart Cities Data
+#### Smart Cities Data and Sonification Examples
 
 This final phase of the project also involved the development of a framework for Smart Cities data. Rather than dealing with data at the level of the network, this phase investigated the use of sensor level data. The framework uses traffic data from open APIs around Dublin including Noise level data (Sonitus Systems API), number of public bikes available at stands and number of Free Parking Spaces in multi-storey car parks (Dublin City Council API), Travel Times on key routes around the city (Transport Infrastructure Ireland).
 It also uses weather data from the OpenWeather Maps API including rainfall, windspeed and temperature levels. Theoretical frameworks from Embodied Cognitive Science and music theory were once again used to guide the initial design of the framework. The framework is comprised of the same four component layers involved in the previous framework and represented in the figure above. The output consists of three data-driven sound objects presented in sequence. The first object represents weather data the second represents traffic data and the third represents the number of available bikes at city bike stands. When attended to in sequence, the sonification is intended to give an overall sense of the state of the city in terms of these three categories.
