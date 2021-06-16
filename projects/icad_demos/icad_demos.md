@@ -4,6 +4,8 @@
 
 <img src="images/Poster 1080p.png?raw=true"/><br/>
 
+* [PDF Version of Poster](papers/poster_icad.pdf)
+
 #### Smart Cities Data
 
 This final phase of the project also involved the development of a framework for Smart Cities data. Rather than dealing with data at the level of the network, this phase investigated the use of sensor level data. The framework uses traffic data from open APIs around Dublin including Noise level data (Sonitus Systems API), number of public bikes available at stands and number of Free Parking Spaces in multi-storey car parks (Dublin City Council API), Travel Times on key routes around the city (Transport Infrastructure Ireland).
