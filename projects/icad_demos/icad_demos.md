@@ -1,8 +1,9 @@
 ### Poster and Demos for ICAD Paper
 
 #### Poster Object
-
+<a href="images/Poster 1080p.png">
 <img src="images/Poster 1080p.png?raw=true"/><br/>
+</a>
 
 * [PDF Version of Poster](papers/poster_icad.pdf)
 
