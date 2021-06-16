@@ -1,4 +1,8 @@
-### Demos for ICAD Paper
+### Poster and Demos for ICAD Paper
+
+#### Poster Object
+
+<img src="images/Poster 1080p.png?raw=true"/><br/>
 
 #### Smart Cities Data
 
