@@ -69,11 +69,12 @@ The piece is due to be performed at the [2021 New York Electroacoustic Music Fes
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f5yggfFRPAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* [Youtube Link](https://www.youtube.com/watch?v=f5yggfFRPAA)
+[Youtube Link](https://www.youtube.com/watch?v=f5yggfFRPAA)
 
 <iframe frameborder="0" src="https://drive.google.com/file/d/17JsG6ejsXp0xaS7fLn68oP-1kyStzXYM/preview" style="height: 500px; width: 600px;"></iframe>
 
-* [NYCEMF2021 Concert Program](/files/2021-Program-Book.pdf)
+[NYCEMF2021 Concert Program](/files/2021-Program-Book.pdf)
+
 
 #### Performances 6: International Conference on Computer Music
 The piece is scheduled for performance at the 2021 International Conference on Computer Music 2021.
