@@ -3,14 +3,14 @@
 
 ---
 
-[Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot)<br />
-<a href="/projects/ad_iot/ad_iot">
-<img src="images/tabs/ADIOTtab3.png?raw=true"/>
-</a>
-
 [Signal to Noise Loops](/projects/s2nl/s2nl_project)<br />
 <a href="/projects/s2nl/s2nl_project">
 <img src="images/tabs/DATAtab.png?raw=true"/>
+</a>
+
+[Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot)<br />
+<a href="/projects/ad_iot/ad_iot">
+<img src="images/tabs/ADIOTtab3.png?raw=true"/>
 </a>
 
 [Embodied Sonification](/projects/embodied_sonification/embodied_sonification)<br />
@@ -23,14 +23,9 @@
 <img src="images/tabs/HCtab.png?raw=true"/>
 </a>
 
-[ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)<br />
-<a href="/projects/ML_HCI/ML_HCI">
-<img src="images/tabs/GEStab.png?raw=true"/>
-</a>
-
-[Data-scape: An Online Framework for Data Sonification](/projects/data-scape/data-scape)<br />
-<a href="/projects/data-scape/data-scape">
-<img src="images/tabs/dsTab2.png?raw=true"/>
+[Indices on the Body](/projects/indices/indices_audio)<br />
+<a href="/projects/indices/indices_audio">
+<img src="images/tabs/JLNtab.png?raw=true"/>
 </a>
 
 [Dance Projects](/projects/dance/dance)<br />
@@ -43,9 +38,14 @@
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
 </a>
 
-[Indices on the Body](/projects/indices/indices_audio)<br />
-<a href="/projects/indices/indices_audio">
-<img src="images/tabs/JLNtab.png?raw=true"/>
+[ML Applications in Human-computer Interaction](/projects/ML_HCI/ML_HCI)<br />
+<a href="/projects/ML_HCI/ML_HCI">
+<img src="images/tabs/GEStab.png?raw=true"/>
+</a>
+
+[Data-scape: An Online Framework for Data Sonification](/projects/data-scape/data-scape)<br />
+<a href="/projects/data-scape/data-scape">
+<img src="images/tabs/dsTab2.png?raw=true"/>
 </a>
 
 <br />
