@@ -65,7 +65,7 @@ Alongside the piece, I also created a visualisation of the data which maps the N
 
 
 #### Performance 5: The New York electroacoustic Music festival
-The piece is due to be performed at the 2021 New York Electroacoustic Music festival.
+The piece is due to be performed at the [2021 New York Electroacoustic Music Festival](https://nycemf.org/).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f5yggfFRPAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -74,7 +74,6 @@ The piece is due to be performed at the 2021 New York Electroacoustic Music fest
 <iframe frameborder="0" src="https://drive.google.com/file/d/17JsG6ejsXp0xaS7fLn68oP-1kyStzXYM/view?usp=sharing" style="height: 500px; width: 600px;"></iframe>
 
 * [NYCEMF2021 Concert Program](/files/2021-Program-Book.pdf)
-
 
 
 #### Performances 6: International Conference on Computer Music
