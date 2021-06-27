@@ -186,6 +186,11 @@ The following is an example sonification with this framework. It represents good
 ### The Outputs
 This project resulted in a large body of outputs across a range of disciplines. Some of these explored the [technical](/papers/Roddy.pdf) aspects of the frameworks created while others considered the [aesthetic](http://www.ucd.ie/mustwork2016/t4media/MusTWork_2016_Proceedings.pdf), [theoretical](https://link.springer.com/chapter/10.1007/978-3-319-73374-6_12) and [social](https://impakter.com/technology-trends-transforming-the-world/) dimensions involved this research project.
 
+You can read our recent ICAD 2021 paper here:
+
+<iframe frameborder="0" src="https://drive.google.com/file/d/1uL_GeuWMenjJnn2SgdbKfVwvD0_n5Hgm/preview" style="height: 500px; width: 600px;"></iframe>
+
+
 #### Book Chapter
 - [Roddy S., Bridges B. (2018) Sound, Ecological Affordances and Embodied Mappings in Auditory Display. In: Filimowicz M., Tzankova V. (eds) New Directions in Third Wave Human-Computer Interaction: Volume 2 - Methodologies. Human–Computer Interaction Series. Springer, Cham.](https://link.springer.com/chapter/10.1007/978-3-319-73374-6_12)
 
@@ -193,9 +198,10 @@ This project resulted in a large body of outputs across a range of disciplines. 
 - [Roddy S., & Bridges B. (2018) Addressing the Mapping Problem in Sonic Information Design through Embodied Image Schemata, Conceptual Metaphors and Conceptual Blending. The Journal of Sonic Studies. 17.](https://www.researchcatalogue.net/view/515156/515157)
 
 #### Conference Papers
-- [Sounding Human with Data: The Role of Embodied Conceptual Metaphors and Aesthetics in Representing and Exploring Data Sets @ Music Technology Workshop 2016, Michael Smurfit Business School, University College Dublin, June 10th 2016](http://www.ucd.ie/mustwork2016/t4media/MusTWork_2016_Proceedings.pdf)
-- [Roddy, S. (2017) Absolute Nothingness: The Kyoto School and Soundart Practice. In Proceedings of Invisible Places 2017.](https://www.researchgate.net/publication/318115471_Absolute_Nothingness_The_Kyoto_School_and_Sound_Art_Practice)
+- [The Design of a Smart City Sonification System Using a Concpetual Blending and Musical Framework, Web Audio and Deep Learning Techniques @ The International Conference on Auditory Display 2021](https://www.researchgate.net/publication/352737562_The_Design_of_a_Smart_City_Sonification_System_using_a_Conceptual_Blending_and_Musical_Framework_Web_Audio_and_Deep_Learning_Techniques)
 - [Roddy, S. (2018) Ambient Data Monitoring w/Generative Music Systems using Evolutionary Computing & Machine Learning Techniques. CSMC 2018, Dublin, August 2018.](/papers/Roddy.pdf)
+- [Roddy, S. (2017) Absolute Nothingness: The Kyoto School and Soundart Practice. In Proceedings of Invisible Places 2017.](https://www.researchgate.net/publication/318115471_Absolute_Nothingness_The_Kyoto_School_and_Sound_Art_Practice)
+- [Sounding Human with Data: The Role of Embodied Conceptual Metaphors and Aesthetics in Representing and Exploring Data Sets @ Music Technology Workshop 2016, Michael Smurfit Business School, University College Dublin, June 10th 2016](http://www.ucd.ie/mustwork2016/t4media/MusTWork_2016_Proceedings.pdf)
 
 #### Science Communication Article
 - [Technology Trends Transforming the World' for Impakter January 2019](https://impakter.com/technology-trends-transforming-the-world/)
