@@ -101,7 +101,7 @@ Paper on earlier iteration of system:</h4>
 - [Noise Loops for Laptop, Improvised Electric Guitar and Dublin City Noise Level Data @ Sonic Dreams 2017, Sonic Arts Waterford, September 30th 2017](https://1.bp.blogspot.com/-HhZc6oL93Og/W0yMNH4jnVI/AAAAAAAAGFE/VlxW3bOMTlono3rkqbBMtE4XAxElOOgAQCLcBGAs/s1600/Sonic-Dreams-Festival-2017-final-poster-2.jpg)
 
 ### Recordings
-Link to Performances with earlier iterations of the System:</h4>
+<h4>Link to Performances with earlier iterations of the System:</h4>
 Dublin City Noise Loops<br />
 <a href="https://open.spotify.com/track/63x9Nav3h61MNbcV6uycCX">https://open.spotify.com/track/63x9Nav3h61MNbcV6uycCX</a><br />
 <a href="https://music.apple.com/us/album/dublin-city-noise-loops/1450892433?i=1450892435">https://music.apple.com/us/album/dublin-city-noise-loops/1450892433?i=1450892435</a><br />
