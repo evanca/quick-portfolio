@@ -19,10 +19,10 @@
 
 ### Category Name 2
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
+- [Chess Warfare](https://youtu.be/BknSIQ34q6o)
+- [Facade](https://youtu.be/vJhwPj2xjGU)
+- [Modern Crookshow](https://youtu.be/X1LhlHebvA8)
+- [Špilja Života](https://youtu.be/KARWocfbHIg)
 - [Project 5 Title](http://example.com/)
 
 ---
