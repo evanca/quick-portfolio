@@ -143,7 +143,7 @@ At the sound synthesis level Temperature data is mapped to control the harmonici
 
 Windspeed is mapped to control the cycle frequency of an automatic filter at the FX layer.
 
-- [High WindSpeed](/audio/smart_city/Windspeed/HiWind.m4a)
+- [High WindSpeed](/audio/smart_city/Windspeed/HiWInd.m4a)
 
 #### Traffic Data Object:
 
