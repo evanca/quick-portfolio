@@ -49,7 +49,7 @@ At the sound synthesis level Temperature data is mapped to control the harmonici
 
 Windspeed is mapped to control the cycle frequency of an automatic filter at the FX layer.
 
-- [High Windspeed](/audio/smart_city/Windspeed/HiWind.m4a)
+- [High WindSpeed](/audio/smart_city/Windspeed/HiWInd.m4a)
 
 #### Traffic Data Object:
 
@@ -66,10 +66,10 @@ Average travel time data for the motorways feeding Dublin is mapped to control t
 Noise level data is mapped to control the addition fo distortion and reverb to the signal. The number of free carpark spaces in the city is mapped to control the cutoff frequencey of a lowpass filter.
 
 - [Low Traffic & High Noise](/audio/smart_city/Traffic/NoiseTrafLo.mp3)
-- [High Traffic & High Noise](/audio/smart_city/Traffic/NoiseTrafHi.mp3)
+- [High Traffic & High Noise](/audio/smart_city/Traffic/NoiseHi.mp3)
 
 - [High Noise & Few Parking Spaces](/audio/smart_city/Traffic/FewSpacesMuchNoise.m4a)
-- [No Noise & Few Parking Spaces](/audio/smart_city/Traffic/FewSpacesNoNoise.m4a)
+- [No Noise & Few Parking Spaces](/audio/smart_city/Traffic/fewSpacesNoNoise.m4a)
 
 In the following example the high traffic motif transforms into the low traffic motif:
 
@@ -88,3 +88,10 @@ The bike data object consists of a pink noise generator and a ping pong delay. I
 The following is an example sonification with this framework. It represents good weather slight chance of rain above average traffic and few free bikes:
 
 - [Full framework sonification](/audio/smart_city/Full Son/Smart City ML Sonification.mp3)
+
+### The Outputs
+This project resulted in a large body of outputs across a range of disciplines. Some of these explored the [technical](/papers/Roddy.pdf) aspects of the frameworks created while others considered the [aesthetic](http://www.ucd.ie/mustwork2016/t4media/MusTWork_2016_Proceedings.pdf), [theoretical](https://link.springer.com/chapter/10.1007/978-3-319-73374-6_12) and [social](https://impakter.com/technology-trends-transforming-the-world/) dimensions involved this research project.
+
+You can read our recent ICAD 2021 paper here:
+
+<iframe frameborder="0" src="https://drive.google.com/file/d/1uL_GeuWMenjJnn2SgdbKfVwvD0_n5Hgm/preview" style="height: 500px; width: 600px;"></iframe>
