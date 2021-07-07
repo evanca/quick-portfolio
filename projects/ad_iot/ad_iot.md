@@ -159,11 +159,11 @@ Synthesis Method: AM Synthesis.
 Average travel time data for the motorways feeding Dublin is mapped to control the blend between the low traffic motif and the high traffic motif in the generative engine.
 Noise level data is mapped to control the addition fo distortion and reverb to the signal. The number of free carpark spaces in the city is mapped to control the cutoff frequencey of a lowpass filter.
 
-- [Low Traffic & High Noise](/audio/smart_city/Bikes/NoiseTrafLo.mp3)
-- [High Traffic & High Noise](/audio/smart_city/Bikes/NoiseTrafHi.mp3)
+- [Low Traffic & High Noise](/audio/smart_city/Traffic/NoiseTrafLo.mp3)
+- [High Traffic & High Noise](/audio/smart_city/Traffic/NoiseTrafHi.mp3)
 
-- [High Noise & Few Parking Spaces](/audio/smart_city/Bikes/FewSpacesMuchNoise.mp3)
-- [No Noise & Few Parking Spaces](/audio/smart_city/Bikes/FewSpacesMuchNoise.mp3)
+- [High Noise & Few Parking Spaces](/audio/smart_city/Traffic/FewSpacesMuchNoise.mp3)
+- [No Noise & Few Parking Spaces](/audio/smart_city/Traffic/FewSpacesMuchNoise.mp3)
 
 In the following example the high traffic motif transforms into the low traffic motif:
 
