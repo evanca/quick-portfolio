@@ -97,7 +97,7 @@ This results in a scales of timbral changes that can be used to represent the da
 
 - [Scale 1](/audio/mp3s and m4as/NoteConvergence_scale.m4a)
 - [Scale 2](/audio/mp3s and m4as/NotetoNoise_scale.m4a)
-- [Scale 2](/audio/mp3s and m4as/SynthWash.m4a)
+- [Scale 3](/audio/mp3s and m4as/SynthWash_scale.m4a)
 
 Bringing these steams together results in musical systems which are representative of the difference between target data states defined by a user, and the current state of the market:
 
@@ -139,7 +139,7 @@ In the following example the rain motif transforms into the shine motif.
 At the sound synthesis level Temperature data is mapped to control the harmonicity ratio between two monophonic synthesisers and at the post processing level it is mapped to control a chorusing effect.
 
 - [High Temperature](/audio/smart_city/Temperature/tempHi.m4a)
-- [Low Temperature](/audio/smart_city/Temperature/tempLow.m4a)
+- [Low Temperature](/audio/smart_city/Temperature/tempLo.m4a)
 
 Windspeed is mapped to control the cycle frequency of an automatic filter at the FX layer.
 
