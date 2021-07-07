@@ -160,7 +160,7 @@ Average travel time data for the motorways feeding Dublin is mapped to control t
 Noise level data is mapped to control the addition fo distortion and reverb to the signal. The number of free carpark spaces in the city is mapped to control the cutoff frequencey of a lowpass filter.
 
 - [Low Traffic & High Noise](/audio/smart_city/Traffic/NoiseTrafLo.mp3)
-- [High Traffic & High Noise](/audio/smart_city/Traffic/NoiseTrafHi.mp3)
+- [High Traffic & High Noise](/audio/smart_city/Traffic/NoiseHi.mp3)
 
 - [High Noise & Few Parking Spaces](/audio/smart_city/Traffic/FewSpacesMuchNoise.m4a)
 - [No Noise & Few Parking Spaces](/audio/smart_city/Traffic/FewSpacesNoNoise.m4a)
