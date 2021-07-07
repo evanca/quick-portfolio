@@ -20,7 +20,7 @@ A number of strategies to mapping data to sound were adopted here.
 Traditional approaches to mapping data to sound (parameter mapping sonification) were employed alongside approaches that involve machine learning techniques. For example in the generative engine the highest point in the dataset is represented with a unique musical pattern and the lowest point is represented with another. By blending these motifs together using MusicVAE new musical patterns are generated to represent values between these two points. Essentially, the high point of the data is represented with one musical motif and the low point with another one. All data points in between are then represented as blends of these two motifs. This is a refinement of the target states approach I used for the previous framework.
 
 
-Data are mapped across the generative, sound synthesis and post-processing layers for each data object.
+Data is mapped across the generative, sound synthesis and post-processing layers for each data object.
 
 #### Weather Data Object:
 
@@ -45,7 +45,7 @@ In the following example the rain motif transforms into the shine motif.
 At the sound synthesis level Temperature data is mapped to control the harmonicity ratio between two monophonic synthesisers and at the post processing level it is mapped to control a chorusing effect.
 
 - [High Temperature](/audio/smart_city/Temperature/tempHi.m4a)
-- [Low Temperature](/audio/smart_city/Temperature/tempLow.m4a)
+- [Low Temperature](/audio/smart_city/Temperature/tempLo.m4a)
 
 Windspeed is mapped to control the cycle frequency of an automatic filter at the FX layer.
 
@@ -65,15 +65,15 @@ Synthesis Method: AM Synthesis.
 Average travel time data for the motorways feeding Dublin is mapped to control the blend between the low traffic motif and the high traffic motif in the generative engine.
 Noise level data is mapped to control the addition fo distortion and reverb to the signal. The number of free carpark spaces in the city is mapped to control the cutoff frequencey of a lowpass filter.
 
-- [Low Traffic & High Noise](/audio/smart_city/Bikes/NoiseTrafLo.mp3)
-- [High Traffic & High Noise](/audio/smart_city/Bikes/NoiseTrafHi.mp3)
+- [Low Traffic & High Noise](/audio/smart_city/Traffic/NoiseTrafLo.mp3)
+- [High Traffic & High Noise](/audio/smart_city/Traffic/NoiseTrafHi.mp3)
 
-- [High Noise & Few Parking Spaces](/audio/smart_city/Bikes/FewSpacesMuchNoise.mp3)
-- [No Noise & Few Parking Spaces](/audio/smart_city/Bikes/FewSpacesMuchNoise.mp3)
+- [High Noise & Few Parking Spaces](/audio/smart_city/Traffic/FewSpacesMuchNoise.m4a)
+- [No Noise & Few Parking Spaces](/audio/smart_city/Traffic/FewSpacesNoNoise.m4a)
 
 In the following example the high traffic motif transforms into the low traffic motif:
 
-- [High Traffic to Low Traffic](/audio/smart_city/Traffic/fullTraffic20.mp3)
+- [High Traffic to Low Traffic](/audio/smart_city/Traffic/fullTraffic20.m4a)
 
 
 #### Bike Data Object:
