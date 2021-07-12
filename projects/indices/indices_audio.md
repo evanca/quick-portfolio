@@ -35,7 +35,7 @@ In 2021 I developed an online art installation entitled 'The Body in the Machine
 
 <img src="images/xCoAx21.jpg?raw=true"/><br/>
 
-
+Visit the installation here:
 [The Body in the Machine: Indices Online](https://2021.xcoax.org/sro/)
 
 'The Body in the Machine: Indices Online' collects together and iterates upon all of my sonic/musical work for the project to date. It is an online audio-visual installation that uses machine-learning techniques to reflect on the interplay of the artist and the artifact in the context of technologically mediated arts collaborations. Adopting Nancy’s view of the body as extended in the work of AMAE/DePinto and the author, the piece asks what happens to the body when we begin to rely heavily on translations across disembodied technologies to mediate our communication and art-making. It reflects on how meaning mutates and transforms as the work is translated across various technologies and media.
