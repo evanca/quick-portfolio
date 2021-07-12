@@ -44,8 +44,6 @@ You can read more about the in my xCoAx paper below:
 [XCoAx Paper 2021](/files/xCoAx2021-Roddy.pdf)
 
 
-
-
 ### Creative Skills
 Sound Design. Music Composition. Sound Art. Visual Design.
 
