@@ -10,7 +10,6 @@ Training a neural network on a homogenous musical corpus results in outputs whic
 
 <img src="images/model_def_py.png?raw=true"/><br/>
 
-##### 30 Epoch Opus
 30 Epoch Opus, is a 3 track EP. It features 3 musical works in diverse styles. The harmonic materials (melodies and harmonies) for each piece were composed using a deep learning model similar to the one described above.
 The instruments and timbres chosen to synthesise (or sound out) these materials were not provided by the model.   
 In order to create interesting results, the model is left partially underfit and uses highly novel input data chosen for its originality.
