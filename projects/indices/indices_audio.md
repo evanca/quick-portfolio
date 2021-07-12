@@ -33,6 +33,9 @@ Later, in 2016/2017, I recorded additional Soundworks and musical pieces incorpo
 
 In 2021 I developed an online art installation entitled 'The Body in the Machine: Indices Online' to be delivered for the xCoAx 2021: 9th Conference on Computation, Communication, Aesthetics & X [xCoAx 2021](https://2021.xcoax.org/). This built upon two earlier iteration of the work. 'Indices Online' was installed at the 2020 edition of [NIME: The International Conference on New Interfaces for Musical Expression](https://nime2020.bcu.ac.uk/indices-online/) and '8+1 Indices On The Body: A Reflection on Translations through Language, Technology and Sounds - Selected Indices Soundworks and Musical Pieces w/Sentiment Analysis' was installed for the [2019 Irish Sound Science and Technology Event at the Cork School of Music](https://drive.google.com/file/d/1W_np9Jb-QEeny_Hd4wzR12Zvv-CdpXFr/view).
 
+<img src="images/xCoAx21.jpg?raw=true"/><br/>
+
+
 [The Body in the Machine: Indices Online](https://2021.xcoax.org/sro/)
 
 'The Body in the Machine: Indices Online' collects together and iterates upon all of my sonic/musical work for the project to date. It is an online audio-visual installation that uses machine-learning techniques to reflect on the interplay of the artist and the artifact in the context of technologically mediated arts collaborations. Adopting Nancy’s view of the body as extended in the work of AMAE/DePinto and the author, the piece asks what happens to the body when we begin to rely heavily on translations across disembodied technologies to mediate our communication and art-making. It reflects on how meaning mutates and transforms as the work is translated across various technologies and media.
