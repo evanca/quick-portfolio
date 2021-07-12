@@ -44,7 +44,7 @@ You can read more about the in my xCoAx paper below:
 
 <iframe frameborder="0" src="https://drive.google.com/file/d/1mmb5FY5EmSM0Dzx-bym2cGSZBGr1OK_R/preview" style="height: 500px; width: 600px;"></iframe>
 
-[XCoAx Paper 2021](/files/xCoAx2021-Roddy.pdf)
+* [xCoAx 2021 Artwork Paper](/files/xCoAx2021-Roddy.pdf)
 
 
 ### Creative Skills
