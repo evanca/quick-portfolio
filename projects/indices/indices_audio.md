@@ -29,50 +29,22 @@ Later, in 2016/2017, I recorded additional Soundworks and musical pieces incorpo
 * [Spotify](https://open.spotify.com/album/3DsDLwlP74rKzIRaGvsyeh)
 * [Apple Music](https://music.apple.com/us/album/le-son-du-corps-et-un-corps-de-sons/1314413365)
 
-### Iterations 3 & 4: Language, Translations & Machine Learning
+### Iterations 3, 4 & 5: The Body in the Machine: Indices Online
 
-In 2019/2020 I developed an art installation to be delivered via web application for the 2020 edition of [NIME: The International Conference on New Interfaces for Musical Expression](https://nime2020.bcu.ac.uk/). This installation was entitled 'Indices Online'. An earlier version of the project was installed for the [2019 Irish Sound Science and Technology Event at the Cork School of Music](https://drive.google.com/file/d/1W_np9Jb-QEeny_Hd4wzR12Zvv-CdpXFr/view). That piece was titled: 58+1 Indices On The Body: A Reflection on Translations through Language, Technology and Sounds - Selected Indices Soundworks and Musical Pieces w/Sentiment Analysis.
+In 2021 I developed an online art installation entitled 'The Body in the Machine: Indices Online' to be delivered for the xCoAx 2021: 9th Conference on Computation, Communication, Aesthetics & X [xCoAx 2021](https://2021.xcoax.org/). This built upon two earlier iteration of the work. 'Indices Online' was installed at the 2020 edition of [NIME: The International Conference on New Interfaces for Musical Expression](https://nime2020.bcu.ac.uk/indices-online/) and '8+1 Indices On The Body: A Reflection on Translations through Language, Technology and Sounds - Selected Indices Soundworks and Musical Pieces w/Sentiment Analysis' was installed for the [2019 Irish Sound Science and Technology Event at the Cork School of Music](https://drive.google.com/file/d/1W_np9Jb-QEeny_Hd4wzR12Zvv-CdpXFr/view).
 
-It collects together and iterates upon all of my sonic/musical work for the project to date. The audience is invited to listen to the pieces, and reflect on the indices which have been translated into English from Nancy's native French by Richard A. Rand for the English translation of Nancy's Corpus for the Perspectives in Continental Philosophy Series.
+[The Body in the Machine: Indices Online](https://2021.xcoax.org/sro/)
 
-The text is also analysed using a machine learning model for sentiment analysis [implemented in ml5.js](https://ml5js.org/). This analysis returns a value on a scale of 0 (negative) to 1 (positive). This sentiment is reflected in the color of the waveform that is drawn across on the screen. The shape of the waveform represents the amplitude values of the recording while at a given time, while its colour represents the sentiment value assigned to the translated text.
+'The Body in the Machine: Indices Online' collects together and iterates upon all of my sonic/musical work for the project to date. It is an online audio-visual installation that uses machine-learning techniques to reflect on the interplay of the artist and the artifact in the context of technologically mediated arts collaborations. Adopting Nancy’s view of the body as extended in the work of AMAE/DePinto and the author, the piece asks what happens to the body when we begin to rely heavily on translations across disembodied technologies to mediate our communication and art-making. It reflects on how meaning mutates and transforms as the work is translated across various technologies and media.
 
-<img src="images/ind_img2.png?raw=true"/><br/>
+You can read more about the in my xCoAx paper below:
+
+<iframe frameborder="0" src="https://drive.google.com/file/d/1mmb5FY5EmSM0Dzx-bym2cGSZBGr1OK_R/preview" style="height: 500px; width: 600px;"></iframe>
+
+[XCoAx Paper 2021](/files/xCoAx2021-Roddy.pdf)
 
 
-The piece is a reflection on translations across languages, vocalisation, and technologies.
-The original indices were written in French. Jean-luc Nancy's reading of them reveals a new layer of meaning through his use of prosody and intonation.
-We are presented with English translations of the text that must to some degree reflect the choices and interpretations of the translator.
-The sentiment analysis introduces an additional layer of meaning/distortion. It does not always represent the translated text very well and rarely represents the information conveyed in Nancy's vocalisations in the original French. The colours chosen to reflect the sentiment values introduce further culturally conditioned ideas about sentiment and emotion.
-The original sentiment analysis model is also quite crude. Drawing from the ml5.js reference file:
 
->Sentiment is a model trained to predict the sentiment of any given text. The default model, currently 'moviereviews', is trained using IMDB reviews that have been truncated to a maximum of 200 words, only the 20000 most used words in the reviews are used.
-
->his model, ported from tensorflowJS, scores the sentiment of text with a value between 0 ("negative") and 1 ("positive").
-
-Source: [Sentiment() reference](https://ml5js.org/reference/api-Sentiment/)
-
-This introduces yet another layer of distortion where the sentiment of a section of translated text is interpreted in relation to patterns derived from 200 word movie reviews and the complex phenomenon of sentiment is then classified along a simple linear scale from 0-1.
-
-The use of sonic and musical materials to frame the texts introduces yet another layer of distortion. The soundworlds evoked do not always match the indices, sometimes they are built around the ebb and flow of Nancy's vocalisations as he reads. Sometimes around the text. Other times they seem completely random.
-
-Rarely are the original text, the spoken words, the english translation, the sound, and sentiment analysis in harmony with one another.
-
-This discordant configuration however is in perfect harmony with Nancy's vision of the human body as expressed in his indices. As Nancy comments in index 46:
-
->Why indices? Because there's no totality to the body, no synthetic unity. There are pieces, zones, fragments. There's one bit after another, a stomach, an eyelash, a thumb-nail, a shoulder, a breast, a nose, an upper intestine, a choledoch, a pancreas: anatomy is endless, until eventually running into an exhaustive enumeration of cells. But this doesn't yield a totality...
-
-### Directions
-
-   1. Follow link for the Desktop version: [Desktop](https://stephenroddy.github.io/58IndicesLangTrans/)
-
-   2. Follow link for the Mobile version:: [Mobile](https://stephenroddy.github.io/58IndicesLangTrans/mobile.html)
-
-   3. Wait for the page to load.
-
-   4. Press 'Play Index' to hear a random index, view the waveform and see the translation.
-
-   5. Press 'Play Index' again for another one. All but one of the audio files is associated to an index.
 
 ### Creative Skills
 Sound Design. Music Composition. Sound Art. Visual Design.
