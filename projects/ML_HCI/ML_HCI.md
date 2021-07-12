@@ -1,13 +1,31 @@
-### Machine Learning Applications for Human-computer Interaction
+### Machine Learning for Music and Human Computer Interaction
 
 #### Overview
 
 This project is ongoing as part of my current Postdoctoral research work at the Department of Electrical and Electronic Engineering in Trinity College Dublin. The project aims to integrate machine learning techniques into human-computer interaction and music technology contexts.  
 
 #### Phase 1: Machine Learning for Music Generation
-The initial portions of phase 1 involved building machine learning models to generate musical materials offline. This was carried out with Tensorflow and the Keras library in Python. My approach involved the use of LSTM networks to learn features from sets of MIDI data so that I could generate new musical sequences from those models. This approach built on previous work carried out by [Sigurður Skúli Sigurgeirsson](https://github.com/Skuldur). This process involved acquiring a large number of MIDI files from a range of online sources across multiple musical styles. The MIDI files were cleaned to remove unwanted instrumentation etc. and prepared by mapping MIDI data (extracted with MIT's [Music21 toolkit](https://web.mit.edu/music21/)) to integers and one-hot encoding the results. Results were generally mixed and much fine tuning was required to create interesting musical passages. Overall I found the generation of musical patterns to be of quite limited interest to me it removes much of what I find fun about the processes of making and playing music. Instead I began to explore some of the ML tools created by Google's [Magenta Project](https://magenta.tensorflow.org/) and became fascinated with the creative potential of ML technologies beyond the generation of simple musical patterns. As a result I became increasingly focused on the application of ML techniques in online and real-time human-computer interaction (HCI) contexts, an area where I believe ML techniques will have a major impact in the near future.
-
+The initial portions of phase 1 involved building machine learning models to generate musical materials offline. This was carried out with Tensorflow and the Keras library in Python. My approach involved the use of LSTM networks to learn features from sets of MIDI data so that I could generate new musical sequences from those models. This approach built on previous work carried out by [Sigurður Skúli Sigurgeirsson](https://github.com/Skuldur). This process involved acquiring a large number of MIDI files from a range of online sources across multiple musical styles. The MIDI files were cleaned to remove unwanted instrumentation etc. and prepared by mapping MIDI data (extracted with MIT's [Music21 toolkit](https://web.mit.edu/music21/)) to integers and one-hot encoding the results.
+Training a neural network on a homogenous musical corpus results in outputs which iterate on a normative generalisation of the samples in the original data. More interesting outputs can be obtained by varying the input data set, the model architecture and the hyperparameters of the model.
 <img src="images/model_def_py.png?raw=true"/><br/>
+
+##### 30 Epoch Opus
+30 Epoch Opus, is a 3 track EP. It features 3 musical works in diverse styles. The harmonic materials (melodies and harmonies) for each piece were composed using a deep learning model similar to the one described above.
+The instruments and timbres chosen to synthesise (or sound out) these materials were not provided by the model.   
+In order to create interesting results, the model is left partially underfit and uses highly novel input data chosen for its originality.
+This underfitting allows some features present in the original data to "shine through" but prevents the material from becoming an overly generalised representation of the inputs. This leaves space for an element of chance and surprise in the output. The model architecture and hyperparameters have been selected to support this approach.
+
+The EP will be released later in 2021.
+
+<img src="images/30 Epoch Opus.png?raw=true"/><br/>
+
+#### Integrating ML in Signal to Noise Loops and Indices Online
+
+I also explored some of the ML tools created by Google's [Magenta Project](https://magenta.tensorflow.org/) and became fascinated with the creative potential of ML technologies beyond the generation of simple musical patterns. As a result I became increasingly focused on the application of ML techniques in online and real-time human-computer interaction (HCI) contexts, an area where I believe ML techniques will have a major impact in the near future.
+You can read more about these projects here:
+
+- [Signal to Noise Loops](https://stephenroddy.github.io/projects/s2nl/s2nl_project)
+- [Indices Online](https://stephenroddy.github.io/projects/indices/indices_audio)
 
 #### Phase 2: Computer Vision and Machine Learning for Gestural control of Unmanned Aerial Vehicles
 The second phase of the project explored the application of machine learning techniques to real-time human-computer interaction contexts. My colleagues and I at the department of Electrical and Electronic Engineering TCD, designed and built a gestural control interface which could be used to control the flight of a an unmanned aerial vehicle (drone).
@@ -26,6 +44,7 @@ To use the prototypes stand in front of your webcam and move your hands to contr
 - [Prototype 2: Gestural Control of Sound Synthesis](https://stephenroddy.github.io/projects/ML_HCI/web_apps/Gesture_Synthesis/index.html)
 - [Prototype 1: Animated Drone](https://stephenroddy.github.io/projects/ML_HCI/web_apps/Gesture_Drone/index.html)
 
+
 ### Creative Skills
 HCI Design. Interaction Design. UX Design. Visual Design. Interface Design. Sound Design.
 
@@ -33,7 +52,7 @@ HCI Design. Interaction Design. UX Design. Visual Design. Interface Design. Soun
 HTML/CSS/Javascript. Python. Computer Vision. Machine Learning. Keras. Music21. MIDI. Sound & Music Computing. Serial. Data Analysis. Audio Engineering. Audio DSP. Sound Synthesis. Data Analysis. User Evaluation.
 
 ### Tags
-Human-computer Interaction. Gestural Interfaces. Machine Learning. Embodied Cognition. Stephen Roddy.
+Human-computer Interaction. Gestural Interfaces. Machine Learning. Music. Embodied Cognition. Stephen Roddy.
 
 
 <!--
