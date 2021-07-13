@@ -13,11 +13,6 @@
 <img src="images/tabs/ADIOTtab3.png?raw=true"/>
 </a>
 
-[Embodied Sonification](/projects/embodied_sonification/embodied_sonification)<br />
-<a href="/projects/embodied_sonification/embodied_sonification">
-<img src="images/tabs/EStab.png?raw=true"/>
-</a>
-
 [Indices on the Body](/projects/indices/indices_audio)<br />
 <a href="/projects/indices/indices_audio">
 <img src="images/tabs/INDXtab.png?raw=true"/>
@@ -31,6 +26,11 @@
 [Dance Projects](/projects/dance/dance)<br />
 <a href="/projects/dance/dance">
 <img src="images/tabs/DANCEtab.png?raw=true"/>
+</a>
+
+[Embodied Sonification](/projects/embodied_sonification/embodied_sonification)<br />
+<a href="/projects/embodied_sonification/embodied_sonification">
+<img src="images/tabs/EStab.png?raw=true"/>
 </a>
 
 [The Human Cost Sonifications](/projects/human_cost/human_cost)<br />
