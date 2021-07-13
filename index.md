@@ -18,7 +18,7 @@
 <img src="images/tabs/INDXtab.png?raw=true"/>
 </a>
 
-[ML for Music and Human-computer Interaction](/projects/ML_HCI/ML_HCI)<br />
+[Deep Learning for Music and HCI](/projects/ML_HCI/ML_HCI)<br />
 <a href="/projects/ML_HCI/ML_HCI">
 <img src="images/tabs/AItab.png?raw=true"/>
 </a>

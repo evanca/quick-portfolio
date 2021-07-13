@@ -1,4 +1,4 @@
-### Machine Learning for Music and Human Computer Interaction
+### Deep Learning for Music and Human Computer Interaction
 
 #### Overview
 
