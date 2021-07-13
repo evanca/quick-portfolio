@@ -34,7 +34,7 @@
 </a>
 
 [The Human Cost Sonifications](/projects/human_cost/human_cost)<br />
-<a href="/projects/https://www.stephenroddy.com/p/main.html">
+<a href="/projects/human_cost/human_cost">
 <img src="images/tabs/HC2tab.png?raw=true"/>
 </a>
 
