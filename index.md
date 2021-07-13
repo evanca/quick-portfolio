@@ -20,12 +20,12 @@
 
 [Indices on the Body](/projects/indices/indices_audio)<br />
 <a href="/projects/indices/indices_audio">
-<img src="images/tabs/JLNtab.png?raw=true"/>
+<img src="images/tabs/INDXtab.png?raw=true"/>
 </a>
 
 [ML for Music and Human-computer Interaction](/projects/ML_HCI/ML_HCI)<br />
 <a href="/projects/ML_HCI/ML_HCI">
-<img src="images/tabs/GEStab.png?raw=true"/>
+<img src="images/tabs/AItab.png?raw=true"/>
 </a>
 
 [Dance Projects](/projects/dance/dance)<br />
