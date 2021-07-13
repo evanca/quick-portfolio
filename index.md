@@ -35,7 +35,7 @@
 
 [The Human Cost Sonifications](/projects/human_cost/human_cost)<br />
 <a href="/projects/https://www.stephenroddy.com/p/main.html">
-<img src="images/tabs/HCtab.png?raw=true"/>
+<img src="images/tabs/HC2tab.png?raw=true"/>
 </a>
 
 [The Zones Project](/projects/zones/zones)<br />
