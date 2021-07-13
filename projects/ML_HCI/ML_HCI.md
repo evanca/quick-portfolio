@@ -40,8 +40,6 @@ The instruments and timbres chosen to synthesise (or sound out) these materials 
 In order to create interesting results, the model is left partially underfit and uses highly novel input data chosen for its originality.
 This underfitting allows some features present in the original data to "shine through" but prevents the material from becoming an overly generalised representation of the inputs. This leaves space for an element of chance and surprise in the output. The model architecture and hyperparameters have been selected to support this approach.
 
-The EP will be released later in 2021.
-
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=951154666/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://stephenroddy.bandcamp.com/album/30-epoch-opus">30 Epoch Opus by Stephen Roddy</a></iframe>
 
 ### Creative Skills
