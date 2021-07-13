@@ -10,17 +10,6 @@ Training a neural network on a homogenous musical corpus results in outputs whic
 
 <img src="images/model_def_py.png?raw=true"/><br/>
 
-30 Epoch Opus, is a 3 track EP. It features 3 musical works in diverse styles. The harmonic materials (melodies and harmonies) for each piece were composed using a deep learning model similar to the one described above.
-The instruments and timbres chosen to synthesise (or sound out) these materials were not provided by the model.   
-In order to create interesting results, the model is left partially underfit and uses highly novel input data chosen for its originality.
-This underfitting allows some features present in the original data to "shine through" but prevents the material from becoming an overly generalised representation of the inputs. This leaves space for an element of chance and surprise in the output. The model architecture and hyperparameters have been selected to support this approach.
-
-The EP will be released later in 2021.
-
-<img src="images/30 Epoch Opus.png?raw=true"/><br/>
-
-#### Integrating ML in Signal to Noise Loops and Indices Online
-
 I also explored some of the ML tools created by Google's [Magenta Project](https://magenta.tensorflow.org/) and became fascinated with the creative potential of ML technologies beyond the generation of simple musical patterns. As a result I became increasingly focused on the application of ML techniques in online and real-time human-computer interaction (HCI) contexts, an area where I believe ML techniques will have a major impact in the near future.
 You can read more about these projects here:
 
@@ -44,6 +33,16 @@ To use the prototypes stand in front of your webcam and move your hands to contr
 - [Prototype 2: Gestural Control of Sound Synthesis](https://stephenroddy.github.io/projects/ML_HCI/web_apps/Gesture_Synthesis/index.html)
 - [Prototype 1: Animated Drone](https://stephenroddy.github.io/projects/ML_HCI/web_apps/Gesture_Drone/index.html)
 
+#### Phase 4: 30 Epoch Opus
+
+30 Epoch Opus, is a 3 track EP. It features 3 musical works in diverse styles. The harmonic materials (melodies and harmonies) for each piece were composed using a deep learning model similar to the ones designed in Phase 1 of this project.
+The instruments and timbres chosen to synthesise (or sound out) these materials were not provided by the model.   
+In order to create interesting results, the model is left partially underfit and uses highly novel input data chosen for its originality.
+This underfitting allows some features present in the original data to "shine through" but prevents the material from becoming an overly generalised representation of the inputs. This leaves space for an element of chance and surprise in the output. The model architecture and hyperparameters have been selected to support this approach.
+
+The EP will be released later in 2021.
+
+<img src="images/30 Epoch Opus.png?raw=true"/><br/>
 
 ### Creative Skills
 HCI Design. Interaction Design. UX Design. Visual Design. Interface Design. Sound Design.
