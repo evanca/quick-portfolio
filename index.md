@@ -1,4 +1,4 @@
-## Projects
+## Research & Creative Projects
 <!-- //Use some ahref tags to make the images link across to the pages also -->
 
 ---
