@@ -42,10 +42,10 @@ In order to create interesting harmonic/melodic results, the model is left parti
 
 
 ### Creative Skills
-HCI Design. Interaction Design. UX Design. Visual Design. Interface Design. Sound Design.
+Music Compostion. Sound Design. Creative Computing. HCI & Interaction Design. UX Design. Visual Design. Interface Design.
 
 ### Technical & Research Skills
-HTML/CSS/Javascript. Python. Computer Vision. Machine Learning. Keras. Music21. MIDI. Sound & Music Computing. Serial. Data Analysis. Audio Engineering. Audio DSP. Sound Synthesis. Data Analysis. User Evaluation.
+HTML/CSS/Javascript. Python. Computer Vision. Machine Learning. Deep Learning. Keras. Music21. MIDI. Sound & Music Computing. Serial. Data Analysis. Audio Engineering. Audio DSP. Sound Synthesis. Data Analysis. User Evaluation.
 
 ### Tags
 Human-computer Interaction. Gestural Interfaces. Machine Learning. Music. Embodied Cognition. Stephen Roddy.
