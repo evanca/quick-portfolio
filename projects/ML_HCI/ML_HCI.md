@@ -45,7 +45,7 @@ To create interesting harmonic/melodic results, the model used for the first 3 t
 Music Compostion. Sound Design. Creative Computing. HCI & Interaction Design. UX Design. Visual Design. Interface Design.
 
 ### Technical & Research Skills
-HTML/CSS/Javascript. Python. Computer Vision. Machine Learning. Deep Learning. Keras. Music21. MIDI. Sound & Music Computing. Serial. Data Analysis. Audio Engineering. Audio DSP. Sound Synthesis. Data Analysis. User Evaluation.
+ Machine Learning. Deep Learning. Keras. Music21. MIDI. HTML/CSS/Javascript. Python. Computer Vision. Sound & Music Computing. Serial. Data Analysis. Audio Engineering. Audio DSP. Sound Synthesis. Data Analysis. User Evaluation.
 
 ### Tags
 Human-computer Interaction. Gestural Interfaces. Machine Learning. Music. Embodied Cognition. Stephen Roddy.
