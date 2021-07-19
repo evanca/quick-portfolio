@@ -46,12 +46,12 @@ You can read more about the in my xCoAx paper below:
 
 * [xCoAx 2021 Artwork Paper](/files/xCoAx2021-Roddy.pdf)
 
-
+<!--
 ### Creative Skills
 Sound Design. Music Composition. Sound Art. Visual Design.
 
 ### Technical
 Javascript. HTML. CSS. Git.Sentiment Analysis. Machine Learning Knowledge. Creative Coding. Audio Recording and Engineering.Web Development.
-
+-->
 ### Tags
 Indices on the Body. Pier De Pinto. AMAE. Jean-Luc Nancy. Stephen Roddy. Sound. Music. Contemporary Art.

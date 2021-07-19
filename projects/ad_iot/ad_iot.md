@@ -219,12 +219,12 @@ You can read our recent ICAD 2021 paper here:
 - [Sonification @ The Connect Centre for Future Networks and Communications, Trinity College Dublin, August 2016](https://connectcentre.ie/)
 - [Sounding Human with Data. @ The International Digital Empathy Workshop, Ulster University, October 31st 2016](https://www.ulster.ac.uk/conference/digital-empathy)
 
-
+<!--
 ### Creative Skills
 HCI Design. Interaction Design. UX Design. Sound Design. Music Composition. Data Sonification. Data Visualisation.
 
 ### Technical & Research Skills
 HTML/CSS/Javascript. Python. Csound. OSC& MIDI. Programming. Data Analysis. Audio Engineering. Recording. Data Analysis. Data Sonification. Data Visualisation. User Evaluations. A/B Testing. Experimental Design. Distributed User Testing.
-
+-->
 ### Tags
 Internet of Things Networks, Embodied Cognition. Sonification. Auditory Display. Stephen Roddy.

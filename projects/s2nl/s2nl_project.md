@@ -112,12 +112,13 @@ Signal to Noise Loops i++<br />
 <a href="https://music.apple.com/us/album/signal-to-noise-loops-i/1450892433?i=1450892434">https://music.apple.com/us/album/signal-to-noise-loops-i/1450892433?i=1450892434</a><br />
 <a href="https://stephenroddy.bandcamp.com/track/signal-to-noise-loops-i">https://stephenroddy.bandcamp.com/track/signal-to-noise-loops-i</a><br />
 <br />
-
+<!--
 ### Creative Skills
 Sound Design. Music Composition. Live Electronic Music performance. Instrumental Guitar Performance.  Audio Sound Art. Visual Design.
 
 ### Technical
 IoT Networks. Statistical Data Analytic. Python. HTTP, OSC & MIDI protocols. Evolutionary Computing. Audio DSP. Creative Coding. HTTP. HCI. Auditory Display & Sonification. Audio Engineering.
+-->
 
 ### Tags
 Signal to Noise Loops. Generative Music. Music. Data. Machine Learning. Evolutionary Algorithms.
