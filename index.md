@@ -49,11 +49,11 @@
 </a>
 
 <br />
-
+<!--
 <h3>Projects for Fun: </h3>
 [Astronomy Picture of the Day: Web App](/projects/NASA_APOD/nasa_apod)<br />
 [dog.display()](/projects/dog-display/dog_display)<br />
-
+-->
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
