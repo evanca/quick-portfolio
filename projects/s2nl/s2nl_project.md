@@ -76,8 +76,8 @@ The piece is due to be performed at the [2021 New York Electroacoustic Music Fes
 [NYCEMF2021 Concert Program](/files/2021-Program-Book.pdf)
 
 
-#### Performances 6: International Conference on Computer Music
-The piece has also been performed (audio only) at the International Conference on Computer Music at Santiago Chile on July 25th 2021.
+#### Performance 6: International Conference on Computer Music
+The piece has also been performed (music only) at the International Conference on Computer Music at Santiago Chile on July 25th 2021.
 
 <img src="images/ICMC Santiago Chile 2021.png?raw=true"/><br/>
 
