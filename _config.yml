@@ -3,5 +3,6 @@ logo: "/images/logo_git.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <b>Big data - Data engineer</b> 
   <br><br>
-  <a href="https://www.linkedin.com/in/rsradulescu/">View My LinkedIn Profile</a> 
+  <a href="mailto:rsradulescu@gmail.com?Subject=Enlace%20portfolio">Email</a>
+  <a href="https://www.linkedin.com/in/rsradulescu/">LinkedIn</a> 
 theme: jekyll-theme-minimal
