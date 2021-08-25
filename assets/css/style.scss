@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 body {
   background-color: #F4F3F2;
-  padding:20px;
+  padding:10px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-  width:200px;
+  width:180px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -25,4 +25,9 @@ header {
 header a {
   color:#C70039;
   text-decoration:none;
+}
+
+header a:hover, a:focus {
+  color:#DE6F88;
+  font-weight: bold;
 }
