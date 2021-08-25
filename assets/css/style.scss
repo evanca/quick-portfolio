@@ -15,9 +15,14 @@ h1, h2, h3, h4, h5, h6 {
   margin:0 0 20px;
 }
 
-blockquote {
-  border-left:5px solid #e5e5e5;
-  margin:0;
-  padding:0 0 0 40px;
-  font-style:italic;
+header {
+  width:200px;
+  float:left;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+header a {
+  color:#C70039;
+  text-decoration:none;
 }
