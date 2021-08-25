@@ -4,13 +4,20 @@
 @import "{{ site.theme }}";
 body {
   background-color: #F4F3F2;
-  padding:25px;
+  padding:20px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#C70039;
+  color: #900C3F;
   margin:0 0 20px;
+}
+
+blockquote {
+  border-left:5px solid #e5e5e5;
+  margin:0;
+  padding:0 0 0 40px;
+  font-style:italic;
 }
