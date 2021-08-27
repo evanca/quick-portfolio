@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 body {
-  background-color: #edf6f9;
+  background-color: #f0f3f5;
   padding:10px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -11,7 +11,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #006d77;
   margin:0 0 20px;
 }
 
@@ -23,7 +22,7 @@ header {
 }
 
 header a {
-  color:#1f7a8c;
+  color:#0e9594;
   text-decoration:none;
 }
 
@@ -39,9 +38,9 @@ section {
 }
 
 section h2 {
-  color: #2a9d8f
+  color: #127475
 }
 section h3{
-  color: #e76f51;
+  color: #f2542d;
   text-align: right;
 }
