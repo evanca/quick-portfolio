@@ -11,14 +11,14 @@ Remote job - Buenos Aires - AR
 
 
 ---
-#### [Database administrator and developer in UNPSJB - Comodoro Rivadavia - AR](/pdf/sample_presentation.pdf)
+#### [Database administrator and developer in University (UNPSJB) - Comodoro Rivadavia - AR](/pdf/sample_presentation.pdf)
 
 Comodoro Rivadavia - AR
 (My first job)
 - Febrary 2008 to Present
 
 ---
-#### [Teacher in Database I - UNPSJB - Comodoro Rivadavia - AR](/exp_dbi)
+#### [Teacher in Database I - University (UNPSJB) - Comodoro Rivadavia - AR](/exp_dbi)
 Comodoro Rivadavia - AR
 - March 2011 to Present
 
