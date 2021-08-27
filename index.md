@@ -56,6 +56,8 @@ Universidad Nacional de la Patagonia San Juan Bosco - AR
 
 ---
 ### Certifications
-
 **AWS Cloud Practitioner** (https://www.credly.com/badges/3790a21a-0f34-4aad-9a27-852a5e4dcded)
+
+
+---
 ---
