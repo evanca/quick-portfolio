@@ -1,9 +1,7 @@
 ## Portfolio
 
 ---
-<p align="right">
 ### Professional Experience
-</p> 
 
 #### [Data engineer in Comafi Bank](/exp_dataengineer)
 
