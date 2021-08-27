@@ -2,7 +2,7 @@
 
 ---
 
-### <p style="text-align:right;">Professional Experience</p> 
+### <p align="right">Professional Experience</p> 
 
 #### [Data engineer in Comafi Bank](/exp_dataengineer)
 
