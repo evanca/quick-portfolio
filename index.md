@@ -35,6 +35,7 @@ Comodoro Rivadavia - AR
 ### Education
 
 #### Master in  Big Data and Data Science (2021 - Present)
+- I won a scholarship from Latam [IDEO](https://becas.universidadviu.com/becas-ideo/)
 - International University of Valencia - ES
 
 #### Diploma in Data Science (2020)
