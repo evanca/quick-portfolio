@@ -37,20 +37,16 @@ Comodoro Rivadavia - AR
 ### Education
 
 **Master in  Big Data and Data Science (2021 - Present)**
-
-International University of Valencia - ES
+- International University of Valencia - ES
 
 **Diploma in Data Science (2020)**
-
-Austral University - AR
+- Austral University - AR
 
 **Bachelor Degree in Computer Science (2011 - 2019)**
-
-Universidad Nacional de la Patagonia San Juan Bosco - AR 
+- Universidad Nacional de la Patagonia San Juan Bosco - AR 
 
 **University Programmer Analyst (2007 - 2011)**
-
-Universidad Nacional de la Patagonia San Juan Bosco - AR
+- Universidad Nacional de la Patagonia San Juan Bosco - AR
 
 ---
 ### Voluntary experience
@@ -60,7 +56,7 @@ Universidad Nacional de la Patagonia San Juan Bosco - AR
 
 ---
 ### Certifications
-**AWS Cloud Practitioner** (https://www.credly.com/badges/3790a21a-0f34-4aad-9a27-852a5e4dcded)
+**AWS Cloud Practitioner**(https://www.credly.com/badges/3790a21a-0f34-4aad-9a27-852a5e4dcded)
 
 
 ---
