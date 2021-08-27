@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 body {
-  background-color: #f0f3f5;
+  background-color: #ffffff;
   padding:10px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -38,9 +38,13 @@ section {
 }
 
 section h2 {
-  color: #127475
+  color: #0e9594
 }
 section h3{
   color: #f2542d;
   text-align: right;
+}
+
+section bold{
+  color: #f2542d
 }
