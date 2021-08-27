@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 body {
-  background-color: #edf2f4;
+  background-color: #FFFFFF;
   padding:10px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -23,12 +23,12 @@ header {
 }
 
 header a {
-  color:#d90429;
+  color:#4F5D75;
   text-decoration:none;
 }
 
 header a:hover, a:focus {
-  color:#ef233c;
+  color:#BFC0C0;
   font-weight: bold;
 }
 
@@ -38,13 +38,10 @@ section {
   padding-bottom:20px;
 }
 
-section h3 {
-  text-align: right;
-}
-
 section h2 {
-  color: #2b2d42
+  color: #4F5D75
 }
 section h3{
-  color: #8d99ae;
+  color: #EF8354;
+  text-align: right;
 }
