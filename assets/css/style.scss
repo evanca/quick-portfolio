@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 body {
-  background-color: #F4F3F2;
+  background-color: #EDF5FC;
   padding:10px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #900C3F;
+  color: #272D2D;
   margin:0 0 20px;
 }
 
@@ -23,12 +23,12 @@ header {
 }
 
 header a {
-  color:#C70039;
+  color:#B8C5D6;
   text-decoration:none;
 }
 
 header a:hover, a:focus {
-  color:#DE6F88;
+  color:#A39BA8;
   font-weight: bold;
 }
 
