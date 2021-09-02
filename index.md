@@ -54,6 +54,11 @@ Comodoro Rivadavia - AR
 #### [University research project in data intelligence 2020](/vol_data_science)
 
 ---
+### Copmputer Congress
+
+Participation in computer congress [CONAIISI](http://conaiisi2020.frsfco.utn.edu.ar/) in November 2020
+
+---
 ### Certifications
 #### [AWS Cloud Practitioner](https://www.credly.com/badges/3790a21a-0f34-4aad-9a27-852a5e4dcded)
 
