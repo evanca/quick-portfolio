@@ -37,7 +37,7 @@ The next performance with the system titled 'Signal to Noise Loops i++'' took pl
 <img src="images/PosterXcoax.jpg?raw=true"/><br/>
 * [xCoAx Poster](images/PosterXcoax.jpg)
 
-xCoAx paper describing earlier iteration of the system:</h4>
+<h4>xCoAx paper describing earlier iteration of the system:</h4>
 <br />
 <iframe frameborder="0" src="https://drive.google.com/file/d/1awK-N8_hdNML3_gH56VgX2g1jtuekjO6/preview" style="height: 500px; width: 600px;"></iframe>
 
@@ -102,7 +102,6 @@ The point of mapping data to sound, and more specifically IoT data is to leverag
 <br />
 While these explicit points of information may not be directly represented in a performance the rich interleaved patterns of interaction between people, place and technology are transposed into the sonic realm in each performance. While more abstract and implicit in nature it is the aesthetic dimensionality of these interlocked patterns, which is of interest to me. <br />
 <br />
-<h4>
 
 <br />
 
