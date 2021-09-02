@@ -11,7 +11,7 @@ Remote job - Buenos Aires - AR
 
 
 ---
-#### [Database administrator and developer in University (UNPSJB) - Comodoro Rivadavia - AR](/pdf/sample_presentation.pdf)
+#### Database administrator and developer in University (UNPSJB) - Comodoro Rivadavia - AR
 
 Comodoro Rivadavia - AR
 - Febrary 2008 to Present
@@ -22,7 +22,7 @@ Comodoro Rivadavia - AR
 - March 2011 to Present
 
 ---
-#### [Freelance web developer - UR](/exp_develop) 
+#### Freelance web developer - UR
 Remote Job - Montevideo - UR
 - March 2014 to December 2016
 
@@ -49,9 +49,9 @@ Comodoro Rivadavia - AR
 
 ---
 ### Voluntary experience
-#### [University Volunteer Project in Argentina 2020](/vol_univ)
+#### University Volunteer Project in Argentina 2020
 
-#### [University research project in data intelligence 2020](/vol_data_science)
+#### University research project in data intelligence 2020
 
 ---
 ### Copmputer Congress
