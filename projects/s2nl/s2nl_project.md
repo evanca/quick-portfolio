@@ -79,7 +79,7 @@ You can find the video and concert program below:
 
 [NYCEMF2021 Concert Program](/files/2021-Program-Book.pdf)
 
-The sonic component of Signal to Noise Loops V4 was installed in the listening room at the International Conference on Computer Music at Santiago Chile in July of 2021.
+The sonic component of Signal to Noise Loops V4 was installed in the listening room at the [International Conference on Computer Music](http://icmc2021.org/) at Santiago Chile in July of 2021.
 
 <img src="images/ICMC Santiago Chile 2021.png?raw=true"/><br/>
 [International Computer Music Conference 2021](http://icmc2021.org/program/)
