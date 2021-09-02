@@ -104,8 +104,10 @@ While these explicit points of information may not be directly represented in a 
 
 ### Outputs & Activities
 
-### Performances to Date:
-
+### Performances:
+- [Signal to Noise Loops V4- Dublin City Culture Night](https://culturenightdublin.ie/event/signal-to-noise-loops-v4-signal-to-noise-loops-v4/)
+- [2021 Audio Mostly Conference](https://audiomostly.com/2021/program/conference-program/)
+- [International Computer Music Conference 2021](http://icmc2021.org/program/)
 - [2021 New York Electroacoustic Music Festival](https://nycemf.org/)
 - [Signal to Noise Loops 3++ @ ISSTA 2018, Derry, September 2018](http://issta.ie/call-2018/)
 - [Signal to Noise Loops i2+: Noise Water Dirt @ CSMC 2018, Dublin, August 2018](https://csmc2018.wordpress.com/)
@@ -124,7 +126,9 @@ Signal to Noise Loops i++<br />
 <a href="https://music.apple.com/us/album/signal-to-noise-loops-i/1450892433?i=1450892434">https://music.apple.com/us/album/signal-to-noise-loops-i/1450892433?i=1450892434</a><br />
 <a href="https://stephenroddy.bandcamp.com/track/signal-to-noise-loops-i">https://stephenroddy.bandcamp.com/track/signal-to-noise-loops-i</a><br />
 <br />
-
+Signal to Noise Loops V4<br />
+<a href="https://www.youtube.com/embed/f5yggfFRPAA">'Signal to Noise Lops V4' on Youtube</a>
+<br />
 <!--
 
 ### Creative Skills
@@ -132,8 +136,6 @@ Sound Design. Music Composition. Live Electronic Music performance. Instrumental
 
 ### Technical
 IoT Networks. Statistical Data Analytic. Python. HTTP, OSC & MIDI protocols. Evolutionary Computing. Audio DSP. Creative Coding. HTTP. HCI. Auditory Display & Sonification. Audio Engineering.
-
 -->
-
 ### Tags
-Signal to Noise Loops. Generative Music. Music. Data. Machine Learning. Evolutionary Algorithms.
+Signal to Noise Loops. Generative Music. IoT Data. Smart Cities. Machine Learning. Evolutionary Algorithms.
