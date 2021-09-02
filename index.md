@@ -22,7 +22,7 @@ Comodoro Rivadavia - AR
 - March 2011 to Present
 
 ---
-#### Freelance web developer - UR
+#### [Freelance web developer - UR](/exp_sostemplaznza)
 Remote Job - Montevideo - UR
 - March 2014 to December 2016
 
