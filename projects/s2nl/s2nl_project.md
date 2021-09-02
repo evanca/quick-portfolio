@@ -40,6 +40,7 @@ The next performance with the system titled 'Signal to Noise Loops i++'' took pl
 <h4>xCoAx paper describing earlier iteration of the system:</h4>
 <br />
 <iframe frameborder="0" src="https://drive.google.com/file/d/1awK-N8_hdNML3_gH56VgX2g1jtuekjO6/preview" style="height: 500px; width: 600px;"></iframe>
+<br />
 
 #### Iteration 3: More Data<br/>
 The third iteration of the system made use of new IoT data sources. The thinking here was to structure the system so that it could be said to 'make decisions based on the ‘mood’ or ‘affective state’ of Dublin City as represented in the wider set of IoT data sources. The system reads noise levels, pollution levels, traffic flows (pedestrian and vehicle), emergency warnings, and weather data and these data points define the affective state or mood of the generative system (both the evolutionary and procedural components), and data to sound mapping strategy, and thereby the music. <br />
@@ -65,7 +66,6 @@ While the earlier systems used procedural techniques alone to generate materials
 #### Online Pivot: COVID-19 Crisis Response <br />
 While working on the fourth iteration of the system the COVID-19 Crisis hit. To continue the project, I chose to adapt it to an online mode of presentation. I also chose to make use of data representing the city before the COVID-19 crisis hit as well as during the COVID-19 crisis. This involved using the new iteration of the system to create a fixed composition in two movements. In the interests of clarity, I used one stream of data, the original Noise Data. The first movement used data from March of 2019 while the second movement used data from March 2020.
 Alongside the piece, I also created a visualisation of the data which maps the Noise data to control the radii and colours of dots in a dot-matrix representation of Dublin City.
-
 
 #### Performance 5: The New York electroacoustic Music festival
 The piece was performed at the [2021 New York Electroacoustic Music Festival](https://nycemf.org/).
@@ -94,15 +94,13 @@ The sixteenth edition of Culture Night / Oíche Chultúir will take place on Fri
 Signal to Noise Loops V4 will be presented as an online installation for the Dublin Culture Night.
 
 [Signal to Noise Loops V4- Dublin City Culture Night](https://culturenightdublin.ie/event/signal-to-noise-loops-v4-signal-to-noise-loops-v4/)
-
-
+<br />
 
 ### Discussion <br />
 The point of mapping data to sound, and more specifically IoT data is to leverage some of the interesting patterns that present themselves across data streams/sets of this manner. Data-driven music is different from sonification where the point is to faithfully communicate or represent the data to the listener. Data-driven music is closer in many ways to algorithmic music composition than it is to sonification because of its focus on finding patterns in the data that might be interesting when mapped to sonic and musical parameters. My previous data-driven music work has employed algorithmic composition techniques and dealt with used from the global financial crash. More recently I have begun to work with IoT data as I believe that the kinds of data we choose to measure and our reasons for measuring them say a lot about what a society values, cares about, and finds interesting while the specific data measurements chronicle the complex interactions between people, the technologies they create and the worlds in which those people and technologies are situated. <br />
 <br />
 While these explicit points of information may not be directly represented in a performance the rich interleaved patterns of interaction between people, place and technology are transposed into the sonic realm in each performance. While more abstract and implicit in nature it is the aesthetic dimensionality of these interlocked patterns, which is of interest to me. <br />
 <br />
-
 <br />
 
 ### Outputs & Activities
