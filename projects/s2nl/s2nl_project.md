@@ -132,13 +132,12 @@ Signal to Noise Loops V4<br />
 xCoAx Paper on Signal to Noise Loops i++<br />
 <a href="https://www.researchgate.net/publication/328902641_Signal_to_Noise_Loops_i_Noise_Water_Air">Link to Paper on research Gate</a>
 
-<!--
-
-### Creative Skills
+<!-- ### Creative Skills
 Sound Design. Music Composition. Live Electronic Music performance. Instrumental Guitar Performance.  Audio Sound Art. Visual Design.
 
 ### Technical
 IoT Networks. Statistical Data Analytic. Python. HTTP, OSC & MIDI protocols. Evolutionary Computing. Audio DSP. Creative Coding. HTTP. HCI. Auditory Display & Sonification. Audio Engineering.
 -->
+
 ### Tags
 Signal to Noise Loops. Generative Music. IoT Data. Smart Cities. Machine Learning. Evolutionary Algorithms.
