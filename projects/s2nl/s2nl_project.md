@@ -129,6 +129,9 @@ Signal to Noise Loops i++<br />
 Signal to Noise Loops V4<br />
 <a href="https://www.youtube.com/embed/f5yggfFRPAA">'Signal to Noise Lops V4' on Youtube</a>
 <br />
+xCoAx Paper on Signal to Noise Loops i++<br />
+<a href="https://www.researchgate.net/publication/328902641_Signal_to_Noise_Loops_i_Noise_Water_Air">Link to Paper on research Gate</a>
+
 <!--
 
 ### Creative Skills
