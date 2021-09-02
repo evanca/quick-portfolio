@@ -89,7 +89,7 @@ Signal to Noise Loops V4 was performed at the [2021 Audio Mostly Conference](htt
 [Audio Mostly Programme Link](/files/AudioMostly 2021 Programme.pdf).
 
 The sixteenth edition of Culture Night / Oíche Chultúir will take place on Friday 17 September 2021.
-Signal to Noise Loops V4 will be presented as an online installation for  Oíche Chultúir Bhaile Átha Cliath 2021 (Dublin City Culture Night).
+Signal to Noise Loops V4 will be presented as an online installation for Oíche Chultúir Bhaile Átha Cliath 2021 (Dublin City Culture Night).
 
 [Signal to Noise Loops V4- Dublin City Culture Night](https://culturenightdublin.ie/event/signal-to-noise-loops-v4-signal-to-noise-loops-v4/)
 <br />
