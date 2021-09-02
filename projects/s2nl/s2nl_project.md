@@ -127,7 +127,7 @@ Signal to Noise Loops i++<br />
 <a href="https://stephenroddy.bandcamp.com/track/signal-to-noise-loops-i">https://stephenroddy.bandcamp.com/track/signal-to-noise-loops-i</a><br />
 <br />
 Signal to Noise Loops V4<br />
-<a href="https://www.youtube.com/embed/f5yggfFRPAA">'Signal to Noise Lops V4' on Youtube</a>
+<a href="https://www.youtube.com/embed/f5yggfFRPAA">Signal to Noise Loops V4 on YouTube</a>
 <br />
 xCoAx Paper on Signal to Noise Loops i++<br />
 <a href="https://www.researchgate.net/publication/328902641_Signal_to_Noise_Loops_i_Noise_Water_Air">Link to Paper on research Gate</a>
