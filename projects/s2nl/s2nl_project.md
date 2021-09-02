@@ -37,6 +37,9 @@ The next performance with the system titled 'Signal to Noise Loops i++'' took pl
 <img src="images/PosterXcoax.jpg?raw=true"/><br/>
 * [xCoAx Poster](images/PosterXcoax.jpg)
 
+xCoAx paper describing earlier iteration of the system:</h4>
+<br />
+<iframe frameborder="0" src="https://drive.google.com/file/d/1awK-N8_hdNML3_gH56VgX2g1jtuekjO6/preview" style="height: 500px; width: 600px;"></iframe>
 
 #### Iteration 3: More Data<br/>
 The third iteration of the system made use of new IoT data sources. The thinking here was to structure the system so that it could be said to 'make decisions based on the ‘mood’ or ‘affective state’ of Dublin City as represented in the wider set of IoT data sources. The system reads noise levels, pollution levels, traffic flows (pedestrian and vehicle), emergency warnings, and weather data and these data points define the affective state or mood of the generative system (both the evolutionary and procedural components), and data to sound mapping strategy, and thereby the music. <br />
@@ -96,9 +99,6 @@ The point of mapping data to sound, and more specifically IoT data is to leverag
 While these explicit points of information may not be directly represented in a performance the rich interleaved patterns of interaction between people, place and technology are transposed into the sonic realm in each performance. While more abstract and implicit in nature it is the aesthetic dimensionality of these interlocked patterns, which is of interest to me. <br />
 <br />
 <h4>
-Paper on earlier iteration of system:</h4>
-<br />
-<iframe frameborder="0" src="https://drive.google.com/file/d/1awK-N8_hdNML3_gH56VgX2g1jtuekjO6/preview" style="height: 500px; width: 600px;"></iframe>
 
 <br />
 
