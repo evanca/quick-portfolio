@@ -67,7 +67,7 @@ While the earlier systems used procedural techniques alone to generate materials
 While working on the fourth iteration of the system the COVID-19 Crisis hit. To continue the project, I chose to adapt it to an online mode of presentation. I also chose to make use of data representing the city before the COVID-19 crisis hit as well as during the COVID-19 crisis. This involved using the new iteration of the system to create a fixed composition in two movements. In the interests of clarity, I used one stream of data, the original Noise Data. The first movement used data from March of 2019 while the second movement used data from March 2020.
 Alongside the piece, I also created a visualisation of the data which maps the Noise data to control the radii and colours of dots in a dot-matrix representation of Dublin City.
 
-#### Performance 5: The New York electroacoustic Music festival
+#### Performances 5, 6, 7 & 8: The New York electroacoustic Music festival, The International Computer Music Conference, Audio Mostly, Dublin City Culture Night
 The piece was performed at the [2021 New York Electroacoustic Music Festival](https://nycemf.org/).
 You can find the video and concert program below:
 
@@ -79,19 +79,17 @@ You can find the video and concert program below:
 
 [NYCEMF2021 Concert Program](/files/2021-Program-Book.pdf)
 
-#### Performance 6: International Conference on Computer Music
-Signal to Noise Loops V4 was performed (music only) at the International Conference on Computer Music at Santiago Chile on July 25th 2021.
+The sonic component of Signal to Noise Loops V4 was installed in the listening room at the International Conference on Computer Music at Santiago Chile in July of 2021.
 
 <img src="images/ICMC Santiago Chile 2021.png?raw=true"/><br/>
+[International Computer Music Conference 2021](http://icmc2021.org/program/)
 
-#### Performance 7: Audio Mostly 2021 at the university of Trento
 Signal to Noise Loops V4 was performed at the [2021 Audio Mostly Conference](https://audiomostly.com/2021/program/conference-program/) at the University of Trento, Italy.
 <iframe frameborder="0" src="https://drive.google.com/file/d/1jqRP-YzONc0cKgIxSpwHkfQi90Cp9Afi/preview" style="height: 500px; width: 600px;"></iframe>
 [Audio Mostly Programme Link](/files/AudioMostly 2021 Programme.pdf).
 
-#### Performance 8: Oíche Chultúir Bhaile Átha Cliath 2021 (Dublin Culture Night):
 The sixteenth edition of Culture Night / Oíche Chultúir will take place on Friday 17 September 2021.
-Signal to Noise Loops V4 will be presented as an online installation for the Dublin Culture Night.
+Signal to Noise Loops V4 will be presented as an online installation for  Oíche Chultúir Bhaile Átha Cliath 2021 (Dublin City Culture Night).
 
 [Signal to Noise Loops V4- Dublin City Culture Night](https://culturenightdublin.ie/event/signal-to-noise-loops-v4-signal-to-noise-loops-v4/)
 <br />
@@ -106,6 +104,8 @@ While these explicit points of information may not be directly represented in a 
 ### Outputs & Activities
 
 ### Performances to Date:
+
+- [2021 New York Electroacoustic Music Festival](https://nycemf.org/)
 - [Signal to Noise Loops 3++ @ ISSTA 2018, Derry, September 2018](http://issta.ie/call-2018/)
 - [Signal to Noise Loops i2+: Noise Water Dirt @ CSMC 2018, Dublin, August 2018](https://csmc2018.wordpress.com/)
 - [Signal to Noise Loops i++ Live @ xCoAx 2018, Madrid](https://2018.xcoax.org/#perf04)
