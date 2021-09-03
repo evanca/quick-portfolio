@@ -1,7 +1,7 @@
 ## Portfolio
 
 ---
-#### Data engineer in Comafi Bank
+### Data engineer in Comafi Bank
 
 Remote job - Buenos Aires - AR
 
@@ -18,7 +18,7 @@ We work with Azure Databricks, Scala and PySparks, Spark, Kafka
 
 The project of the creation of the Datalake in which I am involved includes the following steps:
 
-<img src="images/diagrama_procesos_cencosud.png" alt="Diagram proyect" width="430" height="330">
+<p align="center"><img src="images/diagrama_procesos_cencosud.png" alt="Diagram proyect" width="430" height="330"></p>
 
 ---
 [Back](./)
