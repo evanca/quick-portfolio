@@ -1,10 +1,10 @@
 title: Stephen Roddy PhD # your name (or website title) here
 logo: "/images/38278590_289827491598867_4278751191707418624_n.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <br>
+  <br />
   This protfolio documents and showcases a number of projects I've undetaken at the intersection of Computer Science and the Sonic Arts.
-  <br>
-  <br>
+  <br />
+  <br />
   For purely musical work please see my releases here:
   <ul>
   <li><a href="https://stephenroddy.bandcamp.com/">Bandcamp</a></li>
@@ -12,14 +12,14 @@ description: > # your text below (remove <br> elements if you don't need line br
   <li><a href="https://open.spotify.com/artist/6FZOlLhsey17jwrTGBV07c">Spotify</a></li>
   <li><a href="https://music.apple.com/ie/artist/stephen-roddy/1105554061">Apple Music</a></li>
   </ul>
-  <br>
+  <br />
   For scholarly publications please see profiles here:
   <ul>
   <li><a href="https://orcid.org/0000-0001-8491-3031">ORC-ID</a></li>
   <li><a href="https://www.researchgate.net/profile/Stephen-Roddy-2">Research Gate</a></li>
   <li><a href="https://scholar.google.com/citations?user=qhL5rvsAAAAJ">Google Scholar</a></li>
   </ul>
-  <br>
+  <br />
   Return to: <a href="https://www.stephenroddy.com/">stephenroddy.com</a>
 
 theme: jekyll-theme-minimal
