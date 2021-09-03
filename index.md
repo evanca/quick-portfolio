@@ -27,9 +27,11 @@ Remote Job - Montevideo - UR
 - March 2014 to December 2016
 
 ---
-#### [Course teacher MS office - Infotec - Comodoro Rivadavia - AR](https://www.infotec-cr.com.ar/)
+#### Course teacher MS office - Comodoro Rivadavia - AR
 Comodoro Rivadavia - AR
 - January 2010 to December 2012
+
+I gave courses on MS Office tools for business, mainly MS Excel and MS Project in 3 learning levels for [Infotec](https://www.infotec-cr.com.ar/).
 
 ---
 ### Education
