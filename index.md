@@ -51,14 +51,14 @@ I gave courses on MS Office tools for business, mainly MS Excel and MS Project i
 
 ---
 ### Voluntary experience
-#### University Volunteer Project in Argentina 2020
+#### [University Volunteer Project in Argentina 2020](/vol_university)
 
 #### University research project in data intelligence 2020
 
 ---
 ### Copmputer Congress
 
-Participation in computer congress [CONAIISI](http://conaiisi2020.frsfco.utn.edu.ar/) in November 2020
+Participation in computer congress [CONAIISI](http://conaiisi2020.frsfco.utn.edu.ar/) in November 2020, with a data mining project. I [share the poster here](/pdf/conaiisi.pdf).
 
 ---
 ### Certifications
