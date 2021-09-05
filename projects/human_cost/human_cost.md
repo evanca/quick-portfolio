@@ -52,6 +52,8 @@ Idle Hands is a data-driven musical composition based on the Central Statistics 
 
  This opens a new space that stands independently of politics, media interpretation or public opinion allowing the audience to engage with the statistical profile of Irish unemployment through shared musical experience. Audience members can then decide whether or not to reformulate their opinions based on their experience of the piece.
 
+ Idle Hands features on the album 'Tides - An ISSTA Anthology'. It was released on the [Stolen Mirror label](http://stolenmirror.com() and collects a many important pieces that were performed during the first 10 years of the Irish Sound Science and Technology Association's existence. You can learn more about the album and purchase it here: [http://stolenmirror.com/2021d01-tides.html](http://stolenmirror.com/2021d01-tides.html)
+
 ### Doom & Gloom
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2888609678/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=1639177409/transparent=true/" seamless><a href="https://stephenroddy.bandcamp.com/album/the-human-cost-sonification-and-irelands-economic-crash">The Human Cost: Sonification and Ireland&#39;s Economic Crash by Stephen Roddy</a></iframe>
