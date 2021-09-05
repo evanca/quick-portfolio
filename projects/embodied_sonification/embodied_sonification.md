@@ -66,6 +66,8 @@ These have been gathered into a collection entitled 'The Human Cost', named for 
 You can learn more about  these compositions here:
 [The Human Cost Sonifications](../human_cost/human_cost)
 
+Idle Hands features on the album 'Tides - An ISSTA Anthology'. It was released on the [Stolen Mirror label](http://stolenmirror.com() and collects a many important pieces that were performed during the first 10 years of the Irish Sound Science and Technology Association's existence. You can learn more about the album and purchase it here: [http://stolenmirror.com/2021d01-tides.html](http://stolenmirror.com/2021d01-tides.html)
+
 
 A number of these pieces have been performed live at academic conferences and cultural events at national and international levels including:<br/>
 * [The Irish Sound Science and Technology Convocation 2014](https://s3images.coroflot.com/user_files/individual_files/711451_7SZ94dIf0s3EopLGzawCUcKWt.pdf)<br/>
@@ -125,11 +127,13 @@ This was a multidisciplinary project that resulted in a number of outputs across
 - [Symmetric Relations and Hidden Rotations - Nova Sunday 13 September 2015 - Nova RTÉ lyric fm](https://www.rte.ie/lyricfm/nova/programmes/2015/0913/727619-nova-sunday-13-september-2015/)
 
 <!--
+
 ### Creative Skills
 HCI Design. Interaction Design. UX Design. Sound Design. Music Composition. Data Sonification. Data Visualisation.
 
 ### Technical & Research Skills
 Programming. Data Analysis. Audio Engineering. Recording. Data Analysis. Data Sonification. Data Visualisation. User Evaluations. A/B Testing. Experimental Design. Distributed User Testing.
+
 -->
 
 ### Tags
