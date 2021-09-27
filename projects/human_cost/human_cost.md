@@ -46,7 +46,7 @@ Idle Hands is a data-driven musical composition based on the Central Statistics 
 
  A leading tone rises and falls in time with the unemployment statistics over a small accompanying set of evolving timbral motifs -the harmonic complexity of which reference future gradients of the data contour. There are two complementary elements to the composition, the data and the baseline. Evolving timbre and pitch represent the data. Sustained harmonics centered on G major provide a baseline against which to contextualise the data material.
 
- The piece uses granular synthesis, frequency modulation and reverb modeling methodologies and is presented in 31 parts. Each 22s part correlates to a single year in the data and is separated from the next by a rapid instance of rest in the sonification material. The piece offers a view of a critical social issue in modern Ireland: the mass unemployment that has come in the wake of the Celtic Tiger’s demise.
+ The piece uses granular synthesis, frequency modulation and reverb modeling methodologies and is presented in 31 parts. Each 22s part correlates to a single year in the data and is separated from the next by a rapid instance of rest in the sonification material. The piece offers a unique view of a critical social issue in modern Ireland: the mass unemployment that has come in the wake of the Celtic Tiger’s demise.
 
  It reflects our national unemployment crisis back upon the audience through an exploration of the relevant CSO data contour. This more recent socioeconomic crisis is contextualized against the similar -and admittedly worse- crisis of the mid-1980’s.
 
