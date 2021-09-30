@@ -6,3 +6,4 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/annalissitz/</a> 
   
 theme: jekyll-theme-minimal
+index_page: index.html
