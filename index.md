@@ -15,6 +15,11 @@
 
 ---
 
+### DataBricks Project (with Scala)
+- [Project 1 Title](http://example.com/)
+
+---
+
 ### Regression Projects
 
 - [Project 1 Title](http://example.com/)
