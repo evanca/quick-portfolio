@@ -4,6 +4,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   Hi! My name is Gianluca and I am currently a games developer!
   <br><br>
   <a href=https://www.linkedin.com/in/gianluca-cientanni-805160174/">View My LinkedIn Profile</a>
+  <br><br>
   <a href=https://medium.com/@gianluca.cientanni/">View My Medium Articles</a>
   
 theme: jekyll-theme-minimal
