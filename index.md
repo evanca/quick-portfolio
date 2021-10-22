@@ -4,25 +4,25 @@
 
 ### Game Projects 
 
-[Simple 3rd Person Shooter](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Simple 3rd Person Shooter](https://github.com/Gianluca-Cientanni/simple-shooter)
+<img src="gifs/simple_shooter.gif?raw=true"/>
 
 ---
-[Toon Tanks](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Toon Tanks](https://github.com/Gianluca-Cientanni/toon-tanks)
+<img src="gifs/toon_tanks.gif?raw=true"/>
 
 ---
-[Building Escape](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Building Escape](https://github.com/Gianluca-Cientanni/building-escape)
+<img src="gifs/building_escape.gif?raw=true"/>
 
 ---
 
 ### Other Projects
 
-- [Cytometer - MRC Harwell](http://example.com/)
-- [Thesis Project](http://example.com/)
-- [Aruco Marker Script](http://example.com/)
-- [i3D Sensor Scripts](http://example.com/)
+- [Cytometer - MRC Harwell](https://github.com/MRC-Harwell/cytometer/commits/31f4c1334285e81a3fb44025356a330b3da2466b/scripts?fbclid=IwAR3OKuA5GBJQOZjeKzRYuLaiZNZrhVKmFtsPHKLocGvM-pVJK18dG5V21cw)
+- [Thesis Project](https://github.com/Gianluca-Cientanni/pymoldat)
+- [Aruco Marker Script](https://github.com/Gianluca-Cientanni/aruco_final)
+- [i3D Sensor Scripts](https://github.com/Gianluca-Cientanni/humidity_sensor)
 
 ---
 
