@@ -48,12 +48,11 @@ and content-based filtering
 - Analog Circuits and Systems Lab, Advisor Sung Min Park
   * Studied electronic circuit used in Lidar and CMOS Amplifier for Gigabit Ethernet
 
-
 ## Scholarships
-- Research Assistant Scholarship | 2020
-- Admissions Scholarship(full tuition for one year) | 2019
-- DEAN’S List | 2015, 2017, 2018
-- National Grant | 2015-2018
+* Research Assistant Scholarship | 2020
+* Admissions Scholarship(full tuition for one year) | 2019
+* DEAN’S List | 2015, 2017, 2018
+* National Grant | 2015-2018
 
 
 ## Skills
