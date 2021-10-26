@@ -1,13 +1,13 @@
-## Portfolio
-
-
 
 <!--### Publications-->
 ## International Conference
+[Feature Expansion of Single Dimensional Time Series Data for Machine Learning Classification](/pdf/ICUFN2021.pdf)  | 1st author  
 [Traffic Data Classification using Machine Learning Algorithms in SDN Networks](/pdf/ICTC2020.pdf)  | 2nd author  
 [An Iterative Algorithm of Key Feature Selection for Multi-class Classification](/pdf/ICUFN2019.pdf)  | 1st author  
 
 ## Domestic Conference
+Impact of Input Data Randomness on Training Performance of Autoencoder | 2nd author 
+On Improving Network Data Anomaly Detection Performance based on Meta Characteristics | 2nd author 
 Machine Learning based Algorithm for Small Amount Multi-featured Data in Three Classes  | 1st author  
 Study on Impact of Class Combinations on Performance of Multiple Class Classification  | 1st author  
 
@@ -23,8 +23,8 @@ Survey on Machine Learning Algorithms for SDN/NFV Automation  | 2nd author
 -->
 ---
 
-### Experience
-- **Visiting Scholar at Carnegie Mellon University, Advisor Alex Hauptmann** | Jan 2020-Jul 2020\
+## Experience
+- **Visiting Researcher at Carnegie Mellon University, Advisor Alex Hauptmann** | Jan 2020-Jul 2020\
 *Full Scholarship for Intensive AI Program in CMU under the Ministry of Science and ICT*
   * Developed a general model for chatbot with profoundly experienced in Natural language Processing (NLP)
   * Managed team and established architecture for a chatbot that satisfied user requirements
@@ -38,12 +38,12 @@ and content-based filtering
   * Studied electronic circuit used in Lidar and CMOS Amplifier for Gigabit Ethernet
 
 
-### Scholarships
+## Scholarships
 * **Research Assistant Scholarship**, Ewha Womans University  | 2020
 * **Admissions Scholarship(full tuition for one year)**, Ewha Womans University | 2019
 * **DEAN’S List**, Ewha Womans University | Spring 2018 / Fall 2017 / 2015
 * **National Grant**, South Korea | 2018 2017 2016 / Fall 2015
-### Skills
+## Skills
 - Computer: C, C++, Python (Pytorch), R, MATLAB, LaTeX
 - Languages: English (fluent), Korean (native)
 
