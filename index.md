@@ -17,8 +17,8 @@ are some of my interests:
 ## Domestic Conference
 Impact of Input Data Randomness on Training Performance of Autoencoder  | 2nd author\
 On Improving Network Data Anomaly Detection Performance based on Meta Characteristics  | 2nd author\
-Machine Learning based Algorithm for Small Amount Multi-featured Data in Three Classes  | 1st author\ 
-Study on Impact of Class Combinations on Performance of Multiple Class Classification  | 1st author\
+Machine Learning based Algorithm for Small Amount Multi-featured Data in Three Classes  | 1st author\
+Study on Impact of Class Combinations on Performance of Multiple Class Classification  | 1st author
 
 ## Domestic Journal Articles
 Survey on Machine Learning Algorithms for SDN/NFV Automation  | 2nd author  
