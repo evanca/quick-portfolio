@@ -49,10 +49,6 @@ and content-based filtering
 * Computer: C, C++, Python (Pytorch), R, MATLAB, LaTeX
 * Languages: English (fluent), Korean (native)
 
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
-
 <!--
 ### Projects
 - **Supervised Agile Machine Learning Techniques for Network Automation based on Network Data Analytic Function** | 2019–Present\
