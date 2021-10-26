@@ -42,8 +42,8 @@ and content-based filtering
 ## Scholarships
 * Research Assistant Scholarship | 2020
 * Admissions Scholarship(full tuition for one year) | 2019
-* DEAN’S List | 2015, 2017, 2018
-* National Grant | 2015-2018
+* DEAN’S List | 2015, 2017-2018
+* * National Grant | 2015-2018
 
 ## Skills
 * Computer: C, C++, Python (Pytorch), R, MATLAB, LaTeX
