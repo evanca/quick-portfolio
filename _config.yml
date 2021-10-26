@@ -4,25 +4,24 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://drive.google.com/file/d/1i7P1od4GzqkqcG2A3Lb4B7Q99hceoU3f/view?usp=sharing">View My CV</a> 
   <br>
   <a href="https://www.linkedin.com/in/daeun-jung-6b86771a6/">View My linkedin</a> 
-  <br>
+  <br><br>
   <a href="daeun.jung@ewhain.net">contact me by email</a> 
-#  <br><br>
-  location         : "South Korea"
-  email            :
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:daeun.jung@ewhain.net
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://devinlife.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/daeun-j"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/daeun-jung-6b86771a6/"
-      
+location         : "South Korea"
+email            :
+links:
+  - label: "Email"
+    icon: "fas fa-fw fa-envelope-square"
+    url: mailto:daeun.jung@ewhain.net
+  - label: "Website"
+    icon: "fas fa-fw fa-link"
+    url: "https://devinlife.com"
+  - label: "GitHub"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/daeun-j"
+  - label: "Linkedin"
+    icon: "fab fa-fw fa-linkedin"
+    url: "https://www.linkedin.com/in/daeun-jung-6b86771a6/"
+
 # Second description 
 
 theme: jekyll-theme-minimal
