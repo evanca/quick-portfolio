@@ -3,9 +3,10 @@ My research interest lies primarily in the fields of extracting representative f
 mechanism of learning and get inference better with more emphasis on time series data. I believe there is
 passing through information, and I could find it from partial data information with data distribution changing. Here
 are some of my interests:
-*Extract key features under data distribution changing environment
-*Understand the causation and relation in variables of time series data
-*Adapt Federated learning to overcome data imbalance in time series data
+
+* Extract key features under data distribution changing environment
+* Understand the causation and relation in variables of time series data
+* Adapt Federated learning to overcome data imbalance in time series data
 
 <!--### Publications-->
 ## International Conference
