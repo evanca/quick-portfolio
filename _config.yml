@@ -1,12 +1,13 @@
 title: Daeun Jung # your name (or website title) here
 logo: "/images/Daeun_Jung.jpg?raw=true" # your photo (or logo) here
+email: 'daeun.jung@ewhain.net'
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br>
   <a href="https://drive.google.com/file/d/1i7P1od4GzqkqcG2A3Lb4B7Q99hceoU3f/view?usp=sharing">View My CV</a> 
   <br>
   <a href="https://www.linkedin.com/in/daeun-jung-6b86771a6/">View My linkedin</a> 
-  <br>
-  <a href="daeun.jung@ewhain.net">contact me by email</a> 
+  <br><br>
+  <a mailto:daeun.jung@ewhain.net>Contact me by email</a> 
 links:
   - label: "Linkedin"
     icon: "fab fa-fw fa-linkedin"
