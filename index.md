@@ -44,7 +44,6 @@ and content-based filtering
 *Multiagent Communications and Networking Lab, Full-Time Research Intern, Advisor Hyunggon Park*
   * Surveyed for SDN/NFV network architecture and applied Machine Learning for 5G topology
   * Studied the use of Omics data such as PPI data and clinical data to extract meaningful features
- 
 *Analog Circuits and Systems Lab, Advisor Sung Min Park*\
   * Studied electronic circuit used in Lidar and CMOS Amplifier for Gigabit Ethernet
 
