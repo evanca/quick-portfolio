@@ -33,18 +33,18 @@ Survey on Machine Learning Algorithms for SDN/NFV Automation  | 2nd author
 ---
 
 ## Experience
-- **Carnegie Mellon University, Advisor Alex Hauptmann** | Jan 2020-Jul 2020\
-*Full Scholarship for Intensive AI Program in CMU under the Ministry of Science and ICT*
+**Carnegie Mellon University, Advisor Alex Hauptmann** | Jan 2020-Jul 2020
+- Full Scholarship for Intensive AI Program in CMU under the Ministry of Science and ICT
   * Developed a general model for chatbot with profoundly experienced in Natural language Processing (NLP)
   * Managed team and established architecture for a chatbot that satisfied user requirements
   * Processed with large-scale multimedia data to generate Generative Adversarial Network using AWS
   * Experienced in recommendation algorithms by applying text mining-related theories such as collaborate filtering
 and content-based filtering
-- **Ewha Womans University**\
-- Multiagent Communications and Networking Lab, Full-Time Research Intern, Advisor Hyunggon Park*
+**Ewha Womans University**
+- Multiagent Communications and Networking Lab, Full-Time Research Intern, Advisor Hyunggon Park
   * Surveyed for SDN/NFV network architecture and applied Machine Learning for 5G topology
   * Studied the use of Omics data such as PPI data and clinical data to extract meaningful features
-- Analog Circuits and Systems Lab, Advisor Sung Min Park*
+- Analog Circuits and Systems Lab, Advisor Sung Min Park
   * Studied electronic circuit used in Lidar and CMOS Amplifier for Gigabit Ethernet
 
 
