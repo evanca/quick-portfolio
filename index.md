@@ -23,15 +23,6 @@ Study on Impact of Class Combinations on Performance of Multiple Class Classific
 ## Domestic Journal Articles
 Survey on Machine Learning Algorithms for SDN/NFV Automation  | 2nd author  
 
-<!--
-### Projects
-- **Supervised Agile Machine Learning Techniques for Network Automation based on Network Data Analytic Function** | 2019–Present\
-*meta information, deep learning, machine learning*
-- **Language-Conditioning Processing System based on Connectionism Model and Machine Learning for Age-Related Language Impairment Prediction** | 2019–2020\
-*linear regression, feature selection*
--->
----
-
 ## Experience
 **Carnegie Mellon University, Advisor Alex Hauptmann** | Jan 2020-Jul 2020
 - Full Scholarship for Intensive AI Program in CMU under the Ministry of Science and ICT
@@ -49,9 +40,9 @@ and content-based filtering
   * Studied electronic circuit used in Lidar and CMOS Amplifier for Gigabit Ethernet
 
 ## Scholarships
-* Research Assistant Scholarship | 2020\
-* Admissions Scholarship(full tuition for one year) | 2019\
-* DEAN’S List | 2015, 2017, 2018\
+* Research Assistant Scholarship | 2020
+* Admissions Scholarship(full tuition for one year) | 2019
+* DEAN’S List | 2015, 2017, 2018
 * National Grant | 2015-2018
 
 ## Skills
@@ -61,3 +52,12 @@ and content-based filtering
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
+
+<!--
+### Projects
+- **Supervised Agile Machine Learning Techniques for Network Automation based on Network Data Analytic Function** | 2019–Present\
+*meta information, deep learning, machine learning*
+- **Language-Conditioning Processing System based on Connectionism Model and Machine Learning for Age-Related Language Impairment Prediction** | 2019–2020\
+*linear regression, feature selection*
+-->
+---
