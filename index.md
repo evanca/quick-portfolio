@@ -50,10 +50,10 @@ and content-based filtering
 
 
 ## Scholarships
-* **Research Assistant Scholarship**, Ewha Womans University  | 2020
-* **Admissions Scholarship(full tuition for one year)**, Ewha Womans University | 2019
-* **DEAN’S List**, Ewha Womans University | Spring 2018 / Fall 2017 / 2015
-* **National Grant**, South Korea | 2018 2017 2016 / Fall 2015
+* **Research Assistant Scholarship** | 2020
+* **Admissions Scholarship(full tuition for one year)** | 2019
+* **DEAN’S List**, | 2015, 2027, 2018
+* **National Grant**, | 2015-2018
 ## Skills
 * Computer: C, C++, Python (Pytorch), R, MATLAB, LaTeX
 * Languages: English (fluent), Korean (native)
