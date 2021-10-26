@@ -7,7 +7,11 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/daeun-jung-6b86771a6/">View My linkedin</a> 
   <br>
   <a href="daeun.jung@ewhain.net">contact me by email</a> 
-
+links:
+  - label: "Linkedin"
+    icon: "fab fa-fw fa-linkedin"
+    url: "https://www.linkedin.com/in/daeun-jung-6b86771a6/"
+    
 # Second description 
 
 theme: jekyll-theme-minimal
