@@ -44,7 +44,6 @@ and content-based filtering
 *Multiagent Communications and Networking Lab, Full-Time Research Intern, Advisor Hyunggon Park*
   * Surveyed for SDN/NFV network architecture and applied Machine Learning for 5G topology
   * Studied the use of Omics data such as PPI data and clinical data to extract meaningful features
-
 *Analog Circuits and Systems Lab, Advisor Sung Min Park*
   * Studied electronic circuit used in Lidar and CMOS Amplifier for Gigabit Ethernet
 
@@ -55,8 +54,8 @@ and content-based filtering
 * **DEAN’S List**, Ewha Womans University | Spring 2018 / Fall 2017 / 2015
 * **National Grant**, South Korea | 2018 2017 2016 / Fall 2015
 ## Skills
-- Computer: C, C++, Python (Pytorch), R, MATLAB, LaTeX
-- Languages: English (fluent), Korean (native)
+* Computer: C, C++, Python (Pytorch), R, MATLAB, LaTeX
+* Languages: English (fluent), Korean (native)
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
