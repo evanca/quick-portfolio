@@ -39,7 +39,7 @@ Survey on Machine Learning Algorithms for SDN/NFV Automation  | 2nd author
   * Managed team and established architecture for a chatbot that satisfied user requirements
   * Processed with large-scale multimedia data to generate Generative Adversarial Network using AWS
   * Experienced in recommendation algorithms by applying text mining-related theories such as collaborate filtering
-and content-based filtering\
+and content-based filtering/
 **Ewha Womans University**
 - Multiagent Communications and Networking Lab, Full-Time Research Intern, Advisor Hyunggon Park
   * Surveyed for SDN/NFV network architecture and applied Machine Learning for 5G topology
