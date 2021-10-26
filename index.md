@@ -41,11 +41,11 @@ Survey on Machine Learning Algorithms for SDN/NFV Automation  | 2nd author
   * Experienced in recommendation algorithms by applying text mining-related theories such as collaborate filtering
 and content-based filtering
 - **Ewha Womans University**\
-{*Multiagent Communications and Networking Lab, Full-Time Research Intern, Advisor Hyunggon Park*\
-  * Surveyed for SDN/NFV network architecture and applied Machine Learning for 5G topology\
-  * Studied the use of Omics data such as PPI data and clinical data to extract meaningful features\
-{*Analog Circuits and Systems Lab, Advisor Sung Min Park*\}
-  * Studied electronic circuit used in Lidar and CMOS Amplifier for Gigabit Ethernet}
+- Multiagent Communications and Networking Lab, Full-Time Research Intern, Advisor Hyunggon Park*
+  * Surveyed for SDN/NFV network architecture and applied Machine Learning for 5G topology
+  * Studied the use of Omics data such as PPI data and clinical data to extract meaningful features
+- Analog Circuits and Systems Lab, Advisor Sung Min Park*
+  * Studied electronic circuit used in Lidar and CMOS Amplifier for Gigabit Ethernet
 
 
 ## Scholarships
