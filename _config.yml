@@ -12,10 +12,16 @@ description: > # your text below (remove <br> elements if you don't need line br
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:devinlifeidea@gmail.com
+      url: mailto:daeun.jung@ewhain.net
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://devinlife.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/daeun-j"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/daeun-jung-6b86771a6/"
       
 # Second description 
 
