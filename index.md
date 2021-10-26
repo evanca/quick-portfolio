@@ -41,10 +41,10 @@ Survey on Machine Learning Algorithms for SDN/NFV Automation  | 2nd author
   * Experienced in recommendation algorithms by applying text mining-related theories such as collaborate filtering
 and content-based filtering
 - **Ewha Womans University**\
-*Full-Time Research Intern, Advisor Hyunggon Park | Fall 2018*
+*Full-Time Research Intern, Advisor Hyunggon Park*
   * Surveyed for SDN/NFV network architecture and applied Machine Learning for 5G topology
-  * Studied the use of Omics data such as PPI data and clinical data to extract meaningful features
-*Full-Time Research Intern, Advisor Sung Min Park | Winter 2018*
+  * Studied the use of Omics data such as PPI data and clinical data to extract meaningful features\
+*Full-Time Research Intern, Advisor Sung Min Park*
   * Studied electronic circuit used in Lidar and CMOS Amplifier for Gigabit Ethernet
 
 
