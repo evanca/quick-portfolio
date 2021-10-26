@@ -7,7 +7,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   <a href="https://www.linkedin.com/in/daeun-jung-6b86771a6/">View My linkedin</a> 
   <br><br>
-  <a href="mailto:daeun.jung@ewhain.net">Contact me by email</a> 
+  <a mailto="daeun.jung@ewhain.net">Contact me by email</a> 
     
 # Second description 
 
