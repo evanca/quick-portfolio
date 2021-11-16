@@ -2,8 +2,6 @@ title: Daeun Jung # your name (or website title) here
 logo: "/images/Daeun_Jung.jpg?raw=true" # your photo (or logo) here
 email: "daeun.jung@ewhain.net"
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  % <br>
-  % <a href="https://drive.google.com/file/d/1-5HBV4tya2TFL10nhySzMdCa_Hhfd9uX/view?usp=sharing">View My CV</a> 
   <br>
   <a href="https://www.linkedin.com/in/daeun-jung-6b86771a6/">View My linkedin</a> 
   <br><br>
@@ -13,6 +11,5 @@ description: > # your text below (remove <br> elements if you don't need line br
 
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
-
 
 
