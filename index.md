@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](https://htmlpreview.github.io/?https://github.com/ns13/COVID-19-Philadelphia/index.html)
+[Project 1 Title](https://htmlpreview.github.io/?https://github.com/ns13/COVID-19-Philadelphia/main/index.html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
