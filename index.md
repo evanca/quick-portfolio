@@ -36,7 +36,6 @@ Tidy Tuesday es un evento semanal organizado por la comunidad R4DS que busca que
 
 
 #### 2021 - WEEK 36 (AUSTRALIAN BIRDS PLOT)
-
 ![ausbirds plot](https://user-images.githubusercontent.com/79113395/132264900-d8b37b19-58d4-40f3-b9e6-690070491e11.jpg)
 
 
