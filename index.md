@@ -25,7 +25,7 @@ En este proyecto muestra el desarrollo de la pandemia del Covid-19 en el Perú d
 
 ---
 
-### [Proyecto 3: Tidy Tuesday Evento de visualizaciones semalaes](https://github.com/marellanob/Tidy-Tuesday/blob/main/README.md)
+### [Proyecto 3: Tidy Tuesday (Evento de visualizaciones semalaes)](https://github.com/marellanob/Tidy-Tuesday/blob/main/README.md)
 
 Tidy Tuesday es un evento semanal organizado por la comunidad R4DS que busca que los usuarios de R generen visualizaciones de temas aleatorios sobre diversos topicos usando las librerias dentro del paquete **Tidyverse**. 
 
