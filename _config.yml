@@ -1,9 +1,9 @@
-title: \n Marco Arellano 📊# your name (or website title) here
+title: \nMarco Arellano 📊 # your name (or website title) here
 logo: "/images/photo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br>
   
-  ¡Hola! Mi nombre es Marco. Soy comunicador audiovisual y me encuentro terminando mis estudios para ser Data Scientist.
+  ¡Hola! Mi nombre es Marco. Soy comunicador audiovisual y futuro Data Scientist. 
   
   Desde chico me gustaron los rompecabezas y contar historias, para mi eso es la ciencia de datos la habilidad de mediante 
   data armar las piezas para contar la historia que los números nos quieren contar.
@@ -11,12 +11,10 @@ description: > # your text below (remove <br> elements if you don't need line br
   Tengo más de 4 años de experiencia en producción audiovisual, diseño gráfico y gestión fotográfica de eventos deportivos.
   La estadistica y la ciencia de datos fue algo q
   
-  Comunicador y Futuro Data Scientist. Conocimiento en R y Tableau. Capacidad analitica, trabajo en equipo y 
-  
+ 
   <br><br>
   <a href="https://www.linkedin.com/in/marellanob/"> LinkedIn </a> 
   <br><br>
   <a href="https://twitter.com/marellanob93"> Twitter </a> 
   
 theme: jekyll-theme-minimal
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
