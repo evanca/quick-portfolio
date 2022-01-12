@@ -1,13 +1,11 @@
 title: Marco Arellano 📊 # your name (or website title) here
 logo: "/images/photo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <br><br>
   ¡Hola! Soy comunicador y futuro Data Scientist. Dataviz, R stats y Tableau entusiasta. 
   Me encuentro en busca de nuevas oportunidades para desarrollar mis habilidades en visualización y ciencia de datos.
   Cuento con experiencia en producción audiovisual, diseño gráfico y gestión fotográfica en eventos deportivos.
   <br><br>
   <a href="https://www.linkedin.com/in/marellanob/"> LinkedIn </a> 
-  <br><br>
   <a href="https://twitter.com/marellanob93"> Twitter </a> 
   
 theme: jekyll-theme-minimal
