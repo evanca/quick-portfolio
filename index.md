@@ -5,7 +5,7 @@
 
 ### [Proyecto 1: Elecciones Presidenciales Perú 2021 y el IDH](https://rpubs.com/marellanob/EleccPresid2021Peru_IDH)
 
-Este proyecto busca exponer, mediante dos gráficas interactivas, si es que existe una relación entre el índice de desarrollo humano (IDH), a nivel distrital, y el porcentaje de votos obtenidos por partido político. 
+Este proyecto busca exponer, mediante dos gráficas interactivas, si existe una relación entre el índice de desarrollo humano (IDH), a nivel distrital, y el porcentaje de votos obtenidos por partido político.
 
 #### Gráfica IDH vs Porcentaje de Votos:
 
@@ -21,7 +21,7 @@ Este proyecto busca exponer, mediante dos gráficas interactivas, si es que exis
 
 ### [Proyecto 2: Visualización de Series de Tiempo del Covid-19 en el Perú ](https://rpubs.com/marellanob/749230)
 
-En este proyecto muestra el desarrollo de la pandemia del Covid-19 en el Perú desde el 15 de marzo del 2020 al 31 de marco del 2021. Mediante la utilizacion de paquetes como ggplot2, dygraph y plotly se realizó 4 series de tiempo interactivas correspondientes al número de casos **confirmados, de pacientes recuperados y de muertes**. 
+En este proyecto se muestra el desarrollo de la pandemia del Covid-19 en el Perú desde el 15 de marzo del 2020 al 31 de marzo del 2021. Mediante la utilización de paquetes como ggplot2, dygraph y plotly se realizó 4 series de tiempo interactivas correspondientes al número de casos **confirmados, de pacientes recuperados y de muertes**. 
 
 
 <img width="1680" alt="COVID19 PERU TIME SERIES" src="https://user-images.githubusercontent.com/79113395/147373062-9d6e4cfc-8b4e-4587-a7b2-5075e80aa225.png">
@@ -31,7 +31,7 @@ En este proyecto muestra el desarrollo de la pandemia del Covid-19 en el Perú d
 
 ### [Proyecto 3: Tidy Tuesday (Evento de visualizaciones semanales)](https://github.com/marellanob/Tidy-Tuesday/blob/main/README.md)
 
-Tidy Tuesday es un evento semanal organizado por la comunidad R4DS que busca que los usuarios de R generen visualizaciones de temas aleatorios sobre diversos topicos usando las librerias dentro del paquete **Tidyverse**. 
+Tidy Tuesday es un evento semanal organizado por la comunidad R4DS que busca que los usuarios de R generen visualizaciones de temas aleatorios sobre diversos temas usando las librerías dentro del paquete **Tidyverse**. Este evento nos permite desarrollar nuestras habilidades de análisis y de visualización utilizando paquetes como ggplot2 para generar gráficas creativas e informativas.
 
 
 #### 2021 - WEEK 38 (BILLBOARD 100 CHART PLOT)
