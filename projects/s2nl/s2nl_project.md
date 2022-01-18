@@ -67,7 +67,7 @@ While the earlier systems used procedural techniques alone to generate materials
 While working on the fourth iteration of the system the COVID-19 Crisis hit. To continue the project, I chose to adapt it to an online mode of presentation. I also chose to make use of data representing the city before the COVID-19 crisis hit as well as during the COVID-19 crisis. This involved using the new iteration of the system to create a fixed composition in two movements. In the interests of clarity, I used one stream of data, the original Noise Data. The first movement used data from March of 2019 while the second movement used data from March 2020.
 Alongside the piece, I also created a visualisation of the data which maps the Noise data to control the radii and colours of dots in a dot-matrix representation of Dublin City.
 
-#### Performances 5, 6, 7 & 8: The New York electroacoustic Music festival, The International Computer Music Conference, Audio Mostly, Dublin City Culture Night
+#### Performances 5, 6, 7, 8 & 9: The New York electroacoustic Music festival, The International Computer Music Conference, Audio Mostly, Dublin City Culture Night
 The piece was performed at the [2021 New York Electroacoustic Music Festival](https://nycemf.org/).
 You can find the video and concert program below:
 
@@ -95,6 +95,12 @@ Signal to Noise Loops V4 will be presented as an online installation for Oíche 
 <br />
 <A href="https://culturenightdublin.ie/event/signal-to-noise-loops-v4-signal-to-noise-loops-v4/" target="_blank"><img src="images/Website 4.png?raw=true"/></a><br/>
 <br />
+
+[Signal to Noise Loops v4- Video Sound Archive S3 - Februray 2022](https://www.videosoundarchive.com/submit#image_1-10903455)
+<br />
+<A href="https://www.videosoundarchive.com/submit#image_1-10903455" target="_blank"><img src="images/S3_001.jpg.png?raw=true"/></a><br/>
+<br />
+
 ### Discussion <br />
 The point of mapping data to sound, and more specifically IoT data is to leverage some of the interesting patterns that present themselves across data streams/sets of this manner. Data-driven music is different from sonification where the point is to faithfully communicate or represent the data to the listener. Data-driven music is closer in many ways to algorithmic music composition than it is to sonification because of its focus on finding patterns in the data that might be interesting when mapped to sonic and musical parameters. My previous data-driven music work has employed algorithmic composition techniques and dealt with used from the global financial crash. More recently I have begun to work with IoT data as I believe that the kinds of data we choose to measure and our reasons for measuring them say a lot about what a society values, cares about, and finds interesting while the specific data measurements chronicle the complex interactions between people, the technologies they create and the worlds in which those people and technologies are situated. <br />
 <br />
@@ -105,6 +111,7 @@ While these explicit points of information may not be directly represented in a 
 ### Outputs & Activities
 
 ### Performances:
+- [Signal to Noise Loops v4- Video Sound Archive S3 - Februray 2022](https://www.videosoundarchive.com/submit#image_1-10903455)
 - [Signal to Noise Loops V4- Dublin City Culture Night](https://culturenightdublin.ie/event/signal-to-noise-loops-v4-signal-to-noise-loops-v4/)
 - [2021 Audio Mostly Conference](https://audiomostly.com/2021/program/conference-program/)
 - [International Computer Music Conference 2021](http://icmc2021.org/program/)
