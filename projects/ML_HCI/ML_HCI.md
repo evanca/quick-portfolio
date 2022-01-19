@@ -35,10 +35,16 @@ To use the prototypes stand in front of your webcam and move your hands to contr
 
 #### Phase 4: 30 Epoch Opus
 
-30 Epoch Opus, is a short track EP of AI-driven music. It features 4 musical works in diverse styles. The harmonic materials (melodies and harmonies) for each piece were composed using deep learning models both of which had an LSTM-based architecture. The instruments and timbres that have been chosen to synthesise (or sound out) these materials were provided by the composer rather than either of the models. Instead, 4 distinct approaches to texture and timbre were employed, 3 of which involve the manipulation of samples to some degree while the fourth approach involved modal synthesis. The result is 4 pieces with markedly different sonic palettes spanning electronic, noise, and pseudo-contemporary styles.
+30 Epoch Opus, is a short EP of AI-driven music. It features 4 musical works in diverse styles. The harmonic materials (melodies and harmonies) for each piece were composed using deep learning models both of which had an LSTM-based architecture.
+
+The models were trained on MIDI renderings of the tracks from Def Leppard's 1987 classic Hysteria. However, I couldn’t find a good version of the song Excitable so I used Photograph instead. Although that track appears on the 1984 album Pyromania, it shares a similar aesthetic to the tracks on Hysteria. The models were specifically trained on the guitar and bass lines with singing and drum information removed.
+
+The instruments and timbres that have been chosen to synthesise (or sound out) these materials were provided by the composer rather than either of the models. Instead, 4 distinct approaches to texture and timbre were employed, 3 of which involve the manipulation of samples to some degree while the fourth approach involved modal synthesis. The result is 4 pieces with markedly different sonic palettes spanning electronic, noise, and pseudo-contemporary styles.
+
 To create interesting harmonic/melodic results, the model used for the first 3 tracks is left partially underfit and uses highly novel input data chosen for its originality. This underfitting allows some features present in the original data to “shine through” but prevents the material from becoming an overly generalised representation of the inputs. This leaves space for an element of chance and surprise in the output. The model architecture and hyperparameters have been selected to support this approach. The model used for the fourth track, 100 Epoch Opus, is much better fit to its training data. The originality of the harmonic materials here stems from a process of trial and error where a large number of outputs were auditioned before novel material presented itself.
 
 <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=951154666/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://stephenroddy.bandcamp.com/album/30-epoch-opus">30 Epoch Opus by Stephen Roddy</a></iframe>
+
 
 <!--
 ### Creative Skills
