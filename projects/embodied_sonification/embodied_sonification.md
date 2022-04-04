@@ -126,15 +126,12 @@ This was a multidisciplinary project that resulted in a number of outputs across
 - [Newspaper Article "Offaly man prepares for 'unique' musical performance in London". The Offaly Express, 17 August 2017.](https://www.offalyexpress.ie/news/home/265639/offaly-man-prepares-for-unique-musical-performance-in-london.html)
 - [Symmetric Relations and Hidden Rotations - Nova Sunday 13 September 2015 - Nova RTÉ lyric fm](https://www.rte.ie/lyricfm/nova/programmes/2015/0913/727619-nova-sunday-13-september-2015/)
 
-<!--
 
 ### Creative Skills
 HCI Design. Interaction Design. UX Design. Sound Design. Music Composition. Data Sonification. Data Visualisation.
 
-### Technical & Research Skills
-Programming. Data Analysis. Audio Engineering. Recording. Data Analysis. Data Sonification. Data Visualisation. User Evaluations. A/B Testing. Experimental Design. Distributed User Testing.
-
--->
+### Research & Technical Skills
+User Evaluations. A/B Testing. Perceptual Testing. Experimental Design. Distributed User Testing. Programming. Data Analysis. Audio Engineering. Recording. Data Analysis. Data Sonification. Data Visualisation. 
 
 ### Tags
 Embodied Cognition. Sonification. Auditory Display. Stephen Roddy.
