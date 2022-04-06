@@ -21,7 +21,7 @@ I used a mixed methods approach with a research-driven iterative design methodol
 ### Research Overview
 My schedule involved 3 research and development of work followed by 2 weeks of production.
 
-Week 1:
+#### Week 1:
 Literature Review:
   - Get a sense of simillar work undertaken previously.
 
@@ -44,7 +44,7 @@ Empathy Workshop with Performers
 
 Began rapid prototyping.
 
-Week 2:
+#### Week 2:
 
 Monday - Wednesday
 Mornings: User testing for prototype.
@@ -67,7 +67,7 @@ Critique workshop:
 Survey:
   - Quantitative online survey w/ video of prototype from workshop.
 
-Week 3:
+#### Week 3:
 Monday - Wednesday
 Mornings: User testing for prototype.
 Afternoons: Critique Worskshop.
@@ -103,6 +103,9 @@ Friday:
   D: Used musical cues rather than sound effects.
       D1. Final prototype made heavy use of music with little sound effects.
       D2. Intial porototype made heavier use of sound effects.
+
+
+### Results: Business Impact
 
 
 
