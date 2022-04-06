@@ -54,56 +54,58 @@ Evenings: Analysing User testing & Workshop data.
 
 Thursday:
 Focus Group & Critique Workshop:
-  - Feedback from Production Company.
-  - Feedback from Venue.
-  - Feedback from other performers.
+- Feedback from Production Company.
+- Feedback from Venue.
+- Feedback from other performers.
 
 Friday:
 Critique workshop:
-  - Work in progress presented to public audience.
-  - Feedback from Audience members.
-  - Survey provided to audience.
+- Work in progress presented to public audience.
+- Feedback from Audience members.
+- Survey provided to audience.
 
 Survey:
   - Quantitative online survey w/ video of prototype from workshop.
 
 #### Week 3:
-Monday - Wednesday.
-- Mornings: User testing for prototype.
-- Afternoons: Critique Worskshop.
-- Evenings:
-    - Analysing User testing, Online Survey & Workshop data.
-    - Implementing new design insights.
+##### Monday - Wednesday.
+Mornings:
+- User testing for prototype.
+Afternoons:
+- Critique Worskshop.
+Evenings:
+- Analysing User testing, Online Survey & Workshop data.
+  - Implementing new design insights.
 
-Thursday
-  Focus Group:
-  - User testing of prototype during focus group.
+##### Thursday
+Focus Group:
+- User testing of prototype during focus group.
 
-Friday:
-  - Implementing final prototype changes.
+##### Friday:
+- Implementing final prototype changes.
 
 ### Results: Key Insights
-  A. Performers want to control exactly what music plays and when.
-  B. Performers want the system to be invisible and intelligent, not detracting from their performance.
-  C. Audiences respond to obvious links between physcial movement and musical sounds.
-  D. Audiences respond to musical sounds more positively than non-musical sounds.
+- A. Performers want to control exactly what music plays and when.
+- B. Performers want the system to be invisible and intelligent, not detracting from their performance.
+- C. Audiences respond to obvious links between physcial movement and musical sounds.
+- D. Audiences respond to musical sounds more positively than non-musical sounds.
 
 ### Results: Design Impact
-  A: Data captured from performers determined what music would play.
-      A1. Final prototype only plays musical cues when perfomers produce speciffic actions.
-      A2. Intial prototype always generated music regardless of actions.
+A: Data captured from performers determined what music would play.
+- A1. Final prototype only plays musical cues when perfomers produce speciffic actions.
+- A2. Intial prototype always generated music regardless of actions.
 
-  B: Installed the sensors into the set.
-      B1. Final prototype used allocentric Piezoelectric sensors to detect movement and location data.
-      B2. Initial prototype used egocentric accelerometer/gyroscope/magnetomoeter sensors worn by perfomers.
+B: Installed the sensors into the set.
+- B1. Final prototype used allocentric Piezoelectric sensors to detect movement and location data.
+- B2. Initial prototype used egocentric accelerometer/gyroscope/magnetomoeter sensors worn by perfomers.
 
-  C: Music designed to sound like it was being created by the performers movements on stage.
-      C1. Final prototype made clear link between movements and sounds.
-      C2. Intial prototypes did not have clear link betwen movment and sound.
+C: Music designed to sound like it was being created by the performers movements on stage.
+- C1. Final prototype made clear link between movements and sounds.
+- C2. Intial prototypes did not have clear link betwen movment and sound.
 
-  D: Used musical cues rather than sound effects.
-      D1. Final prototype made heavy use of music with little sound effects.
-      D2. Intial porototype made heavier use of sound effects.
+D: Used musical cues rather than sound effects.
+- D1. Final prototype made heavy use of music with little sound effects.
+- D2. Intial porototype made heavier use of sound effects.
 
 
 
