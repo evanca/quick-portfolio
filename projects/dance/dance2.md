@@ -32,7 +32,7 @@ Stakeholder Interviews.
       - Production Company.
       - Festival.
       - Venue.
-  - Full day of interviews.
+Full day of interviews.
 
 Discovery Workshop with Performers
   - 1 day.
@@ -46,19 +46,19 @@ Began rapid prototyping.
 
 #### Week 2:
 
-Monday - Wednesday
-Mornings: User testing for prototype.
-Afternoons: Critique Worskshop.
-Evenings: Analysing User testing & Workshop data.
+##### Monday - Wednesday
+- Mornings: User testing for prototype.
+- Afternoons: Critique Worskshop.
+- Evenings: Analysing User testing & Workshop data.
           Implementing new design insights.
 
-Thursday:
+##### Thursday:
 Focus Group & Critique Workshop:
 - Feedback from Production Company.
 - Feedback from Venue.
 - Feedback from other performers.
 
-Friday:
+##### Friday:
 Critique workshop:
 - Work in progress presented to public audience.
 - Feedback from Audience members.
