@@ -6,49 +6,105 @@ In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/
 <img src="images/2.jpg?raw=true"/><br/>
 
 
-#### Research Goal:
-The goal was to create
+#### Design Goal:
+Create an automated music system for live performance that reacts to a dancer's performance by creating music and visuals.
+Debut the system during 5 performances from April 18-24 2016.
 
-#### Key research questions and areas
+#### Research Questions:
+1. How should movement be captured?
+2. How should movement and sound interact?
+3. What should be automated and what should be controlled by a performer?
 
-#### Research methodology
-3 weeks of intense work followed by 2 weeks of production.
+#### Research Methodology
+I used a mixed methods approach with a research-driven iterative design methodology. Research-driven co-design methodologies allowed stakeholders to provide input to the design process.
 
-1. Stakeholder Interviews.
-  - An Post Reps.
-  - Dance Company Reps.
-  - The Artists.
+#### Research Overview
+My schedule involved 3 research and development of work followed by 2 weeks of production.
 
-2. Workshop.
-  - 2 days.
+Week 1:
+Literature Review:
+  - Get a sense of simillar work undertaken previously.
 
-3. Rapid Prototyping.
-  -
-  -
-  -
+Stakeholder Interviews.
+  - Multiple Stakeholders:
+      Audience.
+      Performers.
+      Production Company.
+      Festival.
+      Venue.
+  - Full day of interviews.
 
-3. Iterative Design Evaluations.
-  - Interviews with the users.
-  - A/B Testing for New Features
-  -
+Discovery Workshop with Performers
+  - 1 day.
+  - Understand what the seystem needs to do.
 
-4. Focus Group.
+Empathy Workshop with Performers
+    - 1 days.
+    - Understand the users needs.
 
+Began rapid prototyping.
 
+Week 2:
+
+Monday - Wednesday
+Mornings: User testing for prototype.
+Afternoons: Critique Worskshop.
+Evenings: Analysing User testing & Workshop data.
+          Implementing new design insights.
+
+Thursday:
+Focus Group & Critique Workshop:
+  - Feedback from Production Company.
+  - Feedback from Venue.
+  - Feedback from other performers.
+
+Friday:
+Critique workshop:
+  - Work in progress presented to public audience.
+  - Feedback from Audience members.
+  - Survey provided to audience.
+
+Survey:
+  - Quantitative online survey w/ video of prototype from workshop.
+
+Week 3:
+Monday - Wednesday
+Mornings: User testing for prototype.
+Afternoons: Critique Worskshop.
+Evenings: Analysing User testing, Online Survey & Workshop data.
+          Implementing new design insights.
+
+Thursday
+  Focus Group:
+  - User testing of prototype during focus group.
+
+Friday:
+  Implementing final prototype changes.
 
 #### Results: Key Insights
-  1.
-  2.
-  3.
-#### Results: Design
-  1.
-  2.
-  3.
+  A. Performers want to control exactly what music plays and when.
+  B. Performers want the system to be invisible and intelligent, not detracting from their performance.
+  C. Audiences respond to obvious links between physcial movement and musical sounds.
+  D. Audiences respond to musical sounds more positively than non-musical sounds.
 
-#### Results: Business Outcome
-  1.
-  2.
-  3.
+#### Results: Design Impact
+  A: Data captured from performers determined what music would play.
+      A1. Final prototype only plays musical cues when perfomers produce speciffic actions.
+      A2. Intial prototype always generated music regardless of actions.
+
+  B: Installed the sensors into the set.
+      B1. Final prototype used allocentric Piezoelectric sensors to detect movement and location data.
+      B2. Initial prototype used egocentric accelerometer/gyroscope/magnetomoeter sensors worn by perfomers.
+
+  C: Music designed to sound like it was being created by the performers movements on stage.
+      C1. Final prototype made clear link between movements and sounds. 
+      C2. Intial prototypes did not have clear link betwen movment and sound.
+
+  D: Used musical cues rather than sound effects.
+      D1. Final prototype made heavy use of music with little sound effects.
+      D2. Intial porototype made heavier use of sound effects.
+
+
 
 
 #### The System
