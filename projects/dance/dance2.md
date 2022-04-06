@@ -105,10 +105,6 @@ Friday:
       D2. Intial porototype made heavier use of sound effects.
 
 
-### Results: Business Impact
-
-
-
 
 #### The System
 For this project I developed an interactive music performance system that fulfilled a number of important roles in the overall production. It captured sounds produced by the dance from a series of microphones placed around the stage. This audio was then processed live and inserted into the music. The audio signal was further analysed using FFT analysis and the amplitudes across different frequency bands were used to both drive and control different parameters of the musical piece.
