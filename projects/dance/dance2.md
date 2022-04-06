@@ -68,18 +68,19 @@ Survey:
   - Quantitative online survey w/ video of prototype from workshop.
 
 #### Week 3:
-Monday - Wednesday
-Mornings: User testing for prototype.
-Afternoons: Critique Worskshop.
-Evenings: Analysing User testing, Online Survey & Workshop data.
-          Implementing new design insights.
+Monday - Wednesday.
+- Mornings: User testing for prototype.
+- Afternoons: Critique Worskshop.
+- Evenings:
+    - Analysing User testing, Online Survey & Workshop data.
+    - Implementing new design insights.
 
 Thursday
   Focus Group:
   - User testing of prototype during focus group.
 
 Friday:
-  Implementing final prototype changes.
+  - Implementing final prototype changes.
 
 ### Results: Key Insights
   A. Performers want to control exactly what music plays and when.
