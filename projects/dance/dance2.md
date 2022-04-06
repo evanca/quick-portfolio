@@ -27,20 +27,20 @@ Literature Review:
 
 Stakeholder Interviews.
   - Multiple Stakeholders:
-      Audience.
-      Performers.
-      Production Company.
-      Festival.
-      Venue.
+      - Audience.
+      - Performers.
+      - Production Company.
+      - Festival.
+      - Venue.
   - Full day of interviews.
 
 Discovery Workshop with Performers
   - 1 day.
   - Understand what the seystem needs to do.
 
-Empathy Workshop with Performers
-    - 1 days.
-    - Understand the users needs.
+Empathy Workshop with Performers.
+  - 1 day.
+  - Understand the users needs.
 
 Began rapid prototyping.
 
