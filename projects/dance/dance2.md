@@ -1,24 +1,24 @@
-### Dance Projects
+## Dance Projects
 
-#### Fógraím / I Proclaim: Project Overview
+### Fógraím / I Proclaim: Project Overview
 In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/I Proclaim with dancer/choreographer Sibéal Davitt and writer Tristan Rosenstock for 'Embodied at the GPO'. This was a series of six new dance solos by Irish-based female choreographers that were performed inside the GPO to mark the role played by Women the 1916 rising. The pieces were commissioned by An Post's 'GPO Witness History' and the Dublin Dance Festival.
 
 <img src="images/2.jpg?raw=true"/><br/>
 
 
-#### Design Goal:
+### Design Goal:
 Create an automated music system for live performance that reacts to a dancer's performance by creating music and visuals.
 Debut the system during 5 performances from April 18-24 2016.
 
-#### Research Questions:
+### Research Questions:
 1. How should movement be captured?
 2. How should movement and sound interact?
 3. What should be automated and what should be controlled by a performer?
 
-#### Research Methodology
+### Research Methodology
 I used a mixed methods approach with a research-driven iterative design methodology. Research-driven co-design methodologies allowed stakeholders to provide input to the design process.
 
-#### Research Overview
+### Research Overview
 My schedule involved 3 research and development of work followed by 2 weeks of production.
 
 Week 1:
@@ -81,13 +81,13 @@ Thursday
 Friday:
   Implementing final prototype changes.
 
-#### Results: Key Insights
+### Results: Key Insights
   A. Performers want to control exactly what music plays and when.
   B. Performers want the system to be invisible and intelligent, not detracting from their performance.
   C. Audiences respond to obvious links between physcial movement and musical sounds.
   D. Audiences respond to musical sounds more positively than non-musical sounds.
 
-#### Results: Design Impact
+### Results: Design Impact
   A: Data captured from performers determined what music would play.
       A1. Final prototype only plays musical cues when perfomers produce speciffic actions.
       A2. Intial prototype always generated music regardless of actions.
@@ -97,7 +97,7 @@ Friday:
       B2. Initial prototype used egocentric accelerometer/gyroscope/magnetomoeter sensors worn by perfomers.
 
   C: Music designed to sound like it was being created by the performers movements on stage.
-      C1. Final prototype made clear link between movements and sounds. 
+      C1. Final prototype made clear link between movements and sounds.
       C2. Intial prototypes did not have clear link betwen movment and sound.
 
   D: Used musical cues rather than sound effects.
