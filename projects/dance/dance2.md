@@ -5,6 +5,52 @@ In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/
 
 <img src="images/2.jpg?raw=true"/><br/>
 
+
+#### Research Goal:
+The goal was to create
+
+#### Key research questions and areas
+
+#### Research methodology
+3 weeks of intense work followed by 2 weeks of production.
+
+1. Stakeholder Interviews.
+  - An Post Reps.
+  - Dance Company Reps.
+  - The Artists.
+
+2. Workshop.
+  - 2 days.
+
+3. Rapid Prototyping.
+  -
+  -
+  -
+
+3. Iterative Design Evaluations.
+  - Interviews with the users.
+  - A/B Testing for New Features
+  -
+
+4. Focus Group.
+
+
+
+#### Results: Key Insights
+  1.
+  2.
+  3.
+#### Results: Design
+  1.
+  2.
+  3.
+
+#### Results: Business Outcome
+  1.
+  2.
+  3.
+
+
 #### The System
 For this project I developed an interactive music performance system that fulfilled a number of important roles in the overall production. It captured sounds produced by the dance from a series of microphones placed around the stage. This audio was then processed live and inserted into the music. The audio signal was further analysed using FFT analysis and the amplitudes across different frequency bands were used to both drive and control different parameters of the musical piece.
 The system also allowed me to improvise musical elements live each night while incorporating further musical elements that had been composed prior to the performance. To further enrich the performance I developed a generative music component. This would would react to the audio signals from the mics and to the music I was performing live by generating musical materials (novel melodies and harmonic content) to reflect and support the dance at different points in a performance. The overall result is a vibrant and dynamic musical soundscape that reacts in real-time to the sounds created by the dancer.
@@ -34,7 +80,7 @@ In 2017 I was commissioned to work on a second project that expanded on Fógraí
 <img src="images/hear-this-dance-1.jpg?raw=true"/><br/>
 
 ### Research & Development Process
-I used a similar participatory design process as before. I would present a prototype to my collaborators during a session and incorporate their feedback and ideas using rapid prototyping techniques. I gained more general audience feedback through public showings we did in June and September as well as more informal feedback sessions with colleagues and friends.
+I used a similar participatory design process ass before. I would present a prototype to my collaborators during a session and incorporate their feedback and ideas using rapid prototyping techniques. I gained more general audience feedback through public showings we did in June and September as well as more informal feedback sessions with colleagues and friends.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WWRnM_9cv9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
