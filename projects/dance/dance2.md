@@ -5,6 +5,7 @@ In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/
 
 <img src="images/2.jpg?raw=true"/><br/>
 
+### Client/Partners: Sibéal Davitt & Liz Roche Dance Company.
 
 ### Design Goal:
 Create an automated music system for live performance that reacts to a dancer's performance by creating music and visuals.
@@ -35,13 +36,16 @@ Stakeholder Interviews.
       - Production Company.
       - Festival.
       - Venue.
-Full day of interviews.
+
+Full day of Interviews.
 
 Discovery Workshop with Performers
   - Understand what the system needs to do.
+  - 1 day.
 
 Empathy Workshop with Performers.
   - Understand the users needs.
+  - 1 day.
 
 Began rapid prototyping.
 
