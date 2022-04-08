@@ -32,7 +32,7 @@
 <a href="/projects/ML_HCI/ML_HCI">
 <img src="images/tabs/AItab.png?raw=true"/>
 </a>
-
+ 
 [Embodied Sonification](/projects/embodied_sonification/embodied_sonification)<br />
 <a href="/projects/embodied_sonification/embodied_sonification">
 <img src="images/tabs/EStab.png?raw=true"/>
