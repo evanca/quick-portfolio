@@ -1,24 +1,25 @@
 ## The Zones Project
 
 ### Project at a Glance
-Zones was collaborative project between Alan Dormer, Black Bear Software and myself.
-It involved the development two mobile-based Augmented Reality (AR) installations. AR enriches and enhances our experience of real-world environments by overlaying new perceptual information that seamlessly integrates into our experience of an environment in realtime. This combination of the real and virtual worlds opens up new interactive and experiential possibilities.
+Zones was collaborative project I undertook with Black Bear Software.
+It involved the development of two mobile-based Augmented Reality (AR) installations.
+AR enriches and enhances our experience of real-world environments by overlaying new perceptual information that seamlessly integrates into our experience of an environment in realtime. This combination of the real and virtual worlds opens up new interactive and experiential possibilities.
 
-### Client/Partners: Black Bear Software
+### Client/Partners/Stakeholders: Black Bear Software
 <img src="images/bb.png?raw=true"/><br/>
 
-
-### Research & Design Goal:
-Overarching question: Can auditory display solutions present complex information in an intuitive manner in the context of IoT network monitoring tasks?
+### Design Goal:
+The goal was to showcase the technology that had been developed by the company by creating AR unique experiences that could not be created any other way.
 
 ### Research Questions:
-1. How can we best represent complex IoT data with sound?
-2. How useful can sound be for understanding data of this nature?
+1. How can we best demonstrate the value of the technology?
+2. How can we create immersive experiences for an audience?
 3. What sounds should be used for different IoT data types and in what contexts?
 
 ### Research Methodology
-After an initial literature review I used stakeholder interviews and surveys to generate both qualitative and quantitative data describing user needs. This was supplemented with further insights from interviews with external experts before beginning rapid prototyping and employing evaluative research techniques to drive an iterative design process.
+<img src="images/plan.png?raw=true"/><br/>
 
+The approach here was design focused. Initial needs were gathered with the company before the focus shifted to an iterative design process led by research insights.
 
 ### Results: Key Insights
 - A. System should present an overview of the systems 'health'.
