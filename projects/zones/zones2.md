@@ -6,7 +6,7 @@ It involved the development two mobile-based Augmented Reality (AR) installation
 
 ### Client/Partners: Black Bear Software
 
-### Research Goal:
+### Research & Design Goal:
 Overarching question: Can auditory display solutions present complex information in an intuitive manner in the context of IoT network monitoring tasks?
 
 ### Research Questions:
