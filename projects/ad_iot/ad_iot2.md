@@ -1,4 +1,4 @@
-describing### Auditory Display for Large-scale Internet of Things (IoT) Networks.
+### Auditory Display for Large-scale Internet of Things (IoT) Networks.
 
 #### Project Description
 
@@ -22,27 +22,26 @@ After an initial literature review I used stakeholder interviews and surveys to 
 <img src="images/Gantt.png?raw=true"/><br/>
 
 ### Results: Key Insights
-- A. System should present an overview of the systems 'health'. the overall state of the network highlight where probelms are arising. Visual reps can then be used to pin point exact issues.
+- A. System should present an overview of the systems 'health'. the overall state of the network highlight where problems are arising. Visual reps can then be used to pin point exact issues.
 - B. Should be intuitive and unobtrusive.
 - C. Use a mixture of sound and music.
 - D. Be heavily automated.
 
-
 ### Results: Design Impact
 A: System should present an overview of the systems 'health'.
-- A1. Later prototype allows users to highlight problem areas in the network quickly.
+- A1. Later prototypes allow users to highlight problem areas in the network quickly.
 - A2. Early prototypes prototype was very detailed and hard to interpret.
 
 B: Should be intuitive and unobtrusive.
-- B1. Later prototypes designed for passive listening with on intuitive design principles.
-- B2. Early prototypes designed for active listening with less intuitiv design.
+- B1. Later prototypes designed for passive listening with intuitive design principles.
+- B2. Early prototypes designed for active listening and require greater user training.
 
 C: Use a mixture of sound and music.
 - C1. Later prototypes integrate both musical and non-musical sounds.
-- C2. Early prototypes was purely non-musical.
+- C2. Early prototypes were purely non-musical.
 
 D: Be heavily automated.
-- D1. Final prototypes integrated automation and using machine-learning principles.
+- D1. Final prototypes integrated automation and used machine-learning principles.
 - D2. Early prototypes required more user attention and interaction.
 
 
