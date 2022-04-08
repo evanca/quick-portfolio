@@ -8,6 +8,8 @@ AR enriches and enhances our experience of real-world environments by overlaying
 ### Client/Partners/Stakeholders:
 <img src="images/bb.png?raw=true"/><br/>
 <img src="images/issta.png?raw=true"/><br/>
+<img src="images/digi E.png?raw=true"/><br/>
+
 
 ### Design Goal:
 The goal was to use the technology that had been developed by the company to create uniquely immersive AR experiences.
