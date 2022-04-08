@@ -19,7 +19,7 @@ After an initial literature review I used stakeholder interviews and surveys to 
 <img src="images/Gantt.png?raw=true"/><br/>
 
 ### Results: Key Insights
-- A. System should present an overview of the systems 'health'. the overall state of the network highlight where problems are arising. Visual reps can then be used to pin point exact issues.
+- A. System should present an overview of the systems 'health'. 
 - B. Should be intuitive and unobtrusive.
 - C. Use a mixture of sound and music.
 - D. Be heavily automated.
