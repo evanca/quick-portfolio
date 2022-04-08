@@ -9,42 +9,43 @@ AR enriches and enhances our experience of real-world environments by overlaying
 <img src="images/bb.png?raw=true"/><br/>
 <img src="images/issta.png?raw=true"/><br/>
 
-
 ### Design Goal:
-The goal was to showcase the technology that had been developed by the company by creating AR unique experiences that could not be created any other way.
+The goal was to use the technology that had been developed by the company to create uniquely immersive AR experiences.
 
 ### Research Questions:
-1. How can we best demonstrate the value of the technology?
-2. How can we create immersive experiences for an audience?
-3. What sounds should be used for different IoT data types and in what contexts?
+1. What is the best way to set up the physical hardware in the space?
+2. How should we design the mobile application to support immersion?
+3. What role should sound play and what role should visuals play?
 
 ### Research Methodology
 <img src="images/plan.png?raw=true"/><br/>
 
 The approach here was design focused. Initial needs were gathered with the company and ideas weredeveloped in a workshop session. I then designed a prototype and shifted to a research-led iterative design process. Two key sets of stakeholders had to be accounted for here. The company involved and the audience at the events where the experiencs would be installed.  
 
+<img src="images/ins1.png?raw=true"/><br/>
+
 ### Results: Key Insights
-- A. System should present an overview of the systems 'health'.
-- B. Should be intuitive and unobtrusive.
-- C. Use a mixture of sound and music.
-- D. Be heavily automated.
+- A. Delivering sound and visuals via the mobile app makes for a more immersive, personal experience.
+- B. Allow users to discover points of interest in the space through exploration.
+- C. Sound should support exploration, visuals should reveal newly discovered information.
+
+<img src="images/ins1b.png?raw=true"/><br/>
 
 ### Results: Design Impact
-A: System should present an overview of the systems 'health'.
-- A1. Later prototypes allow users to highlight problem areas in the network quickly. Visual graphs can be used  to examine details later.
-- A2. Early prototypes prototype was very detailed and hard to interpret.
+A: Delivering sound and visuals via the mobile app makes for a more immersive experience.
+- A1. Later prototypes allow users to use earphones to listen and to view imagery on their smart devices.
+- A2. Early prototypes presented imagery on screens in the space and sound via speakers in the space.
 
-B: Should be intuitive and unobtrusive.
-- B1. Later prototypes designed for passive listening with intuitive design principles.
-- B2. Early prototypes designed for active listening and require greater user training.
+B: Allow users to discover points of interest in the space through exploration.
+- B1. Later prototypes supported exploration and play.
+- B2. Early prototypes led listeneres through the experience like a tour.
 
-C: Use a mixture of sound and music.
-- C1. Later prototypes integrate both musical and non-musical sounds.
-- C2. Early prototypes were purely non-musical.
+C: Sound should support exploration, visuals should reveal newly discovered information.
+- C1. Later prototypes used sound for way-finding and visuals to present information .
+- C2. Early prototypes used visual wayfinding and sound was used for aesthetics only.
 
-D: Be heavily automated.
-- D1. Final prototypes integrated automation and used machine-learning principles.
-- D2. Early prototypes required more user attention and interaction.
+
+<img src="images/in2.png?raw=true"/><br/>
 
 
 ### Detailed Overview
