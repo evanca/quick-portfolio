@@ -19,14 +19,15 @@ After an initial literature review I used stakeholder interviews and surveys to 
 <img src="images/Gantt.png?raw=true"/><br/>
 
 ### Results: Key Insights
-- A. System should present an overview of the systems 'health'. 
+- A. System should present an overview of the systems 'health'.
 - B. Should be intuitive and unobtrusive.
 - C. Use a mixture of sound and music.
 - D. Be heavily automated.
 
 ### Results: Design Impact
 A: System should present an overview of the systems 'health'.
-- A1. Later prototypes allow users to highlight problem areas in the network quickly.
+- A1. Later prototypes allow users to highlight problem areas in the network quickly. Visual graphs can be used  to examine details later.
+
 - A2. Early prototypes prototype was very detailed and hard to interpret.
 
 B: Should be intuitive and unobtrusive.
