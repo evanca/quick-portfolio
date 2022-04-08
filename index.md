@@ -8,12 +8,12 @@
 <img src="images/tabs/ADIOTtab3.png?raw=true"/>
 </a>
 
-[Dance Projects](/projects/dance/dance)<br />
+[Dance Projects](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiVUVvaXlMdWRvZnRzMlcyWllMSHdSSGdWdk9hb2pHZFQraTdwendWcGxUTDRRZ1FQb1hXT2NGK3RoV3VqSTJPbDI3d1cxYnJheXVmdkhkbXpRc1J5cHlaWmtDMD0iLCJpIjoiaUNQYUppOVRxbzBZclp1ayJ9)<br />
 <a href="/projects/dance/dance">
 <img src="images/tabs/DANCEtab.png?raw=true"/>
 </a>
 
-[The Zones Project](/projects/zones/zones)<br />
+[The Zones Project](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiUksrS0xkczdIZWMzS3lhMVpXd0RDcm1YUjFJNy96dWR1ZkMxRVRIM3ZHZnJESkVSTjFCaEVkVnR2MnkzQTVEVEJhSXR0QUw3bFdEcHpqc0FlTnZIQWZualA3bz0iLCJpIjoiREFGSDJEUnN5MFZhRk8wcCJ9)<br />
 <a href="/projects/zones/zones">
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
 </a>
