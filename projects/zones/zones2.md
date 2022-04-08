@@ -5,8 +5,10 @@ Zones was collaborative project I undertook with Black Bear Software.
 It involved the development of two mobile-based Augmented Reality (AR) installations.
 AR enriches and enhances our experience of real-world environments by overlaying new perceptual information that seamlessly integrates into our experience of an environment in realtime. This combination of the real and virtual worlds opens up new interactive and experiential possibilities.
 
-### Client/Partners/Stakeholders: Black Bear Software
+### Client/Partners/Stakeholders:
 <img src="images/bb.png?raw=true"/><br/>
+<img src="images/issta.png?raw=true"/><br/>
+
 
 ### Design Goal:
 The goal was to showcase the technology that had been developed by the company by creating AR unique experiences that could not be created any other way.
@@ -19,7 +21,7 @@ The goal was to showcase the technology that had been developed by the company b
 ### Research Methodology
 <img src="images/plan.png?raw=true"/><br/>
 
-The approach here was design focused. Initial needs were gathered with the company before the focus shifted to an iterative design process led by research insights.
+The approach here was design focused. Initial needs were gathered with the company and ideas weredeveloped in a workshop session. I then designed a prototype and shifted to a research-led iterative design process. Two key sets of stakeholders had to be accounted for here. The company involved and the audience at the events where the experiencs would be installed.  
 
 ### Results: Key Insights
 - A. System should present an overview of the systems 'health'.
