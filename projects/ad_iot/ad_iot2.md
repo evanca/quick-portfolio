@@ -4,11 +4,9 @@
 
 Auditory Display for Large Scale IoT Networks was a Postdoctoral project I undertook at CONNECT, the Science Foundation Ireland Research Centre for Future Networks headquartered at Trinity College Dublin. The project was funded by an Irish Research Council Government of Ireland Postdoctoral Research Fellowship.
 
-
 ### Client/Partners: ####Pervasive Nation -  Ireland's Internet of Things Testbed.
 
 <img src="images/pn.png?raw=true"/><br/>
-
 
 ### Research Goal:
 Overarching question: Can auditory display solutions present complex information in an intuitive manner in the context of IoT network monitoring tasks?
