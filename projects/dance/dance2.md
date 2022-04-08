@@ -1,6 +1,6 @@
 ## Dance Projects
 
-### Fógraím / I Proclaim: Project Overview
+### Project at a Glance
 In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/I Proclaim with dancer/choreographer Sibéal Davitt and writer Tristan Rosenstock for 'Embodied at the GPO'. This was a series of six new dance solos by Irish-based female choreographers that were performed inside the GPO to mark the role played by Women the 1916 rising. The pieces were commissioned by An Post's 'GPO Witness History' and the Dublin Dance Festival.
 
 <img src="images/2.jpg?raw=true"/><br/>
@@ -21,7 +21,7 @@ I used a mixed methods approach with a research-driven iterative design methodol
 ### Research Overview
 My schedule involved 3 research and development of work followed by 2 weeks of production.
 
-#### Detailed Schedule
+### Detailed Schedule
 #### Week 1:
 Literature Review:
   - Get a sense of simillar work undertaken previously.
@@ -108,8 +108,7 @@ D: Used musical cues rather than sound effects.
 - D1. Final prototype made heavy use of music with little sound effects.
 - D2. Intial porototype made heavier use of sound effects.
 
-### Detailed
-
+### Detailed Overview: Fógraím / I Proclaim
 #### Iteration 1
 For this project I developed an interactive music performance system that fulfilled a number of important roles in the overall production. It captured sounds produced by the dance from a series of microphones and piezoelectric sensors placed in an allocentric configuration around the stage. This audio was then processed live and inserted into the music. The audio signal was further analysed using FFT analysis and the amplitudes across different frequency bands were used to both drive and control different parameters of the musical piece.
 The system also allowed me to improvise musical elements live each night while incorporating further musical elements that had been composed prior to the performance. To further enrich the performance I developed a generative music component. This would would react to the audio signals from the mics and to the music I was performing live by generating musical materials (novel melodies and harmonic content) to reflect and support the dance at different points in a performance. The overall result is a vibrant and dynamic musical soundscape that reacts in real-time to the sounds created by the dancer.

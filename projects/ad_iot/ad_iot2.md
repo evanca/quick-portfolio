@@ -1,22 +1,19 @@
-### Auditory Display for Large-scale Internet of Things (IoT) Networks.
+## Auditory Display for Large-scale Internet of Things (IoT) Networks.
 
-#### Project Description
+### Project at a Glance
 
 Auditory Display for Large Scale IoT Networks was a Postdoctoral project I undertook at CONNECT, the Science Foundation Ireland Research Centre for Future Networks headquartered at Trinity College Dublin. The project was funded by an Irish Research Council Government of Ireland Postdoctoral Research Fellowship.
 
 
-#### Design Goal:
-
+### Design Goal:
 Overarching question: Can auditory display solutions present complex information in an intuitive manner in the context of IoT network monitoring tasks?
 
-Research Questions:
-
+### Research Questions:
 1. How can we best represent complex IoT data with sound?
 2. How useful can sound be for understanding data of this nature?
 3. What sounds should be used for different IoT data types and in what contexts?
 
-#### Research Methodology
-
+### Research Methodology
 After an initial literature review I used stakeholder interviews and surveys to generate both qualitative and quantitative data describing user needs. This was supplemented with further insights from interviews with external experts before beginning rapid prototyping and employing evaluative research techniques to drive an iterative design process.
 
 <img src="images/Gantt.png?raw=true"/><br/>
@@ -45,6 +42,7 @@ D: Be heavily automated.
 - D2. Early prototypes required more user attention and interaction.
 
 
+### Detailed Overview
 #### Research Process.
 
 This project was driven by the overarching research question: Can auditory display solutions present complex information in an intuitive manner in the context of IoT network monitoring tasks?. To answer this I began by talking to users who work with IoT networks, experts in the fields of IoT and Auditory Display and I also consulted the academic literature more generally.I broke the research question into smaller pieces: How can we best represent complex IoT data with sound? How useful can sound be for understanding data of this nature? What sounds should be used for different IoT data types and in what contexts? etc.
