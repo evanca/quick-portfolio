@@ -21,6 +21,8 @@ I used a mixed methods approach with a research-driven iterative design methodol
 ### Research Overview
 My schedule involved 3 research and development of work followed by 2 weeks of production.
 
+<img src="images/research2.png?raw=true"/><br/>
+
 ### Detailed Schedule
 #### Week 1:
 Literature Review:

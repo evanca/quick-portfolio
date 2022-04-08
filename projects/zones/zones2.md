@@ -1,55 +1,47 @@
-### The Zones Project
+## The Zones Project
 
-#### Project Description
+### Project at a Glance
 Zones was collaborative project between Alan Dormer, Black Bear Software and myself.
 It involved the development two mobile-based Augmented Reality (AR) installations. AR enriches and enhances our experience of real-world environments by overlaying new perceptual information that seamlessly integrates into our experience of an environment in realtime. This combination of the real and virtual worlds opens up new interactive and experiential possibilities.
 
+### Research Goal:
+Overarching question: Can auditory display solutions present complex information in an intuitive manner in the context of IoT network monitoring tasks?
 
-#### Research Goal:
-The goal was to create
+### Research Questions:
+1. How can we best represent complex IoT data with sound?
+2. How useful can sound be for understanding data of this nature?
+3. What sounds should be used for different IoT data types and in what contexts?
 
-#### Key research questions and areas
+### Research Methodology
+After an initial literature review I used stakeholder interviews and surveys to generate both qualitative and quantitative data describing user needs. This was supplemented with further insights from interviews with external experts before beginning rapid prototyping and employing evaluative research techniques to drive an iterative design process.
 
-#### Research methodology
+<img src="images/Gantt.png?raw=true"/><br/>
 
-1. Stakeholder Interviews.
-  - Black Bear Software
-  - The Artists.
+### Results: Key Insights
+- A. System should present an overview of the systems 'health'.
+- B. Should be intuitive and unobtrusive.
+- C. Use a mixture of sound and music.
+- D. Be heavily automated.
 
-2. Focus Group.
-  - 2 days.
+### Results: Design Impact
+A: System should present an overview of the systems 'health'.
+- A1. Later prototypes allow users to highlight problem areas in the network quickly. Visual graphs can be used  to examine details later.
+- A2. Early prototypes prototype was very detailed and hard to interpret.
 
-3. Rapid Prototyping.
-  -
-  -
-  -
+B: Should be intuitive and unobtrusive.
+- B1. Later prototypes designed for passive listening with intuitive design principles.
+- B2. Early prototypes designed for active listening and require greater user training.
 
-3. Iterative Design Evaluations.
-  - Interviews with the users.
-  - A/B Testing for New Features
-  -
+C: Use a mixture of sound and music.
+- C1. Later prototypes integrate both musical and non-musical sounds.
+- C2. Early prototypes were purely non-musical.
 
-4. Focus Group.
-
-
-
-#### Results: Key Insights
-  1.
-  2.
-  3.
-#### Results: Design
-  1.
-  2.
-  3.
-
-#### Results: Business Outcome
-  1.
-  2.
-  3.
+D: Be heavily automated.
+- D1. Final prototypes integrated automation and used machine-learning principles.
+- D2. Early prototypes required more user attention and interaction.
 
 
-
-
+### Detailed Overview
 #### How it Works
 We created two location/proximity-aware installations that were delivered over mobile devices with headphones. The system was driven by a mobile phone application interacting with a Bluetooth (BLE 4.0) beacon infrastructure. The system mapped audio and images to specific locations within the environments. Participants could then navigate through the spaces and the sounds they were hearing and images they were seeing over the app would change depending on the route they took through the environment.  
 
