@@ -21,6 +21,7 @@ Research Questions:
 
 I used a mixed methods approach with a research-driven iterative design methodology. Research-driven co-design methodologies allowed stakeholders to provide input to the design process.
 
+<img src="images/Gantt.png?raw=true"/><br/>
 
 
 
