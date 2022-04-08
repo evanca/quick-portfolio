@@ -24,7 +24,7 @@ My schedule involved 3 research and development of work followed by 2 weeks of p
 ### Detailed Schedule
 #### Week 1:
 Literature Review:
-  - Get a sense of simillar work undertaken previously.
+  - Get a sense of similar work undertaken previously.
 
 Stakeholder Interviews.
   - Multiple Stakeholders:
@@ -36,11 +36,9 @@ Stakeholder Interviews.
 Full day of interviews.
 
 Discovery Workshop with Performers
-  - 1 day.
-  - Understand what the seystem needs to do.
+  - Understand what the system needs to do.
 
 Empathy Workshop with Performers.
-  - 1 day.
   - Understand the users needs.
 
 Began rapid prototyping.
@@ -49,7 +47,7 @@ Began rapid prototyping.
 
 ##### Monday - Wednesday
 - Mornings: User testing for prototype.
-- Afternoons: Critique Worskshop.
+- Afternoons: Critique Workshop.
 - Evenings: Analysing User testing & Workshop data.
           Implementing new design insights.
 
@@ -73,7 +71,7 @@ Survey:
 Mornings:
 - User testing for prototype.
 Afternoons:
-- Critique Worskshop.
+- Critique Workshop.
 Evenings:
 - Analysing User testing, Online Survey & Workshop data.
   - Implementing new design insights.
@@ -93,16 +91,16 @@ Focus Group:
 
 ### Results: Design Impact
 A: Data captured from performers determined what music would play.
-- A1. Final prototype only plays musical cues when perfomers produce speciffic actions.
-- A2. Intial prototype always generated music regardless of actions.
+- A1. Final prototype only plays musical cues when performers produce specific actions.
+- A2. Initial prototype always generated music regardless of actions.
 
 B: Installed the sensors into the set.
 - B1. Final prototype used allocentric piezoelectric sensors to detect movement and location data.
-- B2. Initial prototype used egocentric accelerometer/gyroscope/magnetomoeter sensors worn by perfomers.
+- B2. Initial prototype used egocentric accelerometer/gyroscope/magnetometer sensors worn by performers.
 
 C: Music designed to sound like it was being created by the performers movements on stage.
 - C1. Final prototype made clear link between movements and sounds.
-- C2. Intial prototypes did not have clear link betwen movment and sound.
+- C2. Initial prototypes did not have clear link between movement and sound.
 
 D: Used musical cues rather than sound effects.
 - D1. Final prototype made heavy use of music with little sound effects.
