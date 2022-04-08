@@ -17,10 +17,10 @@ Debut the system during 5 performances from April 18-24 2016.
 3. What should be automated and what should be controlled by a performer?
 
 ### Research Methodology
-I used a mixed methods approach with a research-driven iterative design methodology. Research-driven co-design methodologies allowed stakeholders to provide input to the design process.
+I used a mixed-methods approach with a research-driven iterative design methodology. Research-driven co-design methodologies allowed stakeholders to provide input to the design process.
 
 ### Research Overview
-My schedule involved 3 research and development of work followed by 2 weeks of production.
+My schedule involved 3 weeks of research and development work followed by 2 weeks of production.
 
 <img src="images/research2.png?raw=true"/><br/>
 
@@ -104,7 +104,7 @@ B: Installed the sensors into the set.
 - B1. Final prototype used allocentric piezoelectric sensors to detect movement and location data.
 - B2. Initial prototype used egocentric accelerometer/gyroscope/magnetometer sensors worn by performers.
 
-C: Music designed to sound like it was being created by the performers movements on stage.
+C: Music designed to sound like it was being created by the performers' movements on stage.
 - C1. Final prototype made clear link between movements and sounds.
 - C2. Initial prototypes did not have clear link between movement and sound.
 

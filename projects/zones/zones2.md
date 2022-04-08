@@ -1,9 +1,9 @@
 ## The Zones Project
 
 ### Project at a Glance
-Zones was collaborative project I undertook with Black Bear Software.
+Zones was a collaborative project I undertook with Black Bear Software.
 It involved the development of two mobile-based Augmented Reality (AR) installations.
-AR enriches and enhances our experience of real-world environments by overlaying new perceptual information that seamlessly integrates into our experience of an environment in realtime. This combination of the real and virtual worlds opens up new interactive and experiential possibilities.
+AR enriches and enhances our experience of real-world environments by overlaying new perceptual information that seamlessly integrates into our experience of an environment in real time. This combination of the real and virtual worlds opens up new interactive and experiential possibilities.
 
 ### Client/Partners/Stakeholders:
 <img src="images/bb.png?raw=true"/><br/>
@@ -22,7 +22,7 @@ The goal was to use the technology that had been developed by the company to cre
 ### Research Methodology
 <img src="images/plan.png?raw=true"/><br/>
 
-The approach here was design focused. Initial needs were gathered with the company and ideas weredeveloped in a workshop session. I then designed a prototype and shifted to a research-led iterative design process. Two key sets of stakeholders had to be accounted for here. The company involved and the audience at the events where the experiencs would be installed.  
+The approach here was design focused. Initial needs were gathered with the company and ideas were developed in a workshop session. I then designed a prototype and shifted to a research-led iterative design process. Two key sets of stakeholders had to be accounted for here. The company involved and the audience at the events where the experiences would be installed.  
 
 <img src="images/ins1.png?raw=true"/><br/>
 
@@ -40,10 +40,10 @@ A: Delivering sound and visuals via the mobile app makes for a more immersive ex
 
 B: Allow users to discover points of interest in the space through exploration.
 - B1. Later prototypes supported exploration and play.
-- B2. Early prototypes led listeneres through the experience like a tour.
+- B2. Early prototypes led listeners through the experience like a tour.
 
 C: Sound should support exploration, visuals should reveal newly discovered information.
-- C1. Later prototypes used sound for way-finding and visuals to present information .
+- C1. Later prototypes used sound for way-finding and visuals to present information.
 - C2. Early prototypes used visual wayfinding and sound was used for aesthetics only.
 
 

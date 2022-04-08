@@ -30,7 +30,7 @@ After an initial literature review I used stakeholder interviews and surveys to 
 ### Results: Design Impact
 A: System should present an overview of the systems 'health'.
 - A1. Later prototypes allow users to highlight problem areas in the network quickly. Visual graphs can be used  to examine details later.
-- A2. Early prototypes prototype was very detailed and hard to interpret.
+- A2. Early prototypes were very detailed and hard to interpret.
 
 B: Should be intuitive and unobtrusive.
 - B1. Later prototypes designed for passive listening with intuitive design principles.
