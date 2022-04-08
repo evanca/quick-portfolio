@@ -1,4 +1,4 @@
-### Auditory Display for Large-scale Internet of Things (IoT) Networks.
+describing### Auditory Display for Large-scale Internet of Things (IoT) Networks.
 
 #### Project Description
 
@@ -12,17 +12,38 @@ Overarching question: Can auditory display solutions present complex information
 Research Questions:
 
 1. How can we best represent complex IoT data with sound?
-
 2. How useful can sound be for understanding data of this nature?
-
 3. What sounds should be used for different IoT data types and in what contexts?
 
 #### Research Methodology
 
-I used a mixed methods approach with a research-driven iterative design methodology. Research-driven co-design methodologies allowed stakeholders to provide input to the design process.
+After an initial literature review I used stakeholder interviews and surveys to generate both qualitative and quantitative data describing user needs. This was supplemented with further insights from interviews with external experts before beginning rapid prototyping and employing evaluative research techniques to drive an iterative design process.
 
 <img src="images/Gantt.png?raw=true"/><br/>
 
+### Results: Key Insights
+- A. System should present an overview of the systems 'health'. the overall state of the network highlight where probelms are arising. Visual reps can then be used to pin point exact issues.
+- B. Should be intuitive and unobtrusive.
+- C. Use a mixture of sound and music.
+- D. Be heavily automated.
+
+
+### Results: Design Impact
+A: System should present an overview of the systems 'health'.
+- A1. Later prototype allows users to highlight problem areas in the network quickly.
+- A2. Early prototypes prototype was very detailed and hard to interpret.
+
+B: Should be intuitive and unobtrusive.
+- B1. Later prototypes designed for passive listening with on intuitive design principles.
+- B2. Early prototypes designed for active listening with less intuitiv design.
+
+C: Use a mixture of sound and music.
+- C1. Later prototypes integrate both musical and non-musical sounds.
+- C2. Early prototypes was purely non-musical.
+
+D: Be heavily automated.
+- D1. Final prototypes integrated automation and using machine-learning principles.
+- D2. Early prototypes required more user attention and interaction.
 
 
 #### Research Process.

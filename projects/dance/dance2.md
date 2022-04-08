@@ -18,9 +18,10 @@ Debut the system during 5 performances from April 18-24 2016.
 ### Research Methodology
 I used a mixed methods approach with a research-driven iterative design methodology. Research-driven co-design methodologies allowed stakeholders to provide input to the design process.
 
-### Research Schedule
+### Research Overview
 My schedule involved 3 research and development of work followed by 2 weeks of production.
 
+#### Detailed Schedule
 #### Week 1:
 Literature Review:
   - Get a sense of simillar work undertaken previously.
@@ -109,7 +110,7 @@ D: Used musical cues rather than sound effects.
 
 ### Detailed
 
-#### The System
+#### Iteration 1
 For this project I developed an interactive music performance system that fulfilled a number of important roles in the overall production. It captured sounds produced by the dance from a series of microphones and piezoelectric sensors placed in an allocentric configuration around the stage. This audio was then processed live and inserted into the music. The audio signal was further analysed using FFT analysis and the amplitudes across different frequency bands were used to both drive and control different parameters of the musical piece.
 The system also allowed me to improvise musical elements live each night while incorporating further musical elements that had been composed prior to the performance. To further enrich the performance I developed a generative music component. This would would react to the audio signals from the mics and to the music I was performing live by generating musical materials (novel melodies and harmonic content) to reflect and support the dance at different points in a performance. The overall result is a vibrant and dynamic musical soundscape that reacts in real-time to the sounds created by the dancer.
 
@@ -131,14 +132,13 @@ The performances ran from the 20th-22nd of April and sold out each night and was
 - [Examiner Review](/files/examiner.pdf)
 - [TN2 Review](https://www.tn2magazine.ie/embodied-review/)
 
-
 ### Iteration 2: The 'Hear This Dance' System
 In 2017 I was commissioned to work on a second project that expanded on Fógraím/I Proclaim during a residency in Dance Ireland. The piece was entitled 'Hear this Dance'. The team this time around included Sibéal Davitt covering choreography and dance, Niall Vallely on concertina and myself. The goal this time around was to expand on the system I created for the GPO shows to perform and new piece. This new system needed to support a second musician and expand on their performance. It also had to allow the dancer to record and loop her steps. These loops could then be used as musical materials in the piece. My updated system accounted for these new additions and also allowed me greater control over the musical content generated.
 
 <img src="images/hear-this-dance-1.jpg?raw=true"/><br/>
 
 ### Research & Development Process
-I used a similar participatory design process ass before. I would present a prototype to my collaborators during a session and incorporate their feedback and ideas using rapid prototyping techniques. I gained more general audience feedback through public showings we did in June and September as well as more informal feedback sessions with colleagues and friends.
+I used a similar participatory design process as before. I would present a prototype to my collaborators during a session and incorporate their feedback and ideas using rapid prototyping techniques. I gained more general audience feedback through public showings we did in June and September as well as more informal feedback sessions with colleagues and friends.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WWRnM_9cv9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
