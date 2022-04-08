@@ -4,7 +4,7 @@
 Zones was collaborative project between Alan Dormer, Black Bear Software and myself.
 It involved the development two mobile-based Augmented Reality (AR) installations. AR enriches and enhances our experience of real-world environments by overlaying new perceptual information that seamlessly integrates into our experience of an environment in realtime. This combination of the real and virtual worlds opens up new interactive and experiential possibilities.
 
-### Client/Partners: ####Black Bear Software
+### Client/Partners: Black Bear Software
 
 ### Research Goal:
 Overarching question: Can auditory display solutions present complex information in an intuitive manner in the context of IoT network monitoring tasks?
