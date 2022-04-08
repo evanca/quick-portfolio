@@ -18,7 +18,7 @@ Debut the system during 5 performances from April 18-24 2016.
 ### Research Methodology
 I used a mixed methods approach with a research-driven iterative design methodology. Research-driven co-design methodologies allowed stakeholders to provide input to the design process.
 
-### Research Overview
+### Research Schedule
 My schedule involved 3 research and development of work followed by 2 weeks of production.
 
 #### Week 1:
@@ -96,7 +96,7 @@ A: Data captured from performers determined what music would play.
 - A2. Intial prototype always generated music regardless of actions.
 
 B: Installed the sensors into the set.
-- B1. Final prototype used allocentric Piezoelectric sensors to detect movement and location data.
+- B1. Final prototype used allocentric piezoelectric sensors to detect movement and location data.
 - B2. Initial prototype used egocentric accelerometer/gyroscope/magnetomoeter sensors worn by perfomers.
 
 C: Music designed to sound like it was being created by the performers movements on stage.
@@ -107,10 +107,10 @@ D: Used musical cues rather than sound effects.
 - D1. Final prototype made heavy use of music with little sound effects.
 - D2. Intial porototype made heavier use of sound effects.
 
-
+### Detailed
 
 #### The System
-For this project I developed an interactive music performance system that fulfilled a number of important roles in the overall production. It captured sounds produced by the dance from a series of microphones placed around the stage. This audio was then processed live and inserted into the music. The audio signal was further analysed using FFT analysis and the amplitudes across different frequency bands were used to both drive and control different parameters of the musical piece.
+For this project I developed an interactive music performance system that fulfilled a number of important roles in the overall production. It captured sounds produced by the dance from a series of microphones and piezoelectric sensors placed in an allocentric configuration around the stage. This audio was then processed live and inserted into the music. The audio signal was further analysed using FFT analysis and the amplitudes across different frequency bands were used to both drive and control different parameters of the musical piece.
 The system also allowed me to improvise musical elements live each night while incorporating further musical elements that had been composed prior to the performance. To further enrich the performance I developed a generative music component. This would would react to the audio signals from the mics and to the music I was performing live by generating musical materials (novel melodies and harmonic content) to reflect and support the dance at different points in a performance. The overall result is a vibrant and dynamic musical soundscape that reacts in real-time to the sounds created by the dancer.
 
 Sound Design & Musical extracts from the performance:
