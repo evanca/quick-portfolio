@@ -4,8 +4,13 @@
 
 ### Analytics Projects
 
-### [Car MPG Regression Analysis](https://github.com/indyscout97/carMPGregregression)
-### <img src="images/carMPG.png?raw=true"/>
+<h3>
+<a href='https://github.com/indyscout97/carMPGregregression'>Car MPG Regression Analysis
+
+<img src="images/carMPG.png?raw=true"/>
+
+</a>
+</h3>
 
 #### *Project Team:*
 - Dria Fabrizio, Jack Beck, Jordan Waldroop
