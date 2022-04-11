@@ -1,4 +1,4 @@
-## Dance Projects
+## Performance Projects
 
 ### Project at a Glance
 In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/I Proclaim with dancer/choreographer Sibéal Davitt and writer Tristan Rosenstock for 'Embodied at the GPO'. This was a series of six new dance solos by Irish-based female choreographers that were performed inside the GPO to mark the role played by Women the 1916 rising. The pieces were commissioned by An Post's 'GPO Witness History' and the Dublin Dance Festival.

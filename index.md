@@ -8,7 +8,7 @@
 <img src="images/tabs/ADIOTtab3.png?raw=true"/>
 </a>
 
-[Dance Projects](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiVUVvaXlMdWRvZnRzMlcyWllMSHdSSGdWdk9hb2pHZFQraTdwendWcGxUTDRRZ1FQb1hXT2NGK3RoV3VqSTJPbDI3d1cxYnJheXVmdkhkbXpRc1J5cHlaWmtDMD0iLCJpIjoiaUNQYUppOVRxbzBZclp1ayJ9)<br />
+[Performance Projects](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiVUVvaXlMdWRvZnRzMlcyWllMSHdSSGdWdk9hb2pHZFQraTdwendWcGxUTDRRZ1FQb1hXT2NGK3RoV3VqSTJPbDI3d1cxYnJheXVmdkhkbXpRc1J5cHlaWmtDMD0iLCJpIjoiaUNQYUppOVRxbzBZclp1ayJ9)<br />
 <a href="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiVUVvaXlMdWRvZnRzMlcyWllMSHdSSGdWdk9hb2pHZFQraTdwendWcGxUTDRRZ1FQb1hXT2NGK3RoV3VqSTJPbDI3d1cxYnJheXVmdkhkbXpRc1J5cHlaWmtDMD0iLCJpIjoiaUNQYUppOVRxbzBZclp1ayJ9">
 <img src="images/tabs/DANCEtab.png?raw=true"/>
 </a>
@@ -32,7 +32,7 @@
 <a href="/projects/ML_HCI/ML_HCI">
 <img src="images/tabs/AItab.png?raw=true"/>
 </a>
- 
+
 [Embodied Sonification](/projects/embodied_sonification/embodied_sonification)<br />
 <a href="/projects/embodied_sonification/embodied_sonification">
 <img src="images/tabs/EStab.png?raw=true"/>
