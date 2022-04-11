@@ -8,7 +8,7 @@ In 2016 I was commissioned to collaborate on a dance piece entitled Fógraím/
 ### Client/Partners: Sibéal Davitt & Liz Roche Company.
 
 ### Design Goal:
-Create an automated music system for live performance that reacts to a dancer's performance by creating music and visuals.
+Create an automated multimedia system for live performance that reacts to a dancer's performance by creating music and visuals.
 Debut the system during 5 performances from April 18-24 2016.
 
 ### Research Questions:
