@@ -3,17 +3,17 @@
 
 ---
 
-[Auditory Display Solutions for Large-scale IoT Networks](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiNmJGYVpueWpEWFp6RS9UelU0VWFHdXFtdDBLTGFib0hyVzdVZ29NQ0wwQzJkTFpDQnJ5bjFxV1ZpQk1pT0VZUWtVNFdYZjFqNjdOeW1zM3BuRHNCZWM3WEg2QXZkQT09IiwiaSI6IlZDWDA5dDdSMlhvUnRvWUEifQ==)<br />
+[Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot=)<br />
 <a href="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiNmJGYVpueWpEWFp6RS9UelU0VWFHdXFtdDBLTGFib0hyVzdVZ29NQ0wwQzJkTFpDQnJ5bjFxV1ZpQk1pT0VZUWtVNFdYZjFqNjdOeW1zM3BuRHNCZWM3WEg2QXZkQT09IiwiaSI6IlZDWDA5dDdSMlhvUnRvWUEifQ==">
 <img src="images/tabs/ADIOTtab3.png?raw=true"/>
 </a>
 
-[Performance Projects](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiVUVvaXlMdWRvZnRzMlcyWllMSHdSSGdWdk9hb2pHZFQraTdwendWcGxUTDRRZ1FQb1hXT2NGK3RoV3VqSTJPbDI3d1cxYnJheXVmdkhkbXpRc1J5cHlaWmtDMD0iLCJpIjoiaUNQYUppOVRxbzBZclp1ayJ9)<br />
+[Performance Projects](/projects/dance/dance)<br />
 <a href="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiVUVvaXlMdWRvZnRzMlcyWllMSHdSSGdWdk9hb2pHZFQraTdwendWcGxUTDRRZ1FQb1hXT2NGK3RoV3VqSTJPbDI3d1cxYnJheXVmdkhkbXpRc1J5cHlaWmtDMD0iLCJpIjoiaUNQYUppOVRxbzBZclp1ayJ9">
 <img src="images/tabs/DANCEtab.png?raw=true"/>
 </a>
 
-[The Zones Project](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiUksrS0xkczdIZWMzS3lhMVpXd0RDcm1YUjFJNy96dWR1ZkMxRVRIM3ZHZnJESkVSTjFCaEVkVnR2MnkzQTVEVEJhSXR0QUw3bFdEcHpqc0FlTnZIQWZualA3bz0iLCJpIjoiREFGSDJEUnN5MFZhRk8wcCJ9)<br />
+[The Zones Project](/projects/zones/zones)<br />
 <a href="https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiUksrS0xkczdIZWMzS3lhMVpXd0RDcm1YUjFJNy96dWR1ZkMxRVRIM3ZHZnJESkVSTjFCaEVkVnR2MnkzQTVEVEJhSXR0QUw3bFdEcHpqc0FlTnZIQWZualA3bz0iLCJpIjoiREFGSDJEUnN5MFZhRk8wcCJ9">
 <img src="images/tabs/ZNStab.jpg?raw=true"/>
 </a>
