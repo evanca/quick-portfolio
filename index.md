@@ -4,16 +4,6 @@
 ---
 
 
-[Dance Performance Projects](/projects/dance/dance)<br />
-<a href="/projects/dance/dance">
-<img src="images/tabs/DANCEtab.png?raw=true"/>
-</a>
-
-[The Zones Project](/projects/zones/zones)<br />
-<a href="/projects/zones/zones">
-<img src="images/tabs/ZNStab.jpg?raw=true"/>
-</a>
-
 [Signal to Noise Loops](/projects/s2nl/s2nl_project)<br />
 <a href="/projects/s2nl/s2nl_project">
 <img src="images/tabs/DATAtab.png?raw=true"/>
@@ -22,6 +12,16 @@
 [Indices on the Body](/projects/indices/indices_audio)<br />
 <a href="/projects/indices/indices_audio">
 <img src="images/tabs/INDXtab.png?raw=true"/>
+</a>
+
+[Dance Performance Projects](/projects/dance/dance)<br />
+<a href="/projects/dance/dance">
+<img src="images/tabs/DANCEtab.png?raw=true"/>
+</a>
+
+[The Zones Project](/projects/zones/zones)<br />
+<a href="/projects/zones/zones">
+<img src="images/tabs/ZNStab.jpg?raw=true"/>
 </a>
 
 [Deep Learning for Music and HCI](/projects/ML_HCI/ML_HCI)<br />
