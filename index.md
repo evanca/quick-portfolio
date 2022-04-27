@@ -3,12 +3,8 @@
 
 ---
 
-[Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot)<br />
-<a href="/projects/ad_iot/ad_iot">
-<img src="images/tabs/ADIOTtab3.png?raw=true"/>
-</a>
 
-[Performance Projects](/projects/dance/dance)<br />
+[Dance Performance Projects](/projects/dance/dance)<br />
 <a href="/projects/dance/dance">
 <img src="images/tabs/DANCEtab.png?raw=true"/>
 </a>
@@ -43,6 +39,10 @@
 <img src="images/tabs/HC2tab.png?raw=true"/>
 </a>
 
+[Auditory Display Solutions for Large-scale IoT Networks](/projects/ad_iot/ad_iot)<br />
+<a href="/projects/ad_iot/ad_iot">
+<img src="images/tabs/ADIOTtab3.png?raw=true"/>
+</a>
 
 [Data-scape: An Online Framework for Data Sonification](/projects/data-scape/data-scape)<br />
 <a href="/projects/data-scape/data-scape">
