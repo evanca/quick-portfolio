@@ -2,28 +2,28 @@
 
 ---
 
-### Category Name 1 
+### Thai Stock Market Vizualization
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[comment]: <> [Project 2 Title](/pdf/sample_presentation.pdf)
+[comment]: <> <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[comment]: <> ---
+[comment]: <> [Project 3 Title](http://example.com/)
+[comment]: <> <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
+[comment]: <> ---
 
 ### Category Name 2
 
 - [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+[comment]: <> - [Project 2 Title](http://example.com/)
+[comment]: <> - [Project 3 Title](http://example.com/)
+[comment]: <> - [Project 4 Title](http://example.com/)
+[comment]: <> - [Project 5 Title](http://example.com/)
 
 ---
 
