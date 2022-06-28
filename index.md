@@ -4,26 +4,26 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[For Lovers - Lamp](https://www.tiktok.com/@vincent_chen/video/7110465731158084910?is_copy_url=1&is_from_webapp=v1)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Leaves From the Vine - ATLA](https://www.tiktok.com/@vincent_chen/video/7110908009454259499?is_copy_url=1&is_from_webapp=v1)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Nothing - Bruno Major](https://www.tiktok.com/@vincent_chen/video/7110909374318710062?is_copy_url=1&is_from_webapp=v1)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
 ### Category Name 2
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [For Lovers - Lamp](https://www.tiktok.com/@vincent_chen/video/7110465731158084910?is_copy_url=1&is_from_webapp=v1)
+- [Leaves From the Vine - ATLA](https://www.tiktok.com/@vincent_chen/video/7110908009454259499?is_copy_url=1&is_from_webapp=v1)
+- [Nothing - Bruno Major](https://www.tiktok.com/@vincent_chen/video/7110909374318710062?is_copy_url=1&is_from_webapp=v1)
+- [Coming soon!](http://example.com/)
+- [Coming soon!](http://example.com/)
 
 ---
 
