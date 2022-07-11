@@ -52,7 +52,6 @@ You can read more about the in my xCoAx paper below:
 
 <img src="images/somewhere.png?raw=true"/><br/>
 
-
 The most recent iteration of the piece was produced and installed in the wake of Jean-Luc's passing in August 2021. The piece is extended through the addition of video interpolations through the latent spaces of a pair of Generative Adversarial Networks (GANs) trained on a corpus of seascapes and skyscapes respectively. This additional visual element establishes a surrogate for what Nancy calls *Somewhere* the place in which he as the author and we as readers intersect our roles reversing in a process of 'detour and dissemblance, transposition and re-encoding (...) distributed through some very long technical circuits.' This piece was installed for a week at the [Irish World Academy](https://www.irishworldacademy.ie/) as part of the program for the 2022 edition of the [International Computer Music Conference](http://www.computermusic.org/page/18/) at the University of Limerick.
 
 [Link to the piece](https://stephenroddy.github.io/Indices-Online-ICMC/desktop.html)
