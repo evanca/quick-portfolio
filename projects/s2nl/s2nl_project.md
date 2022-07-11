@@ -107,6 +107,7 @@ Signal to Noise Loops v4 was also featured in Season 3 of the Video Sound Archiv
 
 Signal to Noise Loops v4 was selectd for performance at the concerts for the 27th International Conference ona Auditory Display (ICAD 2022), where it won the award for the Best use of sound in a Concert Piece or Demonstration. You can see the conference paper describing some of the technical the development of this specific iteration here:
 
+
 <iframe frameborder="0" src="https://drive.google.com/file/d/1ZMJ243hDl9Odf47Cv6E5UhhAkl1HbVXZ/preview" style="height: 500px; width: 600px;"></iframe>
 
 <br />
