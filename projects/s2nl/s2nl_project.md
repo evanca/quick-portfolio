@@ -96,10 +96,18 @@ Signal to Noise Loops V4 will be presented as an online installation for Oíche 
 <A href="https://culturenightdublin.ie/event/signal-to-noise-loops-v4-signal-to-noise-loops-v4/" target="_blank"><img src="images/Website 4.png?raw=true"/></a><br/>
 <br />
 
+Signal to Noise Loops v4 was also featured in Season 3 of the Video Sound Archive. The Video Sound Archive is an online working archive, dedicated to video and sound that emerged during the pandemic. It provides an alternative to festival and exhibition spaces that accounts for the realities of experiencing art in a time of COVID.
+
 [Signal to Noise Loops v4- Video Sound Archive S3 - Februray 2022](https://www.videosoundarchive.com/submit#image_1-10903455)
 <br />
 <A href="https://www.videosoundarchive.com/submit#image_1-10903455" target="_blank"><img src="projects/s2nl/images/S3_001.jpg.png?raw=true"/></a><br/>
 <br />
+
+#### Performance 10: The Interntaional Confernece on Auditory Display 2022.
+
+Signal to Noise Loops v4 was selectd for performance at the concerts for the 27th International Conference ona Auditory Display (ICAD 2022), where it won the award for the Best use of sound in a Concert Piece or Demonstration. You can see the conference paper describing some of the technical the development of this specific iteration here:
+
+<iframe frameborder="0" src="https://drive.google.com/file/d/1ZMJ243hDl9Odf47Cv6E5UhhAkl1HbVXZ/preview" style="height: 500px; width: 600px;"></iframe>
 
 
 ### Discussion <br />
