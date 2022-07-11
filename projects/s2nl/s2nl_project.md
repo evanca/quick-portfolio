@@ -122,6 +122,7 @@ While these explicit points of information may not be directly represented in a 
 ### Outputs & Activities
 
 ### Performances:
+- [The 27th International Conference on Auditory Display Concert](https://icad2022.icad.org/)
 - [Signal to Noise Loops v4- Video Sound Archive S3 - Februray 2022](https://www.videosoundarchive.com/submit#image_1-10903455)
 - [Signal to Noise Loops V4- Dublin City Culture Night](https://culturenightdublin.ie/event/signal-to-noise-loops-v4-signal-to-noise-loops-v4/)
 - [2021 Audio Mostly Conference](https://audiomostly.com/2021/program/conference-program/)
