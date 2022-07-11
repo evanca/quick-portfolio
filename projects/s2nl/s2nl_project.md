@@ -98,8 +98,9 @@ Signal to Noise Loops V4 will be presented as an online installation for Oíche 
 
 [Signal to Noise Loops v4- Video Sound Archive S3 - Februray 2022](https://www.videosoundarchive.com/submit#image_1-10903455)
 <br />
-<A href="https://www.videosoundarchive.com/submit#image_1-10903455" target="_blank"><img src="images/S3_001.jpg.png?raw=true"/></a><br/>
+<A href="https://www.videosoundarchive.com/submit#image_1-10903455" target="_blank"><img src="projects/s2nl/images/S3_001.jpg.png?raw=true"/></a><br/>
 <br />
+
 
 ### Discussion <br />
 The point of mapping data to sound, and more specifically IoT data is to leverage some of the interesting patterns that present themselves across data streams/sets of this manner. Data-driven music is different from sonification where the point is to faithfully communicate or represent the data to the listener. Data-driven music is closer in many ways to algorithmic music composition than it is to sonification because of its focus on finding patterns in the data that might be interesting when mapped to sonic and musical parameters. My previous data-driven music work has employed algorithmic composition techniques and dealt with used from the global financial crash. More recently I have begun to work with IoT data as I believe that the kinds of data we choose to measure and our reasons for measuring them say a lot about what a society values, cares about, and finds interesting while the specific data measurements chronicle the complex interactions between people, the technologies they create and the worlds in which those people and technologies are situated. <br />
