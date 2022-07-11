@@ -100,7 +100,7 @@ Signal to Noise Loops v4 was also featured in Season 3 of the Video Sound Archiv
 
 [Signal to Noise Loops v4- Video Sound Archive S3 - Februray 2022](https://www.videosoundarchive.com/submit#image_1-10903455)
 <br />
-<A href="https://www.videosoundarchive.com/submit#image_1-10903455" target="_blank"><img src="images/S3_001.jpg.png?raw=true"/></a><br/>
+<a href="https://www.videosoundarchive.com/archive-s3" target="_blank"><img src="images/S3_001.jpg?raw=true"/></a><br/>
 <br />
 
 #### Performance 10: The Interntaional Confernece on Auditory Display 2022.
