@@ -8,7 +8,7 @@
 Remote job - Zaragoza - ES
 - As Data Engineer in January 2022 - Present
 
-
+---
 #### [Data engineer in Comafi Bank](/exp_dataengineer)
 
 Remote job - Buenos Aires - AR
