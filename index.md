@@ -3,23 +3,29 @@
 ---
 ### Professional Experience
 
+#### [Data engineer in Hiberus Technology]
+
+Remote job - Zaragoza - ES
+- As Data Engineer in January 2022 - Present
+
+
 #### [Data engineer in Comafi Bank](/exp_dataengineer)
 
 Remote job - Buenos Aires - AR
 - As DevOps jobs in October 2020 to Febrary 2021 
-- As Data Engineer in April 2021 - Present
+- As Data Engineer in April 2021 - January 2022
 
 
 ---
 #### Database administrator and developer in University (UNPSJB) - Comodoro Rivadavia - AR
 
 Comodoro Rivadavia - AR
-- Febrary 2008 to Present
+- Febrary 2008 to September 2021
 
 ---
 #### [Teacher in Database I - University (UNPSJB) - Comodoro Rivadavia - AR](/exp_dbi)
 Comodoro Rivadavia - AR
-- March 2011 to Present
+- March 2011 to July 2022
 
 ---
 #### [Freelance web developer - UR](/exp_sostemplaznza)
@@ -36,7 +42,7 @@ I gave courses on MS Office tools for business, mainly MS Excel and MS Project i
 ---
 ### Education
 
-#### Master in  Big Data and Data Science (2021 - Present)
+#### Master in  Big Data and Data Science (2021 - 2022)
 - I won a scholarship from Latam [IDEO](https://becas.universidadviu.com/becas-ideo/)
 - International University of Valencia - ES
 
