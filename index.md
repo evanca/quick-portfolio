@@ -3,7 +3,7 @@
 ---
 ### Professional Experience
 
-#### [Data engineer in Hiberus Technology]
+#### Data engineer in Hiberus Technology
 
 Remote job - Zaragoza - ES
 - As Data Engineer in January 2022 - Present
