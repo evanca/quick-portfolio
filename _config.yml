@@ -2,12 +2,11 @@ title: Stephen Roddy PhD # your name (or website title) here
 logo: "/images/38278590_289827491598867_4278751191707418624_n.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <ul>
-  <li><a href="https://www.tcd.ie/research/profiles/?profile=stroddy">Research</a></li>
-  <li><a href="https://stephenroddy.github.io/projects">Projects</a></li>
-  <li><a href="https://stephenroddy.bandcamp.com/">Music</a></li>
+  <li><a href="https://www.tcd.ie/research/profiles/?profile=stroddy">Research Outputs</a></li>
+  <li><a href="https://stephenroddy.github.io/projects">Research & Creative Projects</a></li>
+  <li><a href="https://stephenroddy.bandcamp.com/">Music & Sound Art</a></li>
   </ul>
   <br />
-
 
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
