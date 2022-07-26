@@ -1,4 +1,4 @@
-## Biography
+### Biography
 
 I am an Artist, Researcher, and Lecturer based at Trinity College Dublin (TCD) conducting work in Engineering and the Creative Arts. I hold a Ph.D. in Data Sonification, the use of sound to perceptualize data and convey information. My current work is focused on the application of Sonification, and artificial intelligence/machine learning  techniques (AI/ML) in Human-computer Interaction (HCI) and the Creative Arts.
 
