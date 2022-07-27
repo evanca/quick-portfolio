@@ -489,8 +489,10 @@ Previous events have included the New York City Electroacoustic Music Festival, 
 
 <p>Radio</p>
 <ul>
+  <li><a href="https://www.mixcloud.com/Resonance/sonic-darts-6-june-2022-artificial-intelligence/"> Interview about AI in Music Composition on Gwaith Sŵn's Sonic Darts on Resonance.fm, June 6th 2022.</a>
+  </li>
   <li>
-    <a href="https://www.resonancefm.com/programmes/579f47d850000b8896000003">100 Epoch Opus, Gwaith Sŵn's Sonic Darts on Resonance 104.4FM, February 7th 2022.</a>
+    <a href="https://www.mixcloud.com/Resonance/sonic-darts-6-june-2022-artificial-intelligence/">100 Epoch Opus, Gwaith Sŵn's Sonic Darts on Resonance 104.4FM, February 7th 2022.</a>
   </li>
   <li>
     <a href="https://listen.dublindigitalradio.com/resident/monthly-diatribe">No Light, But Rather. Monthly Diatribe, Dublin Digital Radio, January 20th 2022.</a>
