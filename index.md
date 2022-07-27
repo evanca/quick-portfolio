@@ -316,11 +316,14 @@ Previous events have included the New York City Electroacoustic Music Festival, 
 <p>Available on: <a href="https://stephenroddy.bandcamp.com/">Bandcamp</a> | <a href="https://open.spotify.com/artist/6FZOlLhsey17jwrTGBV07c">Spotify</a> | <a href="https://itunes.apple.com/us/artist/stephen-roddy/id1105554061">Apple Music</a> | <a href="https://play.google.com/store/music/artist/Stephen_Roddy?id=Aih2l4nvz4c2etfb42wzvfkmwhm">Google Play</a> | <a href="https://www.amazon.com/s/ref=ntt_srch_drd_B01EJ9KE26?ie=UTF8&amp;field-keywords=Stephen%20Roddy&amp;index=digital-music&amp;search-type=ss">Amazon</a> | <a href="http://www.deezer.com/us/artist/10217120">Deezer</a> | <a href="https://listen.tidal.com/artist/7765412">Tidal</a>   </p>
 <p><strong>Funding and Awards</strong></p>
 <ul>
-  <li>Irish Research Council Government of Ireland Postdoctoral Research Fellowship.</li>
+  <li>Irish Research Council Government of Ireland Postdoctoral Research Fellowship 2017-2019.</li>
+  <li>Best use of Sound in a Concert Piece or Demonstration, The International Community for Auditory Display 27th International Conference on Auditory Display 2022.</li>
   <li>Trinity College Dublin Postgraduate Research Studentship 2012-2015. </li>
   <li>Trinity College Dublin Travel Grant 2015</li>
   <li>Trinity College Dublin Postgraduate Travel Grant 2013.</li>
-</ul><strong>Invited Talks & Panels</strong>
+</ul>
+
+<strong>Invited Talks & Panels</strong>
 <ul>
   <li>
     <a href="https://www.facebook.com/events/2480204325324203/">"Whose Music?": Panel Discussion on AI in Music Composition at Music Current 2019, CMC Dublin.</a>
