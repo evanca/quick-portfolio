@@ -60,6 +60,14 @@ Previous events have included the New York City Electroacoustic Music Festival, 
     <a href="https://link.springer.com/chapter/10.1007/978-3-319-73374-6_12">Roddy S., Bridges B. (2018) Sound, Ecological Affordances and Embodied Mappings in Auditory Display. In: Filimowicz M., Tzankova V. (eds) New Directions in Third Wave Human-Computer Interaction: Volume 2 - Methodologies. Human–Computer Interaction Series. Springer, Cham.</a>
   </li>
 </ul>
+
+<strong>Reports & Policy Documents</strong>
+<ul>
+  <li>
+    <a href="https://drive.google.com/file/d/1NdHUhzr9ep8eoknvkFBfrVtR8mK_rddz/view?usp=sharing">IEEE Committee on Ethically Aligned Design for Artists. (2002) The Voice of the Artist in the Age of the Algorithm. IEEE Ethically Aligned Design Series.</a>
+  </li>
+</ul>
+
 <p><strong>Peer Reviewed Conference Papers</strong></p>
 <ul>
   <li>
