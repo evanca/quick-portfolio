@@ -558,3 +558,6 @@ Previous events have included the New York City Electroacoustic Music Festival, 
     <a target="_blank" href="https://www.tn2magazine.ie/embodied-review/">TN2 (Collaborative Project)</a>
   </li>
 </ul>
+---
+<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+<!-- Remove above link if you don't want to attibute -->
