@@ -36,7 +36,7 @@ Previous events have included the New York City Electroacoustic Music Festival, 
 <p><strong>Journal Articles</strong></p>
 <ul>
   <li>
-    <a target="_blank" href="https://direct.mit.edu/leon/article-abstract/doi/10.1162/leon_a_02258/112358/Signal-to-Noise-Loops-A-Cybernetic-Approach-to">Roddy, S. (Forthcoming: October 2022). Signal to Noise Loops: A Cybernetic Approach to Musical Performance with Smart City Data and Generative Music Techniques. Leonardo, 55(5).</a>
+    <a target="_blank" href="https://direct.mit.edu/leon/article-abstract/doi/10.1162/leon_a_02258/112358/Signal-to-Noise-Loops-A-Cybernetic-Approach-to">Roddy, S. (Forthcoming: February 2023). Signal to Noise Loops: A Cybernetic Approach to Musical Performance with Smart City Data and Generative Music Techniques. Leonardo, 56(1).</a>
   </li>
   <li>
     <a target="_blank" href="https://academic.oup.com/iwc/advance-article-abstract/doi/10.1093/iwc/iwz036/5670599">Roddy, S. (2020). Using Conceptual Metaphors to Represent Temporal Context in Time-Series Data Sonification. Interacting with Computers. </a>
