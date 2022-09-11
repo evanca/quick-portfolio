@@ -1,8 +1,13 @@
 title: Megan Morgan # your name (or website title) here
 logo: "/images/20161208_210627 - Copy.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <h3>Welcome to my Portfolio.</h3>
+  <h3>Welcome to my Portfolio</h3>
   <p>I am excited to share my favorite projects with you.</p>
+  
+  <h3>About Me</h3>
+  <p>Attending the University of Oklahoma for a Geospatial Technology Master's in Geography and Environmental Sustainability. Expected graduation in May 2023.
+  I am currently working in the finance industry as a full-stack engineer and certified Scrum Master. I also have my Bachelor's degrees in Computer Science, Mathematics, and Secondary Education, recieved from The University of Texas at Dallas in December 2012.
+  </p>
   <br><br>
   This site is currently under development, so please come back later to see even more.
   <br><br>
