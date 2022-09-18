@@ -2,12 +2,26 @@
 
 ---
 
-## Arcpy Projects 
+## Final Projects 
 
 # [Where in the USA is Carmen Sandiego?](/pdf/CarmenSandiego.pdf)
 [<img src="images/Carmen Sandiego Example.jpg?raw=true"
      alt="Example of one level of game play of Python Programming Project."
      width="400">](/pdf/CarmenSandiegoProjectProposal.pdf)
+
+---
+
+# [Flying Home for Christmas](/pdf/FlyingHomeforChristmas.pdf)
+[<img src="images/DFWAirportOrigin.png?raw=true"
+     alt="R Analysis of flights within the United States and their odds of arriving ontime during the largest travel season of a year."
+     width="400">]
+
+---
+
+# [Red Rover, Red Rover, Let Windy Come Over](/pdf/WeatherAnalysis.pdf)
+[<img src="images/Weather.JPG?raw=true"
+     alt="Insurance analysis of states that have wind, tornado, and hail storms."
+     width="400">](/pdf/WeatherProposal.pdf)
 
 ---
 
@@ -40,23 +54,6 @@
      width="400">]
 
 ---
----
-[Project 2 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-[Project 3 Title](http://example.com/)
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
 
 
 
