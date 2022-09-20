@@ -27,7 +27,7 @@
 <a href="http://testflight.apple.com/join/7jpiiCaV">Click Here For Beta Test</a>
 
 ---
-[Ursinus Day]
+[Basic Store software - Java/SQL]
 
 <img src="images/projectscreenshot.png"/>
 <a href="https://youtu.be/6gTvhO-yf8A">Project Demonstration Video</a>
