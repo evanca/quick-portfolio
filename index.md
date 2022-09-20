@@ -20,6 +20,7 @@
 [IOS APP - EinDecider]
 
 <img src="images/Selection.png"/>
+<a href="http://testflight.apple.com/join/7jpiiCaV">Click Here For Beta Test</a>
 [**Click here for Beta Test**](http://testflight.apple.com/join/7jpiiCaV)<br> 
 
 ---
@@ -32,7 +33,7 @@
 ---
 [MATLAB Projects]
 
-<img src="images/project2 MC400.png"/>
+<img src="images/project2 mc400.png"/>
 [**CODE**](https://drive.google.com/file/d/1KQZWLTnoYie4cceFBCERvQxVZdjsGuG_/view?usp=sharing)<br>
 [**Memorandum**](https://drive.google.com/file/d/185TY-MZDcOt2dn_rTamlDS2knvcWF_TE/view?usp=sharing)<br>
 
