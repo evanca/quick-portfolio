@@ -43,7 +43,7 @@
 
 ---
 
-<img src="Ein.gif"/>
+<img src="Ein.png"/>
 You Have reached the end, now see a cute good boy
 
 
