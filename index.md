@@ -9,10 +9,14 @@
 - Previously enrolled in Ursinus College, Chemistry Major
 - Transferred to Auburn University and changed to <abbr title= "Chemical Engieerning">CHEN</abbr> Major
 - Planning to get <abbr title= "Chemical Engieerning">CHEN</abbr> and <abbr title= "Computer Science">CS</abbr> duel degree.<br>
+- Currently fully-focused on graduating as <abbr title= "Computer Science">CS</abbr> major 2022 Winter
  
 #### Career
-- Looking for Engineering-related Internship/Co-op programs. Would like to engage in any github project with prerequirements of basic JAVA, C++ and Matlab
+- Looking for Full-time Computer Science/Software Development related jobs
+- Interested in Front-end development and Gaming design
 
+#### Programming Languages
+- Java, MATLAB, C++, Swift, SQL, Python, R
 ---
 
 ### Projects
