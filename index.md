@@ -2,8 +2,7 @@
 
 ---
 ### Personal Information
-
-[**Click Here for Resume**](https://docs.google.com/document/d/1VNGgvt5y0JUfwl7vTFYej8uUigFgF54y/edit?usp=sharing&ouid=106513498366773797958&rtpof=true&sd=true)<br>
+<a href="https://docs.google.com/document/d/1VNGgvt5y0JUfwl7vTFYej8uUigFgF54y/edit?usp=sharing&ouid=106513498366773797958&rtpof=true&sd=true">Click Here for Resume</a>
 
 #### Education
 - Currently fully-focused on graduating as <abbr title= "Computer Science">CS</abbr> major in Auburn University 2022 Winter
