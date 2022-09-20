@@ -3,29 +3,35 @@
 ---
 ### Personal Information
 
-[**Resume**](https://drive.google.com/file/d/1W-j7iMxHNAVJEOdyics1a1Lstx7_eXbT/view?usp=sharing)<br>
+[**Resume**](https://docs.google.com/document/d/1VNGgvt5y0JUfwl7vTFYej8uUigFgF54y/edit?usp=sharing&ouid=106513498366773797958&rtpof=true&sd=true)<br>
 
 #### Education
 - Previously enrolled in Ursinus College, Chemistry Major
-- Transferred to Auburn University and changed to <abbr title= "Chemical Engieerning">CHEN</abbr> Major. Planning to get <abbr title= "Chemical Engieerning">CHEN</abbr> and <abbr title= "Computer Science">CS</abbr> duel degree.<br>
+- Transferred to Auburn University and changed to <abbr title= "Chemical Engieerning">CHEN</abbr> Major
+- Planning to get <abbr title= "Chemical Engieerning">CHEN</abbr> and <abbr title= "Computer Science">CS</abbr> duel degree.<br>
  
 #### Career
 - Looking for Engineering-related Internship/Co-op programs. Would like to engage in any github project with prerequirements of basic JAVA, C++ and Matlab
 
 ---
 
-### Personal Photo Gallory  
+### Projects
 
-[Qinghai Monk]
-<img src="images/Photo1.jpg"/>
+[IOS APP - EinDecider]
+<img src="images/Selection.png"/>
+[**Click here for Beta Test**](http://testflight.apple.com/join/7jpiiCaV)<br> 
 
 ---
 [Ursinus Day]
-<img src="images/Ursinus photo.jpg"/>
+<img src="images/projectscreenshot.png"/>
+[**Project Demonstration Video**](https://youtu.be/6gTvhO-yf8A)<br> 
+
 
 ---
-[Fly Eagle Fly]
-<img src="images/Personalphoto1.jpg"/>
+[MATLAB Projects]
+<img src="images/project2 MC400.jpg"/>
+[**CODE**](https://drive.google.com/file/d/1KQZWLTnoYie4cceFBCERvQxVZdjsGuG_/view?usp=sharing)<br>
+[**Memorandum**](https://drive.google.com/file/d/185TY-MZDcOt2dn_rTamlDS2knvcWF_TE/view?usp=sharing)<br>
 
 ---
 
