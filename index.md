@@ -21,21 +21,20 @@
 
 <img src="images/Selection.png"/>
 <a href="http://testflight.apple.com/join/7jpiiCaV">Click Here For Beta Test</a>
-[**Click here for Beta Test**](http://testflight.apple.com/join/7jpiiCaV)<br> 
 
 ---
 [Ursinus Day]
 
 <img src="images/projectscreenshot.png"/>
-[**Project Demonstration Video**](https://youtu.be/6gTvhO-yf8A)<br> 
+<a href="https://youtu.be/6gTvhO-yf8A">Project Demonstration Video</a>
 
 
 ---
 [MATLAB Projects]
 
 <img src="images/project2 mc400.png"/>
-[**CODE**](https://drive.google.com/file/d/1KQZWLTnoYie4cceFBCERvQxVZdjsGuG_/view?usp=sharing)<br>
-[**Memorandum**](https://drive.google.com/file/d/185TY-MZDcOt2dn_rTamlDS2knvcWF_TE/view?usp=sharing)<br>
+<a href="https://drive.google.com/file/d/1KQZWLTnoYie4cceFBCERvQxVZdjsGuG_/view?usp=sharing">MATLAB CODE</a>
+<a href="https://drive.google.com/file/d/185TY-MZDcOt2dn_rTamlDS2knvcWF_TE/view?usp=sharing">Project Memorandum</a>
 
 ---
 
