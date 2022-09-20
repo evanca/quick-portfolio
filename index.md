@@ -6,10 +6,8 @@
 [**Resume**](https://docs.google.com/document/d/1VNGgvt5y0JUfwl7vTFYej8uUigFgF54y/edit?usp=sharing&ouid=106513498366773797958&rtpof=true&sd=true)<br>
 
 #### Education
-- Previously enrolled in Ursinus College, Chemistry Major
-- Transferred to Auburn University and changed to <abbr title= "Chemical Engieerning">CHEN</abbr> Major
-- Planning to get <abbr title= "Chemical Engieerning">CHEN</abbr> and <abbr title= "Computer Science">CS</abbr> duel degree.<br>
-- Currently fully-focused on graduating as <abbr title= "Computer Science">CS</abbr> major 2022 Winter
+- Currently fully-focused on graduating as <abbr title= "Computer Science">CS</abbr> major in Auburn University 2022 Winter
+- Previously enrolled as Chemistry Major in Ursinus College and <abbr title= "Chemical Engieerning">CHEN</abbr> Major in Auburn University
  
 #### Career
 - Looking for Full-time Computer Science/Software Development related jobs
