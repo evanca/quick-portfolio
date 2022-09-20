@@ -18,18 +18,21 @@
 ### Projects
 
 [IOS APP - EinDecider]
+
 <img src="images/Selection.png"/>
 [**Click here for Beta Test**](http://testflight.apple.com/join/7jpiiCaV)<br> 
 
 ---
 [Ursinus Day]
+
 <img src="images/projectscreenshot.png"/>
 [**Project Demonstration Video**](https://youtu.be/6gTvhO-yf8A)<br> 
 
 
 ---
 [MATLAB Projects]
-<img src="images/project2 MC400.jpg"/>
+
+<img src="images/project2 MC400.png"/>
 [**CODE**](https://drive.google.com/file/d/1KQZWLTnoYie4cceFBCERvQxVZdjsGuG_/view?usp=sharing)<br>
 [**Memorandum**](https://drive.google.com/file/d/185TY-MZDcOt2dn_rTamlDS2knvcWF_TE/view?usp=sharing)<br>
 
