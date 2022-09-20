@@ -14,7 +14,7 @@
 - Interested in Front-end development and Gaming design
 
 #### Programming Languages
-- Java, MATLAB, C++, Swift, SQL, Python, R
+- Java, MATLAB, C++, Swift, SQL, HTML, Python, R
 
 
 ---
