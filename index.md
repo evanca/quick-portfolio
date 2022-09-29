@@ -21,6 +21,7 @@
 ### Projects
 
 [IOS APP - EinDecider]
+
 Have you ever got annoyed by overthinking some tiny decisions in your life?
 This is EinDecider, a little app that will help do it for you.
 Just a few taps, then your decision is made.
@@ -32,6 +33,7 @@ The beta test link of application is below.
 
 ---
 [Basic Store software - Java/SQL]
+
 This is a simple store application implemented by Java and SQL.
 The demonstration of the application is shown below.
 
@@ -41,6 +43,7 @@ The demonstration of the application is shown below.
 
 ---
 [MATLAB Projects]
+
 This is a chemical engineering project that applied the Monte Carlo method 
 to simulate molecules bonding, diffusion and reaction.
 Code is implemented mainly by myself using the optimized algorithm 
