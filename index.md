@@ -21,12 +21,19 @@
 ### Projects
 
 [IOS APP - EinDecider]
+Have you ever got annoyed by overthinking some tiny decisions in your life?
+This is EinDecider, a little app that will help do it for you.
+Just a few taps, then your decision is made.
+You could pick a variety of tools like dice and wheel of foturne to decide.
+The beta test link of application is below.
 
 <img src="images/Selection.png"/>
 <a href="http://testflight.apple.com/join/7jpiiCaV">Click Here For Beta Test</a>
 
 ---
 [Basic Store software - Java/SQL]
+This is a simple store application implemented by Java and SQL.
+The demonstration of the application is shown below.
 
 <img src="images/projectscreenshot.png"/>
 <a href="https://youtu.be/6gTvhO-yf8A">Project Demonstration Video</a>
@@ -34,6 +41,11 @@
 
 ---
 [MATLAB Projects]
+This is a chemical engineering project that applied the Monte Carlo method 
+to simulate molecules bonding, diffusion and reaction.
+Code is implemented mainly by myself using the optimized algorithm 
+We came up with which speeds up the simulation 10 times faster than the original code.
+The MATLAB code and memorandum is linked below.
 
 <img src="images/project2 mc400.png"/>
 <a href="https://drive.google.com/file/d/1KQZWLTnoYie4cceFBCERvQxVZdjsGuG_/view?usp=sharing">MATLAB CODE</a>
