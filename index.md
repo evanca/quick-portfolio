@@ -49,9 +49,7 @@
 ---
 
 # [Hot Spot and Cluster Analysis](/pdf/MMorgan_GIS5253-999_AssignmentV.pdf)
-<img src="images/Cluster.jpg?raw=true"
-     alt="Crime Cluster Analysis of Chicago, IL."
-     width="400">
+<a href="https://uok.maps.arcgis.com/apps/mapviewer/index.html?webmap=01f83ac847d84a4aad67dd4ca35c30b0"><img src="images/Cluster.jpg" alt="Crime Cluster Analysis of Chicago, IL." width="400"></a>
 
 ---
 
