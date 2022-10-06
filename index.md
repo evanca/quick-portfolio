@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Passeio Aleatório](/sample_page)
+[Passeio Aleatório (Random Walk).](/sample_page)
 <img src="images/walk.jpg?raw=true"/>
 
 ---
