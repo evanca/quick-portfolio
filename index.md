@@ -67,6 +67,11 @@
 
 ---
 
+## Google Earth Engine 
+
+# [2019 Santa Rosa, CA Fire](https://mmorgan.users.earthengine.app/view/santarosafire)
+<a href="https://mmorgan.users.earthengine.app/view/santarosafire"><img src="images/santarosafire.JPG" alt="Earth Engine View of 2019 Santa Rosa, CA Fire" width="400"></a>
+---
 
 
 ---
