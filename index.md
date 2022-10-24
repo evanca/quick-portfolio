@@ -7,6 +7,19 @@
 
 El objetivo de este proyecto es el de crear una representación visual de qué nuevas líneas experimentales de pasto son mejores y deberían avanzar a la siguiente fase de las pruebas en función de su buen redimiento.
 
+<img width="1680" alt="Screen Shot 2022-10-24 at 10 48 00" src="https://user-images.githubusercontent.com/79113395/197563789-b6d41970-2f8f-48a6-b638-7ef45d681cea.png">
+
+<img width="1680" alt="Screen Shot 2022-10-24 at 10 48 14" src="https://user-images.githubusercontent.com/79113395/197564295-496a879a-d894-40b9-b3fc-4d300415702a.png">
+
+<img width="1680" alt="Screen Shot 2022-10-24 at 10 48 23" src="https://user-images.githubusercontent.com/79113395/197564379-3ed7444c-6088-4875-902d-51bdac9f4ecc.png">
+
+<img width="1680" alt="Screen Shot 2022-10-24 at 10 48 39" src="https://user-images.githubusercontent.com/79113395/197564469-bf402bbb-b994-44cb-840a-f92b447b086c.png">
+
+<img width="1680" alt="Screen Shot 2022-10-24 at 11 28 03" src="https://user-images.githubusercontent.com/79113395/197565215-5db6b6a5-567b-4ab9-bbff-2869e42584ce.png">
+
+<img width="1680" alt="Screen Shot 2022-10-24 at 10 48 54" src="https://user-images.githubusercontent.com/79113395/197564661-e516c2ad-cfa8-4cb5-9e53-755d13f56af8.png">
+
+<img width="1680" alt="Screen Shot 2022-10-24 at 10 49 03" src="https://user-images.githubusercontent.com/79113395/197564743-59181204-c348-4edc-969b-faa91a3a6397.png">
 
 ---
 
