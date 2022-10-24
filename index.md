@@ -3,12 +3,9 @@
 ---
 
 
-### [Proyecto 4: Elecciones Presidenciales Perú 2021 y el IDH](https://rpubs.com/marellanob/EleccPresid2021Peru_IDH)
+### [Proyecto 4: Tableau Turfgrass Dashboard](https://public.tableau.com/app/profile/marco3599/viz/AdvanceTrialTurfgrassProject/HOME)
 
-Este proyecto busca exponer, mediante dos gráficas interactivas, si existe una relación entre el índice de desarrollo humano (IDH), a nivel distrital, y el porcentaje de votos obtenidos por partido político.
-
-#### Gráfica IDH vs Porcentaje de Votos:
-
+El objetivo de este proyecto es el de crear una representación visual de qué nuevas líneas experimentales de pasto son mejores y deberían avanzar a la siguiente fase de las pruebas en función de su buen redimiento.
 
 
 ---
