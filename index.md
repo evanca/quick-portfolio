@@ -1,30 +1,35 @@
-## Portfolio
+# Portfolio
 
 ---
 
-### Machine Learning 
+## Machine Learning 
 
-[Cuisine Classifier](https://medium.com/p/8d75a90a69d7)
+### [Cuisine Classifier](https://medium.com/p/8d75a90a69d7)
 <img src="images/cuisine.JPG"/>
-[![](https://img.shields.io/badge/Github-View%20on%20Github-blue)]([link-to-our-project](https://github.com/shruti-misra/kaggle-whats-cooking))
+[![](https://img.shields.io/badge/Github-View%20on%20Github-blue)](https://github.com/shruti-misra/kaggle-whats-cooking)
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+### [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+### [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
-### Visualization
+## Visualization
 
-- [Visualizing Inflation in the US](https://shruti-misra.github.io/inflation_viz/)
+### [Visualizing Inflation in the US](https://shruti-misra.github.io/inflation_viz/)
 <img src="images/inflation.JPG"/>
-- [Mental Health Practitioner Shortage in the US](https://public.tableau.com/app/profile/shruti.misra/viz/MentalHealthProfessionalsShortageintheU_S/Dashboard1)
+
+---
+### [Mental Health Practitioner Shortage in the US](https://public.tableau.com/app/profile/shruti.misra/viz/MentalHealthProfessionalsShortageintheU_S/Dashboard1)
 <img src="images/mentalhealth.JPG"/>
-- [Innovation in US Cities](https://shruti-misra.github.io/innovation-dashboard/)
+
+---
+
+### [Innovation in US Cities](https://shruti-misra.github.io/innovation-dashboard/)
 <img src="images/innovation.JPG"/>
 
 ---
@@ -33,5 +38,3 @@
 
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
