@@ -4,8 +4,9 @@
 
 ### Machine Learning 
 
-[Cuisine Classifier]([/sample_page](https://medium.com/p/8d75a90a69d7))
+[Cuisine Classifier](https://medium.com/p/8d75a90a69d7))
 <img src="images/cuisine.JPG"/>
+[![](https://img.shields.io/badge/Github-View%20on%20Github-blue)]([link-to-our-project](https://github.com/shruti-misra/kaggle-whats-cooking))
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
