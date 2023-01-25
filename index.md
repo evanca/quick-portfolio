@@ -4,8 +4,9 @@
 
 ### Machine Learning 
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Cuisine Classifier](https://medium.com/p/8d75a90a69d7)
+<img src="images/cuisine.JPG"/>
+[![](https://img.shields.io/badge/Github-View%20on%20Github-blue)]([link-to-our-project](https://github.com/shruti-misra/kaggle-whats-cooking))
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
