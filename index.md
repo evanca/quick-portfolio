@@ -4,8 +4,8 @@
 
 ### Machine Learning 
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Cuisine Classifier]([/sample_page](https://medium.com/p/8d75a90a69d7))
+<img src="images/cuisine.JPG"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
