@@ -2,7 +2,7 @@
 
 ---
 
-### Category Name 1 
+### Machine Learning 
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -17,13 +17,14 @@
 
 ---
 
-### Category Name 2
+### Visualization
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [Visualizing Inflation in the US](https://shruti-misra.github.io/inflation_viz/)
+<img src="images/inflation.JPG"/>
+- [Mental Health Practitioner Shortage in the US](https://public.tableau.com/app/profile/shruti.misra/viz/MentalHealthProfessionalsShortageintheU_S/Dashboard1)
+<img src="images/mentalhealth.JPG"/>
+- [Innovation in US Cities](https://shruti-misra.github.io/innovation-dashboard/)
+<img src="images/innovation.JPG"/>
 
 ---
 
