@@ -18,7 +18,8 @@
 <img src="images/picnn.png"/>
 
 ---
-
+### [Music Classification](/pdf/MusicGenre_SM.pdf)
+<img src="images/genre.png"/>
 
 ## Visualization
 
