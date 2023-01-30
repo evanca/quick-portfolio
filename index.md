@@ -9,14 +9,18 @@
 [![](https://img.shields.io/badge/Github-View%20on%20Github-blue)](https://github.com/shruti-misra/kaggle-whats-cooking)
 
 ---
-### [Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+### [Microsoft Internship: Sparse Transformers on FPGA Firmware](/pdf/bert.pdf)
+<img src="images/ms.jpeg"/>
 
 ---
-### [Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
+### [Neural Network for Cyber Security](/pdf/CDC_presentation_portfolio.pdf)
+<img src="images/picnn.png"/>
+
+---
+
 
 ## Visualization
 
