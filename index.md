@@ -11,9 +11,7 @@
 ---
 
 ### [Microsoft Internship: Sparse Transformers on FPGA Firmware](/pdf/bert.pdf)
-<img src="images/ms.jpeg"/>
-
----
+<img src="images/ms.png"/>
 
 ---
 ### [Neural Network for Cyber Security](/pdf/CDC_presentation_portfolio.pdf)
@@ -35,10 +33,5 @@
 
 ### [Innovation in US Cities](https://shruti-misra.github.io/innovation-dashboard/)
 <img src="images/innovation.JPG"/>
-
----
-
-
-
 
 ---
