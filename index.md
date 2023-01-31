@@ -4,7 +4,7 @@
 
 ### Academic
 
-[How to prove?](/proving.md)
+[How to prove?](/proving)
 
 ---
 [Book Recommendations](/pdf/sample_presentation.pdf)
