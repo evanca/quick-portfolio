@@ -4,8 +4,7 @@
 
 ### Academic
 
-[How to prove?](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[How to prove?](/proving.md)
 
 ---
 [Book Recommendations](/pdf/sample_presentation.pdf)
@@ -17,13 +16,11 @@
 
 ---
 
-### Category Name 2
+### Useful links!
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [Prorum](https://prorum.com) A forum that has questions in numerous topics related to academia, organized by professor Cajueiro
+- [Matheus Facure](https://matheusfacure.github.io) A website dedicated to causal relations, econometrics and machine learning in an unique way. Matheus Facure is an extremely talented guy working in Nubank.
+- [Tips4Economists](https://sites.google.com/site/mkudamatsu/tips4economists) A thread of useful links for econ students aiming to be a good grad researcher, by professor Masayuki Kudamatsu
 
 ---
 
