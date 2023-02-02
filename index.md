@@ -1,4 +1,6 @@
 <!--### Research Interests-->
+I am Daeun(Dah-Unn) Jung, a first-year PhD student in Computer Science Department at University of Maryland, College Park working with Tianyi Zhow. Prior to UMD, I received undergraduate and master degrees in Electrical Engineering from Ewha Womans University in 2020.
+
 My research interest lies primarily in the fields of extracting representative features to help understand the
 mechanism of learning and get inference better with more emphasis on time series data. I believe there is
 passing through information, and I could find it from partial data information with data distribution changing. Here
@@ -13,8 +15,8 @@ are some of my interests:
 
 **International Conference**
 
-[Feature Expansion of Single Dimensional Time Series Data for Machine Learning Classification](/pdf/ICUFN2021.pdf)  | 1st author 
-[Traffic Data Classification using Machine Learning Algorithms in SDN Networks](/pdf/ICTC2020.pdf)  | 2nd author  
+[Feature Expansion of Single Dimensional Time Series Data for Machine Learning Classification](/pdf/ICUFN2021.pdf)  | 1st author\
+[Traffic Data Classification using Machine Learning Algorithms in SDN Networks](/pdf/ICTC2020.pdf)  | 2nd author\
 [An Iterative Algorithm of Key Feature Selection for Multi-class Classification](/pdf/ICUFN2019.pdf)  | 1st author  
 
 **Domestic Conference**
@@ -30,7 +32,7 @@ Survey on Machine Learning Algorithms for SDN/NFV Automation  | 2nd author
 
 ## Experience
 
-**Carnegie Mellon University, Advisor Alex Hauptmann** | Jan 2020-Jul 2020
+**Carnegie Mellon University** | Jan 2020-Jul 2020
 - Full Scholarship for Intensive AI Program in CMU under the Ministry of Science and ICT
   * Developed a general model for chatbot with profoundly experienced in Natural language Processing (NLP)
   * Managed team and established architecture for a chatbot that satisfied user requirements
@@ -46,11 +48,8 @@ and content-based filtering
   * Studied electronic circuit used in Lidar and CMOS Amplifier for Gigabit Ethernet
 
 ## Scholarships
-Research Assistant Scholarship | 2020\
-Admissions Scholarship(full tuition for one year) | 2019\
 DEAN’S List | 2015, 2017-2018\
-National Grant | 2015-2018
 
 ## Skills
-Computer: C, C++, Python (Pytorch), R, MATLAB, LaTeX\
+Computer: C, C++, Python (Pytorch), Java, R, MATLAB, LaTeX\
 Languages: English (fluent), Korean (native)
