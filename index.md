@@ -31,8 +31,13 @@ Study on Impact of Class Combinations on Performance of Multiple Class Classific
 Survey on Machine Learning Algorithms for SDN/NFV Automation  | 2nd author  
 
 ## Experience
-
+**University of Maryland, College Park** | Auc 2022-May 2023
+- Teaching Assistanct
+- Advanced Data Structures(CMSC 420), Discrete Structures(CMSC 250)
+  * Conducted discussion session to promote the understanding to implement the algorithm.
+  
 **Carnegie Mellon University** | Jan 2020-Jul 2020
+- Visiting Scholar
 - Full Scholarship for Intensive AI Program in CMU under the Ministry of Science and ICT
   * Developed a general model for chatbot with profoundly experienced in Natural language Processing (NLP)
   * Managed team and established architecture for a chatbot that satisfied user requirements
@@ -40,15 +45,8 @@ Survey on Machine Learning Algorithms for SDN/NFV Automation  | 2nd author
   * Experienced in recommendation algorithms by applying text mining-related theories such as collaborate filtering
 and content-based filtering
 
-**Ewha Womans University**
-- Multiagent Communications and Networking Lab, Full-Time Research Intern, Advisor Hyunggon Park
-  * Surveyed for SDN/NFV network architecture and applied Machine Learning for 5G topology
-  * Studied the use of Omics data such as PPI data and clinical data to extract meaningful features
-- Analog Circuits and Systems Lab, Advisor Sung Min Park
-  * Studied electronic circuit used in Lidar and CMOS Amplifier for Gigabit Ethernet
-
 ## Scholarships
-DEAN’S List | 2015, 2017-2018\
+DEAN’S List | 2015, 2017-2018
 
 ## Skills
 Computer: C, C++, Python (Pytorch), Java, R, MATLAB, LaTeX\
