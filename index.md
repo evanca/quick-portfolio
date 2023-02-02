@@ -12,15 +12,15 @@ are some of my interests:
 ## Research
 **International Conference**
 
-[Feature Expansion of Single Dimensional Time Series Data for Machine Learning Classification](/pdf/ICUFN2021.pdf) | 1st author\
-[Traffic Data Classification using Machine Learning Algorithms in SDN Networks](/pdf/ICTC2020.pdf) | 2nd author\
+[Feature Expansion of Single Dimensional Time Series Data for Machine Learning Classification](/pdf/ICUFN2021.pdf) | 1st author   
+[Traffic Data Classification using Machine Learning Algorithms in SDN Networks](/pdf/ICTC2020.pdf) | 2nd author   
 [An Iterative Algorithm of Key Feature Selection for Multi-class Classification](/pdf/ICUFN2019.pdf) | 1st author  
 
 **Domestic Conference**
 
-Impact of Input Data Randomness on Training Performance of Autoencoder (**Best Awards**) | 2nd author\
-On Improving Network Data Anomaly Detection Performance based on Meta Characteristics  | 2nd author\
-Machine Learning based Algorithm for Small Amount Multi-featured Data in Three Classes  | 1st author\
+Impact of Input Data Randomness on Training Performance of Autoencoder (**Best Awards**) | 2nd author   
+On Improving Network Data Anomaly Detection Performance based on Meta Characteristics  | 2nd author  
+Machine Learning based Algorithm for Small Amount Multi-featured Data in Three Classes  | 1st author  
 Study on Impact of Class Combinations on Performance of Multiple Class Classification  | 1st author
 
 **Domestic Journal Articles**
