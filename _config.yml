@@ -1,11 +1,11 @@
-title: Daeun Jung # your name (or website title) here
-logo: "/images/Daeun_Jung2.png?raw=true" # your photo (or logo) here
-# email: "daeunj@umd.edu" 
-description: > I am Daeun(Dah-Unn) Jung, a first-year PhD student in Computer Science Department at University of Maryland, College Park working with Tianyi Zhou. Prior to UMD, I received undergraduate and master degrees in Electrical Engineering from Ewha Womans University in 2020.
+title: John Doe # your name (or website title) here
+logo: "/images/logo.png?raw=true" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  First description 
   <br><br>
-  <a href="https://drive.google.com/file/d/1oBfRfJDUmeQmQAKObAdsIsKAWq8wq4Ls/view?usp=sharing">CV</a> 
-  <a href="mailto:daeunj@umd.edu">Email</a>
-  <a href="https://www.linkedin.com/in/daeun-jung-6b86771a6/">linkedin</a> 
+  Second description 
+  <br><br>
+  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
