@@ -7,7 +7,7 @@
 [How to prove?](/proving1.md)
 
 ---
-[Book Recommendations](/pdf/sample_presentation.pdf)
+[Book Recommendations](/recommendations.md)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
