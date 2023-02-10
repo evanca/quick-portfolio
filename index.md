@@ -10,7 +10,7 @@
 [Book Recommendations](/recommendations.md)
 
 ---
-[Project 3 Title](http://example.com/)
+[How to learn languages?](/languages.md)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
