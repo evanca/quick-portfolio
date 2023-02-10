@@ -11,7 +11,7 @@
 
 ---
 [How to learn languages?](/languages.md)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
 
 ---
 
@@ -23,7 +23,7 @@
 
 ---
 
-
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 
 ---
