@@ -2,9 +2,9 @@
 
 ---
 
-### Category Name 1 
+### Data Science Projects
 
-[Project 1 Title](/sample_page)
+[winning space race with data science](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
@@ -17,7 +17,7 @@
 
 ---
 
-### Category Name 2
+### Data analysis Projects
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
