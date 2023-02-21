@@ -5,8 +5,7 @@
 ### Previous Projects
 
 
-[Bike-shed and Walk-shed to Job Centers in Phoenix, AZ][GISApplications_FinalPresentation.pdf](https://github.com/ksaves/ksaves.github.io/files/10789420/GISApplications_FinalPresentation.pdf)
-
+[Bike-shed and Walk-shed to Job Centers in Phoenix, AZ]
 <img src="images/!Presentation1.jpg?raw=true"/>
 ![Presentation1](https://user-images.githubusercontent.com/109261218/220243375-df30ed61-17ea-4259-bf42-cfc5b599fce4.png)
 
