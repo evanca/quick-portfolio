@@ -5,7 +5,7 @@
 ### Previous Projects
 
 
-[Walk-shed and Bike-shed to Career Centers in Phoenix, AZ.pdf](https://github.com/ksaves/ksaves.github.io/files/10789420/Walk-shed and Bike-shed to Career Centers in Phoenix, AZ.pdf)
+[Walk-shed and Bikeshed to Career Centers in Phoenix, AZ.pdf](https://github.com/ksaves/ksaves.github.io/files/10789440/Walk-shed.and.Bikeshed.to.Career.Centers.in.Phoenix.AZ.pdf)
 <img src="images/!Presentation1.jpg?raw=true"/>
 ![Presentation1](https://user-images.githubusercontent.com/109261218/220243375-df30ed61-17ea-4259-bf42-cfc5b599fce4.png)
 
