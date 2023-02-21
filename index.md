@@ -13,6 +13,7 @@
 ---
 [A Spatial-Temporal Analysis of Railroad Development, Abandonment, and Historical Population Density.pdf](https://github.com/ksaves/ksaves.github.io/files/10789474/A.Spatial-Temporal.Analysis.of.Railroad.Development.Abandonment.and.Historical.Population.Density.pdf)
 <img src="images/!Presentation1.jpg?raw=true"/>
+![Population Density and Rail Abandonment Boone County, MO (1810-present)](https://user-images.githubusercontent.com/109261218/220252190-1617138a-35cc-4757-afe6-323e05e477a4.png)
 
 ---
 
