@@ -4,8 +4,6 @@
 
 ### Previous Projects
 
-(/sample_page)
-
 
 [Bike-shed and Walk-shed to Job Centers in Phoenix, AZ](/pdf/sample_presentation.pdf)
 <img src="images/!Presentation1.jpg?raw=true"/>
