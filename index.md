@@ -2,13 +2,11 @@
 
 ---
 
-### Category Name 1 
+### Previous Projects
 
 (/sample_page)
 
 
-
----
 [Bike-shed and Walk-shed to Job Centers in Phoenix, AZ](/pdf/sample_presentation.pdf)
 <img src="images/!Presentation1.jpg?raw=true"/>
 ![Presentation1](https://user-images.githubusercontent.com/109261218/220243375-df30ed61-17ea-4259-bf42-cfc5b599fce4.png)
