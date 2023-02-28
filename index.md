@@ -20,9 +20,7 @@
 (https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4 Links to an external site.)
 
 ---
-[PedestrianAccidentsZIP](https://user-images.githubusercontent.com/109261218/221751262-2a851bf2-1b1d-4cca-bb0b-b90441141b37.png)
-(https://uok.maps.arcgis.com/apps/mapviewer/index.html?webmap=24e08199c786475caf27a15ddb0c6ef5 Links to an external site.)
-
+https://arcg.is/vPuie
 
 ### Category Name 2
 
