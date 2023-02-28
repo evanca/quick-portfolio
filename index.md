@@ -16,8 +16,8 @@
 ![Population Density and Rail Abandonment Boone County, MO (1810-present)](https://user-images.githubusercontent.com/109261218/220252190-1617138a-35cc-4757-afe6-323e05e477a4.png)
 
 ---
-[StoryMap](https://user-images.githubusercontent.com/109261218/221742463-c9c50b18-f6a1-42aa-a9c4-e372f5bc1bf1.png)
-(https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4 Links to an external site.)
+[![Walksheds and Bikesheds to Career Centers ArcStoryMap](https://user-images.githubusercontent.com/109261218/221753815-e24bbee8-09de-482d-88fd-22225aa979bd.png)
+]https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4)
 
 ---
 [![Pedestrian Vehicle Accidents](https://user-images.githubusercontent.com/109261218/221752944-9fdf5098-538a-4ba1-824c-50c5f32d0159.png)]https://arcg.is/vPuie)
