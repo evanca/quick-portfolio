@@ -16,6 +16,8 @@
 ![Population Density and Rail Abandonment Boone County, MO (1810-present)](https://user-images.githubusercontent.com/109261218/220252190-1617138a-35cc-4757-afe6-323e05e477a4.png)
 
 ---
+[![Walksheds and Bikesheds to Career Centers Story Map](images/CentralAsiaCities.png)](https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4 Links to an external site.)
+
 
 ### Category Name 2
 
