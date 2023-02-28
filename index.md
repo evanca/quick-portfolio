@@ -20,7 +20,8 @@
 (https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4 Links to an external site.)
 
 ---
-https://arcg.is/vPuie
+https://arcg.is/vPuie![Pedestrian Vehicle Accidents in Columbia Missouri](https://user-images.githubusercontent.com/109261218/221752944-9fdf5098-538a-4ba1-824c-50c5f32d0159.png)
+
 
 ### Category Name 2
 
