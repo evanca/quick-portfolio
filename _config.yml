@@ -1,10 +1,12 @@
-title: John Doe # your name (or website title) here
+title: Harrison Yu # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   First description 
-  <br><br>
+  <br>Socially-driven data scientist with 2+ years of commercial experience in full-stack data science and spatial analytics. 
+  Currently finishing master of data science at University of San Francisco. Previously at Cornell, Candid, MetroData, WXY Studio.  
+  <br>
   Second description 
-  <br><br>
+  <br>Passionate about cities, architecture and design. Enjoyed reading, cooking, and exploring neighborhoods<br>
   <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
