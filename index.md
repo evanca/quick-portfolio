@@ -16,16 +16,14 @@
 
 ### Codecademy Projects
 
-[Codecadamy Final Project](https://www.kaggle.com/code/mikemiller117/codecadamy-final-project-data-analysis)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Codecadamy Final Project](https://www.kaggle.com/code/mikemiller117/codecadamy-final-project-data-analysis) - This links to a Kaggle Notebook.
+
+<img src="images/grade_by_variety.png" width="480" height="320"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[FAA Wildlife Strike Visualization](https://public.tableau.com/views/FAAWildlifeStrike_16806281859640/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) - This links to Tableau page.
 
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/FAA-WIldlife-Strike_Tableau.png" width="480" height="255"/>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
