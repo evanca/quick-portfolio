@@ -5,7 +5,6 @@
 ### Category Name 1 
 
 [Reducing fom imput error](/form-error-reduction/introduction)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
