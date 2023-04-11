@@ -1,9 +1,9 @@
-title: Matthew Lim # your name (or website title) here
-logo: "/images/mlim.jpg?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
-  <br><br>
-  Second description 
+title: Matthew Lim
+logo: "/images/mlim.jpg?raw=true"
+description: >
+  Hi there! I'm a data and analytics professional with over eight years of experience in driving business growth through data-driven insights.
+  I have a proven track record of collaborating with cross-functional teams and leading teams to deliver impactful results. With expertise in SQL dialects, dbt, Airflow, and visualization tools like Looker and Tableau, 
+  I transform complex data challenges to deliver actionable insights. I'm passionate about building scalable data assets, mentoring others, and fostering a culture of continuous improvement.
   <br><br>
   <a href="https://www.linkedin.com/in/matthewklim/">LinkedIn Profile</a> 
   
