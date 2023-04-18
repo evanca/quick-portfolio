@@ -1,11 +1,16 @@
-title: John Doe # your name (or website title) here
+title: Miguel Somarriba # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Hello! I'm a data scientist based in Montréal, I'm eager to contribute my skills in cleaning and transforming data to provide data-driven
+  solutions and conduct statistical analysis to reach company goals. I am an innovative and scientifically rigorous recent graduate who is
+  passionate about building models that fix problems. I thrive in a team environment, I’m skilled in presentation composition and able to explain
+  technical terms in simple words.
   <br><br>
-  Second description 
+  My education includes a Diploma in Data Science from Concordia University, where I focused on modern concepts and technologies such as
+  Python programming, MySQL/SQL, supervised/unsupervised learning, predictive modelling, time series forecasting, and data cleansing and
+  structuring.
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/miguel-somarriba/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
