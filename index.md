@@ -2,7 +2,7 @@
 
 ---
 
-[Web Scraper for Public Housing Transaction Data](/housing-authority-scraper)
+[Web Scraper for Public Housing Transaction Data](https://github.com/johnthwong/housing-authority-scraper)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
@@ -10,7 +10,7 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Project 3 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
