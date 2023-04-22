@@ -2,7 +2,7 @@
 
 ---
 
-[Web Scraper for Public Housing Transaction Data](/sample_page)
+[Web Scraper for Public Housing Transaction Data](/housing-authority-scraper)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
