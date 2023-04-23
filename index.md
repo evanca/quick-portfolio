@@ -4,7 +4,9 @@
 
 [Web Scraper for Public Housing Transaction Data](https://github.com/johnthwong/housing-authority-scraper)
 <br>
-The Housing Authority Scraper gathers public data provided by the namesake Hong Kong agency on secondary transactions of government-built, privately-owned flats. Built with Python and Selenium.
+The Housing Authority's data on secondary transactions of government-built, privately-owned flats are notoriously difficult to access as the agency does not offer a way to download transaction data or an API and data must be requested with a web form by month. The Housing Authority Scraper gathers the transaction count of these flats by month and year and generates a csv file that can be easily used for further research, such as the analysis of housing market momentum or affordability. 
+<br>
+Built with Python and Selenium.
 <br>
 <img src="images/thumbnail_ha_scraper.png"/>
 
