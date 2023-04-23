@@ -8,6 +8,7 @@ The Housing Authority's data on secondary transactions of government-built, priv
 <br>
 Built with Python and Selenium.
 <br>
+<br>
 <img src="images/thumbnail_ha_scraper.png"/>
 
 
