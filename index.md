@@ -3,7 +3,7 @@
 ---
 
 [Web Scraper for Public Housing Transaction Data](https://github.com/johnthwong/housing-authority-scraper)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/ha_scraper_thumbnail.png"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
