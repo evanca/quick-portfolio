@@ -1,3 +1,5 @@
+<title>John Wong</title>
+
 ## Projects
 
 ---
