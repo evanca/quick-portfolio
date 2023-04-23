@@ -9,10 +9,11 @@ The Housing Authority's data on secondary transactions of government-built, priv
 Built with Python and Selenium.
 <br>
 <br>
-<img src="images/thumbnail_ha_scraper.png"/>
-<br>
-<br>
 Check it out here: [https://github.com/johnthwong/housing-authority-scraper](https://github.com/johnthwong/housing-authority-scraper)
+<br>
+<br>
+<img src="images/thumbnail_ha_scraper.png"/>
+
 
 
 ---
