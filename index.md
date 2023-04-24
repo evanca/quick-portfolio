@@ -36,7 +36,6 @@ In this paper, we estimate how variations in population sizes across US states c
 Check out the full paper here: https://arxiv.org/abs/2211.00410
 <br>
 <br>
-<img src="images/thumbnail_roe_1.png"/>
 <img src="images/thumbnail_roe_2.png"/>
 
 
