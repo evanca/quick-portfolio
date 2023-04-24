@@ -6,6 +6,7 @@ The HKMA should institute randomized mandatory borrowing, i.e. regularly mandate
 
 The rationale is as follows: the HIBOR often breaches the Base Rate. This should not happen, as the Base Rate theoretically sets a ceiling on the HIBOR. A bank seeking HKD would have no reason to borrow from a lender that charges more than the HKMA.
 
+### Ruling out the main suspect
 The common explanation offered for HIBOR spikes is initial public offerings (IPOs). Hong Kong is a common destination for companies to list their shares to raise funds. When an IPO closes, investors who successfully purchase shares must collectively make transfers to the fundraiser on the same day, during which the city’s banks may borrow cash in large quantities to make payments.[^3]
 
 But I found that breaches occur even during days when there were no IPOs, leaving DW stigma as the most likely explanation.[^4] One likely reason for stigma is that utilizing the HKMA's lending programs might suggest to investors that the borrowing bank is unable to convince other banks to lend. Investors could in turn assume that the bank is financially distressed and divest.
