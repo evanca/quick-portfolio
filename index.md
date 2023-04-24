@@ -29,6 +29,15 @@ This project parses JSON data from the Hong Kong Monetary Authority. Data manuip
 
 ---
 
+## [HKMA: Mandate Banks to Use the Discount Window](johnthwong.github.io/page_dw)
+I wrote in a policy memo in December 2022 that the HKMA should institute randomized mandatory borrowing, i.e. regularly mandate random banks to use the discount window (DW). This would prevent the HIBOR from breaching the Base Rate, which hurts both mortgage borrowers and banks. [Read more](johnthwong.github.io/page_dw)
+
+**The HIBOR (red), the Base Rate (blue), and Breaches (black)
+<img src="images/thumbnail_dw_1.png"/>
+
+
+---
+
 ## [Do Societies With Greater Populations Innovate More?](https://arxiv.org/abs/2211.00410)
 In this paper, we estimate how variations in population sizes across US states causally impacted these states’ capacity to produce patents. To rule out the endogeneity of fertility decisions and estimate the causal effect of cohort births on patent production, we use the US Supreme Court’s ruling on Roe v. Wade as an instrumental variable due to its heterogenous impact on different states.
 <br>
