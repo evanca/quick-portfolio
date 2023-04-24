@@ -1,4 +1,4 @@
-## Dear HKMA, Mandate Banks to Use the Discount Window
+## Dear HKMA: Mandate Banks to Use the Discount Window
 The Hong Kong Monetary Authority (HKMA, or Hong Kong's central bank) should institute randomized mandatory borrowing, i.e., regularly mandate random banks to use the discount window (DW).[^1]
 
 The rationale is as follows: the Hong Kong Interbank Offering Rate (HIBOR, or the city's benchmark rate) often breaches the Base Rate, the interest rate at which the HKMA lends. This should not happen, as the Base Rate theoretically sets a ceiling on the HIBOR. A bank seeking HKD would have no reason to borrow from a lender that charges more than the HKMA.
