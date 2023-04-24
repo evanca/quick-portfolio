@@ -12,7 +12,7 @@ The rationale is as follows: the HIBOR often breaches the Base Rate. I found tha
 ### Alternatives are ineffective
 Mandatory borrowing would be more effective than two alternatives. The first is increasing DW opacity. The Fed currently does not disclose borrower identity for two years, yet DW stigma still exists among US banks. The second is lowering the Base Rate: similar cuts by the Fed failed to stimulate DW usage in the wake of the GFC.[^3]
 
-### Less volatility leads to less mortgage payments
+### Less breaches means less mortgage overpayment
 The foremost benefit to a destigmatized DW would be to save homeowners money. Overnight yield spikes can drive a parallel shift in the yield curve. Given that most mortgages in Hong Kong reference the one-month HIBOR, homeowners would overpay. There were 37 days between 2019-20 with upward-sloping yield curves and HIBOR breaches simultaneously. I estimated that mortgage borrowers overpaid between US$15.1 million to US$92.4 million in interest across these days.[^4]
 
 ### More productive investing
