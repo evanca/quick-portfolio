@@ -8,7 +8,9 @@ The rationale is as follows: the HIBOR often breaches the Base Rate. This should
 
 The common explanation offered for HIBOR spikes is initial public offerings (IPOs). Hong Kong is a common destination for companies to list their shares to raise funds. When an IPO closes, investors who successfully purchase shares must collectively make transfers to the fundraiser on the same day, during which the city’s banks may borrow cash in large quantities to make payments.[^3]
 
-But I found that breaches occur even during days when there were no IPOs, leaving DW stigma as the most likely explanation.[^4] Mandatory borrowing would eliminate DW stigma among banks by making voluntary borrowers indistinguishable from the involuntary and rendering any speculation on DW activity by the market unproductive.
+But I found that breaches occur even during days when there were no IPOs, leaving DW stigma as the most likely explanation.[^4] One likely reason for stigma is that utilizing the HKMA's lending programs might suggest to investors that the borrowing bank is unable to convince other banks to lend. Investors could in turn assume that the bank is financially distressed and divest.
+
+Mandatory borrowing would eliminate DW stigma among banks by making voluntary borrowers indistinguishable from the involuntary and rendering any speculation on DW activity by the market unproductive.
 
 **Figure 2: HKMA borrowing (red), spikes with inversion (green) and without (purple)[^5]**
 <img src="images/thumbnail_dw_2.png?raw=true"/>
