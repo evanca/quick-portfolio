@@ -1,4 +1,4 @@
-# Portfolio
+# Selected Projects in Data Science and Econometrics
 
 ---
 
