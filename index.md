@@ -51,7 +51,7 @@ Check out the full paper here: [https://arxiv.org/abs/2211.00410](https://arxiv.
 ---
 
 ## Predicting the Conflict in Developing Regions Using Machine Learning Decision Trees
-We predict the likelihood of armed conflicts within 50-kilometer squares by using predictors such as the presence of minerals and governance quality. The data is fitted to both a panel data-specific decision tree model (RE-EM tree) and an aritificial neural network. 
+As part of a term assignment, we predicted the likelihood of armed conflicts within 50-kilometer squares by using a large panel of predictors, such as the presence of minerals and governance quality. The data is fitted to both a panel data-specific decision tree model (RE-EM tree) and an aritificial neural network. 
 <br>
 <br>
 This project used R's dplyr and data.table libraries and also the Keras package for Python.
