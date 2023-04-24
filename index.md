@@ -32,7 +32,7 @@ This project parses JSON data from the Hong Kong Monetary Authority. Data manuip
 ## [HKMA: Mandate Banks to Use the Discount Window](https://johnthwong.github.io/page_dw)
 I wrote in a policy memo in December 2022 that the HKMA should institute randomized mandatory borrowing, i.e. regularly mandate random banks to use the discount window (DW). This would prevent the HIBOR from breaching the Base Rate, which hurts both mortgage borrowers and banks. [Read more](https://johnthwong.github.io/page_dw)
 
-**The HIBOR (red), the Base Rate (blue), and Breaches (black, dotted)**
+**The HIBOR (red), the Base Rate (blue), and breaches (black, dotted)**
 <img src="images/thumbnail_dw_1.png"/>
 
 
