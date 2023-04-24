@@ -29,7 +29,7 @@ This project parses JSON data from the Hong Kong Monetary Authority. Data manuip
 
 ---
 
-## Do Societies With Greater Populations Innovate More?
+## [Do Societies With Greater Populations Innovate More?](https://arxiv.org/abs/2211.00410)
 In this paper, we estimate how variations in population sizes across US states causally impacted these states’ capacity to produce patents. To rule out the endogeneity of fertility decisions and estimate the causal effect of cohort births on patent production, we use the US Supreme Court’s ruling on Roe v. Wade as an instrumental variable due to its heterogenous impact on different states.
 <br>
 <br>
