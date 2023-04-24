@@ -58,7 +58,7 @@ As part of a term assignment, we predicted the likelihood of armed conflicts wit
 This project used R's dplyr and data.table libraries and also the Keras package for Python.
 <br>
 <br>
-**RE-EM Tree for Predicting Conflict **
+**RE-EM Tree for Predicting Conflict**
 <img src="images/thumbnail_conflict_pred.png"/>
 
 ---
