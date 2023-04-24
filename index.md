@@ -19,7 +19,7 @@ Check it out here: [https://github.com/johnthwong/housing-authority-scraper](htt
 ---
 
 ## Visualization of the Hong Kong's Reserves
-After a drop in interbank liqudity (aka "Aggregate Balance"), there was a [panic](https://www.bloomberg.com/news/articles/2022-07-26/hong-kong-liquidity-shrinks-50-since-may-amid-currency-defense) in the summer of 2022 over the viability of Hong Kong's currency peg with the USD. In response, I wrote a report at the time to contextualize the city's monetary base and to show how little of it is composed of "Aggregate Balance."
+After a drop in the balances of accounts held at the central bank by commercial banks (aka "Aggregate Balance"), there was a [panic](https://www.bloomberg.com/news/articles/2022-07-26/hong-kong-liquidity-shrinks-50-since-may-amid-currency-defense) in the summer of 2022 over the viability of Hong Kong's currency peg with the USD. In response, I wrote a report at the time to contextualize the city's monetary base and to show how little of it is composed of "Aggregate Balance."
 <br>
 <br>
 This project parses JSON data from the Hong Kong Monetary Authority. Data manuipulation and visualization are done with R's tidyr and ggplot libraries.
