@@ -42,7 +42,7 @@ I wrote in a policy memo in December 2022 that the HKMA should institute randomi
 In this paper, we estimate how variations in population sizes across US states causally impacted these states’ capacity to produce patents. To rule out the endogeneity of fertility decisions and estimate the causal effect of cohort births on patent production, we use the US Supreme Court’s ruling on Roe v. Wade as an instrumental variable due to its heterogenous impact on different states.
 <br>
 <br>
-Check out the full paper here: https://arxiv.org/abs/2211.00410
+Check out the full paper here: [https://arxiv.org/abs/2211.00410](https://arxiv.org/abs/2211.00410)
 <br>
 <br>
 <img src="images/thumbnail_roe_2.png"/>
