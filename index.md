@@ -48,6 +48,6 @@ We predict the likelihood of armed conflicts within 50-kilometer squares by usin
 <br>
 This project used R's dplyr and data.table libraries and also the Keras package for Python.
 
-<img src="images/conflict_pred_reserves.png"/>
+<img src="images/thumbnail_conflict_pred.png"/>
 
 ---
