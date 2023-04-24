@@ -32,7 +32,7 @@ This project parses JSON data from the Hong Kong Monetary Authority. Data manuip
 ## [Dear HKMA, Mandate Banks to Use the Discount Window](https://johnthwong.github.io/page_dw)
 I wrote in a policy memo in December 2022 that the HKMA (Hong Kong's central bank) should institute randomized mandatory borrowing, i.e. regularly mandate random banks to use the discount window (DW). This would prevent the HIBOR from breaching the Base Rate, which hurts both mortgage borrowers and banks. [Read more](https://johnthwong.github.io/page_dw)
 
-**The HIBOR (red), the Base Rate (blue), and breaches (black, dotted)**
+**When HIBOR (red) Breaches the Base Rate (blue)**
 <img src="images/thumbnail_dw_1.png"/>
 
 
@@ -45,6 +45,7 @@ In this paper, we estimate how variations in population sizes across US states c
 Check out the full paper here: [https://arxiv.org/abs/2211.00410](https://arxiv.org/abs/2211.00410)
 <br>
 <br>
+**Estimating Patents Granted per Capita on Births Using Roe as an Instrumental Variable**
 <img src="images/thumbnail_roe_2.png"/>
 
 
@@ -55,7 +56,9 @@ As part of a term assignment, we predicted the likelihood of armed conflicts wit
 <br>
 <br>
 This project used R's dplyr and data.table libraries and also the Keras package for Python.
-
+<br>
+<br>
+**RE-EM Tree for Predicting Conflict **
 <img src="images/thumbnail_conflict_pred.png"/>
 
 ---
