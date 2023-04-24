@@ -33,7 +33,7 @@ There are potential costs and benefits to financial actors as well. [Lab evidenc
 
 [^3]: Frank Leung and Philip Ng, “Impact of IPO activities on the Hong Kong-dollar interbank market’, Hong Kong Monetary Authority Quarterly Bulletin, Sep 2008, pp. 1-9.
 
-[4]: Other damning evidence: IPOs usually cause short-term rates to rise above long-term ones (leading to an “inverted yield curve”). But no inversion occurred during 17 of the 37 HIBOR spikes observed between 2019-20, i.e., borrowing costs for different maturities increased in tandem (Figure 2, purple dashed lines), which suggests IPOs are not the cause. 
+[^4]: Other damning evidence: IPOs usually cause short-term rates to rise above long-term ones (leading to an “inverted yield curve”). But no inversion occurred during 17 of the 37 HIBOR spikes observed between 2019-20, i.e., borrowing costs for different maturities increased in tandem (Figure 2, purple dashed lines), which suggests IPOs are not the cause. 
 
 What's more: IPO activity is supposed to highly correlate with amounts borrowed from the HKMA. But as Figure 2 shows, HIBOR spikes which did not lead to inversion also happened to coincide with dampened borrowing, meaning that not only can IPOs be ruled out as the cause for these spikes, but also that whatever is causing these spikes is also correlated with discount window usage.
 
