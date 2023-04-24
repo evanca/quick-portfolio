@@ -1,7 +1,7 @@
 ## HKMA: Mandate Banks to Use the Discount Window
 The HKMA should institute randomized mandatory borrowing, i.e. regularly mandate random banks to use the discount window (DW). 
 
-**Figure 1: The HIBOR (red), the Base Rate (blue), and Breaches (black, dotted)[^1]**
+**Figure 1: The HIBOR (red), the Base Rate (blue), and breaches (black, dotted)[^1]**
 <img src="images/thumbnail_dw_1.png?raw=true"/>
 
 The rationale is as follows: the HIBOR often breaches the Base Rate. I found that this was true even during days when there were no IPOs, a common suspect for liquidity squeezes, leaving DW stigma as the most likely explanation. Mandatory borrowing would eliminate DW stigma among banks by making voluntary borrowers indistinguishable from the involuntary and rendering any speculation on DW activity by the market unproductive.
