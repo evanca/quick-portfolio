@@ -30,9 +30,24 @@ This project parses JSON data from the Hong Kong Monetary Authority. Data manuip
 ---
 
 ## Predicting the Conflict in Developing Regions Using Machine Learning Decision Trees
+In this paper, we estimate how variations in population sizes across US states causally impacted these states’ capacity to produce patents. To rule out the endogeneity of fertility decisions and estimate the causal effect of cohort births on patent production, we use the US Supreme Court’s ruling on Roe v. Wade as an instrumental variable due to its heterogenous impact on different states.
+<br>
+<br>
+Check out the full paper here: https://arxiv.org/abs/2211.00410
+<br>
+<br>
+<img src="images/thumbnail_roe_1.png"/>
+<img src="images/thumbnail_roe_2.png"/>
+
+
+---
+
+## Predicting the Conflict in Developing Regions Using Machine Learning Decision Trees
 We predict the likelihood of armed conflicts within 50-kilometer squares by using predictors such as the presence of minerals and governance quality. The data is fitted to both a panel data-specific decision tree model (RE-EM tree) and an aritificial neural network. 
 <br>
 <br>
 This project used R's dplyr and data.table libraries and also the Keras package for Python.
+
+<img src="images/conflict_pred_reserves.png"/>
 
 ---
