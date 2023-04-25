@@ -2,11 +2,8 @@
 
 ---
 
-## [Web Scraper for Public Housing Transaction Data](https://github.com/johnthwong/housing-authority-scraper)
-The Housing Authority's data on subsidized flat transactions is notoriously difficult to access as the data must be requested by month, each with a separate web form. So I built a scraper that automatically submits forms and gathers transaction count in each month into one CSV file.
-<br>
-<br>
-Built with Python and Selenium.
+## [Web Scraper for Subsidized Housing Transaction Data](https://github.com/johnthwong/housing-authority-scraper)
+The Housing Authority's data on subsidized housing transactions is notoriously difficult to access as the data must be requested by month, each with a separate web form. So I built a scraper that automatically submits forms and gathers transaction count in each month into one CSV file. Built with Python and Selenium.
 <br>
 <br>
 Check it out here: [https://github.com/johnthwong/housing-authority-scraper](https://github.com/johnthwong/housing-authority-scraper)
@@ -15,6 +12,7 @@ Check it out here: [https://github.com/johnthwong/housing-authority-scraper](htt
 <img src="images/thumbnail_ha_scraper.png"/>
 <br>
 <br>
+
 ---
 
 ## Visualization of the Hong Kong's Reserves
@@ -27,6 +25,7 @@ This project parses JSON data from the Hong Kong Monetary Authority. Data manipu
 <img src="images/thumbnail_viz_reserves.png"/>
 <br>
 <br>
+
 ---
 
 ## [Dear HKMA: Mandate Banks to Use the Discount Window](https://johnthwong.github.io/page_dw)
@@ -48,9 +47,9 @@ Check out the full paper here: [https://arxiv.org/abs/2211.00410](https://arxiv.
 <br>
 **Estimating Patents Granted per Capita on Births Using Roe as an Instrumental Variable**
 <img src="images/thumbnail_roe_2.png"/>
+<br>
+<br>
 
-<br>
-<br>
 ---
 
 ## Predicting the Conflict in Developing Regions Using Machine Learning Decision Trees
@@ -64,4 +63,5 @@ This project used R's dplyr and data.table libraries and also Google's Python pa
 <img src="images/thumbnail_conflict_pred.png"/>
 <br>
 <br>
+
 ---
