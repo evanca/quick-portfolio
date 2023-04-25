@@ -3,7 +3,7 @@
 ---
 
 ## [Web Scraper for Public Housing Transaction Data](https://github.com/johnthwong/housing-authority-scraper)
-The Housing Authority's data on secondary transactions of subsidized flats are notoriously difficult to access as the data must be requested by month, each with a separate web form. So I built a scraper that automatically submits forms and gathers transaction count in each month into one CSV file.
+The Housing Authority's data on subsidized flat transactions is notoriously difficult to access as the data must be requested by month, each with a separate web form. So I built a scraper that automatically submits forms and gathers transaction count in each month into one CSV file.
 <br>
 <br>
 Built with Python and Selenium.
