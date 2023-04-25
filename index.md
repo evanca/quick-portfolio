@@ -39,7 +39,7 @@ I wrote in a policy memo in December 2022 that the HKMA (Hong Kong's central ban
 ---
 
 ## [Do Societies With Greater Populations Innovate More?](https://arxiv.org/abs/2211.00410)
-In this paper, we estimate how variations in population sizes across US states causally impacted these states’ capacity to produce patents. To rule out the endogeneity of fertility decisions and estimate the causal effect of cohort births on patent production, we use the US Supreme Court’s ruling on Roe v. Wade as an instrumental variable due to its heterogenous impact on different states.
+In this paper, we estimate how variations in population sizes across US states causally impacted these states’ capacity to produce patents. To rule out the endogeneity of fertility decisions, we estimate the difference-in-difference in births before and after the Roe ruling, and then use estimated births as an instrumental variable to predict patents per capita.
 <br>
 <br>
 Check out the full paper here: [https://arxiv.org/abs/2211.00410](https://arxiv.org/abs/2211.00410)
