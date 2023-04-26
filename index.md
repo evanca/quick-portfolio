@@ -19,7 +19,7 @@
 
 **The purpose of this project was to answer the following questions: 1) Where are the memorials and monuments on campus? 2) What is the memorial and monument density on campus? 3) What are the most common types of memorials on campus?**
 
-<img src="images/SpatialGrid.png?raw=true"/>
+<img src="images/MemorialDensity(50m).png?raw=true"/>
 <img src="images/Chartspptx.png?raw=true"/>
 
 ---
