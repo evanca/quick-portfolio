@@ -15,7 +15,7 @@
 
 ## The Memorial and Monument Density - University of Missouri's Campus
 
-**Memorial and Monument Density at the University of Missouri's campus**
+**What does the University of Missouri memorialize and where?**
 > "The past is potentially contested terrain and where memorials are located - relative to a sense of time and place - plays a critical role in shaping what (and who) is ultimately remembered and forgotten" (Dwyer and Alderman, 2008).
 
 <img src="images/MemorialDensity(50m)png.png?raw=true"/><img src="images/Chartspptx.png?raw=true"/>
