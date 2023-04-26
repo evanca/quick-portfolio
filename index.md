@@ -20,7 +20,8 @@
 
 <img src="images/MemorialDensity(50m)png.png?raw=true"/><img src="images/Chartspptx.png?raw=true"/>
 
-<sub>Check out the [Presentation](University of Missouri - Memorial Landscape.pdf)</sub>
+Check out the [Presentation](University of Missouri - Memorial Landscape.pdf)
+
 ---
 
 ## Analyzing Railroad Development, Abandonment, and Historic Population Density (using Python)
