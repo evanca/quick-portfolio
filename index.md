@@ -1,4 +1,4 @@
-## Krystal Saverse GIS Portfolio
+## GIS Portfolio
 
 **Portfolio description:** Previous mapping projects from graduate and undergraduate courses. 
 
