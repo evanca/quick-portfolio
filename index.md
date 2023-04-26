@@ -4,7 +4,7 @@
 
 ## Walksheds and Bikesheds to Career Centers, City of Phoenix
 
-**Exploring 5, 10, 15 minute walksheds and bikesheds to Career Centers in Phoenix, AZ and intersecting communities.**
+**Exploring 5, 10, 15 minute walksheds and bikesheds to Career Centers in Phoenix, AZ**
 
 <img src="images/Walksheds_and_bikesheds.png?raw=true"/>
 
@@ -15,7 +15,7 @@
 
 ## The Memorial and Monument Density - University of Missouri's Campus
 
-**Memorial and Monument Density at the University of Missouri's campus.**
+**Memorial and Monument Density at the University of Missouri's campus**
 > "The past is potentially contested terrain and where memorials are located - relative to a sense of time and place - plays a critical role in shaping what (and who) is ultimately remembered and forgotten" (Dwyer and Alderman, 2008).
 
 <img src="images/MemorialDensity(50m)png.png?raw=true"/><img src="images/Chartspptx.png?raw=true"/>
@@ -27,7 +27,7 @@
 
 ## Analyzing Railroad Development, Abandonment, and Historic Population Density (using Python)
 
-**The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today.  This project aims to explore local indicators which might explain railway abandonment.**
+**The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today.  This project aims to explore local indicators which might explain railway abandonment**
 
 <img src="images/Population Density and Rail Abandonment Boone County, MO (1810-present).png?raw=true"/>
 
