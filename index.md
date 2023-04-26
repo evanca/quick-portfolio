@@ -1,6 +1,6 @@
 ## GIS Portfolio
 
-**Portfolio description:** Previous mapping projects from graduate and undergraduate courses. 
+***Portfolio description:*** Previous mapping projects from graduate and undergraduate courses. 
 
 ### 1. Walksheds and Bikesheds to Career Centers in Phoenix, Arizona
 
