@@ -29,8 +29,6 @@
 
 **The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today**
 
-<img src="images/Layout3.png?raw=true"/>
-
 Example Code:
 ```
 # Step 1, Import system modules
@@ -71,6 +69,8 @@ for entry in mofcs:
 # Execute CalculateField    
     arcpy.management.CalculateField(entry, "YEAR", output, "PYTHON3")
 ```
+
+<img src="images/Layout3.png?raw=true"/>
 
 <sub>Check out the [Written Report](https://github.com/ksaves/krystalsaverse.github.io/blob/master/pdf/Written%20Report.pdf)</sub>
 
