@@ -31,6 +31,19 @@
 
 <img src="images/Population Density and Rail Abandonment Boone County, MO (1810-present).png?raw=true"/>
 
+Example Code:
+```
+# Step 1, Import system modules
+import arcpy, os
+import save0004_module as sav
+
+# Use variables from getPathInfo() module
+my_ws, out_ws, out_name = sav.getPathInfo()
+
+# Set workspace
+arcpy.env.workspace = my_ws
+arcpy.env.overwriteOutput = True
+```
 ```
 # Step 3, Add field "YEAR" to MO_Census_Data & calculate
 # Retrieve variables from getRailInfo() module
