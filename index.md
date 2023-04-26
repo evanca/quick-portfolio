@@ -20,7 +20,7 @@
 
 <img src="images/MemorialDensity(50m)png.png?raw=true"/><img src="images/Chartspptx.png?raw=true"/>
 
-Check out the [Presentation](University of Missouri - Memorial Landscape.pdf)
+Check out the [Presentation](pdf/University of Missouri - Memorial Landscape.pdf)
 
 ---
 
