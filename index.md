@@ -27,11 +27,12 @@
 
 ## Analyzing Railroad Development, Abandonment, and Historic Population Density
 
-**The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today**
+**The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today. This project aims to explore local indicators which might explain railway abandonment using ArcPy**
 
 Example Code:
 ```
-# Step 1, Import system modules
+## Step 1, Import system modules
+
 import arcpy, os
 import save0004_module as sav
 
@@ -44,7 +45,8 @@ arcpy.env.overwriteOutput = True
 ```
 
 ```
-# Step 3, Add field "YEAR" to MO_Census_Data & calculate
+## Step 3, Add field "YEAR" to MO_Census_Data & calculate
+
 # Retrieve variables from getRailInfo() module
 cws = sav.getCensusFieldInfo()
 mofcs = []
@@ -66,7 +68,7 @@ for entry in mofcs:
     xx = entry.split("_")[1]
     output = int(xx)
 
-# Execute CalculateField    
+# Execute CalculateField with retrieved year    
     arcpy.management.CalculateField(entry, "YEAR", output, "PYTHON3")
 ```
 
