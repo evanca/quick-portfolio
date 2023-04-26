@@ -25,9 +25,9 @@
 
 ---
 
-## Analyzing Railroad Development, Abandonment, and Historic Population Density (using Python)
+## Analyzing Railroad Development, Abandonment, and Historic Population Density
 
-**The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today.  This project aims to explore local indicators which might explain railway abandonment using Python**
+**The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today**
 
 <img src="images/Layout2.png?raw=true"/>
 
