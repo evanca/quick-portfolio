@@ -9,7 +9,7 @@
 <img src="images/Walksheds_and_bikesheds.png?raw=true"/>
 
 <sub>Explore the [ArcGIS StoryMap](https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4)</sub>
-
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
 ---
 
 ## The Memorial Landscape on the University of Missouri's Campus
