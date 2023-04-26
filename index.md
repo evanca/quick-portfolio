@@ -31,7 +31,7 @@
 
 <img src="images/Layout2.png?raw=true"/>
 
-###Example Code:
+Example Code (Python):
 ```
 # Step 1, Import system modules
 import arcpy, os
