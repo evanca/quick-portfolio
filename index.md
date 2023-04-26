@@ -13,7 +13,7 @@
 
 ---
 
-## The Memorial and Monument Density - University of Missouri's Campus
+## The Memorial/Monument Density - University of Missouri's Campus
 
 **What does the University of Missouri memorialize and where?**
 > "The past is potentially contested terrain and where memorials are located - relative to a sense of time and place - plays a critical role in shaping what (and who) is ultimately remembered and forgotten" (Dwyer and Alderman, 2008).
@@ -31,7 +31,7 @@
 
 <img src="images/Layout2.png?raw=true"/>
 
-Example Code (Python):
+Example Code:
 ```
 # Step 1, Import system modules
 import arcpy, os
