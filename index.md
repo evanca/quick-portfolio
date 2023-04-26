@@ -4,9 +4,9 @@
 
 ---
 
-## Walksheds and Bikesheds to Career Centers in Phoenix, Arizona
+## Walksheds and Bikesheds to Career Centers, City of Phoenix
 
-The purpose of this study was to analyze walksheds and bikesheds for individuals traveling to career centers in the City of Phoenix using GIS. Data were collected from the City of Phoenix’s Data Portal, the U.S. Census Bureau and American Community Survey. A network dataset was created using Phoenix bike paths and roads available to pedestrians. Service Areas were created for both travel methods and includes 5, 10, and 15 minute travel times towards Phoeix Career Centers. 
+Exploring 5, 10, 15 minute walksheds and bikesheds to Career Centers in Phoenix, AZ and intersecting communities.
 
 <img src="images/Presentation1.png?raw=true"/>
 
