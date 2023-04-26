@@ -4,7 +4,7 @@
 
 ## Walksheds and Bikesheds to Career Centers, City of Phoenix
 
-**Exploring 5, 10, 15 minute walksheds and bikesheds to Career Centers in Phoenix, AZ**
+Exploring 5, 10, 15 minute walksheds and bikesheds to Career Centers in Phoenix, AZ
 
 <img src="images/Walksheds_and_bikesheds.png?raw=true"/>
 
@@ -15,7 +15,7 @@
 
 ## The Memorial/Monument Density - University of Missouri's Campus
 
-**What does the University of Missouri memorialize and where?**
+What does the University of Missouri memorialize and where?
 > "The past is potentially contested terrain and where memorials are located - relative to a sense of time and place - plays a critical role in shaping what (and who) is ultimately remembered and forgotten" (Dwyer and Alderman, 2008).
 
 <img src="images/MemorialDensity(50m)png.png?raw=true"/><img src="images/Chartspptx.png?raw=true"/>
@@ -27,7 +27,7 @@
 
 ## Analyzing Railroad Development, Abandonment, and Historic Population Density
 
-**The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today. This project aims to explore local indicators which might explain railway abandonment using ArcPy**
+The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today. This project aims to explore local indicators which might explain railway abandonment using ArcPy
 
 Example Code:
 ```
@@ -80,9 +80,8 @@ for entry in mofcs:
 ---
 
 # Capstone Project to be added here...
-## Pedestrian-Vehicle Accidents in Maricopa County, AZ
-
-***Capstone Project.***
+Pedestrian-Vehicle Accidents in Maricopa County, AZ
+Capstone Project.
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
