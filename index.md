@@ -31,9 +31,8 @@
 
 <img src="images/Population Density and Rail Abandonment Boone County, MO (1810-present).png?raw=true"/>
 
-'''
+```
 # Step 3, Add field "YEAR" to MO_Census_Data & calculate
-
 # Retrieve variables from getRailInfo() module
 cws = sav.getCensusFieldInfo()
 mofcs = []
@@ -57,7 +56,7 @@ for entry in mofcs:
 
 # Execute CalculateField    
     arcpy.management.CalculateField(entry, "YEAR", output, "PYTHON3")
-'''
+```
 
 ---
 
