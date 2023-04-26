@@ -8,7 +8,7 @@
 
 ***Exploring 5, 10, 15 minute walksheds and bikesheds to Career Centers in Phoenix, AZ and intersecting communities***
 
-<img src="images/Walksheds_and_bikesheds.jpg?raw=true"/>
+<img src="images/Walksheds_and_bikesheds.jpg?raw=true"/>(https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4)
 
 For more information about this project, visit the ArcStoryMap at
 https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4
