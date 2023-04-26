@@ -1,44 +1,33 @@
-## Portfolio
+## Krystal Saverse GIS Portfolio
 
----
+**Portfolio description:** Previous mapping projects from graduate and undergraduate courses. 
 
-### Previous Projects
+### 1. Walksheds and Bikesheds to Career Centers in Phoenix, Arizona
 
+The purpose of this study was to analyze walksheds and bikesheds for individuals traveling to career centers in the City of Phoenix using GIS. Data were collected from the City of Phoenix’s Data Portal, the U.S. Census Bureau and American Community Survey. A network dataset was created using Phoenix bike paths and roads available to pedestrians. Service Areas were created for both travel methods and includes 5, 10, and 15 minute travel times towards Phoeix Career Centers. 
 
-[Walk-shed and Bikeshed to Career Centers in Phoenix, AZ.pdf](https://github.com/ksaves/ksaves.github.io/files/10789440/Walk-shed.and.Bikeshed.to.Career.Centers.in.Phoenix.AZ.pdf)
-<img src="images/!Presentation1.jpg?raw=true"/>
-![Presentation1](https://user-images.githubusercontent.com/109261218/220243375-df30ed61-17ea-4259-bf42-cfc5b599fce4.png)
+<img src="images/WalkBikeSheds.png?raw=true"/>
 
-
----
-[A Spatial-Temporal Analysis of Railroad Development, Abandonment, and Historical Population Density.pdf](https://github.com/ksaves/ksaves.github.io/files/10789474/A.Spatial-Temporal.Analysis.of.Railroad.Development.Abandonment.and.Historical.Population.Density.pdf)
-<img src="images/!Presentation1.jpg?raw=true"/>
-![Population Density and Rail Abandonment Boone County, MO (1810-present)](https://user-images.githubusercontent.com/109261218/220252190-1617138a-35cc-4757-afe6-323e05e477a4.png)
-
----
-[![Walksheds and Bikesheds to Career Centers ArcStoryMap](https://user-images.githubusercontent.com/109261218/221753815-e24bbee8-09de-482d-88fd-22225aa979bd.png)
-]https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4)
-
----
-[![Pedestrian Vehicle Accidents](https://user-images.githubusercontent.com/109261218/221752944-9fdf5098-538a-4ba1-824c-50c5f32d0159.png)]https://arcg.is/vPuie)
+For more information about this project, visit the ArcStoryMap at
+https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4
 
 
----
-https://krystalsaverse.users.earthengine.app/view/sentinel-2-dnbr-burn-area
+### 2. Analyzing Railroad Development, Abandonment, and Historic Population Density (using Python)
 
-### Category Name 2
+The U.S. has a rich history in railroad development and operation.  The American rail system contributed to the growth and transportation of resources during the American industrial revolution.  However, many abandoned railroads exist today.  This project aims to explore local indicators which might explain railway abandonment.  The study area is narrowed to Boone County, Missouri.  The data mostly consisted of historic census data, historic railroad data, and abandoned railroad data.  A major limitation of this study were the lack of recent census data, not acquired in the early stages of this analysis.   The majority of this project was completed using python. 
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
+<img src="images/RailAbandonment.png?raw=true"/>
 
 
+### 3. The Memorial Landscape on the University of Missouri's Campus
+
+Memorials are a socio-spatial process. They reflect the normative social order. They exist on the landscape and we must make sense of them (Dwyer and Alderman, 2008). The purpose of this project was to answer the following questions: 1) Where are the memorials and monuments on campus? 2) What is the memorial and monument density on campus? 3) What are the most common types of memorials on campus?
+
+<img src="images/SpatialGrid.png?raw=true"/>
 
 
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+### 4. Pedestrian-Vehicle Accidents in Maricopa County, AZ
+
+Capstone Project. 
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
