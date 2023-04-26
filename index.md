@@ -1,4 +1,4 @@
-# GIS Portfolio
+# Portfolio
 
 ***Portfolio description:*** Previous mapping projects from graduate and undergraduate courses. 
 
