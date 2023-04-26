@@ -20,7 +20,7 @@
 
 <img src="images/MemorialDensity(50m)png.png?raw=true"/><img src="images/Chartspptx.png?raw=true"/>
 
-Check out the [Presentation]([pdf/University of Missouri - Memorial Landscape.pdf](https://github.com/ksaves/krystalsaverse.github.io/blob/master/pdf/University%20of%20Missouri%20-%20Memorial%20Landscape.pdf))
+<sub>Check out the [Presentation](https://github.com/ksaves/krystalsaverse.github.io/blob/master/pdf/University%20of%20Missouri%20-%20Memorial%20Landscape.pdf))</sub>
 
 ---
 
