@@ -29,7 +29,7 @@
 
 **The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today.  This project aims to explore local indicators which might explain railway abandonment using Python**
 
-<img src="images/Population Density and Rail Abandonment Boone County, MO (1810-present).png?raw=true"/>
+<img src="images/Layout2.png?raw=true"/>
 
 ###Example Code:
 ```
