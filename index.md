@@ -5,9 +5,9 @@
 ## Walksheds and Bikesheds to Career Centers, City of Phoenix
 
 ***Exploring 5, 10, 15 minute walksheds and bikesheds to Career Centers in Phoenix, AZ and intersecting communities***
-### ArcGIS StoryMap
-[<img src="images/Walksheds_and_bikesheds.png?raw=true"/>](https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4)
 
+[<img src="images/Walksheds_and_bikesheds.png?raw=true"/>](https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4)
+**Click the image to explore the ArcGIS Storymap**
 ---
 
 ## The Memorial Landscape on the University of Missouri's Campus
