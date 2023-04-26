@@ -17,7 +17,7 @@
 
 > "The past is potentially contested terrain and where memorials are located - relative to a sense of time and place - plays a critical role in shaping what (and who) is ultimately remembered and forgotten" (Dwyer and Alderman, 2008).
 
-Exploring the density and most common memorials and monuments aon the University of Missouri's campus. 
+**Exploring the density and most common memorials and monuments aon the University of Missouri's campus.**
 
 <img src="images/MemorialDensity(50m)png.png?raw=true"/>
 <img src="images/Chartspptx.png?raw=true"/>
