@@ -2,7 +2,7 @@
 
 ---
 
-## Walksheds and Bikesheds to Career Centers, City of Phoenix
+## Walksheds and Bikesheds to Career Centers in Phoenix, Arizona
 
 Exploring 5, 10, 15 minute walksheds and bikesheds to Career Centers in Phoenix, AZ
 
@@ -13,7 +13,7 @@ Exploring 5, 10, 15 minute walksheds and bikesheds to Career Centers in Phoenix,
 
 ---
 
-## The Memorial/Monument Density - University of Missouri's Campus
+## The Memorial-Monument Density for the University of Missouri
 
 What does the University of Missouri memorialize and where?
 > "The past is potentially contested terrain and where memorials are located - relative to a sense of time and place - plays a critical role in shaping what (and who) is ultimately remembered and forgotten" (Dwyer and Alderman, 2008).
@@ -25,7 +25,7 @@ What does the University of Missouri memorialize and where?
 
 ---
 
-## Analyzing Railroad Development, Abandonment, and Historic Population Density
+## Analyzing Railroad Development, Abandonment, and Historic Population Density for Central Missouri
 
 The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today. This project aims to explore local indicators which might explain railway abandonment using ArcPy
 
