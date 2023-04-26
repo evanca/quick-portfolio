@@ -29,7 +29,7 @@
 
 **The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today**
 
-<img src="images/Layout2.png?raw=true"/>
+<img src="images/Layout3.png?raw=true"/>
 
 Example Code:
 ```
