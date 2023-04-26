@@ -1,7 +1,5 @@
 # Portfolio
 
-***Portfolio description:*** Previous mapping projects from graduate and undergraduate courses. 
-
 ---
 
 ## Walksheds and Bikesheds to Career Centers, City of Phoenix
@@ -14,7 +12,7 @@
 
 ## The Memorial Landscape on the University of Missouri's Campus
 
-Memorials are a socio-spatial process. They reflect the normative social order. They exist on the landscape and we must make sense of them (Dwyer and Alderman, 2008). The purpose of this project was to answer the following questions: 1) Where are the memorials and monuments on campus? 2) What is the memorial and monument density on campus? 3) What are the most common types of memorials on campus?
+***Memorials are a socio-spatial process. They reflect the normative social order. They exist on the landscape and we must make sense of them (Dwyer and Alderman, 2008). The purpose of this project was to answer the following questions: 1) Where are the memorials and monuments on campus? 2) What is the memorial and monument density on campus? 3) What are the most common types of memorials on campus?***
 
 <img src="images/SpatialGrid.png?raw=true"/>
 
@@ -22,7 +20,7 @@ Memorials are a socio-spatial process. They reflect the normative social order. 
 
 ## Analyzing Railroad Development, Abandonment, and Historic Population Density (using Python)
 
-The U.S. has a rich history in railroad development and operation.  The American rail system contributed to the growth and transportation of resources during the American industrial revolution.  However, many abandoned railroads exist today.  This project aims to explore local indicators which might explain railway abandonment.  The study area is narrowed to Boone County, Missouri.  The data mostly consisted of historic census data, historic railroad data, and abandoned railroad data.  A major limitation of this study were the lack of recent census data, not acquired in the early stages of this analysis.   The majority of this project was completed using python. 
+***The U.S. has a rich history in railroad development and operation.  The American rail system contributed to the growth and transportation of resources during the American industrial revolution.  However, many abandoned railroads exist today.  This project aims to explore local indicators which might explain railway abandonment.  The study area is narrowed to Boone County, Missouri.  The data mostly consisted of historic census data, historic railroad data, and abandoned railroad data.  A major limitation of this study were the lack of recent census data, not acquired in the early stages of this analysis.   The majority of this project was completed using python.***
 
 <img src="images/Population Density and Rail Abandonment Boone County, MO (1810-present).png?raw=true"/>
 
@@ -30,6 +28,6 @@ The U.S. has a rich history in railroad development and operation.  The American
 
 ## Pedestrian-Vehicle Accidents in Maricopa County, AZ
 
-Capstone Project. 
+***Capstone Project.***
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
