@@ -6,7 +6,7 @@
 
 ## Walksheds and Bikesheds to Career Centers, City of Phoenix
 
-*** Exploring 5, 10, 15 minute walksheds and bikesheds to Career Centers in Phoenix, AZ and intersecting communities. ***
+***Exploring 5, 10, 15 minute walksheds and bikesheds to Career Centers in Phoenix, AZ and intersecting communities***
 
 <img src="images/Presentation1.png?raw=true"/>
 
