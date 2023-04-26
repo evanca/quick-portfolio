@@ -6,7 +6,11 @@
 
 ***Exploring 5, 10, 15 minute walksheds and bikesheds to Career Centers in Phoenix, AZ and intersecting communities***
 
-(https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4)<img src="images/Walksheds_and_bikesheds.png?raw=true"/> 
+<img src="images/Walksheds_and_bikesheds.png?raw=true"/>(https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4)
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
 
 ---
 
