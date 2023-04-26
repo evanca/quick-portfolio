@@ -1,11 +1,13 @@
 title: Krystal Saverse # your name (or website title) here
 logo: "/images/unnamed.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  4+ years GIS experience and 2+ years broadband experience. 
+  Master of Science degree in Geospatial Technologies from the University of Oklahoma. 
+  Bachelor of Art degree in Geography from the University of Missouri.
   <br><br>
-  Second description 
+  Currently the Broadband Data & GIS Analyst for the State of Arizona's Broadband Office at the Arizona Commerce Authority. 
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/krystalsaverse">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
