@@ -22,11 +22,12 @@
 
 <sub>Check out the [Presentation](https://github.com/ksaves/krystalsaverse.github.io/blob/master/pdf/University%20of%20Missouri%20-%20Memorial%20Landscape.pdf)</sub>
 
+
 ---
 
 ## Analyzing Railroad Development, Abandonment, and Historic Population Density (using Python)
 
-***The U.S. has a rich history in railroad development and operation.  The American rail system contributed to the growth and transportation of resources during the American industrial revolution.  However, many abandoned railroads exist today.  This project aims to explore local indicators which might explain railway abandonment.  The study area is narrowed to Boone County, Missouri.  The data mostly consisted of historic census data, historic railroad data, and abandoned railroad data.  A major limitation of this study were the lack of recent census data, not acquired in the early stages of this analysis.   The majority of this project was completed using python.***
+**The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today.  This project aims to explore local indicators which might explain railway abandonment.**
 
 <img src="images/Population Density and Rail Abandonment Boone County, MO (1810-present).png?raw=true"/>
 
