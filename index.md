@@ -27,10 +27,35 @@
 
 ## Analyzing Railroad Development, Abandonment, and Historic Population Density (using Python)
 
-**The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today.  This project aims to explore local indicators which might explain railway abandonment**
+**The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today.  This project aims to explore local indicators which might explain railway abandonment using Python**
 
 <img src="images/Population Density and Rail Abandonment Boone County, MO (1810-present).png?raw=true"/>
+> ##############################################
+# Step 3, Add field "YEAR" to MO_Census_Data & calculate
 
+# Retrieve variables from getRailInfo() module
+cws = sav.getCensusFieldInfo()
+mofcs = []
+
+# Walk through files
+walk = arcpy.da.Walk(cws, datatype="FeatureClass")
+for dirpath, dirnames, filenames in walk:
+    for filename in filenames:
+        if filename.endswith("_shp"):
+            mofcs.append(os.path.join(dirpath, filename))
+
+# Execute AddField            
+for entry in mofcs:
+    arcpy.management.AddField(entry, "YEAR", "TEXT")
+
+# Split file text to retrieve year
+for entry in mofcs:
+    x = entry.split("\\")[1]
+    xx = entry.split("_")[1]
+    output = int(xx)
+
+# Execute CalculateField    
+    arcpy.management.CalculateField(entry, "YEAR", output, "PYTHON3")
 
 ---
 
