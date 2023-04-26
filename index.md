@@ -8,7 +8,7 @@
 
 <img src="images/Walksheds_and_bikesheds.png?raw=true"/>
 
-<sub>Explore the [ArcGIS StoryMap](https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4)</sub>
+<sub>Check out the [ArcGIS StoryMap](https://storymaps.arcgis.com/stories/1b23c0736c6140bebdc5611bc529a1d4)</sub>
 
 
 ---
@@ -20,6 +20,7 @@
 
 <img src="images/MemorialDensity(50m)png.png?raw=true"/><img src="images/Chartspptx.png?raw=true"/>
 
+<sub>Check out the [Presentation](/pdf/University of Missouri - Memorial Landscape.pdf)</sub>
 ---
 
 ## Analyzing Railroad Development, Abandonment, and Historic Population Density (using Python)
