@@ -21,7 +21,7 @@ What does the University of Missouri memorialize and where?
 <img src="images/MemorialDensity(50m)png.png?raw=true"/><img src="images/Chartspptx.png?raw=true"/>
 
 <sub>Check out the [Presentation](https://github.com/ksaves/krystalsaverse.github.io/blob/master/pdf/University%20of%20Missouri%20-%20Memorial%20Landscape.pdf)</sub>
-
+<sub>Check out the [Presentation](master/pdf/University%20of%20Missouri%20-%20Memorial%20Landscape.pdf)</sub>
 
 ---
 
