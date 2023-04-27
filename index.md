@@ -27,7 +27,7 @@ What does the University of Missouri memorialize and where?
 
 ## Analyzing Railroad Development, Abandonment, and Historic Population Density for Central Missouri
 
-The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many abandoned railroads exist today. This project aims to explore local indicators which might explain railway abandonment using ArcPy
+The American rail system contributed to the growth and transportation of resources during the American industrial revolution, however, many railroads have been abandoned. This project aims to explore local indicators which might explain railway abandonment using ArcPy
 
 Example Code:
 ```
