@@ -1,12 +1,10 @@
-title: John Doe # your name (or website title) here
+title: Samantha Pua# 
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+description: > 
+  | Business Intelligence | Data Analytics | Data Science |
   <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
-  
+  <a href="https://www.linkedin.com/in/puaxuanyun/"> | LinkedIn |</a> 
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
