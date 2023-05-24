@@ -1,11 +1,13 @@
-title: John Doe # your name (or website title) here
+title: Shehzadi Aziz # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  My Msc Dissertation
+  Looking at Keyword Usage for Audience Feedback from social media on Ms. Marvel
   <br><br>
-  Second description 
+  An Machine Learning Project on the World Bank's COVID-19 Data 
+  Feature Selection to see which world development indicators are most important.
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/shehzadi-aziz-b99a54191/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
