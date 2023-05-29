@@ -14,7 +14,7 @@ Conduct initial exploratory data analysis for online grocery store Instacart to 
 <!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
 
-[Final report](/final_report/Instacart_final_report.xlsx)
+[Final report](https://docs.google.com/spreadsheets/d/17IbCCePltL7LZymDaxz365W5qzWDNTVc/edit?usp=sharing&ouid=100983446213241354638&rtpof=true&sd=true)
 <!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
 ---
