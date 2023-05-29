@@ -10,6 +10,7 @@ Conduct initial exploratory data analysis for online grocery store Instacart to 
 <!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
 
+
 [Github repo](/case_study/Instacart_case_study.pdf)
 <!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
