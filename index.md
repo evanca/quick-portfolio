@@ -4,11 +4,11 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[Instacart](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Case study](/pdf/Instacart Case Study.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
