@@ -2,20 +2,44 @@
 
 ---
 
-### Category Name 1 
-
-[Instacart](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+### Instacart
+Conduct initial exploratory data analysis for online grocery store Instacart to derive customer insights, suggest strategies for segmentation and answer business questions.
 
 ---
-[Case study](/pdf/Instacart Case Study.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Case study](/case_study/Instacart_case_study.pdf)
+<!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
+
+
+[Github repo](/case_study/Instacart_case_study.pdf)
+<!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
+
+
+[Final report](/final_report/Instacart_final_report.xlsx)
+<!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+
+### Rockbuster DVD Rental
+Conduct initial exploratory data analysis for online grocery store Instacart to derive customer insights, suggest strategies for segmentation and answer business questions.
 
 ---
+[Case study](/case_study/Instacart_case_study.pdf)
+<!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
+
+
+[Github repo](/case_study/Instacart_case_study.pdf)
+<!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
+
+
+[Final report](/final_report/Instacart_final_report.xlsx)
+<!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
+
+---
+
+
+
+
 
 ### Category Name 2
 
