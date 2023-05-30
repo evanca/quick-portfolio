@@ -60,7 +60,7 @@ I gave courses on MS Office tools for business, mainly MS Excel and MS Project i
 #### Bachelor Degree in Computer Science (2011 - 2019)
 - Universidad Nacional de la Patagonia San Juan Bosco - Argentina 
 
-#### University Programmer Analyst (2007 - 2011)
+#### Programmer Analyst (2007 - 2011)
 - Universidad Nacional de la Patagonia San Juan Bosco - Argentina
 
 ---
