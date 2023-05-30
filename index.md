@@ -81,7 +81,7 @@ Participation in computer congress [CONAIISI](http://conaiisi2020.frsfco.utn.edu
 ---
 ### Courses
 - April-May 2023 Zaragoza Spain
-- INAEM Exam Prep Solution Architect Associate 
+INAEM Exam Prep Solution Architect Associate 
 
 
 ---
