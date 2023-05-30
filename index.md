@@ -13,16 +13,14 @@ In my portfolio you will find a small sample of what I have done in these years,
 
 #### Data engineer in Hiberus Technology
 
-Remote job - Zaragoza - Spain
+Hybrid job - Zaragoza - Spain
 - As Data Engineer in January 2022 - Present
 
 ---
 #### [Data engineer in Comafi Bank](/exp_dataengineer)
 
 Remote job - Buenos Aires - Argentina
-- As Cloud Developer in October 2020 to Febrary 2021 
-- As Data Engineer in April 2021 - January 2022
-
+- As Data Engineer in October 2020 - January 2022
 
 ---
 #### Database administrator and developer in University (UNPSJB) - Comodoro Rivadavia - AR
@@ -31,9 +29,11 @@ Comodoro Rivadavia - Argentina
 - Febrary 2008 to September 2021
 
 ---
-#### [Teacher in Database I - University (UNPSJB) - Comodoro Rivadavia - AR](/exp_dbi)
+#### [University Professor - - University (UNPSJB) - Comodoro Rivadavia - AR](/exp_dbi)
 Comodoro Rivadavia - Argentina
 - March 2011 to July 2022
+
+Subject of bachelor in computer science: Database I.
 
 ---
 #### [Freelance web developer - UR](/exp_sostemplaznza)
@@ -77,6 +77,11 @@ Participation in computer congress [CONAIISI](http://conaiisi2020.frsfco.utn.edu
 ---
 ### Certifications
 #### [AWS Cloud Practitioner](https://www.credly.com/badges/3790a21a-0f34-4aad-9a27-852a5e4dcded)
+
+---
+### Courses
+- April-May 2023 Zaragoza Spain
+- INAEM Exam Prep Solution Architect Associate 
 
 
 ---
