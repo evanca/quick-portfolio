@@ -1,9 +1,9 @@
 title: Sai Daya Shankar # your name (or website title) here
 logo: "/images/logo1.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-Highly motivated individual with a Master's in Data Analytics Engineering from George Mason University. My passion lies in the fields of Software Development, Data Analysis, Information Systems, and Systems Design.
-<br></br>
-<a href="https://www.linkedin.com/in/saidayashankar/">View My LinkedIn Profile</a> 
+  Highly motivated individual with a Master's in Data Analytics Engineering from George Mason University. My passion lies in the fields of Software Development, Data Analysis, Information Systems, and Systems Design.
+  <br></br>
+  <a href="https://www.linkedin.com/in/saidayashankar/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
