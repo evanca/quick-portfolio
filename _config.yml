@@ -1,12 +1,12 @@
-title: John Doe # your name (or website title) here
+title: Sai Daya Shankar # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   First description 
-  <br><br>
+  I am a highly motivated individual with a Master's in Data Analytics Engineering from George Mason University. My passion lies in the fields of Software Development, Data Analysis, Information Systems, and Systems Design.
   Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
-  
+  Experience both as a sole engineer and as part of software engineering teams of varying sizes, ranging from 3 to 30 members, I have developed a versatile skill set. In a team setting, I thrive as a capable software developer, able to contribute hands-on to the development process without the need for constant oversight. My expertise extends beyond coding, encompassing project management, both on the technical and product-driven fronts, as well as software design, systems development, integration with legacy systems, and basic interface design.
+  <a href="https://www.linkedin.com/in/saidayashankar/">View My LinkedIn Profile</a> 
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
