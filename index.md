@@ -12,6 +12,10 @@
 ---
 [How to learn languages?](/languages.md)
 
+---
+[Academic Quotes](/quotes.md)
+
+
 
 ---
 
