@@ -77,6 +77,7 @@ Participation in computer congress [CONAIISI](http://conaiisi2020.frsfco.utn.edu
 ---
 ### Certifications
 #### [AWS Cloud Practitioner](https://www.credly.com/badges/3790a21a-0f34-4aad-9a27-852a5e4dcded)
+#### [AWS Solutions Architect – Associate](https://www.credly.com/badges/33088a77-602c-47ad-b9a6-cca637c743c0)
 
 ---
 ### Courses
