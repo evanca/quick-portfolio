@@ -38,6 +38,22 @@ Conduct initial exploratory data analysis for online grocery store Instacart to 
 ---
 
 
+### Influenza season
+Conduct initial exploratory data analysis for online grocery store Instacart to derive customer insights, suggest strategies for segmentation and answer business questions.
+
+---
+[Case study](/case_study/Influenza_Case_Study.pdf)
+<!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
+
+
+[Tableau storyboard](https://public.tableau.com/app/profile/chitranshi3388/viz/InfluenzaProject_Final/FinalDataStory)
+<!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
+
+
+[Final report](https://docs.google.com/spreadsheets/d/17IbCCePltL7LZymDaxz365W5qzWDNTVc/edit?usp=sharing&ouid=100983446213241354638&rtpof=true&sd=true)
+<!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
+
+---
 
 
 
