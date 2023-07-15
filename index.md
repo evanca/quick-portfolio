@@ -32,7 +32,7 @@ Conduct initial exploratory data analysis for online grocery store Instacart to 
 <!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
 
-[Final report](/final_report/Instacart_final_report.xlsx)
+[Tableau storyboard](https://public.tableau.com/app/profile/chitranshi3388/viz/RockbusterProject_Revised/UpdatedStory)
 <!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
 ---
