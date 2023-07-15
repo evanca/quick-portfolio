@@ -24,7 +24,7 @@ Conduct initial exploratory data analysis for online grocery store Instacart to 
 Conduct initial exploratory data analysis for online grocery store Instacart to derive customer insights, suggest strategies for segmentation and answer business questions.
 
 ---
-[Case study](/case_study/Instacart_case_study.pdf)
+[Case study](/case_study/Rockbuster_Case_Study.pdf)
 <!--- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
 
