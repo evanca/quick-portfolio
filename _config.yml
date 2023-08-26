@@ -1,11 +1,14 @@
-title: John Doe # your name (or website title) here
+title: Hannes Dürre # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Industrial engineer and aspiring data analyst.<br>On a step-by-step journey mastering the art of telling stories with data. 
   <br><br>
-  Second description 
+  - 👋 Hi, I’m @duerrhannes
+  - 👀 I’m interested in rock climbing, mountaineering, financial markets, trains and, of course, data science
+  - 🌱 I’m currently improvng my python skills, doing some proper EDA and trying to spruce up visualizations
+  - 💞️ I’m looking to collaborate on anything that sparks my interest 
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://linkedin.com/in/hannesduerr">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
