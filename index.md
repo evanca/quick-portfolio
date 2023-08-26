@@ -4,7 +4,7 @@
 
 ### Projects I've been working on recently
 
-[Levermann tool - quantitative stock analysis](https://github.com/duerrhannes/levermann.git)
+[Levermann tool - quantitative stock analysis](https://duerrhannes.github.io/levermann)
 <img src="images/levermann_summary_thumbnail.jpg?raw=true"/>
 
 ---
