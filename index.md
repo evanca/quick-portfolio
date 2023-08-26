@@ -2,10 +2,10 @@
 
 ---
 
-### Category Name 1 
+### Financial analysis using python 
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Levermann Tool](https://github.com/duerrhannes/levermann.git)
+<img src="images/levermann_summary_thumbnail.jpg?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
@@ -19,11 +19,11 @@
 
 ### Category Name 2
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [Lorem ipsum dolor sit amet](http://example.com/)
+- [consetetur sadipscing](http://example.com/)
+- [sed diam nonumy](http://example.com/)
+- [eirmod tempor invidunt ut labore](http://example.com/)
+- [dolore magna aliquyam erat](http://example.com/)
 
 ---
 
