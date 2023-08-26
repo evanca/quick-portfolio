@@ -2,13 +2,13 @@
 
 ---
 
-### Financial analysis using python 
+### Projects I've been working on recently
 
-[Levermann Tool](https://github.com/duerrhannes/levermann.git)
+[Levermann tool - quantitative stock analysis](https://github.com/duerrhannes/levermann.git)
 <img src="images/levermann_summary_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Rock climbing routes & grades (tbd)](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
@@ -19,11 +19,11 @@
 
 ### Category Name 2
 
+- [dolore magna aliquyam erat](http://example.com/)
 - [Lorem ipsum dolor sit amet](http://example.com/)
 - [consetetur sadipscing](http://example.com/)
 - [sed diam nonumy](http://example.com/)
 - [eirmod tempor invidunt ut labore](http://example.com/)
-- [dolore magna aliquyam erat](http://example.com/)
 
 ---
 
