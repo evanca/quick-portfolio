@@ -1,5 +1,5 @@
 ## Gauri's Data Science Portfolio!
-This repository contains code for my DS portfolio. Please visit the [live webpage](gaurikapse.github.io) to see a collection of my favorite personal projects.
+This repository contains code for my DS portfolio. Please visit the [live webpage](https://gaurikapse.github.io) to see a collection of my favorite personal projects.
 
 
 ### References
