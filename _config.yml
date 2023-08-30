@@ -1,10 +1,13 @@
 title: John Wong # your name (or website title) here
 logo: "/images/IMG_2937_circle_small.png" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  I've consulted government agencies, legislators, and developers on macroeconomics, regulations, and development. As a data scientist, I use R and Python for machine learning, web scraping, forecasting, causal inference, and data visualization. As a public sector consultant, I also assess impact, benchmark policies, and engage stakeholders.
+  I've worked with government agencies, legislators, and developers on macroeconomics, regulatory policy, and foreign policy. As a data scientist, I use R and Python for machine learning, web scraping, forecasting, and data visualization. I am currently a Research Fellow at the Mercatus Center.
   <br>
   <br>
-  <a href="https://www.linkedin.com/in/johnthwong/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/johnthwong/">View My LinkedIn</a> 
+  <br>
+  <br>
+  <a href="https://economics.gmu.edu/people/twong7">View My Department Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
