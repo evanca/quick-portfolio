@@ -2,9 +2,9 @@ title: Hassan Alshal # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   An adjunct lecturer at <a href="https://www.scu.edu/cas/physics/">the Department of Physics, Santa Clara University</a> ,
-  <br><br>
+  <br>
   interested in theoretical high energy and gravitational physics.
-  <br><br>
+  <br>
   <a href="https://scholar.google.com/citations?user=iK4V3XAAAAAJ&hl=en">My Google Scholar Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
