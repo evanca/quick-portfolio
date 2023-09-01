@@ -30,11 +30,11 @@ htm_tag{font-family:"helveticaneuecond";font-size:45px;text-transform:none;color
 </style>
 </head>
 <body>
-   <div class="wrapper">
+   <div class="center">
       <header>
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
          {% if site.logo %}
-         <img src="{{site.logo | relative_url}}" alt="Logo" style="max-width: 50%" class="center" />
+         <img src="{{site.logo | relative_url}}" alt="Logo" style="max-width: 50%" />
          {% endif %}
          <p>{{ site.description | default: site.github.project_tagline }}</p>
          {% if site.github.is_user_page %}
