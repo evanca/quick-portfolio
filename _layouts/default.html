@@ -19,12 +19,9 @@
    <!--[if lt IE 9]>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
    <![endif]-->
-   <style>
-  .bg-red {background-color:firebrick;padding:250px;}
-   </style>
 </head>
 <body>
-   <div class="bg-red">
+   <div class="wrapped">
       <header>
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
          {% if site.logo %}
