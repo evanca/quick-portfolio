@@ -55,7 +55,7 @@ KMEANS GIF here
 ### 3 of 7
 Fixed bug in Python 3.7 for multi-environment computation.
 bug list or other GIF here
-cihwof-vyvteS-9matre
+
 [Python Constants Contributor](https://github.com/3kwa/constants)
 In October 2022 python 3.7 was being deprecated I had terabytes of data that needed to be migrated and requiring a 
 tool on 
