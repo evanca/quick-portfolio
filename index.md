@@ -10,21 +10,7 @@ code
 integrating API calls and AWS hosting.
 AWARD: First Prize Most Entertaining and Useful Social Media Engagement.
 
-[KimBot](https://github.com/datatalking/Kimbot)
-An early adopter of technology gets to enjoy the fruit of their labor much earlier in the project and this creates a 
-path forward on other projects use extensable and economically viable methods of using data.
 
-Our shared idea was expanded upon in a [2018 Paper](https://www.researchgatenet/publication/317977462_Predicting_TV_programme_audience_by_using_twitter_based_metrics) that was trained 
-using crawled data 
-from television programs
-<img src="images/v2/Twitter_Kimbot/Twitter-Vigilance-Architecture.png"/>
-
-What started as an chatbot that would immitate Kim Kardashian stalled out as 82% of her conversation were hair, 
-clothes and her butt which were not interesting. So over the weekend we evolved this into a hackathon winning Markov 
-inspired chatbot
-trained and hosted on AWS EC2 micro 
-instance using publicly available twitter training data from Silicon Valley and Tweets from Startups and 
-@marvelavengers accounts to make traffic alerts more fun.
 
 ()
 We trained a Markov agent on episodes of Silicon Valley and Tweets from Startups that were mashed with 
