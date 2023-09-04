@@ -38,6 +38,9 @@ An attempt at replicating the results of the 2015 paper “Self-Organizing Featu
 
 ---
 ### Building an NLP powered Legal Text Summarizer
+<p>
+  The Indian Central Government encourages ministries to place proposed legislations in the public domain for 30 days prior to making any decisions. During this period, anyone can provide feedback on the proposals. We worked with a non-profit, <a href="https://www.civis.vote/">Civis</a>, to leverage AI to summarize these proposals for the general public, and improve readability and access.
+</p>
 
 
 <p>
@@ -52,6 +55,7 @@ An attempt at replicating the results of the 2015 paper “Self-Organizing Featu
 <p> 
   <img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python" /> 
   <img src="https://img.shields.io/badge/Jupyter-white?logo=Jupyter" alt="Jupyter" /> 
+  <img src="https://img.shields.io/badge/AWS-white?logo=amazonaws&logoColor=black" alt="AWS" />
   <img src="https://img.shields.io/badge/HuggingFace_Transformers-white" alt="HuggingFace Transformers" />
   <img src="https://img.shields.io/badge/GitHub-white?logo=github&logoColor=black" alt="GitHub" /> 
   <img src="https://img.shields.io/badge/Medium-white?logo=Medium&logoColor=black" alt="Medium" />
