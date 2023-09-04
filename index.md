@@ -37,3 +37,22 @@ An attempt at replicating the results of the 2015 paper “Self-Organizing Featu
 </p>
 
 ---
+### Building an NLP powered Legal Text Summarizer
+
+
+<p>
+  Read 
+  <a href="https://blog.commutatus.com/building-an-nlp-powered-legal-text-summarizer-part-1-d114e24a8c5c">part 1</a> and 
+  <a href="https://blog.commutatus.com/building-an-nlp-powered-legal-text-summarizer-part-2-990ca8a11c8a">part 2</a>  
+  of a recap of our efforts on Medium (articles co-authored by me and my colleague, but Medium doesn't allow multiple authors). 
+</p>
+
+<img src="images/huggingface.png" alt="The architecture diagram"/>
+
+<p> 
+  <img src="https://img.shields.io/badge/Python-white?logo=Python" alt="Python" /> 
+  <img src="https://img.shields.io/badge/Jupyter-white?logo=Jupyter" alt="Jupyter" /> 
+  <img src="https://img.shields.io/badge/HuggingFace_Transformers-white" alt="HuggingFace Transformers" />
+  <img src="https://img.shields.io/badge/GitHub-white?logo=github&logoColor=black" alt="GitHub" /> 
+  <img src="https://img.shields.io/badge/Medium-white?logo=Medium&logoColor=black" alt="Medium" />
+</p>
