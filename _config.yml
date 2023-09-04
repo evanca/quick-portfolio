@@ -1,13 +1,24 @@
-title: John Doe # your name (or website title) here
-logo: "/images/11813209.jpeg?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  An analytical undergrad with a specialty in computational linguistics My thesis is on cultural risk ratios that influence communication. No client code here
-  <br><br>
-  A nerd who is motivated the more often I am told "It can't be done"
+title: <p align="center"> Chris Tran </p>
 
-  The difference between a bad programmer and a good one is whether he considers his code or his data structures more important. Linus Torvald the Grea
+logo: "/images/picture.png?raw=true"
+
+description:
+  <p align="center">
+  <a href="pdf/resume.pdf">Resume</a> |
+  <a href="https://www.linkedin.com/in/andrewschell/">LinkedIn</a> |
+  <a href="https://github.com/datatalking">GitHub</a>
+  </p>
+  
+  <p align="justify">
+  I am pursing a MS degree in Statistics and Data Science from Massachusetts Institute of Technology.
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  I am a Senior Full Stack Product Data Analyst, my research and
+  engineering interests are mainly in the areas of data cleaning, NLP chatbot agents, artificial intelligence, and algorithms that identify patterns for business or social value in
+  user-friendly software
+  engineering..
+  <br><br>
+  </p>
   
 theme: jekyll-theme-minimal
-google_analytics: G-V7RG6RRLJT # your Google Analytics tracking ID here
+# TODO update google analytics ID
+google_analytics: G-FVCXTYHXBV # Google Analytics tracking ID

@@ -1,51 +1,43 @@
-## Developer Portfolio Landing Page Template
+Check out the minimal portfolio at https://chriskhanhtran.github.io/minimal-portfolio
 
-### Introduction
 
-Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
+# Datatalking Portfolio
 
-<img src="images/demo.gif?raw=true"/>
 
-### Installation
 
-See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
-___
+## Documentation
 
-You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+Full documentation available at [https://datatalking.github.io/minimal-portfolio/](https://datatalking.github.io/minimal-portfolio/README.md)
+[Root Graphic](https://www.ssw.com.au/rules/static/a0ab02029b52491fac45b6b3d8b1544a/a77ef/structure-github-good.jpg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![alt text](https://github.com/datatalking/Portfolio-datatalking/images/structure-github-good.jpg?raw=true)
+root-
 
-### Markdown
+## Features
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Command Line Usage
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Python Usage
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Roadmap
+## PyCharm Usage
 
-See the [open issues](https://github.com/evanca/quick-portfolio/issues) for a list of proposed features (and known issues).
-___
 
-### References
 
-[1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal (CC0 1.0 Universal License)
-<br>[2] Dummy photo via: https://pixabay.com/photos/man-male-adult-person-caucasian-1209494/ (Pixabay License)
-<br>[3] Dummy thumbnail image created by rawpixel.com: https://www.freepik.com/free-vector/set-elements-infographic_2807573.htm (Standard Freepik License)
+## Installation
+
+
+
+## Known Issues and Limitations
+
+* Password protected notes are not supported; unlocked password-protected notes can be accessed but locked notes cannot
+* Notes containing tags (#tagname) can be read but the tags will be stripped from the body of the note
+* Tags cannot be added to notes and will show up as plaintext if added manually with macnotesapp
+* Currently, only notes in top-level folders are accessible to `macnotesapp` (#4)
+* Attachments are not currently handled and will be ignored (#15)
+* The title style is not correctly set (#13)
