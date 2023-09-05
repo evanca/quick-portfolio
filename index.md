@@ -61,7 +61,7 @@ In October 2022 python 3.7 was being deprecated I had terabytes of data that nee
 tool on 
 Python 
 3.7 
-while using a multi-environment that I was migrating but the code wasn't working. After searching I 
+while using a multi-environment that I was migrating but the code wasn't working. After searching, I 
 found the repo for constants thankfully was written in python and once I was able to dig into the code base it was 
 found that the `TOX.ini` file was only updated through python 3.3 a PR was submitted and I was able to process 11 
 terrabytes of data and while python 3.7 is officially deprecated I can still use  it on select tools. Future updates 
@@ -72,9 +72,11 @@ are in the que to update this tool through Python 3.10
 MORNINGSTAR LOGO here
 
 [Mstables Contributor](https://github.com/caiobran/mstables)
-Webscraping and datamining the Morningstar.com API was a 
-natural starting point for my algorithm trading project. Expanding upon [Caiobran](https://github.
-com/caiobran/mstables) we automated the SQL database and are now working to expand financial source data to include 
+Having worked in finance I knew I needed to study the math and stats behind it before I tried my hand at trading.
+What I chose in stead was to build my data engineering skills by contributing and improving on well-written but deprecated code.
+I found that a few years ago while webscraping the Morningstar.com and NASDAQ API and saving to databases after transformation.
+natural starting point for. Expanding upon the great code that [Caiobran](https://github had started.
+com/caiobran/mstables) we automated the SQL database setup and are now working to expand financial source data to include 
 any existing flatfile or databases and the suite of tools from [Panda Datareader](https://github.com/pydata/pandas-datareader)
 1. [Tiingo](https://pandas-datareader.readthedocs.io/en/latest/remote_data.html#remote-data-tiingo)
 2. [IEX](https://github.com/iexcloud)
@@ -93,12 +95,6 @@ any existing flatfile or databases and the suite of tools from [Panda Datareader
 15. [MOEX]()
 16. [Naver Finance]()
 17. [Yahoo Finance]()
-
-Collaborating with We have been udating the 
-repo 
-with 
-database fixes, 
-automating the testing, ingestion 
 
 
 ### MATH340: Automated K-Means Computation
