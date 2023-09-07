@@ -100,6 +100,8 @@ any existing flatfile or databases and the suite of tools from [Panda Datareader
 ### MATH340: Automated K-Means Computation
 ### 5 of 7
 
+When you are starting a project and need to assume or at least explore the data without introducing bias then k-means a frequent first stop along with time series or PCA might also work. This was a way to give automated reporting once data is found is this my implementation that I've open-sourced with a version that can automatically find it for the user.
+
 FUTURE
 ### DA460: Implementation of Bert Glove Transformer for Resume ingestion
 ### 6 of 7

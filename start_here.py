@@ -53,3 +53,4 @@ if __name__ == "__main__":
 	SQL_DB_POST = 'TEST'
 	SQL_DB_ORACLE = 'TEST'
 	# if cows_pass_gas = True
+	# TODO move gtag('config', 'G-FVCXTYHXBV'); to .env file and regen key on v3
