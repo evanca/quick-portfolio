@@ -5,7 +5,9 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   interested in theoretical high energy and gravitational physics.
   <br>
-  <a href="https://scholar.google.com/citations?user=iK4V3XAAAAAJ&hl=en">My Google Scholar Profile</a> 
+  <a href="https://scholar.google.com/citations?user=iK4V3XAAAAAJ&hl=en">My Google Scholar Profile</a>
+  <br>
+  <a href="https://www.alshal.info/sample_page">Sample Page</a>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
