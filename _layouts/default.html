@@ -24,16 +24,13 @@
    body {
     font-family: 'Oswald';font-size: 18px;
          }
-   .wrapper {
-      width: 1170px;
-      max-width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      }
+   .hero {
+      text-align: center;
+   }
    </style>
 </head>
 <body>
-   <div class="wrapper">
+   <div class="hero">
       <header>
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
          {% if site.logo %}
