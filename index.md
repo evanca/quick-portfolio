@@ -4,4 +4,5 @@
 
 ### Under Construction
 
-[Some title here](pdf/sample_presentation.pdf.pdf)
+<embed src="https://www.alshal.info/pdf/sample_presentation.pdf" width="500" height="375" 
+ type="application/pdf">
