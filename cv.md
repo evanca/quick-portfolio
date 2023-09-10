@@ -1,5 +1,5 @@
 ## Resume
 ---
 
-<embed src="https://www.alshal.info/pdf/cv.pdf" width="900" height="420" 
+<embed src="https://www.alshal.info/pdf/cv.pdf" width="800" height="400" 
  type="application/pdf">
