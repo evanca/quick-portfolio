@@ -4,4 +4,4 @@
 
 ### Under Construction
 
-[Some title here](pdf/info.pdf)
+[Some title here](pdf/sample_presentation.pdf.pdf)
