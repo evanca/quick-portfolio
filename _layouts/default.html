@@ -42,7 +42,9 @@
          <img src="{{site.logo | relative_url}}" alt="Logo" style="max-width: 50%" />
          {% endif %}
          <p>{{ site.description | default: site.github.project_tagline }}</p>
-         <{% if site.github.is_user_page %}
+         <br><br>
+         <br><br>
+         {% if site.github.is_user_page %}
          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
          {% endif %}
          {% if site.show_downloads %}>
@@ -57,9 +59,9 @@
          {{ content }}
       </section>
       <footer>
-         {% if site.github.is_project_page %}
+         <!--{% if site.github.is_project_page %}
          <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-         {% endif %}
+         {% endif %}-->
          <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
    </div>
