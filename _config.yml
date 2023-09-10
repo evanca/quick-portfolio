@@ -9,7 +9,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   <a href="https://www.alshal.info">Homepage</a>
   <br>
-  <a href="https://www.alshal.info/pdf/cv.pdf">Resume</a>
+  <a href="https://www.alshal.info/cv">Resume</a>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
