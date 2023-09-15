@@ -17,9 +17,9 @@
 
 ---
 
-### Category Name 2
+### Further projects
 
-- [dolore magna aliquyam erat](http://example.com/)
+- [My collection of tools and jupyter notebooks]([http://example.com/](https://duerrhannes.github.io/toolbox))
 - [Lorem ipsum dolor sit amet](http://example.com/)
 - [consetetur sadipscing](http://example.com/)
 - [sed diam nonumy](http://example.com/)
