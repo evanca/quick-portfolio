@@ -19,7 +19,7 @@
 
 ### Further projects
 
-- [My collection of tools and jupyter notebooks]([http://example.com/](https://duerrhannes.github.io/toolbox))
+- [My collection of tools and jupyter notebooks](https://duerrhannes.github.io/toolbox))
 - [Lorem ipsum dolor sit amet](http://example.com/)
 - [consetetur sadipscing](http://example.com/)
 - [sed diam nonumy](http://example.com/)
