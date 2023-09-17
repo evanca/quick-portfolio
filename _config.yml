@@ -1,13 +1,20 @@
 title: Chitranshi Singh # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
-  <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
-  
+  <body>
+  Data Analyst <br>
+  Berlin, Germany <br>
+  About me <br><br>
+
+  Resume <br>
+  <a href="www.linkedin.com/in/chitranshi-singh-7848b0245">LinkedIn Profile </a> <br>
+  <a href="https://github.com/chitranshi-singh">GitHub Repository </a> <br>
+  <a href="https://public.tableau.com/app/profile/chitranshi3388">Tableau Public </a> <br>
+
+  <br>
+  Contact me <br>
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
