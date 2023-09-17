@@ -2,9 +2,32 @@ title: Chitranshi Singh # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <body>
+
+  #html content start
+
   Data Analyst <br>
   Berlin, Germany <br>
-  About me <br><br>
+
+  <details>
+      <summary>
+          About me
+          <span class="icon"></span>
+      </summary>
+      <p>
+          With a background in Auditing and Reporting in Cybersecurity, I specialize in cleaning and handling large
+          amounts of data, producing insightful reports with strong attention to detail, and presenting them to
+          stakeholders. Having worked with data throughout my career, my transition to a full-time Data Analyst felt like
+          a natural choice.
+
+          Driven by a genuine curiosity and a knack for problem-solving, I enjoy tackling complex problems and turning
+          challenges into opportunities. I am keen about bridging the gap between numbers and real-world implications for
+          the business and bringing value to an organization. Being a confident presenter and an effective collaborator, I
+          have the ability to present complex insights in an accessible and user-friendly way.
+
+          I’m passionate to use my expertise to analyze larger data sets and draw insights that can guide business
+          decisions and lead to success.
+      </p>
+  </details>
 
   Resume <br>
   <a href="https://www.linkedin.com/in/chitranshi-singh-7848b0245">LinkedIn Profile </a> <br>
@@ -13,6 +36,35 @@ description: > # your text below (remove <br> elements if you don't need line br
 
   <br>
   Contact me <br>
+
+
+  <style>
+      details {
+          user-select: none;
+      }
+
+      details > summary span.icon {
+          width: 24px;
+          height: 24px;
+          transition: all 0.3s;
+          margin-left: auto;
+      }
+
+      details[open] summary span.icon {
+          transform: rotate(180deg);
+      }
+
+      summary {
+          display: flex;
+          cursor: pointer;
+      }
+
+      summary::-webkit-details-marker {
+          display: none;
+      }
+  </style>
+
+  #html content End
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
