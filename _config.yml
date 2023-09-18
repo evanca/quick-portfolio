@@ -3,7 +3,7 @@ logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <body>
 
-  Data Analyst <br>
+  <b>Data Analyst</b> <br>
   Berlin, Germany <br>
 
 
@@ -40,7 +40,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://public.tableau.com/app/profile/chitranshi3388">Tableau Public </a> <br>
 
   <br>
-  Contact me <br>
+
+  <a href="mailto:chitranshi14singh@gmail.com">Contact me</a> <br>
 
 
   <script>
