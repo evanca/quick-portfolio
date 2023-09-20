@@ -26,7 +26,7 @@ Tools: PostgreSQL, Tableau, Excel
 
 ### Hotel Booking Cancellation
 
-Analyze hotel booking data for a city hotel and a resort hotel. The objective was to predict the factors which
+Analysis of hotel booking data for a city hotel and a resort hotel. The objective was to predict the factors which
 contribute to hotel booking cancellations and provide data-driven recommendations to reduce cancellation rates. This
 could be used to optimize booking service, anticipate when cancellations will occur and ultimately maximize revenue.
 Exploratory visual analysis such as correlation heatmap, pair plots, catplots to name a few and advanced analytical
