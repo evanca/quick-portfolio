@@ -12,7 +12,7 @@ to transition to online movie rental streaming. Database querying skills such as
 joining tables of data, subqueries, CTEs were performed in SQL. Key results were curated on an interactive Tableau
 storyboard.
 
-Tools: PostgreSQL, Tableau, Excel
+**Tools**: PostgreSQL, Tableau, Excel
 
 [Case study](/case_study/Rockbuster_Case_Study.pdf)
 
@@ -33,7 +33,7 @@ Exploratory visual analysis such as correlation heatmap, pair plots, catplots to
 approaches such as linear regression, K-Means cluster analysis, time series analysis were conducted in Python. Key
 results were curated on an interactive Tableau storyboard.
 
-Tools: Python and relevant libraries (Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, SciPy), Jupyter Notebook,
+**Tools**: Python and relevant libraries (Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, SciPy), Jupyter Notebook,
 Tableau
 
 [Case study](/case_study/Hotel_Cancellation_Case_Study.pdf)
@@ -52,7 +52,7 @@ profiles with appropriate marketing strategies. Analytical tasks such as data wr
 deriving new variables, grouping data & aggregating variables were performed in Python using Jupyter Notebook and Pandas
 library. Analysis methodology, key results and recommendations were summarized into a detailed Excel report.
 
-Tools: Python and relevant libraries (Pandas, NumPy, Matplotlib, Seaborn, SciPy), Jupyter Notebook, Excel
+**Tools**: Python and relevant libraries (Pandas, NumPy, Matplotlib, Seaborn, SciPy), Jupyter Notebook, Excel
 
 [Case study](/case_study/Instacart_Market_Basket_Case_Study.pdf)
 
@@ -73,7 +73,7 @@ methods such as standard deviation, variance, and correlation were applied to su
 Inferential statistical analysis via hypothesis testing was conducted and the test results were interpreted. Key results
 were curated on an interactive Tableau storyboard.
 
-Tools: Python and relevant libraries (Pandas, NumPy, Matplotlib, Seaborn, SciPy), Jupyter Notebook, Excel
+**Tools**: Python and relevant libraries (Pandas, NumPy, Matplotlib, Seaborn, SciPy), Jupyter Notebook, Excel
 
 [Case study](/case_study/Influenza_Case_Study.pdf)
 
@@ -95,7 +95,7 @@ in the market and develop a competitive go-to-market strategy. Analytical proced
 summarizing data using pivot tables, descriptive analysis were conducted using Excel. A detailed Presentation about data
 insights was produced.
 
-Tools: Excel
+**Tools**: Excel
 
 [Case study](/case_study/GameCo_Case_Study.pdf)
 
