@@ -1,11 +1,12 @@
 title: Brandon Chacon Mata # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+logo: "C:\Users\brand\OneDrive\Pictures\Fotos\Foto 11-9-17 20 15 17.jpg"" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Age: 29
+  SQL/Python/SQL/MongoDB/PMO/Business Analyst/Data Analyst
   <br><br>
-  Second description 
+  Email: brandonchacon1993@outlook.com
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/brandon-chacon-mata-640a9411b/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
