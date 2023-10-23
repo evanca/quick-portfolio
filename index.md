@@ -15,7 +15,7 @@ storyboard.
 **Tools**: PostgreSQL, Tableau, Excel
 
 [Case study](/case_study/Rockbuster_Case_Study.pdf)
-[Tableau storyboard](https://public.tableau.com/app/profile/chitranshi3388/viz/RockbusterProject_Revised/UpdatedStory)
+[Tableau storyboard](https://public.tableau.com/app/profile/chitranshi3388/viz/RockbusterProject_Revised/UpdatedStory)it 
 [Github repo](https://github.com/chitranshi-singh/SQL-Rockbuster)
 
 ---
