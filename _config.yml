@@ -1,11 +1,10 @@
 title: John Doe # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Artificial intelligence and Data Science Student with a Focus on Machine Learning, and Data Processing. Experienced computer vision and Image Processing along with Natural language Processing, skilled in ETL, data warehousing, and SPARK for managing and analyzing large datasets. Familiar with cloud-based machine learning for scalable solutions. 
   <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+
+  <a href="https://www.linkedin.com/in/brahim-daoud-782b24157/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
