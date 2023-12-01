@@ -1,5 +1,3 @@
-# Khine Myat Thwe
-
 ## About Me
 AI/Machine Learning researcher focused on generative AI and ethical issues. Currently pursuing a PhD in Information Science at JAIST.
 
