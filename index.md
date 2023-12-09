@@ -5,7 +5,7 @@
 
 [My past works are sorted into categories]
 
-- [Character Design](https://liyempo.github.io/character_design)
+- (<a href="https://liyempo.github.io/character_design">Character Design</a>)
 - [Life Studies](http://example.com/)
 - [Illustrations](http://example.com/)
 
