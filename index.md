@@ -1,13 +1,14 @@
 ## Portfolio
 
 ---
-### Category Name 2
+### Types of Work
 
-[My past Works are sorted into categories]
+[My past works are sorted into categories]
 
 - [Character Design](http://example.com/)
 - [Life Studies](http://example.com/)
 - [Illustrations](http://example.com/)
+
 ---
 
 ### Character Design 
