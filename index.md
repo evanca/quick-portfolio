@@ -2,9 +2,9 @@
 
 ---
 
-### Category Name 1 
+### character design 
 
-[Project 1 Title](/sample_page)
+[The Tale of Two Lovers](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
