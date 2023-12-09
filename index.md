@@ -5,9 +5,9 @@
 
 [My past works are sorted into categories]
 
-- (<a href="https://liyempo.github.io/character_design">Character Design</a>)
-- [Life Studies](http://example.com/)
-- [Illustrations](http://example.com/)
+- <a href="https://liyempo.github.io/character_design">Character Design</a>
+- <a href="https://liyempo.github.io/illustrations">Illustrations</a>
+- <a href="https://liyempo.github.io/life_studies">Life Studies</a>
 
 ---
 
