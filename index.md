@@ -11,7 +11,7 @@
 
 ---
 
-### Character Design 
+### Recent Works 
 
 [The Tale of Two Lovers](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
