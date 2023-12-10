@@ -13,7 +13,7 @@
 
 ### Recent Works 
 
-[The Tale of Two Lovers](/sample_page)
+### <a href="https://liyempo.github.io/theLovers.md">The Lovers</a>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
