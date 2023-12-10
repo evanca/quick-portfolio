@@ -7,7 +7,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   Liye will recieve a BFA in General Fine Arts with a minor in Game Design.
   Liye has experience with Unity, Plastic SCM, and the game development process
-  within an academic setting.
+  within an academic setting. 
   <br><br>
   Social Media
   <br><br>
@@ -21,4 +21,4 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
-markdown: kramdown
+
