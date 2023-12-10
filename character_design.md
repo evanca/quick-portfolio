@@ -2,8 +2,8 @@
 **placeholder** 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### <a href="https://liyempo.github.io/twoLovers.md">The Tale Of Two Lovers</a>
-<i>The Tale Of Two Lovers<i> is a five week project to design a sequential boss with three forms and a protagonist based on an environment with two randomly assigned words: sunken metropolis. 
+### <a href="https://liyempo.github.io/theLovers.md">The Lovers</a>
+<i>The Lovers<i> is a five week project to design a sequential boss with three forms and a protagonist based on an environment with two randomly assigned words: sunken metropolis. 
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
