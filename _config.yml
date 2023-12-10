@@ -22,3 +22,4 @@ plugins:
 - jekyll-remote-theme
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 
+markdown: kramdown
