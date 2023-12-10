@@ -20,9 +20,20 @@ Medium: Digital, Clip Studio Paint
 
 
 ## The Concept
-<i>The Lovers<i> is a 2000s RPG Maker style survival horror game with a linear narrative and multiple endings. As someone who is CHamoru
+<i>The Lovers<i> is a 2000s RPG Maker style survival horror game with a linear narrative and multiple endings. 
+This game would have puzzles with collect/combine/use items and interacting with the environment, as well as a reputation system through choices the player makes.
+
+
+I interpreted my randomly selected words "Sunken Metropolis" as an underwater city, although I played with the idea of a cave or sink hole. There is a popular CHamoru (pronounced cha-mor-ro) legend of Two Lovers. There are two versions of this story, one is precolonial, the other including Spainards. For the themes I want to explore, I chose the latter:
+
+<ul>
+  <li> 
+    The eldest daughter
+  </li>
+</ul>
+
 Originally set in Post Colonial Guam, this game was 
-The mechanics
+
 
 I asked my father as well as consulted <a href="https://www.guampedia.com/">Guampedia<</a> for quite a bit of my research!
 
@@ -37,7 +48,7 @@ I asked my father as well as consulted <a href="https://www.guampedia.com/">Guam
 
 <img src="images/dummy_thumbnail.jpg?raw=true" alt="alt text here"/>
 
-I interpreted my randomly selected words "Sunken Metropolis" as an underwater city, although I played with the idea of a cave or sink hole. Each character has five silhouettes to play with shape and three refined sketches.
+Each character has five silhouettes to play with shape and three refined sketches.
 
 *Protagonist*
 The silhouettes I was playing with the different weapons and vibes the protagonist would have. For the sketches I wanted to explore different motives and how that would reflect him as a character.
@@ -54,9 +65,9 @@ All of them have a dolphin tattoo on their leg, I remember my father having the 
 
 I knew I wanted to keep them intertwined, perfectly in sync together. 
 
-I had an idea of their personalities based on the legend - the CHamoru man, Hirao, was described as kind. Inspired by that I wanted to him to be the calm and defender from the two. He wouldn't hit as hard or as much because he doesn't want to fight, but he wouldn't leave his lover. In the later scenes, when he loses him, the contrast between his usual softer self and what he has become would become more stark this way. 
+I had an idea of their personalities based on the legend - the CHamoru man, Hirao (ih-rah-ow), was described as kind. Inspired by that I wanted to him to be the calm and defender from the two. He wouldn't hit as hard or as much because he doesn't want to fight, but he wouldn't leave his lover, Mar. In the later scenes, when he loses him, the contrast between his usual softer self and what he has become would become more stark this way. His weapon is a shin bone spear - a common weapon of indigenous CHamoru people.
 
-Because of his status as the chief's son I imagined he'd be more confident and striking - the instigator and main attacker. He moves swiftly. While both are growing fish-like qualities, 
+Because of Mar's status as the chief's son I imagined he'd be more confident and striking - the instigator and main attacker. He moves swiftly. While both are growing fish-like qualities, he has more scales in an allusion to effects of taking testosterone - acne. There's also scales around his chest in allusion to top surgery. His weapon is a machete which is a more Spanish weapon.
 
 First Boss: 
 
