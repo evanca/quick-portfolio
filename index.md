@@ -11,13 +11,13 @@ In my portfolio you will find a small sample of what I have done in these years,
 ---
 ### Professional Experience
 
-#### Data engineer in Hiberus Technology
+#### [Data engineer in Hiberus Technology 🔗](/exp_hiberus) 
 
 Hybrid job - Zaragoza - Spain
 - As Data Engineer in January 2022 - Present
 
 ---
-#### [Data engineer in Comafi Bank](/exp_dataengineer)
+#### [Data engineer in Comafi Bank 🔗](/exp_dataengineer)
 
 Remote job - Buenos Aires - Argentina
 - As Data Engineer in October 2020 - January 2022
@@ -29,14 +29,14 @@ Comodoro Rivadavia - Argentina
 - Febrary 2008 to September 2021
 
 ---
-#### [University Professor - - University (UNPSJB) - Comodoro Rivadavia - AR](/exp_dbi)
+#### [University Professor - - University (UNPSJB) - Comodoro Rivadavia - AR 🔗](/exp_dbi)
 Comodoro Rivadavia - Argentina
 - March 2011 to July 2022
 
 Subject of bachelor in computer science: Database I.
 
 ---
-#### [Freelance web developer - UR](/exp_sostemplaznza)
+#### [Freelance web developer - UR 🔗](/exp_sostemplaznza)
 Remote Job - Montevideo - Uruguay
 - March 2014 to December 2016
 
@@ -51,7 +51,7 @@ I gave courses on MS Office tools for business, mainly MS Excel and MS Project i
 ### Education
 
 #### Master in  Big Data and Data Science (2021 - 2022)
-- I won a scholarship from Latam [IDEO](https://becas.universidadviu.com/becas-ideo/)
+- I won a scholarship from Latam [IDEO 🔗](https://becas.universidadviu.com/becas-ideo/)
 - International University of Valencia - Spain
 
 #### Diploma in Data Science (2020)
@@ -65,19 +65,19 @@ I gave courses on MS Office tools for business, mainly MS Excel and MS Project i
 
 ---
 ### Voluntary experience
-#### [University Volunteer Project in Argentina 2020](/vol_university)
+#### [University Volunteer Project in Argentina 2020 🔗](/vol_university)
 
 #### University research project in data intelligence 2020
 
 ---
 ### Computer Congress
 
-Participation in computer congress [CONAIISI](http://conaiisi2020.frsfco.utn.edu.ar/) in November 2020, with a data mining project. I [share the poster here](/pdf/conaiisi.pdf).
+Participation in computer congress [CONAIISI 🔗](http://conaiisi2020.frsfco.utn.edu.ar/) in November 2020, with a data mining project. I [share the poster here 🔗](/pdf/conaiisi.pdf).
 
 ---
 ### Certifications
-#### [AWS Cloud Practitioner](https://www.credly.com/badges/3790a21a-0f34-4aad-9a27-852a5e4dcded)
-#### [AWS Solutions Architect – Associate](https://www.credly.com/badges/33088a77-602c-47ad-b9a6-cca637c743c0)
+#### [AWS Cloud Practitioner  (04/2021 - 07/2026)🔗](https://www.credly.com/badges/3790a21a-0f34-4aad-9a27-852a5e4dcded)
+#### [AWS Solutions Architect – Associate (07/2023 - 07/2026) 🔗 ](https://www.credly.com/badges/33088a77-602c-47ad-b9a6-cca637c743c0)
 
 ---
 ### Courses
