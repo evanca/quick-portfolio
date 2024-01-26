@@ -3,7 +3,7 @@
 👋 Hi, I’m Rocio Radulescu and I´m from Patagonia Argentina! Beautiful place 😍
 
 I love data ❤️!
-I have a Degree in Computer Science and Master Degree in Big Data. I was working as a database teacher at the University of Patagonia and in 2020 I started working with cloud developments, both AWS and Azure, as a Data engineer. I enjoy learning day by day, finding challenges in my work and being able to apply and teach what I learn. I really enjoy learning and working with cloud technologies, for this reason, among my next goals are to continue learning Scala, and prepare the AWS data nalytics and architect certification (and improving my English).
+I have a Degree in Computer Science and Master Degree in Big Data. I was working as a database teacher at the University of Patagonia and in 2020 I started working with cloud developments, both AWS and Azure, as a Data engineer. I enjoy learning day by day, finding challenges in my work and being able to apply and teach what I learn. I really enjoy learning and working with cloud technologies, for this reason, among my next goals are to continue learning Scala, and prepare the new AWS data engineer certification (and improving my English).
 
 In my portfolio you will find a small sample of what I have done in these years, about work, experience, and learning paths. Enjoy 😎
 
