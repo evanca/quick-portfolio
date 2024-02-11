@@ -8,22 +8,20 @@
 <img src="images/levermann_summary_thumbnail.jpg?raw=true"/>
 
 ---
-[Rock climbing routes & grades (tbd)](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Himalayan Expeditions - Elizabeth Hawley](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[My collection of tools and jupyter notebooks](https://duerrhannes.github.io/toolbox)
+<img src="images/toolbox_thumbnail.jpg?raw=true"/>
 
 ---
 
-### Category Name 2
+[Rock climbing routes & grades (tbd)](https://duerrhannes.github.io/climbing-data)
+<img src="images/climbing-data_thumbnail.jpg?raw=true"/>
 
-- [dolore magna aliquyam erat](http://example.com/)
-- [Lorem ipsum dolor sit amet](http://example.com/)
-- [consetetur sadipscing](http://example.com/)
-- [sed diam nonumy](http://example.com/)
-- [eirmod tempor invidunt ut labore](http://example.com/)
+---
+
+### Future projects
+
+- [Himalayan Expeditions Analysis - Elizabeth Hawley]()
+- ... further ideas to be added ...
 
 ---
 
