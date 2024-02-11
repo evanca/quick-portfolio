@@ -21,7 +21,8 @@
 ### Future projects
 
 - [Himalayan Expeditions Analysis - Elizabeth Hawley]()
-- [... space for further ideas ...]
+- ... further ideas to be added ...
+
 
 ---
 
