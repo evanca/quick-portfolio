@@ -1,19 +1,16 @@
 ## Portfolio
 
 ---
+[Instacart - sales and customer behavior analysis](https://github.com/MounikaAchchannagari/Instacart)
 
-### Category Name 1 
+<p style="font-size: 12px"> Analyzed complex data sets in Python, I identified the busiest days and hours, price ranges and the most popular departments for an online grocery store. I also created customer profiles based on features such as brand loyalty, demographic info, order frequency, family status, regions, and other. On the basis of the analysis results, I gave recommendations to the marketing and sales departments regarding the upcoming marketing campaign to improve customer loyalty and boost sales. </p>
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<p style="font-size: 12px"><b>Analytical techniques:</b> Data Wrangling & Subsetting ,Combining & Exporting Data, Derived New Variables, Grouping Data & Aggregated variables, Data Visualizations in Python. </p>
+<br>
+ <img src="images/Instacart.portfolio1.png?raw=true"/>  
 
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
 
 ---
 
