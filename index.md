@@ -12,7 +12,7 @@ Customer Segmentation and Marketing Campaign Effectiness Analysis:
 
 [Kaggle Notebook](https://www.kaggle.com/code/murilozangari/customer-segmentation-eda-clustering) | [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmU1Mjc3YTMtMzU5NC00ZWNjLWI3YzQtYjc3OWZmMjM2ZGI3IiwidCI6IjU2MDA3ZmIyLWUzZjgtNDY5YS1iNTE3LWQzNjYyNDcyYWY3OSJ9)
 
-<img src="images/dashboad-marketing.png"/>
+<img src="images/thumb_1.png"/>
 
 
 ---
