@@ -42,9 +42,11 @@
          </ul>
          {% endif %}
       </header>
-      <section>
-         {{ content }}
-      </section>
+      <div class="content-wrapper"> <!-- New container div for content -->
+         <section>
+            {{ content }}
+         </section>
+      </div>
       <footer>
          {% if site.github.is_project_page %}
          <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
