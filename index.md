@@ -1,8 +1,9 @@
-## Portfolio
-
-Trying to make it work
-
-### Category Name 1 
+## Bio
+- 🎓 Has an undergraduate degree, a master's degree, and a doctorate in Computer Science
+- 🔬 Has 12+ years of experience in transforming raw data into actionable insights, including research experience in Machine Learning Models for predictive analytics and optimization problems
+- 🖥 Has hands-on experience/projects in health care, finance, marketing, logistics, and production
+  
+## Portfolio Projects 
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
