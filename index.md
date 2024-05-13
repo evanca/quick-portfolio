@@ -10,7 +10,7 @@ Customer Segmentation and Marketing Campaign Effectiness Analysis:
 - Leveraged **Power BI** for marketing campaign analytics; executed data cleaning and transformation, crafted insightful visuals to help stakeholders track effectiveness and understand customer behaviors.
 - Engineered features and implemented KMeans clustering in Python to define customer segments; provided detailed profiles and actionable insights, enhancing the marketing team's strategic decisions.
 
-[Kaggle Notebook](https://www.kaggle.com/code/murilozangari/customer-segmentation-eda-clustering) | [Power Bi Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmU1Mjc3YTMtMzU5NC00ZWNjLWI3YzQtYjc3OWZmMjM2ZGI3IiwidCI6IjU2MDA3ZmIyLWUzZjgtNDY5YS1iNTE3LWQzNjYyNDcyYWY3OSJ9)
+[Kaggle Notebook](https://www.kaggle.com/code/murilozangari/customer-segmentation-eda-clustering) | [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmU1Mjc3YTMtMzU5NC00ZWNjLWI3YzQtYjc3OWZmMjM2ZGI3IiwidCI6IjU2MDA3ZmIyLWUzZjgtNDY5YS1iNTE3LWQzNjYyNDcyYWY3OSJ9)
 
 <img src="images/dashboad-marketing.png"/>
 
