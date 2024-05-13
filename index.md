@@ -15,10 +15,9 @@
 
 ### Customer Segmentation and Marketing Campaign Effectiness Analysis:
 
-- Leveraged Power BI for marketing campaign analytics; executed data cleaning and transformation, crafted insightful visuals to help stakeholders track effectiveness and understand customer behaviors.
-- Engineered features and implemented KMeans clustering in Python to define customer segments; provided detailed profiles and actionable insights, enhancing the marketing team's strategic decisions.
-  
-[Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmU1Mjc3YTMtMzU5NC00ZWNjLWI3YzQtYjc3OWZmMjM2ZGI3IiwidCI6IjU2MDA3ZmIyLWUzZjgtNDY5YS1iNTE3LWQzNjYyNDcyYWY3OSJ9) [Python code on Kaggle](https://www.kaggle.com/code/murilozangari/customer-segmentation-eda-clustering) 
+Customer segmentation is a critical practice in the marketing sector that enables businesses to tailor their strategies more effectively. In this project, I built a customer segmentation using KMeans clustering in Python, executed data cleaning, and engineered features to provide detailed customer profiles and actionable insights. ALso, leveraged Power BI for marketing campaign analytics, providing insightful visuals to help stakeholders track effectiveness and understand customer behaviors.
+
+[Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmU1Mjc3YTMtMzU5NC00ZWNjLWI3YzQtYjc3OWZmMjM2ZGI3IiwidCI6IjU2MDA3ZmIyLWUzZjgtNDY5YS1iNTE3LWQzNjYyNDcyYWY3OSJ9) | [Python code on Kaggle](https://www.kaggle.com/code/murilozangari/customer-segmentation-eda-clustering) 
 
 <img src="images/thumb_1.png"/>
 
