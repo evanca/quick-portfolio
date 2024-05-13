@@ -1,8 +1,11 @@
 ---
 title: Murilo Zangari
-description: "PhD in Computer Science | Analytics | Data Scientist"
-logo: "/images/2024-04-21 17_57_44.934-0300.jpg?raw=true"
----
+logo: "/images/2024-04-21 17_57_44.934-0300.jpg?raw=true" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  PhD in Computer Science | Analytics | Data Scientist  
+  <br><br>
+  With twelve years of experience in transforming raw data into actionable insights and developing advanced machine learning models, I bring a robust set of skills grounded in computer science, programming languages, mathematics, and statistics. Currently, I am fully committed to enhancing my skills through prestigious data science courses and hands-on projects for my portfolio 
+  <br><br>
   <a href="https://www.linkedin.com/in/murilozangari/">View My LinkedIn Profile</a> 
   <br><br>
   <a href="https://www.kaggle.com/murilozangari/"> View my Kaggle Profile</a>
@@ -10,4 +13,4 @@ logo: "/images/2024-04-21 17_57_44.934-0300.jpg?raw=true"
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
-
+---
