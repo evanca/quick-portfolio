@@ -1,13 +1,15 @@
 title: Murilo Zangari
 logo: "/images/2024-04-21 17_57_44.934-0300.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Data Scientist with +12 years of experience in data analysis, statistics, research, and machine learning. Expert in solving complex optimization problems and enhancing data-driven decision-making, with proven skills in Python, SQL, and Power BI. 
+  PhD in Computer Science 
   <br>
-  PhD in Computer Science from the Federal University of Paraná (UFPR), Brazil
+  Data Scientist 
   <br>
   <a href="https://www.linkedin.com/in/murilozangari/">LinkedIn Profile</a> 
   <br>
   <a href="https://www.kaggle.com/murilozangari/">Kaggle Profile</a> 
+  <br>
+  murilo.zangari@gmail.com
 remote_theme: "pages-themes/minimal@v0.2.0"
 plugins:
   - jekyll-remote-theme
