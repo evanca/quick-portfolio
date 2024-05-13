@@ -1,14 +1,14 @@
----
 title: Murilo Zangari
 logo: "/images/2024-04-21 17_57_44.934-0300.jpg?raw=true" # your photo (or logo) here
-description: # your text below (remove <br> elements if you don't need line breaks)
- "PhD in Computer Science | Data Scientist  
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  PhD in Computer Science | Data Scientist
   <br><br>
-  [View My LinkedIn Profile](https://www.linkedin.com/in/murilozangari/)
-   <br><br>
-  [View my Kaggle Profile](https://www.kaggle.com/murilozangari/)
-   <br><br>"
+  More than twelve years transforming raw data into actionable insights. 
+  <br><br>
+  <a href="https://www.linkedin.com/in/murilozangari/">View My LinkedIn Profile</a> 
+  <br><br>
+  <a href="https://www.kaggle.com/murilozangari/">View My Kaggle Profile</a> 
 remote_theme: "pages-themes/minimal@v0.2.0"
 plugins:
   - jekyll-remote-theme
----
+
