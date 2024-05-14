@@ -1,0 +1,11 @@
+title: Portfolio Tammy Hartline # your name (or website title) here
+logo: "https://media.licdn.com/dms/image/D5603AQGil6vwByqc7g/profile-displayphoto-shrink_800_800/0/1695260208506?e=1721260800&v=beta&t=txt3Nl4Dbmil-2qhUp0Rv0HeATRYXOunV1W4QPhnjx8" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+This Github Page will explain my experiences and lessons learned while earning my Bachelor's of Computer Science with a concentration in Data Analytics at SNHU.
+  <br><br>
+I will also briefly discuss what I was able to learn during my time as an SNHU Data Reporting Coordinator as a student worker, a software engineering leadership intern during the Girls Who Code Fall Leadership Academy Hosted by Raytheon(RTX), 
+and my current Project Management role at Scale AI.
+<br><br>
+  <a href="https://www.linkedin.com/in/tammy-hartline-91981266/">View My LinkedIn Profile</a> 
+  
+theme: jekyll-theme-minimal
