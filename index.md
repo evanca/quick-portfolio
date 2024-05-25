@@ -7,6 +7,9 @@
 [Coach George's Tennis](/sample_page)
 <img src="images/Coach George(Blue).jpg?raw=true"/>
 
+[Winsy Hommie Eats](/sample_page)
+<img src="images/Coach George(Blue).jpg?raw=true"/>
+
 ---
 
 ### Website Development
