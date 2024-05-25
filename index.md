@@ -31,7 +31,7 @@
  
 - [Nextgen Multisport Academy](https://nextgenkenya.com/multisports/)
   <br/>
-	<img src="images/Nextgen_snap.png?raw=true" height=/> 
+	<img src="images/Nextgen_snap.png?raw=true"/> 
 
 ---
 
