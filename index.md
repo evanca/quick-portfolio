@@ -26,12 +26,12 @@
 
 - [Castle Villas](http://castlevillas.co.ke/)
   <br/>
-	<img src="images/CastleVillas_Snap.png?raw=true" height="413"/>
+	<img src="images/CastleVillas_Snap.png?raw=true"/>
 
  
 - [Nextgen Multisport Academy](https://nextgenkenya.com/multisports/)
   <br/>
-	<img src="images/Nextgen_snap.png?raw=true" height="413"/> 
+	<img src="images/Nextgen_snap.png?raw=true" height=/> 
 
 ---
 
