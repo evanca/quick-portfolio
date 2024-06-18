@@ -1,11 +1,11 @@
-title: John Doe # your name (or website title) here
+title: Viet-Dung Tran # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  AI engineer, Coding educator 
   <br><br>
-  Second description 
+  Graduate reseach assistant
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/viet-dung-tran-a320a3151/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
