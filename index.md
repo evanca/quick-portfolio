@@ -2,9 +2,24 @@
 
 ---
 
-### Category Name 1 
+### Python - API 
 
-[Project 1 Title](/sample_page)
+[Ant colony optimization - Google Map API](/sample_page)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+[NBA Talk Fantasy Basketball](/pdf/sample_presentation.pdf)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+[Car Price Prediction](http://example.com/)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+
+### Azure AI Services
+
+[Customvision - Trash Segregation](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
@@ -17,13 +32,10 @@
 
 ---
 
-### Category Name 2
+### Material Science
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+[Ferroelectric material phase-field simulation](/sample_page)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
