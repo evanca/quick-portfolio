@@ -1,11 +1,11 @@
-title: John Doe # your name (or website title) here
+title: Kar Hor Yap
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  With a background in computer science and years of work experience in insurance industry as a data scientist,
   <br><br>
-  Second description 
+  this personal website tracks to showcase some of my personal projects as well as my learning journey.
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/kar-hor-yap-a4a887150/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
