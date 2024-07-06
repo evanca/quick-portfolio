@@ -5,9 +5,10 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   this personal website tracks to showcase some of my personal projects as well as my learning journey.
   <br><br>
-  <a href="https://www.linkedin.com/in/kar-hor-yap-a4a887150/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/kar-hor-yap-a4a887150/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"> LinkedIn
+  </a>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
