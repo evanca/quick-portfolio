@@ -1,13 +1,30 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
-  <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+title: |
+  <h1 style="font-family: Garamond, serif; color: #141942; text-align: left;">
+    Tulika Khargonkar
+  </h1>
+
+description: |
+  <p style="color: #141942; font-family: Arial, sans-serif;">
+    A neuroscience graduate with a fancy for data and the stories it tells.
+  </p>
+  <br>
   
+  <h2 style="font-family: Garamond, serif; color: #141942; text-align: left;">
+    Certifications
+  </h2>
+  
+  <ul>
+    <li><a href="https://coursera.org/share/f4bd61035689a0b3ce9130d5ad94bb85" style="color: #1e2774; text-decoration: none;">Google Data Analytics Specialisation</a></li>
+    <li><a href="https://coursera.org/share/20d2cf89a545b24721052a056f61ac4d" style="color: #1e2774; text-decoration: none;">Google AI Essentials</a></li>
+  </ul>
+
+  <br>
+  
+  <a href="https://www.linkedin.com/in/tkhargonkar" 
+     style="display: inline-block; background: #0073e6; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold;">
+    View My LinkedIn Profile
+  </a>
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+  - jekyll-remote-theme
