@@ -1,11 +1,9 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+title: Joshua Thompson # your name (or website title) here
+logo: "/images/logo.JPG?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
-  <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <br>Data science professional with 7+ years of progressive experience transforming complex data into strategic insights. With a background in engineering and advanced analytics, I’m skilled in machine learning, optimization, and statistical modeling to deliver impactful solutions. Proficient in Python, R, SQL, and Azure cloud services, I’m passionate about building scalable systems that drive real business value.<br>
+  <br><a href="http://www.linkedin.com/in/joshua-thompson-b89913105">View My LinkedIn Profile</a><br>
+
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
