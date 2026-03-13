@@ -1,0 +1,40 @@
+name: PR Preview Deploy
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+concurrency: preview-${{ github.ref }}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+
+      - name: Setup Ruby
+        if: github.event.action != 'closed'
+        uses: ruby/setup-ruby@b8d447ba7506ac7e0c8fbc50762276fb3b7df731 # v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        if: github.event.action != 'closed'
+        run: bundle exec jekyll build --baseurl "/pr-preview/pr-${{ github.event.number }}"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Deploy PR Preview
+        uses: rossjrw/pr-preview-action@ffa7509e91a3ec8dfc2e5536c4d5c1acdf7a6de9 # v1
+        with:
+          source-dir: ./_site/
