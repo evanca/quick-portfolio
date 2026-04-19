@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinay Kawade - Personal Blog</title>
+    <meta name="description" content="Welcome to Vinay Kawade's personal blog, featuring travel adventures, tech insights, and life stories.">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JGRDE8X728"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-JGRDE8X728');
+    </script>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">Vinay Kawade</a>
+            
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#travel">Travel</a></li>
+                    <li><a href="#tech">Tech</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1 class="animate-on-scroll">Welcome to My Journey</h1>
+            <p class="animate-on-scroll delay-1">Exploring the world through travel, technology, and tales.</p>
+            <p class="animate-on-scroll delay-2">Join me as I share my adventures, insights, and experiences.</p>
+        </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <!-- <section class="section" id="featured">
+        <div class="container">
+            <h2 class="section-title">Featured Adventures</h2>
+            <p class="section-intro">Discover my latest explorations and experiences from around the world.</p>
+            
+            <div class="row">
+                <div class="col animate-on-scroll">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./images/japan/Miyashita.jpg" alt="Japan Adventure">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">A 7-Day Spring Adventure in Japan</h3>
+                            <div class="card-meta">April 12th – April 19th, 2025</div>
+                            <p class="card-excerpt">From the buzz of Tokyo to the serene gardens of Kyoto, and the peaceful deers of Nara to the mighty Osaka Castle — we packed in a lot, and every moment was worth it.</p>
+                            <a href="04-12-2025-japan-travel.html" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col animate-on-scroll delay-1">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./images/chandni/group.jpg" alt="Chandni Chowk Adventure">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">One-Day Escape to Chandni Chowk</h3>
+                            <div class="card-meta">April, 2025</div>
+                            <p class="card-excerpt">A quick one-day trip to Old Delhi to taste its legendary food, explore historic streets, and experience the vibrant culture of Chandni Chowk.</p>
+                            <a href="april-2025-chandni-chowk.html" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- Tech Section -->
+    <section class="section" id="tech">
+        <div class="container">
+            <h2 class="section-title">Tech</h2>
+            <p class="section-intro">Thoughts, experiences, and insights from the world of technology.</p>
+            
+            <div class="content-section animate-on-scroll">
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="card-title">
+                            <i class="fas fa-microchip" style="margin-right: 8px;"></i>
+                            Python Multiprocessing and gRPC
+                        </h3>
+                        <div class="card-meta">July 2025</div>
+                        <p class="card-excerpt">
+                            Combining Python’s multiprocessing with gRPC can introduce subtle, hard-to-diagnose issues if not handled carefully—especially around process forking and socket management.
+                        </p>
+                        <a href="python-multiprocess-grpc.html" class="card-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Section -->
+    <section class="section" id="travel">
+        <div class="container">
+            <h2 class="section-title">Travel</h2>
+            <p class="section-intro">Exploring new places and experiencing different cultures. Here are my recent adventures.</p>
+
+            <div class="row mt-4">
+                <div class="col animate-on-scroll">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./images/japan/Miyashita.jpg" alt="Japan Adventure">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">A 7-Day Spring Adventure in Japan</h3>
+                            <div class="card-meta">April 12th – April 19th, 2025</div>
+                            <p class="card-excerpt">From the buzz of Tokyo to the serene gardens of Kyoto, and the peaceful deers of Nara to the mighty Osaka Castle — we packed in a lot, and every moment was worth it.</p>
+                            <a href="04-12-2025-japan-travel.html" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col animate-on-scroll delay-1">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./images/atv-utv/zion/PHOTO-2025-05-01-07-04-59.jpg" alt="ATV UTV Adventure">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">ATV & UTV Adventures Across 5 Terrains</h3>
+                            <div class="card-meta">2024 – 2025</div>
+                            <p class="card-excerpt">From California sand dunes to Dubai deserts — five completely different terrains, same thrill under the wheels. Pismo, Zion, Costa Rica, Los Cabos, and Dubai.</p>
+                            <a href="atv-utv-adventure-guide.html" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col animate-on-scroll delay-2">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./images/chandni/group.jpg" alt="Chandni Chowk Adventure">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">One-Day Escape to Chandni Chowk</h3>
+                            <div class="card-meta">April, 2025</div>
+                            <p class="card-excerpt">A quick one-day trip to Old Delhi to taste its legendary food, explore historic streets, and experience the vibrant culture of Chandni Chowk.</p>
+                            <a href="april-2025-chandni-chowk.html" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="content-section animate-on-scroll">
+                <p>Welcome to my personal corner of the internet. I'm Vinay Kawade, and this blog is where I share my thoughts, experiences, and adventures.</p>
+                <p>I'm passionate about travel, technology, and storytelling. Through these blogs, I hope to take you along on my journeys, share insights from my professional experiences, and tell stories that resonate.</p>
+                <p>Feel free to explore the different sections of this blog and reach out if you'd like to connect.</p>
+                <p>vinay.kawade@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Vinay Kawade</h3>
+                    <p>A personal blog sharing travel adventures, tech insights, and life stories.</p>
+                    <div class="social-links">
+                        <a href="https://x.com/vinaykawade" aria-label="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/kawade.vinay" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/in/vinay-kawade/" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/vink007" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#travel">Travel</a></li>
+                        <li><a href="#tech">Tech</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Recent Posts</h3>
+                    <ul class="footer-links">
+                        <li><a href="04-12-2025-japan-travel.html">A 7-Day Spring Adventure in Japan</a></li>
+                        <li><a href="april-2025-chandni-chowk.html">One-Day Escape to Chandni Chowk</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Vinay Kawade. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Custom JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>

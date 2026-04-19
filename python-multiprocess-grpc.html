@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Multiprocessing with gRPC: What Still Bites| Vinay Kawade</title>
+    <meta name="description" content="Pitfalls, best practices, and real-world tips for Python multiprocessing with gRPC.">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Nunito:wght@400;600;700&family=Roboto:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JGRDE8X728"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-JGRDE8X728');
+    </script>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">Vinay Kawade</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#travel">Travel</a></li>
+                    <li><a href="index.html#tech" class="active">Tech</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <main class="container">
+        <article class="post-content">
+            <header class="post-header animate-on-scroll">
+                <h1 class="post-title">Python Multiprocessing with gRPC</h1>
+                <h1 class="post-title">What Still Bites</h1>
+
+                <div class="post-meta">
+                    <span><i class="far fa-calendar-alt"></i> July 2025</span>
+                </div>
+            </header>
+
+            <section class="animate-on-scroll">
+                <p>Python’s Global Interpreter Lock (GIL) restricts execution of Python bytecode to one thread at a time. To effectively utilize multiple CPU cores, developers often resort to the <code>multiprocessing</code> module, which uses <code>fork()</code> to spawn separate processes. However, when combined with gRPC, this approach can lead to subtle and hard-to-debug issues.</p>
+                <p>This post outlines the challenges and best practices when using Python multiprocessing alongside gRPC, based on guidance from the gRPC team and real-world implementation patterns.</p>
+            </section>
+
+            <section class="animate-on-scroll">
+                <h2>Why Multiprocessing and gRPC Can Conflict</h2>
+                <p>gRPC in Python uses native threads and sockets managed by a C core. When a process is forked after gRPC objects have been initialized, the child process inherits the internal state of the gRPC runtime—including file descriptors, mutexes, and threads—which were never meant to be shared. This can result in errors such as:</p>
+                <ul>
+                    <li><code>Bad file descriptor</code></li>
+                    <li>Crashes on socket use</li>
+                    <li>Hanging RPC calls</li>
+                </ul>
+            </section>
+
+            <section class="animate-on-scroll">
+                <h2>Client-Side Common Pitfalls</h2>
+                <p>If you initialize a gRPC channel or stub <strong>before</strong> forking the process, the child process inherits socket file descriptors that are <strong>no longer valid</strong>. This is because the gRPC core uses native threads and background pollers to manage those sockets, and after a fork, the thread state and internal locks are inconsistent in the child process.</p>
+                <p>This often results in runtime errors like:</p>
+                <pre class="code-block"><code>OSError: [Errno 9] Bad file descriptor</code></pre>
+                <p>Or gRPC-specific errors such as:</p>
+                <pre class="code-block"><code>grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+    status = StatusCode.UNAVAILABLE
+    details = "failed to connect to all addresses"
+>
+</code></pre>
+                <h3>Recommended Practices:</h3>
+                <ul>
+                    <li>Always initialize gRPC channels and stubs <strong>after</strong> the fork. This ensures the sockets and associated gRPC internals are cleanly created within the context of the child process.</li>
+                    <li>If you absolutely must initialize gRPC before forking (e.g., due to framework constraints), set the following environment variables <strong>before any gRPC initialization</strong>:</li>
+                </ul>
+                <pre class="code-block"><code>GRPC_ENABLE_FORK_SUPPORT=true
+GRPC_POLL_STRATEGY=poll
+</code></pre>
+                <p>This enables limited fork support on Linux by instructing gRPC to reset internal state in the child process post-fork. Note: This only works with polling strategies like <code>poll</code> (not <code>select</code> or <code>epollsig</code>) and is not supported on all platforms.</p>
+            </section>
+
+            <section class="animate-on-scroll">
+                <h2>Server-Side Forking with gRPC Servers</h2>
+                <p>On the server side, forking after starting a gRPC server is <strong>not safe</strong>. Instead, the correct approach is to fork first and then start independent server instances in each child process. These server processes can share the same port using the <code>grpc.so_reuseport</code> option, which relies on the underlying OS to distribute incoming connections.</p>
+                <h3>Example:</h3>
+                <pre class="code-block"><code>from concurrent import futures
+import grpc
+import multiprocessing
+
+def serve():
+    server = grpc.server(futures.ThreadPoolExecutor())
+    add_MyServiceServicer_to_server(MyService(), server)
+    server.add_insecure_port('[::]:50051', options=[('grpc.so_reuseport', 1)])
+    server.start()
+    server.wait_for_termination()
+
+if __name__ == '__main__':
+    for _ in range(multiprocessing.cpu_count()):
+        p = multiprocessing.Process(target=serve)
+        p.start()
+</code></pre>
+                <p><strong>Note:</strong> <code>grpc.so_reuseport</code> is only supported on platforms that allow <code>SO_REUSEPORT</code> (e.g., Linux). On other platforms, you may need to assign different ports to each process or use a load balancer in front.</p>
+            </section>
+
+            <section class="animate-on-scroll">
+                <h2>Summary</h2>
+                <ul>
+                    <li>Initialize gRPC channels and servers <strong>after</strong> forking.</li>
+                    <li>Use the <code>GRPC_ENABLE_FORK_SUPPORT</code> and <code>GRPC_POLL_STRATEGY</code> settings on the client side if necessary.</li>
+                    <li>For server processes, start gRPC servers post-fork and use <code>grpc.so_reuseport</code> to share a listening port.</li>
+                </ul>
+                <p>These precautions help avoid hard-to-debug issues and ensure your application remains robust under parallel execution.</p>
+            </section>
+
+            <section class="animate-on-scroll">
+                <h2>References</h2>
+                <ul>
+                    <li><a href="https://github.com/grpc/grpc/blob/master/doc/fork_support.md" target="_blank">gRPC Python Fork Support Documentation</a></li>
+                    <li><a href="https://chromium.googlesource.com/external/github.com/grpc/grpc/+/HEAD/examples/python/multiprocessing/" target="_blank">gRPC Multiprocessing Example (Python)</a></li>
+                </ul>
+            </section>
+
+            <div class="post-navigation">
+                <a href="index.html" class="card-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+                <a href="04-12-2025-japan-travel.html" class="card-link">Previous: Japan Adventure</a>
+                <a href="april-2025-chandni-chowk.html" class="card-link">Next: Chandni Chowk Adventure <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Vinay Kawade</h3>
+                    <p>A personal blog sharing travel adventures, tech insights, and life stories.</p>
+                    <div class="social-links">
+                        <a href="https://x.com/vinaykawade" aria-label="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/kawade.vinay" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/in/vinay-kawade/" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/vink007" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#travel">Travel</a></li>
+                        <li><a href="index.html#tech">Tech</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Recent Posts</h3>
+                    <ul class="footer-links">
+                        <li><a href="04-12-2025-japan-travel.html">A 7-Day Spring Adventure in Japan</a></li>
+                        <li><a href="april-2025-chandni-chowk.html">One-Day Escape to Chandni Chowk</a></li>
+                        <li><a href="python-multiprocess-grpc.html">Python Multiprocessing with gRPC Apps</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Vinay Kawade. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Custom JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
