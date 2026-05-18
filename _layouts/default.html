@@ -10,6 +10,32 @@
       
       gtag('config', '{{ site.google_analytics }}');
    </script>
+   <style>
+      .body-style{ padding:0px !important;}
+      .custom-wrapper{ width:60% !important;}
+      .custom-header {
+         width:20% !important;
+      }
+      .custom-section{
+         width:60% !important;
+      }
+      .nav{display: flex;
+          justify-content: end;}
+      .nav-links{margin: 10px;
+                font-size: 1.125rem;
+                font-weight: 700;}
+      @media screen and (max-width: 450px) {
+          .custom-wrapper{ width:100% !important;}
+          .custom-header {
+            width:100% !important;
+            }
+          .custom-section{
+            width:100% !important;
+         }
+         }
+      
+      
+   </style>
    {% endif %}
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,12 +46,20 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
    <![endif]-->
 </head>
-<body>
-   <div class="wrapper">
-      <header>
+<body class="body-style">
+   <div class="wrapper custom-wrapper">
+      <nav class="nav">
+        <span class="nav-links">
+            <a href="/"> About </a>
+        </span>
+        <span class="nav-links">
+            <a href="https://medium.com/@goyal.shubh15"> Blog </a>
+        </span>
+       </nav>
+      <header class="custom-header">
          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
          {% if site.logo %}
-         <img src="{{site.logo | relative_url}}" alt="Logo" />
+         <img src="{{site.logo | relative_url}}" alt="Logo" style="width:95%" />
          {% endif %}
          <p>{{ site.description | default: site.github.project_tagline }}</p>
          {% if site.github.is_project_page %}
@@ -42,14 +76,14 @@
          </ul>
          {% endif %}
       </header>
-      <section>
+      <section class="custom-section">
          {{ content }}
       </section>
       <footer>
          {% if site.github.is_project_page %}
          <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
          {% endif %}
-         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+         
       </footer>
    </div>
    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

@@ -1,13 +1,21 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+title: Shubham Goyal # your name (or website title) here
+logo: "/images/SG_prof.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  A Data Science professional with 3+ years of experience, specializing in applied Machine Learning, Strategy, and Analytics. 
   <br><br>
-  Second description 
+  Currently Pursuing (Graduating May'24):<br>
+  MS Information Systems @ Northeastern University, Boston, USA
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  Previously: <br>
+  Data Science Intern @ Verato, Virginia <br>
+  Data Scientist @ American Express
+  <br><br>
+  UnderGrad: <br>
+  Bsc/Msc Geophysics @ IIT Kharagpur, India
+  <br><br>
+  <a href="https://www.linkedin.com/in/goyalshubhamiitkgp/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+google_analytics: G-E77T0W2LPD # your Google Analytics tracking ID here
