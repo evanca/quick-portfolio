@@ -1,11 +1,11 @@
-title: John Doe # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+title: Ann Marie Anderson # your name (or website title) here
+logo: "/images/minddec.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Undergraduate Physics and Biochemistry Student
   <br><br>
-  Second description 
+  Physics and Biochemistry student with interdisciplinary training in Environmental Studies and Engineering, bringing experience in community leadership, project coordination, and technical problem-solving. Skilled in research, data analysis, and cross-functional collaboration, with interests in renewable energy, environmental sustainability, and resilient infrastructure. Seeking to apply analytical and research-driven approaches to environmental challenges while building a foundation for future graduate study. 
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="www.linkedin.com/in/annmarieand7">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
