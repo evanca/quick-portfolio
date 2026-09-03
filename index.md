@@ -44,7 +44,7 @@ Supported development and documentation of A-IRB credit risk models across all t
 
 <img src="images/credit_risk_code_library.png?raw=true" />
 
-Designed and maintained a Python-based credit risk code library hosted in Azure, applying best practices from data science and actuarial modelling. The library streamlined model development workflows for IFRS 9 and IRB, ensured reproducibility and consistency across teams, and was advanced towards commercialisation for external clients as a reusable modelling toolkit.
+Designed and maintained a Python-based credit risk code library hosted in Azure, applying practice from both data science and actuarial modelling. The library streamlined model development for IFRS 9 and IRB and held reproducibility and consistency across teams.
 
 **Skills**: Azure DevOps Services \| IFRS 9 \| Basel III \| Library Design \| Reproducibility \| Python
 
