@@ -1,0 +1,30 @@
+# Local run of the production images: `task up:local`.
+# Site on http://localhost:8080 (admin at /admin), OAuth proxy on
+# http://localhost:8081. The proxy reads secrets/oauth.local.env (KEY=VALUE:
+# GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET) from a GitHub OAuth App whose
+# callback is http://localhost:8081/oauth/callback; without that file the
+# site still runs and only sign-in fails.
+services:
+  site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ADMIN_ENABLED=true
+      - SITE_VERSION=local
+    ports:
+      - "8080:8080"
+
+  oauth:
+    build:
+      context: .
+      dockerfile: oauth/Dockerfile
+    environment:
+      - LISTEN=:8081
+      - PUBLIC_BASE_URL=http://localhost:8081
+      - ALLOWED_ORIGINS=http://localhost:8080
+      - OAUTH_SECRETS_FILE=/run/secrets/oauth_secrets
+    volumes:
+      - ./secrets/oauth.local.env:/run/secrets/oauth_secrets:ro
+    ports:
+      - "8081:8081"

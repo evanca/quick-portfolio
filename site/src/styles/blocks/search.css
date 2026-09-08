@@ -1,0 +1,92 @@
+@import "@pagefind/component-ui/css" layer(pagefind);
+
+:root {
+	--pf-text-muted: var(--color-global-text);
+	--pf-background: var(--color-global-bg);
+	--pf-border-focus: var(--color-accent-2);
+	--pf-outline-focus: var(--color-accent);
+	--pf-outline-offset: none;
+	--pf-font: var(--font-mono);
+	--pf-text: var(--color-global-text);
+	--pf-text-secondary: var(--color-muted);
+	--pf-skeleton: var(--color-global-bg);
+	--pf-icon-search: url("data:image/svg+xml,%3Csvg fill='none' height='16' width='16' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath d='M0 0h24v24H0z' stroke='none'%3E%3C/path%3E%3Cpath d='M3 10a7 7 0 1 0 14 0 7 7 0 1 0-14 0M21 21l-6-6'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.pf-trigger-btn {
+	--pf-background: #0000;
+	--pf-border-focus: #0000;
+	--pf-hover: var(--color-accent);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: calc(var(--spacing) * 9);
+	height: calc(var(--spacing) * 9);
+	padding: 8px;
+	accent-color: var(--color-accent);
+	border: 0;
+	border-radius: 0;
+
+	&:hover {
+		@media (hover: hover) {
+			--pf-text-muted: var(--color-accent);
+			color: var(--color-accent);
+		}
+	}
+	&:focus-visible {
+		outline: auto;
+	}
+
+	.pf-trigger-icon {
+		width: calc(var(--spacing) * 7);
+		height: calc(var(--spacing) * 7);
+	}
+}
+
+dialog.pf-modal::backdrop {
+	backdrop-filter: blur(8px);
+}
+
+.pf-modal-body {
+	--pf-hover: var(--color-global-bg);
+
+	.pf-result-link,
+	.pf-heading-link {
+		background-size: 100% 6px;
+		background-position: bottom;
+		background-repeat: repeat-x;
+		background-image: linear-gradient(
+			transparent,
+			transparent 5px,
+			var(--color-global-text) 5px,
+			var(--color-global-text)
+		);
+
+		&:hover {
+			text-decoration: none;
+			background-image: linear-gradient(
+				transparent,
+				transparent 4px,
+				var(--color-link) 4px,
+				var(--color-link)
+			);
+		}
+	}
+
+	.pf-heading-link {
+		align-self: flex-start;
+	}
+
+	.pf-heading-excerpt {
+		mark {
+			--pf-mark: var(--color-accent-2);
+			font-weight: var(--font-weight-semibold);
+		}
+	}
+}
+
+.pf-keyboard-hints {
+	kbd {
+		color: var(--color-zinc-800);
+	}
+}

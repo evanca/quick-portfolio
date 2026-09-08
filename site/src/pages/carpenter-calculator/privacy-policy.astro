@@ -1,0 +1,20 @@
+---
+// Linked from the Carpenter Calculator app store listing; the URL must not change.
+import { getEntry, render } from "astro:content";
+import PageLayout from "@/layouts/Base.astro";
+
+const page = await getEntry("page", "carpenter-calculator-privacy-policy");
+if (!page) throw new Error("content/pages/carpenter-calculator-privacy-policy.md is missing");
+const { Content } = await render(page);
+
+const meta = {
+	description: page.data.description ?? "Privacy policy for the Carpenter Calculator app.",
+	title: page.data.title,
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="prose max-w-none">
+		<Content />
+	</div>
+</PageLayout>

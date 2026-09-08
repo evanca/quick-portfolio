@@ -1,0 +1,29 @@
+---
+import ProjectCard from "@/components/ProjectCard.astro";
+import { getAllProjects } from "@/data/project";
+import PageLayout from "@/layouts/Base.astro";
+
+const projects = await getAllProjects();
+
+const meta = {
+	description: "Software, hardware and 3D-printing projects by Thomas Barlow.",
+	title: "Projects",
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="title mb-4">Projects</h1>
+	<p class="text-muted mb-10">
+		Things I have built, from web platforms to 3D-printed hardware. Most have a write-up; some
+		link straight to the live site or the source.
+	</p>
+	<ul class="grid gap-4 sm:grid-cols-2" role="list">
+		{
+			projects.map((project) => (
+				<li>
+					<ProjectCard project={project} />
+				</li>
+			))
+		}
+	</ul>
+</PageLayout>

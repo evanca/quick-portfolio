@@ -1,0 +1,68 @@
+# =============================================================================
+# PR preview stack
+# =============================================================================
+# Deployed by `task deploy:pr -- <n>` (Build workflow, every PR) as stack
+# thomasjbarlow-pr-<n> with
+#   SITE_PR_ENV=pr-<n>   SITE_VERSION=<n>   DOMAIN=pr-<n>.thomasjbarlow.com
+#
+# A preview is just the site container. It has no edge of its own: the
+# production tunnel carries a wildcard *.thomasjbarlow.com hostname (which
+# needs a proxied `*` CNAME on the tunnel in the zone's DNS, see
+# docs/SETUP.md) pointing at the production edge Traefik, whose Swarm provider
+# publishes services labelled thomasjbarlow.edge=true over
+# thomasjbarlow-preview-network.
+#
+# ADMIN_ENABLED=false: the CMS is never served from a preview, so a preview
+# can neither sign in nor commit to the repository. Removed by the Cleanup
+# workflow when the PR closes.
+# =============================================================================
+
+services:
+  site:
+    image: registry.thomasjbarlow.com/thomasjbarlow-site:${SITE_VERSION:-latest}
+    environment:
+      - ADMIN_ENABLED=false
+      - SITE_VERSION=${SITE_VERSION:-latest}
+      - SITE_BUILD_DATE=${SITE_BUILD_DATE:-}
+      - SITE_PR_ENV=${SITE_PR_ENV:-}
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://localhost:8080/healthz"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    networks:
+      - thomasjbarlow-preview-network
+    deploy:
+      mode: replicated
+      replicas: 1
+      restart_policy:
+        condition: any
+        delay: 10s
+        window: 40s
+      update_config:
+        order: start-first
+        failure_action: rollback
+      resources:
+        limits:
+          memory: 64M
+      placement:
+        constraints:
+          - node.hostname == mediapc
+      labels:
+        # Published by the production edge Traefik's Swarm provider; see the
+        # header of this file and edge/traefik/traefik.yml.
+        - "traefik.enable=true"
+        - "thomasjbarlow.edge=true"
+        - "traefik.http.routers.site-${SITE_PR_ENV}.rule=Host(`${DOMAIN}`)"
+        - "traefik.http.routers.site-${SITE_PR_ENV}.entrypoints=web"
+        - "traefik.http.routers.site-${SITE_PR_ENV}.service=site-${SITE_PR_ENV}"
+        - "traefik.http.services.site-${SITE_PR_ENV}.loadbalancer.server.port=8080"
+        - "traefik.http.services.site-${SITE_PR_ENV}.loadbalancer.passhostheader=true"
+
+networks:
+  # Created by `task swarm:network`, which deploy:pr runs first; shared with
+  # the production edge Traefik only.
+  thomasjbarlow-preview-network:
+    name: thomasjbarlow-preview-network
+    external: true

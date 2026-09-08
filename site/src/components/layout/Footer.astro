@@ -1,0 +1,23 @@
+---
+import { menuLinks, siteConfig } from "@/site.config";
+
+const year = new Date().getFullYear();
+---
+
+<footer
+	class="text-muted mt-auto flex w-full flex-col items-center justify-center gap-y-2 pt-20 pb-6 text-center text-sm sm:flex-row sm:justify-between"
+>
+	<div class="me-0 sm:me-4">
+		&copy; {year} {siteConfig.author}. No ads, no tracking cookies.
+	</div>
+	<nav aria-label="Footer" class="flex gap-x-1">
+		{
+			menuLinks.map((link) => (
+				<a class="hover:text-global-text px-2 py-1 hover:underline" href={link.path}>
+					{link.title}
+				</a>
+			))
+		}
+		<a class="hover:text-global-text px-2 py-1 hover:underline" href="/rss.xml">RSS</a>
+	</nav>
+</footer>

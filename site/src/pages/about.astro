@@ -1,0 +1,25 @@
+---
+import { getEntry, render } from "astro:content";
+import SocialList from "@/components/SocialList.astro";
+import PageLayout from "@/layouts/Base.astro";
+
+const about = await getEntry("page", "about");
+if (!about) throw new Error("content/pages/about.md is missing");
+const { Content } = await render(about);
+
+const meta = {
+	description: about.data.description ?? "About Thomas Barlow",
+	title: about.data.title,
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="title mb-10">{about.data.title}</h1>
+	<div class="prose max-w-none">
+		<Content />
+	</div>
+	<section class="mt-12">
+		<h2 class="section-title mb-4">Elsewhere</h2>
+		<SocialList />
+	</section>
+</PageLayout>

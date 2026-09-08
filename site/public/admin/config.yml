@@ -1,0 +1,156 @@
+# Sveltia CMS configuration (Decap-compatible). Field names here must match
+# the zod schemas in src/content.config.ts.
+#
+# Sign-in: "Sign in with GitHub" goes through the OAuth proxy in this stack
+# (oauth/, served at https://thomasjbarlow.com/oauth/*). Saving commits
+# straight to `main`, which triggers .github/workflows/Deploy.yml.
+
+backend:
+  name: github
+  repo: barlowtj48/thomasjbarlow.com
+  branch: main
+  base_url: https://thomasjbarlow.com
+  auth_endpoint: oauth/auth
+  commit_messages:
+    create: "content: add {{collection}} “{{slug}}”"
+    update: "content: update {{collection}} “{{slug}}”"
+    delete: "content: delete {{collection}} “{{slug}}”"
+    uploadMedia: "content: upload {{path}}"
+    deleteMedia: "content: delete {{path}}"
+
+# Paths are relative to the repository root.
+media_folder: site/public/images/uploads
+public_folder: /images/uploads
+
+site_url: https://thomasjbarlow.com
+display_url: https://thomasjbarlow.com
+logo_url: https://thomasjbarlow.com/icon.svg
+
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: posts
+    label: Blog posts
+    label_singular: Blog post
+    folder: site/content/posts
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    preview_path: posts/{{slug}}/
+    sortable_fields: [publishDate, title]
+    summary: "{{title}} — {{publishDate | date('YYYY-MM-DD')}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: description, label: Description, widget: text, hint: One or two sentences; used for the post list, RSS and social previews. }
+      - { name: publishDate, label: Publish date, widget: datetime, format: YYYY-MM-DD, date_format: YYYY-MM-DD, time_format: false }
+      - { name: updatedDate, label: Updated date, widget: datetime, format: YYYY-MM-DD, date_format: YYYY-MM-DD, time_format: false, required: false }
+      - { name: tags, label: Tags, widget: list, required: false, default: [] }
+      - name: coverImage
+        label: Cover image
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { name: src, label: Image, widget: image, required: false }
+          - { name: alt, label: Alt text, widget: string, required: false }
+      - { name: draft, label: Draft, widget: boolean, default: false, hint: Drafts are hidden from production builds. }
+      - { name: pinned, label: Pinned, widget: boolean, default: false }
+      - { name: body, label: Body, widget: markdown }
+
+  - name: projects
+    label: Projects
+    label_singular: Project
+    folder: site/content/projects
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    preview_path: projects/{{slug}}/
+    sortable_fields: [order, date, title]
+    summary: "{{order}} · {{title}}"
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: description, label: Description, widget: text, hint: Shown on the project card and at the top of the page. }
+      - { name: date, label: Date, widget: datetime, format: YYYY-MM-DD, date_format: YYYY-MM-DD, time_format: false, hint: Only the year is displayed. }
+      - { name: order, label: Order, widget: number, value_type: int, default: 100, hint: Lower numbers sort first. }
+      - { name: featured, label: Featured on homepage, widget: boolean, default: false }
+      - { name: url, label: Live URL, widget: string, required: false }
+      - { name: repo, label: Source repository URL, widget: string, required: false }
+      - { name: tags, label: Tags, widget: list, required: false, default: [] }
+      - name: thumbnail
+        label: Thumbnail
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { name: src, label: Image, widget: image, required: false }
+          - { name: alt, label: Alt text, widget: string, required: false }
+      - { name: draft, label: Draft, widget: boolean, default: false }
+      - { name: body, label: Write-up, widget: markdown }
+
+  - name: work
+    label: Work experience
+    label_singular: Role
+    folder: site/content/work
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{company}}"
+    identifier_field: company
+    sortable_fields: [order, company]
+    summary: "{{order}} · {{company}} — {{role}}"
+    fields:
+      - { name: company, label: Company, widget: string }
+      - { name: role, label: Role, widget: string }
+      - { name: start, label: Start, widget: string, hint: Free text, e.g. 2023 or Jan 2023. }
+      - { name: end, label: End, widget: string, default: Present }
+      - { name: order, label: Order, widget: number, value_type: int, default: 100, hint: 1 is the most recent role. }
+      - { name: url, label: Company URL, widget: string, required: false }
+      - { name: summary, label: Summary, widget: text, hint: One sentence for the homepage timeline. }
+      - { name: skills, label: Skills, widget: list, required: false, default: [] }
+      - { name: body, label: Details, widget: markdown }
+
+  - name: pages
+    label: Pages
+    files:
+      - name: home
+        label: Home
+        file: site/content/pages/home.md
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: greeting, label: Greeting, widget: string, hint: The big line at the top of the homepage. }
+          - { name: description, label: Meta description, widget: text, required: false }
+          - { name: body, label: Intro, widget: markdown }
+      - name: about
+        label: About
+        file: site/content/pages/about.md
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: description, label: Meta description, widget: text, required: false }
+          - { name: body, label: Body, widget: markdown }
+      - name: carpenter-calculator-privacy-policy
+        label: Carpenter Calculator privacy policy
+        file: site/content/pages/carpenter-calculator-privacy-policy.md
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: description, label: Meta description, widget: text, required: false }
+          - { name: updatedDate, label: Updated, widget: datetime, format: YYYY-MM-DD, date_format: YYYY-MM-DD, time_format: false, required: false }
+          - { name: body, label: Body, widget: markdown }
+
+  - name: tags
+    label: Tag descriptions
+    label_singular: Tag description
+    folder: site/content/tags
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    hint: Optional. The file name is the tag; the fields decorate the tag's page.
+    fields:
+      - { name: title, label: Display title, widget: string, required: false }
+      - { name: description, label: Description, widget: text, required: false }
+      - { name: body, label: Intro, widget: markdown, required: false }

@@ -1,0 +1,42 @@
+# Edge routing for the production hostnames. TLS ends at Cloudflare, so only
+# the plain "web" entrypoint exists. /oauth is routed before the site because
+# the OAuth proxy (Sveltia's GitHub sign-in) lives in its own container; the
+# static site, including /admin, is nginx.
+http:
+  routers:
+    www:
+      rule: Host(`www.thomasjbarlow.com`)
+      entryPoints: [web]
+      middlewares: [redirect-www]
+      service: noop@internal
+    oauth:
+      rule: Host(`thomasjbarlow.com`) && PathPrefix(`/oauth`)
+      entryPoints: [web]
+      priority: 20
+      service: oauth
+    site:
+      rule: Host(`thomasjbarlow.com`)
+      entryPoints: [web]
+      priority: 10
+      service: site
+  middlewares:
+    redirect-www:
+      redirectRegex:
+        regex: ^https?://www\.thomasjbarlow\.com/?(.*)
+        replacement: https://thomasjbarlow.com/${1}
+        permanent: true
+  services:
+    site:
+      loadBalancer:
+        passHostHeader: true
+        servers:
+          - url: http://site:8080
+        healthCheck:
+          path: /healthz
+          interval: 10s
+          timeout: 3s
+    oauth:
+      loadBalancer:
+        passHostHeader: true
+        servers:
+          - url: http://oauth:8081

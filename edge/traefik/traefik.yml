@@ -1,0 +1,37 @@
+entryPoints:
+  web:
+    # No host port is published. The tunnel's service URL is
+    # http://edge-traefik:8080, the Swarm VIP of this one-replica service, and
+    # the connector runs on the same node, so the hop is always node-local.
+    address: ":8080"
+    transport:
+      respondingTimeouts:
+        readTimeout: 60s
+        idleTimeout: 180s
+
+providers:
+  # Production hostnames: fixed routes in dynamic.yml.
+  file:
+    directory: /etc/traefik/dynamic
+    watch: true
+  # PR preview stacks (stack.pr.yml, pr-<n>.thomasjbarlow.com) are published
+  # from their service labels. The tunnel's wildcard hostname sends every
+  # *.thomasjbarlow.com request here; without this provider a preview is a 404.
+  #
+  # Only services labelled thomasjbarlow.edge=true are considered, so the
+  # traefik.* labels of the other stacks on this Swarm (meant for the shared
+  # proxy) are ignored. Servers are the task IPs on thomasjbarlow-preview-network,
+  # the one overlay the edge shares with the previews. Needs the read-only
+  # Docker socket mounted in stack.yml and a manager node (mediapc is one).
+  # Traefik 3.7+ is required: older releases speak a Docker API too old for
+  # the Docker 29 engines on this Swarm and never publish anything.
+  swarm:
+    endpoint: unix:///var/run/docker.sock
+    exposedByDefault: false
+    network: thomasjbarlow-preview-network
+    constraints: "Label(`thomasjbarlow.edge`, `true`)"
+    watch: true
+    refreshSeconds: 15
+
+log:
+  level: INFO

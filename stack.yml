@@ -1,0 +1,184 @@
+# =============================================================================
+# Production stack: thomasjbarlow.com
+# =============================================================================
+# Deployed by `task deploy:prod:tag -- <sha>` (Deploy workflow, every push to
+# main, which includes the commits the CMS makes) as stack `thomasjbarlow` with
+#   SITE_VERSION=<short sha>   DOMAIN=thomasjbarlow.com   SITE_PR_ENV=""
+#
+# Four services: the static site (nginx, also serving the Sveltia admin at
+# /admin), the GitHub OAuth proxy the admin signs in through, and the edge (one
+# Cloudflare connector plus one Traefik) that publishes both and the PR
+# previews. Everything is pinned to mediapc; there is no failover, an outage
+# of the house is an outage of the site.
+#
+# Secrets are versioned by SITE_VERSION so a deploy never mutates the secret a
+# running task reads; the Deploy workflow creates the new version and prunes
+# the old ones afterwards. Swarm configs are immutable, so the Traefik files
+# are named after a hash of their content (exported by the deploy task).
+# =============================================================================
+
+secrets:
+  oauth-secrets:
+    external: true
+    name: thomasjbarlow_oauth_secrets_v${SITE_VERSION}
+  cloudflare-tunnel-token:
+    external: true
+    name: thomasjbarlow_cloudflare_tunnel_token_v${SITE_VERSION}
+
+configs:
+  edge-traefik-static:
+    file: ./edge/traefik/traefik.yml
+    name: thomasjbarlow_edge_traefik_static_${TRAEFIK_STATIC_CONFIG_HASH:?run deploys via task deploy:prod:tag}
+  edge-traefik-dynamic:
+    file: ./edge/traefik/dynamic.yml
+    name: thomasjbarlow_edge_traefik_dynamic_${TRAEFIK_DYNAMIC_CONFIG_HASH:?run deploys via task deploy:prod:tag}
+
+services:
+  # The static site. ADMIN_ENABLED=true serves /admin (Sveltia CMS); the
+  # preview stacks set it to false so a preview can never commit to the repo.
+  # Health gates the start-first update: the old task keeps serving until the
+  # new one answers /healthz.
+  site:
+    image: registry.thomasjbarlow.com/thomasjbarlow-site:${SITE_VERSION:-latest}
+    environment:
+      - ADMIN_ENABLED=true
+      - SITE_VERSION=${SITE_VERSION:-latest}
+      - SITE_BUILD_DATE=${SITE_BUILD_DATE:-}
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://localhost:8080/healthz"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    networks:
+      - thomasjbarlow-network
+    deploy:
+      mode: replicated
+      replicas: 1
+      restart_policy:
+        condition: any
+        delay: 10s
+        window: 40s
+      update_config:
+        order: start-first
+        failure_action: rollback
+      resources:
+        limits:
+          memory: 64M
+      placement:
+        constraints:
+          - node.hostname == mediapc
+
+  # GitHub OAuth proxy for the CMS (Decap-compatible /oauth/auth and
+  # /oauth/callback). Reads GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET from the
+  # KEY=VALUE secret file. Needs external-network to reach github.com;
+  # thomasjbarlow-network is internal.
+  oauth:
+    image: registry.thomasjbarlow.com/thomasjbarlow-oauth:${SITE_VERSION:-latest}
+    environment:
+      - LISTEN=:8081
+      - PUBLIC_BASE_URL=https://${DOMAIN}
+      - ALLOWED_ORIGINS=https://${DOMAIN}
+      - OAUTH_SECRETS_FILE=/run/secrets/oauth_secrets
+    secrets:
+      - source: oauth-secrets
+        target: oauth_secrets
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://localhost:8081/oauth/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    networks:
+      - thomasjbarlow-network
+      - external-network
+    deploy:
+      mode: replicated
+      replicas: 1
+      restart_policy:
+        condition: any
+        delay: 10s
+        window: 40s
+      update_config:
+        order: start-first
+        failure_action: rollback
+      resources:
+        limits:
+          memory: 32M
+      placement:
+        constraints:
+          - node.hostname == mediapc
+
+  # ---------------------------------------------------------------------------
+  # Edge: one Cloudflare connector and one Traefik, both on mediapc. The
+  # tunnel's service URL is http://edge-traefik:8080; with a single Traefik
+  # task on the same node as the connector that VIP is always node-local.
+  # Traefik's file provider routes the production hostnames (edge/traefik/
+  # dynamic.yml) and its Swarm provider publishes the labelled preview stacks
+  # over thomasjbarlow-preview-network.
+  # ---------------------------------------------------------------------------
+  edge-traefik:
+    image: traefik:3.7.10@sha256:9c3b91d5fb7770853ca5c1124a23c34bf2d9b47ffaebeab2614cbaf410dcb2ac
+    command: ["--configFile=/etc/traefik/traefik.yml"]
+    configs:
+      - source: edge-traefik-static
+        target: /etc/traefik/traefik.yml
+      - source: edge-traefik-dynamic
+        target: /etc/traefik/dynamic/dynamic.yml
+    networks:
+      - thomasjbarlow-network
+      - thomasjbarlow-preview-network
+    volumes:
+      # Read-only socket for the Swarm provider (lists the labelled preview
+      # services). Read-only narrows accidents, not a compromise.
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: any
+        delay: 10s
+      resources:
+        limits:
+          memory: 128M
+      placement:
+        constraints:
+          - node.hostname == mediapc
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest@sha256:0aa26e284f05e6c77ae375b8c9c11d9eb6a448fb7bcd8d40f31cb6176189eb38
+    command:
+      ["tunnel", "--no-autoupdate", "run", "--token-file", "/run/secrets/cloudflare_tunnel_token"]
+    networks:
+      # thomasjbarlow-network is internal; the connector also needs
+      # external-network to reach Cloudflare's edge.
+      - thomasjbarlow-network
+      - external-network
+    secrets:
+      - source: cloudflare-tunnel-token
+        target: cloudflare_tunnel_token
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: any
+        delay: 10s
+      resources:
+        limits:
+          memory: 128M
+      placement:
+        constraints:
+          - node.hostname == mediapc
+
+networks:
+  # Dedicated overlays (internal, attachable, MTU 1200 for Tailscale), created
+  # by `task swarm:network` which every deploy runs first. See
+  # edge/swarm/ensure-network.sh for why.
+  thomasjbarlow-network:
+    name: thomasjbarlow-network
+    external: true
+  # Shared only between the edge Traefik and the preview stacks' site service.
+  thomasjbarlow-preview-network:
+    name: thomasjbarlow-preview-network
+    external: true
+  external-network:
+    name: external-network
+    external: true

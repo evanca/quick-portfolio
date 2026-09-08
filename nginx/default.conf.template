@@ -1,0 +1,101 @@
+# nginx config for the static Astro build. Rendered by the official image's
+# envsubst entrypoint; the only substituted variable is ${ADMIN_ENABLED}
+# (see /etc/nginx/templates and the NGINX_ENVSUBST_* variables in the
+# Dockerfile). Everything else that looks like $var is nginx syntax.
+
+# /admin is the Sveltia CMS. It is only served in production
+# (ADMIN_ENABLED=true); PR previews answer 404 so a preview can never commit
+# to the repository on someone's behalf. The map turns the env var into a
+# flag that the location block below can test.
+map "${ADMIN_ENABLED}" $admin_enabled {
+    default 0;
+    "true"  1;
+}
+
+server {
+    listen 8080;
+    server_name _;
+    root /usr/share/nginx/html;
+    index index.html;
+
+    # Every page is a directory with an index.html (Astro trailingSlash:
+    # "always"), so /about -> /about/ keeps canonical URLs consistent.
+    absolute_redirect off;
+    port_in_redirect off;
+
+    # Cloudflare terminates TLS; the tunnel hands us plain HTTP.
+    add_header X-Content-Type-Options nosniff always;
+    add_header Referrer-Policy strict-origin-when-cross-origin always;
+    add_header X-Frame-Options SAMEORIGIN always;
+
+    gzip on;
+    gzip_types text/plain text/css application/javascript application/json image/svg+xml application/xml application/rss+xml;
+    gzip_min_length 1024;
+
+    # Liveness for the Swarm healthcheck and the edge Traefik.
+    location = /healthz {
+        access_log off;
+        add_header Cache-Control no-store;
+        return 200 "ok\n";
+    }
+
+    # ---- Legacy URLs from the Jekyll site --------------------------------
+    # Recliner repair guides moved to barlowfabrication.com (the Etsy listings
+    # still link the old pages, so these must stay). The per-model mapping can
+    # be refined here once the product URLs on barlowfabrication.com are known.
+    location ~ ^/(dp03_122_220|kdpt007_115_1|maruni_xya5_2|ml38-025|mulin|smt10_120|smt10_133_41T|smt10_133)_couch_recliner_fix/?$ {
+        return 301 https://barlowfabrication.com/repair-guides;
+    }
+    location ~ ^/(jldq-18-133-226d020|limoss-451615|spring-srpt)/?$ {
+        return 301 https://barlowfabrication.com/repair-guides;
+    }
+    location ~ ^/pdf/(.+\.pdf)$ {
+        return 301 https://barlowfabrication.com/pdf/$1;
+    }
+    # Old flat pages -> new sections.
+    location = /work_experience { return 301 /work/; }
+    location = /flip_clock { return 301 /projects/smart-flip-clock/; }
+    location = /midi_motor_music { return 301 /projects/midi-motor-music/; }
+    location = /rapidfta { return 301 /projects/rapidfta/; }
+    location = /model_design { return 301 /projects/barlow-fabrication/; }
+    location = /youtube_channel { return 301 /projects/music-and-youtube/; }
+    location = /sample_page.1 { return 301 /projects/; }
+    # The privacy policy is linked from an app store listing; serve it with or
+    # without the trailing slash.
+    location = /carpenter-calculator/privacy-policy {
+        return 301 /carpenter-calculator/privacy-policy/;
+    }
+
+    # ---- CMS ---------------------------------------------------------------
+    location /admin {
+        if ($admin_enabled = 0) {
+            return 404;
+        }
+        add_header Cache-Control no-store;
+        add_header X-Robots-Tag "noindex, nofollow" always;
+        try_files $uri $uri/ /admin/index.html;
+    }
+
+    # ---- Static assets -----------------------------------------------------
+    # Astro fingerprints everything under /_astro, so it can be cached forever.
+    location /_astro/ {
+        add_header Cache-Control "public, max-age=31536000, immutable";
+        try_files $uri =404;
+    }
+    location /pagefind/ {
+        add_header Cache-Control "public, max-age=3600";
+        try_files $uri =404;
+    }
+    location ~* \.(png|jpe?g|gif|webp|avif|svg|ico|woff2?|ttf|mp4|webm)$ {
+        add_header Cache-Control "public, max-age=604800";
+        try_files $uri =404;
+    }
+
+    # ---- Pages -------------------------------------------------------------
+    location / {
+        add_header Cache-Control "public, max-age=300, must-revalidate";
+        try_files $uri $uri/index.html $uri/ =404;
+    }
+
+    error_page 404 /404.html;
+}

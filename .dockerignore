@@ -1,0 +1,14 @@
+.git
+.github
+docs
+secrets
+edge
+site/node_modules
+site/dist
+site/.astro
+README.md
+stack.yml
+stack.pr.yml
+docker-compose.local.yml
+Taskfile.yml
+site/public/admin/sveltia-cms.js

@@ -1,0 +1,63 @@
+---
+import { render } from "astro:content";
+import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
+import { getAllProjects } from "@/data/project";
+import PageLayout from "@/layouts/Base.astro";
+
+export const getStaticPaths = (async () => {
+	const projects = await getAllProjects();
+	return projects.map((project) => ({
+		params: { slug: project.id },
+		props: { project },
+	}));
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+const { title, description, thumbnail, url, repo, date, tags, draft } = project.data;
+---
+
+<PageLayout meta={{ description, title, ogImage: thumbnail?.src }}>
+	<article class="grow break-words" data-pagefind-body>
+		<header class="mb-10">
+			<p class="text-muted mb-2 text-sm">
+				<a class="hover:text-accent" href="/projects/">Projects</a> / {date.getFullYear()}
+			</p>
+			{draft && <span class="text-base text-red-500">(Draft)</span>}
+			<h1 class="title">{title}</h1>
+			<p class="text-muted mt-2">{description}</p>
+			<div class="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+				{
+					url && (
+						<a class="text-accent hover:underline" href={url} rel="noreferrer" target="_blank">
+							Visit the site &rarr;
+						</a>
+					)
+				}
+				{
+					repo && (
+						<a class="text-accent hover:underline" href={repo} rel="noreferrer" target="_blank">
+							Source on GitHub &rarr;
+						</a>
+					)
+				}
+			</div>
+			{
+				!!tags.length && (
+					<ul class="mt-4 flex flex-wrap gap-2" role="list">
+						{tags.map((tag) => (
+							<li class="bg-surface text-muted rounded-md px-2 py-0.5 text-xs font-medium">
+								#{tag}
+							</li>
+						))}
+					</ul>
+				)
+			}
+		</header>
+		<div class="prose prose-headings:font-semibold prose-headings:text-accent-2 max-w-none">
+			<Content />
+		</div>
+	</article>
+</PageLayout>

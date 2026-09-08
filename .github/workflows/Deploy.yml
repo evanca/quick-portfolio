@@ -1,0 +1,83 @@
+name: Deploy Production
+
+# Every push to main is a production deploy. That includes merged PRs and the
+# commits Sveltia CMS makes from /admin, which is how a content save reaches
+# the live site (about two minutes: image build, start-first swap).
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: deployment
+
+permissions:
+  contents: read
+
+jobs:
+  deploy_production:
+    name: Build Images and Deploy Production Stack
+    runs-on:
+      - self-hosted
+      - docker
+    env:
+      SITE_VERSION: ${{ github.sha }}
+    steps:
+      - name: Clean up
+        uses: AutoModality/action-clean@v1
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup Task
+        uses: arduino/setup-task@v2
+      - name: Setup Buildx
+        uses: docker/setup-buildx-action@v3
+      - name: Login to Docker Registry
+        uses: docker/login-action@v3
+        with:
+          registry: registry.thomasjbarlow.com
+          username: ${{ secrets.DOCKER_REGISTRY_USERNAME }}
+          password: ${{ secrets.DOCKER_REGISTRY_PASSWORD }}
+
+      - name: Compute Version
+        id: version
+        run: |
+          SHORT_SHA=${GITHUB_SHA::7}
+          echo "SITE_VERSION=$SHORT_SHA" >> "$GITHUB_ENV"
+          echo "version=$SHORT_SHA" >> "$GITHUB_OUTPUT"
+
+      - name: Build and Push Site Image
+        run: task build:site:tag -- ${{ env.SITE_VERSION }}
+
+      - name: Build and Push OAuth Image
+        run: task build:oauth:tag -- ${{ env.SITE_VERSION }}
+
+      - name: Create OAuth Secrets File
+        run: |
+          cat > ./secrets/oauth_secrets.env << EOF
+          GITHUB_CLIENT_ID=${{ secrets.OAUTH_GITHUB_CLIENT_ID }}
+          GITHUB_CLIENT_SECRET=${{ secrets.OAUTH_GITHUB_CLIENT_SECRET }}
+          EOF
+
+      - name: Create Docker Secrets
+        env:
+          CLOUDFLARE_TUNNEL_TOKEN: ${{ secrets.CLOUDFLARE_TUNNEL_TOKEN }}
+        run: |
+          VERSION=${{ env.SITE_VERSION }}
+          # A re-run of the same sha recreates them; nothing references the
+          # new version yet, so removal succeeds.
+          docker secret rm thomasjbarlow_oauth_secrets_v${VERSION} || true
+          docker secret rm thomasjbarlow_cloudflare_tunnel_token_v${VERSION} || true
+          docker secret create thomasjbarlow_oauth_secrets_v${VERSION} ./secrets/oauth_secrets.env
+          printf '%s' "$CLOUDFLARE_TUNNEL_TOKEN" | docker secret create thomasjbarlow_cloudflare_tunnel_token_v${VERSION} -
+
+      - name: Deploy Production Stack
+        run: task deploy:prod:tag -- ${{ env.SITE_VERSION }}
+
+      - name: Prune Superseded Docker Secrets
+        run: task prune:secrets -- ${{ env.SITE_VERSION }}
+
+      - name: Clean up Secrets
+        if: always()
+        run: rm -f ./secrets/oauth_secrets.env

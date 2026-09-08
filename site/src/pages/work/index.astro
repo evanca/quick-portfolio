@@ -1,0 +1,56 @@
+---
+import { render } from "astro:content";
+import { getWorkHistory } from "@/data/project";
+import PageLayout from "@/layouts/Base.astro";
+
+const entries = await getWorkHistory();
+const rendered = await Promise.all(
+	entries.map(async (entry) => ({ entry, Content: (await render(entry)).Content })),
+);
+
+const meta = {
+	description: "Where Thomas Barlow has worked and what he built there.",
+	title: "Work",
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="title mb-10">Work Experience</h1>
+	<ol class="border-muted/30 ms-2 border-s ps-6" role="list">
+		{
+			rendered.map(({ entry, Content }) => (
+				<li class="relative pb-12" id={entry.id}>
+					<span
+						aria-hidden="true"
+						class="bg-accent border-global-bg absolute top-2 -start-[calc(1.5rem+5px)] h-2.5 w-2.5 rounded-full border-2"
+					/>
+					<p class="text-muted text-sm font-medium">
+						{entry.data.start} &ndash; {entry.data.end}
+					</p>
+					<h2 class="text-accent-2 font-display text-2xl font-semibold">
+						{entry.data.url ? (
+							<a class="hover:text-accent" href={entry.data.url} rel="noreferrer" target="_blank">
+								{entry.data.company}
+							</a>
+						) : (
+							entry.data.company
+						)}
+					</h2>
+					<p class="text-muted mb-4">{entry.data.role}</p>
+					<div class="prose max-w-none">
+						<Content />
+					</div>
+					{!!entry.data.skills.length && (
+						<ul class="mt-4 flex flex-wrap gap-2" role="list">
+							{entry.data.skills.map((skill) => (
+								<li class="bg-surface text-muted rounded-md px-2 py-0.5 text-xs font-medium">
+									{skill}
+								</li>
+							))}
+						</ul>
+					)}
+				</li>
+			))
+		}
+	</ol>
+</PageLayout>

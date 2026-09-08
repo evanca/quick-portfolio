@@ -1,0 +1,98 @@
+---
+import { type CollectionEntry, getEntry, render } from "astro:content";
+import PostPreview from "@/components/blog/PostPreview.astro";
+import ProjectCard from "@/components/ProjectCard.astro";
+import SocialList from "@/components/SocialList.astro";
+import WorkTimeline from "@/components/WorkTimeline.astro";
+import { getAllPosts } from "@/data/post";
+import { getAllProjects, getWorkHistory } from "@/data/project";
+import PageLayout from "@/layouts/Base.astro";
+import { collectionDateSort } from "@/utils/date";
+
+const home = await getEntry("page", "home");
+if (!home) throw new Error("content/pages/home.md is missing");
+const { Content: Intro } = await render(home);
+
+const MAX_POSTS = 5;
+const latestPosts = (await getAllPosts()).sort(collectionDateSort).slice(0, MAX_POSTS);
+
+const MAX_PROJECTS = 6;
+const allProjects = await getAllProjects();
+const featured = allProjects.filter((p) => p.data.featured);
+const projects = (featured.length ? featured : allProjects).slice(0, MAX_PROJECTS);
+
+const work = await getWorkHistory();
+---
+
+<PageLayout meta={{ title: "Home" }}>
+	<section class="flex flex-col-reverse gap-8 sm:flex-row sm:items-start sm:justify-between">
+		<div class="max-w-xl">
+			<h1 class="title mb-4 text-4xl">{home.data.greeting ?? home.data.title}</h1>
+			<div class="prose max-w-none mb-6">
+				<Intro />
+			</div>
+			<SocialList />
+		</div>
+		<img
+			alt="Thomas Barlow"
+			class="h-28 w-28 shrink-0 rounded-full object-cover sm:h-36 sm:w-36"
+			height="144"
+			src="/images/headshot2022circle.png"
+			width="144"
+		/>
+	</section>
+
+	{
+		work.length > 0 && (
+			<section class="mt-16">
+				<div class="mb-6 flex items-baseline justify-between">
+					<h2 class="section-title">A Brief Timeline</h2>
+					<a class="text-accent text-sm hover:underline" href="/work/">
+						Full history &rarr;
+					</a>
+				</div>
+				<WorkTimeline entries={work} compact />
+			</section>
+		)
+	}
+
+	{
+		latestPosts.length > 0 && (
+			<section class="mt-16">
+				<div class="mb-6 flex items-baseline justify-between">
+					<h2 class="section-title">Latest Posts</h2>
+					<a class="text-accent text-sm hover:underline" href="/posts/">
+						All posts &rarr;
+					</a>
+				</div>
+				<ul class="space-y-4" role="list">
+					{latestPosts.map((p: CollectionEntry<"post">) => (
+						<li class="grid gap-1 sm:grid-cols-[auto_1fr]">
+							<PostPreview post={p} />
+						</li>
+					))}
+				</ul>
+			</section>
+		)
+	}
+
+	{
+		projects.length > 0 && (
+			<section class="mt-16">
+				<div class="mb-6 flex items-baseline justify-between">
+					<h2 class="section-title">Projects</h2>
+					<a class="text-accent text-sm hover:underline" href="/projects/">
+						All projects &rarr;
+					</a>
+				</div>
+				<ul class="grid gap-4 sm:grid-cols-2" role="list">
+					{projects.map((project) => (
+						<li>
+							<ProjectCard project={project} />
+						</li>
+					))}
+				</ul>
+			</section>
+		)
+	}
+</PageLayout>

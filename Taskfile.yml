@@ -1,0 +1,99 @@
+version: "3"
+
+# Task renders command bodies as Go templates, so anything that needs docker's
+# --format '{{...}}' lives in edge/swarm/*.sh instead of here.
+
+vars:
+  REGISTRY: registry.thomasjbarlow.com
+  SITE_IMAGE: registry.thomasjbarlow.com/thomasjbarlow-site
+  OAUTH_IMAGE: registry.thomasjbarlow.com/thomasjbarlow-oauth
+  PROD_STACK: thomasjbarlow
+  DOMAIN: thomasjbarlow.com
+
+tasks:
+  dev:
+    desc: Run the Astro dev server (http://localhost:4321)
+    dir: site
+    cmds:
+      - npm run dev
+
+  check:
+    desc: Type-check and lint the site (what the Build workflow runs)
+    dir: site
+    cmds:
+      - npm ci
+      - npm run check
+
+  up:local:
+    desc: Build and run the production images locally (site :8080, oauth :8081)
+    cmds:
+      - docker compose -f docker-compose.local.yml build
+      - docker compose -f docker-compose.local.yml up
+
+  build:site:tag:
+    desc: Build the site image and push it as <tag> (task build:site:tag -- <tag>)
+    cmds:
+      - docker build -f ./Dockerfile -t {{.SITE_IMAGE}}:{{.CLI_ARGS}} .
+      - docker push {{.SITE_IMAGE}}:{{.CLI_ARGS}}
+
+  build:oauth:tag:
+    desc: Build the OAuth proxy image and push it as <tag> (task build:oauth:tag -- <tag>)
+    cmds:
+      - docker build -f ./oauth/Dockerfile -t {{.OAUTH_IMAGE}}:{{.CLI_ARGS}} .
+      - docker push {{.OAUTH_IMAGE}}:{{.CLI_ARGS}}
+
+  swarm:network:
+    desc: Create the stack's overlays (thomasjbarlow-network, thomasjbarlow-preview-network) if missing; verify them otherwise
+    cmds:
+      - NETWORK=thomasjbarlow-network sh ./edge/swarm/ensure-network.sh
+      - NETWORK=thomasjbarlow-preview-network sh ./edge/swarm/ensure-network.sh
+
+  deploy:prod:tag:
+    desc: Deploy the production stack from image tag <tag> (task deploy:prod:tag -- <sha>)
+    vars:
+      SITE_VERSION: '{{default "latest" .CLI_ARGS}}'
+    cmds:
+      - task: swarm:network
+      - |
+        export SITE_VERSION={{.SITE_VERSION}}
+        export SITE_PR_ENV=
+        export DOMAIN={{.DOMAIN}}
+        export SITE_BUILD_DATE=$(date -u +"%Y-%m-%d")
+        # Swarm configs are immutable, so name them after their content hash;
+        # editing a file publishes a new config instead of failing to mutate.
+        hash_of() { { sha256sum "$1" 2>/dev/null || shasum -a 256 "$1"; } | cut -c1-12; }
+        export TRAEFIK_STATIC_CONFIG_HASH=$(hash_of ./edge/traefik/traefik.yml)
+        export TRAEFIK_DYNAMIC_CONFIG_HASH=$(hash_of ./edge/traefik/dynamic.yml)
+        docker stack deploy --with-registry-auth -c stack.yml {{.PROD_STACK}}
+      - sh ./edge/swarm/wait-for-stack.sh {{.PROD_STACK}} 120
+      - sh ./edge/swarm/prune-configs.sh
+
+  deploy:pr:
+    desc: Deploy the preview stack for PR <n> and wait for it (task deploy:pr -- <n>)
+    vars:
+      PR_ID: "{{.CLI_ARGS}}"
+    cmds:
+      - task: swarm:network
+      - |
+        export SITE_PR_ENV=pr-{{.PR_ID}}
+        export SITE_VERSION={{.PR_ID}}
+        export DOMAIN=pr-{{.PR_ID}}.{{.DOMAIN}}
+        export SITE_BUILD_DATE=$(date -u +"%Y-%m-%d")
+        docker stack deploy --with-registry-auth -c stack.pr.yml {{.PROD_STACK}}-pr-{{.PR_ID}}
+      - sh ./edge/swarm/wait-for-stack.sh {{.PROD_STACK}}-pr-{{.PR_ID}} 90
+
+  remove:pr:
+    desc: Remove the preview stack for PR <n> (task remove:pr -- <n>)
+    cmds:
+      - sh ./edge/swarm/remove-stack.sh {{.PROD_STACK}}-pr-{{.CLI_ARGS}}
+
+  prune:secrets:
+    desc: Remove this stack's versioned secrets except version <v> (task prune:secrets -- <v>)
+    cmds:
+      - sh ./edge/swarm/prune-secrets.sh {{.CLI_ARGS}}
+
+  status:
+    desc: Show the production stack's services and the connector's recent log
+    cmds:
+      - docker stack services {{.PROD_STACK}}
+      - docker service logs --tail 20 {{.PROD_STACK}}_cloudflared

@@ -1,0 +1,38 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+	entries: CollectionEntry<"work">[];
+	/** Compact rows for the homepage; the full page renders the bodies itself. */
+	compact?: boolean;
+}
+
+const { entries, compact = false } = Astro.props;
+---
+
+<ol class="border-muted/30 ms-2 border-s ps-6" role="list">
+	{
+		entries.map((entry) => (
+			<li class:list={["relative", compact ? "pb-5" : "pb-8"]}>
+				<span
+					aria-hidden="true"
+					class="bg-accent border-global-bg absolute top-1.5 -start-[calc(1.5rem+5px)] h-2.5 w-2.5 rounded-full border-2"
+				/>
+				<p class="text-muted text-sm font-medium">
+					{entry.data.start} &ndash; {entry.data.end}
+				</p>
+				<h3 class="text-accent-2 font-display text-lg font-semibold">
+					{entry.data.url ? (
+						<a class="hover:text-accent" href={entry.data.url} rel="noreferrer" target="_blank">
+							{entry.data.company}
+						</a>
+					) : (
+						entry.data.company
+					)}
+					<span class="text-muted font-sans text-base font-normal"> &middot; {entry.data.role}</span>
+				</h3>
+				{!compact && <p class="mt-1 text-sm leading-relaxed">{entry.data.summary}</p>}
+			</li>
+		))
+	}
+</ol>

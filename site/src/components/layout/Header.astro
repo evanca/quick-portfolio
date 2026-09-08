@@ -1,0 +1,95 @@
+---
+import Search from "@/components/Search.astro";
+import ThemeToggle from "@/components/ThemeToggle.astro";
+import { menuLinks, siteConfig } from "@/site.config";
+
+const isCurrent = (path: string) => Astro.url.pathname.startsWith(path);
+---
+
+<header class="group relative mb-16 flex items-center sm:mb-20" id="main-header">
+	<a
+		aria-current={Astro.url.pathname === "/" ? "page" : false}
+		class="text-accent-2 font-display hover:text-accent text-xl font-semibold tracking-tight sm:text-2xl"
+		href="/"
+	>
+		{siteConfig.title}
+	</a>
+	<nav
+		aria-label="Main"
+		class="bg-global-bg absolute -inset-x-4 top-12 hidden flex-col divide-y px-2 py-4 group-[.menu-open]:z-50 group-[.menu-open]:flex sm:static sm:z-auto sm:ms-6 sm:flex sm:flex-row sm:divide-y-0 sm:bg-transparent sm:p-0"
+		id="navigation-menu"
+	>
+		{
+			menuLinks.map((link) => (
+				<a
+					aria-current={isCurrent(link.path) ? "page" : false}
+					class="text-muted hover:text-accent aria-[current=page]:text-accent-2 px-2 py-3 font-medium sm:px-3 sm:py-1"
+					href={link.path}
+				>
+					{link.title}
+				</a>
+			))
+		}
+	</nav>
+	<Search />
+	<ThemeToggle />
+	<mobile-button>
+		<button
+			aria-expanded="false"
+			aria-haspopup="menu"
+			class="group relative ms-4 h-7 w-7 sm:invisible sm:hidden"
+			id="toggle-navigation-menu"
+			type="button"
+		>
+			<span class="sr-only">Open main menu</span>
+			<svg
+				aria-hidden="true"
+				class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 transition-all group-aria-expanded:scale-0 group-aria-expanded:opacity-0"
+				fill="none"
+				focusable="false"
+				id="line-svg"
+				stroke="currentColor"
+				stroke-width="1.5"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path d="M3.75 9h16.5m-16.5 6.75h16.5" stroke-linecap="round" stroke-linejoin="round"
+				></path>
+			</svg>
+			<svg
+				aria-hidden="true"
+				class="text-accent absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 scale-0 opacity-0 transition-all group-aria-expanded:scale-100 group-aria-expanded:opacity-100"
+				fill="none"
+				focusable="false"
+				id="cross-svg"
+				stroke="currentColor"
+				stroke-width="1.5"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
+			</svg>
+		</button>
+	</mobile-button>
+</header>
+
+<script>
+	import { toggleClass } from "@/utils/domElement";
+
+	class MobileNavBtn extends HTMLElement {
+		#menuOpen: boolean = false;
+
+		connectedCallback() {
+			const headerEl = document.getElementById("main-header")!;
+			const mobileButtonEl = this.querySelector<HTMLButtonElement>("button");
+
+			mobileButtonEl?.addEventListener("click", () => {
+				if (headerEl) toggleClass(headerEl, "menu-open");
+				this.#menuOpen = !this.#menuOpen;
+				mobileButtonEl.setAttribute("aria-expanded", this.#menuOpen.toString());
+			});
+		}
+	}
+
+	customElements.define("mobile-button", MobileNavBtn);
+</script>

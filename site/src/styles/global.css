@@ -1,0 +1,178 @@
+@layer theme, base, pagefind, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* Self-hosted variable font for headings (no third-party font CDN). */
+@import "@fontsource-variable/outfit";
+
+/* tailwind to ignore satori generated og-image */
+@source not "../pages/og-image";
+/* config for tailwindcss-typography plugin */
+@config "../../tailwind.config.ts";
+
+/* use a selector-based strategy for dark mode */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* register custom colour properties so they can transition */
+@property --color-global-bg {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: oklch(99.2% 0.002 250);
+}
+@property --color-global-text {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: oklch(28% 0.02 260);
+}
+@property --color-muted {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: oklch(50% 0.025 260);
+}
+@property --color-link {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: oklch(52% 0.17 255);
+}
+@property --color-accent {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: oklch(52% 0.17 255);
+}
+@property --color-accent-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: oklch(18% 0.02 260);
+}
+@property --color-quote {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: oklch(52% 0.17 255);
+}
+@property --color-surface {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: oklch(96.5% 0.005 250);
+}
+
+/*
+ * Light palette. The accent is a blue; change --color-accent and --color-link
+ * here (and in the dark block below) to re-skin the whole site.
+ */
+@theme {
+	--font-sans:
+		-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji";
+	--font-display: "Outfit Variable", var(--font-sans);
+
+	--color-global-bg: oklch(99.2% 0.002 250);
+	--color-global-text: oklch(28% 0.02 260);
+	--color-muted: oklch(50% 0.025 260);
+	--color-link: oklch(52% 0.17 255);
+	--color-accent: oklch(52% 0.17 255);
+	--color-accent-2: oklch(18% 0.02 260);
+	--color-quote: oklch(52% 0.17 255);
+	--color-surface: oklch(96.5% 0.005 250);
+}
+
+@layer base {
+	html {
+		color-scheme: light dark;
+		accent-color: var(--color-accent);
+		scrollbar-gutter: stable;
+
+		&[data-theme="light"] {
+			color-scheme: light;
+		}
+
+		&[data-theme="dark"] {
+			color-scheme: dark;
+			--color-global-bg: oklch(20% 0.012 260);
+			--color-global-text: oklch(85% 0.01 260);
+			--color-muted: oklch(68% 0.02 260);
+			--color-link: oklch(76% 0.12 240);
+			--color-accent: oklch(76% 0.12 240);
+			--color-accent-2: oklch(96% 0 0);
+			--color-quote: oklch(80% 0.1 200);
+			--color-surface: oklch(25% 0.012 260);
+		}
+
+		--color-mode-transition-duration: 300ms;
+		--color-mode-transition-easing: ease-in-out;
+
+		transition:
+			--color-global-bg var(--color-mode-transition-duration) var(--color-mode-transition-easing),
+			--color-global-text var(--color-mode-transition-duration) var(--color-mode-transition-easing),
+			--color-muted var(--color-mode-transition-duration) var(--color-mode-transition-easing),
+			--color-link var(--color-mode-transition-duration) var(--color-mode-transition-easing),
+			--color-accent var(--color-mode-transition-duration) var(--color-mode-transition-easing),
+			--color-accent-2 var(--color-mode-transition-duration) var(--color-mode-transition-easing),
+			--color-quote var(--color-mode-transition-duration) var(--color-mode-transition-easing),
+			--color-surface var(--color-mode-transition-duration) var(--color-mode-transition-easing);
+	}
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		font-family: var(--font-display);
+		letter-spacing: -0.01em;
+	}
+
+	:target {
+		scroll-margin-block: 5ex;
+	}
+
+	@view-transition {
+		navigation: auto;
+	}
+
+	:where([data-astro-image]) {
+		object-fit: var(--fit);
+		object-position: var(--pos);
+	}
+	[data-astro-image="full-width"] {
+		width: 100%;
+	}
+	[data-astro-image="constrained"] {
+		max-width: 100%;
+	}
+}
+
+@layer components {
+	@import "./components/admonition.css";
+	@import "./components/github-card.css";
+
+	.cactus-link {
+		@apply hover:decoration-link underline underline-offset-2 hover:decoration-2;
+	}
+
+	.title {
+		@apply text-accent-2 font-display text-3xl font-semibold;
+	}
+
+	.section-title {
+		@apply text-accent-2 font-display text-xl font-semibold;
+	}
+
+	.card {
+		@apply bg-surface rounded-lg border border-transparent p-4 transition-colors;
+	}
+	.card:hover {
+		@apply border-accent/40;
+	}
+}
+
+@utility prose {
+	--tw-prose-body: var(--color-global-text);
+	--tw-prose-bold: var(--color-global-text);
+	--tw-prose-bullets: var(--color-global-text);
+	--tw-prose-code: var(--color-global-text);
+	--tw-prose-headings: var(--color-accent-2);
+	--tw-prose-hr: 0.5px dashed #666;
+	--tw-prose-links: var(--color-link);
+	--tw-prose-quotes: var(--color-quote);
+	--tw-prose-th-borders: #666;
+}

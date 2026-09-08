@@ -1,0 +1,78 @@
+---
+import { siteConfig } from "@/site.config";
+import type { SiteMeta } from "@/types";
+import "@/styles/global.css";
+
+type Props = SiteMeta;
+
+const { articleDate, description, ogImage, title } = Astro.props;
+
+const titleSeparator = "|";
+const siteTitle = `${title} ${titleSeparator} ${siteConfig.title}`;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url).href;
+---
+
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<title>{siteTitle}</title>
+
+{/* Icons */}
+<link href="/icon.svg" rel="icon" type="image/svg+xml" />
+{
+	import.meta.env.PROD && (
+		<>
+			<link rel="icon" href="/favicon-32x32.png" type="image/png" />
+			<link href="/icons/apple-touch-icon.png" rel="apple-touch-icon" />
+			<link href="/manifest.webmanifest" rel="manifest" />
+		</>
+	)
+}
+
+<link href={canonicalURL} rel="canonical" />
+
+<meta content={siteTitle} name="title" />
+<meta content={description} name="description" />
+<meta content={siteConfig.author} name="author" />
+
+<meta content={articleDate ? "article" : "website"} property="og:type" />
+<meta content={title} property="og:title" />
+<meta content={description} property="og:description" />
+<meta content={canonicalURL} property="og:url" />
+<meta content={siteConfig.title} property="og:site_name" />
+<meta content={siteConfig.ogLocale} property="og:locale" />
+<meta content={socialImageURL} property="og:image" />
+<meta content="1200" property="og:image:width" />
+<meta content="630" property="og:image:height" />
+{
+	articleDate && (
+		<>
+			<meta content={siteConfig.author} property="article:author" />
+			<meta content={articleDate} property="article:published_time" />
+		</>
+	)
+}
+
+<meta content="summary_large_image" property="twitter:card" />
+<meta content={canonicalURL} property="twitter:url" />
+<meta content={title} property="twitter:title" />
+<meta content={description} property="twitter:description" />
+<meta content={socialImageURL} property="twitter:image" />
+
+<link href="/sitemap-index.xml" rel="sitemap" />
+<link href="/rss.xml" title="Blog" rel="alternate" type="application/rss+xml" />
+
+{
+	/* Cloudflare Web Analytics: cookieless, only loaded in production builds
+	   when a token is configured in src/site.config.ts. */
+	import.meta.env.PROD && siteConfig.cloudflareAnalyticsToken && (
+		<script
+			defer
+			src="https://static.cloudflareinsights.com/beacon.min.js"
+			data-cf-beacon={JSON.stringify({ token: siteConfig.cloudflareAnalyticsToken })}
+			is:inline
+		/>
+	)
+}
+
+<meta content={Astro.generator} name="generator" />

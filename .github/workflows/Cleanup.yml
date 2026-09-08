@@ -1,0 +1,32 @@
+name: Remove PR Preview
+
+# Tear down the preview stack when a PR closes, merged or not. The preview
+# image tag (the PR number) stays in the registry; it is small.
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+
+concurrency:
+  group: pr-build-${{ github.event.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  remove_pr_preview:
+    name: Remove PR Preview Stack
+    runs-on:
+      - self-hosted
+      - docker
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup Task
+        uses: arduino/setup-task@v2
+      - name: Remove PR Stack
+        run: task remove:pr -- ${{ github.event.number }}

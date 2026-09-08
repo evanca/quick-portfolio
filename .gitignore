@@ -1,0 +1,12 @@
+# Runtime secrets written by the workflows / local runs; never committed.
+secrets/*.env
+
+# Astro site
+site/node_modules/
+site/dist/
+site/.astro/
+
+.DS_Store
+
+# Copied from node_modules/@sveltia/cms at build time (site/scripts/copy-admin.mjs)
+site/public/admin/sveltia-cms.js

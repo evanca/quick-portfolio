@@ -1,0 +1,21 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "That page does not exist.",
+	title: "Page not found",
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="title mb-6">404: page not found</h1>
+	<p class="mb-8">
+		That link is broken or the page moved. Try the <a class="cactus-link" href="/">homepage</a>,
+		<a class="cactus-link" href="/posts/">blog</a> or
+		<a class="cactus-link" href="/projects/">projects</a>.
+	</p>
+	<p class="text-muted text-sm">
+		Looking for an electric recliner repair guide? Those now live at
+		<a class="cactus-link" href="https://barlowfabrication.com/repair-guides">barlowfabrication.com</a>.
+	</p>
+</PageLayout>

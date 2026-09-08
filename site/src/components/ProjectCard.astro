@@ -1,0 +1,58 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { Icon } from "astro-icon/components";
+
+interface Props {
+	project: CollectionEntry<"project">;
+}
+
+const { project } = Astro.props;
+const { title, description, thumbnail, url, repo, date, draft } = project.data;
+const href = `/projects/${project.id}/`;
+---
+
+<article class="card flex h-full flex-col gap-3">
+	<a class="flex items-start gap-4" href={href}>
+		{
+			thumbnail ? (
+				<img
+					alt={thumbnail.alt}
+					class="bg-global-bg h-14 w-14 shrink-0 rounded-md object-contain"
+					height="56"
+					loading="lazy"
+					src={thumbnail.src}
+					width="56"
+				/>
+			) : (
+				<span class="bg-accent/10 text-accent flex h-14 w-14 shrink-0 items-center justify-center rounded-md">
+					<Icon aria-hidden="true" class="h-7 w-7" focusable="false" name="mdi:cube-outline" />
+				</span>
+			)
+		}
+		<div class="min-w-0">
+			<h3 class="text-accent-2 font-display text-lg font-semibold">
+				{draft && <span class="text-red-500">(Draft) </span>}
+				{title}
+			</h3>
+			<p class="text-muted text-sm">{date.getFullYear()}</p>
+		</div>
+	</a>
+	<p class="text-sm leading-relaxed">{description}</p>
+	<div class="mt-auto flex flex-wrap gap-x-4 gap-y-1 pt-1 text-sm">
+		<a class="text-accent hover:underline" href={href}>Read more</a>
+		{
+			url && (
+				<a class="text-muted hover:text-accent" href={url} rel="noreferrer" target="_blank">
+					Visit
+				</a>
+			)
+		}
+		{
+			repo && (
+				<a class="text-muted hover:text-accent" href={repo} rel="noreferrer" target="_blank">
+					Source
+				</a>
+			)
+		}
+	</div>
+</article>
