@@ -1,6 +1,7 @@
-// `gallery` drives the in-project image carousel (js/gallery.js). Slide files
-// are produced by the build script documented in css/styles.css; the order here
-// is the order they cycle in, so slide 1 is what a project shows on selection.
+// Single source of truth for the project index and the full-screen project view
+// (js/works.js and js/case.js). `gallery[0]` is the large image at the top of a project;
+// the rest fill the sideways gallery. Files live in Assets/projects/<id>/ (thumb.webp is the
+// 640x400 preview used by the index).
 export const PROJECTS = [
   {
     id: 'condeixa', title: 'Condeixa XR', year: '2025',

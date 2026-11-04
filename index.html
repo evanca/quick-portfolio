@@ -3,228 +3,212 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pedro Coelho, Full-Stack Engineer</title>
-<meta name="description" content="Portfolio of Pedro Coelho, a full-stack software engineer in Portugal who builds web products end to end, the interface, the services and the data underneath, shipped for real clients.">
+<title>Pedro Coelho, Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Pedro Coelho, a full-stack developer from Portugal. Web products, AR and VR experiences, 360º tours and games, built end to end.">
+<meta name="theme-color" content="#ECE9E1">
 <link rel="canonical" href="https://pedroc55.github.io/">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="Pedro Coelho, Full-Stack Engineer">
-<meta property="og:description" content="Full-stack web products built end to end for real clients, AR web apps, 360º tours, React and Spring Boot systems.">
+<meta property="og:title" content="Pedro Coelho, Full-Stack Developer">
+<meta property="og:description" content="Web products, AR and VR experiences, 360º tours and games, built end to end.">
 <meta property="og:url" content="https://pedroc55.github.io/">
 <meta property="og:image" content="https://pedroc55.github.io/Assets/og-image.webp">
 <meta property="og:image:width" content="633">
 <meta property="og:image:height" content="368">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Pedro Coelho, Full-Stack Engineer">
-<meta name="twitter:description" content="Full-stack web products built end to end for real clients, AR web apps, 360º tours, React and Spring Boot systems.">
+<meta name="twitter:title" content="Pedro Coelho, Full-Stack Developer">
+<meta name="twitter:description" content="Web products, AR and VR experiences, 360º tours and games, built end to end.">
 <meta name="twitter:image" content="https://pedroc55.github.io/Assets/og-image.webp">
 
-<link rel="icon" type="image/svg+xml" href="Assets/favicon.svg">
+<link rel="icon" href="Assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="Assets/apple-touch-icon.png">
-
 <link rel="preload" href="fonts/archivo-variable-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="css/styles.css">
+
+<script>
+  /* Runs before first paint: flags JS, and shows the click-to-enter loader
+     only on the first visit of a session and only with motion allowed. */
+  (function (d) {
+    var h = d.documentElement;
+    h.classList.add('js');
+    try {
+      var calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (!calm && !sessionStorage.getItem('pc-entered')) h.classList.add('has-loader');
+    } catch (e) {}
+  })(document);
+</script>
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/main.css">
+<script type="module" src="js/main.js"></script>
 </head>
 <body>
-<a class="skip-link" href="#main-content">Skip to main content</a>
-<div class="page">
-  <canvas data-field="1" class="field-canvas" aria-hidden="true"></canvas>
-  <div data-fallback="1" class="field-fallback" aria-hidden="true"></div>
-  <div class="grain" aria-hidden="true"></div>
+<a class="skip" href="#work">Skip to projects</a>
 
-  <nav data-nav="1" class="nav">
-    <a href="#about" data-nav-name="1" aria-label="Pedro Coelho, go to About" class="nav__name">
-      <span data-letter="0" class="nav__letter">P</span><span data-letter="1" class="nav__letter">E</span><span data-letter="2" class="nav__letter">D</span><span data-letter="3" class="nav__letter">R</span><span data-letter="4" class="nav__letter">O</span><span class="nav__space"></span><span data-letter="5" class="nav__letter">C</span><span data-letter="6" class="nav__letter">O</span><span data-letter="7" class="nav__letter">E</span><span data-letter="8" class="nav__letter">L</span><span data-letter="9" class="nav__letter">H</span><span data-letter="10" class="nav__letter">O</span>
-      <span data-name-fill="1" aria-hidden="true" class="nav__fill">
-        <span data-letter="0" class="nav__letter">P</span><span data-letter="1" class="nav__letter">E</span><span data-letter="2" class="nav__letter">D</span><span data-letter="3" class="nav__letter">R</span><span data-letter="4" class="nav__letter">O</span><span class="nav__space"></span><span data-letter="5" class="nav__letter">C</span><span data-letter="6" class="nav__letter">O</span><span data-letter="7" class="nav__letter">E</span><span data-letter="8" class="nav__letter">L</span><span data-letter="9" class="nav__letter">H</span><span data-letter="10" class="nav__letter">O</span>
-      </span>
-    </a>
-    <div data-nav-links="1" class="nav__links">
-      <a href="#about" data-link="about" class="nav__link">About</a>
-      <a href="#work" data-link="work" class="nav__link">Work</a>
-      <a href="#skills" data-link="skills" class="nav__link">Skills</a>
-      <a href="#contact" data-link="contact" class="nav__link">Contact</a>
-    </div>
-  </nav>
+<!-- Click-to-enter loader -->
+<div class="loader" id="loader">
+  <p class="loader__top mono"><span>Pedro Coelho</span><span>Portfolio 2026</span></p>
+  <button class="loader__enter" id="enter" type="button" data-magnetic disabled><span id="enter-label">Wait</span></button>
+  <p class="loader__count" aria-hidden="true"><span id="count">000</span><small>%</small></p>
+  <p class="loader__hint mono" id="hint" aria-live="polite">Loading</p>
+</div>
 
-  <header id="top" data-tone="field" class="hero">
-    <div>
-      <div class="hero__tags">
-        <span>Full-stack development</span>
-        <span>Porto, Portugal</span>
-      </div>
-      <div data-hero-ghost="1" aria-hidden="true" class="hero__ghost">PEDRO COELHO</div>
-    </div>
-    <p data-thesis="1" class="hero__thesis">I ship products <span data-kw="1" tabindex="0" class="kw"><span class="kw__text">end to end</span><span data-kwbar="1" aria-hidden="true" class="kw__bar"></span></span>. Interface, backend, data. <span data-kw="1" tabindex="0" class="kw"><span class="kw__text">No handoffs, no excuses</span><span data-kwbar="1" aria-hidden="true" class="kw__bar"></span></span>.</p>
+<div class="cursor" id="cursor" aria-hidden="true">
+  <div class="cursor__ring"><span class="cursor__label"></span></div>
+  <div class="cursor__dot"></div>
+</div>
+<div class="peek" id="peek" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"></div>
+
+<div id="page">
+  <header class="bar" id="bar" data-theme="light">
+    <a class="bar__logo" href="#top" data-cursor="link"><span class="bar__long">Pedro Coelho</span><span class="bar__short" aria-hidden="true">PC</span></a>
+    <p class="bar__clock mono"><span class="bar__pulse" aria-hidden="true"></span><time id="clock">--:--</time> Portugal</p>
+    <nav class="bar__nav" aria-label="Main">
+      <a href="#work" data-cursor="link">Work</a>
+      <a href="#about" data-cursor="link">About</a>
+      <a href="#contact" data-cursor="link">Contact</a>
+    </nav>
   </header>
 
-  <main id="main-content">
-    <section id="about" data-tone="recessed" class="about">
-      <div class="about__inner">
-        <div data-reveal="1" data-reveal-group="1" class="about__col">
-          <p>I build software end to end, from the database schema to the last pixel, and I care about both ends equally. Based in Porto, Portugal.</p>
-          <p>Recent work: a multi-tenant e-learning platform where I designed the REST API and the React frontend that sits on top of it, a logistics tool in React and Spring Boot with full test coverage, an AR web app that turns a phone camera into a guide to a town's historic facades, VR training for factory floor operators, 360° tours for a Douro wine estate and a residential development. The stack changes, the way I work does not: understand the constraint, pick the tool that fits it, ship something people can actually use.</p>
-          <p>My master's in Digital Game Development at the University of Aveiro is where I learned real-time rendering, spatial interaction and how to finish under a deadline that does not move. I spend that training on products.</p>
-          <p>What keeps my attention is the decision trail: why this stack, which tradeoff, what breaks first. I like problems where the interface has to survive the physical world, a phone held up to a stone facade in full sunlight, a headset on someone who has never worn one.</p>
+  <nav class="rail" aria-label="Sections">
+    <ol>
+      <li><a href="#top" data-ch="top"><i></i><span>Intro</span></a></li>
+      <li><a href="#work" data-ch="work"><i></i><span>Work</span></a></li>
+      <li><a href="#about" data-ch="about"><i></i><span>About</span></a></li>
+      <li><a href="#contact" data-ch="contact"><i></i><span>Contact</span></a></li>
+    </ol>
+  </nav>
+
+  <main id="top">
+    <!-- Intro -->
+    <section class="hero" data-theme="light" data-chapter="top" aria-labelledby="name">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <p class="hero__meta mono" data-hero><span>Portfolio (2026)</span><span>Full-stack / XR / Games</span></p>
+
+      <h1 class="hero__name" id="name">
+        <span class="line" data-split data-hero>Pedro</span>
+        <span class="line" data-split data-hero>Coelho</span>
+      </h1>
+
+      <figure class="hero__photo" data-parallax="0.1" data-hero>
+        <div class="hero__frame" data-cursor="label" data-cursor-label="Hi">
+          <img src="Assets/pedro-portrait.webp" width="640" height="800" alt="Portrait of Pedro Coelho" fetchpriority="high">
         </div>
-        <figure data-reveal="1" class="about__photo">
-          <img src="Assets/pedro-portrait.webp" alt="Pedro Coelho" width="640" height="800" loading="lazy" decoding="async">
-        </figure>
+      </figure>
+
+      <div class="hero__foot">
+        <p class="hero__roll" data-hero>
+          <span class="sr">I make web apps, AR experiences, 360º tours, VR games and REST APIs.</span>
+          <span aria-hidden="true">I make</span>
+          <span class="roller" aria-hidden="true"><span class="roller__list" id="roller"><span>web apps</span><span>AR experiences</span><span>360º tours</span><span>VR games</span><span>REST APIs</span></span></span>
+        </p>
+        <p class="hero__intro" data-hero>Full-stack developer from Portugal. I build web products end to end, from the interface to the services and the data underneath, and immersive work in XR and games.</p>
+        <a class="hero__cue mono" href="#work" data-hero data-magnetic data-cursor="link"><span>Scroll</span><i aria-hidden="true">↓</i></a>
       </div>
     </section>
 
-    <section id="work" data-tone="elevated" class="work">
-      <div data-reveal="1" class="work__top">
-        <div data-featured="1" class="work__featured">
-          <div class="work__info">
-            <div class="work__heading">
-              <h2 data-f-title="1" class="work__title">Condeixa XR</h2>
-              <span data-f-year="1" class="work__year">2025</span>
-            </div>
-            <p data-f-blurb="1" class="work__blurb">A geolocated augmented-reality PWA for the Município de Condeixa-a-Nova: a map of points of interest, an AR mode with image tracking over real facades, an embedded 360º tour, and every piece of content editable by the town's own staff.</p>
-            <div class="work__specs">
-              <div>
-                <div class="work__spec-label">The problem</div>
-                <p data-f-problem="1" class="work__spec-text">Visitors arrive on foot with one hand free and no appetite for installing an app. The heritage story lives on plaques nobody reads, and the municipality had no way to update it without a developer.</p>
-              </div>
-              <div>
-                <div class="work__spec-label">Decisions I made</div>
-                <p data-f-decisions="1" class="work__spec-text">A PWA instead of native, so a QR code on site is the whole install step. Image tracking against the buildings themselves rather than GPS-anchored overlays, because GPS drifts by metres and a facade doesn't. MapLibre over a proprietary SDK for styling control and no per-view billing. Sanity as the CMS, so POIs and 360º scenes ship without a deploy.</p>
-              </div>
-            </div>
-            <div data-f-tags="1" class="work__tags">
-              <span class="work__tag">MindAR.js</span>
-              <span class="work__tag">MapLibre</span>
-              <span class="work__tag">Sanity CMS</span>
-              <span class="work__tag">PWA</span>
-            </div>
-          </div>
-          <figure data-f-gallery="1" class="work__media">
-            <div data-f-media="1" class="work__media-box" role="group" aria-label="Project images">
-              <img src="Assets/projects/condeixa/01.webp" alt="A black-and-white historical photograph of the square blended into the live 360º view of the street as it looks today." class="work__slide" style="opacity:1" decoding="async">
-              <button type="button" data-prev="1" class="work__nav work__nav--prev" aria-label="Previous image">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M15 4 7 12l8 8"/></svg>
-              </button>
-              <button type="button" data-next="1" class="work__nav work__nav--next" aria-label="Next image">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M9 4l8 8-8 8"/></svg>
-              </button>
-            </div>
-            <div class="work__media-footer">
-              <figcaption data-f-medialabel="1" class="work__media-caption">360º tour, heritage overlay on the square</figcaption>
-              <div data-f-dots="1" class="work__dots"></div>
-            </div>
-          </figure>
-        </div>
+    <!-- Skills ticker -->
+    <section class="marq" data-theme="accent" aria-label="Technologies">
+      <div class="marq__tilt">
+        <div class="marq__line" data-marquee="-1"><span>React.js</span><span>TypeScript</span><span>Node.js</span><span>Java</span><span>Python</span><span>Unity</span><span>C#</span><span>WordPress</span><span>Sanity CMS</span><span>SQL</span><span>MongoDB</span><span>Flutter</span></div>
+        <div class="marq__line marq__line--out" data-marquee="1"><span>MindAR.js</span><span>MapLibre</span><span>3DVista</span><span>Meta Quest SDK</span><span>OpenXR</span><span>Blender</span><span>Figma</span><span>PyTorch</span><span>Godot</span><span>Git</span></div>
       </div>
+    </section>
 
-      <div data-reveal="1" class="work__rail-wrap">
-        <div data-rail="1" class="work__rail">
-          <div data-track="1" class="work__track">
-            <button type="button" data-card="condeixa" class="card" aria-label="Show Condeixa XR, 2025"><span class="card__thumb"><img src="Assets/projects/condeixa/thumb.webp" alt="" width="640" height="400" loading="lazy" decoding="async"></span><span class="card__meta"><span class="card__title">Condeixa XR</span><span class="card__year">2025</span></span></button>
-            <button type="button" data-card="pacheca" class="card" aria-label="Show Quinta da Pacheca, 2025"><span class="card__thumb"><img src="Assets/projects/pacheca/thumb.webp" alt="" width="640" height="400" loading="lazy" decoding="async"></span><span class="card__meta"><span class="card__title">Quinta da Pacheca</span><span class="card__year">2025</span></span></button>
-            <button type="button" data-card="nb" class="card" aria-label="Show Grupo NB Tour, 2025"><span class="card__thumb"><img src="Assets/projects/nb/thumb.webp" alt="" width="640" height="400" loading="lazy" decoding="async"></span><span class="card__meta"><span class="card__title">Grupo NB Tour</span><span class="card__year">2025</span></span></button>
-            <button type="button" data-card="spy" class="card" aria-label="Show Spy Room, 2024"><span class="card__thumb"><img src="Assets/projects/spy/thumb.webp" alt="" width="640" height="400" loading="lazy" decoding="async"></span><span class="card__meta"><span class="card__title">Spy Room</span><span class="card__year">2024</span></span></button>
-            <button type="button" data-card="bake" class="card" aria-label="Show Bake 'Em Up!, 2024"><span class="card__thumb"><img src="Assets/projects/bake/thumb.webp" alt="" width="640" height="400" loading="lazy" decoding="async"></span><span class="card__meta"><span class="card__title">Bake 'Em Up!</span><span class="card__year">2024</span></span></button>
-            <button type="button" data-card="creative-learning" class="card" aria-label="Show Creative Learning, 2026"><span class="card__thumb"><img src="Assets/projects/creative-learning/thumb.webp" alt="" width="640" height="400" loading="lazy" decoding="async"></span><span class="card__meta"><span class="card__title">Creative Learning</span><span class="card__year">2026</span></span></button>
-            <button type="button" data-card="condeixa" class="card" aria-hidden="true" tabindex="-1"><span class="card__thumb"><img src="Assets/projects/condeixa/thumb.webp" alt="" width="640" height="400" loading="lazy" decoding="async"></span><span class="card__meta"><span class="card__title">Condeixa XR</span><span class="card__year">2025</span></span></button>
-            <button type="button" data-card="pacheca" class="card" aria-hidden="true" tabindex="-1"><span class="card__thumb"><img src="Assets/projects/pacheca/thumb.webp" alt="" width="640" height="400" loading="lazy" decoding="async"></span><span class="card__meta"><span class="card__title">Quinta da Pacheca</span><span class="card__year">2025</span></span></button>
-            <button type="button" data-card="nb" class="card" aria-hidden="true" tabindex="-1"><span class="card__thumb"><img src="Assets/projects/nb/thumb.webp" alt="" width="640" height="400" loading="lazy" decoding="async"></span><span class="card__meta"><span class="card__title">Grupo NB Tour</span><span class="card__year">2025</span></span></button>
-            <button type="button" data-card="spy" class="card" aria-hidden="true" tabindex="-1"><span class="card__thumb"><img src="Assets/projects/spy/thumb.webp" alt="" width="640" height="400" loading="lazy" decoding="async"></span><span class="card__meta"><span class="card__title">Spy Room</span><span class="card__year">2024</span></span></button>
-            <button type="button" data-card="bake" class="card" aria-hidden="true" tabindex="-1"><span class="card__thumb"><img src="Assets/projects/bake/thumb.webp" alt="" width="640" height="400" loading="lazy" decoding="async"></span><span class="card__meta"><span class="card__title">Bake 'Em Up!</span><span class="card__year">2024</span></span></button>
-            <button type="button" data-card="creative-learning" class="card" aria-hidden="true" tabindex="-1"><span class="card__thumb"><img src="Assets/projects/creative-learning/thumb.webp" alt="" width="640" height="400" loading="lazy" decoding="async"></span><span class="card__meta"><span class="card__title">Creative Learning</span><span class="card__year">2026</span></span></button>
+    <!-- Work -->
+    <section class="work" id="work" data-theme="light" data-chapter="work" aria-labelledby="work-h">
+      <header class="sec-head">
+        <p class="mono">(01) Index</p>
+        <h2 id="work-h" data-split data-reveal>Selected work</h2>
+        <p class="mono sec-head__count"><span id="work-count">06</span> projects</p>
+      </header>
+      <div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
+      <ol class="list" id="list"></ol>
+      <noscript><p class="mono" style="padding:var(--pad)">The project index needs JavaScript. You can find my work on <a href="https://github.com/PedroC55">GitHub</a>.</p></noscript>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about" data-theme="light" data-chapter="about" aria-labelledby="about-h">
+      <header class="sec-head sec-head--solo">
+        <p class="mono">(02) About</p>
+        <h2 id="about-h" class="sr">About</h2>
+      </header>
+
+      <p class="about__lead" data-scrub>I like the part of software where an idea has to survive contact with real people. A visitor on foot with one hand free. A headset with no frame budget. A company that must never see another company's data.</p>
+
+      <div class="about__grid">
+        <div class="about__col" data-reveal>
+          <h3 class="mono">In numbers</h3>
+          <dl class="stats">
+            <div><dt>Projects shown</dt><dd><span data-count="6">0</span></dd></div>
+            <div><dt>Fields</dt><dd><span data-count="3">0</span><small>Web, XR, Games</small></dd></div>
+            <div><dt>Degrees</dt><dd><span data-count="2">0</span><small>BSc, MSc</small></dd></div>
+          </dl>
+        </div>
+
+        <div class="about__col" data-reveal>
+          <h3 class="mono">Path</h3>
+          <ol class="path">
+            <li><span class="mono">Dec 2025 to Sep 2026</span><strong>VR/XR Developer Intern</strong><em>Hubduction, Águeda</em></li>
+            <li><span class="mono">University of Aveiro</span><strong>MSc Digital Game Development</strong></li>
+            <li><span class="mono">University of Aveiro</span><strong>BSc Computer Engineering</strong></li>
+          </ol>
+        </div>
+
+        <div class="about__col about__col--wide" data-reveal>
+          <h3 class="mono">Toolbox</h3>
+          <div class="skills">
+            <div><h4>Frontend</h4><ul><li>HTML</li><li>CSS</li><li>React.js</li><li>TypeScript</li><li>WordPress</li><li>Sanity CMS</li></ul></div>
+            <div><h4>Backend</h4><ul><li>Java</li><li>Python</li><li>JavaScript</li><li>C#</li><li>Node.js</li><li>SQL</li><li>MongoDB</li><li>Cassandra</li><li>Neo4j</li></ul></div>
+            <div><h4>Immersive and games</h4><ul><li>Unity</li><li>3DVista</li><li>Meta Quest SDK</li><li>OpenXR</li><li>Blender</li><li>Godot</li><li>Unreal</li></ul></div>
+            <div><h4>Data and ML</h4><ul><li>Python</li><li>Pandas</li><li>NumPy</li><li>scikit-learn</li><li>PyTorch</li><li>LLM integration</li></ul></div>
+            <div><h4>Mobile and design</h4><ul><li>Android</li><li>Flutter</li><li>Figma</li><li>Photoshop</li></ul></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="skills" data-tone="recessed" class="skills">
-      <div data-reveal="1" data-reveal-group="1" class="skills__inner">
-        <div data-acc-row="1">
-          <button type="button" data-acc-btn="1" aria-expanded="true" class="acc-btn"><span>Frontend</span><span data-acc-sign="1" aria-hidden="true" class="acc-sign">−</span></button>
-          <div data-acc-panel="1" class="acc-panel" style="max-height:1000px">
-            <div data-acc-inner="1" class="acc-inner" style="opacity:1;transform:none">
-              <p>Client-facing products that shipped and got handed over to non-technical owners.</p>
-              <div class="mono-list">React.js · TypeScript · JavaScript · HTML · CSS · Vite · WordPress · Sanity CMS</div>
-            </div>
-          </div>
-        </div>
-        <div data-acc-row="1">
-          <button type="button" data-acc-btn="1" aria-expanded="false" class="acc-btn"><span>Machine learning &amp; data</span><span data-acc-sign="1" aria-hidden="true" class="acc-sign">+</span></button>
-          <div data-acc-panel="1" class="acc-panel">
-            <div data-acc-inner="1" class="acc-inner">
-              <p>Working through classical ML fundamentals, the direction I'm taking this work next.</p>
-              <div class="mono-list">Python · pandas · NumPy · scikit-learn · PyTorch · Jupyter Notebook · LLM integration</div>
-            </div>
-          </div>
-        </div>
-        <div data-acc-row="1">
-          <button type="button" data-acc-btn="1" aria-expanded="false" class="acc-btn"><span>Backend &amp; APIs</span><span data-acc-sign="1" aria-hidden="true" class="acc-sign">+</span></button>
-          <div data-acc-panel="1" class="acc-panel">
-            <div data-acc-inner="1" class="acc-inner">
-              <p>Services behind real products, including a Spring Boot system with full test coverage across API and UI.</p>
-              <div class="mono-list">Node.js · Java · Spring Boot · Python · C#</div>
-            </div>
-          </div>
-        </div>
-        <div data-acc-row="1">
-          <button type="button" data-acc-btn="1" aria-expanded="false" class="acc-btn"><span>Databases</span><span data-acc-sign="1" aria-hidden="true" class="acc-sign">+</span></button>
-          <div data-acc-panel="1" class="acc-panel">
-            <div data-acc-inner="1" class="acc-inner">
-              <p>Relational, document and graph models for connected data.</p>
-              <div class="mono-list">SQL · MongoDB · Neo4j · Apache Cassandra</div>
-            </div>
-          </div>
-        </div>
-        <div data-acc-row="1">
-          <button type="button" data-acc-btn="1" aria-expanded="false" class="acc-btn"><span>Immersive &amp; realtime</span><span data-acc-sign="1" aria-hidden="true" class="acc-sign">+</span></button>
-          <div data-acc-panel="1" class="acc-panel">
-            <div data-acc-inner="1" class="acc-inner">
-              <p>AR that tracks real facades on mid-range phones, mixed reality on standalone headsets, 360º tours with VR playback.</p>
-              <div class="mono-list">Unity · Meta Quest SDK · OpenXR · MindAR.js · MapLibre · 3DVista</div>
-            </div>
-          </div>
-        </div>
-        <div data-acc-row="1">
-          <button type="button" data-acc-btn="1" aria-expanded="false" class="acc-btn"><span>Mobile</span><span data-acc-sign="1" aria-hidden="true" class="acc-sign">+</span></button>
-          <div data-acc-panel="1" class="acc-panel">
-            <div data-acc-inner="1" class="acc-inner">
-              <p>Native and cross-platform application development.</p>
-              <div class="mono-list">Android Native · Flutter · Dart</div>
-            </div>
-          </div>
-        </div>
-        <div data-acc-row="1">
-          <button type="button" data-acc-btn="1" aria-expanded="false" class="acc-btn"><span>Tooling &amp; delivery</span><span data-acc-sign="1" aria-hidden="true" class="acc-sign">+</span></button>
-          <div data-acc-panel="1" class="acc-panel">
-            <div data-acc-inner="1" class="acc-inner">
-              <p>Reproducible deploys, reviewable history, and design files a client can actually sign off on.</p>
-              <div class="mono-list">Git · GitHub · Vercel · Bash · Figma · LaTeX</div>
-            </div>
-          </div>
-        </div>
-        <div data-acc-row="1">
-          <button type="button" data-acc-btn="1" aria-expanded="false" class="acc-btn acc-btn--minor"><span>Also worked with</span><span data-acc-sign="1" aria-hidden="true" class="acc-sign">+</span></button>
-          <div data-acc-panel="1" class="acc-panel">
-            <div data-acc-inner="1" class="acc-inner acc-inner--list">
-              <div class="mono-list">Godot · Unreal Engine · Blender · Pygame · Inform 7 · Assembly</div>
-            </div>
-          </div>
-        </div>
+    <!-- Contact -->
+    <section class="contact" id="contact" data-theme="dark" data-chapter="contact" aria-labelledby="contact-h">
+      <header class="sec-head sec-head--solo">
+        <p class="mono">(03) Contact</p>
+        <h2 id="contact-h" class="sr">Contact</h2>
+      </header>
+
+      <a class="cta" id="cta" href="mailto:pedro.coelho.web@gmail.com" data-cursor="label" data-cursor-label="Write">
+        <span class="cta__fill" aria-hidden="true"></span>
+        <span class="cta__text" data-split data-reveal>Let's build</span>
+        <span class="cta__text" data-split data-reveal>something</span>
+        <span class="cta__arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <div class="contact__row">
+        <button class="copy" id="copy" type="button" data-magnetic data-cursor="link"><span class="mono">Copy email</span><strong>pedro.coelho.web@gmail.com</strong></button>
+        <ul class="links">
+          <li><a href="https://github.com/PedroC55" target="_blank" rel="noopener" data-cursor="link" data-magnetic>GitHub <i aria-hidden="true">↗</i></a></li>
+          <li><a href="https://linkedin.com/in/pedrocoelho485" target="_blank" rel="noopener" data-cursor="link" data-magnetic>LinkedIn <i aria-hidden="true">↗</i></a></li>
+        </ul>
       </div>
     </section>
   </main>
 
-  <footer id="contact" data-tone="elevated" class="footer">
-    <p data-reveal="1" class="footer__cta">Hiring, or have something that needs building? <a href="mailto:pedro.coelho.web@gmail.com">Write to me</a></p>
-    <div data-reveal="1" data-reveal-group="1" class="footer__meta">
-      <a href="mailto:pedro.coelho.web@gmail.com">pedro.coelho.web@gmail.com</a>
-      <a href="https://github.com/PedroC55" target="_blank" rel="noopener noreferrer">github.com/PedroC55</a>
-      <a href="https://linkedin.com/in/pedrocoelho485" target="_blank" rel="noopener noreferrer">linkedin.com/in/pedrocoelho485</a>
-      <span class="footer__spacer"></span>
-      <span class="footer__loc">Porto, PT - open to remote</span>
-    </div>
+  <footer class="foot" data-theme="dark">
+    <p class="mono">© 2026 Pedro Coelho</p>
+    <p class="mono"><time id="clock2">--:--</time> in Portugal</p>
+    <a class="mono" href="#top" data-cursor="link">Back to top ↑</a>
   </footer>
 </div>
-<script type="module" src="js/main.js"></script>
+
+<!-- Project view -->
+<div class="case" id="case" role="dialog" aria-modal="true" aria-labelledby="case-title" inert>
+  <div class="case__scroll" id="case-scroll" tabindex="-1">
+    <div class="case__bar">
+      <button class="case__close" id="case-close" type="button" data-cursor="link"><span aria-hidden="true">←</span> Close</button>
+      <span class="case__count mono" id="case-count"></span>
+    </div>
+    <div class="case__inner" id="case-inner"></div>
+  </div>
+</div>
+
+<div class="toast mono" id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
