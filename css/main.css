@@ -18,7 +18,8 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scrollbar-gutter: stable; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scrollbar-width: none; }
+html::-webkit-scrollbar, .case__scroll::-webkit-scrollbar { display: none; }
 html.is-locked { overflow: hidden; }
 body {
   margin: 0;
@@ -273,7 +274,7 @@ html:not(.js) .sw, .no-motion .sw { opacity: 1; }
 .case { position: fixed; inset: 0; z-index: 120; background: var(--paper); visibility: hidden; clip-path: inset(100% 0 0 0);
   transition: clip-path .9s var(--ease-io), visibility 0s .9s; }
 .case.is-open { visibility: visible; clip-path: inset(0); transition: clip-path .9s var(--ease-io), visibility 0s; }
-.case__scroll { height: 100%; overflow: auto; overscroll-behavior: contain; outline: none; scrollbar-gutter: stable; }
+.case__scroll { height: 100%; overflow: auto; overscroll-behavior: contain; outline: none; scrollbar-width: none; }
 .case__bar { position: sticky; top: 0; z-index: 3; display: flex; justify-content: space-between; align-items: center; padding: 16px var(--pad); mix-blend-mode: difference; color: #fff; }
 .case__close { display: inline-flex; gap: .7rem; align-items: center; font-weight: 600; padding: .5rem 0; }
 .case__close span { transition: translate .4s var(--ease); display: inline-block; }
